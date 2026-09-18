@@ -1,0 +1,114 @@
+[
+  {
+    "alias_id": "9f111cdf49ff97160754a2a2",
+    "canonical_id": "b507cee60e055ff951d9bcf1",
+    "similarity": 0.986046511627907,
+    "alias_text": "2),\n4\nL x y z\nx\ny\nz\nx\ny\nz\n\n\n\n\n\n\n\n\n\n\n\n设\n1\n2\n2\n0\n4\n3 3\n2\n4\n0\n2\n,\n(\n).\n3\n4\n3 3\n3\n0\n2\n2 3\n2\n4\n3\n2\n0\n4\n3 3\nx\ny\nz\nx\nL\nx\nx\nx\nL\ny\ny\nL\nz\nL\nx\ny\nz\nz\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n解得\n唯一驻点由实际问题可知,最小值一定存在,\n1\n2\n2 3\n1\n.\n4\n3 3\n4\n3 3\n4\n3 3\n4\n3 3\n\n\n\n\n\n\n\n\n\n\n\n\n且在(\n,\n,\n)取得最小值,且最小值为",
+    "canonical_text": "2),\n4\nL x y z\nx\ny\nz\nx\ny\nz\n\n\n\n\n\n\n\n\n\n\n\n设\n1\n2\n2\n0\n4\n3 3\n2\n4\n0\n2\n,\n(\n).\n3\n4\n3 3\n3\n0\n2\n2 3\n2\n4\n3\n2\n0\n4\n3 3\nx\ny\nz\nx\nL\nx\nx\nx\nL\ny\ny\nL\nz\nL\nx\ny\nz\nz\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n解得\n唯一驻点由实际问题可知,最小值一定存在,\n1\n2\n2 3\n1\n.\n4\n3 3\n4\n3 3\n4\n3 3\n4\n3 3\n\n\n\n\n\n\n\n\n\n\n\n\n在点(\n,\n,\n)处取得最小值,且最小值为"
+  },
+  {
+    "alias_id": "947f0efd650795a60d066d86",
+    "canonical_id": "f451e88ba60cf262f789f292",
+    "similarity": 0.9870503597122302,
+    "alias_text": "18.(本题满分10分)\n设函数\n)\n(\nu\nf\n具有二阶连续导数,\n)\ncos\n(\ny\ne\nf\nz\nx\n=\n满足\nx\nx\ne\ny\ne\nz\ny\nz\nx\nz\n2\n2\n2\n2\n2\n4\n)\ncos\n(\n+\n=\n¶\n¶\n+\n¶\n¶\n.若\n0\n0\n0\n0\n=\n=\n)\n(\n'\n,\n)\n(\nf\nf\n,求\n)\n(\nu\nf\n的表达式.\n【详解】\n设\ny\ne\nu\nx\ncos\n=\n,则\n)\ncos\n(\n)\n(\ny\ne\nf\nu\nf\nz\nx\n=\n=\n,\ny\ne\nu\nf\ny\ne\nu\nf\nx\nz\ne\nu\nf\nx\nz\nx\nx\ny\nx\ncos\n)\n(\n'\ncos\n)\n(\n\"\n,\n)\n(\n'\ncos\n+\n=\n¶\n¶\n=\n¶\n¶\n2\n2\n2\n2\n;\ny\ne\nu\nf\ny\ne\nu\nf\ny\nz\ny\ne\nu\nf\ny\nz\nx\nx\nx\ncos\n)\n(\n'\nsin\n)\n(\n\"\n,\nsin\n)\n(\n'\n-\n=\n¶\n¶\n-\n=\n¶\n¶\n2\n2\n2\n2\n;\nx\nx\nx\ne\ny\ne\nf\ne\nu\nf\ny\nz\nx\nz\n2\n2\n2\n2\n2\n2\n)\ncos\n(\n\"\n)\n(\n\"\n=\n=\n¶\n¶\n+\n¶\n¶\n由条件\nx\nx\ne\ny\ne\nz\ny\nz\nx\nz\n2\n2\n2\n2\n2\n4\n)\ncos\n(\n+\n=\n¶\n¶\n+\n¶\n¶\n,\n可知\nu\nu\nf\nu\nf\n+\n=\n)\n(\n)\n(\n\"\n4\n这是一个二阶常用系数线性非齐次方程.\n对应齐次方程的通解为:\nu\nu\ne\nC\ne\nC\nu\nf\n2\n2\n2\n1\n-\n+\n=\n)\n(\n其中\n2\n1\nC\nC\n,\n为任意常数.\n对应非齐次方程特解可求得为\nu\ny\n4\n1\n-\n=\n*\n.\n故非齐次方程通解为\nu\ne\nC\ne\nC\nu\nf\nu\nu\n4\n1\n2\n2\n2\n1\n-\n+\n=\n-\n)\n(\n.\n将初始条件\n0\n0\n0\n0\n=\n=\n)\n(\n'\n,\n)\n(\nf\nf\n代入,可得\n16\n1\n16\n1\n2\n1\n-\n=\n=\nC\nC\n,\n.\n所以\n)\n(\nu\nf\n的表达式为\nu\ne\ne\nu\nf\nu\nu\n4\n1\n16\n1\n16\n1\n2\n2\n-\n-\n=\n-\n)\n(\n.",
+    "canonical_text": "18.(本题满分10 分)\n设函数\n)\n(u\nf\n具有二阶连续导数,\n)\ncos\n(\ny\ne\nf\nz\nx\n\n满足\nx\nx\ne\ny\ne\nz\ny\nz\nx\nz\n2\n2\n2\n2\n2\n4\n)\ncos\n(\n\n\n\n\n\n\n\n.若\n0\n0\n0\n0\n\n\n)\n('\n,\n)\n(\nf\nf\n,求\n)\n(u\nf\n的表达式.\n【详解】\n设\ny\ne\nu\nx cos\n\n,则\n)\ncos\n(\n)\n(\ny\ne\nf\nu\nf\nz\nx\n\n\n,\ny\ne\nu\nf\ny\ne\nu\nf\nx\nz\ne\nu\nf\nx\nz\nx\nx\ny\nx\ncos\n)\n('\ncos\n)\n(\n\"\n,\n)\n('\ncos\n\n\n\n\n\n\n\n2\n2\n2\n2\n;\ny\ne\nu\nf\ny\ne\nu\nf\ny\nz\ny\ne\nu\nf\ny\nz\nx\nx\nx\ncos\n)\n('\nsin\n)\n(\n\"\n,\nsin\n)\n('\n\n\n\n\n\n\n\n\n2\n2\n2\n2\n;\nx\nx\nx\ne\ny\ne\nf\ne\nu\nf\ny\nz\nx\nz\n2\n2\n2\n2\n2\n2\n)\ncos\n(\n\"\n)\n(\n\"\n\n\n\n\n\n\n\n由条件\nx\nx\ne\ny\ne\nz\ny\nz\nx\nz\n2\n2\n2\n2\n2\n4\n)\ncos\n(\n\n\n\n\n\n\n\n,\n可知\nu\nu\nf\nu\nf\n\n\n)\n(\n)\n(\n\"\n4\n这是一个二阶常用系数线性非齐次方程.\n对应齐次方程的通解为:\nu\nu\ne\nC\ne\nC\nu\nf\n2\n2\n2\n1\n\n\n\n)\n(\n其中\n2\n1 C\nC ,\n为任意常数.\n对应非齐次方程特解可求得为\nu\ny\n4\n1\n\n\n*\n.\n故非齐次方程通解为\nu\ne\nC\ne\nC\nu\nf\nu\nu\n4\n1\n2\n2\n2\n1\n\n\n\n\n)\n(\n.\nPage 7 of 14\n将初始条件\n0\n0\n0\n0\n\n\n)\n('\n,\n)\n(\nf\nf\n代入,可得\n16\n1\n16\n1\n2\n1\n\n\n\nC\nC\n,\n.\n所以\n)\n(u\nf\n的表达式为\nu\ne\ne\nu\nf\nu\nu\n4\n1\n16\n1\n16\n1\n2\n2\n\n\n\n\n)\n(\n."
+  },
+  {
+    "alias_id": "e48c03bdf44a89ddd5e5559f",
+    "canonical_id": "10f8041b77139e6ca0f1a3b2",
+    "similarity": 0.9876160990712074,
+    "alias_text": "(13)设\n2\n1\n,\nl\nl\n是矩阵A的两个不同的特征值,对应的特征向量分别为\n2\n1\n,\na\na\n,则\n1\na\n,\n)\n(\n2\n1\na\na\n+\nA\n线性无关的充分必要条件是\n(A)\n0\n1\n=\nl\n. (B)\n0\n2\n=\nl\n. (C)\n0\n1\n1\nl\n. (D)\n0\n2\n1\nl\n. [ D ]\n【分析】 讨论一组抽象向量的线性无关性,可用定义或转化为求其秩即可.\n【详解】 方法一:令\n0\n)\n(\n2\n1\n2\n1\n1\n=\n+\n+\na\na\na\nA\nk\nk\n,则\n0\n2\n2\n2\n1\n1\n2\n1\n1\n=\n+\n+\na\nl\na\nl\na\nk\nk\nk\n,\n0\n)\n(\n2\n2\n2\n1\n1\n2\n1\n=\n+\n+\na\nl\na\nl\nk\nk\nk\n.\n由于\n2\n1\n,\na\na\n线性无关,于是有\nî\ní\nì\n=\n=\n+\n.\n0\n,\n0\n2\n2\n1\n2\n1\nl\nl\nk\nk\nk\n当\n0\n2\n1\nl\n时,显然有\n0\n,\n0\n2\n1\n=\n=\nk\nk\n,此时\n1\na\n,\n)\n(\n2\n1\na\na\n+\nA\n线性无关;反过来,若\n1\na\n,\n)\n(\n2\n1\na\na\n+\nA\n线性无关,则必然有\n0\n2\n1\nl\n(,否则,\n1\na\n与\n)\n(\n2\n1\na\na\n+\nA\n=\n1\n1\na\nl\n线性相关),故应选(B).\n方法二: 由于\nú\nû\nù\nê\në\né\n=\n+\n=\n+\n2\n1\n2\n1\n2\n2\n1\n1\n1\n2\n1\n1\n0\n1\n]\n,\n[\n]\n,\n[\n)]\n(\n,\n[\nl\nl\na\na\na\nl\na\nl\na\na\na\na\nA\n,\n可见\n1\na\n,\n)\n(\n2\n1\na\na\n+\nA\n线性无关的充要条件是\n.\n0\n0\n1\n2\n2\n1\n1\n=\nl\nl\nl\n故应选(D).",
+    "canonical_text": "(11)设\n2\n1\n,\nl\nl\n是矩阵A的两个不同的特征值,对应的特征向量分别为\n2\n1\n,\na\na\n,则\n1\na\n,\n)\n(\n2\n1\na\na\n+\nA\n线性无关的充分必要条件是\n(A)\n0\n1\n1\nl\n. (B)\n0\n2\n1\nl\n. (C)\n0\n1\n=\nl\n. (D)\n0\n2\n=\nl\n. [ B ]\n【分析】 讨论一组抽象向量的线性无关性,可用定义或转化为求其秩即可.\n【详解】 方法一:令\n0\n)\n(\n2\n1\n2\n1\n1\n=\n+\n+\na\na\na\nA\nk\nk\n,则\n0\n2\n2\n2\n1\n1\n2\n1\n1\n=\n+\n+\na\nl\na\nl\na\nk\nk\nk\n,\n0\n)\n(\n2\n2\n2\n1\n1\n2\n1\n=\n+\n+\na\nl\na\nl\nk\nk\nk\n.\n由于\n2\n1\n,\na\na\n线性无关,于是有\nî\ní\nì\n=\n=\n+\n.\n0\n,\n0\n2\n2\n1\n2\n1\nl\nl\nk\nk\nk\n当\n0\n2\n1\nl\n时,显然有\n0\n,\n0\n2\n1\n=\n=\nk\nk\n,此时\n1\na\n,\n)\n(\n2\n1\na\na\n+\nA\n线性无关;反过来,若\n1\na\n,\n)\n(\n2\n1\na\na\n+\nA\n线性无关,则必然有\n0\n2\n1\nl\n(,否则,\n1\na\n与\n)\n(\n2\n1\na\na\n+\nA\n=\n1\n1\na\nl\n线性相关),故应选(B).\n方法二: 由于\nú\nû\nù\nê\në\né\n=\n+\n=\n+\n2\n1\n2\n1\n2\n2\n1\n1\n1\n2\n1\n1\n0\n1\n]\n,\n[\n]\n,\n[\n)]\n(\n,\n[\nl\nl\na\na\na\nl\na\nl\na\na\na\na\nA\n,\n可见\n1\na\n,\n)\n(\n2\n1\na\na\n+\nA\n线性无关的充要条件是\n.\n0\n0\n1\n2\n2\n1\n1\n=\nl\nl\nl\n故应选(B)."
+  },
+  {
+    "alias_id": "e25a1734940b7c50bc7aae11",
+    "canonical_id": "9f247f33a3f270ccbf48afd5",
+    "similarity": 0.9879518072289156,
+    "alias_text": "(20)(本题满分10 分)\n设二次型\n2\n2\n2\n1\n2\n1\n2\n1\n4\n4\n)\n,\n(\nx\nx\nx\nx\nx\nx\nf\n\n\n\n经正交变换\n\n\n\n\n\n\n\n\n\n\n\n\n\n2\n1\n2\n1\ny\ny\nQ\nx\nx\n化为二次型\n,\n4\n)\n,\n(\n2\n2\n2\n1\n2\n1\n2\n1\nby\ny\ny\nay\ny\ny\ng\n\n\n\n其中\n.b\na \n(I)\n的值;\n求\nb\na,\n(II)\n.\nQ\n求正交矩阵",
+    "canonical_text": "(20)(本题满分11 分)\n设二次型\n2\n2\n2\n1\n2\n1\n2\n1\n4\n4\n)\n,\n(\nx\nx\nx\nx\nx\nx\nf\n\n\n\n经正交变换\n\n\n\n\n\n\n\n\n\n\n\n\n\n2\n1\n2\n1\ny\ny\nQ\nx\nx\n化为二次型\n,\n4\n)\n,\n(\n2\n2\n2\n1\n2\n1\n2\n1\nby\ny\ny\nay\ny\ny\ng\n\n\n\n其中\n.b\na \n(I)\n的值;\n求\nb\na,\n(II)\n.\nQ\n求正交矩阵"
+  },
+  {
+    "alias_id": "d00491ac68a858d5dc6bca8a",
+    "canonical_id": "a11c61343686858ce536da99",
+    "similarity": 0.9883720930232558,
+    "alias_text": "20.(本题满分12 分)\n设函数\n\nf x 在区间\n\n,a b 内可导.证明导函数\n\nf\nx\n\n在\n\n,a b 内严格单调增加的充分必要条件是:对\n\n,a b 内\n任意的\n1\n2\n3\n,\n,\nx x\nx ,当\n1\n2\n3\nx\nx\nx\n\n\n时\n\n\n\n\n\n\n\n\n2\n1\n3\n2\n2\n1\n3\n2\n.\nf x\nf x\nf x\nf x\nx\nx\nx\nx\n\n\n\n\n",
+    "canonical_text": "19.(本题满分10 分)\n设函数\n\nf x 在区间\n\n,a b 内可导.证明导函数\n\nf\nx\n\n在\n\n,a b 内严格单调增加的充分必要条\n件是:对\n\n,a b 内任意的\n1\n2\n3\n,\n,\nx x\nx ,当\n1\n2\n3\nx\nx\nx\n\n\n时\n\n\n\n\n\n\n\n\n2\n1\n3\n2\n2\n1\n3\n2\n.\nf x\nf x\nf x\nf x\nx\nx\nx\nx\n\n\n\n\n"
+  },
+  {
+    "alias_id": "093e23a1ba7aa82a0f81aef3",
+    "canonical_id": "de73ba5a01499c255765dbf4",
+    "similarity": 0.9887640449438202,
+    "alias_text": "(2)这种损失事件在一年内发生的次数记为N ,保险公司在一年内就这种损失事件产生的理赔次数记为\nM ,假设N 服从参数为8 的泊松分布,在\n\n\n1\nN\nn n\n\n\n的条件下,M 服从二项分布\n( , )\nB n p ,其中\n{\n0}\np\nP Y\n\n\n,求M 的概率分布.",
+    "canonical_text": "(2)这种损失事件在一年内发生的次数记为N ,保险公司在一年内就这种损失事件产生的\n理赔次数记为M ,假设N 服从参数为8 的泊松分布,在N\nn\n\n\n1\n\nn\n的条件下,M 服从二\n项分布\n( , )\nB n p ,其中\n{\n0}\np\nP Y\n\n\n,求M 的概率分布."
+  },
+  {
+    "alias_id": "96aed35570b057011920b8fb",
+    "canonical_id": "f3be1c37b79e6d757a1f1fc9",
+    "similarity": 0.9889624724061811,
+    "alias_text": "21.(本题满分11 分)\n已知函数\n)\n,\n(\ny\nx\nf\n满足\n)\n(\n1\n2\n\n\n\n\ny\ny\nf\n,且\ny\ny\ny\ny\ny\nf\nln\n)\n(\n)\n(\n)\n,\n(\n\n\n\n\n2\n1 2\n,求曲线\n0\n\n)\n,\n(\ny\nx\nf\n所成的\n图形绕直线\n1\n\n\ny\n旋转所成的旋转体的体积.\n【详解】\n由于函数\n)\n,\n(\ny\nx\nf\n满足\n)\n(\n1\n2\n\n\n\n\ny\ny\nf\n,所以\n)\n(\n)\n,\n(\nx\nC\ny\ny\ny\nx\nf\n\n\n\n2\n2\n,其中\n)\n(x\nC\n为待定的连续函数.\n又因为\ny\ny\ny\ny\ny\nf\nln\n)\n(\n)\n(\n)\n,\n(\n\n\n\n\n2\n1 2\n,从而可知\ny\ny\ny\nC\nln\n)\n(\n)\n(\n\n\n\n2\n1\n,\n得到\nx\nx\ny\ny\nx\nC\ny\ny\ny\nx\nf\nln\n)\n(\n)\n(\n)\n,\n(\n\n\n\n\n\n\n\n\n2\n1\n2\n2\n2\n2\n.\n令\n0\n\n)\n,\n(\ny\nx\nf\n,可得\nx\nx\ny\nln\n)\n(\n)\n(\n\n\n\n2\n1 2\n.且当\n1\n\n\ny\n时,\n2\n1\n2\n1\n\n\nx\nx\n,\n.\n曲线\n0\n\n)\n,\n(\ny\nx\nf\n所成的图形绕直线\n1\n\n\ny\n旋转所成的旋转体的体积为\n\n\n\n)\nln\n(\nln\n)\n(\n)\n(\n4\n5\n2\n2\n2\n1\n2\n1\n2\n1\n2\n\n\n\n\n\n\n\n\ndx\nx\nx\ndx\ny\nV",
+    "canonical_text": "21.(本题满分11分)\n已知函数\n)\n,\n(\ny\nx\nf\n满足\n)\n(\n1\n2\n+\n=\n¶\n¶\ny\ny\nf\n,且\ny\ny\ny\ny\ny\nf\nln\n)\n(\n)\n(\n)\n,\n(\n-\n-\n+\n=\n2\n1\n2\n,求曲线\n0\n=\n)\n,\n(\ny\nx\nf\n所成的图形绕直线\n1\n-\n=\ny\n旋转所成的旋转体的体积.\n【详解】\n由于函数\n)\n,\n(\ny\nx\nf\n满足\n)\n(\n1\n2\n+\n=\n¶\n¶\ny\ny\nf\n,所以\n)\n(\n)\n,\n(\nx\nC\ny\ny\ny\nx\nf\n+\n+\n=\n2\n2\n,其中\n)\n(\nx\nC\n为待定的连续函数.\n又因为\ny\ny\ny\ny\ny\nf\nln\n)\n(\n)\n(\n)\n,\n(\n-\n-\n+\n=\n2\n1\n2\n,从而可知\ny\ny\ny\nC\nln\n)\n(\n)\n(\n-\n-\n=\n2\n1\n,\n得到\nx\nx\ny\ny\nx\nC\ny\ny\ny\nx\nf\nln\n)\n(\n)\n(\n)\n,\n(\n-\n-\n+\n+\n=\n+\n+\n=\n2\n1\n2\n2\n2\n2\n.\n令\n0\n=\n)\n,\n(\ny\nx\nf\n,可得\nx\nx\ny\nln\n)\n(\n)\n(\n-\n=\n+\n2\n1\n2\n.且当\n1\n-\n=\ny\n时,\n2\n1\n2\n1\n=\n=\nx\nx\n,\n.\n曲线\n0\n=\n)\n,\n(\ny\nx\nf\n所成的图形绕直线\n1\n-\n=\ny\n旋转所成的旋转体的体积为\np\np\np\n)\nln\n(\nln\n)\n(\n)\n(\n4\n5\n2\n2\n2\n1\n2\n1\n2\n1\n2\n-\n=\n-\n=\n+\n=\nò\nò\ndx\nx\nx\ndx\ny\nV"
+  },
+  {
+    "alias_id": "bbd45df5f6781378c7c162bd",
+    "canonical_id": "0c6fdaa681168f1eca9e75ed",
+    "similarity": 0.9906542056074766,
+    "alias_text": "4.曲线\n\n\n\n\n\n\n\n\n1\n4\n7\n2\n2\nt\nt\ny\nt\nx\n,\n上对应于\n1\n\nt\n的点处的曲率半径是(\n)\n(A)50\n10 (B)100\n10\n(C)\n10\n10\n(D)\n10\n5\n【详解】曲线在点\n))\n(\n,\n(\nx\nf\nx\n处的曲率公式\n3\n2\n1\n)\n'\n(\n\"\ny\ny\nK\n\n\n,曲率半径\nK\nR\n1\n\n.\n本题中\n4\n2\n2\n\n\n\nt\ndt\ndy\nt\ndt\ndx\n,\n,所以\nt\nt\nt\ndx\ndy\n2\n1\n2\n4\n2\n\n\n\n\n,\n3\n2\n2\n2\n1\n2\n2\nt\nt\nt\ndx\ny\nd\n\n\n\n\n,\n对应于\n1\n\nt\n的点处\n1\n3\n\n\n\n\"\n,\n'\ny\ny\n,所以\n10\n10\n1\n1\n3\n2\n\n\n\n)\n'\n(\n\"\ny\ny\nK\n,曲率半径\n10\n10\n1 \nK\nR\n.\n应该选(C)",
+    "canonical_text": "4.曲线\nî\ní\nì\n+\n+\n=\n+\n=\n1\n4\n7\n2\n2\nt\nt\ny\nt\nx\n,\n上对应于\n1\n=\nt\n的点处的曲率半径是( )\n(A)\n50\n10\n(B)\n100\n10\n(C)\n10\n10\n(D)\n10\n5\n【详解】 曲线在点\n))\n(\n,\n(\nx\nf\nx\n处的曲率公式\n3\n2\n1\n)\n'\n(\n\"\ny\ny\nK\n+\n=\n,曲率半径\nK\nR\n1\n=\n.\n本题中\n4\n2\n2\n+\n=\n=\nt\ndt\ndy\nt\ndt\ndx\n,\n,所以\nt\nt\nt\ndx\ndy\n2\n1\n2\n4\n2\n+\n=\n+\n=\n,\n3\n2\n2\n2\n1\n2\n2\nt\nt\nt\ndx\ny\nd\n-\n=\n-\n=\n,\n对应于\n1\n=\nt\n的点处\n1\n3\n-\n=\n=\n\"\n,\n'\ny\ny\n,所以\n10\n10\n1\n1\n3\n2\n=\n+\n=\n)\n'\n(\n\"\ny\ny\nK\n,曲率半径\n10\n10\n1\n=\n=\nK\nR\n.\n应该选(C)"
+  },
+  {
+    "alias_id": "07cba95df2db135df96cf65e",
+    "canonical_id": "83543478bb4c0cb9aaa2842f",
+    "similarity": 0.990909090909091,
+    "alias_text": "(23)(本题满分10 分)\n设某种元件的使用寿命T 的分布函数为\n\n\n\n\n\n\n\n.\n,0\n0\n,\n1\n)\n(\n)\n(\n其他\nt\ne\nt\nF\nm\nt\n\n其中\nm\n,\n\n为参数且大于零.\n(I)\n\n\n\n\n;0\n,0\n,\n\n\n\n\n\n\nt\ns\ns\nT\nt\ns\nT\nP\nt\nT\nP\n其中\n与\n求概率\n(II)任取n 个这种元件做寿命试验,测得它们的寿命分别为\n\n已知,求\n若m\nt\nt\nt\nn,\n,\n,\n, 2\n1\n\n的最大似\n然估计值ˆ .",
+    "canonical_text": "(23)(本题满分11 分)\n设某种元件的使用寿命T 的分布函数为\n\n\n\n\n\n\n\n.\n,0\n0\n,\n1\n)\n(\n)\n(\n其他\nt\ne\nt\nF\nm\nt\n\n其中\nm\n,\n\n为参数且大于零.\n(I)\n\n\n\n\n;0\n,0\n,\n\n\n\n\n\n\nt\ns\ns\nT\nt\ns\nT\nP\nt\nT\nP\n其中\n与\n求概率\n(II)任取n 个这种元件做寿命试验,测得它们的寿命分别为\n\n已知,求\n若m\nt\nt\nt\nn,\n,\n,\n, 2\n1\n\n的最大似\n然估计值ˆ ."
+  },
+  {
+    "alias_id": "3eecdb6b22a44b46c23b8c7c",
+    "canonical_id": "f8ec3057fae6804104193a1c",
+    "similarity": 0.9928057553956835,
+    "alias_text": "(10) 设随机变量\n(,)\nXY\n服从二维正态分布,且\nX\n与\nY\n不相关,\n(),()\nxy\nfxfy\n分别表示X, Y的概率密度,则在\nYy\n=\n条件下,\nX\n的条件概率密度\n()\nXYxy\nf\n为( )\n(A)\n()\nX\nfx\n(B)\n()\ny\nfy\n(C)\n()()\nxy\nfxfy\n(D)\n()\n()\nx\ny\nfx\nfy\n二、填空题:11-16小题,每小题4分,共24分,请将答案写在答题纸指定位置上\n(11)\n32\n3\n1\nlim(sincos)________\n2\nx\nx\nxx\nxx\nx\n®¥\n++\n+=\n+\n.",
+    "canonical_text": "(10) 设随机变量\n(,)\nXY\n服从二维正态分布,且\nX\n与\nY\n不相关,\n(),()\nxy\nfxfy\n分别表示X, Y的概率密度,则在\nYy\n=\n条件下,\nX\n的条件概率密度\n()\nXYxy\nf\n为 (A)\n(A)\n()\nX\nfx\n(B)\n()\ny\nfy\n(C)\n()()\nxy\nfxfy\n(D)\n()\n()\nx\ny\nfx\nfy\n二、填空题:11-16小题,每小题4分,共24分,请将答案写在答题纸指定位置上\n(11)\n32\n3\n1\nlim(sincos)___0_________\n2\nx\nx\nxx\nxx\nx\n®¥\n++\n+=\n+\n."
+  },
+  {
+    "alias_id": "6dcc724894aa93e3db9d574a",
+    "canonical_id": "9cd8f491b4e23d6a11f9e9a7",
+    "similarity": 0.9942196531791907,
+    "alias_text": "(17)(本题满分11 分)\n如图,曲线C 的方程为\n( )\ny\nf x\n=\n,点(3,2) 是它的一个拐点,直线1l 与2l 分别是曲线C\n在点(0,0) )与(3,2) 处的切线,其交点为(2,4) . 设函数\n( )\nf x 具有三阶连续导数,计算定积\n分∫\n′′′\n+\n3\n0\n2\n.\n)\n(\n)\n(\ndx\nx\nf\nx\nx",
+    "canonical_text": "(17)(本题满分11分)\n如图,曲线C\n的方程为()\nyfx\n=\n,点(3,2)\n是它的一个拐点,直线1\nl\n与2\nl\n分别是曲线C\n在点(0,0)\n与(3,2)\n处的切线,其交点为(2,4)\n.设函数()\nfx\n具有三阶连续导数,计算定积分ò\n¢\n¢\n¢\n+\n3\n0\n2\n.\n)\n(\n)\n(\ndx\nx\nf\nx\nx"
+  },
+  {
+    "alias_id": "8250fe4a2c850e32c131cac7",
+    "canonical_id": "e3e8d5b901a91918f39ef264",
+    "similarity": 0.994413407821229,
+    "alias_text": "(21)(本题满分11 分)\n设( )\ny x 是区间\n3\n(0, )\n2\n内的可导函数,且(1)\n0\ny\n\n,点P 是曲线\n:\n( )\nL y\ny x\n\n上的任意一点,L 在点P 处的切线\n与y 轴相交于点(0,\n)\nP\nY\n,法线与x 轴相交于点(\n,0)\nP\nX\n,若\np\nP\nX\nY\n\n,求L 上点的坐标( , )\nx y 满足的方程。",
+    "canonical_text": "(21)(本题满分11 分)设( )\ny x 是区间\n3\n0, 2\n\n\n\n\n\n\n内的可导函数,且(1)\n0\ny\n\n,点P 是曲线L:\n( )\ny\ny x\n\n上任意一点,\nL 在点P 处的切线与y 轴相交于点\n\n0,\np\nY\n,法线与x 轴相交于点\n\n,0\np\nX\n,若\np\np\nX\nY\n\n,求L 上点的坐标\n\n,x y 满足\n的方程。"
+  },
+  {
+    "alias_id": "c9d2f43cd99483630c990f37",
+    "canonical_id": "b6c7f84d12d8e6811a228906",
+    "similarity": 0.9955947136563876,
+    "alias_text": "(7)设向量组线性\n无关,则下列向量组线相关的是( )\n(A)\n12\naa\n-\nEMBED Equation.DSMT4 2131\n,,\naaaa\n--\n(B)\n21\naa\n-\nEMBED Equation.DSMT4 2331\n,,\naaaa\n++\n(C)\n122331\n2,2,2\naaaaaa\n---\n(D)\n122331\n2,2,2\naaaaaa\n+++",
+    "canonical_text": "(7)设向量组线性\n无关,则下列向量组线相关的是 (A)\n(A)\n12\naa\n-\nEMBED Equation.DSMT4 2131\n,,\naaaa\n--\n(B)\n21\naa\n-\nEMBED Equation.DSMT4 2331\n,,\naaaa\n++\n(C)\n122331\n2,2,2\naaaaaa\n---\n(D)\n122331\n2,2,2\naaaaaa\n+++"
+  },
+  {
+    "alias_id": "fcefe411839eb95ff3de8863",
+    "canonical_id": "d9281bfce7bbd23f551b5bcd",
+    "similarity": 0.9963768115942029,
+    "alias_text": "3.对于求解二阶线性非齐次方程\n()()()\nyPxyQxyfx\n¢¢¢\n++=\n的一个特解\n*\n()\nyx\n,可用待定系数法,有结论如下:\n如果\n()(),\nx\nm\nfxPxe\nl\n=\n则二阶常系数线性非齐次方程具有形如\n*\n()()\nkx\nm\nyxxQxe\nl\n=\n的特解,其中\n()\nm\nQx\n是与\n()\nm\nPx\n相同次数的多项式,而\nk\n按\nl\n不是特征方程的根、是特征方程的单根或是特征方程的重根依次取0、1或2.\n如果\n()[()cos()sin]\nx\nln\nfxePxxPxx\nl\nww\n=+\n,则二阶常系数非齐次线性微分方程\n()()()\nypxyqxyfx\n¢¢¢\n++=\n的特解可设为\n*(1)(2)\n[()cos()sin]\nkx\nmm\nyxeRxxRxx\nl\nww\n=+\n,\n其中\n(1)\n()\nm\nRx\n与\n(2)\n()\nm\nRx\n是\nm\n次多项式,\n{\n}\nmax,\nmln\n=\n,而\nk\n按\ni\nlw\n+\n(或\ni\nlw\n-\n)不是特征方程的根、或是特征方程的单根依次取为\n0\n或\n1\n.\n六、(本题满分8分)",
+    "canonical_text": "3.对于求解二阶线性非齐次方程\n()()()\nyPxyQxyfx\n¢¢¢\n++=\n的一个特解\n*\n()\nyx\n,可用待定系数法,有结论如下:\n如果\n()(),\nx\nm\nfxPxe\nl\n=\n则二阶常系数线性非齐次方程具有形如\n*\n()()\nkx\nm\nyxxQxe\nl\n=\n的特解,其中\n()\nm\nQx\n是与\n()\nm\nPx\n相同次数的多项式,而\nk\n按\nl\n不是特征方程的根、是特征方程的单根或是特征方程的重根依次取0、1或2.\n如果\n()[()cos()sin]\nx\nln\nfxePxxPxx\nl\nww\n=+\n,则二阶常系数非齐次线性微分方程\n()()()\nypxyqxyfx\n¢¢¢\n++=\n的特解可设为\n*(1)(2)\n[()cos()sin]\nkx\nmm\nyxeRxxRxx\nl\nww\n=+\n,\n其中\n(1)\n()\nm\nRx\n与\n(2)\n()\nm\nRx\n是\nm\n次多项式,\n{\n}\nmax,\nmln\n=\n,而\nk\n按\ni\nlw\n+\n(或\ni\nlw\n-\n)不是特征方程的根、或是特征方程的单根依次取为\n0\n或\n1\n.\n五、(本题满分8分)"
+  },
+  {
+    "alias_id": "dd3760a65551bc99f78d9aae",
+    "canonical_id": "f122cb280d088a0ab533a790",
+    "similarity": 0.9971014492753624,
+    "alias_text": "(4) 设函数\n(,)\nfxy\n连续,则二次积分\n1\nsin\n2\n(,)\nx\ndxfxydy\np\np\nòò\n等于( )\n.\nA\n1\n0arcsin\n(,)\nx\ndyfxydx\np\np\n+\nòò\n.\nB\nEMBED Equation.DSMT4 1\n0arcsin\n(,)\ny\ndyfxydx\np\np\n-\nòò\n.\nC\nEMBED Equation.DSMT4 1arcsin\n0\n2\n(,)\ny\ndyfxydx\np\np\n+\nòò\n.\nD\nEMBED Equation.DSMT4 1arcsin\n0\n2\n(,)\ny\ndyfxydx\np\np\n-\nòò",
+    "canonical_text": "(4) 设函数\n(,)\nfxy\n连续,则二次积分\n1\nsin\n2\n(,)\nx\ndxfxydy\np\np\nòò\n等于(B)\n.\nA\n1\n0arcsin\n(,)\nx\ndyfxydx\np\np\n+\nòò\n.\nB\nEMBED Equation.DSMT4 1\n0arcsin\n(,)\ny\ndyfxydx\np\np\n-\nòò\n.\nC\nEMBED Equation.DSMT4 1arcsin\n0\n2\n(,)\ny\ndyfxydx\np\np\n+\nòò\n.\nD\nEMBED Equation.DSMT4 1arcsin\n0\n2\n(,)\ny\ndyfxydx\np\np\n-\nòò"
+  },
+  {
+    "alias_id": "e524e0a05315ea58f7318cd1",
+    "canonical_id": "bc304286ac0f8b3d8a8d38fd",
+    "similarity": 0.9976359338061466,
+    "alias_text": "(3) 如图.连续函数\n()\nyfx\n=\n在区间\n[\n]\n[\n]\n3,2,2,3\n--\n上的图形分别是直径为1的上、下半圆周,在区间\n[\n]\n[\n]\n2,0,0,2\n-\n上图形分别是直径为2的上、下半圆周,设\n0\n()(),\nx\nFxftdt\n=\nò\n则下列结论正确的是:( )\n.\nA\n.\n(3)\nF\nEMBED Equation.DSMT4 3\n(2)\n4\nF\n=--\n.\nB\nEMBED Equation.DSMT4 (3)\nF\nEMBED Equation.DSMT4 5\n(2)\n4\nF\n=\n.\nC\nEMBED Equation.DSMT4 (3)\nF\n-\n3\n(2)\n4\nF\n=-\n.\nD\nEMBED Equation.DSMT4 (3)\nF\n-\nEMBED Equation.DSMT4 5\n(2)\n4\nF\n=--",
+    "canonical_text": "(3) 如图.连续函数\n()\nyfx\n=\n在区间\n[\n]\n[\n]\n3,2,2,3\n--\n上的图形分别是直径为1的上、下半圆周,在区间\n[\n]\n[\n]\n2,0,0,2\n-\n上图形分别是直径为2的上、下半圆周,设\n0\n()(),\nx\nFxftdt\n=\nò\n则下列结论正确的是:(C )\n.\nA\n.\n(3)\nF\nEMBED Equation.DSMT4 3\n(2)\n4\nF\n=--\n.\nB\nEMBED Equation.DSMT4 (3)\nF\nEMBED Equation.DSMT4 5\n(2)\n4\nF\n=\n.\nC\nEMBED Equation.DSMT4 (3)\nF\n-\n3\n(2)\n4\nF\n=-\n.\nD\nEMBED Equation.DSMT4 (3)\nF\n-\nEMBED Equation.DSMT4 5\n(2)\n4\nF\n=--"
+  }
+]

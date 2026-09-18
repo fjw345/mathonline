@@ -1,0 +1,10 @@
+{
+  "before": 6912,
+  "after": 6369,
+  "merged": 543,
+  "duplicate_groups": 382,
+  "exact_duplicate_links": 527,
+  "near_auto_pairs": 16,
+  "review_candidates": 19,
+  "multi_source_problems": 347
+}
