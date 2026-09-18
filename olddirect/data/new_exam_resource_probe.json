@@ -1,0 +1,1742 @@
+{
+  "scope": "resource/考研数学/数学一、数学二、数学三",
+  "pdf_count": 240,
+  "page_count": 2126,
+  "by_directory": {
+    "数学一": {
+      "pdfs": 57,
+      "pages": 633,
+      "text_extractable": 32,
+      "likely_answer_or_unusable_text": 4,
+      "no_text_layer": 21
+    },
+    "数学二": {
+      "pdfs": 96,
+      "pages": 845,
+      "text_extractable": 25,
+      "likely_answer_or_unusable_text": 1,
+      "no_text_layer": 70
+    },
+    "数学三": {
+      "pdfs": 87,
+      "pages": 648,
+      "text_extractable": 44,
+      "likely_answer_or_unusable_text": 3,
+      "no_text_layer": 40
+    }
+  },
+  "text_status_counts": {
+    "text_extractable": 101,
+    "likely_answer_or_unusable_text": 8,
+    "no_text_layer": 131
+  },
+  "files": [
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/1988数学一真题答案解析（试卷一）【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 6,
+      "text_chars": 6493,
+      "nonempty_pages": 6,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/1989考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 15,
+      "text_chars": 14556,
+      "nonempty_pages": 15,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/1990考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 21,
+      "text_chars": 21276,
+      "nonempty_pages": 21,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/1991考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 13,
+      "text_chars": 11765,
+      "nonempty_pages": 12,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/1992考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 13,
+      "text_chars": 14186,
+      "nonempty_pages": 13,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/1993考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 17,
+      "text_chars": 16116,
+      "nonempty_pages": 17,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/1994考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 14,
+      "text_chars": 14620,
+      "nonempty_pages": 14,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/1995考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 10,
+      "text_chars": 10593,
+      "nonempty_pages": 10,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/1996考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 16,
+      "text_chars": 15562,
+      "nonempty_pages": 16,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/1997考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 14,
+      "text_chars": 15815,
+      "nonempty_pages": 14,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/1998考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 23,
+      "text_chars": 24031,
+      "nonempty_pages": 23,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/1999考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 14,
+      "text_chars": 15618,
+      "nonempty_pages": 14,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2000考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 18,
+      "text_chars": 18425,
+      "nonempty_pages": 18,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2001考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 20,
+      "text_chars": 23327,
+      "nonempty_pages": 20,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2002考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 17,
+      "text_chars": 18120,
+      "nonempty_pages": 17,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2003考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 17,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2004考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 22,
+      "text_chars": 25088,
+      "nonempty_pages": 22,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2005考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 8,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2006考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 12,
+      "text_chars": 12976,
+      "nonempty_pages": 12,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2007考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 8,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2008考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 8,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2009考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 7,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2010考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 8,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2011考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 8,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2012考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 8,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2013考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 8,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2014考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 7,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2015考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 7,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2016考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 7,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2017考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 7,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2018考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 7,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2019考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 7,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2020考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 7,
+      "text_chars": 8194,
+      "nonempty_pages": 7,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2021年研学一真题答案（目前暂无详细解析，后续免费更新详细解析版）【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 5,
+      "text_chars": 674,
+      "nonempty_pages": 5,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/2019年考研数学一真题【公众号：考研小舟】.pdf",
+      "pages": 4,
+      "text_chars": 2640,
+      "nonempty_pages": 4,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/2020年考研数学一真题【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "text_chars": 3000,
+      "nonempty_pages": 3,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/2020年考研数学（一）真题.pdf",
+      "pages": 4,
+      "text_chars": 2696,
+      "nonempty_pages": 4,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/2021年考研数学一真题【公众号：考研小舟】.pdf",
+      "pages": 4,
+      "text_chars": 1210,
+      "nonempty_pages": 4,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/2021年考研数学（一）真题.pdf",
+      "pages": 4,
+      "text_chars": 2541,
+      "nonempty_pages": 4,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/2022年考研数学（一）真题.pdf",
+      "pages": 4,
+      "text_chars": 56,
+      "nonempty_pages": 2,
+      "status": "likely_answer_or_unusable_text"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/2023年考研数学（一）真题.pdf",
+      "pages": 4,
+      "text_chars": 5572,
+      "nonempty_pages": 4,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/【合集打印】1987-2009年考研数学一真题【 72页 】【公众号：考研小舟】.pdf",
+      "pages": 72,
+      "text_chars": 62281,
+      "nonempty_pages": 72,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/【合集打印】2010-2019年考研数学一真题【 40页 】【公众号：考研小舟】.pdf",
+      "pages": 40,
+      "text_chars": 11693,
+      "nonempty_pages": 40,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/考研数学真题【真题及解析】（2024）/2024年数学（一）真题及参考答案.pdf",
+      "pages": 5,
+      "text_chars": 4876,
+      "nonempty_pages": 5,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/考研数学真题【真题及解析】（2024）/2024年数学（三）真题及参考答案.pdf",
+      "pages": 5,
+      "text_chars": 4209,
+      "nonempty_pages": 5,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/考研数学真题【真题及解析】（2024）/2024年数学（二）真题及参考答案.pdf",
+      "pages": 5,
+      "text_chars": 4387,
+      "nonempty_pages": 5,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/2025考研数学一真题和答案/2025年考研数学一真题（高清打印版）/2025年考研数学一真题.pdf",
+      "pages": 9,
+      "text_chars": 5608,
+      "nonempty_pages": 9,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/2025考研数学一真题和答案/2025考研数学一真题及答案/2025考研数学一真题及答案.pdf",
+      "pages": 6,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学一/2025考研数学一真题和答案/2025考研数学一真题及答案/25考研真题参考答案 - 数学一【完整版】.pdf",
+      "pages": 10,
+      "text_chars": 12,
+      "nonempty_pages": 10,
+      "status": "likely_answer_or_unusable_text"
+    },
+    {
+      "path": "resource/考研数学/数学一/2025考研数学一真题和答案/2025考研数学三真题及答案/2025考研数学三真题及答案.pdf",
+      "pages": 4,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学一/2025考研数学一真题和答案/2025考研数学三真题及答案/【正在更新】真题参考答案 - 数学三.pdf",
+      "pages": 7,
+      "text_chars": 7,
+      "nonempty_pages": 7,
+      "status": "likely_answer_or_unusable_text"
+    },
+    {
+      "path": "resource/考研数学/数学一/2025考研数学一真题和答案/2025考研数学二真题及答案/2025考研数学二真题.pdf",
+      "pages": 4,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学一/2025考研数学一真题和答案/2025考研数学二真题及答案/2025考研数学二答案.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学一/2025考研数学一真题和答案/2025考研数学二真题及答案/【正在更新】真题参考答案 - 数学二.pdf",
+      "pages": 14,
+      "text_chars": 20,
+      "nonempty_pages": 14,
+      "status": "likely_answer_or_unusable_text"
+    },
+    {
+      "path": "resource/考研数学/数学一/2025考研数学一真题和答案/2025考研数学（一）真题试卷及解析详细版.pdf",
+      "pages": 17,
+      "text_chars": 13968,
+      "nonempty_pages": 17,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学一/2026考研数学真题及答案（数一）/26数一参考答案【公众号：考研小舟】免费分享.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学一/2026考研数学真题及答案（数一）/26数一真题【公众号：考研小舟】免费分享.pdf",
+      "pages": 5,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2019年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 4,
+      "text_chars": 2126,
+      "nonempty_pages": 3,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "text_chars": 2838,
+      "nonempty_pages": 3,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2021年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "text_chars": 1130,
+      "nonempty_pages": 3,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/【合集打印】1987-1996考研数学三真题【43页】【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 43,
+      "text_chars": 1107,
+      "nonempty_pages": 2,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/【合集打印】1997-2009考研数学三真题【40页】【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 40,
+      "text_chars": 24,
+      "nonempty_pages": 1,
+      "status": "likely_answer_or_unusable_text"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/【合集打印】2010-2019考研数学三真题【41页】【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 41,
+      "text_chars": 2149,
+      "nonempty_pages": 4,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/1987数学三真题答案解析（试卷四）【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 5,
+      "text_chars": 5382,
+      "nonempty_pages": 5,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/1988数学三真题答案解析（试卷四）【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 8,
+      "text_chars": 7598,
+      "nonempty_pages": 8,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/1989数学三真题答案解析（试卷四）【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 6,
+      "text_chars": 7014,
+      "nonempty_pages": 6,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/1990年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 12,
+      "text_chars": 12244,
+      "nonempty_pages": 12,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/1991年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 13,
+      "text_chars": 13001,
+      "nonempty_pages": 13,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/1992年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 16,
+      "text_chars": 16930,
+      "nonempty_pages": 16,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/1993年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 8,
+      "text_chars": 8846,
+      "nonempty_pages": 8,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/1994年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 11,
+      "text_chars": 11130,
+      "nonempty_pages": 11,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/1995年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 11,
+      "text_chars": 11753,
+      "nonempty_pages": 11,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/1996年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 15,
+      "text_chars": 14078,
+      "nonempty_pages": 15,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/1997年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 15,
+      "text_chars": 16519,
+      "nonempty_pages": 15,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/1998年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 14,
+      "text_chars": 14590,
+      "nonempty_pages": 14,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/1999年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 17,
+      "text_chars": 18060,
+      "nonempty_pages": 17,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2000年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 16,
+      "text_chars": 16823,
+      "nonempty_pages": 16,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2001年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 17,
+      "text_chars": 17852,
+      "nonempty_pages": 17,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2002年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 15,
+      "text_chars": 15623,
+      "nonempty_pages": 15,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2003年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 13,
+      "text_chars": 11349,
+      "nonempty_pages": 13,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2004年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 16,
+      "text_chars": 16019,
+      "nonempty_pages": 16,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2005年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 12,
+      "text_chars": 12815,
+      "nonempty_pages": 12,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2006年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 14,
+      "text_chars": 15349,
+      "nonempty_pages": 14,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2007年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 18,
+      "text_chars": 20316,
+      "nonempty_pages": 18,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2008年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 10,
+      "text_chars": 10156,
+      "nonempty_pages": 10,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2009年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 14,
+      "text_chars": 12391,
+      "nonempty_pages": 14,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2010年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 9,
+      "text_chars": 10251,
+      "nonempty_pages": 9,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2011年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 11,
+      "text_chars": 10253,
+      "nonempty_pages": 11,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2012年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 13,
+      "text_chars": 11760,
+      "nonempty_pages": 13,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2013年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 10,
+      "text_chars": 9942,
+      "nonempty_pages": 10,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2014年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 7,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2015年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 7,
+      "text_chars": 5179,
+      "nonempty_pages": 7,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2016年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 7,
+      "text_chars": 5677,
+      "nonempty_pages": 7,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2017年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 7,
+      "text_chars": 5956,
+      "nonempty_pages": 7,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2018年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 7,
+      "text_chars": 875,
+      "nonempty_pages": 1,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2019年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 7,
+      "text_chars": 7053,
+      "nonempty_pages": 7,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2020年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 7,
+      "text_chars": 13,
+      "nonempty_pages": 1,
+      "status": "likely_answer_or_unusable_text"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2021年数学三真题（速查版）【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 4,
+      "text_chars": 556,
+      "nonempty_pages": 4,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/1987年考研数三真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/1988年考研数三真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/1989年考研数三真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/1990年考研数三真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/1991年考研数三真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/1992年考研数三真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/1993年考研数三真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/1994年考研数三真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/1995年考研数三真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/1996年考研数三真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/1997年考研数三答案速查速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/1998年考研数三答案速查速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/1999年考研数三答案速查速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2000年考研数三答案速查速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2001年考研数三答案速查速查.【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2002年考研数三答案速查速查.【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2003年考研数三答案速查速查.【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2004年考研数三答案速查速查.【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2005年考研数三答案速查速查.【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2006年考研数三答案速查速查.【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2007年考研数三答案速查速查.【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2008年考研数三答案速查速查.【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2009年考研数三答案速查速查.【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2010年考研数三答案速查速查.【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2011年考研数三答案速查速查.【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2012年考研数三答案速查速查.【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2013年考研数三答案速查速查.【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2014年考研数三答案速查速查.【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2015年考研数三答案速查速查.【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2016年考研数三答案速查速查.【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2017年考研数三答案速查速查.【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2018年考研数三答案速查速查.【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2019年考研数三答案速查速查.【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【03】1987-2021考研数学三答案（PDF速查版）/2021年考研数三答案速查速查.【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 4,
+      "text_chars": 556,
+      "nonempty_pages": 4,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【04】2022-2023考研数学三真题/2022年考研数学三真题(公众号_考研小舟)【公众号：考研小舟】.pdf",
+      "pages": 4,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【04】2022-2023考研数学三真题/2022年考研数学三真题+解析(公众号_考研小舟)【公众号：考研小舟】.pdf",
+      "pages": 15,
+      "text_chars": 12150,
+      "nonempty_pages": 15,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【04】2022-2023考研数学三真题/2023年考研数学三真题(公众号_考研小舟)【公众号：考研小舟】.pdf",
+      "pages": 4,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【04】2022-2023考研数学三真题/2023考研数学三答案解析（一二三合集）(公众号_考研小舟)【公众号：考研小舟】.pdf",
+      "pages": 6,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/考研数学真题【真题及解析】（2024）/2024年数学（一）真题及参考答案.pdf",
+      "pages": 5,
+      "text_chars": 4876,
+      "nonempty_pages": 5,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/考研数学真题【真题及解析】（2024）/2024年数学（三）真题及参考答案.pdf",
+      "pages": 5,
+      "text_chars": 4209,
+      "nonempty_pages": 5,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/考研数学真题【真题及解析】（2024）/2024年数学（二）真题及参考答案.pdf",
+      "pages": 5,
+      "text_chars": 4387,
+      "nonempty_pages": 5,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/2025考研数学三真题及答案/2025年数学三真题参考答案 - 数学三.pdf",
+      "pages": 7,
+      "text_chars": 7,
+      "nonempty_pages": 7,
+      "status": "likely_answer_or_unusable_text"
+    },
+    {
+      "path": "resource/考研数学/数学三/2025考研数学三真题及答案/2025考研数学三真题及答案.pdf",
+      "pages": 4,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/2025考研数学三真题及答案/2025考研数学（三）真题及答案解析详细版.pdf",
+      "pages": 11,
+      "text_chars": 10340,
+      "nonempty_pages": 11,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学三/2026考研数学真题及答案（数三）/26数三参考答案【公众号：考研小舟】免费分享.pdf",
+      "pages": 3,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学三/2026考研数学真题及答案（数三）/26数三真题【公众号：考研小舟】免费分享.pdf",
+      "pages": 5,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1987考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 668,
+      "nonempty_pages": 1,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1988考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 958,
+      "nonempty_pages": 1,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1989考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1990考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1991考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1992考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1993考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1994考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1995考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1996考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1997考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1998考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1999考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2000考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2001考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2002考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2003考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2004考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2005考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2006考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2007考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2008考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2009考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2010考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 4,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2011考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 4,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2012考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 4,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2013考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 4,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2014考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 4,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2015考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 4,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2016考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 4,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2017考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 4,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2018考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 4,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2019年考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 4,
+      "text_chars": 1221,
+      "nonempty_pages": 1,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2020年考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 11,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/2021年考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 4,
+      "text_chars": 1030,
+      "nonempty_pages": 4,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/【合集打印】1987-2009考研数学二真题【共58页】【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 58,
+      "text_chars": 1731,
+      "nonempty_pages": 3,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/【合集打印】2010-2019考研数学二真题【共44页】【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 41,
+      "text_chars": 1221,
+      "nonempty_pages": 1,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【02】1987-2021年考研数学二真题详解（PDF）/1987数学二真题答案解析（试卷三）【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "text_chars": 3853,
+      "nonempty_pages": 3,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【02】1987-2021年考研数学二真题详解（PDF）/1988数学二真题答案解析（试卷三）【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 4,
+      "text_chars": 3671,
+      "nonempty_pages": 4,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【02】1987-2021年考研数学二真题详解（PDF）/1989-2004考研数二答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 205,
+      "text_chars": 232723,
+      "nonempty_pages": 205,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【02】1987-2021年考研数学二真题详解（PDF）/2005-2013考研数二答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 128,
+      "text_chars": 138427,
+      "nonempty_pages": 128,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【02】1987-2021年考研数学二真题详解（PDF）/2014考研数学二答案真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 13,
+      "text_chars": 9680,
+      "nonempty_pages": 13,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【02】1987-2021年考研数学二真题详解（PDF）/2015考研数学二答案真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 15,
+      "text_chars": 615,
+      "nonempty_pages": 15,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【02】1987-2021年考研数学二真题详解（PDF）/2016考研数学二答案真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 25,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【02】1987-2021年考研数学二真题详解（PDF）/2017考研数学二答案真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 7,
+      "text_chars": 6052,
+      "nonempty_pages": 7,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【02】1987-2021年考研数学二真题详解（PDF）/2018考研数学二答案真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 11,
+      "text_chars": 11753,
+      "nonempty_pages": 11,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【02】1987-2021年考研数学二真题详解（PDF）/2019考研数学二答案真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 8,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【02】1987-2021年考研数学二真题详解（PDF）/2020考研数学二答案真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 8,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【02】1987-2021年考研数学二真题详解（PDF）/2021年数二真题答案（速查版）【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "text_chars": 622,
+      "nonempty_pages": 3,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/1987年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/1988年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/1989年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/1990年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/1991年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/1992年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/1993年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/1994年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/1995年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/1996年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/1997年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/1998年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/1999年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2000年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2001年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2002年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2003年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 76,
+      "text_chars": 54255,
+      "nonempty_pages": 76,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2004年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2005年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2006年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2007年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "text_chars": 1108,
+      "nonempty_pages": 2,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2008年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 483,
+      "nonempty_pages": 1,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2009年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 625,
+      "nonempty_pages": 1,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2010年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2011年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2012年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2013年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2014年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2015年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2016年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2017年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2018年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2019年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 1,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【03】1987-2021年考研数学二答案（PDF速查版）/2021年数二真题答案速查【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "text_chars": 622,
+      "nonempty_pages": 3,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【04】2022-2023考研数学二真题/2022年考研数学二真题(公众号_考研小舟)【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【04】2022-2023考研数学二真题/2022年考研数学二真题+解析(公众号_考研小舟)【公众号：考研小舟】.pdf",
+      "pages": 16,
+      "text_chars": 12693,
+      "nonempty_pages": 16,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【04】2022-2023考研数学二真题/2023年考研数学二真题(公众号_考研小舟)【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【04】2022-2023考研数学二真题/2023考研数学二答案解析（一二三合集）(公众号_考研小舟)【公众号：考研小舟】.pdf",
+      "pages": 6,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/考研数学真题【真题及解析】（2024）/2024年数学（一）真题及参考答案.pdf",
+      "pages": 5,
+      "text_chars": 4876,
+      "nonempty_pages": 5,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/考研数学真题【真题及解析】（2024）/2024年数学（三）真题及参考答案.pdf",
+      "pages": 5,
+      "text_chars": 4209,
+      "nonempty_pages": 5,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/考研数学真题【真题及解析】（2024）/2024年数学（二）真题及参考答案.pdf",
+      "pages": 5,
+      "text_chars": 4387,
+      "nonempty_pages": 5,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/2025考研数学二真题及答案/2025考研数学二真题.pdf",
+      "pages": 4,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/2025考研数学二真题及答案/2025考研数学二答案.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/2025考研数学二真题及答案/2025考研数学（二）真题试卷及解析详细版.pdf",
+      "pages": 21,
+      "text_chars": 10660,
+      "nonempty_pages": 21,
+      "status": "text_extractable"
+    },
+    {
+      "path": "resource/考研数学/数学二/2025考研数学二真题及答案/真题参考答案 - 数学二.pdf",
+      "pages": 14,
+      "text_chars": 20,
+      "nonempty_pages": 14,
+      "status": "likely_answer_or_unusable_text"
+    },
+    {
+      "path": "resource/考研数学/数学二/2026考研数学真题及答案（数二）/26数二参考答案【公众号：考研小舟】免费分享.pdf",
+      "pages": 2,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    },
+    {
+      "path": "resource/考研数学/数学二/2026考研数学真题及答案（数二）/26数二真题【公众号：考研小舟】免费分享.pdf",
+      "pages": 5,
+      "text_chars": 0,
+      "nonempty_pages": 0,
+      "status": "no_text_layer"
+    }
+  ],
+  "ocr_samples": [
+    {
+      "path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/1987-2021年数学一真题详解答案（PDF）/2003考研数一真题解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 17,
+      "ocr_chars": 13741,
+      "ocr_nonempty_pages": 17,
+      "ocr_question_markers_in_preview": 1,
+      "preview": "2003年全国硕士研究生入学统一考试数学一试题分析\r\n一、填空题\r\n1\r\n1D)【答案】-天\r\n(D)        所\r\n【详解】方法 1: 求limz(z)\"o 型极限，一般先化为指数形式\r\nlimz(oxo = lim en\r\n然后求Imy(xz)Inx(x) ，再回到指数上去.\r\n1 -       Ineosx    in neosx\r\nlim(cos ln(l+x \"=limen 二上 0ln(1+x ) ，\r\n而\r\nlm-ncosz -JimnJnQ+cosx一J) -limcosx一 (等价无穷小葵换In+避一)\r\nxln(+xC) 0 lnG+z)    0\r\n1 。，\r\n2 1       几                1 ，\r\n=1lim一所一=一二(等价无穷小替换1一cosXY一一xz )\r\n50       2                        2\r\n工    1\r\n故      原式=e 2 = 一.\r\n四\r\n1\r\n方法2 令y = (cosmJm ，有Iny二cos ，以下同方法1\r\nIn(+x)\r\n(2)【答案】2x+47y一2=5$\r\n"
+    },
+    {
+      "path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1989考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "ocr_chars": 1716,
+      "ocr_nonempty_pages": 2,
+      "ocr_question_markers_in_preview": 0,
+      "preview": "1989 年真题\r\n1989 年全国硕士研究生招生考试试题\r\n(试卷焉)\r\n一填空题( 本题共7 小题,每小题 3 分,满分21 分)\r\n(1) lim xcot 2x =     。\r\n(2) | sin tidi =        。\r\n(3) 曲线y = | 4 -DG - 2)d 在点(0,0) 处的切线方程是\r\n(5) 设7z) 是连续函数,目MKa) = x+2[ HoDd则Ko =\r\na+pb2，xs0，\r\n(6) 设/Fw) =- 本       在> = 0 处思续,则芝数9 与1 应清足的关系是\r\n一 X >\r\n(7) 设tany =*x+y,则dy =      .\r\n二(本题共 5 小题,每小题4 分,满分20 分)\r\n(1) 已知y = arcsin ee ,求 y.\r\n求「 dz\r\n《2) 求|\r\nxx =]ln(l1+刀)， dy dy\r\n(4) 各 0\r\n(5) 已知凡2) = 于,2) - 0及[ Fo)d =- 1,求| 72n)dr\r\n三.选择题( 本题共6 小题,每小题 3 分,满分18 分)\r\nCD 当z > 0时,曲线y = xsin 二  "
+    },
+    {
+      "path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【02】1987-2021考研数学三答案解析（PDF）/2014年数学三真题答案解析【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 7,
+      "ocr_chars": 5930,
+      "ocr_nonempty_pages": 7,
+      "ocr_question_markers_in_preview": 0,
+      "preview": "数学(三) 参考答案\r\n一.选择题\r\n(1) A\r\n解  因为ima, 一4 夫 0,所以 Vse二0,3N,当交>二N时，\r\n有|a,一al|<s,即<一<a,<a+s,则 |cl--se<|la|委|a|+e，\r\n取< 一上| ,则知lo,| > 区| 故应选A.\r\n(222C\r\n解 ”由渐近线定义可知,四个选项的曲线均不存在水平渐近线和垂直渐近线.\r\n汪\r\nZ十Sin 一\r\n二SG  aim 帮富=lim 一一全一ia(1十二sin工) 一1，\r\n并     rz一co 工  zco  允   -co  立  并\r\n=lim[FGz)一az]=limsin工一0\r\n所以y =z 是y 一x 十sin 二 的斜渐近线.故应选 C\r\n(SB\r\n解 ”因为zz)一tanz 一a十0 十cz:十dx一tanz 是无穷小(xz 一0时)，\r\n所以a 一0.\r\n二本站之三近且E经 十cz 士4 一tanz -ji人(2十2二sc二十4\r\n一0   并     z一0      并       0    3工\r\n所以4一1,原式一lim(芭一二十4一0则<一0一村. 故应选 D,\r\nz~0\\3"
+    }
+  ],
+  "database_changed": false
+}

@@ -1,0 +1,1212 @@
+{
+  "sources": [
+    {
+      "subject": "数学一",
+      "source_path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/2020年考研数学（一）真题.pdf",
+      "pages": 4,
+      "method": "text_words",
+      "anchor_count": 9
+    },
+    {
+      "subject": "数学二",
+      "source_path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1989考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 2,
+      "method": "ocr_tsv",
+      "anchor_count": 17
+    },
+    {
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "pages": 3,
+      "method": "text_words",
+      "anchor_count": 24
+    }
+  ],
+  "questions": [
+    {
+      "pilot_id": "数学一_bd4338f5b0d2_q01",
+      "subject": "数学一",
+      "source_path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/2020年考研数学（一）真题.pdf",
+      "question_number": 1,
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 233.8374481201172,
+          "x1": 477.8999938964844,
+          "y1": 306.3374328613281
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学一_bd4338f5b0d2_q01.png",
+      "image_width": 1195,
+      "image_height": 182,
+      "extraction_method": "text_words",
+      "ocr_text": "(1) 当工―o+时，下列无穷小量中最高阶的是(’).\n(A)「(e，- l)dz \n(B) Kind+ 7^)^\nJ 0 \nJo\nrsin x \nCl—cos jc ------------\n(C) sin 厂 dr \n(D) \nv sin3Z dt\nJ 0 \nJo",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学一_bd4338f5b0d2_q02",
+      "subject": "数学一",
+      "source_path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/2020年考研数学（一）真题.pdf",
+      "question_number": 2,
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 310.3374328613281,
+          "x1": 477.8999938964844,
+          "y1": 455.8874206542969
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学一_bd4338f5b0d2_q02.png",
+      "image_width": 1195,
+      "image_height": 365,
+      "extraction_method": "text_words",
+      "ocr_text": "(2) 设函数fd)在区间(-1,1)内有定义，且=0,则( ).\n(A) 当lim 了\\工\\ =0时,/(j?)在工=0处可导\nL0 / h I\n(B) 当lim心孕 =0时,/(x)在x =0处可导\nL ° X\n(C) 当/ (jc )在工=0处可导时，lim 仔\"=0\n/工 |\n(D) 当f (j?)在久=0处可导时Jim ')=0\nl0 x",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学一_bd4338f5b0d2_q03",
+      "subject": "数学一",
+      "source_path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/2020年考研数学（一）真题.pdf",
+      "question_number": 3,
+      "source_page_start": 1,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 459.8874206542969,
+          "x1": 477.8999938964844,
+          "y1": 715.2999877929688
+        },
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 0,
+          "x1": 477.8999938964844,
+          "y1": 512.5638427734375
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学一_bd4338f5b0d2_q03.png",
+      "image_width": 1195,
+      "image_height": 1922,
+      "extraction_method": "text_words",
+      "ocr_text": "(3) 设函数f (x ,y)在点(0,0)处可微,/(0,0) =0 ,n = \n,学,一 1) (,非零向量a与\"\n垂直，则( \n).\n(A)\nlim\n1 n •(鼻，y\n,y)) \\ 存在\n(工，，)->(0,0)\nJ X 2\n1 2\n(B)\nlim\nn X (<r，夕,f a，夕))1 存在\n( X ,y)f (0,0)\nJ jc2\n(C)\nlim \n- a •(工，》,/(工,y)) | 存在\n( X ,y)->(0,0)\nJ x 2\n(D)\nlim\n1 a X (JC 9)',f(j： ,j)) |•存在\n(<x \n)-*•((),0)\n2\n2\n+夕\n4）设R为幕级数工5\"的收敛半径，厂是实数，则（ \n）.\n（A）当工a?”严发散时,|r\nn = l\n（C）当I r\\^R时，工矶”厂发散\n“ =1\n5）若矩阵A经过初等列变换化成3,则（\n（A） 存在矩阵P,使得PA =B\n（B） 存在矩阵P,使得BP=A\n（C） 存在矩阵P,使得PB =A\n（D） 方程组AX =0与BX =0同解\n（B）当»2”严收敛时,\\r\\^R\nn = l\n（D）当|r|<K时，》>2”严收敛\n” =1\n）.\n6）已知直线L]\n7 一 a2 y — b2\n与直线L2\na2\n宁相交于-点,\nla>\\\n记向量 a, = b,d = 1,2,3,则（ \n）.\n（A）a1可由a2 .a3线性表示\n（Oa3可由a】.a2线性表示\n（B）a2可由aj ,a3线性表示\n（D）a | ,a2 >a3线性无关\n7)设2,C 为三个随机事件，且 P(A)=F(£)=P(C)= +，P(AE)=0,\nP(AC)== P（BC）=右，则A,B,C中恰有一个事件发生的概率为（ \n）.\n(b4\n(c4\n(d4\nX — a3 y — b3\n5 \nb、\nb2\n8）设X] ,X2,-,X100为来自总体X的简单随机样本，其中P{X=O}=P{X=1}=*@Q）\nlog\n表示标准正态分布函数，利用中心极限定理可得<55}的近似值为（ \n）.\n1 = 1\n（A）l— ①（1） \n（B）0（1） \n（01-0（0. 2） \n（D）①（0.2）\n:■、填空题（9〜14小题，每小题4分，共24分.请将答案写在题中的横线上.）",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学一_bd4338f5b0d2_q04",
+      "subject": "数学一",
+      "source_path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/2020年考研数学（一）真题.pdf",
+      "question_number": 1,
+      "source_page_start": 2,
+      "source_page_end": 3,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 516.5638427734375,
+          "x1": 477.8999938964844,
+          "y1": 715.2999877929688
+        },
+        {
+          "page": 2,
+          "x0": 0,
+          "y0": 0,
+          "x1": 477.8999938964844,
+          "y1": 110.91891479492188
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学一_bd4338f5b0d2_q04.png",
+      "image_width": 1195,
+      "image_height": 776,
+      "extraction_method": "text_words",
+      "ocr_text": "j--*0 \n0z — 1 ln(l +工)\nd2\n10)设\n1\n则空 \ny=ln(/ +丿厂十1 ), 山'\n11)设函数 /(jt )满足严(乂)+ aff (jr ) + /(jr ) = 0(a > 0),且 /(0) = m (0)=刃9 则\n「+8 / ( jc ) djr = \n.\nJ 0\n■乜，则r\n0\n12）设函数/（工q）=\ndjc c)y\n(1,1)\n（13）行列式\n-1\n0\n0\n-1",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学一_bd4338f5b0d2_q05",
+      "subject": "数学一",
+      "source_path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/2020年考研数学（一）真题.pdf",
+      "question_number": 14,
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "boxes": [
+        {
+          "page": 2,
+          "x0": 0,
+          "y0": 114.91891479492188,
+          "x1": 477.8999938964844,
+          "y1": 153.24749755859375
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学一_bd4338f5b0d2_q05.png",
+      "image_width": 1195,
+      "image_height": 97,
+      "extraction_method": "text_words",
+      "ocr_text": "（14） 设X服从区间（-y,y）上的均匀分布,Y = sin X,则Cov（X,Y） =________.\n三、解答题（15〜23小题，共94分.解答应写出文字说明、证明过程或演算步骤.）",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学一_bd4338f5b0d2_q06",
+      "subject": "数学一",
+      "source_path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/2020年考研数学（一）真题.pdf",
+      "question_number": 15,
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "boxes": [
+        {
+          "page": 2,
+          "x0": 0,
+          "y0": 157.24749755859375,
+          "x1": 477.8999938964844,
+          "y1": 247.5189208984375
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学一_bd4338f5b0d2_q06.png",
+      "image_width": 1195,
+      "image_height": 226,
+      "extraction_method": "text_words",
+      "ocr_text": "（15） （本题满分10分）\n求函数f （工,y）=工3 + 8j/3 — xy的极值.",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学一_bd4338f5b0d2_q07",
+      "subject": "数学一",
+      "source_path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/2020年考研数学（一）真题.pdf",
+      "question_number": 16,
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "boxes": [
+        {
+          "page": 2,
+          "x0": 0,
+          "y0": 251.5189208984375,
+          "x1": 477.8999938964844,
+          "y1": 340.21893310546875
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学一_bd4338f5b0d2_q07.png",
+      "image_width": 1195,
+      "image_height": 223,
+      "extraction_method": "text_words",
+      "ocr_text": "（16） （本题满分10分）\n计算曲线积分/=[ 超[笃血+ 务学曰夕，其中L是工$ + ；/=2,方向为逆时针方向. \nJ厶4_z 十夕 \n4工十夕",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学一_bd4338f5b0d2_q08",
+      "subject": "数学一",
+      "source_path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/2020年考研数学（一）真题.pdf",
+      "question_number": 17,
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "boxes": [
+        {
+          "page": 2,
+          "x0": 0,
+          "y0": 344.21893310546875,
+          "x1": 477.8999938964844,
+          "y1": 447.99066162109375
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学一_bd4338f5b0d2_q08.png",
+      "image_width": 1195,
+      "image_height": 260,
+      "extraction_method": "text_words",
+      "ocr_text": "（17） （本题满分10分）\n1 \nOO\n设数列｛a” ｝满足:5 =1, G + l）a”+i = （\" +刁）a”，证明：当|工| < 1时，幕级数工a”z\" \n乙 \nn = 1\n收敛，并求其和函数.",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学一_bd4338f5b0d2_q09",
+      "subject": "数学一",
+      "source_path": "resource/考研数学/数学一/1987-2024考研数学一真题和答案/2020年考研数学（一）真题.pdf",
+      "question_number": 18,
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "boxes": [
+        {
+          "page": 2,
+          "x0": 0,
+          "y0": 451.99066162109375,
+          "x1": 477.8999938964844,
+          "y1": 639.3043823242188
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学一_bd4338f5b0d2_q09.png",
+      "image_width": 1195,
+      "image_height": 470,
+      "extraction_method": "text_words",
+      "ocr_text": "（18） （本题满分10分）\n设工为曲面z=ya-2+j/2（l < a：2 +^2 < 4）的下侧JQ）是连续函数，计算\n) + 2工 一 \nLyf(工夕)+ 2y + ]dzcLz + \\_zf (^xy ) + \ndjy.\n（19）（本题满分10分）\n设函数/■&）在区间[0,2]上具有连续导数,/（0）= f（2）= 0,M= max ｛ |/（x） | ｝，证明: \n工€[0,2]\n（I）存在e e（0,2）,使得|>m；\n（n）若对任意的工e（0,2）, |厂（工）| wm,则m = o.",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学二_41f85eee3f24_q01",
+      "subject": "数学二",
+      "source_path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1989考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 1,
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 163.2,
+          "x1": 595.3200073242188,
+          "y1": 189.6
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学二_41f85eee3f24_q01.png",
+      "image_width": 1489,
+      "image_height": 66,
+      "extraction_method": "ocr_tsv",
+      "ocr_text": "题 ( 本 题 共 7 小 题 3 (1) lim xcot 2x = 。",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学二_41f85eee3f24_q02",
+      "subject": "数学二",
+      "source_path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1989考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 2,
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 193.6,
+          "x1": 595.3200073242188,
+          "y1": 222.8
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学二_41f85eee3f24_q02.png",
+      "image_width": 1489,
+      "image_height": 73,
+      "extraction_method": "ocr_tsv",
+      "ocr_text": "(2) | sin tidi = 。",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学二_41f85eee3f24_q03",
+      "subject": "数学二",
+      "source_path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1989考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 3,
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 226.8,
+          "x1": 595.3200073242188,
+          "y1": 274.4
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学二_41f85eee3f24_q03.png",
+      "image_width": 1489,
+      "image_height": 119,
+      "extraction_method": "ocr_tsv",
+      "ocr_text": "(3) 曲线 y = | 4 -DG - 2)d 在 点 (0,0) 处 的 切线 方程 是 x+2[ 则 Ko",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学二_41f85eee3f24_q04",
+      "subject": "数学二",
+      "source_path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1989考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 5,
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 278.4,
+          "x1": 595.3200073242188,
+          "y1": 317.6
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学二_41f85eee3f24_q04.png",
+      "image_width": 1489,
+      "image_height": 98,
+      "extraction_method": "ocr_tsv",
+      "ocr_text": "(5) 设 7z) 是 连续 函数 , 目 MKa) = x+2[ HoDd 则 Ko = a+pb2，xs0， > 是",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学二_41f85eee3f24_q05",
+      "subject": "数学二",
+      "source_path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1989考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 6,
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 321.6,
+          "x1": 595.3200073242188,
+          "y1": 356.0
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学二_41f85eee3f24_q05.png",
+      "image_width": 1489,
+      "image_height": 86,
+      "extraction_method": "ocr_tsv",
+      "ocr_text": "a+pb2，xs0， (6) 设 /Fw) =- 本 在 > = 0 处 思 续 , 则 芝 数 9 与 1 应 清 足 的 关系 是 一 X >",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学二_41f85eee3f24_q06",
+      "subject": "数学二",
+      "source_path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1989考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 7,
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 360.0,
+          "x1": 595.3200073242188,
+          "y1": 414.0
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学二_41f85eee3f24_q06.png",
+      "image_width": 1489,
+      "image_height": 135,
+      "extraction_method": "ocr_tsv",
+      "ocr_text": "(7) 设 tany =*x+y, 则 dy = . 二 (本题 共 5 小 题 ,每 小 题 4 分 ,满分 20 分 )",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学二_41f85eee3f24_q07",
+      "subject": "数学二",
+      "source_path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1989考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 1,
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 418.0,
+          "x1": 595.3200073242188,
+          "y1": 505.6
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学二_41f85eee3f24_q07.png",
+      "image_width": 1489,
+      "image_height": 219,
+      "extraction_method": "ocr_tsv",
+      "ocr_text": "(1) 已 知 y = arcsin ee , 求 y. 求 「 dz 《2) 求 | =]ln(l1+ 刀 )， dy",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学二_41f85eee3f24_q08",
+      "subject": "数学二",
+      "source_path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1989考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 4,
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 509.6,
+          "x1": 595.3200073242188,
+          "y1": 543.2
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学二_41f85eee3f24_q08.png",
+      "image_width": 1489,
+      "image_height": 84,
+      "extraction_method": "ocr_tsv",
+      "ocr_text": "xx =]ln(l1+ 刀 )， dy dy (4) 各 0 Fo)d =- |",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学二_41f85eee3f24_q09",
+      "subject": "数学二",
+      "source_path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1989考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 5,
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 547.2,
+          "x1": 595.3200073242188,
+          "y1": 682.4
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学二_41f85eee3f24_q09.png",
+      "image_width": 1489,
+      "image_height": 338,
+      "extraction_method": "ocr_tsv",
+      "ocr_text": "(5) 已 知 凡 2) = 于 ,2) - 0 及 [ Fo)d =- 1, 求 | 72n)dr 三 .选择 题 ( 本 题 共 6 小 题 ,每 小 题 3 分 ,满分 18 分 ) CD 当 z > 0 时 ,曲线 y = xsin 二 ) (A) 有 且 仅 有 水 平 渐 近 线 . (B) 有 且 仅 有 铅 直 渐 近 线 . (C) 既 有 水 平 渐 近 线 , 也 有 铅 直 渐 近 线 . (D) 既 无 水 平 渐 近 线 ,也 无 铅 直 渐 近 线 .",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学二_41f85eee3f24_q10",
+      "subject": "数学二",
+      "source_path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1989考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 2,
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 686.4,
+          "x1": 595.3200073242188,
+          "y1": 747.2
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学二_41f85eee3f24_q10.png",
+      "image_width": 1489,
+      "image_height": 152,
+      "extraction_method": "ocr_tsv",
+      "ocr_text": "(2) 若 3o 一 S1 < 0 , 则 方程 态 +2ax +3bx +4c = 0( ) (A) 无 实 根 . (B) 有 唯一 实 根 . (《C) 有 三 个 不 同 实 根 . (D) 有 五 个 不 同 实 根 .",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学二_41f85eee3f24_q11",
+      "subject": "数学二",
+      "source_path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1989考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 3,
+      "source_page_start": 1,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 751.2,
+          "x1": 595.3200073242188,
+          "y1": 841.9199829101562
+        },
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 0,
+          "x1": 595.3200073242188,
+          "y1": 39.6
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学二_41f85eee3f24_q11.png",
+      "image_width": 1489,
+      "image_height": 326,
+      "extraction_method": "ocr_tsv",
+      "ocr_text": "(3) 曲线 y = cosx (三 友 x < 本 】 与 Y 轴 所 围 成 的 图 形 , 绕 x 轴 旋转 一 周 所 成 的 旋转 体 的 体积 为 ( ) (A) 区 (B) 研 . (GO) 互 (D)T2. 5\n历年 考研 数学 真题 解析 及 复习 思路 (数学 二 )",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学二_41f85eee3f24_q12",
+      "subject": "数学二",
+      "source_path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1989考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 4,
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 43.6,
+          "x1": 595.3200073242188,
+          "y1": 97.2
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学二_41f85eee3f24_q12.png",
+      "image_width": 1489,
+      "image_height": 134,
+      "extraction_method": "ocr_tsv",
+      "ocr_text": "(4) 设 两 本 数 所 xz) 和 g(x*) 都 在 x = & 处 取得 极 大 值 , 则 函数 FCx) = 扩 x)g(xz) 在 * =& 处 ( ) (A) 必 取 极 大 值 . (B) 必 取 极 小 值 . (C) 不 可 能 取 极 值 . (D) 是 否 取 极 值 不 能 确定 .",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学二_41f85eee3f24_q13",
+      "subject": "数学二",
+      "source_path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1989考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 5,
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 101.2,
+          "x1": 595.3200073242188,
+          "y1": 135.6
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学二_41f85eee3f24_q13.png",
+      "image_width": 1489,
+      "image_height": 86,
+      "extraction_method": "ocr_tsv",
+      "ocr_text": "(5) 微分 方程 多 -y = e +1l 的 一 个 特 解 应 具有 形式 ( 式 中 ,为 常数 ) ( ) (A)aer + (B)axe + (C)ae + bx. (D)axe” + bx.",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学二_41f85eee3f24_q14",
+      "subject": "数学二",
+      "source_path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1989考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 6,
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 139.6,
+          "x1": 595.3200073242188,
+          "y1": 632.0
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学二_41f85eee3f24_q14.png",
+      "image_width": 1489,
+      "image_height": 1231,
+      "extraction_method": "ocr_tsv",
+      "ocr_text": "(6) 设 Xx) 在 点 x = a 的 某 个 邻 域 内 有 定义 , 则 Kx) 在 x = au 处 可 导 的 一 个 充分 条 件 是 ( ) CA) imALe + 二) -7o)] 存在 (B) lim 人 2 人 二) 存在 CC) im 人 2 人 于 人 4 人) 存在 . CD) 加 人 2 一 外 4 二 全 存在 四 、( 本 题 满 分 6 分 ) 求 微分 方程 xy +(1-x)y = er(0 <x<+o) 满 足 y(1) =0 的 特 解 . 五 、( 本 题 满分 7 分 ) 六 、( 本 题 满分 7 分 ) 证 明 方程 In x = 六 一 人 V1 - cos 2xdx 在 区 间 (0, + co ) 内 有 且 仅 有 两 个 不 同 实 根 . 七 、( 本题 满分 11 分 ) 对 函数 y = 本 填写 下 表 . 单调 减少 区 间 | | 极 全 点 | 板 值 一 一 一 一 一 一 人",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学二_41f85eee3f24_q15",
+      "subject": "数学二",
+      "source_path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1989考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 5,
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 636.0,
+          "x1": 595.3200073242188,
+          "y1": 702.8
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学二_41f85eee3f24_q15.png",
+      "image_width": 1489,
+      "image_height": 167,
+      "extraction_method": "ocr_tsv",
+      "ocr_text": "人 | 潭 5 线 八 、( 本题 满分 10 分 )",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学二_41f85eee3f24_q16",
+      "subject": "数学二",
+      "source_path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1989考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 7,
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 706.8,
+          "x1": 595.3200073242188,
+          "y1": 811.2
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学二_41f85eee3f24_q16.png",
+      "image_width": 1489,
+      "image_height": 261,
+      "extraction_method": "ocr_tsv",
+      "ocr_text": "设 抛物 线 7 = ax + bx +c 过 原点 , 当 0 三 x 达 1 时 ,7y = 0. 又 已 知 该 抛物 线 与 x 轴 及 直线 x = 1 所 于 图 形 的 面积 为 了 试 确 定 ,bc 的 值 , 使 此 图 形 绕 x 轴 旋 转 一 周 而 成 的 旋转 体 的 体积 了 最 小 .",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学二_41f85eee3f24_q17",
+      "subject": "数学二",
+      "source_path": "resource/考研数学/数学二/1987-2024考研数学二真题和答案/【01】1987-2021年考研数学二真题（PDF）/1989考研数学二真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 6,
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 815.2,
+          "x1": 595.3200073242188,
+          "y1": 835.2
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学二_41f85eee3f24_q17.png",
+      "image_width": 1489,
+      "image_height": 50,
+      "extraction_method": "ocr_tsv",
+      "ocr_text": "6",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q01",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 1,
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 246.9522247314453,
+          "x1": 595.280029296875,
+          "y1": 284.1922607421875
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q01.png",
+      "image_width": 1489,
+      "image_height": 94,
+      "extraction_method": "text_words",
+      "ocr_text": "(1)\n设lim\nx→a\nf(x)−a\nx−a\n= b，则lim\nx→a\nsin f(x)−sin a\nx−a\n=(\n)\n(A)b sin a.\n(B)b cos a.\n(C)b sin f(a).\n(D)b cos f(a).",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q02",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 2,
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 288.1922607421875,
+          "x1": 595.280029296875,
+          "y1": 325.4322509765625
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q02.png",
+      "image_width": 1489,
+      "image_height": 94,
+      "extraction_method": "text_words",
+      "ocr_text": "(2)\n函数f(x) = e\n1\nx−1 ln |1+x|\n(ex−1)(x−2) 的第二类间断点的个数为(\n)\n(A)1 个.\n(B)2 个.\n(C)3 个.\n(D)4 个.",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q03",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 3,
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 329.4322509765625,
+          "x1": 595.280029296875,
+          "y1": 387.3021240234375
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q03.png",
+      "image_width": 1489,
+      "image_height": 146,
+      "extraction_method": "text_words",
+      "ocr_text": "(3)\n设奇函数f(x) 在(−∞, +∞) 上具有连续导数，则(\n)\n(A)\n´ x\n0 [cos f(t) + f ′(t)]dt 是奇函数.\n(B)\n´ x\n0 [cos f(t) + f ′(t)]dt 是偶函数.\n(C)\n´ x\n0 [cos f ′(t) + f(t)]dt 是奇函数.\n(D)\n´ x\n0 [cos f ′(t) + f(t)]dt 是偶函数.",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q04",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 4,
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 391.3021240234375,
+          "x1": 595.280029296875,
+          "y1": 428.5421447753906
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q04.png",
+      "image_width": 1489,
+      "image_height": 94,
+      "extraction_method": "text_words",
+      "ocr_text": "(4)\n设幂级数\n∞\n∑\nn=1\nnan(x −2)n 的收敛区间为(−2, 6)，则\n∞\n∑\nn=1\nan(x + 1)2n 的收敛区间为(\n)\n(A)(−2, 6).\n(B)(−3, 1).\n(C)(−5, 3).\n(D)(−17, 15).",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q05",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 5,
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 432.5421447753906,
+          "x1": 595.280029296875,
+          "y1": 551.5721435546875
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q05.png",
+      "image_width": 1489,
+      "image_height": 298,
+      "extraction_method": "text_words",
+      "ocr_text": "(5)\n设4 阶矩阵A = (aij) 不可逆，a12 的代数余子式A12 ̸= 0，α1，α2，α3，α4 为矩阵A 的列向量\n组，A∗为A 的伴随矩阵，则方程组A∗x = 0 的通解为(\n)\n(A)x = k1α1 + k2α2 + k3α3，其中k1，k2，k3 为任意常数.\n(B)x = k1α1 + k2α2 + k3α4，其中k1，k2，k3 为任意常数.\n(C)x = k1α1 + k2α3 + k3α4，其中k1，k2，k3 为任意常数.\n(D)x = k1α2 + k2α3 + k3α4，其中k1，k2，k3 为任意常数.",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q06",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 6,
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 555.5721435546875,
+          "x1": 595.280029296875,
+          "y1": 653.2822265625
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q06.png",
+      "image_width": 1489,
+      "image_height": 246,
+      "extraction_method": "text_words",
+      "ocr_text": "(6)\n设A 为3 阶矩阵，α1，α2 为A 的属于特征值1 的线性无关的特征向量，α3 为A 的属于特征值\n−1 的特征向量，则满足P −1AP =\n\n\n\n\n1\n0\n0\n0\n−1\n0\n0\n0\n1\n\n\n\n的可逆矩阵P 可为(\n)\n(A)(α1 + α3, α2, −α3).\n(B)(α1 + α2, α2, −α3).\n(C)(α1 + α3, −α3, α2).\n(D)(α1 + α2, −α3, α2).",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q07",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 7,
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 657.2822265625,
+          "x1": 595.280029296875,
+          "y1": 714.4522705078125
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q07.png",
+      "image_width": 1489,
+      "image_height": 144,
+      "extraction_method": "text_words",
+      "ocr_text": "(7) 设A，B，C 为三个随机事件，且P(A) = P(B) = P(C) = 1\n4，P(AB) = 0，P(AC) = P(BC) =\n1\n12，\n则A，B，C 中恰有一个事件发生的概率为(\n)\n(A) 3\n4.\n(B) 2\n3.\n(C) 1\n2.\n(D) 5\n12.",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q08",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 8,
+      "source_page_start": 1,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 0,
+          "x0": 0,
+          "y0": 718.4522705078125,
+          "x1": 595.280029296875,
+          "y1": 841.8900146484375
+        },
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 0,
+          "x1": 595.280029296875,
+          "y1": 98.90223693847656
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q08.png",
+      "image_width": 1489,
+      "image_height": 557,
+      "extraction_method": "text_words",
+      "ocr_text": "(8)\n设随机变量(X, Y ) 服从二维正态分布N(0, 0; 1, 4; −1\n2)，则下列随机变量中服从标准正态分布且与\nX 独立的是(\n)\n(A)\n√\n5\n5 (X + Y ).\n(B)\n√\n5\n5 (X −Y ).\n(C)\n√\n3\n3 (X + Y ).\n(D)\n√\n3\n3 (X −Y ).\n1\n二、填空题",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q09",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 9,
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 102.90223693847656,
+          "x1": 595.280029296875,
+          "y1": 122.90223693847656
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q09.png",
+      "image_width": 1489,
+      "image_height": 51,
+      "extraction_method": "text_words",
+      "ocr_text": "(9)\n设z = arctan[xy + sin(x + y)]，则dz|(0,π) =\n.",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q10",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 10,
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 122.82221984863281,
+          "x1": 595.280029296875,
+          "y1": 142.8222198486328
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q10.png",
+      "image_width": 1489,
+      "image_height": 51,
+      "extraction_method": "text_words",
+      "ocr_text": "(10)\n曲线x + y + e2xy = 0 在(0, −1) 处的切线方程为\n.",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q11",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 11,
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 142.7522735595703,
+          "x1": 595.280029296875,
+          "y1": 178.6022491455078
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q11.png",
+      "image_width": 1489,
+      "image_height": 91,
+      "extraction_method": "text_words",
+      "ocr_text": "(11)\n设某厂家某产品的产量为Q，成本C(Q) = 100 + 13Q，设产品的单价为P，需求量Q(P) =\n800\nP +3 −2，则该厂家获得最大利润时的产量为\n.",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q12",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 12,
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 182.6022491455078,
+          "x1": 595.280029296875,
+          "y1": 235.0922393798828
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q12.png",
+      "image_width": 1489,
+      "image_height": 132,
+      "extraction_method": "text_words",
+      "ocr_text": "(12)\n设平面区域D =\n{\n(x, y)\n\f\f\f x\n2 ≤y ≤\n1\n1+x2 , 0 ≤x ≤1\n}\n，则D 绕y 轴旋转所成的旋转体的体积\n为\n.\n\f\f\f a\n0\n−1\n1",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q13",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 13,
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 239.0922393798828,
+          "x1": 595.280029296875,
+          "y1": 273.09222412109375
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q13.png",
+      "image_width": 1489,
+      "image_height": 86,
+      "extraction_method": "text_words",
+      "ocr_text": "(13)\n行列式\n\f\f\f\f\f\f\n0\na\n1\n−1\n−1\n1\na\n0\n1\n−1\n0\na\n\f\f\f\f\f\f\n=\n.",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q14",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 14,
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 277.09222412109375,
+          "x1": 595.280029296875,
+          "y1": 342.8322448730469
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q14.png",
+      "image_width": 1489,
+      "image_height": 166,
+      "extraction_method": "text_words",
+      "ocr_text": "(14)\n设随机变量X 的概率分布为P{X = k} =\n1\n2k , k = 1, 2, 3, · · · ，Y 表示X 被3 除的余数，则\nE(Y ) =\n.\n三、解答题",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q15",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 15,
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 346.8322448730469,
+          "x1": 595.280029296875,
+          "y1": 366.8322448730469
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q15.png",
+      "image_width": 1489,
+      "image_height": 51,
+      "extraction_method": "text_words",
+      "ocr_text": "(15)\n已知a，b 为常数，若\n(\n1 + 1\nn\n)n −e 与\nb\nna 在n →+∞时是等价无穷小，求a，b.",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q16",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 16,
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 366.7622375488281,
+          "x1": 595.280029296875,
+          "y1": 386.7622375488281
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q16.png",
+      "image_width": 1489,
+      "image_height": 51,
+      "extraction_method": "text_words",
+      "ocr_text": "(16)\n求函数f(x, y) = x3 + 8y3 −xy 的极值.",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q17",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 17,
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 386.6822509765625,
+          "x1": 595.280029296875,
+          "y1": 442.4622497558594
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q17.png",
+      "image_width": 1489,
+      "image_height": 141,
+      "extraction_method": "text_words",
+      "ocr_text": "(17)\n设函数y = f(x) 满足y′′ + 2y′ + 5y = 0，f(0) = 1，f ′(0) = −1.\n(I) 求f(x) 的表达式.\n(II) 设an =\n´ +∞\nnπ\nf(x)dx，求\n∞\n∑an.",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q18",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 18,
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 446.4622497558594,
+          "x1": 595.280029296875,
+          "y1": 482.312255859375
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q18.png",
+      "image_width": 1489,
+      "image_height": 90,
+      "extraction_method": "text_words",
+      "ocr_text": "n\n1\n(18)\n设D = {(x, y)|x2 + y2 ≤1, y ≥0}，连续函数f(x, y) 满足f(x, y) = y\n√\n1 −x2 + x\n˜\nD\nf(x, y)dxdy，\n求\n˜\nxf(x, y)dxdy.",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q19",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 19,
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 486.312255859375,
+          "x1": 595.280029296875,
+          "y1": 543.6821899414062
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q19.png",
+      "image_width": 1489,
+      "image_height": 145,
+      "extraction_method": "text_words",
+      "ocr_text": "D\n(19)\n设函数f(x) 在区间[0, 2] 上具有连续导数，f(0) = f(2) = 0，M = max\nx∈[0,2] |f(x)|. 证明：\n(I) 存在ξ ∈(0, 2)，使|f ′(ξ)| ≥M.\n(II) 若对任意x ∈(0, 2)，|f ′(ξ)| ≤M，则M = 0.\n(\n)\n(\n)",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q20",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 20,
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 547.6821899414062,
+          "x1": 595.280029296875,
+          "y1": 570.95263671875
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q20.png",
+      "image_width": 1489,
+      "image_height": 59,
+      "extraction_method": "text_words",
+      "ocr_text": "(20)\n设二次型f(x1, x2) = x2\n1 −4x1x2 + 4x2\n2 经过正交变换\nx1\nx2\n= Q\ny1\ny2\n化为二次型g(y1, y2) =",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q21",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 1,
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 574.95263671875,
+          "x1": 595.280029296875,
+          "y1": 625.6721801757812
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q21.png",
+      "image_width": 1489,
+      "image_height": 128,
+      "extraction_method": "text_words",
+      "ocr_text": "ay2\n1 + 4y1y2 + by2\n2，其中a ≥b.\n(I) 求a，b 的值.\n(II) 求正交矩阵Q.",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q22",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 21,
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 629.6721801757812,
+          "x1": 595.280029296875,
+          "y1": 685.4522094726562
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q22.png",
+      "image_width": 1489,
+      "image_height": 140,
+      "extraction_method": "text_words",
+      "ocr_text": "(21)\n设A 为2 阶矩阵，P = (α, Aα)，其中α 是非零向量且不是A 的特征向量.\n(I) 证明P 为可逆矩阵.\n(II) 若A2α + Aα −6α = 0，求P −1AP ，并判断A 是否相似于对角矩阵.",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q23",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 22,
+      "source_page_start": 2,
+      "source_page_end": 3,
+      "boxes": [
+        {
+          "page": 1,
+          "x0": 0,
+          "y0": 689.4522094726562,
+          "x1": 595.280029296875,
+          "y1": 841.8900146484375
+        },
+        {
+          "page": 2,
+          "x0": 0,
+          "y0": 0,
+          "x1": 595.280029296875,
+          "y1": 98.90223693847656
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q23.png",
+      "image_width": 1489,
+      "image_height": 630,
+      "extraction_method": "text_words",
+      "ocr_text": "(22)\n设二维随机变量(X, Y ) 在区域D = {(x, y)|0 < y <\n√\n1 −x2} 上服从均匀分布，令\nZ1 =\n\n\n\n1,\nX −Y > 0,\n0,\nX −Y ≤0.\nZ2 =\n\n\n\n1,\nX + Y > 0,\n0,\nX + Y ≤0.\n(I) 求二维随机变量(Z1, Z2) 的概率分布.\n(II) 求Z1 与Z2 的相关系数.",
+      "requires_review": true
+    },
+    {
+      "pilot_id": "数学三_cced38e4e863_q24",
+      "subject": "数学三",
+      "source_path": "resource/考研数学/数学三/1987-2024考研（数学三）真题及答案/【01】1987-2021考研数学三真题（PDF）/2020年考研数学三真题【公众号“考研小舟”持续更新中】【公众号：考研小舟】.pdf",
+      "question_number": 23,
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "boxes": [
+        {
+          "page": 2,
+          "x0": 0,
+          "y0": 102.90223693847656,
+          "x1": 595.280029296875,
+          "y1": 258.75596618652344
+        }
+      ],
+      "image_path": "data/pilot_question_regions/images/数学三_cced38e4e863_q24.png",
+      "image_width": 1489,
+      "image_height": 390,
+      "extraction_method": "text_words",
+      "ocr_text": "(23)\n设某种元件的使用寿命T 的分布函数为\nF(t) =\n\n\n\n1 −e−( t\nθ)\nm\n,\nt ≥0,\n0,\n其他.\n其中θ，m 为参数且均大于零.\n(I) 求概率P{T > t} 与P{T > s + t|T > s}，其中s > 0，t > 0.\n(II) 任取n 个这种元件做寿命试验，测得它们的寿命分别为t1，t2，· · · ，tn，若m 已知，求θ 的\n最大似然估计值ˆθ.",
+      "requires_review": true
+    }
+  ]
+}

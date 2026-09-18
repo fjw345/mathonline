@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>题目 PDF 框选工具</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div><strong>题目 PDF 框选工具</strong><small>手动框选 · 原坐标保存 · 本地运行</small></div>
+    <div class="toolbar">
+      <label class="file-button">导入 PDF<input id="pdf-input" type="file" accept="application/pdf"></label>
+      <button id="path-btn">从路径导入</button>
+      <button id="restore-btn">恢复备份</button>
+      <select id="project-select" aria-label="打开已保存项目"><option value="">打开已保存项目…</option></select>
+      <button id="save-btn" disabled>保存项目</button>
+      <button id="export-btn" disabled>导出…</button>
+    </div>
+  </header>
+  <div id="notice" class="notice" hidden></div>
+  <div id="warning" role="alert" hidden></div>
+  <main class="layout">
+    <aside class="sidebar pages-panel">
+      <div class="panel-title">页面 <span id="page-count"></span></div>
+      <div id="thumbnails" class="thumbnails"><div class="empty">导入 PDF 后显示页面</div></div>
+    </aside>
+    <section class="workspace">
+      <div class="canvas-toolbar">
+        <button id="prev-page" disabled>‹ 上一页</button><span id="page-label">未打开 PDF</span><button id="next-page" disabled>下一页 ›</button>
+        <span class="spacer"></span><select id="mode" aria-label="鼠标模式"><option value="edit">选择 / 编辑</option><option value="draw">新增选区</option><option value="pan">平移</option></select><button data-zoom="0.8">80%</button><button data-zoom="1.5">150%</button><button id="width-btn">适应宽度</button><button id="fit-btn">适应页面</button>
+      </div>
+      <div id="page-scroll"><div id="stage"><img id="page-image" alt="PDF 页面"><canvas id="overlay"></canvas></div></div>
+      <div class="hint">直接拖动框选会自动新建题目；按住 Shift 拖动会追加到当前题目。拖动已有框可移动，右下角可调整。Ctrl+Z 撤销 · Ctrl+S 保存</div>
+    </section>
+    <aside class="sidebar questions-panel">
+      <div class="panel-title">题目 <span id="question-count"></span><button id="add-question" class="small primary" disabled>＋ 新题</button><button id="undo-btn" class="small" disabled>撤销</button></div>
+      <div id="questions" class="questions"><div class="empty">先导入 PDF，再点击“新题”开始框选</div></div>
+      <div id="metadata" class="metadata" hidden>
+        <div class="panel-title">项目元数据</div>
+        <label>项目名称<input id="project-name"></label>
+        <label>科目<input id="project-subject" placeholder="如：考研数学二"></label>
+        <label>年份<input id="project-year" placeholder="如：2025"></label>
+        <label>版权核验<select id="copyright-status"><option>待人工核验</option><option>已核验可整理</option><option>仅供内部整理</option><option>不宜导出</option></select></label>
+      </div>
+    </aside>
+  </main>
+  <dialog id="preview-dialog"><form method="dialog"><button class="close">×</button><h3 id="preview-title">题目预览</h3><div class="preview-scroll"><img id="preview-image" alt="裁剪预览"></div><button>关闭</button></form></dialog>
+  <dialog id="path-dialog"><form id="path-form"><h3>从本地路径导入</h3><p>保留完整原路径，可检测目录中的“月考”及原文件变化。</p><label>PDF 绝对路径<input id="source-path" required placeholder="D:\\mathonline\\resource\\…\\试卷.pdf"></label><div class="dialog-actions"><button type="button" data-close="path-dialog">取消</button><button type="submit">导入</button></div></form></dialog>
+  <dialog id="export-dialog"><form id="export-form"><h3>导出题目</h3><p>在指定目录下创建项目子文件夹。相同题目 ID 使用相同文件名。</p><label>导出父目录（留空使用工具的 exports 目录）<input id="export-directory" placeholder="D:\\mathonline\\tools\\question_cropper\\exports"></label><div class="dialog-actions"><button type="button" data-close="export-dialog">取消</button><button type="submit">导出文件并下载 ZIP</button></div></form></dialog>
+  <dialog id="restore-dialog"><form id="restore-form"><h3>从备份恢复</h3><p>选择 project.json 和导入时的原 PDF，哈希必须一致。</p><label>项目 JSON<input id="restore-json" type="file" accept=".json" required></label><label>原 PDF<input id="restore-pdf" type="file" accept=".pdf" required></label><div class="dialog-actions"><button type="button" data-close="restore-dialog">取消</button><button type="submit">恢复</button></div></form></dialog>
+  <script src="/static/app.js"></script>
+</body>
+</html>

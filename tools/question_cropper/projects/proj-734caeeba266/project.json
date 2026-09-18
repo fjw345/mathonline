@@ -1,0 +1,149 @@
+{
+  "id": "proj-734caeeba266",
+  "tool_version": "0.1.0",
+  "created_at": "2026-09-18T13:55:06+00:00",
+  "updated_at": "2026-09-18T13:55:30+00:00",
+  "name": "26数一真题",
+  "source_pdf": "26数一真题.pdf",
+  "source_path": "26数一真题.pdf",
+  "source_sha256": "73adc808f1228b5d65ce1419a884219c101a6349f6c120ce1a01131fc6cccb67",
+  "subject": "",
+  "year": "",
+  "copyright_status": "待人工核验",
+  "coordinate_system": "PyMuPDF unrotated page, top-left origin, point (1/72 inch), 1-based page",
+  "excluded": false,
+  "exclude_reason": "",
+  "pages": [
+    {
+      "page": 1,
+      "width": 595.2999877929688,
+      "height": 841.9000244140625,
+      "rotation": 0
+    },
+    {
+      "page": 2,
+      "width": 595.2999877929688,
+      "height": 841.9000244140625,
+      "rotation": 0
+    },
+    {
+      "page": 3,
+      "width": 595.2999877929688,
+      "height": 841.9000244140625,
+      "rotation": 0
+    },
+    {
+      "page": 4,
+      "width": 595.2999877929688,
+      "height": 841.9000244140625,
+      "rotation": 0
+    },
+    {
+      "page": 5,
+      "width": 595.2999877929688,
+      "height": 841.9000244140625,
+      "rotation": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-6f9440f8616b",
+      "display_number": "1",
+      "order": 1,
+      "status": "draft",
+      "requires_review": true,
+      "tags": [],
+      "source": "",
+      "year": "",
+      "subject": "",
+      "source_question_number": "",
+      "ocr_text": "",
+      "regions": []
+    },
+    {
+      "id": "q-589569bfadf1",
+      "display_number": "2",
+      "order": 2,
+      "status": "draft",
+      "requires_review": true,
+      "tags": [],
+      "source": "",
+      "year": "",
+      "subject": "",
+      "source_question_number": "",
+      "ocr_text": "",
+      "regions": []
+    },
+    {
+      "id": "q-47edc9655136",
+      "display_number": "3",
+      "order": 3,
+      "status": "draft",
+      "requires_review": true,
+      "tags": [],
+      "source": "",
+      "year": "",
+      "subject": "",
+      "source_question_number": "",
+      "ocr_text": "",
+      "regions": []
+    },
+    {
+      "id": "q-19df5d172c8f",
+      "display_number": "4",
+      "order": 4,
+      "status": "draft",
+      "requires_review": true,
+      "tags": [],
+      "source": "",
+      "year": "",
+      "subject": "",
+      "source_question_number": "",
+      "ocr_text": "",
+      "regions": []
+    },
+    {
+      "id": "q-0373fc03ad49",
+      "display_number": "5",
+      "order": 5,
+      "status": "draft",
+      "requires_review": true,
+      "tags": [],
+      "source": "",
+      "year": "",
+      "subject": "",
+      "source_question_number": "",
+      "ocr_text": "",
+      "regions": []
+    },
+    {
+      "id": "q-80ddc69d2476",
+      "display_number": "6",
+      "order": 6,
+      "status": "draft",
+      "requires_review": true,
+      "tags": [],
+      "source": "",
+      "year": "",
+      "subject": "",
+      "source_question_number": "",
+      "ocr_text": "",
+      "regions": [
+        {
+          "page": 2,
+          "bbox_pt": [
+            52.4723,
+            508.8869,
+            462.7697,
+            628.4178
+          ],
+          "page_width": 595.2999877929688,
+          "page_height": 841.9000244140625,
+          "rotation": 0
+        }
+      ]
+    }
+  ],
+  "source_blocked": false,
+  "source_warning": ""
+}
