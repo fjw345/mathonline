@@ -1,0 +1,1362 @@
+{
+  "item": {
+    "id": "d-f3d5d88467235c51281b",
+    "path": "resource/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2003-2016考研数（三）真题及详解/2014考研数学三真题及答案解析.pdf",
+    "name": "2014考研数学三真题及答案解析.pdf",
+    "sha256": "702373a0d626981af093a34ce68eaff285b8004911ac9724769f5117c4d0e273",
+    "format": "pdf",
+    "bytes": 663547,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 12,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1383,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1011,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 956,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 797,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1024,
+        "renderable": true
+      },
+      {
+        "number": 6,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1292,
+        "renderable": true
+      },
+      {
+        "number": 7,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1069,
+        "renderable": true
+      },
+      {
+        "number": 8,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1223,
+        "renderable": true
+      },
+      {
+        "number": 9,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1487,
+        "renderable": true
+      },
+      {
+        "number": 10,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1434,
+        "renderable": true
+      },
+      {
+        "number": 11,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 886,
+        "renderable": true
+      },
+      {
+        "number": 12,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 550,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "702373a0d626981af093a34ce68eaff285b8004911ac9724769f5117c4d0e273",
+  "engine_version": 6,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2003-2016考研数（三）真题及详解/2014考研数学三真题及答案解析.pdf",
+  "pdf_sha256": "702373a0d626981af093a34ce68eaff285b8004911ac9724769f5117c4d0e273",
+  "pages": [
+    {
+      "id": "d-f3d5d88467235c51281b-p1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": 1,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-p2",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": 2,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-p3",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": 3,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-p4",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": 4,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-p5",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": 5,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-p6",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": 6,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-p7",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": 7,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-p8",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": 8,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-p9",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": 9,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-p10",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": 10,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-p11",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": 11,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-p12",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": 12,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-f3d5d88467235c51281b-s0-choice-q1-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-choice-q1-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p1",
+          "bbox": [
+            0.025,
+            0.26491684991711206,
+            0.985,
+            0.4833639695989831
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "=\n且 ≠ ,则当n 充分大时有(   )\n(1)设lim na\na ,\na\n> | a\n|\n| a |\na <\n>\n−\n<\n+\n(A) na\n(B) |\n|\nna\na\nna\na\n(C)\n(D)\nn\nn\nn\n∵\n=\nlim a\na\n【解析\n解析\n解析】\n解析\nn\nx →∞\n∴∀\nε >\n∃\n∈\n+\n∀\n>\n−\n< ε\nN\nN\ns t\n.\nn\nN 时,有| na\na |\n− ε <\n<\n+ ε\n−\nε ≤\n≤\n+\nε\n⇒ || a |\n即 a\na\na\n.\n| | a | | a |\nn\nn\n| a |\n2 | a |\n| a |\nε =\na ≥\n>\n取\n.    有\nn",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-choice-q2-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-choice-q2-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p1",
+          "bbox": [
+            0.025,
+            0.4833639695989831,
+            0.985,
+            0.705642990438502
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(2)下列曲线有渐近线的是\n=\n+\n=\n+\n=\n+\n(A) y\nx sin x\ny\nx 2\nsin\nx\ny\nx sin\n(B)\n(C)\n(D)\nx\n=\n+\ny\nx 2\nsin\nx\n+\nx sin\nf x\n( )\nx =\n=\n=\n+\n=\n【解析\n解析\n解析】 a\n解析\nlim\nlim\nlim(1\nsin )\n→∞\nx\n→∞\nx\n→∞\nx\nx\nx\nx\nx\n=\n−\n=\n+\n−\n=\n=\nb\nlim[ ( ) ax ]\nf x\nlim[ x sin\nx ]\nlimsin\n→∞\n→∞\n→∞\nx\nx\nx\nx\nx\n∴ =\n=\n+\ny\nx 是 y\nx sin\n的斜渐近线\nx",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-choice-q3-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-choice-q3-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p1",
+          "bbox": [
+            0.025,
+            0.705642990438502,
+            0.985,
+            0.9181714238327643
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-f3d5d88467235c51281b-s0-choice-q3-o1-r2",
+          "page_id": "d-f3d5d88467235c51281b-p2",
+          "bbox": [
+            0.025,
+            0.09307466049375557,
+            0.985,
+            0.26556275095452603
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "( )\n=\n+\n+\n+\n→\n−\n,当\n() tan\n(3)设 P x\na bx\ncx 2\ndx 2\nx\n0 时,若 P x\nx 是比 3x 高阶的\n无穷小,则下列试题中错误的是(  )\na =\nb =\n(A)\n(B)\nc =\nd =\n(C)\n(D)\n=\n+\n3 + O x\n3 ) 得\n【解析\n解析\n解析】法1:由泰勒公式 tan x\n解析\nx\nx\n(\n+\n−\n+\n+\n−\n+\na\n(\nb 1) x\ncx 2\n( d\n) x 3\no x\n( 3 )\n−\nP x\n( )\ntan x\n=\n=\nlim\nlim\n→\nx 3\n→\nx 3\nx 0\nx 0\n=\n=\n=\n=\na\n0, b\n1, c\n0, d\n, 故选(D).\n法2:由条件及\n−\n+\n+\n−\nP x\n( )\ntan x\nb\n2 cx 3\ndx 2\nsec 2 x\n=\n=\n=\n知 = 0,\n又 lim\nlim tan x\n0,\na\nlim\n,limsec x\n0,\n→\n→\n→\n→\nx 3\n3 x 2\nx 0\nx 0\nx 0\nx 0\n=\n=\n故b=1,同理,再用洛比达法则可得 c\n0, d\n, 故选(D).\n【答案\n答案\n答案】D\n答案",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-choice-q4-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-choice-q4-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p2",
+          "bbox": [
+            0.025,
+            0.26556275095452603,
+            0.985,
+            0.5254446833014771
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "=\n+\n()具有二阶导数, ()()( − )(),则在区间[0,1]上(    )\n(4)设函数f x\ng x\nf 0\n1 x\nf 1 x\n′\n′\n≥ 时,()()\n≥\n≥ 时,()()\n≤\n(A) 当() 0\nf x\nf x\ng x\n(B) 当() 0\nf x\nf x\ng x\n′′\n′′\n≤ 时,()()\n≥\n≤ 时,()()\n≤\n(C) 当() 0\nf\nx\nf x\ng x\n(D) 当() 0\nf\nx\nf x\ng x\n( )\n( )\n′′\n≥\n【解析\n解析\n解析】当 f\n解析\nx\n0 时, f x 是凹函数\n(\n(\n而( )\n( ) )\n( ) )\ng x 是连接 0, f 0\n与 1, f 1 的直线段,如右图\n( )\n( )\n≤\n故 f x\ng x\n【答案\n答案\n答案】D\n答案\na\nb",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-choice-q5-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-choice-q5-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p2",
+          "bbox": [
+            0.025,
+            0.5254446833014771,
+            0.985,
+            0.9163247116705018
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "a\nb\n(5)行列式\n=(   )\nc\nd\nc\nd\n−\n−\n−\n(\n)\n(\n)\n2 2 − 2 2\n(A) ad\nbc\n(B)\nad\nbc\n(C) a d\nb c\n(D )\n2 2 − 2 2\nb c\na d\na\nb\na\nb\na\nb\na\nb\n+\n+\n−\n按第行展开c·(-1)\n4+1 0\n【解析\n解析】\n解析\n解析\nb\nd ( 1) 4 4 a\nc\nd\nc\nd\nc\nd\nc\nd\n3+2 a\nb\n2+1 a\nb\n=-c·b(-1)\n+d·a(-1)\nc\nd\nc\nd\n=(\n)·\n−\n− (\n−\n)\nad\nbc bc\nad ad\nbc\n=(\n)(\n)\n(\n)\n−\n−\n= −\n−\nad\nbc bc\nad\nad\nbc\n【答案\n答案】B\n答案\n答案",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-choice-q6-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-choice-q6-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p3",
+          "bbox": [
+            0.025,
+            0.08877981219438928,
+            0.985,
+            0.4372040184425722
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "α α α 均为三维向量,则对任意常数k,1,向量组\nα + α α + α\n,\n(6)设\nk\nl\n线性无关是向\n1, 2, 3\nα α α 线性无关的(   )\n量\n,\n,\n(A)必要非充分\n(B)充分非必要\n(C)充分必要\n(D)既非充分也非必\n要\n 1\n0 \n\n\n(\n)\nα + α α + α = α α α\n(\n【解析\n解析\n解析】由\n解析\nk\n,\nl\n)\n,\n,\n1 知,\n\n\n\n\nk\nl \n\nα α α 线性无关时,因为1\n,\n,\n≠0\nα + α α + α\n所以\nk\n,\nl\n线性无关\nα =\nα 与\nα 线性无关时,\nα α α 线性相关\n0 ,且\n反之不成立. 如当\n,\n1, 2\n【答案\n答案\n答案】A\n答案",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-choice-q7-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-choice-q7-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p3",
+          "bbox": [
+            0.025,
+            0.4372040184425722,
+            0.985,
+            0.6372661215932427
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(7)设随机事件A 与B 相互独立,且P(B)=0.5,P(A-B)=0.3,则P(B-A)=(    )\n(A)0.1\n(B)0.2\n(C)0.3\n(D)0. 4\n【解析\n解析\n解析】P(A-B)=P(A)-P(AB)\n解析\n∵A 与B 相互独立\n∴P(AB)=P(A)P(B)\n∴P(A-B)= P(A)- P(A)P(B)=P(A)[1-P(B)]=0.3\nP(A)(1-0.5)=0.3\n∴P(A)=0.6    P(AB)=P(A)P(B)=0.6×0.5=0.3\n∴P(B-A)=P(B)-P(BA)=0.5-0.3=0.2\n【答案\n答案\n答案】B\n答案",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-choice-q8-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-choice-q8-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p3",
+          "bbox": [
+            0.025,
+            0.6372661215932427,
+            0.985,
+            0.8902761827772417
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-f3d5d88467235c51281b-s0-choice-q8-o1-r2",
+          "page_id": "d-f3d5d88467235c51281b-p4",
+          "bbox": [
+            0.025,
+            0.09860804650675939,
+            0.985,
+            0.28542263274445767
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "−\nX\nX\nσ )的简单随机样本,则统计量 =\n(8)设X1,X2,X3 为来自正态总体N(0, 2\n2 服\nS\n2 X\n从的分布为(    )\n(A)F(1,1)\n(B)F(2,1)\n(C)t(1)\n(D)t(2)\n−\nX\nX\n【解析\n解析】 =\n解析\n解析\nS\n2 X\n(\n)\n−\nσ 2\n,\nX\nX ~ N 0 2\n−\nX\nX\n( )1\n2 ~ N 0\n,\nσ\nσ 2\nX ~ N ( ,0\n)\n X \nX\n( )1\nχ\n∴\n3 ~ N 0\n, ∴  3  ~ 2 )1(\nσ\nσ\n\n\n−\nX\nX\nX\n2 与\n3 相互独立.\nσ\nσ\n−\nX\nX\n−\nσ\nX\nX\n=\n2 ~ t (1)\nX\n2 X\nσ",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-blank-q9-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-blank-q9-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p4",
+          "bbox": [
+            0.025,
+            0.31701405268025035,
+            0.985,
+            0.390727426270691
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(9)设某商品的需求函数为Q=40-2p(p 为商品的价格),则该商品的边际收益为      .\n=\n=\n−\n=\n−\n【解析\n解析\n解析】 R ( p )\n解析\nPQ\np ( 40 2 p ) 40 p 2 p\n′\n=\n−\nR ( p ) 40 4 p .",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-blank-q10-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "10",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-blank-q10-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p4",
+          "bbox": [
+            0.025,
+            0.390727426270691,
+            0.985,
+            0.5347083630052145
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(10)设D 是由曲线xy+1=0 与直线y+x=0 及y=2 围成的有界区域,则D 的面积为      .\n【解析\n解析\n解析】如右图:\n解析\n∴区域D 的面积\n= ∫\n∫\n+ ∫\n∫\nS\ndy\ndx\ndy\ndx\n− y\n−\ny\n=\n+\nl n",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-blank-q11-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-blank-q11-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p4",
+          "bbox": [
+            0.025,
+            0.5347083630052145,
+            0.985,
+            0.7403222673647194
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "∫ xe x\n=\n2 dx\n(11)设\n,则a =      .\na\n∫\n=\n2 x\n【解析\n解析\n解析】∵\n解析\nxe dx\n=\n2 a − e\n2 a +\n即 ae\n2 a − e\n2 a = 0\n∴ ae\n=\n∴ a\n.",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-blank-q12-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-blank-q12-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p4",
+          "bbox": [
+            0.025,
+            0.7403222673647194,
+            0.985,
+            0.8061213152742726
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-f3d5d88467235c51281b-s0-blank-q12-o1-r2",
+          "page_id": "d-f3d5d88467235c51281b-p5",
+          "bbox": [
+            0.025,
+            0.09049820852392927,
+            0.985,
+            0.2827147594702593
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "x\n1 e\n∫\n∫\n− y\n=\n(12)二次积分 dy (\ne ) dx .\ny x\n【解析\n解析】积分区域如右图\n解析\n解析\nx 2\n1 e\n∫\n∫ y 2\n= ∫\n− ∫\n原式\ndy\ndx\ndy e dx\nx\ny\ny\nx\n\n1 \nx e\n∫\n∫\n∫\n=\n−  y\n\ndx\ndy\ne x\ndy\n\n0 x\n0 \ny\n∫ x\n∫ y\n=\n−\n−\ne dx\ne 1(\ny dy\n)\n= ∫ x 2\n− ∫ y 2 + ∫\ny 2\ne dx\ne\nye dy\n1 1\n∫ y 2\n=\n=\ny 2\n=\n−\ne d y 2\ne\n( e )1\n2 0",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-blank-q13-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-blank-q13-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p5",
+          "bbox": [
+            0.025,
+            0.2827147594702593,
+            0.985,
+            0.8981060074831131
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-f3d5d88467235c51281b-s0-blank-q13-o1-r2",
+          "page_id": "d-f3d5d88467235c51281b-p6",
+          "bbox": [
+            0.025,
+            0.09402279851555542,
+            0.985,
+            0.09823344751208525
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "= 2 − 2 +\n+\n(13)设二次型 f x x , x )\n( ,\nx\nx\n2 ax x\n4 x x\n的负惯性指数是1,则a 的取值范\n1 3\n2 3\n围      .\n 1\na \n\n\n=\n−\n【解析\n解析】 A  0\n解析\n解析\n1 2 \n\n\na\n0 \n\nλ λ λ =\n因为 λ + λ + λ = 0 ,\n,负惯性指数为1\nA\n1 2 3\n∴ 设\nλ <\nλ λ ≥\n0, 从而\n2 3\n∴A ≤\n2 −\nA <\nλ <\nλ >\nλ >\n= a\n1若\n0 ,则\n0,\n0,\n0 . 此时符合题意,而 A\n∴\n− <\n− <\n<\na 2\n0. 即\na\n2 .\nλ <\nλ >\nλ =\n=\n= ±\n2若 A\n0,\n0,\n0 ,此时 a\n0 ,则\nλ\n−\n−\n 1\n2 \n\n\n=\n−\nλ −\n=\nλ\n+\n− = λ λ\n+\nλ\n−\n当a =2 时. A\n1 2\nE\nA\n(\n3)(\n3)\n\n\n\n\n−\n−\nλ\n0 \n 2\nλ = − , λ = , λ =\n∴a =\n2 符合题意\n−\nλ −\n 1\n2 \n\n\na = −时\n=\n−\nλ −\n=\nλ +\n−\n= λ λ +\nλ −\n当\nA  0\n2 \nE\nA\n(\n)(\n)\n\n\n−\n−\nλ\n0 \n\nλ = − , λ = , λ = 符合题意\n≤\n综上,a 的取值范围是 − ≤ a",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-blank-q14-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-blank-q14-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p6",
+          "bbox": [
+            0.025,
+            0.09823344751208525,
+            0.985,
+            0.38756036372120567
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": " 2 x\nθ\n<\n< θ\n\n,\nx\nθ =  θ\n⋯\n,其中θ 是未知参数,1 ,\n(14)设总体X 的概率密度为 f x\n( , )\nx x ,\n, x\nn\n\n0, 其他\nn\n∑\n2 = θ\n2 ,则c =      .\n为来自总体X 的简单样本,若 E c\nx )\n(\ni\ni =\n【解析\n解析】\n解析\n解析\nθ\n2 x\nθ\nθ\n= ∫\n⋅\nθ =\n∫\n=\n⋅\nE X 2 )\n(\nx 2\nd\nx dx\nx 4\nθ\nθ\nθ\nθ\n3 2\n3 2 θ\n4 3 2\nθ\n=\n⋅ θ\n4 = θ\nθ\n\n=\nn\nn\n∑\n∑\n⋅⋅ θ\n=\n2 = C n\n2 = θ\n2 ⇒ C\nE C\nX \nC\nE X )\n(\n\ni\ni\n\n\nn\ni =\ni =",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-solution-q15-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "15",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-solution-q15-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p6",
+          "bbox": [
+            0.025,
+            0.4277820363531769,
+            0.985,
+            0.702127524912782
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(15)(本题满分10 分)\nx\n∫\n−\n−\n[\nt ( e t\n)1\nt ]\ndt\n求极限 lim\n。\n→ +∞\nx\n+\nx 2 ln(\n)\nx\nx\nx\n∫\n−\n−\n∫\n−\n−\n[\nt 2 ( e t\n)1\nt ]\ndt\n[\nt 2 ( e t\n)1\nt ]\ndt\nx\n=\n⋅\n【解】 lim 1\nlim 1\n→ +∞\n→ +∞\nx\nx\nx\n+\n+\nx ln(\n)\nln(\n)\nx\nx\nx\n→∫\n−\n−\n[\nt 2 ( e t\n)1\nt ]\ndt\n=\n=\n−\n−\nlim 1\nlim [ x 2 ( e x\n)1\nx ]\nx\nx +∞\nx → +∞\n− −\n−\ne t\n1 t\ne t\n=\n− −\n=\n=\n=\nlim x ( e x\n)\nlim\nlim\n。\n→ +∞\nx\n→\n→\nt\nt 2\nx\nt 0\nt 0",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-solution-q16-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "16",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-solution-q16-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p6",
+          "bbox": [
+            0.025,
+            0.702127524912782,
+            0.985,
+            0.9145149685458729
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-f3d5d88467235c51281b-s0-solution-q16-o1-r2",
+          "page_id": "d-f3d5d88467235c51281b-p7",
+          "bbox": [
+            0.025,
+            0.09148390455087405,
+            0.985,
+            0.18653120612041021
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(16)(本题满分10 分)\nπ\n2 + 2\nx sin(\nx\ny )\n=\n≤\n+\n≤\n≥\n≥\n,计算∫∫\n设平面区域 D\n{( x , y |) 1\nx 2\ny 2\n,4 x\n,0 y\n}\ndxdy 。\n+\nx\ny\nD\n【解】\nπ\n+\nπ\n+\nx sin(\nx 2\ny 2 )\ny sin(\nx 2\ny 2 )\n= ∫∫\n= ∫∫\n由对称性得 I\ndxdy\ndxdy ,\n+\n+\nx\ny\nx\ny\nD\nD\n\n\nπ\n+ 2\nπ\n+ 2\nx sin(\nx\ny )\ny sin(\nx\ny )\n=\n∫∫\n+ ∫∫\n\n于是 I\ndxdy\ndxdy \n+\n+\n2 \nx\ny\nx\ny\n\n\n\nD\nD\nπ\n∫∫\n∫\n∫ 2\n∫ 2\n=\nπ\n=\nθ\nπ\n=\nπ\nπ π\n2 + 2\nsin(\nx\ny ) dxdy\nr sin rdr\nr sin rd ( r )\n2 d\nπ\n2 0\nD\nπ\nπ\nπ\n∫\n∫\nπ\n∫\n=\n= −\n= −\n= −\n2 +\nt sin tdt\ntd (cos t )\nt cos t |\ncos tdt\n。\nπ\nπ\nπ\nπ\nπ\nπ\nπ\nπ",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-solution-q17-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-solution-q17-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p7",
+          "bbox": [
+            0.025,
+            0.18653120612041021,
+            0.985,
+            0.7612724035267593
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(17)(本题满分10 分)\n=\n设函数\nf (u ) 二阶连续可导,\nz\nf e x cos\n(\ny ) 满足\n∂ 2\n∂ 2\nz\nz\n+\n=\n+ x\n2 x ,\ne cos y ) e\n( 4 z\n∂\n∂\nx 2\ny 2\n′\n=\n=\n若 f ( 0\n)\n,0 f ( 0\n)\n0 ,求 f (u ) 的表达式。\n【解】\n∂\n∂\nz\nz\n=\n⋅ ′\n= −\n⋅ ′\ne x cos y f ,\ne x sin y f ,\n∂\n∂\nx\ny\n∂ 2\n∂ 2\nz\nz\n= x\n⋅ ′ +\n⋅ ′′\n= − x\n⋅ ′ +\n⋅ ′′\nx\nx\ne cos y f\ne 2 cos 2 y f ,\ne cos y f\ne 2 sin 2 y f ,\n∂\n∂\nx 2\ny 2\n∂ 2\n∂ 2\nz\nz\n′′\n+\n= 2 x\ne\nf ,\n∂\n∂\nx 2\ny 2\n∂ 2\n∂ 2\nz\nz\nx cos\n=\n+\n=\n+\n令 u\ne\ny ,由\n( 4 z\ne x cos y ) e 2 x 得\n∂ 2\n∂ 2\nx\ny\n′′\n′′\n=\n+\n−\n=\nf (\nu )\n4 f (\nu )\nu ,或 f (\nu )\n4 f (\nu )\nu ,\n− 2 u +\n=\n2 u −\n解得 f (\nu )\nC e\nC e\nu ,\n+\n=\n\nC\nC\n 1\n′\n=\n=\n= −\n=\n由 f ( 0\n)\n,0 f ( 0\n)\n0 得\n,解得 C\n, C\n,\n−\n+\n−\n=\nC\nC\n 2\n= −\n− 2 u − 2 u −\nu )\ne )\nu 。\n故 f (\n( e",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-solution-q18-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-solution-q18-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p7",
+          "bbox": [
+            0.025,
+            0.7612724035267593,
+            0.985,
+            0.8922670016979661
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-f3d5d88467235c51281b-s0-solution-q18-o1-r2",
+          "page_id": "d-f3d5d88467235c51281b-p8",
+          "bbox": [
+            0.025,
+            0.09231065183807156,
+            0.985,
+            0.3501098708200341
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(18)(本题满分10 分)\n∞\n求幂级数∑\n+\n+\n( n 1\n)( n\n) x n 的收敛域及和函数。\n=\nn 0\na 1 =\n=\nn + | 1 得 R\n【解】由 lim |\n1 ,\n→ ∞\na\nn\nn\n= ±\n+\n+\n→ ∞ ≠\n→ ∞\n(−\n当 x\n1 时,因为 ( n 1\n)( n\n)\n0 ( n\n),所以收敛域为\n)1,1 。\n∞\n∑\n=\n+\n+\nn\n令 S ( x )\n( n 1\n)( n\n) x ,则\n=\nn 0\n∞\n∞\n= ∑\n+\n+\n= ∑\n+\n+\n+\n+\nS ( x )\n( n 2\n4 n\n) x n\n[( n 1\n)( n\n)\n( n 1\n)] x n\n=\n=\nn 0\nn 0\n∞\n∞\n∞\n∞\n∑\n∑\n∑\n∑\n=\n+\n+\n+\nn +\nn = (\nn + n + (\nn + ′\nx 2 )\nx 1 )\n( n 1)( n\n2) x\n( n 1) x\nn = 0\nn = 0\nn = 0\nn = 0\n−\nx 2\nx\n3 x\n′′ +\n′ =\n=\n(\n)\n(\n)\n。\n−\n−\n−\n1 x\n1 x\n(1 x ) 3",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-solution-q19-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-solution-q19-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p8",
+          "bbox": [
+            0.025,
+            0.3501098708200341,
+            0.985,
+            0.8345898580543598
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(19)(本题满分10 分)\n≤\n≤\n设 f ( x ), g ( x ) 在 [ a , b ] 上连续,且 f (x ) 单调增加, 0\ng ( x )\n1 ,证明:\nx\n≤∫\n≤\n−\nx ∈\n(I) 0\ng (\nt ) dt\nx\na ,\n[ a , b ] 。\na\nb\n+ ∫ g ( t ) dt\nb\n∫ a\n≤ ∫\n(II)\nf ( x ) dx\nf ( x ) g ( x ) dx 。\na\na\na\n≤\n≤\n【证明】(I)因为 0\ng ( x )\n1 ,\nx\nx\nx\nx\n∫\n≤∫\n≤ ∫\n≤ ∫\n≤\n−\n所以\n0 dt\ng (\nt ) dt\ndt ,即 0\ng (\nt ) dt\nx\na 。\na\na\na\na\nx\n+ ∫ g ( t ) dt\nx\na\nφ\n= ∫\n− ∫\nφ\n=\n(II) ( x )\nf (\nu ) g (\nu ) du\nf (\nu ) du , ( a )\n0 ,\na\na\na\nx\n′\nφ\n=\n−\n+ ∫\n( x )\nf ( x ) g ( x )\ng ( x ) f [ a\ng (\nt ) dt ] ,\na\nx\n∫\n≤\n−\n因为\ng (\nt ) dt\nx\na 且 f (x ) 单调增加,\na\n+ ∫\nx\n≤\n+\n−\n=\ng (\nt ) dt ]\nf [ a\n( x\na )]\nf ( x ) ,\n所以 f [ a\na\n′\nφ\n≥\n−\n=\nx ∈\n从而\n( x )\nf ( x ) g ( x )\ng ( x ) f ( x )\n0 ,\n[ a , b ]\nφ\n=\n ( a )\nφ\n≥\nx∈\n由 \n得 ( x )\n0 (\n[ a , b ] ),\n′\nφ\n≥\n≤\n≤\n( x )\n( a\nx\nb )\n\n∫ b\na + g ( t ) dt\nb\nφ\n≥\n∫\n≤ ∫\n从而 (\nb )\n0 ,故\nf ( x ) dx\nf ( x ) g ( x ) dx 。\na\na\na",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-solution-q20-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-solution-q20-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p8",
+          "bbox": [
+            0.025,
+            0.8345898580543598,
+            0.985,
+            0.8617032485200787
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-f3d5d88467235c51281b-s0-solution-q20-o1-r2",
+          "page_id": "d-f3d5d88467235c51281b-p9",
+          "bbox": [
+            0.025,
+            0.08945482086399106,
+            0.985,
+            0.9122341239004973
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-f3d5d88467235c51281b-s0-solution-q20-o1-r3",
+          "page_id": "d-f3d5d88467235c51281b-p10",
+          "bbox": [
+            0.025,
+            0.08818664695757869,
+            0.985,
+            0.7846746921856443
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(20)(本题满分11 分)\n−\n−\n 1\n4 \n\n\n=\n−\n设 A\n 0\n1  ,E 为三阶单位矩阵。\n\n\n−\n3 \n 1\nAX =\n(I)求方程组\nO 的一个基础解系。\nAB =\nE 的所有矩阵B 。\n(II)求满足\n【解】\n−\n− \n−\n− \n−\n− \n 1\n 1\n 1\n\n\n\n\n\n\n=\n−\n→\n−\n→\n−\n(I) A\n 0\n1 \n 0\n1 \n 0\n1 \n\n\n\n\n\n\n−\n−\n−\n3 \n1 \n3 \n 1\n 0\n 0\n−\n 1\n 1\n5 \n1 \n\n\n\n\n→\n−\n→\n−\n\n2 \n\n2  ,\n\n\n\n\n−\n−\n3 \n3 \n 0\n 0\nAX =\nξ = −\nT\n则方程组\nO 的一个基础解系为\n( 1,2,3,1) 。\n x\nx\nx \n 1\n3 \n x\nx\nx \n=\n(II)令 B\n,\n\n\nx\nx\nx\n 7\n9 \nx\nx\nx \n\n x\n\nx\nx\n−\n−\n 1\n3 \n 1\n4 \n\n\n x\nx\nx \n=\n−\nAB\n 0\n1 \n\n\nx\nx\nx\n\n\n 7\n\n−\n3 \n 1\nx\nx \n x\n−\n+\n−\n−\n+\n−\n−\n+\n−\n x\n2 x\n3 x\n4 x\nx\n2 x\n3 x\n4 x\nx\n2 x\n3 x\n4 x \n 1\n12 \n=\n−\n+\n−\n+\n−\n+\n\nx\nx\nx\nx\nx\nx\nx\nx\nx\n ,\n\n\n+\n−\n+\n−\n+\n−\nx\n2 x\n3 x\nx\n2 x\n3 x\nx\n2 x\n3 x\n\n\nAB =\n由\nE 得\n−\n+\n−\n=\n−\n+\n−\n=\n−\n+\n−\n=\n\n\n\nx\nx\nx\n2 x\n3 x\n4 x\n2 x\n3 x\n4 x\n2 x\n3 x\n4 x\n\n\n\n−\n+\n=\n−\n+\n=\n−\n+\n=\nx\nx\nx\n、 x\nx\nx\n、 x\nx\nx\n。\n\n\n\n+\n−\n=\n+\n−\n=\n+\n−\n=\nx\n2 x\n3 x\nx\n2 x\n3 x\nx\n2 x\n3 x\n−\n−\n−\n−\n 1\n 1\n1 \n1 \n\n\n\n\n−\n→\n−\n由  0\n0 \n 0\n0 \n\n\n\n\n−\n−\n−\n0 \n 1\n 0\n\n−\n−\n−\n 1\n 1\n 1\n1 \n4 \n2 \n\n\n\n\n\n\n→\n−\n→\n−\n−\n→\n−\n−\n 0\n0 \n 0\n\n 0\n 得\n\n\n\n\n\n\n−\n−\n−\n−\n−\n−\n\n\n\n\n\n\n− \n−\n x \n 2\n\n 2\nk \n 1 \n\n\n\n\n\n1 \n−\n−\n x \n 2 \n 1\n\n 2 k\n\n=\n+\n=\nk\n;\n\n\n\n\n\n\n\n\n−\n−\nx\nk\n 7\n\n\n\n\n\n\n\nk\n x \n 1 \n 0 \n\n\n−\n−\n−\n−\n 1\n\n 1\n\n\n\n\n\n−\n→\n−\n由  0\n1 \n 0\n1 \n\n\n\n\n−\n−\n0 \n0 \n 1\n 0\n−\n−\n 1\n 1\n0 \n6 \n\n\n\n\n→\n−\n→\n−\n−\n 0\n1 \n 0\n3  得\n\n\n\n\n−\n−\n−\n−\n4 \n4 \n 0\n 0\n− \n−\n x\n\n 6\n\n 6\n\nk\n 2 \n\n\n\n\n\n2 \n−\n−\n x \n 2 \n 3 \n 2 k\n3 \n=\n+\n=\nk\n;\n\n\n\n\n\n\n\n\n−\n−\nx\nk\n 8\n\n\n\n\n\n\n\nk\n x \n 1 \n 0 \n\n\n−\n−\n−\n−\n 1\n 1\n0 \n0 \n\n\n\n\n−\n→\n−\n由  0\n0 \n 0\n0 \n\n\n\n\n−\n−\n1 \n1 \n 1\n 0\n−\n−\n− \n 1\n 1\n0 \n\n\n\n\n→\n−\n→\n−\n 0\n0 \n 0\n1  得\n\n\n\n\n−\n−\n1 \n1 \n\n\n− \n− \n− −\n x \n 1 k \n 3 \n\n\n\n\n\n3 \n+\n x \n\n2 \n\n1 \n 2 k\n1 \n=\n+\n=\nk\n,\n\n\n\n\n\n\n\n\n+\nx\nk\n 9 \n\n\n\n\n\n\nx \nk\n1 \n0 \n\n\n\n\n\n−\n−\n− −\n 2\n\nk\nk\n1 k\n\n3 \n−\n−\n+\n1 2 k\n2 k\n1 \n 2 k\n=\n故 B\n(其中 k , k , k 为任意常数)。\n\n\n−\n−\n+\nk\n1 3\nk\nk\n\n\nk\nk\nk\n\n\n⋯\n⋯\n 1 1\n\n 0\n\n\n\n\n",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-solution-q21-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-solution-q21-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p10",
+          "bbox": [
+            0.025,
+            0.7846746921856443,
+            0.985,
+            0.9493424115758611
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-f3d5d88467235c51281b-s0-solution-q21-o1-r2",
+          "page_id": "d-f3d5d88467235c51281b-p11",
+          "bbox": [
+            0.025,
+            0.08890871206541809,
+            0.985,
+            0.36665781613408055
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "⋯\n⋯\n 1 1\n\n 0\n2 \n(21)(本题满分11 分)证明n 阶矩阵\n与\n相似。\n\n\n\n\n⋮\n⋮\n⋮\n⋮\n⋮\n⋮\n⋮\n⋮\n\n\n\n\n⋯\n⋯\nn \n 1 1\n\n 0\n【证明】\n您所下载的资料来源于kaoyan.com 考研资料下载中心\n获取更多考研资料,请访问http://download.kaoyan.com\n⋯\n⋯\n 1 1\n\n 0\n\n\n\n\n\n⋯\n⋯\n 1 1\n\n 0\n2 \n=\n=\n令 A\n, B\n,\n\n\n\n\n⋮\n⋮\n⋮\n⋮\n⋮\n⋮\n⋮\n⋮\n\n\n\n\n⋯\n⋯\nn \n 1 1\n\n 0\nλ −A =\nλ = ⋯ = λ\n=\nλ =\n由 | E\n| 0 得A 的特征值为\n,0\nn ,\n−\nn 1\nn\nλ −B =\nλ = ⋯ = λ\n=\nλ =\n由 | E\n| 0 得B 的特征值为\n,0\nn 。\nn −\nn\nAT =\n因为\nA ,所以A 可对角化;\n−\n=\n=\n对B ,因为 r ( 0 E\nB )\nr ( B )\n1 ,所以B 可对角化,\n因为 A, B 特征值相同且都可对角化,所以 A ~ B 。",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-solution-q22-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-solution-q22-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p11",
+          "bbox": [
+            0.025,
+            0.36665781613408055,
+            0.985,
+            0.8931337444097016
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-f3d5d88467235c51281b-s0-solution-q22-o1-r2",
+          "page_id": "d-f3d5d88467235c51281b-p12",
+          "bbox": [
+            0.025,
+            0.09380396537146489,
+            0.985,
+            0.2614321194344443
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(22)(本题满分11 分)\n设随机变量X 的概率分布为P{X=1}=P{X=2}= 1\n,在给定X=i 的条件下,随机变量Y 服从\n均匀分布U(0,i),(i=1,2).\n(I)求Y 的分布函数Fy(y);\n(II)求EY.\n【解】\n=\n≤\n=\n=\n≤\n=\n+\n=\n≤\n=\n(I) FY ( y )\nP Y\n{\ny\n}\nP\n{ X\n1 P Y\n} {\ny | X\n}\nP\n{ X\n2 P Y\n} {\ny | X\n}\n=\n≤\n=\n+\n≤\n=\nP Y\n{\ny | X\n}\nP Y\n{\ny | X\n} ,\n<\n=\ny\n时, FY ( y )\n0 ;\n1 y\n1 y\n3 y\n≤y <\n=\n⋅\n+\n⋅\n=\n当 0\n1 时, FY ( y )\n;\n2 1\n2 2\n≤y <\n当 1\n2 时,\ny\n1 y\n=\n+\n⋅\n=\n+\nFY ( y )\n;\n2 2\n≥\n=\n当 y\n2 时, FY ( y )\n1 ,\n<\n\n,0 y\n\n3 y\n\n≤\n<\n0,\ny\n\n=\n故 FY ( y )\n\n。\ny\n\n+\n≤\n<\n1,\ny\n\n\n≥\n,1\ny\n\n 3\n<\n<\n0,\ny\n\n\n=\n<\n<\n(II) fY ( y )\n 1,\ny\n2 ,\n\n 其他\n,0\n\n\n3 x\nx\n= ∫\n+ ∫\n=\n+\n=\nEY\ndx\ndx\n。",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f3d5d88467235c51281b-s0-solution-q23-o1",
+      "document_id": "d-f3d5d88467235c51281b",
+      "number": "23",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f3d5d88467235c51281b-s0-solution-q23-o1-r1",
+          "page_id": "d-f3d5d88467235c51281b-p12",
+          "bbox": [
+            0.025,
+            0.2614321194344443,
+            0.985,
+            0.8367793032539712
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学三试题及解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(23)(本题满分11 分)\n设随机变量X、Y 的概率分布相同,X 的概率分布为P{X=0}= 1\n,P{X=1} ,且X 与Y 的相关\nρ =\n系数\n.\nXY\n(I)求(X,Y)的概率分布;\n(II)求P{X+Y≤1}.\n【解】\n 0 1 \n 0 1 \n\n\n\n\nX ~ 1\n, Y ~ 1\n\n\n\n\n\n\n\n\n 3\n\n 3\n\n2 2\n−\n⋅\nEXY\n−\n⋅\nEXY\nEX EY\n3 3 =\nρ =\n=\n(I)\nXY\nDX\nDY\n5.\n=\n= ×\n=\n=\n⇒ EXY\n而 EXY\n1 p X\n{\n1, Y\n1}\n+\n≤\n= −\n+\n>\n(II){\nP X\nY\n1} 1 P X\n{\nY\n1}\n= −\n=\n=\n1 P X\n{\n1, Y\n1}\n= −\n=\n1 5 / 9\n4 / 9",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [],
+  "identity": {
+    "category": "考研数三",
+    "year": "2014",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

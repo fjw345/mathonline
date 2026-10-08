@@ -1,0 +1,1392 @@
+{
+  "item": {
+    "id": "d-19fdb2c6d6d5d650d438",
+    "path": "resource/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2024年数学二真题+解析/2024考研数学二真题+答案.pdf",
+    "name": "2024考研数学二真题+答案.pdf",
+    "sha256": "b6acb7e602b11caaa8944606986b1855e2028aaf5a9b5fd49f1e162c540b0628",
+    "format": "pdf",
+    "bytes": 2909330,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 6,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 592.9199829101562,
+        "height": 840.9600219726562,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 592.9199829101562,
+        "height": 840.9600219726562,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 592.9199829101562,
+        "height": 840.9600219726562,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 592.9199829101562,
+        "height": 840.9600219726562,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 592.9199829101562,
+        "height": 840.9600219726562,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 6,
+        "width": 592.9199829101562,
+        "height": 840.9600219726562,
+        "text_chars": 0,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "b6acb7e602b11caaa8944606986b1855e2028aaf5a9b5fd49f1e162c540b0628",
+  "engine_version": 5,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2024年数学二真题+解析/2024考研数学二真题+答案.pdf",
+  "pdf_sha256": "b6acb7e602b11caaa8944606986b1855e2028aaf5a9b5fd49f1e162c540b0628",
+  "pages": [
+    {
+      "id": "d-19fdb2c6d6d5d650d438-p1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": 1,
+      "width": 592.9199829101562,
+      "height": 840.9600219726562,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-p2",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": 2,
+      "width": 592.9199829101562,
+      "height": 840.9600219726562,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-p3",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": 3,
+      "width": 592.9199829101562,
+      "height": 840.9600219726562,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-p4",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": 4,
+      "width": 592.9199829101562,
+      "height": 840.9600219726562,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-p5",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": 5,
+      "width": 592.9199829101562,
+      "height": 840.9600219726562,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-p6",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": 6,
+      "width": 592.9199829101562,
+      "height": 840.9600219726562,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-choice-q3-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-choice-q3-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p1",
+          "bbox": [
+            0.025,
+            0.6651700356718192,
+            0.985,
+            0.8568799048751486
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-choice-q3-o1-r2",
+          "page_id": "d-19fdb2c6d6d5d650d438-p1",
+          "bbox": [
+            0.025,
+            0.8488799048751486,
+            0.985,
+            0.8849048751486326
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-choice-q3-o1-r3",
+          "page_id": "d-19fdb2c6d6d5d650d438-p2",
+          "bbox": [
+            0.025,
+            0.07371938168846612,
+            0.985,
+            0.0917193816884661
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "SinX\n3. B 知 CO = sintsdbg(Oo = 万 FDdt, 则 ( )\nA. 矿 (X) 为奇函数 ,9 (X) 为奇函数\nB. 三 (X) 为奇函数 ,g (X) 为偶函数\nC. 矿 (X) 为偶函数 ,9 (X) 为偶函数\nD. 矿 (X) 为个函数 ,G (X) 为奇函数",
+      "answer_hint": "【答案】D",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-choice-q4-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-choice-q4-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p2",
+          "bbox": [
+            0.025,
+            0.08371938168846611,
+            0.985,
+            0.42346730083234246
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-choice-q4-o1-r2",
+          "page_id": "d-19fdb2c6d6d5d650d438-p2",
+          "bbox": [
+            0.025,
+            0.41546730083234246,
+            0.985,
+            0.5441569560047562
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "4. 已知数列 {a,}(a, 0) , 若 {o} 发敢 , 则 ( )\nGa | 发艇\n|\nA.\nmw -| 发下\nGm\nB.\ne + 二 | 发散\nC.\n人\nD.",
+      "answer_hint": "【答案】D\n|\n人 +2jsin 一 , Mr0\n, 岂在点 (0.0) 处 〈\n已知亲数 87(xT)=\n) ,\n已\n|\n=0\n0,",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-choice-q5-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-choice-q5-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p2",
+          "bbox": [
+            0.025,
+            0.5361569560047562,
+            0.985,
+            0.8206956004756243
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-choice-q5-o1-r2",
+          "page_id": "d-19fdb2c6d6d5d650d438-p3",
+          "bbox": [
+            0.025,
+            0.07490844233055886,
+            0.985,
+            0.10004280618311534
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "5.\n弥 (7)\nCn\nA.\nSC 2) 连续\n: 续 ,J/ 0x.T) 不可入\nB. C\ncf\n不连续 ,J(x.7Y) 可微\nCC s\n不连续 ,JF(xT) 不可向\nD.\nSm",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-choice-q6-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-choice-q6-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p3",
+          "bbox": [
+            0.025,
+            0.09204280618311535,
+            0.985,
+            0.2754292508917955
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-choice-q6-o1-r2",
+          "page_id": "d-19fdb2c6d6d5d650d438-p3",
+          "bbox": [
+            0.025,
+            0.2674292508917955,
+            0.985,
+            0.33428775267538646
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "6. 设廊 (是连续六数 , 则 [ 必 [ (xj = ) .\n了 ax\n1 , arsil 1 [三\n(Ga) |d| rd (B) | rryjds\n了 ras\n(C) [4 = myrldr (D) | 2 jx)d\n了 “Ja",
+      "answer_hint": "【答案】A",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-choice-q7-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-choice-q7-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p3",
+          "bbox": [
+            0.025,
+            0.32628775267538646,
+            0.985,
+            0.37352675386444706
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "7. 设非负国数 ,Ps) 在 [0,+ 关 ) 上连",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-choice-q6-o2",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-choice-q6-o2-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p3",
+          "bbox": [
+            0.025,
+            0.36552675386444705,
+            0.985,
+            0.5685326991676576
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-choice-q6-o2-r2",
+          "page_id": "d-19fdb2c6d6d5d650d438-p3",
+          "bbox": [
+            0.025,
+            0.5605326991676576,
+            0.985,
+            0.6285802615933412
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "6 基站 Pendr 骨伍 , 则 | 六 ADaskg\n《23 若存在万 > 1, 使乒良 im xeA(a 存在则 [PCna 收仅 :\n(3) 知人 ACod 收务 , 则存在严 > 1 使杉限 lin xa7(x) 存在 :\n下\n其中止铺的个数是 (  )\n(A) 0 〈B) 1 《C) 了 (D) 3",
+      "answer_hint": "【答案】B",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-choice-q8-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-choice-q8-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p3",
+          "bbox": [
+            0.025,
+            0.6205802615933412,
+            0.985,
+            0.6672247324613555
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "8.\n100) fa+xe 0 el",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-choice-q8-o2",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-choice-q8-o2-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p3",
+          "bbox": [
+            0.025,
+            0.6592247324613555,
+            0.985,
+            0.782563614744352
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-choice-q8-o2-r2",
+          "page_id": "d-19fdb2c6d6d5d650d438-p3",
+          "bbox": [
+            0.025,
+            0.774563614744352,
+            0.985,
+            0.8336932223543401
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "8. 设半为 : 防生阵 , 已 =|0 1 o|. 全 PI4P:=| 0 0 0 则年昨 4 为 (5 )\n101) xc 0c)\nc 0 0 fo 0 01 fa 0 0 fc 0 0\n(4) 10 Qa 0| (B) |0 < 9| (CO 0 hh 0 (2) |0 0\n10 0 中 10 0 ol 0 0 < 10 0 au",
+      "answer_hint": "【答案】 C",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-choice-q9-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "9",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-choice-q9-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p3",
+          "bbox": [
+            0.025,
+            0.8256932223543401,
+            0.985,
+            0.8973900118906064
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-choice-q9-o1-r2",
+          "page_id": "d-19fdb2c6d6d5d650d438-p4",
+          "bbox": [
+            0.025,
+            0.071935790725327,
+            0.985,
+            0.17019738406658738
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-choice-q9-o1-r3",
+          "page_id": "d-19fdb2c6d6d5d650d438-p4",
+          "bbox": [
+            0.025,
+            0.16219738406658737,
+            0.985,
+            0.2213269916765755
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "9. 设 A* 为四阶窍阵 , A* 为 A 的伴随算阵 , 若 A(A-A)=O , 且 A 天 A*, 则 r(A) 的可能取值\n为 ()\nA. 0 或 1\nB, 1 或 3\nC. 2 或 3\nD. 1 或 2",
+      "answer_hint": "【答案】D",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-choice-q10-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "10",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-choice-q10-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p4",
+          "bbox": [
+            0.025,
+            0.21332699167657548,
+            0.985,
+            0.37471581450653985
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-choice-q10-o1-r2",
+          "page_id": "d-19fdb2c6d6d5d650d438-p4",
+          "bbox": [
+            0.025,
+            0.36671581450653984,
+            0.985,
+            0.4294126040428062
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "10, 设 A, B 均为 2 阶矩阵 , 且 AB=BA, 则 “A 有两个不相等的特征值 ”是 “B 可对角化 ”的\n( )\nB, 充分非必要条件\n.必要非充分条件\nC\n。, 既非充分又非必要条件\nD",
+      "answer_hint": "【答案】B",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-blank-q11-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-blank-q11-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p4",
+          "bbox": [
+            0.025,
+            0.44995005945303207,
+            0.985,
+            0.48589298454221164
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-blank-q11-o1-r2",
+          "page_id": "d-19fdb2c6d6d5d650d438-p4",
+          "bbox": [
+            0.025,
+            0.47789298454221163,
+            0.985,
+            0.5132413793103449
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "11. 曲线兄 =x 在点 (0, 0) 处的曲率圆方程为 .",
+      "answer_hint": "【答案】 (x-1/2) 平方 +y 平方 -1/4",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-blank-q12-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-blank-q12-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p4",
+          "bbox": [
+            0.025,
+            0.5052413793103449,
+            0.985,
+            0.5417788347205708
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-blank-q12-o1-r2",
+          "page_id": "d-19fdb2c6d6d5d650d438-p4",
+          "bbox": [
+            0.025,
+            0.5337788347205707,
+            0.985,
+            0.5691272294887039
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "12. 函数 f(x, y)= 2x3-9x2z-6y?+12x+24y 的极值点是",
+      "answer_hint": "【答案】 (1,1)",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-blank-q13-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-blank-q13-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p4",
+          "bbox": [
+            0.025,
+            0.5611272294887039,
+            0.985,
+            0.6089607609988109
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-blank-q13-o1-r2",
+          "page_id": "d-19fdb2c6d6d5d650d438-p4",
+          "bbox": [
+            0.025,
+            0.6009607609988109,
+            0.985,
+            0.6404708680142688
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "13, 微积方程 y -< 满足 yY(D= 0 的解为",
+      "answer_hint": "【答案】y-arctan(x+y)+r/4=0",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-blank-q14-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-blank-q14-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p4",
+          "bbox": [
+            0.025,
+            0.6324708680142688,
+            0.985,
+            0.6737645659928656
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-blank-q14-o1-r2",
+          "page_id": "d-19fdb2c6d6d5d650d438-p4",
+          "bbox": [
+            0.025,
+            0.6657645659928656,
+            0.985,
+            0.6963567181926278
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "14. 已知函数 FCx) = 2 (ex 一 1) , 则 FS)(CO=",
+      "answer_hint": "【答案】31le",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-blank-q15-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "15",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-blank-q15-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p4",
+          "bbox": [
+            0.025,
+            0.6883567181926278,
+            0.985,
+            0.735001189060642
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "15, 某物体以速度 v(t) =t+ksin t 做线运动 , 若它从 t=0 到 t=3 的时间段内平均速度是",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-blank-q2-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-blank-q2-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p4",
+          "bbox": [
+            0.025,
+            0.727001189060642,
+            0.985,
+            0.7665112960760999
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-blank-q2-o1-r2",
+          "page_id": "d-19fdb2c6d6d5d650d438-p4",
+          "bbox": [
+            0.025,
+            0.7585112960760999,
+            0.985,
+            0.7873198573127229
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "2 , 则上",
+      "answer_hint": "【答案】3m/2",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-blank-q16-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "16",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-blank-q16-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p4",
+          "bbox": [
+            0.025,
+            0.7793198573127229,
+            0.985,
+            0.8770939357907254
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-blank-q16-o1-r2",
+          "page_id": "d-19fdb2c6d6d5d650d438-p4",
+          "bbox": [
+            0.025,
+            0.8690939357907254,
+            0.985,
+            0.8973900118906064
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-blank-q16-o1-r3",
+          "page_id": "d-19fdb2c6d6d5d650d438-p5",
+          "bbox": [
+            0.025,
+            0.06896313912009513,
+            0.985,
+            0.08696313912009512
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "16, 设向量 aa -全 ,aa = 由 ,aa -全 , 若 ai,aa,as 线性相关 , 且其中任意\n色工工\n1 Q 工\n西个向量均为线性无关 , 则 ab=",
+      "answer_hint": "【答案】-4",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-solution-q17-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-solution-q17-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p5",
+          "bbox": [
+            0.025,
+            0.10809512485136742,
+            0.985,
+            0.19160047562425683
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-solution-q17-o1-r2",
+          "page_id": "d-19fdb2c6d6d5d650d438-p5",
+          "bbox": [
+            0.025,
+            0.18360047562425683,
+            0.985,
+            0.22429964328180738
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "17. 设于面有办区域玉位于第 “象限 , 由昌线 n 下 3 有线 1 -= YY 一 3 上因成 , 计算\n[arx-wand\nD",
+      "answer_hint": "【答案】8ln3/3",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-solution-q18-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-solution-q18-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p5",
+          "bbox": [
+            0.025,
+            0.21629964328180737,
+            0.985,
+            0.3461783590963139
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-solution-q18-o1-r2",
+          "page_id": "d-19fdb2c6d6d5d650d438-p5",
+          "bbox": [
+            0.025,
+            0.3381783590963139,
+            0.985,
+            0.37412128418549345
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "18. 设 Y= VD) 清忠方程 SP+aY -97=0,Hr =2, Ya =6\n51) 利用释换 x= ee 化疝方程 , 二求 Y(x) 的表达式\n(2) 求 | TODV4-dr",
+      "answer_hint": "【答案】(1)y(x)=2x 立方 , (2) 22 根号 3/5",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-solution-q19-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-solution-q19-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p5",
+          "bbox": [
+            0.025,
+            0.36612128418549345,
+            0.985,
+            0.4300071343638526
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-solution-q19-o1-r2",
+          "page_id": "d-19fdb2c6d6d5d650d438-p5",
+          "bbox": [
+            0.025,
+            0.42200713436385257,
+            0.985,
+            0.47043519619500596
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "19., 设 0, 求曲线 y=Vxe-* 与直线 x= t,x=2t 及 x 轴所围平面图形 , 绕 x 轴旋转所得的\n旋转体体积为 V(D, 求 V(0 的最大值 .",
+      "answer_hint": "【答案】 最大值为 V (In2)=rln2/16+3m/64",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-solution-q20-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-solution-q20-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p5",
+          "bbox": [
+            0.025,
+            0.46243519619500595,
+            0.985,
+            0.6642520808561236
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "20. 设 .FT 革有只连续倘全 ,8GTD)= COCx+Y 3 一) 上肝\n=We 一 , Im= 直 -1 求 .Fu 的表达式\n1 1 1 、\n答案 (1) 一 ,G) = 一 -C++Den+ 一全\n【 80 5 (+le",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-solution-q21-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-solution-q21-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p5",
+          "bbox": [
+            0.025,
+            0.6562520808561236,
+            0.985,
+            0.8099120095124851
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-solution-q21-o1-r2",
+          "page_id": "d-19fdb2c6d6d5d650d438-p5",
+          "bbox": [
+            0.025,
+            0.8019120095124851,
+            0.985,
+            0.8605291319857312
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-solution-q21-o1-r3",
+          "page_id": "d-19fdb2c6d6d5d650d438-p6",
+          "bbox": [
+            0.025,
+            0.09274435196195006,
+            0.985,
+            0.11074435196195005
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "21. 设困数 .AD 革有 2 阶导数 ,LP(O)= 关 D,|AGezls1 .证明 :\nGD rel0D 时 ,FOOD -\n四",
+      "answer_hint": "【答案】 〈1) 泰勒公式在 0 和 1 处展开即可证明 , 〈2) 由 (1) 的不等式两边积分即可证\n明",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-19fdb2c6d6d5d650d438-s0-solution-q22-o1",
+      "document_id": "d-19fdb2c6d6d5d650d438",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-19fdb2c6d6d5d650d438-s0-solution-q22-o1-r1",
+          "page_id": "d-19fdb2c6d6d5d650d438-p6",
+          "bbox": [
+            0.025,
+            0.10274435196195006,
+            0.985,
+            0.505
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年考研数学 〈 二 ) 真题及答案"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "22. | | 8=|1 -次型 On )= TB4v\n0 1 a\n1 0 1\n已知方程组 = 0 的解是 BITx=0 的解 , 但两个方程组不同解 。\n(1) 求马的什 ,\n(2) 求正交年阵 X= Gy 将 Fasaasa) 化为标准形\n【答案] (Ja= 12=2\n1 1 1\n大石态\n1 1 1 :\n(2)O = \\G 本 \\ JJ)=6\n2 -1 |\n二 (0 一\nV6 3",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [],
+  "identity": {
+    "category": "考研数二",
+    "year": "2024",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

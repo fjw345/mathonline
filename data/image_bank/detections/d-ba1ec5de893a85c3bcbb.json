@@ -1,0 +1,1036 @@
+{
+  "item": {
+    "id": "d-ba1ec5de893a85c3bcbb",
+    "path": "resource/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2003-2016考研数（三）真题及详解/2016考研数学三真题及答案解析【老杨学习帮手】.pdf",
+    "name": "2016考研数学三真题及答案解析【老杨学习帮手】.pdf",
+    "sha256": "ce89778763845a4e6dd0c97b67cbf61601f9f01d9926d51c87150b099babf7eb",
+    "format": "pdf",
+    "bytes": 840246,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 20,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 667.0,
+        "height": 598.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 672.0,
+        "height": 392.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 665.0,
+        "height": 563.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 669.0,
+        "height": 407.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 656.0,
+        "height": 584.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 6,
+        "width": 658.0,
+        "height": 372.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 7,
+        "width": 680.0,
+        "height": 586.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 8,
+        "width": 662.0,
+        "height": 597.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 9,
+        "width": 664.0,
+        "height": 364.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 10,
+        "width": 652.0,
+        "height": 589.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 11,
+        "width": 652.0,
+        "height": 589.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 12,
+        "width": 649.0,
+        "height": 367.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 13,
+        "width": 653.0,
+        "height": 548.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 14,
+        "width": 653.0,
+        "height": 428.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 15,
+        "width": 670.0,
+        "height": 504.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 16,
+        "width": 654.0,
+        "height": 401.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 17,
+        "width": 662.0,
+        "height": 521.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 18,
+        "width": 631.0,
+        "height": 338.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 19,
+        "width": 638.0,
+        "height": 556.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 20,
+        "width": 646.0,
+        "height": 402.0,
+        "text_chars": 0,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "ce89778763845a4e6dd0c97b67cbf61601f9f01d9926d51c87150b099babf7eb",
+  "engine_version": 6,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2003-2016考研数（三）真题及详解/2016考研数学三真题及答案解析【老杨学习帮手】.pdf",
+  "pdf_sha256": "ce89778763845a4e6dd0c97b67cbf61601f9f01d9926d51c87150b099babf7eb",
+  "pages": [
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-p1",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": 1,
+      "width": 667.0,
+      "height": 598.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-p2",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": 2,
+      "width": 672.0,
+      "height": 392.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-p3",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": 3,
+      "width": 665.0,
+      "height": 563.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-p4",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": 4,
+      "width": 669.0,
+      "height": 407.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-p5",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": 5,
+      "width": 656.0,
+      "height": 584.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-p6",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": 6,
+      "width": 658.0,
+      "height": 372.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-p7",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": 7,
+      "width": 680.0,
+      "height": 586.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-p8",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": 8,
+      "width": 662.0,
+      "height": 597.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-p9",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": 9,
+      "width": 664.0,
+      "height": 364.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-p10",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": 10,
+      "width": 652.0,
+      "height": 589.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-p11",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": 11,
+      "width": 652.0,
+      "height": 589.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-p12",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": 12,
+      "width": 649.0,
+      "height": 367.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-p13",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": 13,
+      "width": 653.0,
+      "height": 548.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-p14",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": 14,
+      "width": 653.0,
+      "height": 428.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-p15",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": 15,
+      "width": 670.0,
+      "height": 504.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-p16",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": 16,
+      "width": 654.0,
+      "height": 401.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-p17",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": 17,
+      "width": 662.0,
+      "height": 521.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-p18",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": 18,
+      "width": 631.0,
+      "height": 338.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-p19",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": 19,
+      "width": 638.0,
+      "height": 556.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-p20",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": 20,
+      "width": 646.0,
+      "height": 402.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q1-o1",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q1-o1-r1",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p1",
+          "bbox": [
+            0.025,
+            0.3018907469342252,
+            0.985,
+            0.987
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q1-o1-r2",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p2",
+          "bbox": [
+            0.025,
+            0.058877551020408155,
+            0.985,
+            0.6363673469387755
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2016",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(1)》 设函数 =.Goo 在 (-m,+o) 内连续 , 其导数的图\n像 , 如\nROSE 入\n护\n可\n《a) 函数 .FGCo 有 2 个极\n值点 , 曲线 y = oo 有 2 个拐点\n《B) 函数 .fo 有 2 个极\n值点 , 曲线 y = oo 有 3 个拐点\n《c) 函数 .fo 有 3 个极\n值点 , 曲线 y = oo 肛个拐点\n《D) 函数 .AGO 有 3 个极\n值点 , 曲线 2 = .AGCoD 有 2 个拐点\n【解析了由图可知曲线有两个点左右两边导数符号不一样 , 有三个点左右两边导印数单调性不一样 ,\n故有 2 个极值点 ,3 个拐点 .\n革\n《2》 已知品数 .F( xy)=\n无一了\n(ha) 大 -天 =0 (了太坊 =0 (天 = 态 =1 0D) 太 + 态 = 大\n【答案]。 〈D)\n证\nZX\nx-? (zx 人 ” (中",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q3-o1",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q3-o1-r1",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p2",
+          "bbox": [
+            0.025,
+            0.6363673469387755,
+            0.985,
+            0.9618061224489796
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q3-o1-r2",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p3",
+          "bbox": [
+            0.025,
+            0.05927175843694494,
+            0.985,
+            0.987
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q3-o1-r3",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p4",
+          "bbox": [
+            0.025,
+            0.09319410319410319,
+            0.985,
+            0.9328329238329238
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q3-o1-r4",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p5",
+          "bbox": [
+            0.025,
+            0.04,
+            0.985,
+            0.987
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q3-o1-r5",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p6",
+          "bbox": [
+            0.025,
+            0.07064516129032258,
+            0.985,
+            0.8530860215053764
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q3-o1-r6",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p7",
+          "bbox": [
+            0.025,
+            0.06764505119453926,
+            0.985,
+            0.25127645051194536
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2016",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(3) 设 J=[ 庆 -yeto(i=123). 其中\n卫\n《7 页 < 万才万 〈B) 万 < 下 < 帮 〈C < 态 < 太 《D)》 夯 < 丰 < 态\n【解析妃 , 疡 :, 力如图\n易知在刀一已中引 -y<0, 在六- 疡中让 -7 >0, 可知厂 < 厂 > 凡 , 故选 B\nor j 为常数\n《a)》 绝对收剑 《6》 条件收敛 《c) 发散 。”《〈D) 收分性与天有关\n【答案 〗 : (4)\n【解析 ] 了\n代现 、 jaaer9j3 0 - -一\n厢 = 和 si 万 -TO TOM 7\nER 进\n2 2\n由于级数气 2/ 是收仇的 , 故原级数绝对收敛.\n《5)》 设闷召是可逆埠阵 , 且 44 与吾相似 , 则下列结论错误的是 》\n(Cd) 民与本相似 ( 引 ) 二与 8 相似\n【答案]: (C)\n【解析了 : 因为 4 与好相似 , 所以存在可送拭阵忆 , 使得 P .4P = 了 .两端取转置与送可得 :\nPT4T{PT =BT ,PP=BL PT (4+4)P=B+B ,可知 ( 妨 、(B3)、(D) 均正确 , 故\n选择 {(C) 。\n《6) 设二次型 (和 : 加 :六 )=al( 和他 + 冯 + 冯 )+2220 +220+22o 的正负惯性指数分别为 12 ,\n则\n(aA)》 ay>1l (6) a< 一 (c) -2<a<1 (D) a=] 或 ac=-2\n【答案](c)\nfa 1 1\n【解析 ] 二次型拒阵为 | 1 a 1 |, 其特征值为 a-1a-La+2, 可知 a-1<0.a+2>0, 即\n人 1 1 a\n《?) 设志如为两个随机事件 , 且 0< PLD <10< PCB)<1, 如果忆 4| 吾 )=1., 则\n0 (co Pua=0 (0D) P(BI 习 =1\n《a) 书 ( 互 | 本 =1 (《B) (4| 事 )\n【答案了 《4)\n【解析 】 P(_4| 了 ) = 3 =1, 可知 P(4B)=P(B).P(4B)j=P(B)-P(4B)=0\nPR 到) P( 相 -PaB) 本\nz 可 PP 梧\n《8)》 设随机变量互与了相互独立 , 且碟 ~ N(12) 了 ~ NG 4), 则 DI( 开 )=\n《aa) 6 《B) 8 《Cc) 14 《D) 15\n【答案]; 《5C》\n【解析 】( 37)= EXY272-( ET) ,\nENT = EXFT =1.EYT = EYE =3xs=15 则 D( 开 )=14。 故选 (c)\n《9) 已知名数 .ACo) 满足 lim\nGe 一 1 X0\n【 答雪 ]: 6\n1+.fx)sin2x-1\n【解析了 lim 汪\nex 一 1\n签愉于实小走换得书一和 =2。 1 三\n由等价无穷小普换得 ,lim 元 2 ,lim 2。 因此 lim 态忆 =6\n《10) 极限 lim 人到 +-......- 十 zsin 一 |=\n汉防\n玫玫\n【答案 〗 : ”一 cos1+sin1\n【解析了话二 Sin 一丽人 sn] -8\nMa 7 < 了开\n下取了开妈\n十站 cosxaze=-cosl+sinl\n1 1\n《11》 设函数 ffzxsy) 可微 ,z=z( 基 7) 由方程 (x+Hjz- 六 =22A(xz-zy) 确定 , 则\n【解析 ]: 由一阶微分形式不变性 ,\nzdic+(xz+D 尼 -23d=2xf(x-zDadc+zAGc-z(d- 眉 )+CAGc-zDDdy",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q12-o1",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": "12",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q12-o1-r1",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p7",
+          "bbox": [
+            0.025,
+            0.25127645051194536,
+            0.985,
+            0.987
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q12-o1-r2",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p8",
+          "bbox": [
+            0.025,
+            0.04527638190954774,
+            0.985,
+            0.48307537688442204
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2016",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(12) 设 D={(x)zlsys<sL-1<sx<],, 则 [ec7 amh=\n忆\n4 -1 0 0\n0 -1 0\n《13) 行列式交二\n13》 行列式二\n4 3 2 4+1\n活境 : 六和\n人 :站\n【解析 ]: 邻二折 5\n解折 : 令 00 2 21\n4 3 2 +1\n《14) 设袋中有红 、 白 、 黑球个 1 个 , 从中有效回地取球 ,每次取 1 个, 直到三种颜色的求都取\n到时停止 , 则取球次数恰好为 4 的概率为 5\n【答案] -\n【解析 ]J: 要求前三次必须恰好取到两种不同阁色的球 , 第四次取到剩下一种颜色的球\n让守关二",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q15-o1",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": "15",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q15-o1-r1",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p8",
+          "bbox": [
+            0.025,
+            0.48307537688442204,
+            0.985,
+            0.9453484087102177
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q15-o1-r2",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p9",
+          "bbox": [
+            0.025,
+            0.12461538461538461,
+            0.985,
+            0.9224615384615384
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q15-o1-r3",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p10",
+          "bbox": [
+            0.025,
+            0.1003565365025467,
+            0.985,
+            0.4592280701754387
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2016",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(15) (本题满分 10 分 )\n【解析 】 由重要极限得 , 原式为\n。 cos2x+2xsinx-1 1 2 有 (2 对避 je , 子 +oC)\n1 2\n二一赤一世\n《16) 【本题满分 10 分 )\n均 = 一\n、 、 Pen Pa__ P\n【解析 】(1) 由弹性的计算公式妨 = 一亡站可得 , 万大 = 10\n性遇 AN _ 时 , 二可\n分高交量 , 得 = 区 10 ;两边同时积分 , 可得 Q= ln(l20- 刀 +C, 即 2=Cd20-P(C\n为任意常数 )。 由于最大需求量为 1200, 可知 QU0)=1200, 故 C=10, 因此 @=104d20- 忆 )\n《LI) 及 =OP=10(120-- 已己\n_, 琢艰妇 1 坝\n边际收益为一 = 一一 =(1200-20P(- 一 )=2P-120, 从而一 |=so=80。\n边收和为三大 《 BR 10) 从大 |eo\n它的经济意义是需求量每提高 1 件 , 收益增加 80 万元 。\n【解析 ]: 0<x<1l 时 ,\n1JG9=[e-Pjar[le-2R=32-2t+s\n二 xi\n, Am7oo-|\n4 好一 2x.0<x<1\nCD=43\n六二于次浊",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q4-o1",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q4-o1-r1",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p10",
+          "bbox": [
+            0.025,
+            0.4592280701754387,
+            0.985,
+            0.9563684210526315
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q4-o1-r2",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p11",
+          "bbox": [
+            0.025,
+            0.1003565365025467,
+            0.985,
+            0.4592280701754387
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2016",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "4 好 -2x.0<x<l\nxx\n《18) (本题满分 10 分 )\n【 解折 3。 [了 (> 一要 ct 做变量葵换 = x 一上则 [7(z-D 必 =[ 7-o= 六 77) 轿\n【解析 ]: 0<x<1l 时 ,\n1JG9=[e-Pjar[le-2R=32-2t+s\n二 xi\n, Am7oo-|\n4 好一 2x.0<x<1\nCD=43\n六二于次浊",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q4-o2",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q4-o2-r1",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p11",
+          "bbox": [
+            0.025,
+            0.4592280701754387,
+            0.985,
+            0.9563684210526315
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2016",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "4 好 -2x.0<x<l\nxx\n《18) (本题满分 10 分 )\n【 解折 3。 [了 (> 一要 ct 做变量葵换 = x 一上则 [7(z-D 必 =[ 7-o= 六 77) 轿",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q7-o1",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q7-o1-r1",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p12",
+          "bbox": [
+            0.025,
+            0.19597456857402362,
+            0.985,
+            0.9245313351498637
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q7-o1-r2",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p13",
+          "bbox": [
+            0.025,
+            0.2108029197080292,
+            0.985,
+            0.707905109489051
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q7-o1-r3",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p14",
+          "bbox": [
+            0.025,
+            0.11383177570093458,
+            0.985,
+            0.9248878504672897
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q7-o1-r4",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p15",
+          "bbox": [
+            0.025,
+            0.10507936507936508,
+            0.985,
+            0.17038095238095238
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2016",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "7 加 =[7CDd- 拓下\n《19) (本题满分 10 分 )\nXe2mr2\n【解析 ]J: 易知下 0 的收全半生为 1 , 且当 x=1 与 = 一时 , 级数收敛 ,\n2mr2 中 2X2 2x+1\n分 2 上 1\nmo (7 十 ])(272 十 ]\n天\na+l 1 a+l \\2a 一 :2\n《1) 求 a 的值 .\n《2) 求方程组季 .4x= 4.B 的通解\n/\n各 1-a : 0\n【解析 ]: (1) (4:6) 一 0 -1 2a-1l1 : 0 |,, 方程组 4xz=B 无解 ,可知 a=0 。\n0 0 -os+2aia-2\n:一 1 人 0 0:1 「 生\n:-2| 一 0 1 1:-2 Ca +| -2 |. 上 ER\n0 0 0:0 1 lo\n0 0 0",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q1-o2",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q1-o2-r1",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p15",
+          "bbox": [
+            0.025,
+            0.17038095238095238,
+            0.985,
+            0.6635634920634921
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2016",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(1) 求算 .\n《2) 设三阶矩阵下 =(o.o.o) 满足 B =Bd4, 记 Bi =(G.B.B), 将局 .局 . 导分别表示为\n2 00 :03 的线性组合 。\n外一 ]\n=( 入 +34+2)4, 可知寻的特征值为 : 0.-1-2 。\n【解析 ] 《1)\n4 五 -4\n-2 4+3 0\n0 0 帮\n0 -1 1 了 3",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q4-o3",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q4-o3-r1",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p15",
+          "bbox": [
+            0.025,
+            0.6635634920634921,
+            0.985,
+            0.9851904761904762
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q4-o3-r2",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p16",
+          "bbox": [
+            0.025,
+            0.13339152119700748,
+            0.985,
+            0.8955336658354115
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2016",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "4 一 | 2 -3 0| 一 0 1 -1|1, 则 0 的特征向量为 | 2\n\\o 0 0) 100 0 【2\n( 汪\n在革全和 -0\n4+ 巨一 | 2 -2 0 计肌 0 1 | ,, 则 -1 的特征向量为 | 1\n人 0 0 1 (0 0 0 人 0\n1 |, 则一的特征向量为 | 2\n0 0 2 0 0\n0 0\n及下流\n汪 | 商店\n2 0 0\n0 0 1\n了 | (2 -2 1-2 2-2m\n|\n2 -1!L 一 |=| 2 -2 1-22 2 一 2\n这外这 0 0 0\n2 0 0",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q2-o1",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q2-o1-r1",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p17",
+          "bbox": [
+            0.025,
+            0.06844785668586052,
+            0.985,
+            0.987
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q2-o1-r2",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p18",
+          "bbox": [
+            0.025,
+            0.04,
+            0.985,
+            0.8980532544378699
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q2-o1-r3",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p19",
+          "bbox": [
+            0.025,
+            0.04,
+            0.985,
+            0.9226690647482014
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q2-o1-r4",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p20",
+          "bbox": [
+            0.025,
+            0.07084577114427862,
+            0.985,
+            0.6631044776119402
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2016",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "2 包三 2 3 38\n和\n(8 局局 )=(a oo | 2m-2 2 222” |,\n| 0 0 0\nN\n《22》 (本题满分 11 分 ) 设二维随机变量 ( 邢 . 在区域刀 ={(x 切 |0 <x<1 和 2<y 了 < 服从均\n:到下\n避分布 , 令芝 =\n《1) 写出 (地 : 的概率密度 .\n《2)》 问刀与瑟是否相互独立 , 说明理由 。\n《3) 求 Z= 芝 + 三的分布加数下 (2) .\n[ 解折 3 (1) 刀的面积 S=[ CR- ax= 二, (站的本度 JCco)-| 人\n2  ) JJ) ED 万\n《2) zao-Creoa-|\n[3 轴 =3QE- xD 0<x<1\n瓦 (9=| 户 (Ddt=42xi-zP 0<x<l\n1 xz>1l\n0 x<0\n当区 =0 时 ,P{ 下 < 对 =143 刀 -2 0<x<1, 可知互与有关 , 故不独立 。\n-人\n=PIU=1lP(EY+U<zl|U=1+PIU=0PIEE+T<z|U=0}\n= 了 PEE<z-l 0=D+2PEE<z|O= 人\n赤\n攻 1 无芭于\n0 z<1\n| 放人\n0 z<0\n下, 条基法\n0.z<0\n了 2-22).0<z<l\n皇引 ke- 基 -3e- 了 <z<3\nzz 庆生\n3z\n《23) (本题满分 11 分 ) 设总体碟的概率密度为 ACE:9) =1 6 ,\nwa 3 DR 下\n0, ”其他\n《1) 求工的概率密度 。\n《2) 确定 a, 使得 E(cT)=6.\n【解析 《1)》 了的分布函数为\n万 ( 鸡 =PT< 难 = 中下 < 区 Ex 司研过\n=HPCEs 过\n《Fo9 为下的分布图数 ) .\n=[FCD\n守 0<xz<2",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q8-o1",
+      "document_id": "d-ba1ec5de893a85c3bcbb",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-ba1ec5de893a85c3bcbb-s0-choice-q8-o1-r1",
+          "page_id": "d-ba1ec5de893a85c3bcbb-p20",
+          "bbox": [
+            0.025,
+            0.6631044776119402,
+            0.985,
+            0.9343731343283582
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2016",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "则工的概率密度为方 ( 芒 =3[FCoT AGo =\n8 其他\n2 _ 98 9a 10\n全 ) ET= 站态 C9dc=[ 坊如 dc=]0, 则 ElamD)=aET=]00, 可知 a= 了 ,",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [],
+  "identity": {
+    "category": "考研数三",
+    "year": "2016",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

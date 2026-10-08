@@ -1,0 +1,143 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [aria-hidden] [ref=e4]: ∑
+      - generic [ref=e5]:
+        - heading "切题工作台" [level=1] [ref=e6]
+        - text: 小规模测试 · 3 份试卷 / 5 页
+    - generic [ref=e7]:
+      - status [ref=e8]: 初框已准备，等待检查
+      - button "立即保存" [ref=e9] [cursor=pointer]
+      - button "导出已确认题目" [ref=e10] [cursor=pointer]
+  - main [ref=e11]:
+    - complementary [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]: 测试样本
+        - generic [ref=e15]: 0 / 37 已确认
+      - generic [ref=e16]: 选择试卷
+      - combobox "选择试卷" [ref=e17]:
+        - option "01 · 单栏与跨页" [selected]
+        - option "02 · 扫描件"
+        - option "03 · 双栏页面"
+      - paragraph [ref=e18]: 先检查第 1–10 题。第 6 题的 C、D 选项在下一页。
+      - generic "试卷页面" [ref=e19]:
+        - button "原卷第 1 页" [pressed] [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: 第 1 页
+        - button "原卷第 2 页" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: 第 2 页
+      - generic [ref=e24]:
+        - heading "本页题目" [level=2] [ref=e25]
+        - generic [ref=e26]: 6 题
+      - generic [ref=e27]:
+        - button "第 1 题 待检查" [pressed] [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]: 第 1 题
+          - generic [ref=e30]: 待检查
+        - button "第 2 题 待检查" [ref=e31] [cursor=pointer]:
+          - generic [ref=e32]: 第 2 题
+          - generic [ref=e33]: 待检查
+        - button "第 3 题 待检查" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]: 第 3 题
+          - generic [ref=e36]: 待检查
+        - button "第 4 题 待检查" [ref=e37] [cursor=pointer]:
+          - generic [ref=e38]: 第 4 题
+          - generic [ref=e39]: 待检查
+        - button "第 5 题 待检查" [ref=e40] [cursor=pointer]:
+          - generic [ref=e41]: 第 5 题
+          - generic [ref=e42]: 待检查
+        - button "第 6 题 2 片段" [ref=e43] [cursor=pointer]:
+          - generic [ref=e44]: 第 6 题
+          - generic [ref=e45]: 2 片段
+      - group [ref=e46]:
+        - generic "第一轮：只检查前 10 题" [ref=e47] [cursor=pointer]
+        - list [ref=e48]:
+          - listitem [ref=e49]: 从左侧选择题目。
+          - listitem [ref=e50]: 核对右侧预览，拖框修正边缘。
+          - listitem [ref=e51]: 跨页题查看全部片段后确认。
+          - listitem [ref=e52]: 导出并打开题图检查清晰度。
+        - paragraph [ref=e53]: 已确认的题目再次修改后，会回到待检查状态。
+      - generic [ref=e54]: 本页测试记录
+      - textbox "本页测试记录" [ref=e55]:
+        - /placeholder: 例如：用时 3 分钟；第 4 题公式边缘难拖
+      - paragraph [ref=e56]: 修改自动保存在本机。记录用时和不顺手的地方，方便下一轮改进。
+    - region "原卷裁剪编辑区" [ref=e57]:
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - text: 01 · 单栏与跨页
+          - heading "2019 考研数一 · 第 1 页" [level=2] [ref=e60]
+        - generic [ref=e61]:
+          - button "缩小原页" [ref=e62] [cursor=pointer]: −
+          - generic [ref=e63]: 100%
+          - button "放大原页" [ref=e64] [cursor=pointer]: ＋
+          - button "适宽" [ref=e65] [cursor=pointer]
+      - toolbar "切题工具" [ref=e66]:
+        - button "选择 / 调框" [pressed] [ref=e67] [cursor=pointer]
+        - button "框选新题" [ref=e68] [cursor=pointer]
+        - button "补充区域" [ref=e69] [cursor=pointer]
+        - button "点线拆题" [ref=e70] [cursor=pointer]
+        - button "撤销" [disabled] [ref=e72]
+        - button "重做" [disabled] [ref=e73]
+      - paragraph [ref=e74]: 拖动框的边缘或角点调整范围，拖动框内移动。
+      - generic "原页，可用方向键微调所选区域" [ref=e75]
+      - generic [ref=e77]:
+        - generic [ref=e78]: 方向键：移动框 · Shift + 方向键：调整右 / 下边 · Ctrl + Z：撤销
+        - generic [ref=e79]: 样本 1 / 5 页
+    - complementary "题目预览与属性" [ref=e80]:
+      - generic [ref=e81]:
+        - generic [ref=e82]: 裁剪预览
+        - generic [ref=e83]: 待检查
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - heading "第 1 题" [level=2] [ref=e86]
+          - generic [ref=e87]: 1 个片段
+        - paragraph [ref=e89]: 预览按片段顺序排列；题干、答案和解析分别导出。
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e92]: 原卷题号
+            - textbox "原卷题号" [ref=e93]: "1"
+          - generic [ref=e94]:
+            - generic [ref=e95]: 题型
+            - combobox "题型" [ref=e96]:
+              - option "选择题" [selected]
+              - option "填空题"
+              - option "解答题"
+              - option "待确定"
+        - generic [ref=e97]: 标准答案（可稍后补）
+        - textbox "标准答案（可稍后补）" [ref=e98]:
+          - /placeholder: 如 C；首轮只需检查边界
+        - generic [ref=e99]: 标签（逗号分隔）
+        - textbox "标签（逗号分隔）" [ref=e100]:
+          - /placeholder: 考研数一，2019年
+          - text: 考研数一，2019年
+        - generic [ref=e101]:
+          - heading "本题片段" [level=3] [ref=e102]
+          - generic [ref=e103]: 点击可跳转原页
+        - generic [ref=e105]:
+          - button "1. 第 1 页 · 题干" [ref=e106] [cursor=pointer]
+          - button "上移第 1 个片段" [disabled] [ref=e107]: ↑
+          - button "下移第 1 个片段" [disabled] [ref=e108]: ↓
+        - generic [ref=e109]: 所选片段用途
+        - combobox "所选片段用途" [ref=e110]:
+          - option "题干 / 选项 / 配图" [selected]
+          - option "参考答案"
+          - option "解析"
+        - group [ref=e111]:
+          - generic "精确调整与合并" [ref=e112] [cursor=pointer]
+          - option "第 2 题 · 1 片段" [selected]
+          - option "第 3 题 · 1 片段"
+          - option "第 4 题 · 1 片段"
+          - option "第 5 题 · 1 片段"
+          - option "第 6 题 · 2 片段"
+          - option "第 7 题 · 1 片段"
+          - option "第 8 题 · 1 片段"
+          - option "第 9 题 · 1 片段"
+          - option "第 10 题 · 1 片段"
+          - option "第 11 题 · 1 片段"
+          - option "第 12 题 · 1 片段"
+          - option "第 13 题 · 1 片段"
+          - option "第 14 题 · 1 片段"
+          - option "第 15 题 · 1 片段"
+        - generic [ref=e113]: 题目备注
+        - textbox "题目备注" [ref=e114]:
+          - /placeholder: 例如：需再核对配图或答案
+        - button "确认边界，下一题" [ref=e115] [cursor=pointer]
+  - contentinfo [ref=e116]: 初框由文字位置辅助与原图视觉初划得到，等待人工核对。首轮验证修正流程，确认边界不等于核实答案。

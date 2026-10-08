@@ -1,0 +1,1237 @@
+{
+  "item": {
+    "id": "d-609cf33855f44f847e6a",
+    "path": "resource/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2021-2024年数学三真题+解析/2023考研数学三真题及解析.pdf",
+    "name": "2023考研数学三真题及解析.pdf",
+    "sha256": "8e578bdc0c1fc562c5b3e800168d5a441f63c0d6799c4468ba715b2d926c9c24",
+    "format": "pdf",
+    "bytes": 860066,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 15,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 6,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 7,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 8,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 9,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 10,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 11,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 12,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 13,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 14,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 15,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "8e578bdc0c1fc562c5b3e800168d5a441f63c0d6799c4468ba715b2d926c9c24",
+  "engine_version": 6,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2021-2024年数学三真题+解析/2023考研数学三真题及解析.pdf",
+  "pdf_sha256": "8e578bdc0c1fc562c5b3e800168d5a441f63c0d6799c4468ba715b2d926c9c24",
+  "pages": [
+    {
+      "id": "d-609cf33855f44f847e6a-p1",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": 1,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-p2",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": 2,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-p3",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": 3,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-p4",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": 4,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-p5",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": 5,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-p6",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": 6,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-p7",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": 7,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-p8",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": 8,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-p9",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": 9,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-p10",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": 10,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-p11",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": 11,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-p12",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": 12,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-p13",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": 13,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-p14",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": 14,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-p15",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": 15,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-609cf33855f44f847e6a-s0-choice-q1-o1",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q1-o1-r1",
+          "page_id": "d-609cf33855f44f847e6a-p1",
+          "bbox": [
+            0.025,
+            0.30767122202416325,
+            0.985,
+            0.6281307189542483
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(1) 已知函数 .7(x7)=In(y+lxsiny) 则 【 ]】\nCA) 饼 | 不存在 , 于 | 存在 CB) 饼 |。 存在 , 饼 | 不存在\n@ @\nCC) 世 |。 丰在 , 区 4 <D) 世 |o 不和多 | 不存在\n@ @\nr By By\n答案 : 〈A)\n解析 : 由偏导数定义 :\n| Zu- 山 - lim, (+Fsin 了 -0 = lim, esinl_ sal 1 lim 四\n0 1 x-0 -0 x-0 xX-0  x -0\n不存在\nSi -7 -im 了 ?0 _limy-1_1, 存在 , 和 CA) ,\n0.7)- (01 ) ,\n2 yy=-1 2 YY-1 17=-1",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-s0-choice-q2-o1",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q2-o1-r1",
+          "page_id": "d-609cf33855f44f847e6a-p1",
+          "bbox": [
+            0.025,
+            0.6281307189542483,
+            0.985,
+            0.9044248366013072
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q2-o1-r2",
+          "page_id": "d-609cf33855f44f847e6a-p2",
+          "bbox": [
+            0.025,
+            0.0405050505050505,
+            0.985,
+            0.3043042186571598
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(2) Ko) = 本的一个原函数为 【 ]】\n(x+l)cosx.x>0\nCA) FOOD= ln(VI+x -30,x<0 (<B) FO9= ln(V1+x -2+Lx<0\n(x+l)cosx-sinxx>0 (x+l)cosx-sinxx>0\nCC) FOOD= 0 <D) Fo 人 +xX)+Lx<0\n(x+lDsinx+cosxxY>0 (x+l)sinx+cosxx>0\n解析 : .xz) = 本的原函数为 :\n(x+l)cosx.x>0\n人 ) 新文道考研北京新文道教育科技集团\n(CO = ] V1+\nGex<0\n|G+Deosxacxr>0\n人 ij+Curs0\n(x+l)sinx+cosx+CxY>0\n由原函数的连续性知 : 下 (0-0)=F(O+0), 得 Ci= c+1, 取 C:=0, 则 Ci=1\n答案应选 (D) .",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-s0-choice-q3-o1",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q3-o1-r1",
+          "page_id": "d-609cf33855f44f847e6a-p2",
+          "bbox": [
+            0.025,
+            0.3043042186571598,
+            0.985,
+            0.9151200237670826
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q3-o1-r2",
+          "page_id": "d-609cf33855f44f847e6a-p3",
+          "bbox": [
+            0.025,
+            0.0405050505050505,
+            0.985,
+            0.09555000990295107
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(3) 已知交 +ay +z7=0 的解在 (-o, +oo) 内有界 , 则 【 ]】\n(A) a>0.D<0 (B) wa<0.5>0\n(CC) a=0.5>0 (D) a=0.2<0\n答案 :〈C)\n解析 : 二阶常系数齐次线性微分方程 J +CY + 思 7 = 0 的特征方程为 ;\n和 2+aa+D=0\n四当 A= 喧一 45 > 0 时 , 设其两不同特征值为如 ,如 , 则其通解结构为 :\n3(z=Cee +Coes\n不管久 , 九的正负如何 , 其在 Y 一吧时 ,y(x) 一 o , 其必然为无界函数 . 售去 .\nA= 吧一 45=0 时 , 设其两相同特征值为久 = 也 , 则其通解结构为\n不管尺 , 九的正负如何 , 其在 Y 一吧时 ,y(x) 一 o9 , 其必然为无界函数 . 售去 .\nA= 吧一 45<0 时 , 设其两特征值为 4 = % 士房 , 则其通解结构为\n3?(z)=ec [CisinBx+Ccos 5x].\n着 cz 0, 则 x -oo 时 ,y(z)= er [Cisin x+Cscos Ba] 为无界函数 ,\n当 w=0 时 ,7y(x)= Csin Bx+C? cos Br 为有界函数 .此时 Q= 0,-42 < 0, 满足题意 .\n综上 ,a=02>0 时 ,J+aY + 久 =0 的解在 (一 ,+o) 内有界故选 (C) .\n人 ) 新文道考研\n北京新文道教育科技集团",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-s0-choice-q4-o1",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q4-o1-r1",
+          "page_id": "d-609cf33855f44f847e6a-p3",
+          "bbox": [
+            0.025,
+            0.09555000990295107,
+            0.985,
+            0.45344266191325017
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(4) 已知 o < 为, 且级数和 ,六记者收敛 , 则六 oh 绝对收生是六轧绝对收伍的\nOP 7 7 7\n【\n(CA) 充要条件\n(B) 充分不必要\n〈C) 必要不充分\n〈D) 既不必要也不充分\n答案 : 〈A)\n解折 , 由条件可知六 (及一忆 ) 为收俩的正项级数 , 进而绝对收化 ,\n设 》 ai 绝对收敏 , 则由 | 访装遍一十 o 国玉一帮上 + 上与比较判别法 , 得六及绝对\n1 7\n收敛,\n设 》 房绝对收敏 , 则由 | 时 o 一遍专必 au 一遍 || 态 | 与比较判别法 , 得 》 an 绝对\n7 1\n收敛 , 故为充要条件 ,\n答案应选 A。",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-s0-choice-q55-o1",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": "55",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q55-o1-r1",
+          "page_id": "d-609cf33855f44f847e6a-p3",
+          "bbox": [
+            0.025,
+            0.45344266191325017,
+            0.985,
+            0.7475603089720737
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": ", 4 ET\n(55) 设志妇为可逆矩阵 , 巨为单位阵 ,M1 为 3 的伴随矩阵 , 吕 2 5 = 【 1\ncfL413 -3 cb) 113124 一\nOO 13|4 OO 14I3\nco) [1314 -3 cb) (413 -4\nOO 4IB OO 1314\n答案 : (B) .\n解析 :由拉普拉斯行列起值 ; 下 HH\nO 了\n4 ET 4 EDPH\n故二\nO 也 O Bo 3",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-s0-choice-q4-o2",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q4-o2-r1",
+          "page_id": "d-609cf33855f44f847e6a-p3",
+          "bbox": [
+            0.025,
+            0.7475603089720737,
+            0.985,
+            0.9174967320261438
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q4-o2-r2",
+          "page_id": "d-609cf33855f44f847e6a-p4",
+          "bbox": [
+            0.025,
+            0.0405050505050505,
+            0.985,
+            0.11773262032085562
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "4 万卫 O 4 一卫 O 4 0 万 -BT 已 O 4 一 4BT\n一一一\nOO BO OO 刁 OO BT OO BT O 瑟 O 再\n同 (4 王 Pa .4231]\nOp oo Pr\n4 ET 4 EDPH 可 [4 4483 1 84 一全克\n则 =- -| 全 -2 | 四加 。\nOF OoOBIOB 引 Lo 7B O HB8\n人 ) 新文道考研\n北京新文道教育科技集团\n选 (B) .",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-s0-choice-q6-o1",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q6-o1-r1",
+          "page_id": "d-609cf33855f44f847e6a-p4",
+          "bbox": [
+            0.025,
+            0.11773262032085562,
+            0.985,
+            0.5623751237868885
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(6) Ga)=(G+z)+Ga+z 一 4(0o 一冯六的规范形为 【 1】.\nCA) 如 + 到 CB) 六 《CC) 也二六一 4 生 《D) 旭二芭一直\n答案 : (B) .\n解析 : 方法一 : 作线性变换 ;\n则原二次型为 ;\nat =mL4r 一 > 人 + 一 4( 且 - 芒 )\n其标准形为坦\n放汪全 (0 )=(a+o)\n十 ( 半 + 一 4(2 一\n2 2 2 2 2\n三革二 TT2000 十后十 2400 一 4 一 4 二 8\n2 2 2\n=2x1 一 372 一 333 + 2r72 二 203 二 8273\n2 1 11[a\n=[xao.6l1 -3 4|\n1 4 -3",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-s0-choice-q2-o2",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q2-o2-r1",
+          "page_id": "d-609cf33855f44f847e6a-p4",
+          "bbox": [
+            0.025,
+            0.5623751237868885,
+            0.985,
+            0.7673662111309171
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "2 一人 1 1 2 一人 1 1\n1 -3 一 4 4 |=| 1 -3 一 4 4\n+1 4 -3-4 0 4+7 一 -4\n2-1 2 1\n=| 1 1-24 4 |=C7-(-34+2-2)\n0 0 二 -让\n=(C7-DGQ-3)1=0\n=0.4=3 和 =-7\n规范性为 , 他",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-s0-choice-q7-o1",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q7-o1-r1",
+          "page_id": "d-609cf33855f44f847e6a-p4",
+          "bbox": [
+            0.025,
+            0.7673662111309171,
+            0.985,
+            0.8669916815210933
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q7-o1-r2",
+          "page_id": "d-609cf33855f44f847e6a-p5",
+          "bbox": [
+            0.025,
+            0.0405050505050505,
+            0.985,
+            0.4494814814814815
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": ";局 =| 0| ,7y 均可由 wm ,o 表示 , 也可由局 , 忆表示 ,\n(7) mo =| 2\n则 z=【[ ]】.\n人 ) 新文道考研\n北京新文道教育科技集团\n3 3 -1 1\nCA) 于 3| FecR  (GB) 下 SEEsR (cj11|sR (CD) SesR\n4 10 2 8\n答案 ,(D) .\n解析 : 由题意可知 , 设存在常数石 , 态 ,, 户使得 :\nX = 及 00 二 co +DD\n石 +2j = 2 十广 ;\n即厂 oa 十态 oo = 有 + 访盛 , 可得 : 412 后十扣三 5 二 0\n3 十太 =96 二 ;\n解得 : 石 =-3 护 .\n一 1 1\n即包三太 o 十态 oo =-3o + 有 os =|-5 = 有 SEER, 选 (D) .\n一 8 8",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-s0-choice-q8-o1",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q8-o1-r1",
+          "page_id": "d-609cf33855f44f847e6a-p5",
+          "bbox": [
+            0.025,
+            0.4494814814814815,
+            0.985,
+            0.8978888888888888
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q8-o1-r2",
+          "page_id": "d-609cf33855f44f847e6a-p6",
+          "bbox": [
+            0.025,
+            0.0428817587641117,
+            0.985,
+            0.599214101802337
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(8) 设随机变量互服从参数为 1 的泊检分布, 则五 (区 -EX)=\n【\n(CA) 工 (CB) 工 《C) CD) 1\ne 2 e\n答案 : (C) .\n下一\n解析 ;由 - P(D) , 知 , PE= 有各 = 向- 人 t=0127 小 =1\n则\n加 1\nED 六 = 下 + 直人二 PP 下有全 CD 三 et\n一 ce +eiy GD 上工\n各四\nER 1\n=el+el ye\n各 ED ”名\n=el+ele-lD)-ele-1-1)\nee\n选 CC) .\n59) 设轧 ,,-, 为米自总体 N(Ae ae ) 的简单随机样本 , 马 , 妃 ,-, 孔米自总体\n人) 新文道考研北京新文道教育科技集团\nN(p2ca?) 的简单随机样本 , 其两样本之间相互独立 , 记\n1 1 1 加 1 >,\n7 之万立 1 1-1 > ) 一 5 ) 风\n习 = 一 》 世 ,7 一 > 了 S = 一一已一开 , S, = 下一了则\n【 ]】\nCA) 3 一下 (六 Z) (CB) 3 ~ 下 (2-1L7 -1)\n(CC) 25 一下 (有 7 CD) 25 ~ 下 (2-L7-T)\n答案 : (D)\n解折 ,出包 -SP(n 多,\n-US ,\nGT\n1-1)S ) 7 一 1)S' )\n] 1 一和 (7 一 j ) 1 一入 (Hi:\nCT 2\n选 (D) .",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-s0-choice-q10-o1",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": "10",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q10-o1-r1",
+          "page_id": "d-609cf33855f44f847e6a-p6",
+          "bbox": [
+            0.025,
+            0.599214101802337,
+            0.985,
+            0.9002655971479501
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q10-o1-r2",
+          "page_id": "d-609cf33855f44f847e6a-p7",
+          "bbox": [
+            0.025,
+            0.0428817587641117,
+            0.985,
+            0.244490394137453
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(10) 设硬 , 蕊为来自总体 Y(A, az ) 的简单随机样本 , 其中 a(a> 0) 是未知参数 , 记\n=o| 五 -总 | , 若 E(O)=a, 则 ao= 【 ]】\nCA) 交 (B) 冰 CC) 克 (D) Ar\n答案 : (A) .\n解析 : 因为忆 ,3 为来自总体 NA cz ) 的简单随机样本 , 故 ( 忆到)- N(0.2c7).\n令了 = 忌 - 蕊 , 则随机变量 7 的概率密度为 :\n, .\n7 瑟瑟\n则\n人) 新文道考研北京新文道教育科技集团\nBE()=o 六加\ne\n2wVrc\n<\n, 选 (A) .\n因己 (C)=c, 则 a=\n、 填空题 : 11~16 小题 , 每小题 $ 分 , 共 30 分 .请将答案写在答题纸指定位置上 .",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-s0-choice-q11-o1",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q11-o1-r1",
+          "page_id": "d-609cf33855f44f847e6a-p7",
+          "bbox": [
+            0.025,
+            0.244490394137453,
+            0.985,
+            0.8081681521093286
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q11-o1-r2",
+          "page_id": "d-609cf33855f44f847e6a-p8",
+          "bbox": [
+            0.025,
+            0.0428817587641117,
+            0.985,
+            0.9097724301841948
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q11-o1-r3",
+          "page_id": "d-609cf33855f44f847e6a-p9",
+          "bbox": [
+            0.025,
+            0.0428817587641117,
+            0.985,
+            0.9050190136660725
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-609cf33855f44f847e6a-s0-choice-q11-o1-r4",
+          "page_id": "d-609cf33855f44f847e6a-p10",
+          "bbox": [
+            0.025,
+            0.0405050505050505,
+            0.985,
+            0.1918066943949297
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(11) 六 Ran | 2- xinl cos 上 .\nIa 并并\nli\n解析 :\n1 1 2 一 xsin 一一 cos 一 1 1\nlimx2 -meod] 三血一一二一二 -中站 2- ar-eosr]\nTe 区 7\n-lm 一 sm1+rQ-eos 人 0\n0 记\n.1t-sint ,1 一 cost\n=jlim 一一二 lm 5\nt20 六 if20 妃\n-过\nxGy 一 1 人\noem AR\n并十了了\n答案 : 去.\n解析 : 由题意 :\n对包工两庙对积分可得 ,\nBT\n(TI) =arctan 工 +g(z) , 则有\nX\n人) 新文道考研北京新文道教育科技集团\n所以 , (ny)=arctan 过 +C\n蕊\n又 AD= 于 , 解得 C=0. 从而 (zy)=arctan 过 ,\n蕊\n人 =arctan V3\n= 人 (\n答案 ; ee 一\n加所可区\n解析 : 方法一 : 由麦克劳林级数 : e = > 一 =1+X+ 二二十一十\n! 2 7\nop 2 本 7\n四之 2 人 ) 7\n一 = 一 -+(-1 十\n2 2 op 2\n则 “=2|1+0+ 一 +0--- 十 + =2\n风 (27)! 饼\nop 2 erTeT\n1 2\n卓二\nop 2\n方法 &SC -六\nX2211 2 2\n> 让 1]! 2 -2)! 后 (272)!\n则 SO= 二 DY SO- =SCD)\n名人分方和和解,SCO = Ge Ce, 出 SO)=1S(O=0 得 C=, Cl,\n故 SCOOD) -Je +e\n514) 设某公司在 :时刻的资产为 ,7(z), 从 0 刻到 + 时刘的下次产为了 1, 假设 /站\n为连续男数 , 且 .7(0)=0, 则 .7(D)= .\n答案 ,(D) = 2e -21 一 2 .\n解析 : 由题意知 : Joe -7\n“Co\n即 [Da= AD-Pz , 对该方程两端对 7 求导得 :\n人) 新文道考研北京新文道教育科技集团\n(0O)-A(CD=27\n由一阶线性微分方程的通解结构 :\nro-env[lendvara\n-er 1 21e- 六 mr 十 c|\n=Ce' -21-2\n由 .7(0)=0 解得 C=2.\n即 .7(I=2e -2 一 2.\na0 二 3 =\nact 401\n〈15) 已知线性方程组有解 , 其中 .2 为常数 , 若 |1 Qa 1 =4, 则\n+22 + 一 0;\n1 2 ada\nCa +Dr =2.\n1 a 1\n1 2 dql=\na D 0\n答案 : 8\n解析 :\na 0 1\n由 |1 a 了 H=4 关 0, 和方程组有解知 ;\n1 2 ada\na 01 aa0 1 1 a01l1\n1 a 1 1 aa 10 1a1l0\naaa eol 2 oo\na 0 0 aD 0 2 ap 0 2\n1 a 1 a 0 1 1 a 1\n按第四列展开有 : 11 2 ql-2l1 a 1H=0,, 所以 |1 2 qdql=8&.\napD 0 1 2 ad a D 0\n《16) 已知随机变量蕊了相互独立 , 且瑟 ~ 脏 (PP), 了 ~ 瑟 (2.p), 其中 Pe(0.0D) , 则\n瑟 + 了与民 - 了的相关系数为\n答 :\n针\n四\n解析 : Cov( 了 +T-7)=DEY-D7=Ppd-D-2p04- 门 =P(P-D.\n人 ) 新文道考研\n北京新文道教育科技集团\n因为习 , 了相互独立 , 所以\nDCT+ 丰 =DCD+DD 帮 =3p(- 站\nCovCT+7X-I) PPD-D 1\nmV 3 3",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-s0-solution-q17-o1",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-609cf33855f44f847e6a-s0-solution-q17-o1-r1",
+          "page_id": "d-609cf33855f44f847e6a-p10",
+          "bbox": [
+            0.025,
+            0.8020265399088928,
+            0.985,
+            0.8990772430184195
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-609cf33855f44f847e6a-s0-solution-q17-o1-r2",
+          "page_id": "d-609cf33855f44f847e6a-p11",
+          "bbox": [
+            0.025,
+            0.0405050505050505,
+            0.985,
+            0.4189803921568628
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(17)\n工\n工\nSecr 天\n工\n1 1\nCrx 三 tan 站\nsec jd = 上一一中 =|2cscxw =|cscz 一 coty|\n了 =DnCV2+D\nxyl+e 一 tanf'secr 了 tant 了\n《2)\n人 ) 新文道考研\n北京新文道教育科技集团\nET ” “GT zx | 人人\nLa 1 to 1 Ho 1 1 克\nGe= Gr= 一必 =rd- 一 ).\n《19)《〈 本题满分 12 分 )\n已知乎面区域刀 ={Ge 1(x- 芒 + 大寺 , 计算一重积 4 几 A + 妇 -1|dxdy\n解析 , 将平面区域划分成及 ={xc 2+2<LG-D + < 寺\n疡 ={GD2+ 有 >LG-D+2<]\nRa ja\n其中\n上 -At jad= x do[ dmDral+ 下 ad6[ “Qnr\n五",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-s0-solution-q9-o1",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": "9",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-609cf33855f44f847e6a-s0-solution-q9-o1-r1",
+          "page_id": "d-609cf33855f44f847e6a-p11",
+          "bbox": [
+            0.025,
+            0.4189803921568628,
+            0.985,
+            0.8865995246583482
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-609cf33855f44f847e6a-s0-solution-q9-o1-r2",
+          "page_id": "d-609cf33855f44f847e6a-p12",
+          "bbox": [
+            0.025,
+            0.0405050505050505,
+            0.985,
+            0.3934307783719548
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "+2[C2eos: 0 -8 os 9)C6\n9 和反 3\n4 ,33 32\n一丈\n9 2 9\n-让 :of “0 De 了十雪 ja\n5 3\n= 一二 7+ 二一\n9 2\n原式 aaa\n4 3 32 35, 4\n3- 工 _32\n7 十 -一 -\n9 2 9 57 9\n〈20) (本题满分 12 分 )\n设函数 ,A(x) 在 [--a.a] 上有二阶连续导数 , 证明 :\n6D 着 7(OJ)=0, 存在 seCaa, 全得 7(O= 二 [7CO+ACa]:\n52) 若 .J(x) 在 (-a,a) 内取得极值 , 则存在 7 e (-a,a) , 使得\n人 ) 新文道考研\n北京新文道教育科技集团\n17\"CD) 亿 2 7O-ACa\n2a-\n证明 : 1) 证明; 胡中全让理 A (= 7(O)+P(O)s+ 写人 -Ar 1a ,\n7) ,\n刀介于 0 与 x 之间 ,, 则 /(a)=.A(0O)a+\n亲 QIG,0< 刀 <a0D\n(PP) ,\n加 4 ,-a< 九 <0 加\nj(-a= (0)(-a)+\nOr@ 得 /OACO=SLAOD+OD]e@\n又户 (z) 在 [六 ; 欢 ] 上连续 , 则必有最大值 M 与最小值娘 , 即",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-s0-solution-q7-o1",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-609cf33855f44f847e6a-s0-solution-q7-o1-r1",
+          "page_id": "d-609cf33855f44f847e6a-p12",
+          "bbox": [
+            0.025,
+            0.3934307783719548,
+            0.985,
+            0.9145258467023173
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-609cf33855f44f847e6a-s0-solution-q7-o1-r2",
+          "page_id": "d-609cf33855f44f847e6a-p13",
+          "bbox": [
+            0.025,
+            0.0405050505050505,
+            0.985,
+            0.3930346603287781
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "7 三六 ( 帮 )<ME 7)<M, 从而 ms 二广 (tp) < My,\n由介值定理得 , 存在二 < [及 :四 ]c(-awa), 和 -7 代入轩得 ;\nja)+A-q)\nJaO+ACra=a7 (习习 =\nGT\n(IT) 证明 : 设 ./(z) 在 zx=me(-aa) 取极值且 . 帮 xz) 在 x=xo 可导 , 则广 (m)=0.\nZOL\n, 包介于\nAD=7Go+7GoG-a+ (ra\n又 |7\"(z]| 连续 , 设 M=max{| 关 (op)\n国风\n人 ) 新文道考研\n北京新文道教育科技集团\nIO-ACalsJM(cse 革 Mo- <MX( +\n又 m E(-a:a), 则 |A(a)-.A(-ojlsMx(G +z)<2M , Ma 57(O- Ca\n即存在 7 = 入或 7= 和 PE(-aa), 有\nMOP 赤 |AO-ACo\n521)〈 本题满分 12 分 》\n性性十 2 十 2\n设和矩阵 4 满足对任意 3,2, 冯均有 4 |=| 20 瑟 + |.\n3 一避",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-s0-solution-q1-o1",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-609cf33855f44f847e6a-s0-solution-q1-o1-r1",
+          "page_id": "d-609cf33855f44f847e6a-p13",
+          "bbox": [
+            0.025,
+            0.3930346603287781,
+            0.985,
+            0.8646149732620321
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-609cf33855f44f847e6a-s0-solution-q1-o1-r2",
+          "page_id": "d-609cf33855f44f847e6a-p14",
+          "bbox": [
+            0.025,
+            0.0405050505050505,
+            0.985,
+            0.4986001188354129
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(1) 求 4;\n2) 求可道矩阵尸与对角矩阵 A, 使得 P-L4P = 人.\n恒关十冯十区 1 1 1106\n解析 : 〈1) 因为旭 |=| 23 一如 +3 |=| 2 -1 1 || 对任意的的, 均成立 ,\n总 1 二八妨\n1 1 1\n所以 4=|2 - 1\n0 1 =-\nM-1 -1 -HH 01Hn-l- 0\nCo) ME-4=|-2 al -1|=|2 14 2-4=|2 24 0\n0 -Mo -2+4|10 -2+4\n=C+M( 和到 -24-2)=CQ+204-2(0-D=0\n所以 4 的特征值为 4 = -2 , 罗 =2, 用 =-1.\n-有 -1 -| 1 0 0\nMh = 一时,45F-4=|-2 -1 -一 0 1 1|,\n0 -=-1 =- 0 0 0\n得特征向量的基础解系为 wm = (0,-L1) ,\n人 ) 新文道考研\n北京新文道教育科技集团\n1 -=- -|! 1 0 二\n几 =2 时 ,H4FE-4=|-2 3 -0 1 |,\n0 -1 3 0 0 0\n得特征向量的基础解系为 os = (4.3.1]] ,\n-Pon |l05\n及 =-] 时 ,H4FE-4=| -2 0 ->|0 10I>|01 0|,\n0 -1 0 0 0 0 0 0 0\n得特征向量的基础解系为 = (1.0,-2) ,\n0 4 1 -2 0 0\n令 P=(a,o,o)=|-13 0|, 则 Pi4P=| 0 2 0|.\n1 1 -2 0 0 -1\n《22)《〈 本题满分 12 分 )\n了机变量开的全刻度为 7CO= To -om<xr<to。 令了 =ex:\n十 e 六",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-s0-solution-q1-o2",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-609cf33855f44f847e6a-s0-solution-q1-o2-r1",
+          "page_id": "d-609cf33855f44f847e6a-p14",
+          "bbox": [
+            0.025,
+            0.4986001188354129,
+            0.985,
+            0.6758629431570606
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(1) 求蕊的分布函数 ;\n〈2) 求了的概率密度函数 ,\n《3) 了的期望是否在在 ?\n解析 :\nG) FOOD= [ nd(Co<xr<to)\n4 detD_ | 1\nFOOD= 人 <\n加 (re 1+e-\n?)",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-609cf33855f44f847e6a-s0-solution-q2-o1",
+      "document_id": "d-609cf33855f44f847e6a",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-609cf33855f44f847e6a-s0-solution-q2-o1-r1",
+          "page_id": "d-609cf33855f44f847e6a-p14",
+          "bbox": [
+            0.025,
+            0.6758629431570606,
+            0.985,
+            0.8640207961972668
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-609cf33855f44f847e6a-s0-solution-q2-o1-r2",
+          "page_id": "d-609cf33855f44f847e6a-p15",
+          "bbox": [
+            0.025,
+            0.0405050505050505,
+            0.985,
+            0.21993285799168152
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(2) 因为 y=e 在 (-oo,+oo) 单调日处处可导 , 所以当了 > 0 时 ,\n0OD)= 大 (全切站下六\n1 1\n5 ?7>0\nCOD)=1d+I 人六\n0 其他\n《3)\n人 ) 新文道考研\n北京新文道教育科技集团\n了 HIT1\n可下下 4\n1 -=\n=Ind+a+i =+o\n该反常积分发散 , 极限不存在 , 所以期望不存在 .",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [],
+  "identity": {
+    "category": "考研数三",
+    "year": "2023",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

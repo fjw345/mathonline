@@ -1,0 +1,1144 @@
+{
+  "item": {
+    "id": "d-f769c2c0f2e9ae63c1e9",
+    "path": "resource/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2017-2020考研数学（一）真题+答案解析/2020考研数学一真题.pdf",
+    "name": "2020考研数学一真题.pdf",
+    "sha256": "dc30319f16ec90106b1a1f70e64c9cc7d861f319133e409cc83c30cf72e804e3",
+    "format": "pdf",
+    "bytes": 209621,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 5,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 595.2999877929688,
+        "height": 782.3724365234375,
+        "text_chars": 1455,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 595.2999877929688,
+        "height": 782.3724365234375,
+        "text_chars": 991,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 595.2999877929688,
+        "height": 782.3724365234375,
+        "text_chars": 403,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 595.2999877929688,
+        "height": 782.3724365234375,
+        "text_chars": 536,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 595.2999877929688,
+        "height": 782.3724365234375,
+        "text_chars": 460,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "dc30319f16ec90106b1a1f70e64c9cc7d861f319133e409cc83c30cf72e804e3",
+  "engine_version": 6,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2017-2020考研数学（一）真题+答案解析/2020考研数学一真题.pdf",
+  "pdf_sha256": "dc30319f16ec90106b1a1f70e64c9cc7d861f319133e409cc83c30cf72e804e3",
+  "pages": [
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-p1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": 1,
+      "width": 595.2999877929688,
+      "height": 782.3724365234375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-p2",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": 2,
+      "width": 595.2999877929688,
+      "height": 782.3724365234375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-p3",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": 3,
+      "width": 595.2999877929688,
+      "height": 782.3724365234375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-p4",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": 4,
+      "width": 595.2999877929688,
+      "height": 782.3724365234375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-p5",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": 5,
+      "width": 595.2999877929688,
+      "height": 782.3724365234375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-choice-q1-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-choice-q1-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p1",
+          "bbox": [
+            0.025,
+            0.11652768496407635,
+            0.985,
+            0.192961884188784
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "x 0  时,下列无穷小量中最 高阶的是\n(1) 当\n(\n)\n3 )\nx\nx\nsin x\n cos x\nA. ( e\nB. ln(\nC.\nD.\nt 2  )1 dt\n1  t\ndt\nsin t dt\nsin t dt",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-choice-q2-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-choice-q2-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p1",
+          "bbox": [
+            0.025,
+            0.192961884188784,
+            0.985,
+            0.3522721797875293
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\n\nf ( x )\n 1,1 内有定义,且\nlim f ( x )  ,0 则\n(2) 设函数\n在区间\n(\n)\nx  0\nf ( x )\nf ( x )\nf ( x )\nx  0\nf ( x )\nx  0\nlim\n 0\nlim\n 0\nA. 当\nB. 当\n时,\n在\n处可导\n时,\n在\n处可导\nx 2\nx\nx  0\nx  0\nf ( x )\nf ( x )\nf ( x )\nx  0\nlim\n 0\nf ( x )\nx  0\nlim\n 0\nC. 当\nD. 当\n在\n处可导时,\n在\n处可导时,\nx 2\nx\nx  0\nx  0",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-choice-q3-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-choice-q3-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p1",
+          "bbox": [
+            0.025,
+            0.3522721797875293,
+            0.985,
+            0.5368390403683042
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": " \nf \nf\n\n在点\n\nf ( x , y )\n0,0\nf ( 0,0 )  ,0 n  \n,\n,  1 \n,\n n\n(3)设函数\n处可微,\n非零向量 与 垂直,则(\n)\n( ,0 0 )\n\nx \ny\n\n\n\n\n\n\nn  x , y , f ( x , y )\nn  x , y , f ( x , y )\nlim\nlim\nA.\nB.\n存在\n存在\n\n  \n\n  \nx 2  y 2\nx 2  y 2\nx , y  ,0 0\nx , y  ,0 0\n\n\n\n\n\n x , y , f ( x , y )\n\n x , y , f ( x , y )\nlim\nlim\nC.\n存在\nD.\n存在\n\n  \n\n  \nx , y  ,0 0\nx 2  y 2\nx , y  ,0 0\nx 2  y 2",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-choice-q4-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-choice-q4-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p1",
+          "bbox": [
+            0.025,
+            0.5368390403683042,
+            0.985,
+            0.7040235827848375
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\n\nR 为幂级数\na x n\nr\n(4) 设\n的收敛半径, 是实数,则\n(\n)\nn\nn 1\n\n\n\n\na r 2 n 发散时,\nr  R\na r 2 n 发散时,\nr  R\nA. 当\nB. 当\n2 n\n2 n\nn \nn \n\n\n\n\nC. 当 r  R 时, a nr 2 n 发散\nD. 当 r  R 时, a nr 2 n\n收敛\nn \nn ",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-choice-q5-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-choice-q5-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p1",
+          "bbox": [
+            0.025,
+            0.7040235827848375,
+            0.985,
+            0.7753102784359034
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(5)若矩阵A 经初等列变换化成B ,则\n(\n)\nA.存在矩阵P ,使得 PA  B\nB.存在矩阵P ,使得 BP  A\nC.存在矩阵P ,使得 PB  A\nAx  0\nBx  0\nD.方程组\n与\n同解",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-choice-q6-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-choice-q6-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p1",
+          "bbox": [
+            0.025,
+            0.7753102784359034,
+            0.985,
+            0.987
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "x  a\ny  b\nz  c\nx  a\ny  b\nz  c\nl\nl 2 :\n1 :\n2 \n2 \n3 \n3 \n(6)已知直线\n与直线\n相交于一点,记向量\na\nb\nc\na\nb\nc\n a \n i \ni\n  b ,  ,3,2,1\n\n\n则\n(\n)\ni\ni\n\n\nc\n\n\ni\n , 线性表示\n , 线性表示\nA. \nB.  可由\n可由\n , 线性表示\n ,\n 线性表示\nC.  可由\nD.  ,",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-choice-q7-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-choice-q7-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p2",
+          "bbox": [
+            0.025,
+            0.044677844942565596,
+            0.985,
+            0.17283506509007762
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "A\nP ( A\nC ) \nP ( AC )  P ( BC ) \n, B , C\n)  P ( B )  P (\n, P ( AB )  0\n,\n(7)设\n,\n为三个随机事件,且\n则\nA\n, B , C\n中恰有一个事件发生的概率为\n(\n)\nA. 4\nB. 3\nC. 2\nD.12",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-choice-q8-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-choice-q8-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p2",
+          "bbox": [
+            0.025,
+            0.17283506509007762,
+            0.985,
+            0.3054749350997539
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "为来自总体X 的简单随机样本,其中\n\n\n\nX , X , \n, X\nP X  0  P X  1 \n ( x )\n(8)设\n,\n表示标准\n 100\n\n\nP\nX  55\n 的近似值为\n正态分布函数,则利用中心极限定理可得 \n(\n)\ni\n\n\ni \n1  )1(\n\n )1(\n1  ( 2.0 )\n\n ( 2.0 )\nA.\nB.\nC.\nD.",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-blank-q9-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-blank-q9-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p2",
+          "bbox": [
+            0.025,
+            0.334889185511337,
+            0.985,
+            0.3912987918139485
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": " 1\n\nlim\n\n ________.\n(9)\n\n\nex  1\nln(\n1  x )\nx  0",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-blank-q10-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "10",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-blank-q10-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p2",
+          "bbox": [
+            0.025,
+            0.3912987918139485,
+            0.985,
+            0.4530255635328097
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\nd 2 y\n\nx  t 2  1\n, 则\n ________.\n(10) 设\ndx\n y  ln(\nt  t 2  1 )\nt 1",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-blank-q11-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-blank-q11-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p2",
+          "bbox": [
+            0.025,
+            0.4530255635328097,
+            0.985,
+            0.4935518828807674
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\nf (x )\nf \n( x )  fa \n( x )  f ( x )  0 ( a  0 ),\nf ( 0 )  m , f \n( 0 )  n , 则\nf ( x ) dx  ______.\n(11)若函数\n满足\n且",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-blank-q12-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-blank-q12-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p2",
+          "bbox": [
+            0.025,
+            0.4935518828807674,
+            0.985,
+            0.5752494860899068
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": " 2 f\nxy\n e xt\n2 dt ,\nf ( x , y )\n ________.\n(12) 设函数\n则\nx y\n \n( )\n1,1\na\n 1",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-blank-q13-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-blank-q13-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p2",
+          "bbox": [
+            0.025,
+            0.5752494860899068,
+            0.985,
+            0.6526564194099259
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "a\n 1\n ________.\n(13) 行列式\n 1\na\n 1\na\n ",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-blank-q14-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-blank-q14-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p2",
+          "bbox": [
+            0.025,
+            0.6526564194099259,
+            0.985,
+            0.688583214168602
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": " \nX 服从区间\nY  sin X , 则\nCov ( X , Y )  ________.\n( \n,\n)\n(14) 设\n的均匀分布,\n2 2",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-solution-q15-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "15",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-solution-q15-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p2",
+          "bbox": [
+            0.025,
+            0.7092023662878099,
+            0.985,
+            0.7692819854911577
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(15)(本题满分10 分)\n\n\nf x , y  x 3  8 y 3  xy\n.\n求函数\n的极值",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-solution-q16-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "16",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-solution-q16-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p3",
+          "bbox": [
+            0.025,
+            0.037143926226304545,
+            0.985,
+            0.37611291433635585
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(16)(本题满分10 分)\nx  y\n4 x  y\n\nI\ndx \ndy , 其中I 是 x 2 y 2  ,2 方向为逆时针方向.\n计算曲线积分\n4 x 2  y 2\n4 x 2  y 2",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-solution-q17-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-solution-q17-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p3",
+          "bbox": [
+            0.025,
+            0.37611291433635585,
+            0.985,
+            0.4153318542084198
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-solution-q17-o1-r2",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p3",
+          "bbox": [
+            0.025,
+            0.4153318542084198,
+            0.985,
+            0.6951425662661223
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(17)(本题满分10 分)",
+      "answer_hint": " 1 \n\n设数列\n\n\n时,幂级数\na\na  ,1 n  1 a\n  n\nx  1\na nx n\n a ,\n满足\n证明:当\n收敛,并求其和函\nn\nn \nn\n2 \n\nn 1\n数.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-solution-q18-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-solution-q18-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p3",
+          "bbox": [
+            0.025,
+            0.6951425662661223,
+            0.985,
+            0.8173729703964383
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(18)(本题满分10 分)\n\n\n的下侧,\nx 2  y 2 1  x 2  y 2  4\nf x\n设为曲面 z \n是连续函数,计算\n\n\n\n\n\n\n\n\n\n\n\n\nI  xf xy  2 x  y dydz  yf xy  2 y  x dzdx  zf xy  z dxdy .\n",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-solution-q19-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-solution-q19-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p4",
+          "bbox": [
+            0.025,
+            0.037143926226304545,
+            0.985,
+            0.3565996473296049
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(19)(本题满分10 分)\n 上具有连续导数,\n设函数 在区间\n\nf x\n2,0\nf 0 \nf 2  ,0\nM  max\nf x\n( ,)\n证明\n \n,0 2\n \n ( 2,0 ), 使得\nf  \n( )  M ;\n(I)\nx  ( 2,0 ), f \n( x )  M , 则\nM  .0\n(II)若对任意的",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-solution-q20-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-solution-q20-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p4",
+          "bbox": [
+            0.025,
+            0.3565996473296049,
+            0.985,
+            0.7150818878189851
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(20)(本题满分11 分)\n x \n y \nf ( x , x )  x 2  4 x x  4 x 2\n 1   Q  1 \n设二次型\n经正交变换\n化为二次型\n1 2\nx\ny\n\n\n\n\ng ( y , y )  ay 2  4 y y  by 2 ,\na  .b\n其中\n1 2\na, b 的值;\n(I) 求\nQ\n.\n(II) 求正交矩阵",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-solution-q21-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-solution-q21-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p4",
+          "bbox": [
+            0.025,
+            0.7150818878189851,
+            0.985,
+            0.868978749281306
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(21)(本题满分11 分)\nA\nP  ( , \nA 的特征向量\n A ), 其中 是非零向量且不是\n\n.\n设 为 阶矩阵,\n证明P 为可逆矩阵;\n(I)\nA 2  \n A\n 6\n  0\nP  1 AP , 并判断\nA 是否相似于对角矩阵\n.\n(II) 若\n,求",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-solution-q22-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-solution-q22-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p5",
+          "bbox": [
+            0.025,
+            0.037143926226304545,
+            0.985,
+            0.4758096781265042
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(22)(本题满分11 分)\nX , X , X\nX 与\nX\nX 的概率分布为\n设随机变量\n相互独立,其中\n均服从标准正态分布,\n\n\n\n\nP X  0  P X  1 \n, Y  X X  1(  X ) X .\n3 1\n, )\n (x )\n(I)求二维随机变量 ( X 1 Y 的分布函数,结果用标准正态分布函数\n表示;\n(II)证明随机变量Y 服从标准正态分布.",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-f769c2c0f2e9ae63c1e9-s0-solution-q23-o1",
+      "document_id": "d-f769c2c0f2e9ae63c1e9",
+      "number": "23",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-f769c2c0f2e9ae63c1e9-s0-solution-q23-o1-r1",
+          "page_id": "d-f769c2c0f2e9ae63c1e9-p5",
+          "bbox": [
+            0.025,
+            0.4758096781265042,
+            0.985,
+            0.7703863363495728
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学一试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(23)(本题满分11 分)\n设某种元件的使用寿命T 的分布函数为\n\nt\nm\n ( )\n\n1  e \n, t  0\nF (\nt ) \n\n,0\n.\n其他\n\n, m 为参数且大于零.\n其中\n\n\n\n\n(I) 求概率 P T  t 与 P T  s  t T  s , 其中 s  ,0 t  ;0\n(II)任取n 个这种元件做寿命试验,测得它们的寿命分别为 t , 2\nt ,  , t n, 若m 已知,求\n\n的最大似\n然估计值ˆ .",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [],
+  "identity": {
+    "category": "考研数一",
+    "year": "2020",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

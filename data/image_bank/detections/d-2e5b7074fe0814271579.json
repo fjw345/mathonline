@@ -1,0 +1,1011 @@
+{
+  "item": {
+    "id": "d-2e5b7074fe0814271579",
+    "path": "resource/北交大历年期末真题/2024-2025-1-微积分B上期末（A）答案.pdf",
+    "name": "2024-2025-1-微积分B上期末（A）答案.pdf",
+    "sha256": "bed5b88d83b9dd3eb8ddb897a45fbce80ebe8e9895aff72522a6e64c637e4aa0",
+    "format": "pdf",
+    "bytes": 502554,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 4,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1190,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1368,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1269,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1156,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "bed5b88d83b9dd3eb8ddb897a45fbce80ebe8e9895aff72522a6e64c637e4aa0",
+  "engine_version": 6,
+  "status": "detected",
+  "pdf_path": "resource/北交大历年期末真题/2024-2025-1-微积分B上期末（A）答案.pdf",
+  "pdf_sha256": "bed5b88d83b9dd3eb8ddb897a45fbce80ebe8e9895aff72522a6e64c637e4aa0",
+  "pages": [
+    {
+      "id": "d-2e5b7074fe0814271579-p1",
+      "document_id": "d-2e5b7074fe0814271579",
+      "number": 1,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-2e5b7074fe0814271579-p2",
+      "document_id": "d-2e5b7074fe0814271579",
+      "number": 2,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-2e5b7074fe0814271579-p3",
+      "document_id": "d-2e5b7074fe0814271579",
+      "number": 3,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-2e5b7074fe0814271579-p4",
+      "document_id": "d-2e5b7074fe0814271579",
+      "number": 4,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-2e5b7074fe0814271579-s1-choice-q1-o1",
+      "document_id": "d-2e5b7074fe0814271579",
+      "number": "1",
+      "kind": "choice",
+      "answer": "C",
+      "tags": [
+        "北交期末考",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-2e5b7074fe0814271579-s1-choice-q1-o1-r1",
+          "page_id": "d-2e5b7074fe0814271579-p1",
+          "bbox": [
+            0.025,
+            0.2090006635325856,
+            0.985,
+            0.31006146103920823
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-2e5b7074fe0814271579-s1-choice-q1-o1-r2",
+          "page_id": "d-2e5b7074fe0814271579-p1",
+          "bbox": [
+            0.025,
+            0.31006146103920823,
+            0.985,
+            0.36183785327327794
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交期末考",
+        "year": "2024",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B(上)",
+        "session": "期末",
+        "term": "1",
+        "heading": "2024-2025-1-《微积分B(上)》期末考试"
+      },
+      "section": "choice",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": " x 2  2 x  3\n\n,\nx   1\nx   1\na \n1.设函数 f ( x ) \n在\n处连续,则常数\n【\n】.\nx  1\n\na ,\nx   1\n(A)0\n(D)2 .\n(B)  2\n(C)  4",
+      "answer_hint": "x  x \n2 x \nlim\n lim\n  4\na   4\n故选(C).\n解:\n,所以,\n.\nx \nx   1\nx   1",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-2e5b7074fe0814271579-s1-choice-q2-o1",
+      "document_id": "d-2e5b7074fe0814271579",
+      "number": "2",
+      "kind": "choice",
+      "answer": "C",
+      "tags": [
+        "北交期末考",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-2e5b7074fe0814271579-s1-choice-q2-o1-r1",
+          "page_id": "d-2e5b7074fe0814271579-p1",
+          "bbox": [
+            0.025,
+            0.36183785327327794,
+            0.985,
+            0.43598252830062967
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-2e5b7074fe0814271579-s1-choice-q2-o1-r2",
+          "page_id": "d-2e5b7074fe0814271579-p1",
+          "bbox": [
+            0.025,
+            0.43598252830062967,
+            0.985,
+            0.5001028983679396
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交期末考",
+        "year": "2024",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B(上)",
+        "session": "期末",
+        "term": "1",
+        "heading": "2024-2025-1-《微积分B(上)》期末考试"
+      },
+      "section": "choice",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "xf ( x )\n 1\nf ( 0 )  0\nf  ( 0 ) \n2.设 lim\n,其中\n,则\n【\n】.\n1 cos 2 x\n\nx 0\n\n(A)0\n(B)1\n(C)2\n(D)4 .",
+      "answer_hint": "xf ( x )\nxf ( x )\nf ( x )\nlim\nlim\nf  ( 0 )  1\n lim\n\n\n故选(C).\n解:\n.\n1  cos 2 x\n( 2 x ) 2\nx\nx  0\nx  0\nx  0\nx",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-2e5b7074fe0814271579-s1-choice-q3-o1",
+      "document_id": "d-2e5b7074fe0814271579",
+      "number": "3",
+      "kind": "choice",
+      "answer": "B",
+      "tags": [
+        "北交期末考",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-2e5b7074fe0814271579-s1-choice-q3-o1-r1",
+          "page_id": "d-2e5b7074fe0814271579-p1",
+          "bbox": [
+            0.025,
+            0.5001028983679396,
+            0.985,
+            0.5692296445838425
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-2e5b7074fe0814271579-s1-choice-q3-o1-r2",
+          "page_id": "d-2e5b7074fe0814271579-p1",
+          "bbox": [
+            0.025,
+            0.5692296445838425,
+            0.985,
+            0.7331818597639107
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交期末考",
+        "year": "2024",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B(上)",
+        "session": "期末",
+        "term": "1",
+        "heading": "2024-2025-1-《微积分B(上)》期末考试"
+      },
+      "section": "choice",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "x\n\n在\n\n3.设常数k 0 ,则函数 f x  ln\n0 ,\nx \n k\n内零点个数为【\n】.\ne\n(A)3\n(B)2\n(C)1\n(D)0 .",
+      "answer_hint": "e  x\n ( )\nf\nx \n\n\n\nx  e\n解:由\n,得驻点\n.\nx\ne\nxe\nx\n\n0  x  e\ny  0\nf x  ln\nx \n( ,0 e 上单调递增;\n]\n k 在\n当\n时,\n,故\ne\nx\n\ny  0\nf x  ln\nx \n k\n[ e ,   )\nx  e 时,\n当\n,故\n在\n上单调递减;\ne\nlim f ( x )  \nln( e ) 1\nlim f ( x )   .故选(B).\nf ( e ) \n \nk \nk \n再由\n,\n,\nx  0 \nx  ",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-2e5b7074fe0814271579-s1-choice-q4-o1",
+      "document_id": "d-2e5b7074fe0814271579",
+      "number": "4",
+      "kind": "choice",
+      "answer": "C",
+      "tags": [
+        "北交期末考",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-2e5b7074fe0814271579-s1-choice-q4-o1-r1",
+          "page_id": "d-2e5b7074fe0814271579-p1",
+          "bbox": [
+            0.025,
+            0.7331818597639107,
+            0.985,
+            0.8101082899338703
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-2e5b7074fe0814271579-s1-choice-q4-o1-r2",
+          "page_id": "d-2e5b7074fe0814271579-p1",
+          "bbox": [
+            0.025,
+            0.8101082899338703,
+            0.985,
+            0.956747318024467
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交期末考",
+        "year": "2024",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B(上)",
+        "session": "期末",
+        "term": "1",
+        "heading": "2024-2025-1-《微积分B(上)》期末考试"
+      },
+      "section": "choice",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "x\n\nf (x )\nx  0\nf ( t )\ndt  x 2 ( x  1\n)\nf ( 2 ) \n4.设函数\n连续,\n,且\n,则\n【\n】.\n3 2\n(A)4\n(B) 12  2 2 (C) 1\n(D) 12  2 2 .",
+      "answer_hint": "解:等式两边对求导,得\n3 x  2\nf ( x 2 )  2 x  3 x 2  2 x\nf ( x 2 ) \n,即\n.\n3 2  2\n3 2\nf ( 2 ) \nx \n 1 \n故选(C).\n所以,令\n,则\n.\n可能有笔误,请谅解",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-2e5b7074fe0814271579-s1-choice-q5-o1",
+      "document_id": "d-2e5b7074fe0814271579",
+      "number": "5",
+      "kind": "choice",
+      "answer": "B",
+      "tags": [
+        "北交期末考",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-2e5b7074fe0814271579-s1-choice-q5-o1-r1",
+          "page_id": "d-2e5b7074fe0814271579-p2",
+          "bbox": [
+            0.025,
+            0.08350741149993521,
+            0.985,
+            0.1582900377836324
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-2e5b7074fe0814271579-s1-choice-q5-o1-r2",
+          "page_id": "d-2e5b7074fe0814271579-p2",
+          "bbox": [
+            0.025,
+            0.1582900377836324,
+            0.985,
+            0.19522203408231925
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交期末考",
+        "year": "2024",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B(上)",
+        "session": "期末",
+        "term": "1",
+        "heading": "2024-2025-1-《微积分B(上)》期末考试"
+      },
+      "section": "choice",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "5.按待定函数法,微分方程 y   5 y   6 y  xe  2 x\n的一个特解应具有形式【\n】.\n x\ne  2 x\ne  2 x\ne  2 x\n(A) Axe 2\n(B) ( Ax  B )\n(C) ( Ax 2  Bx  C )\n(D) x ( Ax  B )\n.",
+      "answer_hint": "r 2 r\n5  6  0\nr\n ,2 r  3\n故选(B).\n解:对应的齐次方程的特征方程\n,特征根\n.\n,1 2",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-2e5b7074fe0814271579-s1-blank-q6-o1",
+      "document_id": "d-2e5b7074fe0814271579",
+      "number": "6",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交期末考",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q6-o1-r1",
+          "page_id": "d-2e5b7074fe0814271579-p2",
+          "bbox": [
+            0.025,
+            0.24721392651323276,
+            0.985,
+            0.2837650001204969
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q6-o1-r2",
+          "page_id": "d-2e5b7074fe0814271579-p2",
+          "bbox": [
+            0.025,
+            0.2837650001204969,
+            0.985,
+            0.3765023040592008
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交期末考",
+        "year": "2024",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B(上)",
+        "session": "期末",
+        "term": "1",
+        "heading": "2024-2025-1-《微积分B(上)》期末考试"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": " \n\n\n\nx2\ne dx \nx\nx 2 e dx \n6.若\n,则\n【\n】.\n ",
+      "answer_hint": "\n\n\n\n\n\n\n\n\nx 2 e  x dx  \nxde  x  \nxe  x\ne  x dx\n\n解:\n \n \n \n \n\n \n\ne dx \nx\n 0 \n.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-2e5b7074fe0814271579-s1-blank-q7-o1",
+      "document_id": "d-2e5b7074fe0814271579",
+      "number": "7",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交期末考",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q7-o1-r1",
+          "page_id": "d-2e5b7074fe0814271579-p2",
+          "bbox": [
+            0.025,
+            0.3765023040592008,
+            0.985,
+            0.4289088437440403
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q7-o1-r2",
+          "page_id": "d-2e5b7074fe0814271579-p2",
+          "bbox": [
+            0.025,
+            0.4289088437440403,
+            0.985,
+            0.5397321444443135
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交期末考",
+        "year": "2024",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B(上)",
+        "session": "期末",
+        "term": "1",
+        "heading": "2024-2025-1-《微积分B(上)》期末考试"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": " x  cos 3 t\n\nt\n7.曲线 \n在 \n对应的点处的切线方程为【\n】.\ny  sin 3 t\n",
+      "answer_hint": "\ndy\n 3 cos 2 t  sin t\n时,曲线L 上的点为\n(\n,\n)\n\n  ,\n解:当 t \n,且 k \ndx\n3 sin 2 t  cos t\n\n\nt \nt \n  x \n(\n)\n故所求切线方程为: y \n,或 x y \n.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-2e5b7074fe0814271579-s1-blank-q8-o1",
+      "document_id": "d-2e5b7074fe0814271579",
+      "number": "8",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交期末考",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q8-o1-r1",
+          "page_id": "d-2e5b7074fe0814271579-p2",
+          "bbox": [
+            0.025,
+            0.5397321444443135,
+            0.985,
+            0.5914743757088886
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q8-o1-r2",
+          "page_id": "d-2e5b7074fe0814271579-p2",
+          "bbox": [
+            0.025,
+            0.5914743757088886,
+            0.985,
+            0.6754079020019976
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交期末考",
+        "year": "2024",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B(上)",
+        "session": "期末",
+        "term": "1",
+        "heading": "2024-2025-1-《微积分B(上)》期末考试"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "ft  ( t )\n\ndt \n8.设 ln f ( t )  cos t ,则\n【\n】.\nf ( t )",
+      "answer_hint": "ft  ( t )\n\n td [ ln f ( t )]  t  ln f ( t ) \n ln f ( t )\ndt \ndt\n解:\nf ( t )\n\n t cos t  cos tdt  t cos t  sin t  C\n.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-2e5b7074fe0814271579-s1-blank-q9-o1",
+      "document_id": "d-2e5b7074fe0814271579",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交期末考",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q9-o1-r1",
+          "page_id": "d-2e5b7074fe0814271579-p2",
+          "bbox": [
+            0.025,
+            0.6754079020019976,
+            0.985,
+            0.7249904035557277
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q9-o1-r2",
+          "page_id": "d-2e5b7074fe0814271579-p2",
+          "bbox": [
+            0.025,
+            0.7249904035557277,
+            0.985,
+            0.8227792457054278
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交期末考",
+        "year": "2024",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B(上)",
+        "session": "期末",
+        "term": "1",
+        "heading": "2024-2025-1-《微积分B(上)》期末考试"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "e   e x\n\n9. lim\n【\n】.\nsin 3 x \nsin x\nx \n",
+      "answer_hint": "e   e x\ne x ( e \n x  1\n)\n  x\nlim\nlim\ne  lim\n\n\n解:\nsin 3 x  sin x\nsin 3 x  sin x\nsin 3 x  sin x\nx \n\nx \n\nx \n\ne \n 1\n e \n e  lim\n\n\n.\n3cos 3 x  cos x\n2cos\n\nx \n",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-2e5b7074fe0814271579-s1-blank-q10-o1",
+      "document_id": "d-2e5b7074fe0814271579",
+      "number": "10",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交期末考",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q10-o1-r1",
+          "page_id": "d-2e5b7074fe0814271579-p2",
+          "bbox": [
+            0.025,
+            0.8227792457054278,
+            0.985,
+            0.8738235409665668
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q10-o1-r2",
+          "page_id": "d-2e5b7074fe0814271579-p2",
+          "bbox": [
+            0.025,
+            0.8738235409665668,
+            0.985,
+            0.956747318024467
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交期末考",
+        "year": "2024",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B(上)",
+        "session": "期末",
+        "term": "1",
+        "heading": "2024-2025-1-《微积分B(上)》期末考试"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "\n\nlim\n2 n 2 \n3 n 2  ... \nn 2 \nn  n 2\n10.\n【\n】.\nn 2\nn  ",
+      "answer_hint": "\n\nn\nk 1\n1 3\n\nlim\nn 2 \n2 n 2 \n3 n 2  ... \nn  n 2\nx dx \n lim\n\n \n解:\n.\nn 2\nn n\nn  \nn  \nk  1\n可能有笔误,请谅解",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-2e5b7074fe0814271579-s1-blank-q3-o1",
+      "document_id": "d-2e5b7074fe0814271579",
+      "number": "3",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交期末考",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q3-o1-r1",
+          "page_id": "d-2e5b7074fe0814271579-p3",
+          "bbox": [
+            0.025,
+            0.08384182047952303,
+            0.985,
+            0.14128870029318308
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q3-o1-r2",
+          "page_id": "d-2e5b7074fe0814271579-p3",
+          "bbox": [
+            0.025,
+            0.14128870029318308,
+            0.985,
+            0.3578003612577074
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交期末考",
+        "year": "2024",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B(上)",
+        "session": "期末",
+        "term": "1",
+        "heading": "2024-2025-1-《微积分B(上)》期末考试"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "sin ax ,\nx \n,0\n\n( )\na, b\nf\n(x )\nx \n三、(满分10 分)设 f x  \n,确定常数\n,使\n在\n处可导.\ne 2 x  b ,\nx  0\n",
+      "answer_hint": "f (x )\nx  0\n解:由已知,\n在\n处连续,故由\nf ( 0 \n0 ) \n,0\nf ( 0 ) \n,0\nf ( 0 \n0 )  \n1 b\nb  \n,知\n.\nf (x )\nx  0\n再由\n在\n处可导,以及\nf ( x )  f ( 0 )\nsin ax  0\n ( 0 ) \nlim\nlim\nf\n\n a\n;\n\nx\nx\nx  0 \nx  0 \nf ( x )  f ( 0 )\ne 2 x  1  0\nf  ( 0 )  lim\n lim\n 2\na  2\n,知\n.\n\nx\nx\nx  0 \nx  0 \na  2\nb   1\n综上所述,\n,\n.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-2e5b7074fe0814271579-s1-blank-q4-o1",
+      "document_id": "d-2e5b7074fe0814271579",
+      "number": "4",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交期末考",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q4-o1-r1",
+          "page_id": "d-2e5b7074fe0814271579-p3",
+          "bbox": [
+            0.025,
+            0.3578003612577074,
+            0.985,
+            0.3929878206082146
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q4-o1-r2",
+          "page_id": "d-2e5b7074fe0814271579-p3",
+          "bbox": [
+            0.025,
+            0.3929878206082146,
+            0.985,
+            0.6381805430270381
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交期末考",
+        "year": "2024",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B(上)",
+        "session": "期末",
+        "term": "1",
+        "heading": "2024-2025-1-《微积分B(上)》期末考试"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "f  (x )\ny \nf ( x \ny )\nf x\n( ) \n1 ,求y .\n四、(满分10 分)设\n,\n存在,且",
+      "answer_hint": "y \nf ( x \ny ) 两边同时对x 求导,得\n解:方程\ndy\ndy\ndy\nf \n1 \n)\n f  ( x  y )  (\n1\n(*)\n,\n整理,得\n.\ndx\ndx\ndx\n f \n式(*)两边,再同时对x 求导,得\n/\nd 2 y\nd \ndy \n\nf  \n\n\n\n  \n1  f \ndx 2\ndx  dx \n\n\nx\n( 1  f  )( 1  y  ) f   ( 1  y  ) f  f \n\n( 1  f  ) 2\nf \n\n.\n ) 3\n( 1  f",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-2e5b7074fe0814271579-s1-blank-q5-o1",
+      "document_id": "d-2e5b7074fe0814271579",
+      "number": "5",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交期末考",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q5-o1-r1",
+          "page_id": "d-2e5b7074fe0814271579-p3",
+          "bbox": [
+            0.025,
+            0.6381805430270381,
+            0.985,
+            0.6719526496474728
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q5-o1-r2",
+          "page_id": "d-2e5b7074fe0814271579-p3",
+          "bbox": [
+            0.025,
+            0.6719526496474728,
+            0.985,
+            0.8587688332285714
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交期末考",
+        "year": "2024",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B(上)",
+        "session": "期末",
+        "term": "1",
+        "heading": "2024-2025-1-《微积分B(上)》期末考试"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(  ,   )\nf ( x )  xe  x\n五、(满分10 分)求\n,在\n内的最值.",
+      "answer_hint": "f  ( x )  e  x  xe  x  (\n1  x )\ne  x  0\nx  1\n解:由\n,得\n.\nx  1\nf x\n( )  0\nf ( x )  xe  x\n,1[   )\n当\n时,\n,故\n在\n上单调递减;\nx  1\nf x\n( )  0\nf ( x )  xe  x\n( , 1\n]\n当\n时,\n,故\n在\n上单调递增;\nf x  xe  x\n( )\nx \nf\nf\n( )\n1 \n因此,\n在\n处,取得最大值\n;\nmax\ne\nlim f ( x )  \n(  ,   )\nf ( x )  xe  x\n再由\n,故函数\n在\n内,无最小值.\nx  ",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-2e5b7074fe0814271579-s1-blank-q6-o2",
+      "document_id": "d-2e5b7074fe0814271579",
+      "number": "6",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交期末考",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q6-o2-r1",
+          "page_id": "d-2e5b7074fe0814271579-p3",
+          "bbox": [
+            0.025,
+            0.8587688332285714,
+            0.985,
+            0.8935822311753541
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q6-o2-r2",
+          "page_id": "d-2e5b7074fe0814271579-p3",
+          "bbox": [
+            0.025,
+            0.8935822311753541,
+            0.985,
+            0.956747318024467
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q6-o2-r3",
+          "page_id": "d-2e5b7074fe0814271579-p4",
+          "bbox": [
+            0.025,
+            0.08307760138207185,
+            0.985,
+            0.32513356444477803
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交期末考",
+        "year": "2024",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B(上)",
+        "session": "期末",
+        "term": "1",
+        "heading": "2024-2025-1-《微积分B(上)》期末考试"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "y   9 y  cos 3 x\n六、(满分10 分)求微分方程\n的通解.",
+      "answer_hint": "解:1)先求齐次方程 y   9 y  0 通解:\n可能有笔误,请谅解\nr 2  9  0\nr   ,3 r  3\n特征方程为\n,特征根为\n.\nY  C e  3 x  C e 3 x\n故,齐次方程的通解为:\n.\n2)再求非齐次的特解:\ny\n*  x 0 ( A cos 3 x  B sin 3 x )\n设\n,\n, B  0\n*  \ncos 3 x\nA  \ny\n代入原方程,得\n,即\n.\ny \nY \ny\n* \nC e  3 x \nC e 3 x \ncos 3 x\n故非齐次方程的通解为:\n.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-2e5b7074fe0814271579-s1-blank-q7-o2",
+      "document_id": "d-2e5b7074fe0814271579",
+      "number": "7",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交期末考",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q7-o2-r1",
+          "page_id": "d-2e5b7074fe0814271579-p4",
+          "bbox": [
+            0.025,
+            0.32513356444477803,
+            0.985,
+            0.3957207345350333
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q7-o2-r2",
+          "page_id": "d-2e5b7074fe0814271579-p4",
+          "bbox": [
+            0.025,
+            0.3957207345350333,
+            0.985,
+            0.617477080171504
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交期末考",
+        "year": "2024",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B(上)",
+        "session": "期末",
+        "term": "1",
+        "heading": "2024-2025-1-《微积分B(上)》期末考试"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": ",1 x \n1 及x 轴围成一个平面图形,该图\ny \nx 3 \nax \nb\nx  \n七、(满分10 分)设曲线\n与直线\n形绕x 轴旋转得到一个旋转体.问当 a, b\n为何值时该旋转体的体积最小?",
+      "answer_hint": " y 2 dx  \n ( x 3  ax  b ) 2 dx\nV  \n解:由已知,有\n 1\n 1\n ( x\n6  2 ax\n4  2 bx\n3  a x\n2 2  2 abx  b dx\n2 )\n \n2  ( x 6 \n2 ax 4 \n \na 2 x 2 \nb 2 )\ndx\n 1\n\n2 a\na 2\n 2 \n\n\n\n b 2  .\n\n\n\na  0\nb  0\na \n, b  0\nV\nV\nV\n\n再由\n,\n时,即\n时,\n.\nmin",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-2e5b7074fe0814271579-s1-blank-q8-o2",
+      "document_id": "d-2e5b7074fe0814271579",
+      "number": "8",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交期末考",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q8-o2-r1",
+          "page_id": "d-2e5b7074fe0814271579-p4",
+          "bbox": [
+            0.025,
+            0.617477080171504,
+            0.985,
+            0.7024426362648101
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-2e5b7074fe0814271579-s1-blank-q8-o2-r2",
+          "page_id": "d-2e5b7074fe0814271579-p4",
+          "bbox": [
+            0.025,
+            0.7024426362648101,
+            0.985,
+            0.956747318024467
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交期末考",
+        "year": "2024",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B(上)",
+        "session": "期末",
+        "term": "1",
+        "heading": "2024-2025-1-《微积分B(上)》期末考试"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "f (x )\nx  1\n八、(满分10 分)设函数\n在\n上是正值连续函数,\n 2\n\nx\n\n(\nF ( x ) \n ln x )  (  ln t ) f ( t )\ndt\nx  1\n试求函数\n在\n时的最小值.\n\n\nx\nt",
+      "answer_hint": "x\nx\nF ( x )  (\ndt   (  ln t ) f ( t )\ndt\n,1[   )\n ln x )  f ( t )\n解:易知函数\n在\n上可导.\nx\nt\nx\nF  ( x )  ( x  2 ) x  2  f ( t )\ndt  0\nx  2\n再由\n,得\n.\nx\n1 x  2\nF ( )  0\nF (x )\n,1[ 2 ]\n当\n时,\n,故\n在\n上单调递减.\nx  2\nF x\n( )  0\nf (x )\n[ ,2   )\n当\n时,\n,故\n在\n上单调递增.\nF (x )\nx  2\nF ( 2 )\n因此,\n在\n处取得最小值\n.\n可能有笔误,请谅解",
+      "suspected_answer_in_stem": true
+    }
+  ],
+  "issues": [],
+  "identity": {
+    "category": "北交期末考",
+    "year": null,
+    "complete": false,
+    "collection": true,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

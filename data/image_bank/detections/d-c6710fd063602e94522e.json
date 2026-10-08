@@ -1,0 +1,2082 @@
+{
+  "item": {
+    "id": "d-c6710fd063602e94522e",
+    "path": "resource/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2025考研数学（三）真题及答案解析.pdf",
+    "name": "2025考研数学（三）真题及答案解析.pdf",
+    "sha256": "9657559abad12b131ad96ca20764044cca385d338edd0bcfba2c195eb48fd688",
+    "format": "pdf",
+    "bytes": 786365,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 11,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 825,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 952,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 718,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 710,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 850,
+        "renderable": true
+      },
+      {
+        "number": 6,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 843,
+        "renderable": true
+      },
+      {
+        "number": 7,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 986,
+        "renderable": true
+      },
+      {
+        "number": 8,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1151,
+        "renderable": true
+      },
+      {
+        "number": 9,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 924,
+        "renderable": true
+      },
+      {
+        "number": 10,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1390,
+        "renderable": true
+      },
+      {
+        "number": 11,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 944,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "9657559abad12b131ad96ca20764044cca385d338edd0bcfba2c195eb48fd688",
+  "engine_version": 6,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2025考研数学（三）真题及答案解析.pdf",
+  "pdf_sha256": "9657559abad12b131ad96ca20764044cca385d338edd0bcfba2c195eb48fd688",
+  "pages": [
+    {
+      "id": "d-c6710fd063602e94522e-p1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": 1,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-c6710fd063602e94522e-p2",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": 2,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-c6710fd063602e94522e-p3",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": 3,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-c6710fd063602e94522e-p4",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": 4,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-c6710fd063602e94522e-p5",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": 5,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-c6710fd063602e94522e-p6",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": 6,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-c6710fd063602e94522e-p7",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": 7,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-c6710fd063602e94522e-p8",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": 8,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-c6710fd063602e94522e-p9",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": 9,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-c6710fd063602e94522e-p10",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": 10,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-c6710fd063602e94522e-p11",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": 11,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-c6710fd063602e94522e-s0-choice-q1-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q1-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p1",
+          "bbox": [
+            0.025,
+            0.17489769373936834,
+            0.985,
+            0.24836996257228175
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "1.在 x  0  时,下列无穷小量中与x 等价的是\n\n\nln 1 x\n\nx .\ne -sin\nx 1 cos x .\n\nC.1 cos 2x .\n\nA.\nB.\nD. \n.\nx",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-choice-q1-o2",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q1-o2-r1",
+          "page_id": "d-c6710fd063602e94522e-p1",
+          "bbox": [
+            0.025,
+            0.24836996257228175,
+            0.985,
+            0.2780889635047865
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q1-o2-r2",
+          "page_id": "d-c6710fd063602e94522e-p1",
+          "bbox": [
+            0.025,
+            0.2780889635047865,
+            0.985,
+            0.5267469271492716
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "1.【答案】C",
+      "answer_hint": "【解析】\ne  sin x  1~  sin x ~  x A 不对.\nx \n1 cos x ~ 2 x\nB 不对.\n1 cos 2 x ~\n( 2 )\n\n 2  x\nC 对.\nx 2\n\n\nx \n o x\nln(1  x )\n1 \n\nx\nx\nx\n( ) D 不对.\n\n o x",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-choice-q2-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q2-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p1",
+          "bbox": [
+            0.025,
+            0.5267469271492716,
+            0.985,
+            0.7161290141260579
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q2-o1-r2",
+          "page_id": "d-c6710fd063602e94522e-p1",
+          "bbox": [
+            0.025,
+            0.7161290141260579,
+            0.985,
+            0.743909519447532
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q2-o1-r3",
+          "page_id": "d-c6710fd063602e94522e-p1",
+          "bbox": [
+            0.025,
+            0.743909519447532,
+            0.985,
+            0.9648736526115976
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q2-o1-r4",
+          "page_id": "d-c6710fd063602e94522e-p2",
+          "bbox": [
+            0.025,
+            0.06241292571320176,
+            0.985,
+            0.17842032248440098
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "x\nx\n \n, \nt 2\nt 2 t \n0 e sin d\nt t\ng x\n0 e d sin 2 x\n2.已知函数 f x\n,则\nf x 的极值点,也是\n\ng x 的极值点.\nA. x  0 是\nf x 的极值点,\n\n\n\n0,0 是曲线 y \ng x\nB. x  0 是\n的拐点.\nf x 的极值点,\n\n\n\n0,0 是曲线 y  f x\nC. x  0 是\n的拐点.\nD.\n\n 的拐点,\n\n\n0,0 是曲线 y  f x\n0,0 也是曲线 y  g x\n的拐点.",
+      "answer_hint": "【答案】B\n【解析】\nf  ( )\nx  e sin ,\nx 2\nx f  ( )\nx  2 xe sin x  e cos x\nx 2\nx 2\nf  (0)  0, f  (0)  0 .\nx  0\nf x\n( ) 的极值点.\n是\nx\n e dt\n ( )  e x sin 2 x  sin 2 x\nt\ng x\n,\n数学试题及解析\nx\ng  ( )\nx  e x 2 sin 2 x  2 xe x 2 sin 2 x  sin 2 xe x 2  2cos2 x  e dt\nt 2\ng  (0)  0,\ng  (0)  0,\ng  (0)  0 .\n(0,0) 是 y  g x\n( ) 的拐点.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-choice-q3-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q3-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p2",
+          "bbox": [
+            0.025,
+            0.17842032248440098,
+            0.985,
+            0.2549480706228706
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "n 1\nk  \n\n\n\n \n\n3.已知k 为常数,则级数\n 1\n ln 1 \n\n \n\nn\nn \n\n\n\nn \nD.敛散性与k 的取值有关.\nA.绝对收敛.\nB.条件收敛.\nC.发散.",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-choice-q3-o2",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q3-o2-r1",
+          "page_id": "d-c6710fd063602e94522e-p2",
+          "bbox": [
+            0.025,
+            0.2549480706228706,
+            0.985,
+            0.28109195274720866
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q3-o2-r2",
+          "page_id": "d-c6710fd063602e94522e-p2",
+          "bbox": [
+            0.025,
+            0.28109195274720866,
+            0.985,
+            0.4792226058239677
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "3.【答案】B",
+      "answer_hint": "【解析】\n\n\n( 1)n\nk  0\n\n当\n时,\n条件收敛\nn\nn \n\n\nk \n\n\n\n( 1)\n( 1) ln 1 \nk  0\n n\n\n n\n当\n时,原级数为\n\n\nn\nn 2 \n\nn \nn \n为条件收敛十绝对收敛\n故原级数条件收敛",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-choice-q4-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q4-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p2",
+          "bbox": [
+            0.025,
+            0.4792226058239677,
+            0.985,
+            0.5972785644498695
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "y\n\n\n d y\n f x d x \n4.设函数 f x 连续,\n\n\n\n xf x d\n  x  1 f x d\nx .\nx .\nA.\nB.\n\n\n\n\n  x  1 f x d\n \nx .\nC.\nD. 0 1  x f x d x .",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-choice-q4-o2",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q4-o2-r1",
+          "page_id": "d-c6710fd063602e94522e-p2",
+          "bbox": [
+            0.025,
+            0.5972785644498695,
+            0.985,
+            0.6246142013332621
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q4-o2-r2",
+          "page_id": "d-c6710fd063602e94522e-p2",
+          "bbox": [
+            0.025,
+            0.6246142013332621,
+            0.985,
+            0.8216066928539955
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "4.【答案】D",
+      "answer_hint": "【解析】\ny\n dy\n f x dx\n( )\n1 y\ny\n f x dxdy  y\n f x dx \n y f x dy\n( )\n( )\n\n ( )\n0 0\n f x dx \n y f y dy\n( )\n( )\n\n f x dx \n x f x dx \n (1\n\n( )\n( )\n x f x dx\n) ( )",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-choice-q5-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q5-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p2",
+          "bbox": [
+            0.025,
+            0.8216066928539955,
+            0.985,
+            0.9798991453260011
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q5-o1-r2",
+          "page_id": "d-c6710fd063602e94522e-p3",
+          "bbox": [
+            0.025,
+            0.06363705187002579,
+            0.985,
+            0.0706346478008894
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "5. A 是m n\n 矩阵,是m 维非零列向量,若A 有k 阶非零子式,则\nA. 当k  m\nAx  有解.\nB. 当k  m\nAx  无解.\n时,\n时,\nC. 当k  m\nAx  有解.\nD. 当k  m\nAx  无解.\n时,\n时,\n数学试题第2页",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-choice-q5-o2",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q5-o2-r1",
+          "page_id": "d-c6710fd063602e94522e-p3",
+          "bbox": [
+            0.025,
+            0.0706346478008894,
+            0.985,
+            0.09518962965096509
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q5-o2-r2",
+          "page_id": "d-c6710fd063602e94522e-p3",
+          "bbox": [
+            0.025,
+            0.09518962965096509,
+            0.985,
+            0.24878190652734422
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "5.【答案】A",
+      "answer_hint": "【解析】\n( ) k\nr A \n若k  m . 则( )\nr A  m\nr A B\n( , )  m\n故( )\nr A  r A\n( , \n)  m ,则Ax  \n有解",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-choice-q6-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q6-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p3",
+          "bbox": [
+            0.025,
+            0.24878190652734422,
+            0.985,
+            0.34766099032092934
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "3  2\n6. 设A 为3 阶矩阵,则“ A\nA ”可对角化是“ A 可对角化”的()\nA. 充分但不必要条件\nB. 必要但不充分条件\nC. 充分必要条件",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-choice-q6-o2",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "6",
+      "kind": "choice",
+      "answer": "B",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q6-o2-r1",
+          "page_id": "d-c6710fd063602e94522e-p3",
+          "bbox": [
+            0.025,
+            0.34766099032092934,
+            0.985,
+            0.3874695511811088
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q6-o2-r2",
+          "page_id": "d-c6710fd063602e94522e-p3",
+          "bbox": [
+            0.025,
+            0.3874695511811088,
+            0.985,
+            0.5949429142318187
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "D. 既不充分也不必要条件\n6.【答案】B",
+      "answer_hint": "【解析】\nf ( )\nA  A 3  A ,\n令\n若A 可对角化,则A 中有n 个线性无关的特征向量,故 f A 有n 个线性无关的特征向量,故 f A 可\n( )\n( )\n0 1 \n\n\n\nf A 可对角化,取 A  0\n( )\n0 , f ( )\nA 可对角化,A 不可对角化.综上为必要不充分条件,\n对角化;若\n\n\n\n\n\n选B。",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-choice-q7-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q7-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p3",
+          "bbox": [
+            0.025,
+            0.5949429142318187,
+            0.985,
+            0.8027245745771301
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "2 \n1 0 \n\n\n\n\nf x,y \nxA \nyB 是正定二次型,则a 的取值范围是(\n7. 设矩阵 A \nB \n ,\n ,若\n)\n1 a\n 2\n a\n\n\n\n\nA. \n\n0 2\n,  3\nB. \n\n2 \n3 2\n, \nC. \n\n2  3 4,\nD. \n\n0 4,",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-choice-q7-o2",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "7",
+      "kind": "choice",
+      "answer": "B",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q7-o2-r1",
+          "page_id": "d-c6710fd063602e94522e-p3",
+          "bbox": [
+            0.025,
+            0.8027245745771301,
+            0.985,
+            0.8394970762428713
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q7-o2-r2",
+          "page_id": "d-c6710fd063602e94522e-p3",
+          "bbox": [
+            0.025,
+            0.8394970762428713,
+            0.985,
+            0.9773159796093197
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q7-o2-r3",
+          "page_id": "d-c6710fd063602e94522e-p4",
+          "bbox": [
+            0.025,
+            0.06344392813860636,
+            0.985,
+            0.15185024044328088
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "7.【答案】B",
+      "answer_hint": "【解析】\n1   x \n\n 4  a\n\n\n\nf x y\n( , )  a x 2  y 2  2 xy  4 x 2  (4  a x\n) 2  ay 2  2 xy  ( , )\nx y\n\n\n \n 1\na\ny\n\n\n\n数学试题\n 4  a  0\na  4\n\n\n\na (2  3,2  3) .选B\n  \n4 a\n\n \n,得\n 0\n2  3  a  2  3\n\n\na\n",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-choice-q8-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q8-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p4",
+          "bbox": [
+            0.025,
+            0.15185024044328088,
+            0.985,
+            0.3664894790275165
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\n\n\n\n8. 设随机变量X 服从正态分布 N  11 ,Y 服从正态分布 N 1 2 ,若X 与 X  2\n,\n,\nY 不相关,则X 与X  Y\n的相关系数为( )\nA. 1\nB. 1\nC. 2\nD. 3",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-choice-q8-o2",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q8-o2-r1",
+          "page_id": "d-c6710fd063602e94522e-p4",
+          "bbox": [
+            0.025,
+            0.3664894790275165,
+            0.985,
+            0.39263339751910387
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q8-o2-r2",
+          "page_id": "d-c6710fd063602e94522e-p4",
+          "bbox": [
+            0.025,
+            0.39263339751910387,
+            0.985,
+            0.7181628646647127
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "8.【答案】D",
+      "answer_hint": "【解析】\nCov( X X  2 )  Cov( X X )  2Cov( X Y\n,\nY\n,\n, )  0\n DX  2Cov( X Y\n, )  0\nCov( X Y\n, ) \nDX \nCov( X X  Y )  Cov( X X )  Cov( X Y\n,\n,\n, )  DX  Cov( X Y\n, ) \n\n1 \n\nD X  Y )  DX  DY  2Cov( X Y\n(\n, ) \n1 2  2 \n 4\n\n\n2 \n\nDX  1  \n\n\n, \nX X Y\n2 1\n\n.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-choice-q9-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "9",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q9-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p4",
+          "bbox": [
+            0.025,
+            0.7181628646647127,
+            0.985,
+            0.9012369552737627
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\n\n\nB 1,0.1 的简单随机样本.令 T\nX\n9. 设 X , X ,  , X\n是来自总体\n,利用泊松分布近似表示二项分布\ni\ni \n的方法可得\n\nP T  1 \nA.\nB.\n.\n.\ne 2\ne 2\nC.\nD.\n.\n.\ne 2\ne 2",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-choice-q9-o2",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "9",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q9-o2-r1",
+          "page_id": "d-c6710fd063602e94522e-p4",
+          "bbox": [
+            0.025,
+            0.9012369552737627,
+            0.985,
+            0.9798991453260011
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q9-o2-r2",
+          "page_id": "d-c6710fd063602e94522e-p5",
+          "bbox": [
+            0.025,
+            0.06586790076745079,
+            0.985,
+            0.0712765873322397
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q9-o2-r3",
+          "page_id": "d-c6710fd063602e94522e-p5",
+          "bbox": [
+            0.025,
+            0.0712765873322397,
+            0.985,
+            0.2236689146960588
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "9.【答案】C\n数学试题第4页",
+      "answer_hint": "【解析】\nT ~ B (20.0.1), np  20 0.1  2\n\n由题意。可知\np T 1}\n{   p T\n{  0}   T\n{  1}\n2 0\ne  2 \ne  2  e  2  2\ne  2 \n\n0!\n1!\ne 2",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-choice-q10-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "10",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q10-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p5",
+          "bbox": [
+            0.025,
+            0.2236689146960588,
+            0.985,
+            0.44935111701521285
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\n10. 设总体X 的分布函数为 F x , x ,x , \n,x 为来自总体X 的简单随机样本,样本的经验分布函数为\n1 2\nn\n\n\n\n\n\n \nF\nx ,对于给定的X\n0  F x  1\nD F\nx\n(\n,\n)\nn\nn\n\n\n\n\n1  F x\nA. F x\n\n  2\nF x\nB.\n\n\n\n\nF x\n1  F x\nC.\nn\n1 F x\n\n  2\nD.\nn",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-choice-q10-o2",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "10",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q10-o2-r1",
+          "page_id": "d-c6710fd063602e94522e-p5",
+          "bbox": [
+            0.025,
+            0.44935111701521285,
+            0.985,
+            0.47628949018983746
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-choice-q10-o2-r2",
+          "page_id": "d-c6710fd063602e94522e-p5",
+          "bbox": [
+            0.025,
+            0.47628949018983746,
+            0.985,
+            0.6706067462411176
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "10.【答案】C",
+      "answer_hint": "【解析】\nx 为样本中\n\n\nF ( )\nix x\n发的概率。\nA\nx  x\n\ni\nI x\n( ) \n. ( ) ~ B\nZ x\n[1. ( )]\nF x\ni\ni\nx  x\n\ni\n1 n\n 1 n\n\n\n\n\n\nF x \n( )\nI x D F x\n( )\n( )  D\nZ x\n( ) \nnDZ x \n( )\nF x\n( )[1  F x\n( )]\n\n\nn\ni\nn\ni\ni\nn\nn\nn 2\nn\n\n\ni \ni ",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-blank-q11-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-blank-q11-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p5",
+          "bbox": [
+            0.025,
+            0.7078201159475188,
+            0.985,
+            0.7501062805221231
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-blank-q11-o1-r2",
+          "page_id": "d-c6710fd063602e94522e-p5",
+          "bbox": [
+            0.025,
+            0.7501062805221231,
+            0.985,
+            0.7810422993295187
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-blank-q11-o1-r3",
+          "page_id": "d-c6710fd063602e94522e-p5",
+          "bbox": [
+            0.025,
+            0.7810422993295187,
+            0.985,
+            0.9798991453260011
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-blank-q11-o1-r4",
+          "page_id": "d-c6710fd063602e94522e-p6",
+          "bbox": [
+            0.025,
+            0.07375187491353687,
+            0.985,
+            0.16360801458530355
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "3  x\n11.设\n\n\ng x\nf x \nln\ny  g x 的渐近线方程为______.\n是函数\n的反函数,则曲线\n3  x",
+      "answer_hint": "y  3\n【答案】\n【解析】\n3 + x\n3 + x\ny =\nln\nÞ 2 y = ln\n3 - x\n3 - x\n3 + x\n令\nÞ e 2 y =\n=\n-\n3 - x\n3 - x\nÞ x = 3 -\ne 2 + 1\ny\n数学试题第5页\ng x ) = 3 -\n,lim g x ) = 3. lim g x ) = -\n3.\n(\n(\n(\ne 2 y + 1\nx\nx\ny = g x )\ny  3\n(\n故\n渐进线方程为",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-blank-q12-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-blank-q12-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p6",
+          "bbox": [
+            0.025,
+            0.16360801458530355,
+            0.985,
+            0.21391879455078955
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-blank-q12-o1-r2",
+          "page_id": "d-c6710fd063602e94522e-p6",
+          "bbox": [
+            0.025,
+            0.21391879455078955,
+            0.985,
+            0.24600774001742043
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-blank-q12-o1-r3",
+          "page_id": "d-c6710fd063602e94522e-p6",
+          "bbox": [
+            0.025,
+            0.24600774001742043,
+            0.985,
+            0.3007626827023931
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "a\n\n\ndx  ln 2 ,则a ______.\n12.设\n\n\nx 2 x  a",
+      "answer_hint": "【答案】2\nx\n 1\n\n\n\nln\nln 2\n\ndx \n \na  2.\n【解析】\n\n\n,解得\n2 x  a \n2 x  a\n x",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-blank-q13-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-blank-q13-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p6",
+          "bbox": [
+            0.025,
+            0.3007626827023931,
+            0.985,
+            0.3390871446089359
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-blank-q13-o1-r2",
+          "page_id": "d-c6710fd063602e94522e-p6",
+          "bbox": [
+            0.025,
+            0.3390871446089359,
+            0.985,
+            0.37180165525292663
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-blank-q13-o1-r3",
+          "page_id": "d-c6710fd063602e94522e-p6",
+          "bbox": [
+            0.025,
+            0.37180165525292663,
+            0.985,
+            0.5609148306660865
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "满足条件\nxy  y  x e \n'\n2 x\ny\n1 的解为y ______.\ne\n13.微分方程",
+      "answer_hint": "y = - xe x\n【答案】\ny\n【解析】\nxy - y + x e\n= - xe x\n2 x = 0 Þ y -\nx\ndx ò\n- dx\nÞ y = e\n[ e\n(\n- xe dx + C )\nx )\nx\nx\n= - x e + C )\n( x\n代入(1) = - e 得\ny\n,\nC = 0\ny\n故解= - xe x",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-blank-q14-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-blank-q14-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p6",
+          "bbox": [
+            0.025,
+            0.5609148306660865,
+            0.985,
+            0.6153814537987313
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-blank-q14-o1-r2",
+          "page_id": "d-c6710fd063602e94522e-p6",
+          "bbox": [
+            0.025,
+            0.6153814537987313,
+            0.985,
+            0.6570279669480861
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-blank-q14-o1-r3",
+          "page_id": "d-c6710fd063602e94522e-p6",
+          "bbox": [
+            0.025,
+            0.6570279669480861,
+            0.985,
+            0.9773159796093197
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-blank-q14-o1-r4",
+          "page_id": "d-c6710fd063602e94522e-p7",
+          "bbox": [
+            0.025,
+            0.061621042497749225,
+            0.985,
+            0.09161425462340476
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": " 2 z\nx\n\n\n x e  x t\n2 d  1\nz  z x y\n,\nz  ln z \n ______.\n14.已知函数\n由\n确定,则\n\nx 2\ny\n \n1,1",
+      "answer_hint": "1 e\n 2\n【答案】\nx\n e  t\n2 d t  x\ne  x\n\nz\ne  1\n|\n y\n|\n\n,\n【解析】\n(1,1,1)\n(1,1,1)\n\nx\n1 \nz\n\nz\nx\n 2e  x 2\n\n x\ne  x 2 ( 2 ) (1  ) \n x\n(  e  t 2 d t  x\ne  x 2 )\n 2 z\n\n\nz\nz 2\n\nx\ny\n|\n|\n\n(1,1,1)\n(1,1,1)\n 2 x\n(1  ) 2\nz\ne  1\ne  1 \ne  2\n\n\n.\n数学试题\n2 x \n2 x \n2 x \n2 x ",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-blank-q15-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "15",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-blank-q15-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p7",
+          "bbox": [
+            0.025,
+            0.09161425462340476,
+            0.985,
+            0.19469300576818513
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-blank-q15-o1-r2",
+          "page_id": "d-c6710fd063602e94522e-p7",
+          "bbox": [
+            0.025,
+            0.19469300576818513,
+            0.985,
+            0.23800076274244164
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-blank-q15-o1-r3",
+          "page_id": "d-c6710fd063602e94522e-p7",
+          "bbox": [
+            0.025,
+            0.23800076274244164,
+            0.985,
+            0.30823976491046307
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "2 x\n4 x\n5 x  1 \n4 x\n\n\n\n\n,\n\n\nf x \ng x \nf x  g x\n15.已知\n,则方程\n的不\n2 x 1\n\n2 x 1\n\n2 x 1\n\n2 x\n\n4 x\n\n2 x\n\n4 x\n\n同的根的个数为______.",
+      "answer_hint": "【答案】2\n2 x  1 2 x  1\n1 ,\n( 8\n2) \n0 ,可得两个根 x \nf x \n( )\n2 x\n4 x\n \n0 ,( )\ng x  x  x \nx \n0 .\n【解析】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-blank-q16-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "16",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-blank-q16-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p7",
+          "bbox": [
+            0.025,
+            0.30823976491046307,
+            0.985,
+            0.3988706474645651
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-blank-q16-o1-r2",
+          "page_id": "d-c6710fd063602e94522e-p7",
+          "bbox": [
+            0.025,
+            0.3988706474645651,
+            0.985,
+            0.4414923968931508
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-blank-q16-o1-r3",
+          "page_id": "d-c6710fd063602e94522e-p7",
+          "bbox": [
+            0.025,
+            0.4414923968931508,
+            0.985,
+            0.6975388036367831
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "16.设A , B , C 为三个随机事件,且A 与B 相互独立,B 与C 相互独立,A 与C 互不相容,已知\n\n\n,\nP A  P C \nP B \n,则在事件A , B ,C 至少有一个发生的事件下,A , B ,C 中恰有一个发生的\n概率为______.",
+      "answer_hint": "【答案】1\n【解析】\n(  B  C )  P A\n( )  P B\n( )  P C\n( )  P AB )  P BC )\n(\n(\nP A\n( )  p B\n( )  p c\n( )  p A p B\n( ) ( )  p D p c\n( ) ( ) \n p A\n\n\n\n\n\n\n(\n)\n(\n)\n(\n)\n(\n)\n(\n)\nP ABC  p ABC  P ABC  P AB  p BC\n( ) ( )  P B P C\n( ) ( ) \n P A P B\nP \n",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-solution-q17-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-solution-q17-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p7",
+          "bbox": [
+            0.025,
+            0.7431710703283928,
+            0.985,
+            0.8035985038222706
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\nd .\nx\n17.(本题满分10 分)计算\n\n\n\nx  1 x 2  2 x  2",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-solution-q17-o2",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-solution-q17-o2-r1",
+          "page_id": "d-c6710fd063602e94522e-p7",
+          "bbox": [
+            0.025,
+            0.8035985038222706,
+            0.985,
+            0.9798991453260011
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-solution-q17-o2-r2",
+          "page_id": "d-c6710fd063602e94522e-p8",
+          "bbox": [
+            0.025,
+            0.05901358345854577,
+            0.985,
+            0.19976406713083886
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "17.解:\nA\nBx  C\n\n\n\n\ndx \n\ndx\n\n\n\n\nx  1\nx 2  2 x  2 \n0 ( x  1) x  2 x  2\n0 \n数学试题第7页\n3 \n 1\n\nx \n\n\n \n\ndx\n\n\nx  1\nx 2  2 x  2\n\n\n\n\n\nln |1  x | \nln x 2  2 x  2\n\na rctan(\nx  1) \nln 2 \nπ .",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-solution-q18-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-solution-q18-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p8",
+          "bbox": [
+            0.025,
+            0.19976406713083886,
+            0.985,
+            0.300745638584895
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-solution-q18-o1-r2",
+          "page_id": "d-c6710fd063602e94522e-p8",
+          "bbox": [
+            0.025,
+            0.300745638584895,
+            0.985,
+            0.7063878039568634
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "18.(本题满分12 分)\n\nxf x \ne 2sin x \n\nf x 在 x  0 处连续,且 lim\n 3.\n设函数\n\n\n\n\nln 1  x  ln 1  x\nx  0",
+      "answer_hint": "\n\nf  0 .\nf x 在 x  0 处可导,并求\n证明:\n18 解:\n\n\n\n\n\n\nln(1  x )  ln(1  x )  x \nx 2  o x 2  x \nx 2  o x 2  x 2  o x 2\n已知\n\n\n\n\ne 2sin x \n1 2sin x \n(2sin )\nx 2  o x 2 \n1 2sin x  2sin 2 x  o x 2\n\n\n \nxf x\n( )  1  2sin x  2sin 2 x  o x 2\n 1\nxf x\n( )  e 2sin x  1\n lim\n lim\n因此,\nx 2\n\nx 2\nx  0\nx  0\nxf x\n( )  2sin x\n\n2sin 2 x\n lim\n lim\nx 2\n x 2\nx  0\nx  0\n\n\n\n\nxf x \n( ) 2 x \nx  o x\n\n\nxf x\n( )  2sin x\n\n,\nlim\n, lim\n可以得出\nx\nx 2\nx  0\nx  0\nxf x\n( )  2 x\nf x\n( )  2\nlim\n,以及 lim\n,\n进一步可以得出\nx 2\nx\nx  0\nx  0\nf x \n( ) 2\nlim[ ( )\nf x  2]  0\nlim f x\n( )  2  f (0)\nf \n(0)  lim\n。\n,可得\n,故\nx\nx  0\nx  0\nx 0\n",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-solution-q19-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-solution-q19-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p8",
+          "bbox": [
+            0.025,
+            0.7063878039568634,
+            0.985,
+            0.7450535603755253
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-solution-q19-o1-r2",
+          "page_id": "d-c6710fd063602e94522e-p8",
+          "bbox": [
+            0.025,
+            0.7450535603755253,
+            0.985,
+            0.9798991453260011
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-solution-q19-o1-r3",
+          "page_id": "d-c6710fd063602e94522e-p9",
+          "bbox": [
+            0.025,
+            0.21458973015064622,
+            0.985,
+            0.509442480758452
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": " ( x  y  1) d d\n2 x y\n, 2  y\n}\nD  {( , )\nx y y 2  x x\n19.(本题满分12 分)已知平面有界区域\n.\n,计算二重积分\nD",
+      "answer_hint": "解:\n\n\n ( x  y  1) 2 dxdy   ( x  y ) 2  2( x  y ) 1\n dxdy\nD\nD\n数学试题第8页\n由轮换对称性\n ( x  y dxdy \n ( y  x dxdy  0.\n)\n)\nD\nD\nx\nx\n ( x  y dxdy   dx \n) 2\n( x  y dy  \n) 2\n( y  x ) 3\ndx\nx 2\nx 2\nD\n\n 3 \n\n f ( x  x ) 3  x 2  x\n\ndx \n\n\n\n\n\n\nx dy = 1\ndxdy = 1 dx\nx - x dx =\n-\n=\nx 2\nD\n+\n=\n则原积分 =",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-solution-q20-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-solution-q20-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p9",
+          "bbox": [
+            0.025,
+            0.509442480758452,
+            0.985,
+            0.6514826645323455
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-solution-q20-o1-r2",
+          "page_id": "d-c6710fd063602e94522e-p9",
+          "bbox": [
+            0.025,
+            0.6514826645323455,
+            0.985,
+            0.9798991453260011
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-solution-q20-o1-r3",
+          "page_id": "d-c6710fd063602e94522e-p10",
+          "bbox": [
+            0.025,
+            0.06184771501663366,
+            0.985,
+            0.5218530470251322
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "20.(本题满分12 分)\nf x 在区间\n\n\n 在 ,a b 内严格单调增加的充分必要条件是:对\n\n\n,a b 内可导.证明导函数 f\n x\n,a b 内\n设函数\n\n\n\n\n\n\n\n\nf x\n\nf x\nf x\n\nf x\n,\n1 \n2 .\nx x , x ,当 x  x  x\n任意的\n时\nx  x\nx  x",
+      "answer_hint": "解:充分性:若对( , )\na b 内任意的 x x x ,当 x  x  x\n,\n,\n时,都有\n\n\n\n\n\n\n\n\nf x\n f x\nf x\n f x\n1 \nx  x\nx  x\n则在( , )\na b 内取任意的 x  x  x  x  x\n,有\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nf x\n\nf x\nf x\n\nf x\nf x\n\nf x\nf x\n\nf x\n1 \n2 \n3 \nx  x\nx  x\nx  x\nx  x\n\n\n\n\n\n\n\n\nf x\n f x\nf x\n f x\n1 \nx \nx \n在\n两边同时令\n,得\nx  x\nx  x\n数学试题第9页\n\n\n\n\n\n\n\n\nf x\n\nf x\nf x\n\nf x\n\n\n \n \nf\nx \n1  f\nx\nx  x \n,两边同时令\n,得\n,即\n\n\nx  x\nx  x\n\n\n\n\n\n\n\n\nf x\n f x\nf x\n f x\n\n\n\n\n\n\n\n\n\n\n1  f  x\n1  f  x\nf\nx \nf\nx\n\n.因为\n,同理可得\n\n\n\n\nx  x\nx  x\n\n\n\n\n\n\n\n\nf x\n f x\nf x\n f x\n 在\n\n\n1 \n \n \nx x 的任意性,可得 f  x\n,\n,a b 内严格\nf\nx  f\nx .由\n,所以\n1 5\nx  x\nx  x\n\n\n单调递增,充分性得证。\n单调递增,在\n\n\n\n x\nf\nx x\n,\n, x x\n,\n再证必要性,即已知\n上分别使用拉格朗日中值定理,知存在\n\n\n\n\n  x x ,\n,\n  x x\n,\n,使\n\n\n\n\n\n\n\n\nf x\n f x\nf x\n f x\n\n\n\n\nf  \n\nf  \n\n,\n,\nx  x\nx  x\n\n\n\n\n x\n\n\nf\n  \nf   f \n又由\n单调递增,且\n知,\n,即\n\n\n\n\n\n\n\n\nf x\n\nf x\nf x\n\nf x\n1 \n,必要性得证。\nx  x\nx  x\n综上所述,充要条件得证。",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-solution-q21-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-solution-q21-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p10",
+          "bbox": [
+            0.025,
+            0.5218530470251322,
+            0.985,
+            0.647345089846744
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\n \n\n\n\nA =  1\n 2\n a\n 1 的秩为2 .\n21.(本题满分12 分)设矩阵\n\n\n 1\n3 \na\n\n\n(1)求a 的值;\n,\n,并求矩阵H ,使得A = GH ,其中 G  ( , )\n.\n(2)求A 的列向量组的一个极大线性无关组",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-solution-q21-o2",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-solution-q21-o2-r1",
+          "page_id": "d-c6710fd063602e94522e-p10",
+          "bbox": [
+            0.025,
+            0.647345089846744,
+            0.985,
+            0.9798991453260011
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-solution-q21-o2-r2",
+          "page_id": "d-c6710fd063602e94522e-p11",
+          "bbox": [
+            0.025,
+            0.06294434214337222,
+            0.985,
+            0.07033916541575452
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "21. 解:\n\n\n1 \n\n\n1 \n 1\n 1\n\n\n\n\n(1)因为( )\nr A  2 A  1\n 2\n a\n 1  0\n 1\n a\n 2\na  1 时.\n,\n,故\n\n\n\n\n\n\n\n\n2 a  2\na\na \n\n\n\n\n\n\n1 3\n\n1 \n\n\n\nA  \n(\n,\n,\n,\n,\n)\n 1 1\n 1  2\n(2)由(1)可知, A  0\n,令\n,\n\n\n\n\n\n\n为A 的列向量组的一个极大线性无关组,     \n,\n,\n  2\n \n    \n,\n则\n且\n,\n1 1 \n 1\n    2\n ,由A  GH\nH \n,解得\n .\n1 1 2\n\n\n\n数学试题第10页",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-c6710fd063602e94522e-s0-solution-q22-o1",
+      "document_id": "d-c6710fd063602e94522e",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-c6710fd063602e94522e-s0-solution-q22-o1-r1",
+          "page_id": "d-c6710fd063602e94522e-p11",
+          "bbox": [
+            0.025,
+            0.07033916541575452,
+            0.985,
+            0.3073885045840433
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-c6710fd063602e94522e-s0-solution-q22-o1-r2",
+          "page_id": "d-c6710fd063602e94522e-p11",
+          "bbox": [
+            0.025,
+            0.3073885045840433,
+            0.985,
+            0.9773159796093197
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2025",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2025考研数学(三) 真题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "22.(本题满分12 分)投保人的损失事件发生时,保险公司的赔付额Y 与投保人的损失额X 的关系为\n 2 100 2\n\n0, X \n100,\n, x \n0,\n\n\nY \n( )  (100  x ) 3\n设损失事件发生时,投保人的损失额X 的概率密度为 f x\n\nx 100, X  100.\n\n\n0, x  0.\n\n(1)求{\nP Y  0} 及EY .\n(2)这种损失事件在一年内发生的次数记为N ,保险公司在一年内就这种损失事件产生的理赔次数记为\nB n p ,其中\n( , )\nM ,假设N 服从参数为8 的泊松分布,在\n的条件下,M 服从二项分布\n\n\nN  n n  1\np  P Y\n{  0} ,求M 的概率分布.",
+      "answer_hint": "解:\n2 100 2\ń\nò\n+¥\n(1) {\nP Y > 0} = P X - 100 > 0} = P X > 100} =\n{\n{\ndx =\n100 (100 + x ) 3\n2 100 2\ń\nò\n+¥\nEY =\n( x -\n100)\ndx =\n(100 + x ) 3\n(2)\n1 \n\n} ~ B n , 4\nN ~ P (8)  { ∣\nM N  n\n\n\n\n\n\n\n{\n} \n{\n} P M \n{\nP M \nm\nP N \nn \nm N \nn )\n∣\nn m\n\nm\nn m\n\n1 \n3 \n 8 n\n\n\n\n\ne  8  C m \n\n\n\n\n\nn\n4 \n4 \nn !\n\n\nn m\n\n\n8 n\nn\n!\n1 m \n3 n m\n\n\n\n\n\ne  8 \n\n\n\n\n\n\n!(  m )! 4 \nn !\nm n\n\n 4 \nn m\n\n\n1 m\n8 m \n8 n  m\n3 n m\n\n\n\n\n\ne  8\n\n\n\n\n\n\n4 \nm !\n( n  m\n)! \n4 \n\nn  m\nm\n8 m \n6 n m\n\n2 m\n 1 \n\n\ne  8\n\ne  2\n\n\n4 \nm !\n( n  m\n)!\nm !\n\nn m\n\n数学试题",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [],
+  "identity": {
+    "category": "考研数三",
+    "year": "2025",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

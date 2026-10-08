@@ -1,0 +1,1010 @@
+{
+  "item": {
+    "id": "d-3c1fe40049ba45cdfa26",
+    "path": "resource/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2026考研数学真题及答案（数一）/26数一参考答案.pdf",
+    "name": "26数一参考答案.pdf",
+    "sha256": "d0f1899255f0cfdebb660570308b180c9798740a2c3797970a45f24c34fc4b20",
+    "format": "pdf",
+    "bytes": 1932303,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 2,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 0,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "d0f1899255f0cfdebb660570308b180c9798740a2c3797970a45f24c34fc4b20",
+  "engine_version": 6,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2026考研数学真题及答案（数一）/26数一参考答案.pdf",
+  "pdf_sha256": "d0f1899255f0cfdebb660570308b180c9798740a2c3797970a45f24c34fc4b20",
+  "pages": [
+    {
+      "id": "d-3c1fe40049ba45cdfa26-p1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": 1,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-p2",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": 2,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-choice-q1-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-choice-q1-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p1",
+          "bbox": [
+            0.025,
+            0.3533919239904988,
+            0.985,
+            0.40069992082343625
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "1【答案】 (A) 呈 _ 32 - 工 。 考点 , 偏时数基本计算\nor 0 4a",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-choice-q2-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-choice-q2-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p1",
+          "bbox": [
+            0.025,
+            0.40069992082343625,
+            0.985,
+            0.4353396674584323
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "2【答案】 (D) (-1D 考点 : 震级数收敛域的判定",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-choice-q3-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-choice-q3-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p1",
+          "bbox": [
+            0.025,
+            0.4353396674584323,
+            0.985,
+            0.5022438638163103
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "3 【答案】 (C) 当 CD 的图形在记 -1 是四的 , 世 0 二)\n在 [LI) 单调递增\n者点, 凸思性与单调性定义",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-choice-q4-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-choice-q4-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p1",
+          "bbox": [
+            0.025,
+            0.5022438638163103,
+            0.985,
+            0.5372794932699921
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "4 [答案】(c) 六 8[dp 记 /Carasing 示考点 : 球和锥的所围图形球坐标",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-choice-q5-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-choice-q5-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p1",
+          "bbox": [
+            0.025,
+            0.5372794932699921,
+            0.985,
+            0.5667727632620744
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "5【答案】 (B) 人为置换矩阵 。 考点初等变换的闻矩阵",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-choice-q6-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-choice-q6-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p1",
+          "bbox": [
+            0.025,
+            0.5667727632620744,
+            0.985,
+            0.6218004750593824
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "6【答案】 (A) 4x= 有有解时 , 则 Br = 有解\n者点 ; 向量组线性表示与方程组解的关系",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-choice-q7-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-choice-q7-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p1",
+          "bbox": [
+            0.025,
+            0.6218004750593824,
+            0.985,
+            0.6512937450514649
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "7【答案】 (B) 4= -4 标准形为 : -6 史一 6",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-choice-q8-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-choice-q8-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p1",
+          "bbox": [
+            0.025,
+            0.6512937450514649,
+            0.985,
+            0.688110847189232
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "考点 : ”圆柱面方程特征值计算\n8【答案】 (C) -12 考点 : 硬算或方差的定义及意义",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-choice-q9-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "9",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-choice-q9-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p1",
+          "bbox": [
+            0.025,
+            0.688110847189232,
+            0.985,
+            0.7166144101346001
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "9【答案】 (A) wa=a,p= 人内考点 : 期望和方差的计算公开",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-choice-q10-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "10",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-choice-q10-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p1",
+          "bbox": [
+            0.025,
+            0.7166144101346001,
+            0.985,
+            0.7815653206650831
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-choice-q10-o1-r2",
+          "page_id": "d-3c1fe40049ba45cdfa26-p2",
+          "bbox": [
+            0.025,
+            0.08323040380047507,
+            0.985,
+            0.11665399841646873
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "10【答案】 (D) P{X>m+alX> 叫 >P{X> 村\n条件概率计算与等比级数结论\nB 站抖音公众号 : 考研数学于文涛",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-blank-q11-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-blank-q11-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p2",
+          "bbox": [
+            0.025,
+            0.14238638163103723,
+            0.985,
+            0.16198258115597783
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "11【答案】1+z 考点; 散度计算公式",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-blank-q12-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-blank-q12-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p2",
+          "bbox": [
+            0.025,
+            0.16198258115597783,
+            0.985,
+            0.20810292953285828
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "12【答案】 了考点 ;无穷减无穷通分即可",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-blank-q13-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-blank-q13-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p2",
+          "bbox": [
+            0.025,
+            0.20810292953285828,
+            0.985,
+            0.2542232779097387
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "13【答案】 - 闻考点 : 参数方程求导",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-blank-q14-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-blank-q14-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p2",
+          "bbox": [
+            0.025,
+            0.2542232779097387,
+            0.985,
+            0.27500712589073634
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "14【答案】 2ln2 考点 : 无穷积分计算分部积分",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-blank-q16-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "16",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-blank-q16-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p2",
+          "bbox": [
+            0.025,
+            0.2759968329374505,
+            0.985,
+            0.3456722090261283
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "15【答案】w<0 考特征值计算\n16【答案】4 考点: 独立的必要条件常见分布的期望和方差\n解答题 17-22 题共 70 分\n负",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-blank-q17-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-blank-q17-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p2",
+          "bbox": [
+            0.025,
+            0.3456722090261283,
+            0.985,
+            0.37575930324623913
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "17【答案】 极大值为 f(-2,0)=8e? 考点 : 多元函数极值点计算",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-blank-q18-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-blank-q18-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p2",
+          "bbox": [
+            0.025,
+            0.37575930324623913,
+            0.985,
+            0.4311828978622328
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "18【答案】 (1) 略 (2) 0)=e +e 一一\n考点 : 全微分计算 ”微分方程求解",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-blank-q19-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-blank-q19-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p2",
+          "bbox": [
+            0.025,
+            0.4311828978622328,
+            0.985,
+            0.471562945368171
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "19【答案】 /= Ar 考点 : 补线利用格林公式补的为了 ?=x",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-blank-q20-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-blank-q20-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p2",
+          "bbox": [
+            0.025,
+            0.471562945368171,
+            0.985,
+            0.5123388756927949
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "20【答案】 〈1) 略 (2) 利用罗尔中值定理\n考点 : 定积分性质与罗尔中值定理",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-blank-q21-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-blank-q21-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p2",
+          "bbox": [
+            0.025,
+            0.5123388756927949,
+            0.985,
+            0.653471100554236
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "21【答案】 (1) r(4)=2 且 ol,0, 线性无关\n1 -8 -9 9\npl10-11aco--1\n01 1 =- -1 9 10 -10\n-17 8\n考点 : 极大线性无关组定义及表示其余向量 , 氟阵乘法计算",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-3c1fe40049ba45cdfa26-s0-blank-q22-o1",
+      "document_id": "d-3c1fe40049ba45cdfa26",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-3c1fe40049ba45cdfa26-s0-blank-q22-o1-r1",
+          "page_id": "d-3c1fe40049ba45cdfa26-p2",
+          "bbox": [
+            0.025,
+            0.653471100554236,
+            0.985,
+            0.7898788598574822
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生入学考试"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "-\n也 0 _\n22 【答案】(D 太 O=164 >” ,a=mnD(D)=8:\n0, else\n(2) 这 oa]\n考点 : 指数分布无偏估计最大似然估计",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [
+    {
+      "type": "empty_question",
+      "number": "15"
+    }
+  ],
+  "identity": {
+    "category": "考研数一",
+    "year": "2026",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

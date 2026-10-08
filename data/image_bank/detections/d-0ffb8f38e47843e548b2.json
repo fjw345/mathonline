@@ -1,0 +1,1027 @@
+{
+  "item": {
+    "id": "d-0ffb8f38e47843e548b2",
+    "path": "resource/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2017-2020考研数学三真题及解析/2019年数学三真题答案解析【老杨学习帮手】.pdf",
+    "name": "2019年数学三真题答案解析【老杨学习帮手】.pdf",
+    "sha256": "0b5137c7613368a9b931f9d146f5741248a503749656b2b83b3114f144c89145",
+    "format": "pdf",
+    "bytes": 889548,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 7,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 515.760009765625,
+        "height": 736.800048828125,
+        "text_chars": 1109,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 515.760009765625,
+        "height": 736.7999877929688,
+        "text_chars": 911,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 515.760009765625,
+        "height": 736.7999877929688,
+        "text_chars": 973,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 515.760009765625,
+        "height": 736.7999877929688,
+        "text_chars": 1007,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 515.760009765625,
+        "height": 736.7999877929688,
+        "text_chars": 1279,
+        "renderable": true
+      },
+      {
+        "number": 6,
+        "width": 515.760009765625,
+        "height": 736.800048828125,
+        "text_chars": 941,
+        "renderable": true
+      },
+      {
+        "number": 7,
+        "width": 515.760009765625,
+        "height": 736.800048828125,
+        "text_chars": 883,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "0b5137c7613368a9b931f9d146f5741248a503749656b2b83b3114f144c89145",
+  "engine_version": 6,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2017-2020考研数学三真题及解析/2019年数学三真题答案解析【老杨学习帮手】.pdf",
+  "pdf_sha256": "0b5137c7613368a9b931f9d146f5741248a503749656b2b83b3114f144c89145",
+  "pages": [
+    {
+      "id": "d-0ffb8f38e47843e548b2-p1",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": 1,
+      "width": 515.760009765625,
+      "height": 736.800048828125,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-p2",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": 2,
+      "width": 515.760009765625,
+      "height": 736.7999877929688,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-p3",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": 3,
+      "width": 515.760009765625,
+      "height": 736.7999877929688,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-p4",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": 4,
+      "width": 515.760009765625,
+      "height": 736.7999877929688,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-p5",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": 5,
+      "width": 515.760009765625,
+      "height": 736.7999877929688,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-p6",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": 6,
+      "width": 515.760009765625,
+      "height": 736.800048828125,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-p7",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": 7,
+      "width": 515.760009765625,
+      "height": 736.800048828125,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-0ffb8f38e47843e548b2-s0-choice-q3-o1",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": "3",
+      "kind": "choice",
+      "answer": "D",
+      "tags": [
+        "考研数三",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-choice-q3-o1-r1",
+          "page_id": "d-0ffb8f38e47843e548b2-p1",
+          "bbox": [
+            0.025,
+            0.3704442115403711,
+            0.985,
+            0.503063664987482
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(3) D\n解\n由薇分方程通解形式可知,y = CC 1 + C 2x)e一工为齐次方程的通解,\nz +a入+b =0的二重根,\ny = e 工为非齐次方程的特解,-1为特征方程入\n1 — a + b  =O,\n得{\n且l+a +b=c,\n— 4b =O,\na\n由此解得a =Z,b =l,c = 4. 故应选D.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-s0-choice-q4-o1",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": "4",
+      "kind": "choice",
+      "answer": "B",
+      "tags": [
+        "考研数三",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-choice-q4-o1-r1",
+          "page_id": "d-0ffb8f38e47843e548b2-p1",
+          "bbox": [
+            0.025,
+            0.503063664987482,
+            0.985,
+            0.7947655102570754
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(4) B\nu\n\" I =O, 且ňnu n 绝对收敛,由比较判别法可知ʼnU n 也绝对收敛.\n解\n因为lim\nn-= nu\" I\nI\nnee)\n\"二a\\\n而当2 二条件收敛时,Ŋv n的敛散性不定.\nn-1 n\nn-1\n=)i\n(—l)\"\n如果令)i n= (-厅及)i n=\n时心:二都是条件收敛,\nnol n\nln(n + 1)\n(沁\n=\nco\n(-1)\"\n而ŋ)i n= (-1)\"发散,Ō-\nFl ln(n + 1) 收敛,可知ō(un+l! n)的敛散性是不确定的.\nn-1\nnol\n则C、D都不正确.\n=\n再判断2 汇)i n的敛散性:由于lim I U n)! n I\n)/ n\no·,\n=O,且Ŏnun绝对收敛,由比较判别法\nnu\" I飞弝了\nn-=\nn-1\nn 二,]\n可知区汇))n 是绝对收敛的.故应选B.\nnŏl",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-s0-choice-q5-o1",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": "5",
+      "kind": "choice",
+      "answer": "A",
+      "tags": [
+        "考研数三",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-choice-q5-o1-r1",
+          "page_id": "d-0ffb8f38e47843e548b2-p1",
+          "bbox": [
+            0.025,
+            0.7947655102570754,
+            0.985,
+            0.857491251131155
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(5) A\n由线性方程组Ax = O的基础解系中只有2个向械,则2= 4Őr(A), 故r(A)= 2.\n解\n补)= 0. 故应选A.\n由于当r(A)< n —l时(n 为A的阶数),r(A",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-s0-choice-q6-o1",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": "6",
+      "kind": "choice",
+      "answer": "C",
+      "tags": [
+        "考研数三",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-choice-q6-o1-r1",
+          "page_id": "d-0ffb8f38e47843e548b2-p1",
+          "bbox": [
+            0.025,
+            0.857491251131155,
+            0.985,
+            0.9094538039777557
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-choice-q6-o1-r2",
+          "page_id": "d-0ffb8f38e47843e548b2-p2",
+          "bbox": [
+            0.025,
+            0.05114270190414283,
+            0.985,
+            0.11058042888243064
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(6) C\n2+A = ZE得:入\n设入是A的特征值,根据A\nz+入\n解\n2, 解得入ől或— 2.\n)A是3阶实对称矩阵,则A有3个特征值且A的3个特征值的积为IA I的值,\n由于\n故A的三个特征值的积为1,-2,-2,正惯性指数为1,负惯性指数为2,\nTAx的规范形为Yi—丈— 丈.故应选C.\n故二次型x",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-s0-choice-q7-o1",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": "7",
+      "kind": "choice",
+      "answer": "C",
+      "tags": [
+        "考研数三",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-choice-q7-o1-r1",
+          "page_id": "d-0ffb8f38e47843e548b2-p2",
+          "bbox": [
+            0.025,
+            0.11058042888243064,
+            0.985,
+            0.2154586632742783
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(7) C\n解\n由P(AB)=P(BA)得\np (AB) = p (A) -p (AB) = p (BA) = p (B)—P(AB)台P(A)=PCB).\n故应选C.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-s0-choice-q8-o1",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": "8",
+      "kind": "choice",
+      "answer": "A",
+      "tags": [
+        "考研数三",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-choice-q8-o1-r1",
+          "page_id": "d-0ffb8f38e47843e548b2-p2",
+          "bbox": [
+            0.025,
+            0.2154586632742783,
+            0.985,
+            0.34664166566777654
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(8) A\n由X-N(伈矿),Y-N(μ, 矿汃且相互独立,\n解\nX-Y\n则E(X — Y)=O,D(X-Y)=DX+DY= 2扎得———-N(O,l),\n屈6\n故P{IX-Y I< l} = P{ 三仁飞三上} = 2cI>(上)-1与矿有关,与μ 无关\n我6\n迈6\n迈6\n故应选A",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-s0-blank-q9-o1",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-blank-q9-o1-r1",
+          "page_id": "d-0ffb8f38e47843e548b2-p2",
+          "bbox": [
+            0.025,
+            0.3654391355583829,
+            0.985,
+            0.7129014009120427
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(9) e-1\n原式=lim(1\n1 + 1\n解\nn\nn-=\n勹丁了\n+...+厂言寸\n=! 式气飞叶+(了忙]\n“一= (士)\nlimn\n-1 .\n=e\n=e\n故应填e-1.\n(IO) (六:,-2)\ny'\n.\n2.\n= x cosx -s1nx ,\n+\n= s1nx\nx cosx - sin冗\n解\ny = cosx -X s1nx - COSX = — x s1nx.\n令y\"=O,得x 1=O,x2 =穴,再判断X 1,X 2 两点的左右两侧二阶导数是否异号;\n在X 1 左侧y\"<o,右侧y\"<o,故(0,2)不是拐点;\nXz左侧y\"< O,x2 右侧区间丘竺)内y\">o,所以拐点为(六' — 2).\n故应填(六'-2).",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-s0-blank-q11-o1",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-blank-q11-o1-r1",
+          "page_id": "d-0ffb8f38e47843e548b2-p2",
+          "bbox": [
+            0.025,
+            0.7129014009120427,
+            0.985,
+            0.9171025745189318
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-blank-q11-o1-r2",
+          "page_id": "d-0ffb8f38e47843e548b2-p3",
+          "bbox": [
+            0.025,
+            0.0571769649273994,
+            0.985,
+            0.06990010239625122
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(11)—(1-2,/2)\n3 fJCx)dx3 =了x汀ex) Io—了Ia x 3 J'(x) dx , CD\n(x)dx =-\n解\nI\nI\n2 f\n由分部积分法:『x\n又八1) =『五了尸dt=O,J'(x) =./i丁了,代入CD 式:\n扣(1)-习l\nxa 汇了-dx=-_!__· 上『五言了dx4\n=飞·3Cl+x4)2 1。飞(1-2迈).\n3 1\n故应填一(1-2迈).",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-s0-blank-q12-o1",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-blank-q12-o1-r1",
+          "page_id": "d-0ffb8f38e47843e548b2-p3",
+          "bbox": [
+            0.025,
+            0.06990010239625122,
+            0.985,
+            0.19783487896916632
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "故应填一(1-2迈).\n(12) 0. 4\n当PB =20时,Q A =500 — Pi — 20P A + 2• 202 = 1300 - 20P A -Pi,\n解\nPA dQ A\n2PA (PA + 10)\n凡\n. (— 20— 2P A ) = _ _ _ _\n则f/ AA = -———=- 刁\u0010-\"\n-?'\n_ __\nQ A dPA\n\u0011-\u0012\n\u0012•\n所以f/ AA I\n=0.4. 故应填0.4.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-s0-blank-q13-o1",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-blank-q13-o1-r1",
+          "page_id": "d-0ffb8f38e47843e548b2-p3",
+          "bbox": [
+            0.025,
+            0.19783487896916632,
+            0.985,
+            0.6619558350551935
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "PA =10\n(13) 1\n解\n:.-(: 。\n由题意得\n汇(\u0003 。\n\u0007)-(\b 。\n1 。\n1 。\n0 ..\n。\n0 。\n\\\n.\n.\n..\na 2 -1\n1 a 2 -1\na 2 -1\na\n0 1\na\n-a\nI\n要使Ax =b有无穷多解,则应使r(A) =r(A) < 3,\n当a z— l =a — 1 =O, 即a =l时,r(A) =r(A) =2 < 3.\n故应填1.\n、\n2_\n丿4\n(\n-,\nO<x<2,\nX\n由随机变量X的概率密度f(x) =仁\n解\n可知X的分布函数\nl\n其他,\no,\n厂\u0007X <\nQ,\nF(X)2 了, O3⁄4x < 2,EX2I. xf(x)dx2L x·fdx2f,\nl\nl,\nX\u00072,\nP{F(X) > EX -1} =P{F<X) > i_— 1} =P卢>-1\n3 }\n=P{X>纠寸王dx =3\n3 .\n左2\n屈",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-s0-solution-q15-o1",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": "15",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-solution-q15-o1-r1",
+          "page_id": "d-0ffb8f38e47843e548b2-p3",
+          "bbox": [
+            0.025,
+            0.6955605848628226,
+            0.985,
+            0.975226550276841
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-solution-q15-o1-r2",
+          "page_id": "d-0ffb8f38e47843e548b2-p4",
+          "bbox": [
+            0.025,
+            0.05746473434505788,
+            0.985,
+            0.1850846914995041
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(15)解\n当X >O时,J'(x) =2x气lnx + 1); 当X<O时,J'(x) = ex (x + 1).\nlim x2x— 1\ne红lnx — 1\n2xlnx\n=-=, 所以J'(0)不存在.\n=lim\n因为\n=lim\nx 一o+\nx-o +\nx勺+\nX\nX\nX\n2x气lnx + 1) ,\nx > 0 ,\nJ'(x) = {\n综上\nex (x + 1),\nX < 0.\n令J'(x) =0, 得驻点x =— l,x =一.\ne\n当x<— l或O<x<一时,J'(x)< O;\n淘宝店铺:光速考研工作室\n当—I<x<O或x> — 时,j'(x)> 0.\ne\n所以f(x)在区间( — 邑-1)和(o 且-)内单调减少,\ne\n在区间( — 1, 0)和(上,十~ )\n内单调增加,从而f(x)的极小值为\ne\n二\nf( —1) =1 ——, !(—) =e''极大值为f(O) = 1.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-s0-solution-q16-o1",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": "16",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-solution-q16-o1-r1",
+          "page_id": "d-0ffb8f38e47843e548b2-p4",
+          "bbox": [
+            0.025,
+            0.1850846914995041,
+            0.985,
+            0.48116076343980824
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "e\ne\n(16)解\n因为\nag\n—=y-J.(x+y,x —y) —f,(x+y,x-y),\nax\nag\n— =x —\nJ. (x + y ,x -y) + J, (x + y ,x -y),\nay\n臼=— 仁(x+ y,x -y) —2儿(x+ y,x —y)-几(x+ y,x —y)'\n2 g\na\n=1 —J •• (x+y,x-y)十几(x+y,x -y),\na戎y\na 2g\nJ •• (x +y,x —y) +2儿(x+ y ,x -y) — 儿(x+ y ,x -y),\nay\n所以\n2 g\na 2 g\n2 g\na\na\n+-—=1 — 3f •• (x+y,x-y) — 儿(x+ y,x —y).\n—+\na戎Y\nax\nay",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-s0-solution-q17-o1",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-solution-q17-o1-r1",
+          "page_id": "d-0ffb8f38e47843e548b2-p4",
+          "bbox": [
+            0.025,
+            0.48116076343980824,
+            0.985,
+            0.6501408904268438
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(17)解\nC I)由一阶线性微分方程的通解公式,得\ń\ń\n(C+ f l e\ne -f 扛心)=e\ny(x) =i\n( 石+C).\nx\n心\n2石\n因为y(l) =心,所以C=O.\n已\n从而y(x) = rx矿.\n(II)D绕x轴旋转所得旋转体的体积为\n2 (x)心=f\nV= f:rcy\nx2 dx =王e",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-s0-solution-q18-o1",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-solution-q18-o1-r1",
+          "page_id": "d-0ffb8f38e47843e548b2-p4",
+          "bbox": [
+            0.025,
+            0.6501408904268438,
+            0.985,
+            0.975226550276841
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "V= f:rcy\nrcxe\nx2 dx =王e\n=王(e\n1 2\n4 —e).\nxz\n(18) 解\n由题意,所求面积为\n=\ns = I\n+=\nI SlllX I dx =¶(μ1) \"f亡sinx心,\ne\n(叶1).\n-x\n尸sinxdx = -e-x cosx I - f\n(n+l) 穴\nn-0\n(n+l) 穴\n<n+D 亢\n吓\n因为]\ne- x cosx心\n= (-l)\"[e一(n+I)穴十e-n穴J —厂I)亢\nn穴\n九亢\n“兀\ne-x sinxdx.\nn 穴\n厂1)兀尸sinxdx = (-1)• [ e一(叶!), 十e-n亢J\n得\nn 兀\ne\n穴+1\n一(n+ll六]=\nS=—¶[ -n 兀\ne\n+e\n所以\nn-。\n六-1)'\n2(e\n淘宝店铺:光速考研工作室",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-s0-solution-q19-o1",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-solution-q19-o1-r1",
+          "page_id": "d-0ffb8f38e47843e548b2-p5",
+          "bbox": [
+            0.025,
+            0.04502354023075343,
+            0.985,
+            0.4040298200813123
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(19)解(I)a.+1 -a. = f x\"(x — 1) ,Ji-=了dx.\n因为在积分区间[0,1] 上,x\"(x — 1) .jj二7\u0004o且不恒等于o,\n所以a.+1 -a.<O, 即{a.}单调减少.\n当n×2时,因为a. 三『x\"/1=了dx\nX n-1 (1 -X 2) 21\ni\n'\nn — 1 1\nt X n-2 (l - X 2) 2 dx\n主\n=-\no +\n了\ni\n一2 /1二飞_n-lfx· 汀二了dx\nx\"\n=二勹\nn — 1\nn -l\na.-2\na.,\n—\n=\nn-l\na. = -—a n-2 (n = 2'3'...) .\n所以\nn+Z\nc II)土-=庄三.\nan-1\nn+2 an一1\nn — l\na n\na,,\n因为{an}单调减少且a,,> O, 所以——-< —-<l,从而Jim —-=1.\n.. -Ø, a,, 一1\nn + 2\na,,_ 1",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-s0-solution-q20-o1",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-solution-q20-o1-r1",
+          "page_id": "d-0ffb8f38e47843e548b2-p5",
+          "bbox": [
+            0.025,
+            0.4040298200813123,
+            0.985,
+            0.975226550276841
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-solution-q20-o1-r2",
+          "page_id": "d-0ffb8f38e47843e548b2-p6",
+          "bbox": [
+            0.025,
+            0.04,
+            0.985,
+            0.27073449675655487
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(20)解\n由等价的定义可知:\nP 1 ,P 2 ,Pa都能由a 1,a 2,aa线性表示,则有r(a 1,a 2 ,a 3) = r(a 1 ,a 2 ,a:1 ,p 口,2,Pa),\n对Ca 1,a 2 ,aa ,P 1 ,P 2 ,Pa)作初等行变换可得:\n1。\n(: Ù\nÚ:\n:\nÛ:)-(Ù Ü1\n:\n2)\n2 +3\n2 -l\n1 — a\n4 4 a\ni\na+3\na 2 + 3\na\na-l l-a a\n2 -1\n当a = — 1时,有r(a 1,a 2 ,aa) < r(a 1 ,a 2 ,aa ,P i ,P 2, 凡);\n当a = l时,有r(a 1,a 2 ,aa) = r(a 1 ,a 2 ,aa ,P 1 ,P 2 ,Pa) = 2;\n可知a#l且a#-l时,此时r(a 口a 2,a 3) = r(a 1 ,a 2 ,as ,P 1 ,P 2 ,Pa) = 3,\n则有a = l或者a#l且a#— 1时,Pi,P 2 ,Pa可由a 1,a 2 ,aa线性表示,\n此时要保证a 门a 2,aa可由P 口,2 ,Ps线性表示.\n(: \u0002:\n对CP 1,P 2 ,Ps ,a 1 ,a 2 ,as)作初等行变换可得:\n: \u0005!)-\n2 +3\n2 + 3\n4 a\na+3 l-a a\na — I l\n。\nÞ\n2a'\n—(1Ýa)\n1 — a\n[: : 矿-1\n当a =l时,有r(P 1,Pz ,p 3) = r<P 1 ,Pz ,p 3 ,a 1 ,az ,a 3) =2,\n可知当a -=I=- l且a -=/=--l时,此时r(P 口,2,p 3) = rCP 1 ,Pz ,p 3 ,a 1 ,az ,a 3) = 3,\n此时,a 1,az ,a 3可由P 1,Pz ,p 3 线性表示.\n淘宝店铺:光速考研工作室\n综上所述:当a #-1时,向量组O心心与向最组P1,P2 ,p 3 可相互线性表示.\n当a ,'c 1时,(a, 心心,-(Ö —\\ :\n;\n\u0016 -\u0017 \u0018 \u0019; Ô1\na' — J\n1 i\na2-l\n:\n(0\n1)\n则P3=a 1 — a2 +a 3.\n』-(: ! -:l\n当aÕ1时,(a,心心,p,)-(Ö. \\\n:\n\\\n-\nI\n基础解系为{}(一:2) (k E R), 则P,Õ<3 — 2k)a, I Ck — 2)a, +-ka,.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-s0-solution-q21-o1",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-solution-q21-o1-r1",
+          "page_id": "d-0ffb8f38e47843e548b2-p6",
+          "bbox": [
+            0.025,
+            0.27073449675655487,
+            0.985,
+            0.8152484865193053
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(21)解\nC I)因为矩阵A与B相似,所以tr(A)= tr(B), I A曰BI ,\nx-4=y+l, 解得X =3,y =—2.\n即{\n4x -8= — 2y'\nC II) 矩阵B的特征多项式为I入E-BI=(入— 2)(入十1)(入+2)'\n所以B的特征值为2' — 1,-2.\n由于A与B相似,所以A的特征值也为2,-1, -2.\nA的属于特征值2的特征向量为f1= 0,-2,0)勹\nA的属于特征值-1的特征向量为名=(— 2,1,0)勹\nA的属千特征值-2的特征向量为名=Cl,-2, —4) T•\n—°i \u001a)\n记P, Õ(名主屯),于是PtAP, Õ(×\nB的属千特征值2的特征向量为r;1= (1,0 ,0)勹\nB的属于特征值-1的特征向量为f/2=(1,-3,0)勹\nB的属于特征值-- 2的特征向量为平=(O,O,l) T.\n(Ù _°I \u0005) .\n记P,Õ(Ø,,平,平汃于是P;'BP,\n1BP2, 得CP1P;\n1A(P1P;-\n1) =B.\n由P-;-\n1AP1=P;·\n1)-\n-'z):\n令PÕP, P;'(Ú。 2\n: ÕF2\n。\n。\n—]\n。。\n:\n:)\n]\n则P-1AP=B.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-s0-solution-q22-o1",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-solution-q22-o1-r1",
+          "page_id": "d-0ffb8f38e47843e548b2-p6",
+          "bbox": [
+            0.025,
+            0.8152484865193053,
+            0.985,
+            0.9215760081486236
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-solution-q22-o1-r2",
+          "page_id": "d-0ffb8f38e47843e548b2-p7",
+          "bbox": [
+            0.025,
+            0.043338845660258196,
+            0.985,
+            0.4033541811564405
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(22)解\nCI) z的分布函数为\n凡(z)=P{Z冬z}= P{XY冬z I Y=—l}P {Y = —l} +P{XY,s;; z I Y=l}P{Y=l}\nÛpp{— X冬z}+ (1 — p)P{X ,s;; z}.\n当z<O 时,凡(z)= pP {X 泛- z} + (1 -p)• 0 = p e\n2 ;\n当z彦0时,凡(z)= p• I + Cl -p) P { Xz} = 1 -Cl -p) e气\npe之,\nz< o,\n所以Z的概率密度为fz(z)=F卢z)= {\n(1 — p) e-z'z彦0.\n(Il) Cov(X,Z)=E(XZ) — EX• EZ\n2 Y) — EX• E(X Y)\n=E(X\n2 )• E(Y) -(EX)\n=E(X\n2• E(Y)\n=DX• EY=I — 2p'\n令Cov(X,Z) =O, 得p=—.所以p=—时,X与Z 不相关.\n(ill) 因为\nP{Xl,Z —l} =P{X冬l,XY冬—l}=O,\nP{Xl} > O,P{Z — l} > o,\n所以\nP{X 冬l,Z 冬-1} # P{Xl}P{Z-1}.\n故X与Z 不相互独立.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ffb8f38e47843e548b2-s0-solution-q23-o1",
+      "document_id": "d-0ffb8f38e47843e548b2",
+      "number": "23",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ffb8f38e47843e548b2-s0-solution-q23-o1-r1",
+          "page_id": "d-0ffb8f38e47843e548b2-p7",
+          "bbox": [
+            0.025,
+            0.4033541811564405,
+            0.985,
+            0.8637888571416265
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(23) 解\nC I)由厂f(x矿)dx =I, 得\n-w\nl=厂汇了心=AJ:卜e-dt\nμ\nCJ\n=A• 三『上e.. ; dt = 三A,\n2= If;\n所以A=.\n... ,:r\" 为样本X1,X2,...,义的观测值,则似然函数为\n(I[)设Xi,Xz'\nn -\u0006 '\nn (x -μ) 2\n,\n2 e\n』卢)券(矿)\n;-1 20 2\n..., x, 多μ,\nX1 ,Xz'\n,i\nL(矿)= ITf(x,; 矿)=六\nlo'\n,\u0006I\n其他,\n对数似然函数为\nn\nn\n2 .\nlnL(矿)= In\nn\n— 了lnr, 2 —2矿(x, -μ)\n了;\n=--+\nd lnL(r,2)\nn\n]\nn\n. (x, -μ)气\nz\ndr,\n加\n2矿,\u0007I\nd lnL(矿)\n1 n\no, 得6 的最大似然估计值为(J =— (x, —μ)气\nA 2\n令\nda2\nn\ni\u0005I\nn\n— (X, —μ)飞\n所以矿的最大似然估计最为矿=\nn ,\u00031",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [],
+  "identity": {
+    "category": "考研数三",
+    "year": "2019",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

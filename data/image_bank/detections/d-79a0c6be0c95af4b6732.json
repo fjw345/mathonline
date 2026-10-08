@@ -1,0 +1,1231 @@
+{
+  "item": {
+    "id": "d-79a0c6be0c95af4b6732",
+    "path": "resource/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2021-2024年数学三真题+解析/2024考研数学三真题及答案.pdf",
+    "name": "2024考研数学三真题及答案.pdf",
+    "sha256": "23d5ea7114299c4dd02814c57941c49e4d0631a9c0790976b329e128853c20be",
+    "format": "pdf",
+    "bytes": 428366,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 3,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "text_chars": 812,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "text_chars": 902,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "text_chars": 189,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "23d5ea7114299c4dd02814c57941c49e4d0631a9c0790976b329e128853c20be",
+  "engine_version": 6,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2021-2024年数学三真题+解析/2024考研数学三真题及答案.pdf",
+  "pdf_sha256": "23d5ea7114299c4dd02814c57941c49e4d0631a9c0790976b329e128853c20be",
+  "pages": [
+    {
+      "id": "d-79a0c6be0c95af4b6732-p1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": 1,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-p2",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": 2,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-p3",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": 3,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-choice-q1-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-choice-q1-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p1",
+          "bbox": [
+            0.025,
+            0.17695075379419933,
+            0.985,
+            0.22059595639665128
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-choice-q1-o1-r2",
+          "page_id": "d-79a0c6be0c95af4b6732-p1",
+          "bbox": [
+            0.025,
+            0.22059595639665128,
+            0.985,
+            0.24362381453737028
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "+\nx\n=\nf x\n( )\nlim1\n(1)已知函数\n,则(    )\n+\n2 n\n→∞\nnx\nn",
+      "answer_hint": "【答案】D",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-choice-q2-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-choice-q2-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p1",
+          "bbox": [
+            0.025,
+            0.24362381453737028,
+            0.985,
+            0.2797171198208614
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-choice-q2-o1-r2",
+          "page_id": "d-79a0c6be0c95af4b6732-p1",
+          "bbox": [
+            0.025,
+            0.2797171198208614,
+            0.985,
+            0.30313859668289517
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "+∫ π\na k\nsin x dx (     )\n(2)积分\na",
+      "answer_hint": "【答案】B",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-choice-q3-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-choice-q3-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p1",
+          "bbox": [
+            0.025,
+            0.30313859668289517,
+            0.985,
+            0.3526908047162766
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-choice-q3-o1-r2",
+          "page_id": "d-79a0c6be0c95af4b6732-p1",
+          "bbox": [
+            0.025,
+            0.3526908047162766,
+            0.985,
+            0.3761585878863278
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "π\nπ∫\n∫\nf x y dy 则(    )\n( , )\n(3)交换积分次序 2 dx\nsin x",
+      "answer_hint": "【答案】A",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-choice-q4-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-choice-q4-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p1",
+          "bbox": [
+            0.025,
+            0.3761585878863278,
+            0.985,
+            0.4640101542574581
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-choice-q4-o1-r2",
+          "page_id": "d-79a0c6be0c95af4b6732-p1",
+          "bbox": [
+            0.025,
+            0.4640101542574581,
+            0.985,
+            0.4866896850521016
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "∞\n∞\n=∑\n∑\n+\n=\nln(2\nx )\na x n ,则\nna\n(4)已知\n(\n)\nn\n2 n\n=\nn 0\nn = 0\n(C)1\n(D)1\n−\n−\n(A)\n(B)",
+      "answer_hint": "【答案】A",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-choice-q5-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-choice-q5-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p1",
+          "bbox": [
+            0.025,
+            0.4866896850521016,
+            0.985,
+            0.513325991696255
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-choice-q5-o1-r2",
+          "page_id": "d-79a0c6be0c95af4b6732-p1",
+          "bbox": [
+            0.025,
+            0.513325991696255,
+            0.985,
+            0.533966123815371
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "=\n−\n+\n( ,\n,\ny\n2 y\n3 y ,则(\n(5)设二次型在正交变换下的标准型为 f x x x )\n)",
+      "answer_hint": "【答案】C(行列式为-6,迹为2)",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-choice-q6-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-choice-q6-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p1",
+          "bbox": [
+            0.025,
+            0.533966123815371,
+            0.985,
+            0.5561559253793389
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(6)【答案】C",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-choice-q7-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-choice-q7-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p1",
+          "bbox": [
+            0.025,
+            0.5561559253793389,
+            0.985,
+            0.5954070973427585
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "=\n=\na\n0, a\n(7)【答案】C(\n)",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-choice-q8-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-choice-q8-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p1",
+          "bbox": [
+            0.025,
+            0.5954070973427585,
+            0.985,
+            0.6192596487786456
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-choice-q8-o1-r2",
+          "page_id": "d-79a0c6be0c95af4b6732-p1",
+          "bbox": [
+            0.025,
+            0.6192596487786456,
+            0.985,
+            0.6422411824875475
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "−\n3 = (\n(8) E X\n[(\nEx ) ]\n)",
+      "answer_hint": "【答案】0",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-choice-q9-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "9",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-choice-q9-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p1",
+          "bbox": [
+            0.025,
+            0.6422411824875475,
+            0.985,
+            0.6813118414067973
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": ">\n>\np\n(9)【答案】B ( p\n)",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-choice-q10-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "10",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-choice-q10-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p1",
+          "bbox": [
+            0.025,
+            0.6813118414067973,
+            0.985,
+            0.7688846879049084
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-choice-q10-o1-r2",
+          "page_id": "d-79a0c6be0c95af4b6732-p1",
+          "bbox": [
+            0.025,
+            0.7688846879049084,
+            0.985,
+            0.7891229549738847
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "=\n−\nX Y 相互独立,且均服从参数为λ 的指数分布,令Z\n,\nX\nY ,则下列随机变量与Z\n(10)设随机变量\n同分布的是(\n)\n+\nX\nY\n+\n(A)X\nY\n(B)\n(C)2X\n(D)X",
+      "answer_hint": "【答案】D",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-blank-q11-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-blank-q11-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p1",
+          "bbox": [
+            0.025,
+            0.8097583749051008,
+            0.985,
+            0.8317972777134705
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(11)【答案】3",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-blank-q12-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-blank-q12-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p1",
+          "bbox": [
+            0.025,
+            0.8317972777134705,
+            0.985,
+            0.8721999150791243
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-blank-q12-o1-r2",
+          "page_id": "d-79a0c6be0c95af4b6732-p1",
+          "bbox": [
+            0.025,
+            0.8721999150791243,
+            0.985,
+            0.907727615023238
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "+∞\n∫\n=\n(12)\n________\n+\n−\nx 4\n3 x 2",
+      "answer_hint": "π\n【答案】1 ln3 −",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-blank-q13-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-blank-q13-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p2",
+          "bbox": [
+            0.025,
+            0.0734255080300394,
+            0.985,
+            0.10829210091592609
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-blank-q13-o1-r2",
+          "page_id": "d-79a0c6be0c95af4b6732-p2",
+          "bbox": [
+            0.025,
+            0.10829210091592609,
+            0.985,
+            0.13077181984044242
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "=\n−\n−\n+\n+\n(13)函数 f x y\n( , )\n2 x 3\n9 x 2\n6 y 4\n12 x\n24 y 的极值点是________",
+      "answer_hint": "【答案】(1,1)",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-blank-q14-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-blank-q14-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p2",
+          "bbox": [
+            0.025,
+            0.13077181984044242,
+            0.985,
+            0.15101603151569265
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(14)【答案】50",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-blank-q15-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "15",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-blank-q15-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p2",
+          "bbox": [
+            0.025,
+            0.15101603151569265,
+            0.985,
+            0.17107773652881536
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(15)【答案】16",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-blank-q16-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "16",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-blank-q16-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p2",
+          "bbox": [
+            0.025,
+            0.17107773652881536,
+            0.985,
+            0.21201349150142415
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(16)【答案】2",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-solution-q17-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-solution-q17-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p2",
+          "bbox": [
+            0.025,
+            0.2528883384247919,
+            0.985,
+            0.38187110078231745
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-solution-q17-o1-r2",
+          "page_id": "d-79a0c6be0c95af4b6732-p2",
+          "bbox": [
+            0.025,
+            0.38187110078231745,
+            0.985,
+            0.42794854145822786
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(17)(本题满分10 分)\n=\n=\n=\n=\n, xy\n3, y\nx y\n,\n3 x 围成,\n已知区域D 是第一象限内的有界区域,它由 xy\n∫∫\n+ −\n(1 x\ny dxdy\n)\n计算\nD",
+      "answer_hint": "【答案】8 ln3",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-solution-q18-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-solution-q18-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p2",
+          "bbox": [
+            0.025,
+            0.42794854145822786,
+            0.985,
+            0.5162083041268302
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-solution-q18-o1-r2",
+          "page_id": "d-79a0c6be0c95af4b6732-p2",
+          "bbox": [
+            0.025,
+            0.5162083041268302,
+            0.985,
+            0.547674905431826
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(18)(本题满分12 分)\n ∂ 2\n∂ 2 \nz\nz\n+\n=\n+\n+\n+\n=\n\nz x y\n( , ) 由方程 z\n已知 z\ne x\ny ln(1 z 2 )\n0 确定,求 \n∂ 2\n∂ 2\n\nx\ny \n(0,0)",
+      "answer_hint": "−−\n【答案】1 2ln 2",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-solution-q19-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-solution-q19-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p2",
+          "bbox": [
+            0.025,
+            0.547674905431826,
+            0.985,
+            0.6181762322027006
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-solution-q19-o1-r2",
+          "page_id": "d-79a0c6be0c95af4b6732-p2",
+          "bbox": [
+            0.025,
+            0.6181762322027006,
+            0.985,
+            0.6638695691520945
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(19)(本题满分12 分)\n=\n=\nt >\n= xe−\n2x 与 x\nt x\n,\nt 及x 轴所围的面积为( )\nS t ,求( )\nS t 的最大值\n已知\n0 ,曲线 y",
+      "answer_hint": "【答案】ln 2\n+",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-solution-q20-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-solution-q20-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p2",
+          "bbox": [
+            0.025,
+            0.6638695691520945,
+            0.985,
+            0.7971023564781746
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-solution-q20-o1-r2",
+          "page_id": "d-79a0c6be0c95af4b6732-p2",
+          "bbox": [
+            0.025,
+            0.7971023564781746,
+            0.985,
+            0.8175975706955655
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(20)(本题满分12 分)\n′\n=\n′\n′′\n≤\n( )\nf (1) , f ( )\nx\n设函数 f x 有2 阶导数, f (0)\n−\nx (1 x )\nx∈\n−\n−\n−\n≤\n(0,1) 时, f x\n(1)当\n( )\nf (0)(1 x )\nf (1) x\n+\nf (0)\nf (1)\n∫ 1\n−\n≤\nf x dx\n( )\n(2)",
+      "answer_hint": "【答案】(1)泰勒公式展开(2)分部积分或泰勒公式",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-solution-q21-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-solution-q21-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p2",
+          "bbox": [
+            0.025,
+            0.8175975706955655,
+            0.985,
+            0.8388664053408081
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-solution-q21-o1-r2",
+          "page_id": "d-79a0c6be0c95af4b6732-p2",
+          "bbox": [
+            0.025,
+            0.8388664053408081,
+            0.985,
+            0.8601352399860509
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(21)(本题满分12 分)",
+      "answer_hint": "= β\n= α\na =\n是Bx\n【答案】(1)Ax\n的解 (2)",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-79a0c6be0c95af4b6732-s0-solution-q22-o1",
+      "document_id": "d-79a0c6be0c95af4b6732",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-solution-q22-o1-r1",
+          "page_id": "d-79a0c6be0c95af4b6732-p2",
+          "bbox": [
+            0.025,
+            0.8601352399860509,
+            0.985,
+            0.9125246223054532
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-solution-q22-o1-r2",
+          "page_id": "d-79a0c6be0c95af4b6732-p3",
+          "bbox": [
+            0.025,
+            0.07563756301010793,
+            0.985,
+            0.163107046530874
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-79a0c6be0c95af4b6732-s0-solution-q22-o1-r3",
+          "page_id": "d-79a0c6be0c95af4b6732-p3",
+          "bbox": [
+            0.025,
+            0.163107046530874,
+            0.985,
+            0.21040848021283431
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2024 年全国硕士研究生入学统一考试数学(三)试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(22)(本题满分12 分)\nθ 上的均匀分布,\n设总体X 服从[0, ]\nX , X ,  , X 为总体的简单随机样本,记\nn\n=\n=\nX\nmax{ X , X ,  , X } , T\ncX\n( )\nn\nn\nc\n( )\nn\n= θ\n(1)求c ,使得 E T\n( )\nc\n=\n− θ 2 = θ\n,求c ,使得( )\n( )\nE T\n(\n)\nh c 最小\n(2)记 h c\nc",
+      "answer_hint": "+\n+\nn 1\nn\n=\n=\n【答案】(1) c\n(2) c\n+\nn\nn 1",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [],
+  "identity": {
+    "category": "考研数三",
+    "year": "2024",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

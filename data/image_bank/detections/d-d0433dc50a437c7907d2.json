@@ -1,0 +1,918 @@
+{
+  "item": {
+    "id": "d-d0433dc50a437c7907d2",
+    "path": "resource/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2021-2023年考研数学（二）真题+解析/2022考研数学(卷二)真题+答案.pdf",
+    "name": "2022考研数学(卷二)真题+答案.pdf",
+    "sha256": "323581f3e99884560ba60c47fe5100610bec7ca64214a7d1715efe69133d9396",
+    "format": "pdf",
+    "bytes": 1257310,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 12,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 331.65399169921875,
+        "height": 490.3940124511719,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 331.7669677734375,
+        "height": 490.46978759765625,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 331.7669677734375,
+        "height": 490.46978759765625,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 331.7669677734375,
+        "height": 490.46978759765625,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 331.7669677734375,
+        "height": 490.46978759765625,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 6,
+        "width": 331.7669677734375,
+        "height": 490.46978759765625,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 7,
+        "width": 331.7669677734375,
+        "height": 490.46978759765625,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 8,
+        "width": 331.7669677734375,
+        "height": 490.46978759765625,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 9,
+        "width": 331.7669677734375,
+        "height": 490.46978759765625,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 10,
+        "width": 331.7669677734375,
+        "height": 490.46978759765625,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 11,
+        "width": 331.7669677734375,
+        "height": 490.46978759765625,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 12,
+        "width": 331.7669677734375,
+        "height": 490.46978759765625,
+        "text_chars": 0,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "323581f3e99884560ba60c47fe5100610bec7ca64214a7d1715efe69133d9396",
+  "engine_version": 5,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2021-2023年考研数学（二）真题+解析/2022考研数学(卷二)真题+答案.pdf",
+  "pdf_sha256": "323581f3e99884560ba60c47fe5100610bec7ca64214a7d1715efe69133d9396",
+  "pages": [
+    {
+      "id": "d-d0433dc50a437c7907d2-p1",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": 1,
+      "width": 331.65399169921875,
+      "height": 490.3940124511719,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-p2",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": 2,
+      "width": 331.7669677734375,
+      "height": 490.46978759765625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-p3",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": 3,
+      "width": 331.7669677734375,
+      "height": 490.46978759765625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-p4",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": 4,
+      "width": 331.7669677734375,
+      "height": 490.46978759765625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-p5",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": 5,
+      "width": 331.7669677734375,
+      "height": 490.46978759765625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-p6",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": 6,
+      "width": 331.7669677734375,
+      "height": 490.46978759765625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-p7",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": 7,
+      "width": 331.7669677734375,
+      "height": 490.46978759765625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-p8",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": 8,
+      "width": 331.7669677734375,
+      "height": 490.46978759765625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-p9",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": 9,
+      "width": 331.7669677734375,
+      "height": 490.46978759765625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-p10",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": 10,
+      "width": 331.7669677734375,
+      "height": 490.46978759765625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-p11",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": 11,
+      "width": 331.7669677734375,
+      "height": 490.46978759765625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-p12",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": 12,
+      "width": 331.7669677734375,
+      "height": 490.46978759765625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-d0433dc50a437c7907d2-s0-unknown-q2-o1",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": "2",
+      "kind": "choice",
+      "answer": "C",
+      "tags": [
+        "考研数二",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-unknown-q2-o1-r1",
+          "page_id": "d-d0433dc50a437c7907d2-p2",
+          "bbox": [
+            0.025,
+            0.5945239551478083,
+            0.985,
+            0.7900876656472987
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-unknown-q2-o1-r2",
+          "page_id": "d-d0433dc50a437c7907d2-p2",
+          "bbox": [
+            0.025,
+            0.7820876656472987,
+            0.985,
+            0.983
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-unknown-q2-o1-r3",
+          "page_id": "d-d0433dc50a437c7907d2-p3",
+          "bbox": [
+            0.025,
+            0.047317023445463804,
+            0.985,
+            0.8818307849133538
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "2 大、 的。 -in\n当 C(OO 一 PCD=olx(CoD) 时 ,lim 万吕 Le 鞭 z6y\n所以 @ 正确 . 故选 (C)\nJa\n加由 )\n业 1 业 2\n钢革 。 四了四于口子\n【答案】(D)\n【解析 】 交换积分次序 ,\n~ 也下- -\n工 (>\nFefTee-fafTee4- 直\n故选 (D)\n(G3) 设函数 /xz) 在 x= 总处有 2 阶导数 , 则\n工人\n) 当 (Cs] > 0 时 , 79 在的某邻域内单调增加\n《C) 当 Cn 在交的某令域内是四函数时 , 7\"(xm]> 0\nCD) 当挛 ( 交 )> 0 时 ,Ja) 在加的某邻域内是四函数\n[答案】(B)\n【解析 】 因 (xz) 在 x= 区处有 2 阶导数 , 则\nGO-mZD27e0Ha= 冲 ra-7Gy,\n当矿 ( 罗 ) > 0 时 , 由极限的局部保号性得 ,35 > 0, 当 reUr(a,), 有 (xj)>0,\n即 35>0, 当 xeU(xm,5), 有 (xz)>0, 故 (zx) 在 x= 加的某邻域内单调增加 , 选 (B).\n全设函数 . 70) 连续, 令 F(xy)=[ (xz-?-07Od , 则 ( )\nEMEBF_aPF\n[2\nmw 下\n可一\n[答案】(C)\n[解析 F(xy)= 人 (xz-y-0yr(u=(G-[ Auw-[ 人 ww\n见下 -全 JUOd+(z-ny(lz-n-Gx-7)7Ge-=[ 人 7,\n。\n各 -r6-\n同理各 -二 CUu-G-yjyte-nrG-nyl-n)=- 人 rw,\n条 -7G6-",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-s0-unknown-q9-o1",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": "9",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-unknown-q9-o1-r1",
+          "page_id": "d-d0433dc50a437c7907d2-p3",
+          "bbox": [
+            0.025,
+            0.8738307849133538,
+            0.985,
+            0.9764576962283384
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-unknown-q9-o1-r2",
+          "page_id": "d-d0433dc50a437c7907d2-p4",
+          "bbox": [
+            0.025,
+            0.028,
+            0.985,
+            0.4159796126401631
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(9) 设为数, 若反党积分 | -ID\nFT 收敛 , 则书的取值范围是 )\n昌 2\nCA) CD (B) (12 (CO (CD (D) (2 2)\n【答案] (A)\n[Wi] 当 = 1 时 , 人 er 和 ee 排除 (B) 和 (D:\n六 | 本\nInx -人 as xmx 大 -Con0-04 COmd-0u 0w\n当时 , 儿 0 本 -0\nLOnd-0-\n, 发散 , 排除 (C), 故选 [A)-\n押四\n(@ 已知数列 {r,} , 其 -<xS 开 , 则 )\n《A) 当 Ilim cos(sin x,) 存在时\n(B) 当 lim sin(cos xy) 存在时 ,\n《C) 当 Iimeos(sin x,) 存在时 ,limsin x, 存在 , 但 limx, 不一定存在 .",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-s0-unknown-q1-o1",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": "1",
+      "kind": "choice",
+      "answer": "B",
+      "tags": [
+        "考研数二",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-unknown-q1-o1-r1",
+          "page_id": "d-d0433dc50a437c7907d2-p4",
+          "bbox": [
+            0.025,
+            0.4079796126401631,
+            0.985,
+            0.9305861365953109
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-unknown-q1-o1-r2",
+          "page_id": "d-d0433dc50a437c7907d2-p5",
+          "bbox": [
+            0.025,
+            0.028,
+            0.985,
+            0.06837512742099898
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-unknown-q1-o1-r3",
+          "page_id": "d-d0433dc50a437c7907d2-p5",
+          "bbox": [
+            0.025,
+            0.060375127420998986,
+            0.985,
+            0.6382018348623854
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-unknown-q1-o1-r4",
+          "page_id": "d-d0433dc50a437c7907d2-p5",
+          "bbox": [
+            0.025,
+            0.6302018348623853,
+            0.985,
+            0.8624627930682977
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-unknown-q1-o1-r5",
+          "page_id": "d-d0433dc50a437c7907d2-p5",
+          "bbox": [
+            0.025,
+            0.8544627930682976,
+            0.985,
+            0.9815545361875637
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-unknown-q1-o1-r6",
+          "page_id": "d-d0433dc50a437c7907d2-p6",
+          "bbox": [
+            0.025,
+            0.031007135575942913,
+            0.985,
+            0.5668460754332314
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-unknown-q1-o1-r7",
+          "page_id": "d-d0433dc50a437c7907d2-p6",
+          "bbox": [
+            0.025,
+            0.5588460754332314,
+            0.985,
+            0.9450316004077471
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "1 蕊不一定存在\n(D) 当 Iimsin(cosx,) 存在时 ,lim cosx, 存在 ,\n【答案] (D)\n【解析法一 , 当 lim 已) 存在时 , 设 lim sin(cosx,)=a 且 -1<asl,\n又因为当 -1< xs1 时 ,y= arcsinx 连续 ,\n所以 ,根据复合函数的极限运算法则可得 , im cosx, = lim arcsin [sin (cosx, 中 = arcsina 存在 ,\n故当 lim sin (cos ) 存在时 , lim cos mw 存在 .\n同时 , 者取 x, = 工 , 则 cosx =eos 了 =0, sm 人 ea)j=sn 人 em 了 -sn0=0,\nse Wass -om[2] -0, sin(cosx,) 人\nls\n圾当 lim sin (cosx,) 存在时 , Jim x, 不一定存在 . 故选 [D)\n法二 , 举反例 , 令 2 = (-) 可排除 ABC\nTIn0+ 加 [2 ,\n二 】 Se 上 1\n总\n0) 已知二 =\n1+cosx 1+sinx\n(1<<h 四 <1< ON<h<nh DA<A<1\n【答案】(A)\n工\n【 解怕 ] 1= 人一 2 dc 六 = 大\n01+cosx 1+cosx 1+sinx\n先比较厂慷大小\n47CG-E-m(+ars(o) 且 7(O)=0,, 则\nxz-1\n<0, 即 j(x) 单调递碱 , 则大 (xz)<7(0)=0,\nIE\n加了 <m(l+ars(oD), 则石 < 六 .\n再比较矿石大小\n四 <Lananjraag 和 ET 用下人之 AR\n1+cosx 1+sinx\n】\n1 0 0\n(8) 设 44 为 3 阶和矩阵 , 人 =|0 -1 0|,, 则 4 的特征值为 -10 的充分必要条件是 ( 。 )\n0 0 0\n(A) 存在可闻矩阵已 @, 使得 4= PAG (B) 存在可赣矩阵尸 , 使得 4= PAP-\n(C) 存在正交短阵 @, 使得 4= CAC 《D) 存在可闻和矩阵尸 , 使得 4 = PAPT\n【答案】(B)\n【解析 】 因为 4 有三个不同的特征值 , 所以 4 有三个无关的特征向量 , 即 4 可相似对角化 .\n| 二 je 有 4 = PAP- . 故选 (B).\n(9) 设算阵 4=| 1 4 吧 | ,=| 2 | 则线性方程组 4x = 力解的情况为 ( 。 )\n1 5 及 4\n(A) 无解 (B) 有解 《C) 有无穷多解或无解 。(D) 有唯一解或无解\n【答案】(D)\n昌 4\n【解析 | 和 =| aa\naa-DU-DG-o\n| 五汪人\n当 | 和垃 0 时, 方程组 4x = 访有唯一解 .\n11 1 1\n当 w=1 时 ,( 涉妇 =|1 1 1 2|, 方程组 4x = 无解 .\n1 5 有 4\n当户 =1 时 ,( 太外 =|1 a @2 2|, 方程组 4x =b 无解 .\n2 |, 方程组 4x = 无解 .\n了\n六下 4\n故选 D),\n1 1\n00) 设 w=| 1 |, 双 |, 若向量组 WyGayGs 与 avGoyCc 等价 , 则妈\n1 1 刀矶\n的取值范围是 ( 。 )\n(A) fo 省 (B) {2|2sR,24z 叶\n(CC fasRaz-Laz-3 D) fsRaz-\n【答案】(C)\n1 1 1 不脸\n0 3-1 1-4 4- 下\n【解析 】 因为 (waayQavas\n严 0 1-4 1 入 1- 外\n1 1 是形\n一 |0 2-1 1 入\n0 0 Cr+H0- 和 Q+IFU- 因\n回当 4z1 且 4z-2 且 4 关 -1 时 ,\nrasasaJ=r(asassaj=r(asasalasaaaw\n故 al,0a,06 与 WayGu 等价 .\n=1 时\n加 .",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-s0-unknown-q5-o1",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-unknown-q5-o1-r1",
+          "page_id": "d-d0433dc50a437c7907d2-p6",
+          "bbox": [
+            0.025,
+            0.9370316004077471,
+            0.985,
+            0.9632059123343527
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-unknown-q5-o1-r2",
+          "page_id": "d-d0433dc50a437c7907d2-p7",
+          "bbox": [
+            0.025,
+            0.028,
+            0.985,
+            0.7197512742099899
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "5 则\nT\n可得 r(wi,aa,os)=r(ovaavas oav0s | aaayQs)=1\n故 wiQa,03 与 WayG4 等价 .\n图当 2 时\nee 3 3 3\n11 -2 4\n000 3\n可得 r(asasvg)=2zr(avaasas)=3\n故 w ,aas63 与 Wi,GayG 不等价 ,\n图当 1 = 一 1 时\n11 -1\n(aasaa)-|0 -2 2 二\n00 2 0\n可得 r(asaasa)=3zr(asaasai)=2\n玖 qlvGasO 与 @,QayG 不等价\n+",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-s0-unknown-q1-o2",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-unknown-q1-o2-r1",
+          "page_id": "d-d0433dc50a437c7907d2-p7",
+          "bbox": [
+            0.025,
+            0.7117512742099898,
+            0.985,
+            0.9193730886850153
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-unknown-q1-o2-r2",
+          "page_id": "d-d0433dc50a437c7907d2-p8",
+          "bbox": [
+            0.025,
+            0.04935575942915392,
+            0.985,
+            0.09182059123343526
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-unknown-q1-o2-r3",
+          "page_id": "d-d0433dc50a437c7907d2-p8",
+          "bbox": [
+            0.025,
+            0.08382059123343527,
+            0.985,
+            0.4710254841997961
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-unknown-q1-o2-r4",
+          "page_id": "d-d0433dc50a437c7907d2-p8",
+          "bbox": [
+            0.025,
+            0.4630254841997961,
+            0.985,
+            0.9275280326197758
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-unknown-q1-o2-r5",
+          "page_id": "d-d0433dc50a437c7907d2-p9",
+          "bbox": [
+            0.025,
+            0.033045871559633025,
+            0.985,
+            0.5515555555555556
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "【解析 】lim(\n1 站\n(12) 已知函数了 = y(x) 由方程 2+ x+ 共 =3 确定 , 则 J\"(D)= _\n【解析 】 令 x= 1, 代入可得 [y(D)-1[72(D+ >(D+2] = 0, 解得 CD = 1, 对隐务数两边同时求\n导可得 2x+)y+29+3)27 =0,, 且 yO=-.\n谓人 2 本\n【答案】 上;\n【解析 TS\n8 9\n-2z-l\nJE\nme 二 + 中一\nG- 和 +C2\n(014) 微分方程 y\" 一 2?\"+5)\"= 0 的通解 y(\n【答案】y= CI+er(Cscos2x+ Cisin2n)\n【解析 】)” 一 27 +S7 =0\n根据题意 , 写出特征方程刀一 2 +Sr=0, 求解可得\nrm -2r+5=01=053=1 土 2\n通解为 y= CI+er(C:cos2x+ Csin2x)\n015) 已知曲线的极坐标为 r=sin300<0<3), 则工围成有界区域的面积为\n[答案】 计\n可\n答案\n1 ao\n【解析 3 人 Gin3g) 0-4 人 4-eos60)q0\n06) 设 4 为 3 阶答阵 , 交换人 4 的第 2 行和第 3 行 , 再将第 2 列的 -1 倍加到第 1 列 , 得到矩阵\n-2 1 -!\n1 -1 0 |, 则姑的迹 r( 4\n-10 0\n【解析 】 oemeco| 凤中\n-2 1 =-\nMa+1 -1 1\nHE- 和 = =(4+1)( 和 + 上 =0, 得 =-1, 邦 =i 为 = 二\n1 4\n0 1\n所以 4 的特征值为为 =-1, 因 = 一, 大 =i 从而如 (4 ) = 一\n,\n法 2 [Pa4BsCD] = ECDE\n则 4 = se 1 -1\n0 0 -1 0 -10\nEC 0 -1 -Is=|0 0 -|,\n-1 -11 -1 2\n所以 zr(4)=-1",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-s0-solution-q17-o1",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-solution-q17-o1-r1",
+          "page_id": "d-d0433dc50a437c7907d2-p9",
+          "bbox": [
+            0.025,
+            0.5812721712538226,
+            0.985,
+            0.9744189602446484
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-solution-q17-o1-r2",
+          "page_id": "d-d0433dc50a437c7907d2-p10",
+          "bbox": [
+            0.025,
+            0.037123343527013256,
+            0.985,
+            0.48733537206931704
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(17) (本题满分 10 分 )\n局画数 /在 z=1 处可导且加-270zs 电 -2, 求 7\n【解析 】 由是意可知 lim[ ye)-37Q0+sina]=-270D=0, 故 J(D=0,, 则\n要 TI-a1nta 冯 CD-70-3[7d+s 鸭 - 170]\n姬渗四\nme 一大\n大嫩\n_imeD)-70.\n吧 ”o-1\n=10-370D=2,, 故六 D=-\n上四\n设函数 ?(x) 是微分方程 290\" -47=2Inx-1 消足条件 (上 = 的明 , 求曲线\ny=Dy(z)(1<sx<e) 的弧长 .\n【解析 】 由题意可知风一一 =,\n= JP-ldrearc|-z [29 汪 Te+ +c|- 了 Inx+ Ge ,其中 C 为任意\n加 2 z\n则 C= 直 , 故 xCQD=- mxt 妆 , 则弧长为\nEu- WE\n1 >\n= 一 (e+1)\n3C+D",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-s0-solution-q19-o1",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-solution-q19-o1-r1",
+          "page_id": "d-d0433dc50a437c7907d2-p10",
+          "bbox": [
+            0.025,
+            0.47933537206931703,
+            0.985,
+            0.7003832823649337
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(19) (本是满分 12 分 )\n己和平面区城 D={eea-2<xsWI-.0sys?, 计算 1= 全- 习 ad\n站和二\n[解析 ] 7= Jad- [ECase-snepdePndseose-singpdefasard\n-30-2singeosb)a0+2[ 40=200-sim 叫十克 2G-0+z=27-2.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-s0-solution-q20-o1",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-solution-q20-o1-r1",
+          "page_id": "d-d0433dc50a437c7907d2-p10",
+          "bbox": [
+            0.025,
+            0.6923832823649337,
+            0.985,
+            0.9356829765545361
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-solution-q20-o1-r2",
+          "page_id": "d-d0433dc50a437c7907d2-p11",
+          "bbox": [
+            0.025,
+            0.05343323139653415,
+            0.985,
+            0.850230377166157
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(20) (本题满分 12 分 )\nRa\n已知可微函数 (uv) 各\n-yjet 且 7(Uw0J=aer\n(D 记 g(xy)= (zy 一 z, 求一一一人 ,\n) 求 J (wy) 的表达式和极值 .\n【解析 】(D) 因为 g(x,)= Fry 一避 , Hi 下 =1iGsy- 加 -大 Goy-, 由题设条件可知 :\n加 goD= Joy-D=jGdr-29erd=2xx-De7 +CO)\n令 x= 册 -=Y, 则 Jom)=-2ave +CUt+ 们\n由 JuO)=ie 可得 ,CUD)=ae 二 JJ=-2meo ++oPeem 2+meeom\nee _U2+mPjeem Ca-iP_w)eem 0\n2oeem -UP+PJe _P_wjeerm=0\n=(2-2aje 人一 (2 一好-W)ere =(2 一 4a+2+P)eeem\n-ve -Cu- 妇 -Peer\n7-22+2+w)er\n=C-29jef -Cr 本 -Peer =(2-4 和 +P+PJe\nso 人 -220c-2| 人 > 0 (Q.O) 是小值 , 且极小值为 F(OLO) = 0,\n4>\nsf\n时 ,4=0.8=-2C=0 一 4C- 肝 <0 一 (LID) 不是极值 .\n入\n,\n(20 (本题满分 12 分 )\n设函数 .jx) 在 (一 ,+eo) 内具有 2 阶连续导数 .证明 : /(x)..0 的充分必要条件是 :对不同的实\n数 @ oj 人 (全\n- 人 reodr.\n【解析必要性 : 令 FCO= GO )- 『 rod Fo=0,\nHI\nFOOD=7CD+GraAC 7-dJe-a CD 二 o- 7e3]\n+ 工\nGro1C-yer- a1G-Je- 3- 7@, 其 ee(C2 区\n=\n因为 PCo > 0 一太 CD 单调递增一 PCD < 0 一 F(Ca) 单调递减 (COD) < F(a) = 0, 故不等式成立 ;\n充分性 :《 反证法 ) 假设 3 , 使得六 Cn) <0, 由 . 广 (Co 的连续性以及极限的局部保号性可得",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-s0-solution-q3-o1",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-solution-q3-o1-r1",
+          "page_id": "d-d0433dc50a437c7907d2-p11",
+          "bbox": [
+            0.025,
+            0.842230377166157,
+            0.985,
+            0.8928695208970439
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-solution-q3-o1-r2",
+          "page_id": "d-d0433dc50a437c7907d2-p12",
+          "bbox": [
+            0.025,
+            0.028,
+            0.985,
+            0.27734556574923547
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "3 的小信域 (cd 使得 7\"Co <0, 对于 Vxe (cd), 从而 -PC9 >0,\n46GO= 人 TOd-G-oAC5 GO=0,\nCH\nGO0=7OO- TCD-J or-JG- orw- 15, 其中 7e(CG\n+ CH\n= 一\n=2C-9w- Oo)<05 Xe( 5\n故 GD) 单调递碱 , 所以 G(d) < G(C)= 0 一 7oOa<X\n呈 ) , 这个与题设条件",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-s0-solution-q7-o1",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-solution-q7-o1-r1",
+          "page_id": "d-d0433dc50a437c7907d2-p12",
+          "bbox": [
+            0.025,
+            0.26934556574923546,
+            0.985,
+            0.32219775739041795
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "7 人 < 人 ru 矛盾 , 故对于 Wx, 有 (9)>0 .证毕 .",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d0433dc50a437c7907d2-s0-solution-q22-o1",
+      "document_id": "d-d0433dc50a437c7907d2",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d0433dc50a437c7907d2-s0-solution-q22-o1-r1",
+          "page_id": "d-d0433dc50a437c7907d2-p12",
+          "bbox": [
+            0.025,
+            0.31419775739041794,
+            0.985,
+            0.9652446483180428
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(22) (本题满分 12 分 )\n已知二次型 /naaa)=3 队 +4+3 妇 +2x06,\n(0) 求正交变换 x = Gy 将丰 ( 5 ) 化为标准形 ;\n四放明 minz\n呈\n3 0\n【解析 ] (0 令 4=|0 4\n1 0\na-3 0\n由 laE- 才 = =(4-4)(2-2)=0,\n2-4 0\n-1 0 4-\n得 4 的特征值为 1 = =4, 为 =2\n当站 = 4 时 ,(4 一力 x= 0 的基础解析为 w = (0.50 ,ws = (1.0\n当 4 = 2 时 ,(2 巨 - 4)x = 0 的基础解析为 = (-1.0,I\n所与 ws 已经正交 , 将 G 、ca 和 cs 单位化 ,\n和和全 9 思 = 放 = 下 Go 力克矶 Co\n得到为 = = (0.1.0] 十 400 六 = 从 = 万 CD\n丰 00 1 了\n了本",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [
+    {
+      "type": "no_question_anchor",
+      "page": 1,
+      "lane": 0,
+      "details": "本页未定位题号，保留原页待核对；可能为封面、答案表或延续页。"
+    }
+  ],
+  "identity": {
+    "category": "考研数二",
+    "year": "2022",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

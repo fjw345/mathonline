@@ -1,0 +1,1868 @@
+{
+  "item": {
+    "id": "d-dc1f4db1de66ea6666ff",
+    "path": "resource/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/1987-2016考研数学（一）真题答案与解析/2013考研数学一真题及答案解析.pdf",
+    "name": "2013考研数学一真题及答案解析.pdf",
+    "sha256": "3f44bbb3780fecafdcb9167f1cfbc9b5423d5f220c29f71f04da5b06849e93b0",
+    "format": "pdf",
+    "bytes": 152209,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 12,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1442,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1342,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1173,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1099,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 955,
+        "renderable": true
+      },
+      {
+        "number": 6,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1314,
+        "renderable": true
+      },
+      {
+        "number": 7,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1176,
+        "renderable": true
+      },
+      {
+        "number": 8,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1353,
+        "renderable": true
+      },
+      {
+        "number": 9,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 971,
+        "renderable": true
+      },
+      {
+        "number": 10,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1298,
+        "renderable": true
+      },
+      {
+        "number": 11,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1207,
+        "renderable": true
+      },
+      {
+        "number": 12,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1069,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "3f44bbb3780fecafdcb9167f1cfbc9b5423d5f220c29f71f04da5b06849e93b0",
+  "engine_version": 6,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/1987-2016考研数学（一）真题答案与解析/2013考研数学一真题及答案解析.pdf",
+  "pdf_sha256": "3f44bbb3780fecafdcb9167f1cfbc9b5423d5f220c29f71f04da5b06849e93b0",
+  "pages": [
+    {
+      "id": "d-dc1f4db1de66ea6666ff-p1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": 1,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-p2",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": 2,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-p3",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": 3,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-p4",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": 4,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-p5",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": 5,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-p6",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": 6,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-p7",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": 7,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-p8",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": 8,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-p9",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": 9,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-p10",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": 10,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-p11",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": 11,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-p12",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": 12,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-choice-q1-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "1",
+      "kind": "choice",
+      "answer": "D",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q1-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p1",
+          "bbox": [
+            0.025,
+            0.3021933829578632,
+            0.985,
+            0.41125118619868983
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q1-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p1",
+          "bbox": [
+            0.025,
+            0.41125118619868983,
+            0.985,
+            0.4293192475984139
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q1-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p1",
+          "bbox": [
+            0.025,
+            0.4293192475984139,
+            0.985,
+            0.5642043937387111
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "x -arctan x\nc ≠\n(1)已知 lim\n= c ,其中,\nk c 为常数,且\n0 ,则                      (   )\nk\n→\nx\nx 0\n−\n−\n=\n=\n(A) k =2, c\n(B) k =2, = 2 (C) k =3, c\nc\n(D)\nk =3, = 3\nc",
+      "answer_hint": "【答案】D\nc ≠\n【解析】因为\n−\nx arctan x 洛\nx 2\nx 2\n1+ x 2 =\n=\n=\n=\n=\n3 − k\nc\nlim\nlim\nlim\nlim\nlim x\n−\n−\n+\n−\n→\nx k\n→\nkx k 1\n→ kx k 1 (1 x 2 )\n→ kx k 1\nk →\nx 0\nx 0\nx 0\nx 0\nx 0\n−\n=\n=\n=\n=\n所以\n故选D\n3 k\n0, k\n3, c\n,\nk",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-choice-q2-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "2",
+      "kind": "choice",
+      "answer": "A",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q2-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p1",
+          "bbox": [
+            0.025,
+            0.5642043937387111,
+            0.985,
+            0.6296517079792038
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q2-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p1",
+          "bbox": [
+            0.025,
+            0.6296517079792038,
+            0.985,
+            0.6516679780285035
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q2-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p1",
+          "bbox": [
+            0.025,
+            0.6516679780285035,
+            0.985,
+            0.7541805581329176
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "在点(\n)\n+\n+\n+\n=\n−\n(2) 曲面 x 2\ncos( xy )\nyz\nx\n0,1, 1 的切平面方程为                  (   )\n−\n+ = −   (B) +\n+ =\n−\n+ = −     (D) −\n− =\ny\nz\nx\ny\nz\nz\nx\ny\nz\n(A) x\n0 (C) x\n2 y",
+      "answer_hint": "【答案】A\n【解析】曲面在点(0,1,-1) 处的法向量为\n→\n′\n′\n′\nn =(\nF F F )\n,\n,\n=(2 - sin (\nx y\nxy )+1,- sin (\nx\nxy )+ , )\nz y\n=(1,-1,1)\nx\ny\nz (0,1,-1)\n(0,1,-1)\n⋅\n故曲面在点(0,1,-1) 处的切面方程为   1 ( -0)-( -1)+( +1)=0,\nx\ny\nz\n−\n+ = −,选A\ny\nz\n即 x",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-choice-q3-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "3",
+      "kind": "choice",
+      "answer": "C",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q3-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p1",
+          "bbox": [
+            0.025,
+            0.7541805581329176,
+            0.985,
+            0.8996592544954348
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q3-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p1",
+          "bbox": [
+            0.025,
+            0.8996592544954348,
+            0.985,
+            0.9247348777789118
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q3-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p2",
+          "bbox": [
+            0.025,
+            0.17860841873422653,
+            0.985,
+            0.2049234169713109
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q3-o1-r4",
+          "page_id": "d-dc1f4db1de66ea6666ff-p2",
+          "bbox": [
+            0.025,
+            0.2049234169713109,
+            0.985,
+            0.3939114752472722
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "∞\n∑\n=\n−\n= ∫\nπ\n=\n=\nπ\nL\n(3) 设 f x\n( )\nx\n, b\nf x\n( )sin n xdx n\n(\n1,2,\n) . 令 s x\n( )\nb sin n x , 则\nn\nn\nn =\ns −\n=\n(\n)\n(   )\n(A) 3 (B) 1\n−\n−\n(C)\n(D)",
+      "answer_hint": "【答案】C\n 1\n\n1 \n∈\n- ,\nx\nx\n0,\n\n\n\n\n 2\n\n2 \n【解析】 f x\n( )= x -\n= \n 1\n\n\n∈\nx - ,\nx\n,1\n\n\n 2 \n\n将 f x 作奇延拓,得周期函数 F x ,周期T=2\n( )\n( )\nx = −\n则 F x 在点\n( )\n处连续,从而\n−\n−\n=\n−\n−\n−\n−\nS (\n)= (\nF\n)\nF (\n)=\nF (\n)= f(\n)=\n故选C",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-choice-q4-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "4",
+      "kind": "choice",
+      "answer": "D",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q4-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p2",
+          "bbox": [
+            0.025,
+            0.3939114752472722,
+            0.985,
+            0.5344814928648307
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q4-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p2",
+          "bbox": [
+            0.025,
+            0.5344814928648307,
+            0.985,
+            0.5588837156076801
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q4-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p2",
+          "bbox": [
+            0.025,
+            0.5588837156076801,
+            0.985,
+            0.7125178299977114
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "2 + 2 = 1, L : x\n2 + 2 = 2, L : x\n2 + 2 y\n2 = 2, L : 2 x\n2 + 2 = 2 为四条逆时针方向\n(4) 设 L : x\ny\ny\ny\ny\nx\n{\n}\n= ∫\u0002\n+\n+\n−\n=\n=\n的平面曲线,记 I\n( y\n)\ndx\n(2 x\n) dy i\n(\n1,2,3,4) . 则 max I I , I , I\n,\ni\n1 2 3 4\nL\ni\n(   )\n(A) 1I       (B) 2I       (C) 3I      (D) 4I",
+      "answer_hint": "【答案】D\n∂\n∂\n\n\ny 3\nx 3\nQ\nP\ny 2\ny 2\n=\n−\n−\n= − 2 −−\n− 2\n【解析】记 P\n,则\n,\ny +\n, =2 x\nQ\n2 x\n=1\nx +\n\n∂\n∂\nx\ny\n2 \n\n\n\n\n ∂\n∂ \n\n3 \n3 \n2  \ny\nx\nQ\nP\ny\n\u0002\n∫\n−\n∫∫\n−\n∫∫\n−\nI =  y +\ndx + 2\ndxdy =\n1  x 2 +\ndxdy .\n\n x\n dy = \n\n\n \n∂\n∂\ni\ny \n6 \n3 \n x\n2  \n\n\n\n\nL\nD\nD\ni\ni\ni\n3 2\nπ\nπ\nπ\n>\n>\n>\n用Di 表示Li 所围区域,则有 I =\n, I =\n, =\nI\n, I =\n, I\nI\nI\nI .\n故选D",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-choice-q5-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "5",
+      "kind": "choice",
+      "answer": "B",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q5-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p2",
+          "bbox": [
+            0.025,
+            0.7125178299977114,
+            0.985,
+            0.8207046982862605
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q5-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p2",
+          "bbox": [
+            0.025,
+            0.8207046982862605,
+            0.985,
+            0.8396595212524124
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q5-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p2",
+          "bbox": [
+            0.025,
+            0.8396595212524124,
+            0.985,
+            0.9552403503562945
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q5-o1-r4",
+          "page_id": "d-dc1f4db1de66ea6666ff-p3",
+          "bbox": [
+            0.025,
+            0.17527350346436127,
+            0.985,
+            0.2522488413468676
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "=\n(5)设 A B C 均为n 阶矩阵,若AB\n, ,\nC ,且B 可逆,则                             (   )\n(A)矩阵C 的行向量组与矩阵A 的行向量组等价\n(B)矩阵C 的列向量组与矩阵A 的列向量组等价\n(C)矩阵C 的行向量组与矩阵B 的行向量组等价\n(D)矩阵C 的列向量组与矩阵B 的列向量组等价",
+      "answer_hint": "【答案】B\n= α\nα\n= γ\nγ\n【解析】将 A C 按列分块, A\n,\n(\n,...,\n), C\n( ,...,\n)\nn\nn\n=\n由于AB\nC ,故\n b\n... b \nn\n\n=\nα\nα\nγ\nγ\n(\n,...,\n)\n.\n...\n.\n( ,...,\n)\n\n\nn\nn\n\n\n... b \n b\nn\nnn\nγ =\nα +\n+\nα\nγ =\nα +\n+\nα\n即\nb\n... b\n,...,\nb\n... b\n11 1\nn\n1 n\nn\n1 n 1\nnn n\n即C 的列向量组可由A 的列向量线性表示\n= CB−\n1 ,A 的列向量组可由C 的列向量组线性表示,选B\n由于B 可逆,故 A",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-choice-q6-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "6",
+      "kind": "choice",
+      "answer": "B",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q6-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p3",
+          "bbox": [
+            0.025,
+            0.2522488413468676,
+            0.985,
+            0.39228046413007844
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q6-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p3",
+          "bbox": [
+            0.025,
+            0.39228046413007844,
+            0.985,
+            0.4189946048401314
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q6-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p3",
+          "bbox": [
+            0.025,
+            0.4189946048401314,
+            0.985,
+            0.8232858136706379
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": " 1\n 2\na\n1 \n0 \n\n\n\n\n(6) 矩阵 a\nb\na 与 0\nb\n0 相似的充要条件为                          (   )\n\n\n\n\n\n\n\n\na\n1 \n0 \n\n\n=\n=\n=\n(A) a\n0, b\n2 (B) a\n0, b 为任意常数\n=\n=\n=\n(C) a\n2, b\n0 (D) a\n2, b 为任意常数",
+      "answer_hint": "【答案】B\n 1\n 2\na\n1 \n0 \n\n\n\n\n= \n= 0\n【解析】令 A\na\nb\na , B\nb\n0 ,\n\n\n\n\n\n\n\na\n1 \n0 \n\n\n因为A 为实对称矩阵,B 为对角阵,则A 与B 相似的充要条件是A 的特征值分别为2, ,0\nb\nλ\n−\n−\n−\nλ\n−\n−\na\na\nλ −\n=\nλ\n−\n−\n=\nλ\n−\n−\nA 的特征方程\nE\nA\na\nb\na\nb\na\n−\n−\nλ\n−\n−\nλ\n−\nλ\n−\na\na\nλ\n−\n−\na\n(\n)(\n)\n=\nλ\n−\n−\nλ λ\n−\nλ\n−\n−\n\n\nb\na =\nb\n2 a 2 ,\n\n−\nλ\n−\na\nλ =\n−\n=\n因为\n2 是A 的特征值,所以2 E\nA\n−\na =\n2 = 0 ,即\n所以 2 a\n0 .\n(\n)(\n)\na =\nλ −\n= λ λ\n−\nλ\n−\n当\n0 时,\nE\nA\nb ,\nA 的特征值分别为2, ,0 所以b 为任意常数即可.  故选B.\nb",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-choice-q7-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "7",
+      "kind": "choice",
+      "answer": "A",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q7-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p3",
+          "bbox": [
+            0.025,
+            0.8232858136706379,
+            0.985,
+            0.933405421893557
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q7-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p4",
+          "bbox": [
+            0.025,
+            0.17186887502783552,
+            0.495,
+            0.2038561777823139
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q7-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p4",
+          "bbox": [
+            0.025,
+            0.2038561777823139,
+            0.495,
+            0.5502851523839568
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(7) 设 X , X , X 是随机变量,且 X 1 ~ N (0,1) , X 2 ~ N (0,2 ) , X 3 ~ N (5,3 ) ,\n{\n}\n=\n−≤\n≤\n=\np\nP\nX\n2 (\ni\n1,2,3) ,则                                             (   )\ni\ni\n>\n>\n>\n>\n>\n>\n>\n>\n(A) p\np\np (B) p\np\np (C) p\np\np (D) p\np\np",
+      "answer_hint": "【答案】A\n【解析】\n=\n−≤\n≤\n= Φ\n−Φ −\n= Φ\n−\np\nP\n{ 2\nX\n2}\n(2)\n( 2)\n2 (2) 1,\n−\n−−\n−\n 2 0\nX\n2 0 \n=\n−≤\n≤\n=\n≤\n≤\n= Φ\np\nP\n{ 2\nX\n2}\nP \n\n\n2 \n−\n−−\n−\n 2 5\nX\n2 5 \n=\n−≤\n≤\n=\n≤\n≤\n= Φ −\np\nP\n{ 2\nX\n2}\nP \n\n\n3 \n>\n>\n由下图可知, p\np\np ,选A.\ny\n= φ\ny\n( )\nx\nx\nO\n1    2 7/3",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-choice-q8-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q8-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p4",
+          "bbox": [
+            0.025,
+            0.5502851523839568,
+            0.495,
+            0.6477198056230824
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q8-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p4",
+          "bbox": [
+            0.025,
+            0.6477198056230824,
+            0.495,
+            0.6716944923189455
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-choice-q8-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p4",
+          "bbox": [
+            0.025,
+            0.6716944923189455,
+            0.495,
+            0.7377276449920823
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "n ,给定α (0 < α\n(8) 设随机变量 X ~ ( )\nt n , Y ~ F (1, )\n则{\n}\n>\n= (   )\nP Y\nc 2\n(A) α           (B) 1 α\n−\n(C) 2α         (D)1 − 2α",
+      "answer_hint": "【答案】C\n2 ~\nt n ,则 X\nF (1, )\nn\n【解析】 X ~ ( )\n{\n}\n{\n}\n{\n}\n{\n> 2 =\n>\n+\n2 > 2 = P X\nP Y\nc\nP X\nc\nc\nP X",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-blank-q9-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q9-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p4",
+          "bbox": [
+            0.025,
+            0.770364273856579,
+            0.495,
+            0.8121219616766875
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q9-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p4",
+          "bbox": [
+            0.025,
+            0.8121219616766875,
+            0.495,
+            0.8369199947499133
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q9-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p4",
+          "bbox": [
+            0.025,
+            0.8369199947499133,
+            0.495,
+            0.8878057087152984
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "−\n=\n−\n=\n(9) 设函数 y\nf x\n( ) 由方程 y\nx\ne x (1 y ) 确定,则 lim n f n\n→∞ \nn",
+      "answer_hint": "【答案】1\nx =\ny =\n【解析】\n0 时,\n′ −=\n−\n−\n−\n′\ny′\n方程两边对x 求导得 y\ne x (1 y ) (1 y\nxy ) 所以\n(0)",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-blank-q1-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "1",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q1-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p4",
+          "bbox": [
+            0.495,
+            0.2431537271652161,
+            0.985,
+            0.28256784378982025
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "−Φ −\n= Φ\n−\n(1)\n( 1)\n2 (1) 1,",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-blank-q1-o2",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "1",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q1-o2-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p4",
+          "bbox": [
+            0.495,
+            0.28256784378982025,
+            0.985,
+            0.8878057087152984
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q1-o2-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p5",
+          "bbox": [
+            0.025,
+            0.18368881624271638,
+            0.985,
+            0.2619083676251361
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": " 7 \n 7 \n−Φ −\n= Φ\n−Φ\n( 1)\n(1),\n\n\n\n\n\n3 \n 3 \n,常数c 满足{\n}\n<\n>\n= α\n0.5)\nP X\nc\n,\n}\n{\n}\n< −\n=\n>\n= α\nc\n2 P X\nc\n2 ,选C.\n答题纸 指定位置上\n\n\n−\n=\n( ) 1\n___________\n\n\n\n=\n−\nf ( )\nf (0)\n\n\nn\n′\n−\n=\n=\n=\nlim n f ( ) 1\nlim\nf (0)\n\n\n\n→∞ \nn\n→∞\nn\nn\nn",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-blank-q10-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "10",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q10-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p5",
+          "bbox": [
+            0.025,
+            0.2619083676251361,
+            0.985,
+            0.31907383214568485
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q10-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p5",
+          "bbox": [
+            0.025,
+            0.31907383214568485,
+            0.985,
+            0.3521696502854686
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q10-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p5",
+          "bbox": [
+            0.025,
+            0.3521696502854686,
+            0.985,
+            0.4574424764673954
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "=\n−\n=\n−\n= −\n(10)已知 y\ne 3 x\nxe 2 x , y\ne x\nxe 2 x , y\nxe 2 x 是某二阶常系数非齐次线性微分方程的3\n个解,则该方程的通解y = __________",
+      "answer_hint": "=\n3 x − x +\nx − xe\n2 x\nc e\ne ) c e\n【答案】 y\n(\n−\n=\n−\n−\n=\ny\ne 3 x\ne x , y\ny\ne x ,\n【解析】 y\n=\n−\n+\n对应齐次微分方程的通解 y 2\nc e\n( 3 x\ne x ) c e x\n=\n−\n+\n−\n非齐次微分方程的通解 y\nc e\n( 3 x\ne x ) c e x\nxe 2 x",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-blank-q11-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q11-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p5",
+          "bbox": [
+            0.025,
+            0.4574424764673954,
+            0.985,
+            0.5192004378100566
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q11-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p5",
+          "bbox": [
+            0.025,
+            0.5192004378100566,
+            0.985,
+            0.5537055857364657
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q11-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p5",
+          "bbox": [
+            0.025,
+            0.5537055857364657,
+            0.985,
+            0.7052811529623169
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(11) 设{\n=\nd y\nx\nsin t\n(t 为常数),则\n=__________\n=\n+\nt π\ny\nt sin\nt\ncos\nt\ndx 2\n=",
+      "answer_hint": "【答案】\n+\n−\ndy\ndy\nsin t\nt cos t\nsin t\n=\n⋅\n=\n=\n【解析】\nt ,\ndx\ndt dx\ncos t\ndt\n dy\n\nd \n\nd y\nd y\n dx\n dt\n=\n⋅\n=\n=\n=\n=\n,\nπ\nπ\ndx\ndx 2\ndt\ndx\ncos t dx 2 =\nt\ncos 4\ndt",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-blank-q12-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q12-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p5",
+          "bbox": [
+            0.025,
+            0.7052811529623169,
+            0.985,
+            0.756064940053135
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q12-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p5",
+          "bbox": [
+            0.025,
+            0.756064940053135,
+            0.985,
+            0.7799763202923965
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q12-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p5",
+          "bbox": [
+            0.025,
+            0.7799763202923965,
+            0.985,
+            0.8235391844736614
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "ln x\n+∞\n∫\n=\n(12)\ndx\n.\n+\n1 (1 x )",
+      "answer_hint": "【答案】ln 2\nln x\nln x\ndx\nx\n+∞\n+∞\n∫\n= −\n+∞ + ∫\n=\n+∞ =\n【解析】\ndx\nln\nln 2\n+\n+\n+\n+\n(1 x )\nx (1 x )\n(1 x )\n1 (1 x )",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-blank-q13-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q13-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p5",
+          "bbox": [
+            0.025,
+            0.8235391844736614,
+            0.985,
+            0.8915043438860847
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q13-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p5",
+          "bbox": [
+            0.025,
+            0.8915043438860847,
+            0.985,
+            0.9221462477731591
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q13-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p6",
+          "bbox": [
+            0.025,
+            0.18244714587431338,
+            0.985,
+            0.1879733127041271
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q13-o1-r4",
+          "page_id": "d-dc1f4db1de66ea6666ff-p6",
+          "bbox": [
+            0.025,
+            0.1879733127041271,
+            0.985,
+            0.4407620104429557
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "=\n(13) 设 A\n( a ) 是3 阶非零矩阵,A 为A 的行列式, A 为 a 的代数余子式,若\nij\nij\nij\n+\n=\n=\na\nA\n0( ,\ni j\n1,2,3) 则A =___________\nij\nij",
+      "answer_hint": "−\n【答案】1.\n 1\n0 \n\n\n=\n−\nA = −\n【解析】方法一:取矩阵 A\n1 0 ,满足题设条件,\n1.\n\n\n\n\n0 1 \n 0\n−= −\n3 1\n= − T\n= − T\nA = −或者 A =\n*\n*\n方法二: A\nA ,则 A\nA ,整理得到 A\n( 1) 3 A ,即\n0 .\n(\n)\n=\n+\n+\n= −\n+\n+\n≤\nA\na A\na A\na A\na 2\na 2\na 2\ni\n1 i\ni 2 i 2\ni 3 i 3\ni\ni 2\ni 3\n≠\na ≠\n又因为A\nO ,所以至少有一个\n0 ,所以\nij\n(\n)\n=\n+\n+\n= −\n+ 2\n+ 2\n<\nA\na A\na A\na A\na\na\na\ni\n1 i\ni 2 i 2\ni 3 i 3\ni\ni 2\ni 3\nA = −\n从而\n1.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-blank-q14-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q14-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p6",
+          "bbox": [
+            0.025,
+            0.4407620104429557,
+            0.985,
+            0.4988362125689702
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q14-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p6",
+          "bbox": [
+            0.025,
+            0.4988362125689702,
+            0.985,
+            0.5410214726802194
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-blank-q14-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p6",
+          "bbox": [
+            0.025,
+            0.5410214726802194,
+            0.985,
+            0.6482582004574302
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(14) 设随机变量Y 服从参数为1的指数分布,a 为常数且大于零,则\n{\n}\n≤\n+\n>\n= ____.\nP Y\na 1 Y\na",
+      "answer_hint": "−\n【答案】 1\ne\n − y\n> ,\ne , y\n= \n【解析】 f y\n( )\n≤ ,\n,\n 0 y\n+\n{\na 1\n}\n∫\n>\n≤ +\nf y dy\n( )\n− a − − ( a +\n{\nP Y\na Y\n,\na 1\n1)\ne\ne\n}\n≤ +\n>\n=\n= a\n=\n= −\nP Y\na 1 Y\na\n{\n}\n+∞\n−\n>\ne a\ne\nP Y\na\n∫\nf y dy\n( )\na",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-solution-q15-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "15",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q15-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p6",
+          "bbox": [
+            0.025,
+            0.6891608161835658,
+            0.985,
+            0.7608789128222733
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q15-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p6",
+          "bbox": [
+            0.025,
+            0.7608789128222733,
+            0.985,
+            0.939881889868802
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q15-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p7",
+          "bbox": [
+            0.025,
+            0.17950857855645042,
+            0.985,
+            0.31704693820980545
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(15)(本题满分10 分)\n+\nf x dx\n( )\n= ∫ ln(\nt 1)\nx\n∫ 1\n计算\n,其中 f x\n( )\ndt\nt\nx",
+      "answer_hint": "+\n+\nt 1)\nln( x 1)\n= ∫ ln(\nx\n′\n=\n=\n【解析】 f x\n( )\ndt ,则 f ( )\nx\n, f (1)\nt\nx\nf x dx\n( )\n\n′\n∫ 1\n= ∫\n= \n− ∫\nf x d x\n( )\n2 f x\n( ) x 1\nx f ( )\nx dx\n\n\nx\n+\n+\nln( x 1)\nln( x 1)\n=\n− ∫\n= − ∫\n= − ∫\n+\n2 (1) 2\nf\nxdx\ndx\n4 ln( x 1) d x\nx\nx\n\n\nx\nx\n= −\n+\n= −\n+ ∫\n1 − ∫\n4 ln( x 1) x\n\ndx \n4ln 2 4\ndx\n+\n+\n0 1 x\n0 1 x\n\n\n=\nx\nx t\nt\nt 2\n∫\n∫\n= ∫\n= ∫\n− ∫\n其中\ndx =\n.2\ntdt\ndt\n2 dt\ndt\n+\n+ 2\n+ 2\n+ 2\n0 1 x\n0 1 t\n0 1 t\n0 1 t\n= 2\nx t\ndx = 2 tdt\nπ\n[\n] 1\n=\n−\n=\n−\n2 t\narctan t\n2(1\n)\nπ\n= −\n+\n−\n= −π −\n所以原式\n4ln 2 8(1\n)\n8 2\n4ln 2",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-solution-q16-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "16",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q16-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p7",
+          "bbox": [
+            0.025,
+            0.31704693820980545,
+            0.985,
+            0.4501268355006371
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q16-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p7",
+          "bbox": [
+            0.025,
+            0.4501268355006371,
+            0.985,
+            0.7097783034952122
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(16)(本题满分10 分)\n∞\n设数列{ }\n=∑\n=\n=\n−\n−\n=\n≥\nn\nna 满足条件: a\n3, a\n1, a\nn n 1) a\n(\n0( n\n2), S x 是幂级数\n( )\na x\nn − 2\nn\nn\nn 0\n的和函数\n′′\n−\n=\n(I)证明: S ( )\nx\nS x\n( )\n(II)求( )\nS x 的表达式\n∞\n∞\n∑\n∑",
+      "answer_hint": "∑\n∑\n′\n=\n=\nn\nn −\n1 ,\n【解析】 S x\n( )\na x , S x\n( )\nna x\nn\nn\nn = 0\nn =\n∞\n∞\n∑\n∑\n′′\n=\n−\n+\n+\nn − 2 =\nn\nS ( )\nx\nn n 1) a x\n(\n( n\n2)( n 1) a\nx\nn\nn + 2\nn = 2\nn = 0\n∞\n[\n]\n∑\n′′\n−\n=\n+\n+\n−\nn\nS ( )\nx\nS x\n( )\n( n\n2)( n 1) a\na\nx\n+\nn 2\nn\n=\nn 0\n−\n−\n=\n≥\n+\n+\n−\n=\n≥\n因为 n n 1) a\n(\na\n0, n\n2 ,所以 ( n\n2)( n 1) a\na\n0( n\n0).\nn\nn − 2\nn + 2\nn\n′′\n−\n=\n S ( )\nx\nS x\n( )\n0,\n\n=\n=\na\n所以  S (0)\n3,\n′\n=\n=\na\n1.\n S (0)\nλ\nλ = λ = −,所以\n−+\n2 −= 0,\nx\nx\n(II)\n1,\nS x\n( )=\nC e\nC e .\nS′\n−+\n=\n=\n=\n=\n又(0)\nS\n3,\n(0)\n1 ,所以 C\n1, C\n2 , ( )=\nS x\ne x\n2 e x .",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-solution-q17-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q17-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p7",
+          "bbox": [
+            0.025,
+            0.7097783034952122,
+            0.985,
+            0.786896247579857
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q17-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p7",
+          "bbox": [
+            0.025,
+            0.786896247579857,
+            0.985,
+            0.9149416347331503
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q17-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p8",
+          "bbox": [
+            0.025,
+            0.1885742020776889,
+            0.985,
+            0.4998972481118244
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(17)(本题满分10 分)\nx\ne +\n=\n+\nx y 的极值\n求函数 f x y\n( , )\n( y\n)",
+      "answer_hint": "x\nx\n′ =\n′ =\n+\n+\n+\n=\n+\n+\n+\n=\n【解析】令 f\ne x y ( x 2\ny\n)\n0 , f\ne x y (1\ny\n)\nx\ny\n = 1\n = −\nx\nx\n解得\n或\n= −\n= −\n y\n y\nx\nx\nx\n′′ =\n′′ =\n′′ =\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\nf\ne x y (2 x\n2 x 2\ny\n)\nf\ne x y (1 x 2\ny\n)\nf\ne x y (2\ny\n)\nxx\nxy\nyy\n− 1\n− 1\n− 1\n′′\n′′\n′′\n=\n=\n=\n=\n=\n=\nA\nf\ne , B\nf\ne , C\nf\ne 3\n3 3\n 4 \n 4 \n 4 \nxx 1, 3\n−\nxy\nyy\n−\n−\n\n\n 1, 3 \n 1, 3 \n\n\n\n\n\n\n− 2\n− 2\n− 2\n−\n=\n−\n=\n>\nAC\nB 2\ne 3\ne 3\n2 e 3\nA >\n又\n− 1\n\n\n4 \n4 \n−\n−\n= −\n所以  1,\n( , )\ne 3\n 为 f x y 的极小值点,极小值为 f  1,\n\n\n\n3 \n3 \n−\n− 5\n− 5\n′′\n′′\n′′\n=\n= −\n=\n=\n=\n=\nA\nf\ne , B\nf\ne 3\n, C\nf\ne 3\n 2 \n 2 \n 2 \nxx\n−\nxy\nyy\n−\n−\n 1, 3 \n 1, 3 \n 1, 3 \n\n\n\n\n\n\n− 2\n<\n−−\n因为 AC\nB\n0 ,所以 ( 1,\n) 不是 f x y 的极值点.\n( , )",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-solution-q18-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q18-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p8",
+          "bbox": [
+            0.025,
+            0.4998972481118244,
+            0.985,
+            0.5552891170112083
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q18-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p8",
+          "bbox": [
+            0.025,
+            0.5552891170112083,
+            0.985,
+            0.6243785459347784
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q18-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p8",
+          "bbox": [
+            0.025,
+            0.6243785459347784,
+            0.985,
+            0.8747822333280755
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(18)(本题满分10 分)\n−\n= .\n设奇函数 f x 在[ 1,1] 上具有2 阶导数,且 f (1)\n( )",
+      "answer_hint": "′\nξ ∈\nf ξ =\n证明:(I)存在\n(0,1) ,使得\n( )\n1 .\n′′ η + ′ η = .\nη ∈−\n(II)存在\n( 1,1) ,使得 f ( )\nf ( )\n−\n−\n= −\n=\n【解析】(I)由于 f x 在[ 1,1] 上为奇函数,故 f ( x )\n( )\nf x\n( ) ,则 f (0)\n=\n−\n=\n−=\nf x\nx ,则 F x 在[0,1] 上连续,在(0,1) 内可导,且 F (1)\nf (1) 1\n令 F x\n( )\n( )\n( )\n=\n− =\nξ ∈\nF ξ =\n′\nf ξ =\n′\nF (0)\nf (0) 0\n0 ,由罗尔定理,存在\n(0,1) ,使得\n( )\n0, 即\n( )\n1.\n′\n−\n−\n(II)由于 f x 在[ 1,1] 上为奇函数,则 f ( )\n( )\nx 在[ 1,1] 上为偶函数,所以由(1)\n′ −\n′ ξ =\nξ =\nf (\nf ( )\n)\n1 .\n[\n]\n上连续,在(\n)\n′\n= x\n−\n−\n−\n令 G x\n( )\ne\nf ( ) 1 ,则 G x 在[ 1,1]\nx\n( )\n1,1 内可导,且\n′\nξ =\n−\nξ =\nη\n∈−\nξ ξ ⊂\nG η =\nG ( )\nG (\n)\n0 ,由罗尔定理存在\n(\n, )\n(0,1) ,使得\n( )\n′′ η + ′ η = .\n即 f ( )\nf ( )",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-solution-q19-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q19-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p8",
+          "bbox": [
+            0.025,
+            0.8747822333280755,
+            0.985,
+            0.9332673316647491
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q19-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p9",
+          "bbox": [
+            0.025,
+            0.18298073231749182,
+            0.985,
+            0.21684103275157116
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q19-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p9",
+          "bbox": [
+            0.025,
+            0.21684103275157116,
+            0.985,
+            0.6071022139282709
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(19)(本题满分10 分)\n两点,将L 绕z 轴旋转一周得到曲面Σ ,Σ 与平面\n设直线L 过 A\n(1,0,0) , B (0,1,1)\n=\n= 所围成的立体为Ω.(I)求曲面Σ 的方程,(II)求Ω的形心坐标.\nz\n0, z",
+      "answer_hint": "【解析】\n−=\nx 1\ny\nz\nuuur\n=\n= −\n(I) AB\n,所以直线L 方程 −\n( 1,1,1)\n设Σ 上任一点y 由直线L 上的点\nF y 绕z 轴旋转一周得到,则\n( )\n\n+\n=\n+\n= y 2\nx 2\nx 2\ny 2\n z\nz\n−=\nx\ny\nz ,所以Σ 方程为\n=\n+\n=\n−\n+\n=\n−\n+\n又 0\nx 2\ny 2\n(1 z ) 2\nz 2\n2 z 2\n2 z 1\n−\n+\n−\n−\n=\n(II) x 2\ny 2\n2( z\n) 2\n=\n=\n设形心坐标( , , )\nx y z ,几何体关于 xoz yoz 对称, x\n,\ny\n∫\n∫∫\n∫∫∫\nzdz\ndxdy\nzdv\nπ\n∫\n−\n+\n(2 z 3\nz 2\nz dz\n)\n7 .\n= Ω\n=\nx 2 + y 2 ≤ 2 z 2 − 2 z +\n=\n=\nz\n∫∫∫\n∫\n∫∫\n∫\ndv\nπ\n+\n2 − 2 z 1) dz\ndz\ndxdy\n(2 z\nΩ\n2 + 2 ≤ 2 − +\nx y 2 z 2 z 1",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-solution-q20-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q20-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p9",
+          "bbox": [
+            0.025,
+            0.6071022139282709,
+            0.985,
+            0.7077672361734832
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q20-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p9",
+          "bbox": [
+            0.025,
+            0.7077672361734832,
+            0.985,
+            0.8716191417848129
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q20-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p10",
+          "bbox": [
+            0.025,
+            0.1786866336197298,
+            0.985,
+            0.6823991550376088
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(20)(本题满分11 分)\n 1 a  , B = 0\n\n1 \n= \n−\n=\n, b 为何值时,存在矩阵C 使得 AC\n设 A\n,当a\nCA\nB\n. 并求所\n\n\n\n 1\n0 \n 1\nb \n有矩阵C .",
+      "answer_hint": " x\nx \n=  1\n−\n=\n【解析】设 C\n,由于AC\nCA\nB ,故\n\nx \n x\n x\n\n x\n  1 a  = 0\n 1 a \nx\nx\n\n1 \n2 −\n\n\n \n\n \n\n\n ,\n1 0  \nx\nx \nx\nx  \n1 0 \nb \n\n\n\n+\n+\n+\n x\n−  x\n 0\n\nax\nx\nax\nx\nax \n1 =\n即 \n \n\n\n .\n+\nx\nx\nx\nax \nb \n\n  x\n 1\n−\n+\n=\n\nx\nax\n−\n+\n+\n=\n ax\nx\nax\n(I)\n−\n−\n=\nx\nx\nx\n\n\n−\n=\nx\nax\nb\n\n由于矩阵C 存在,故方程组(I)有解.对(I)的增广矩阵进行初等行变换:\n−\n−\n−\n−\n−\n 0\nM 0 \n 1\nM\n 1\nM\na\n1 \n1 \n\n\n\n\n\n\n−\n−\n−\nM 1\nM\nM\na\na\na\na\n\n\n\n\n\n\n→\n→\n\n−\n−\n\n\n−\n+ \n+ \nM 1\nM a 1\nM\na\na 1\n\n\n\n\n\n\n−\nM b\nM\nM\na\nb \nb \n\n\n\n\na + =\nb =\n= −\n=\n−\n=\n方程组有解,故\n0 ,\n0 ,即 a\n1, b\n0 ,此时存在矩阵C 使得 AC\nCA\nB\n.\n−\n−\nM 1 \n 1\n\n\nM 0\n\n\n= −\n=\n当 a\n1, b\n0 时,增广矩阵变为\n\n\nM 0\n\n\nM 0\n\n\n=\n=\n= −\n= .\nx x 为自由变量,令 x\n,\n1, x\n0 ,代为相应齐次方程组,得 x\n1, x\n=\n= ,代为相应齐次方程组,得\n=\n=\n令 x\n0, x\nx\n0, x\n1 .\n(\n)\n(\n)\n(\n)\nT ξ =\nT\nT\nξ =\n−\n=\n=\nη =\n故\n,\n,方程组的通解\n1, 1,1,0\n1,0,0,1 ,令 x\n0, x\n0 ,得特解\n1,0,0,0\n+\n+\n−\n k\nk\nk \n= ξ\nξ η\n=  1\n为 x\nk\n+ k\n+ =( + k +1,- , ,\nk\nk k k )T ,所以 C\n .\n1 1\n2 2\n1 1 2\nk\nk \n",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-solution-q21-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q21-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p10",
+          "bbox": [
+            0.025,
+            0.6823991550376088,
+            0.985,
+            0.8898890868947323
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q21-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p10",
+          "bbox": [
+            0.025,
+            0.8898890868947323,
+            0.985,
+            0.9268026792838852
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q21-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p11",
+          "bbox": [
+            0.025,
+            0.18244968296513137,
+            0.985,
+            0.6621933046704894
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(21)(本题满分11 分)\n=\n+\n+\n+\n+\n2 + (\n设二次型 f x x , x )\n(\n( a x\na x\na x )\nb x\nb x\nb x ) ,记\n1, 2\n1 1\n2 2\n3 3\n1 1\n2 2\n3 3\n a\n\n b\n\n\n\n\n\nα\n= \nβ = \na\n,\nb\n\n\n\n\n\n\n a \n b \nαα + ββ\nT\nT ;\n(I)\n证明二次型f 对应的矩阵为2\nα β 正交且为单位向量,证明f 在正交交换下的标准形为\n+\n(II) 若 ,\n2y 2\ny 2 .",
+      "answer_hint": "=\n+\n+\n+\n+\n+\n【解析】证明:(I) f x x , x )\n( ,\n2( a x\na x\na x ) 2\n( b x\nb x\nb x ) 2\n1 1\n2 2\n3 3\n1 1\n2 2\n3 3\n a \n x \n b \n x \n\n\n\n\n\n\n\n\n=\n+\n2( ,\nx x , x ) a\n( ,\na a a ) x\n,\n( ,\nx x x ) b\n,\n( ,\nb b b ) x\n,\n\n\n\n\n\n\n\n\n1 2 3\n\n\n\n\n\n\n\n\n a \n x \n b \n x \n x \n(\n) \n\n=\nαα\nT + ββ\nT\n( ,\nx x x ) 2\n,\nx\n\n\n\n\nx \n\n= Tx Ax\n= αα\n=\nT + ββ\nT ,其中 x\n)T .\n,其中 A\nx x , x\n( ,\nαα\nT + ββ\nT .\n所以二次型f 对应的矩阵为2\n= αα + ββ ,α 与β 正交,故 T\nα β = ,α , β 为单位向量,故 α = α α = ,\nT\nT\nT\n(II)由于 A\nα α =\nβ β =\n故 T\n1 ,同样 T\n1 .\nAα = (2\nαα + ββ α = 2\nαα α\n+ ββ α\n= α\nα ≠\nλ =\nT\nT )\nT\nT\n2 ,由于\n0 ,故A 有特征值\n2 .\nAβ = (2\nαα + ββ β = β\nβ ≠\nλ =\nT\nT )\n,由于\n0 ,故A 有特征值\n1 .\nr A = (2\nαα + ββ\n≤\nαα +\nββ\n= (\nαα +\nββ\n+ =\n<\nT\nT )\nT )\nT )\nT )\nT ) =1 1\n( )\nr\nr (2\nr (\nr\nr (\n3 .\nA =\nλ =\n所以\n0 ,故\n0 .\n2 + y\n2 .\n因此, f 在正交变换下的标准形为 2y",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-solution-q22-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q22-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p11",
+          "bbox": [
+            0.025,
+            0.6621933046704894,
+            0.985,
+            0.8103062986734831
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q22-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p11",
+          "bbox": [
+            0.025,
+            0.8103062986734831,
+            0.985,
+            0.956463155642258
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q22-o1-r3",
+          "page_id": "d-dc1f4db1de66ea6666ff-p12",
+          "bbox": [
+            0.025,
+            0.18010702391418312,
+            0.985,
+            0.292137973860909
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(22)(本题满分11 分)\n≤\n 2,\nX\n 1\n<\n<\n2 ,\n x\n\nx\n= \n=\n<\n<\nX\n设随机变量X 的概率密度为 f x\n( )\n,令随机变量 Y\n X ,1\n\n\n≥\n其他,\n0,\nX\n 1,\n(I)求Y 的分布函数;\n(II)求概率{\n}\n≤\nP X\nY .",
+      "answer_hint": "【解析】设y 的分布函数为 F y ,则\n( )\n=\n≤\n=\n≤\n≤\n+\n≤\n<\n<\n+\n≤\n≥\nF y\n( )\nP Y\n{\ny\n}\nP Y\n{\ny X\n,\n1} P Y\n{\ny ,1\nX\n2} P Y\n{\ny X\n,\n2}\n=\n≤\n≤\n+\n≤\n<\n<\n+\n≤\n≥\nP\ny X\ny ,1\nX\ny X\n{2\n,\n1} P X\n{\n2} P\n{1\n,\n2}\ny < 时, F y =\n当\n( )\n0 ,\n=\n<\n≤\n+\n≥\nP\n{1\nX\ny\n} P X\n{\n2}\n≤\n<\n=\n≤\n<\n<\n+\n≥\n当1\ny\n2 时, F y\n( )\nP X\n{\ny ,1\nX\n2} P X\n{\n2}\ny\n= ∫\n+ ∫\n=\n−\n+\n− 3\n=\n+\nx dx\nx dx\n( y 3 1)\n(3\n2 )\n( y 3 18)\n1 9\n2 9\ny ≥\n=\n≤\n+\n<\n<\n+\n≥\n=\n当\n2 时, F y\n( )\nP X\n{\n1} P\n{1\nX\n2} P X\n{\n2} 1",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-dc1f4db1de66ea6666ff-s0-solution-q23-o1",
+      "document_id": "d-dc1f4db1de66ea6666ff",
+      "number": "23",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q23-o1-r1",
+          "page_id": "d-dc1f4db1de66ea6666ff-p12",
+          "bbox": [
+            0.025,
+            0.292137973860909,
+            0.985,
+            0.4632384846038698
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-dc1f4db1de66ea6666ff-s0-solution-q23-o1-r2",
+          "page_id": "d-dc1f4db1de66ea6666ff-p12",
+          "bbox": [
+            0.025,
+            0.4632384846038698,
+            0.985,
+            0.9082050062165974
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2013",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2013 年全国硕士研究生入学统一考试数学"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(23)(本题满分11 分)\n 2\nθ\nθ\n−\n>\n\ne x ,\nx\n0,\nθ = \n其中θ 为未知参数且大于零,\n设总体X 的概率密度为 f x\n( ; )\nx 3\n\n其他\n0,\n,\n⋅⋅⋅\nX , X ,\nX 为来自总体X 的简单随机样本\nn\n(I)求θ 的矩估计量;\n(II)求θ 的最大似然估计量.",
+      "answer_hint": "【解析】\nθ\nθ\nθ\nθ\nθ\nθ \n\n+∞\n+∞\n−\n+∞ 2\n−\n+∞ −\n= ∫\nθ\n= ∫\n⋅\n⋅\n= ∫\n⋅\n= θ\n∫\n−\n= −\nθ\nx\n(I) E X\n( )\nxf x\n( ; )\ndx\nx\ne x dx\ne x dx\ne d \n\n−∞\n\nx 3\nx 2\nx \nn\n= ∑\n=\n= − ,即θ 的矩估计量为\nθ\nθ = −\n令 X\nE X\n( ) ,则X\nX ,其中 X\nX\ni\nn\n=\ni 1\n\nθ\nθ\n2 −\nn\n∏\n>\n=\nx ), x\nL n )\n\nn\n(\ne i\n0(\ni\n1,2,\n∏\nθ =\nθ = \ni\nf x\n( ; )\n(II) L ( )\nx 3\ni\ni =\ni\n\ni =\n,         其它\nθ\nθ\n−\nn\n∏\n>\n=\nθ\n⋅\nL n ) 时, L ( )=\nx\n当 ix\n0(\ni\n1,2,\n(\ne i )\nx\n=\ni 1\ni\nθ\nn\n∑\nθ\nθ\n−\n)\n3 −\nlnL(\n=\n[2ln\nln x\n]\ni\nx\ni =\ni\nθ\nn\nn 1\nd ln ( )\nL\n2 n\n= ∑\n−\n=\n− ∑\n=\n(\n)\nθ\nθ\nθ\nd\nx\nx\n=\n=\ni 1\ni 1 i\ni\n)\n2 n\n2 n\nθ =\n所以θ 的最大似然估计量\nθ =\n解得\nn 1\nn 1\n∑\n∑\nx\nX\n=\n=\ni 1 i\ni 1\ni",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [],
+  "identity": {
+    "category": "考研数一",
+    "year": "2013",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

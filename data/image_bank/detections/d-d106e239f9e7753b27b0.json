@@ -1,0 +1,557 @@
+{
+  "item": {
+    "id": "d-d106e239f9e7753b27b0",
+    "path": "resource/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2017-2020年考研数学二真题及解析/2020考研数学二真题.pdf",
+    "name": "2020考研数学二真题.pdf",
+    "sha256": "9c45b0fd1976e857bab4d37884905fc38abcd5c9328bde6c6d00b7fa3f8e3528",
+    "format": "pdf",
+    "bytes": 197298,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 5,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 595.2999877929688,
+        "height": 782.3724365234375,
+        "text_chars": 1276,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 595.2999877929688,
+        "height": 782.3724365234375,
+        "text_chars": 963,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 595.2999877929688,
+        "height": 782.3724365234375,
+        "text_chars": 306,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 595.2999877929688,
+        "height": 782.3724365234375,
+        "text_chars": 341,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 595.2999877929688,
+        "height": 782.3724365234375,
+        "text_chars": 415,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "9c45b0fd1976e857bab4d37884905fc38abcd5c9328bde6c6d00b7fa3f8e3528",
+  "engine_version": 5,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2017-2020年考研数学二真题及解析/2020考研数学二真题.pdf",
+  "pdf_sha256": "9c45b0fd1976e857bab4d37884905fc38abcd5c9328bde6c6d00b7fa3f8e3528",
+  "pages": [
+    {
+      "id": "d-d106e239f9e7753b27b0-p1",
+      "document_id": "d-d106e239f9e7753b27b0",
+      "number": 1,
+      "width": 595.2999877929688,
+      "height": 782.3724365234375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-d106e239f9e7753b27b0-p2",
+      "document_id": "d-d106e239f9e7753b27b0",
+      "number": 2,
+      "width": 595.2999877929688,
+      "height": 782.3724365234375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-d106e239f9e7753b27b0-p3",
+      "document_id": "d-d106e239f9e7753b27b0",
+      "number": 3,
+      "width": 595.2999877929688,
+      "height": 782.3724365234375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-d106e239f9e7753b27b0-p4",
+      "document_id": "d-d106e239f9e7753b27b0",
+      "number": 4,
+      "width": 595.2999877929688,
+      "height": 782.3724365234375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-d106e239f9e7753b27b0-p5",
+      "document_id": "d-d106e239f9e7753b27b0",
+      "number": 5,
+      "width": 595.2999877929688,
+      "height": 782.3724365234375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-d106e239f9e7753b27b0-s0-solution-q15-o1",
+      "document_id": "d-d106e239f9e7753b27b0",
+      "number": "15",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d106e239f9e7753b27b0-s0-solution-q15-o1-r1",
+          "page_id": "d-d106e239f9e7753b27b0-p2",
+          "bbox": [
+            0.025,
+            0.5801684782566298,
+            0.985,
+            0.8075013663962479
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学二试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(15)(本题满分10 分)\nx 1\n x\n\n\ny \nx  0 的斜渐近线方程.\n求曲线\n\nx\n1  x",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d106e239f9e7753b27b0-s0-solution-q16-o1",
+      "document_id": "d-d106e239f9e7753b27b0",
+      "number": "16",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d106e239f9e7753b27b0-s0-solution-q16-o1-r1",
+          "page_id": "d-d106e239f9e7753b27b0-p2",
+          "bbox": [
+            0.025,
+            0.7995013663962479,
+            0.985,
+            0.8761357666602436
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-d106e239f9e7753b27b0-s0-solution-q16-o1-r2",
+          "page_id": "d-d106e239f9e7753b27b0-p3",
+          "bbox": [
+            0.025,
+            0.03180596256628172,
+            0.985,
+            0.049805962566281725
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学二试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(16)(本题满分10 分)\nf ( x )\n已知函数\n f ( xt )\nf x\nlim\n ,1 g ( x ) \ndt , 求 g \n( x )\ng \n( x )\n在 x  0 处连续.\n连续且\n并证明\nx\nx  0",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d106e239f9e7753b27b0-s0-solution-q17-o1",
+      "document_id": "d-d106e239f9e7753b27b0",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d106e239f9e7753b27b0-s0-solution-q17-o1-r1",
+          "page_id": "d-d106e239f9e7753b27b0-p3",
+          "bbox": [
+            0.025,
+            0.04180596256628172,
+            0.985,
+            0.3688356291234703
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学二试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(17)(本题满分10 分)\n求函数\n\nf x , y  x 3  8 y 3  xy 的极值.",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d106e239f9e7753b27b0-s0-solution-q18-o1",
+      "document_id": "d-d106e239f9e7753b27b0",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d106e239f9e7753b27b0-s0-solution-q18-o1-r1",
+          "page_id": "d-d106e239f9e7753b27b0-p3",
+          "bbox": [
+            0.025,
+            0.3608356291234703,
+            0.985,
+            0.7078046026060996
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学二试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(18)(本题满分10 分)\nx 2  2 x\n 1 \n的定义域为\n\nf (x )\n,0 \n2 f ( x )  x 2 f   \n.\nf ( x ),\n求\n设函数\n且满足\n并求曲线\n x \n1 \nx 2\ny  f ( x ), y \n, y \n及 y 轴所围图形绕x 轴旋转所成转体的体积.",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d106e239f9e7753b27b0-s0-solution-q19-o1",
+      "document_id": "d-d106e239f9e7753b27b0",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d106e239f9e7753b27b0-s0-solution-q19-o1-r1",
+          "page_id": "d-d106e239f9e7753b27b0-p3",
+          "bbox": [
+            0.025,
+            0.6998046026060996,
+            0.985,
+            0.7905030155893212
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-d106e239f9e7753b27b0-s0-solution-q19-o1-r2",
+          "page_id": "d-d106e239f9e7753b27b0-p4",
+          "bbox": [
+            0.025,
+            0.03180596256628172,
+            0.985,
+            0.049805962566281725
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学二试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(19)(本题满分10 分)\nx 2  y 2\nD\n设平面区域D 由直线 x  ,1 x  ,2 y  x\nx\ndxdy .\n与 轴围成,计算\nx",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d106e239f9e7753b27b0-s0-solution-q20-o1",
+      "document_id": "d-d106e239f9e7753b27b0",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d106e239f9e7753b27b0-s0-solution-q20-o1-r1",
+          "page_id": "d-d106e239f9e7753b27b0-p4",
+          "bbox": [
+            0.025,
+            0.04180596256628172,
+            0.985,
+            0.48847171446648135
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学二试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(20)(本题满分11 分)\nx t dt\n e\nf ( x ) \n.\n设函数\n\n 2,1( ), 使得\nf ( )\n  ( 2   \n) e ;\n(I) 证明:存在\n\n 2,1( ), 使得\nf ( 2 )  ln 2  e\n  .\n(II) 证明:存在",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d106e239f9e7753b27b0-s0-solution-q21-o1",
+      "document_id": "d-d106e239f9e7753b27b0",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d106e239f9e7753b27b0-s0-solution-q21-o1-r1",
+          "page_id": "d-d106e239f9e7753b27b0-p4",
+          "bbox": [
+            0.025,
+            0.48047171446648135,
+            0.985,
+            0.6155718814921375
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-d106e239f9e7753b27b0-s0-solution-q21-o1-r2",
+          "page_id": "d-d106e239f9e7753b27b0-p5",
+          "bbox": [
+            0.025,
+            0.03180596256628172,
+            0.985,
+            0.049805962566281725
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学二试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(21)(本题满分11 分)\nf (x )\nf x\ny  f ( x )( x  0 ) 经过坐标原点O ,其上任意一点M 处的切线与\n( )  0\n设函数\n可导,且\n,曲线\nx 轴交于 T 又 MP 垂直x 轴与点P .已知由曲线 y  f (x ), 直线MP 以及x 轴所围图形的面积与MTP\n,\n\n的\n3 : 2 ,求满足上述条件的曲线的方程.\n面积之比恒为",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d106e239f9e7753b27b0-s0-solution-q22-o1",
+      "document_id": "d-d106e239f9e7753b27b0",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d106e239f9e7753b27b0-s0-solution-q22-o1-r1",
+          "page_id": "d-d106e239f9e7753b27b0-p5",
+          "bbox": [
+            0.025,
+            0.04180596256628172,
+            0.985,
+            0.5682291567037671
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学二试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(22)(本题满分11 分)\nf ( x , x , x )  x 2  x 2  x 2  2 ax x  2 ax x  2 ax x\n设二次型\n经过可逆线性变换\n1 2\n1 3\n2 3\nx \ny \n\n\n1 \n1 \n\n\ng ( y , y , y )  y 2  y 2  4 y 2  2 y y .\nx\n P y \n\n\n\n化为二次型\n1 2\n\n\n\n\nx\ny\n\n\n\n\n(I)求a 的值;\n(II)求可逆矩阵.\nP",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d106e239f9e7753b27b0-s0-solution-q23-o1",
+      "document_id": "d-d106e239f9e7753b27b0",
+      "number": "23",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d106e239f9e7753b27b0-s0-solution-q23-o1-r1",
+          "page_id": "d-d106e239f9e7753b27b0-p5",
+          "bbox": [
+            0.025,
+            0.560229156703767,
+            0.985,
+            0.7054638648067347
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2020",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2020 年全国硕士研究生招生考试数学二试题"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(23)(本题满分11 分)\nA\nP  ( , \n A ), 其中 是非零向量且不是\n\nA 的特征向量\n.\n设 为 阶矩阵,\n(I)证明P 为可逆矩阵;\nA 2  \nP  1 AP , 并判断\nA 是否相似于对角矩阵\n A\n 6\n  0\n.\n(II) 若\n,求",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [
+    {
+      "type": "no_question_anchor",
+      "page": 1,
+      "lane": 0,
+      "details": "本页未定位题号，保留原页待核对；可能为封面、答案表或延续页。"
+    }
+  ],
+  "identity": {
+    "category": "考研数二",
+    "year": "2020",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

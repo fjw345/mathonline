@@ -1,0 +1,748 @@
+{
+  "item": {
+    "id": "d-192cecdd957c810a6639",
+    "path": "resource/数学竞赛历年题目及解析/全国大学生数学竞赛/16届初赛数学A试题参考答案.pdf",
+    "name": "16届初赛数学A试题参考答案.pdf",
+    "sha256": "f2114b269fe8c2ee07bb2e91c342b6033dcd4a6394bce77585c699cca070c4fc",
+    "format": "pdf",
+    "bytes": 416685,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 12,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 824,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 980,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 1163,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 1026,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 1213,
+        "renderable": true
+      },
+      {
+        "number": 6,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 708,
+        "renderable": true
+      },
+      {
+        "number": 7,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 1290,
+        "renderable": true
+      },
+      {
+        "number": 8,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 395,
+        "renderable": true
+      },
+      {
+        "number": 9,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 1262,
+        "renderable": true
+      },
+      {
+        "number": 10,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 614,
+        "renderable": true
+      },
+      {
+        "number": 11,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 1407,
+        "renderable": true
+      },
+      {
+        "number": 12,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 703,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "f2114b269fe8c2ee07bb2e91c342b6033dcd4a6394bce77585c699cca070c4fc",
+  "engine_version": 6,
+  "status": "detected",
+  "pdf_path": "resource/数学竞赛历年题目及解析/全国大学生数学竞赛/16届初赛数学A试题参考答案.pdf",
+  "pdf_sha256": "f2114b269fe8c2ee07bb2e91c342b6033dcd4a6394bce77585c699cca070c4fc",
+  "pages": [
+    {
+      "id": "d-192cecdd957c810a6639-p1",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": 1,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-192cecdd957c810a6639-p2",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": 2,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-192cecdd957c810a6639-p3",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": 3,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-192cecdd957c810a6639-p4",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": 4,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-192cecdd957c810a6639-p5",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": 5,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-192cecdd957c810a6639-p6",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": 6,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-192cecdd957c810a6639-p7",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": 7,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-192cecdd957c810a6639-p8",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": 8,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-192cecdd957c810a6639-p9",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": 9,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-192cecdd957c810a6639-p10",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": 10,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-192cecdd957c810a6639-p11",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": 11,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-192cecdd957c810a6639-p12",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": 12,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-192cecdd957c810a6639-s0-unknown-q1-o1",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": "1",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "全国大学生数学竞赛数学A",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-192cecdd957c810a6639-s0-unknown-q1-o1-r1",
+          "page_id": "d-192cecdd957c810a6639-p1",
+          "bbox": [
+            0.025,
+            0.3269151207509667,
+            0.985,
+            0.35046309284248733
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "全国大学生数学竞赛数学A",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "1. ¤k‰KÑL\u00153\u001dÁò•1⁄2\u001b‰K«•S.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-192cecdd957c810a6639-s0-unknown-q2-o1",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": "2",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "全国大学生数学竞赛数学A",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-192cecdd957c810a6639-s0-unknown-q2-o1-r1",
+          "page_id": "d-192cecdd957c810a6639-p1",
+          "bbox": [
+            0.025,
+            0.35046309284248733,
+            0.985,
+            0.5073563124531447
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "全国大学生数学竞赛数学A",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "•|Ò:\n2. —μ‚†>žÕ‰K, —μ‚\tØ\u001ak6¶9ƒ'IP.\n\u000f\n\u000e\ñ! (\u001dK 15 ©) \u0017V“V-¡ S : x2 + y2 −z2 = −2. P\n‰KžØ‡‡Ld‚\n\u001a©\n± M0(1, 1, −1) •o:...† S \u001bþŒ“\n√\nS+ = n\no\n(x, y, z) ∈S z ≥\nμ\u001d<\nƒƒ\u001b¤kƒ‚\b¤\u001bI¡• Σ.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-192cecdd957c810a6639-s0-unknown-q1-o2",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": "1",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "全国大学生数学竞赛数学A",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-192cecdd957c810a6639-s0-unknown-q1-o2-r1",
+          "page_id": "d-192cecdd957c810a6639-p1",
+          "bbox": [
+            0.025,
+            0.5073563124531447,
+            0.985,
+            0.9767828393801294
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-192cecdd957c810a6639-s0-unknown-q1-o2-r2",
+          "page_id": "d-192cecdd957c810a6639-p2",
+          "bbox": [
+            0.025,
+            0.10063537212333294,
+            0.985,
+            0.26095121138344707
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "全国大学生数学竞赛数学A",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(2) ¦ S+ ∩Σ ¤32¡ π \u001b•§.\n(1) ¦I¡ Σ \u001b•§;\n¤3\u0013\u0004:\n)‰. 1. \u0017Lo: M(1, 1, −1), •••þ• (l, m, n) \u001b†‚\u001bëê•§•\n—μ‚\n\nx −1 = lt,\n\n\n\n\n\u000f\nL :\n(1)\ny −1 = mt,\n\u000e\n\n\n\nz + 1 = nt.\n\nò (1) “\\ S \u001b•§Œ\u001a\n(1 + lt)2 + (1 + mt)2 −(−1 + nt)2 + 2 = 0.\nO•yÒ:\n=\nl2 + m2 −n2\u0001 t2 + 2(l + m + n)t + 3 = 0.\n\u0000\n(2)\n(4 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\nQ, L † S ƒƒ, d (2) Kk\n\u000f\n4(l + m + n)2 −12 l2 + m2 −n2\u0001\n\u0000\n= 0.\n\u000e\n6¶:\n=\nl2 + m2 −2n2 −lm −ln −mn = 0.\n(3)\n(Ü (1) † (3), ž\u0016ëê t Œ\u001aI¡•§\n(x−1)2 +(y −1)2 −2(z +1)2 −(x−1)(y −1)−(x−1)(z +1)−(y −1)(z +1) = 0.\n(7 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-192cecdd957c810a6639-s0-unknown-q2-o2",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": "2",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "全国大学生数学竞赛数学A",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-192cecdd957c810a6639-s0-unknown-q2-o2-r1",
+          "page_id": "d-192cecdd957c810a6639-p2",
+          "bbox": [
+            0.025,
+            0.26095121138344707,
+            0.985,
+            0.7076750593089094
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-192cecdd957c810a6639-s0-unknown-q2-o2-r2",
+          "page_id": "d-192cecdd957c810a6639-p3",
+          "bbox": [
+            0.025,
+            0.12504012907394255,
+            0.985,
+            0.9767828393801294
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-192cecdd957c810a6639-s0-unknown-q2-o2-r3",
+          "page_id": "d-192cecdd957c810a6639-p4",
+          "bbox": [
+            0.025,
+            0.10063537212333294,
+            0.985,
+            0.6236303236219618
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "全国大学生数学竞赛数学A",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "2. éu?¿\u001b M1(x1, y1, z1) ∈S+ ∩Σ, \u0017 M(x, y, z)  ́ë\u001a M0 † M1 \u001b†‚\nþ?¿ ̃:, ¿\u0017 −−−→\nM1M = t−−−−→\nM0M1, Ù¥ t •ëê. u ́k\n\nx −x1 = t(x1 −1),\n\n\n\n\n(4)\ny −y1 = t(y1 −1),\n\n\n\nz −z1 = t(z1 + 1).\n\n(10 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\nò (4) † S+ \u001b•§éáKk\n(x1(1 + t) −t)2 + (y1(1 + t) −t)2 −(z1(1 + t) + t)2 + 2 = 0.\n(5)\n|^ x2\n1 + y2\n1 −z2\n1 = −2, d (5) Œ\u001a\n(−1 −2x1 −2y1 + 2z1) t2 −2(x1 + y1 + z1 + 2)t = 0.\n(6)\ndu M1(x1, y1, z1)  ́ƒ:, Ïdk x1 + y1 + z1 + 2 = 0, Ïd¤¦\u001b2¡ π \u001b•\n§•\nx + y + z + 2 = 0.\n(15 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n\u0013! (\u001dK 15 ©) \u0017 s ⩾0,\n\u000f\n\u001a©\nZ +∞\nln(1 + sx2)\n\u000e\n;’:\nφ(s) =\nx(1 + x2) dx.\nμ\u001d<\n¦ φ(1) Ú φ(2).\nln(1 + x)\nln(1 + x)\n)‰. ·‚k lim\n= 0. Ïd, k~ê C > 0, ¦\u001a\n√x\n= 0, lim\n√x\nŒ Ò:\nx→0+\nx→+∞\nln(1 + x) ⩽C√x,\n∀x > 0.\nl\r,\n•|Ò:\n√s\nln(1 + sx2)\n\u000f\nx(1 + x2) ⩽C\n∀x > 0, s ⩾0.\n1 + x2,\n\u000e\n‰KžØ‡‡Ld‚\nZ +∞\nln(1 + sx2)\nÏd, 2ÂÈ©\nx(1 + x2) dx 'u s ∈[0, +∞) S4 ̃—Âñ. ?\r φ 3\n[0, +∞) þëY.\n(2 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n, ̃•¡, d\n¤3\u0013\u0004:\nx\n(1 + x2)(1 + sx2) ⩽\n—μ‚\n2√s(1 + x2),\n∀x > 0, s > 0\nZ +∞\nZ +∞\nln(1 + sx2)\nx\n\u000f\nŒ\u001a, È©\nx(1 + x2) dx /a¦\u0013\u0000\u001a\u0014\u001bÈ©\n(1 + x2)(1 + sx2) dx\n\u000e\n'u s ∈(0, +∞) S4 ̃—Âñ. Ïd, φ 3 (0, +∞) SëYŒ\u0013...\n(4 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\nZ +∞\nx\nφ′(s) =\n(1 + x2)(1 + sx2) dx\nO•yÒ:\nZ +∞\nx\nsx\n\u0010\n\u0011\n=\n1 + x2 −\ndx\n1 −s\n1 + sx2\n2(1 −s) ln 1 + x2 +∞\nln s\n=\nx=0 = − 2(1 −s).\n1 + sx2\n(þa\b s = 1 žn)•ƒA\u001b4•, 1⁄2Ø”••Ä s ̸= 1 \u001bœ/)\n\u000f\n(8 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n\u000e\n6¶:\n(Ü φ(0) = 0, \u001a\u0014\nZ 1\nZ 1\nln s\nln(1 −s)\nφ(1) = −\n2(1 −s) ds = −\nds\n2s\nZ 1−ε\nZ 1−ε ∞\nsn−1\nln(1 −s)\nX\n= −lim\nds = lim\n2n ds\n2s\nε→0+\nε→0+\nn=1\nZ 1−ε\n∞\n∞\nsn−1\n(1 −ε)n\nX\nX\n= lim\n2n ds = lim\n2n2\nε→0+\nε→0+\nn=1\nn=1\n∞\n2n2 = π2\nX\n=\n12.\nn=1\n(12 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\nÓn,\nZ 2\nZ 1\nln(1 −s)\nln s\nφ(2) = −\n2(1 −s) ds = −\nds\n2s\n−1\nZ 1−ε\nZ 1−ε\n∞\nsn−1\nln(1 −s)\nX\n= −lim\nds = lim\n2n ds\n2s\nε→0+\nε→0+\n−(1−ε)\n−(1−ε)\nn=1\n∞ Z 1−ε\n∞\nsn−1\n(1 −ε)2n+1\nX\nX\n= lim\n2n ds = lim\n(2n + 1)2\nε→0+\nε→0+\n−(1−ε)\nn=1\nn=0\n∞\n(2n + 1)2 = π2\nX\n=\n8 .\nn=0\n(15 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-192cecdd957c810a6639-s0-unknown-q5-o1",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": "5",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "全国大学生数学竞赛数学A",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-192cecdd957c810a6639-s0-unknown-q5-o1-r1",
+          "page_id": "d-192cecdd957c810a6639-p4",
+          "bbox": [
+            0.025,
+            0.6236303236219618,
+            0.985,
+            0.8641677357066762
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-192cecdd957c810a6639-s0-unknown-q5-o1-r2",
+          "page_id": "d-192cecdd957c810a6639-p5",
+          "bbox": [
+            0.025,
+            0.1243474532618667,
+            0.985,
+            0.44257188677546955
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "全国大学生数学竞赛数学A",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "5. OŽ¥kõ«Ù§•{, ~X, Œ|^\nZ 1\nZ 1\nln(1 −s2) −ln(1 −s)\nln(1 + s)\nds =\nds\ns\ns\nZ 1\nZ 1\nZ 1\nln(1 −s)\nln(1 −s)\nln(1 −s)\n=\nds −\nds = −\nds;\n2s\ns\n2s\nZ 1\nZ 1 (1 −s)α ln(1 −s)\nln(1 −s)\nds = lim\nβ→1−lim\nds\ns\nsβ\nα→0+\nZ 1\n(1 −s)α\nd\n= lim\nβ→1−lim\nds.\ndα\nsβ\nα→0+\nn! (\u001dK 20 ©) \u0017\n\u000f\n\u001a©\n\u000e\n;’:\n\n\na11 a12 a13\nμ\u001d<\n\nA =  a21 a22 a23\n\n\n\n\na31 a32 a33\n•¢ê• R þ\u001b 3 × 3 ØŒ_•\n. e A \u001bŠ‘Ý\n A∗•\nŒ Ò:\n\n\na2\na2\na2\nA∗=  a2\na2\na2 \n,\n\n23 \n\na2\na2\na2\n•|Ò:\n¦ A.\n\u000f\n\u000e\n)‰. (1) dÝ\n A ØŒ_• rank(A∗) = 0 1⁄2 1.\n‰KžØ‡‡Ld‚\n(3 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-192cecdd957c810a6639-s0-unknown-q2-o3",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": "2",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "全国大学生数学竞赛数学A",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-192cecdd957c810a6639-s0-unknown-q2-o3-r1",
+          "page_id": "d-192cecdd957c810a6639-p5",
+          "bbox": [
+            0.025,
+            0.44257188677546955,
+            0.985,
+            0.4899948930836687
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "全国大学生数学竞赛数学A",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(2) e rank(A∗) = 0, Kw,k A∗= 0, ?\r A = 0.\n(5 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-192cecdd957c810a6639-s0-unknown-q3-o1",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": "3",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "全国大学生数学竞赛数学A",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-192cecdd957c810a6639-s0-unknown-q3-o1-r1",
+          "page_id": "d-192cecdd957c810a6639-p5",
+          "bbox": [
+            0.025,
+            0.4899948930836687,
+            0.985,
+            0.9767828393801294
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-192cecdd957c810a6639-s0-unknown-q3-o1-r2",
+          "page_id": "d-192cecdd957c810a6639-p6",
+          "bbox": [
+            0.025,
+            0.10014122433132595,
+            0.985,
+            0.3733783415206755
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-192cecdd957c810a6639-s0-unknown-q3-o1-r3",
+          "page_id": "d-192cecdd957c810a6639-p7",
+          "bbox": [
+            0.025,
+            0.12455706894999803,
+            0.985,
+            0.9767828393801294
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-192cecdd957c810a6639-s0-unknown-q3-o1-r4",
+          "page_id": "d-192cecdd957c810a6639-p8",
+          "bbox": [
+            0.025,
+            0.10063537212333294,
+            0.985,
+            0.27853234817042494
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-192cecdd957c810a6639-s0-unknown-q3-o1-r5",
+          "page_id": "d-192cecdd957c810a6639-p9",
+          "bbox": [
+            0.025,
+            0.1243474532618667,
+            0.985,
+            0.9767828393801294
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-192cecdd957c810a6639-s0-unknown-q3-o1-r6",
+          "page_id": "d-192cecdd957c810a6639-p10",
+          "bbox": [
+            0.025,
+            0.0963671401052764,
+            0.985,
+            0.5039607401118936
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "全国大学生数学竞赛数学A",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(3) e rank(A∗) = 1, K A∗\u001b?Û 2 \u001efa\u001b• 0. AO/k\n= 0,\n= 0,\n= 0.\na2\na2\na2\na2\na2\na2\n¤3\u0013\u0004:\na2\na2\na2\na2\na2\na2\n—μ‚\nu ́\u001a\u0014\n\na11a22 = ±a12a21,\n\n\n\u000f\n\na21a32 = ±a22a31,\n\u000e\n\n a12a31 = ±a11a32.\n\n(8 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\nXJþ¡n‡\u001fa¥k,‡\u001fa\u001b\u0014Ò¤á, Ø”\u0017 a11a22 = a12a21, u ́ A k\nfa\nO•yÒ:\n= 0,\na11 a12\na21 a22\n§ ́Ý\n A ¥\u0003ƒ a33 \u001b“ê{fa, dŠ‘Ý\n A∗\u001b1⁄2Â\u001a\u0014 a2\n33 = 0,\n= a33 = 0. XJþ¡n‡\u001fa¥z‡\u001faÑy\u001bÑ ́KÒ, KòTn‡\u001fa\u001b\n†mü>©Oƒ¦\u001a\n\u000f\na11a22a21a32a12a31 = −a11a22a21a32a12a31,\n\u000e\n6¶:\nl\r a11, a12, a21, a22, a31, a32 ¥–\bk ̃‡• 0. oƒ A∗–\bk ̃‡\u0003ƒ ́ 0.\n(14 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\nØ”\u0017 a2\n11 = 0. e A∗\u001b1 ̃\u000fØ\u001c• 0, Kd rank(A∗) = 1 • A∗\u001b1\u0013\u000f\nÚ1n\u000f\u001bŒd A∗\u001b1 ̃\u000f‚5LÑ, \u0019 A∗\u001b1 ̃1\u0003ƒ\u001cÜ• 0. l\r A∗\nk ̃\u00121\u0003ƒ\u001c• 0 1⁄2k ̃\u0012\u000f\u0003ƒ\u001c• 0. ƒA/, A •k ̃\u00121\u0003ƒ\n• 0 1⁄2k ̃\u0012\u000f\u0003ƒ\u001c• 0. Ø”\u0017 A \u001b1 ̃1\u0003ƒ\u001c• 0, dž A \u001bÙ§\n\u0003ƒ\u001b“ê{fa\u001c• 0, \u0019 a2\n22 = a2\n23 = a2\n32 = a2\n33 = 0. ùL23Ý\n A ¥\nk a22 = a23 = a32 = a33 = 0, ¤±Ý\n A \u001b\u0003ƒ a12 Ú a13 \u001b“ê{faÑ\ń 0, d A∗\u001b1⁄2Â\u001a\u0014 a2\n21 = a2\n31 = 0, ù\u0013— A∗= 0, † rank(A∗) = 1 gñ. \u0019\n·‚ok A = 0.\n(20 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\no ! (\u001d K 15 ©) Ù • ¢ê • R þ \u001b  ̃ \u0003 õ ‘ a 8\n\u000f\n\u001a©\nÜ R[x] 3õ‘a\\{Úê¦e\b¤ R þ\u001b ̃‡‚5 ̃\n\u000e\n;’:\nm. \u0017 fi(x) ∈R[x] ...gê• ni, 1 ≤i ≤2024, ùp51⁄2\"\nμ\u001d<\nõ‘a\u001bgê• −∞, ®•\nX\nni < 2047276,\nŒ Ò:\ni=1\ny2: f1(x), f2(x), · · · , f2024(x) • ̃m R[x] ¥‚5ƒ'\u001b•þ|.\n•|Ò:\ny2. P•þ| f1(x), f2(x), · · · , f2024(x) ••þ| (I), e•þ| (I) ¥k\"õ‘a 0,\n\u000f\n=•1 R[x] ¥\u001b\"\u0003, Kw,•þ| (I) ‚5ƒ'. e•þ| (I) ¥z‡õ‘\n\u000e\naÑ ́š\"õ‘a, K•þ| (I) ¥ ̃1⁄2kü‡gêƒÓ\u001bõ‘a.  ̄¢þ,\n‰KžØ‡‡Ld‚\ne n1, n2, · · · , n2024 üüØÓ, Ø” ̃„5Œb\u0017 n1 < n2 < · · · < n2024. u\ń ni ⩾i −1, ?\n(i −1) = 2023 × 2024\nX ni ⩾ X\n= 2047276,\ni=1\ni=1\ngñ.\n¤3\u0013\u0004:\n—μ‚\n(5 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\ndu•þ| (I) ¥•3gêƒÓ\u001bü‡õ‘a, Ø”\u0017 ni = nj = n, j > i, ...k\n\u000f\nfi(x) = axn + · · · ,\nfj(x) = bxn + · · · ,\n\u000e\nÙ¥ a, b ̸= 0. - g(x) = fi(x) −a\nbfj(x), Kw,k•þ| (I) †•þ| (II):\nf1(x), · · · , fi−1(x), g(x), fi+1(x), · · · , fj(x), · · · , f2024(x)\nO•yÒ:\nd.\n(10 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n5¿\u0014 degg(x) < degfi(x), \u0019•þ| (II) ¥õ‘a\u001bgêƒÚ\u0002u X ni <\ni=1\n2047276. aq/, •þ| (II) ¥ ̃1⁄2k\"õ‘a1⁄2ökü‡gêƒÓ\u001bõ‘\na, l\r•þ| (II) ‚5ƒ'1⁄2ö\u001a\u0014†•þ| (II) \u001fd\u001b•þ| (III) ...•þ\n\u000f\n| (III) ¥õ‘agêƒÚ\u0002u•þ| (II) ¥õ‘a\u001bgêƒÚ, qd•þ|\n\u000e\n6¶:\nd\u001bD45 ́••þ| (III) †•þ| (I) \u001fd. -EcãL§, z ̃ÚÑŒ\n±\u001a\u0014 ̃‡†ƒc•þ|\u001fd\u001b•þ|¦\u001aÙeØ•1\"õ‘ažÙ¥õ‘\na\u001bgêƒÚ•$, ù‡L§ ̃†?1e\u0016, •\u0000·‚Œ±\u001a\u0014†•þ| (I)\nd\u001b•þ| (IV), Ù¥\u001bõ‘a\u001bgêƒÚ < 0. dd\u001a\u0014•þ| (IV) ¥ ̃\n1⁄2•1\"õ‘a, ¤±•þ| (IV) 3 R[x] ¥‚5ƒ'. d\u001fd5, •þ| (I),\n= f1(x), f2(x) · · · , f2024(x), 3 R[x] ¥‚5ƒ'.\n(15 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\nÊ! (\u001dK 15 ©) ?Ø±e?ê\u001bÂñ5:\n\u000f\n\u001a©\n∞\n∞\n(−1)n\n(−1)n\n\u000e\n;’:\nX\nX\n√n + (−1)[√n],\nn + (−1)[√n],\nμ\u001d<\nn=2\nn=2\nÙ¥ [x] L« x \u001b\u0012êÜ©.\n∞\n(−1)n\n)‰. I. d Leibniz \u0007O{, ?ê X\nÂñ.\nŒ Ò:\nn\nn=2\nn + (−1)[√n] −(−1)n\n(−1)n\n=\nn + (−1)[√n]\u0001 ⩽\n∀n ⩾2.\nn(n −1),\n\u0000\nn\nn\n∞\n∞\nn + (−1)[√n] −(−1)n\n(−1)n\n(−1)n\n\u0010\n\u0011\nX\nX n + (−1)[√n] Âñ. w,,\nÏd,\nýéÂñ. l\n•|Ò:\nn\nn=2\nn=2\n\u000f\n§Ø ́ýéÂñ\u001b.\n\u000e\n(8 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n‰KžØ‡‡Ld‚\nII. éu1\u0013‡?ê. Ó\u0018 ́„§Ø ́ýéÂñ\u001b. ·‚‰Ñ±eü«•{y2\nÙÂñ.\n•{ 1. du?ê\u001b ̃„‘au\", Ïd, éƒ\u0019ü‘\\)Ò\u0000ØUCÙÂñ5,\n=·‚•‡y2?ê\n∞\n\u0010\n\u0011\nX\n√\n√2n + 1 + (−1)[√2n+1]\n2n] −\n√\n2n + (−1)[\nn=1\n¤3\u0013\u0004:\nÂñ, =\n2n] + √2n + 1 − √\n—μ‚\n(−1)[√2n+1] −(−1)[ √\n∞\n2n\nX\n\u0000√\n2n]\u0001\u0000√2n + 1 + (−1)[√2n+1]\u0001\n√\n2n + (−1)[\nn=1\nÂñ. \rù•‡y2\n\u000f\n(−1)[√2n+1] −(−1)[ √\n∞\n2n]\nX\n\u000e\n\u0000√\n2n]\u0001\u0000√2n + 1 + (−1)[√2n+1]\u0001\n√\n2n + (−1)[\nn=1\n√\n√\nÂñ. 5¿\u0014 [ 2k + 1] −[ 2k] = 1 \b...=\b•3 m ¦\u001a 2k + 1 = (2m + 1)2,\n= k = 2m2 + 2m. ·‚k\n(−1)[√2n+1] −(−1)[ √\n∞\n2n]\nX\nO•yÒ:\n\u0000√\n2n]\u0001\u0000√2n + 1 + (−1)[√2n+1]\u0001\n√\n2n + (−1)[\nn=1\n∞\nX\n\u0000√\n=\n· 2m < +∞.\n4m2 + 4m + 1\n\u0001\nm=1\n∞\n(−1)n\nX √n + (−1)[√n] ^‡Âñ.\nÏd, ?ê\n\u000f\nn=2\n(15 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n\u000e\n6¶:\n∞\nn\n(−1)n\n√\nX\nX (−1)k+[ k],\n•{ 2. d Leibniz \u0007O{, ?ê\n√n Âñ. P S1 = 0, Sn =\nK ́„ |Sn| ⩽2 + 2√n. ·‚k n=2\nk=2\n√\nn\nn\nn\nn\n(−1)k+[ k]\nSk −Sk−1\nSk\nSk−1\nX\nX\nX\nX\n=\n=\nk −\nk\nk\nk\nk=2\nk=2\nk=2\nk=2\nn\nn−1\nn−1\nSk\nk + 1 = Sn\nSk\nSk\nX\nX\nX\n∀n ⩾2.\n=\nk −\nn +\nk(k + 1),\nk=2\nk=2\nk=2\n(−1)n+[√n]\n∞\nX\nÏd, ?ê\nÂñ. ù\u0018‡y2\u0006?êÂñ, •‡y2\nn\nn=2\n√n + (−1)[√n] −(−1)n+[√n]\n∞\n\u0010(−1)n\n(−1)n\n\u0011\nX\n√n −\nn\nn=2\n∞\n(−1)n+1\nX \u0000√n + (−1)[√n]\u0001 Âñ. \rT?ê ́ýéÂñ\u001b. Ïd, ?ê\nÂñ, =\nn\nn=2\n∞\n(−1)n\nX √n + (−1)[√n] ^‡Âñ.\nn=2\n(15 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-192cecdd957c810a6639-s0-unknown-q5-o2",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": "5",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "全国大学生数学竞赛数学A",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-192cecdd957c810a6639-s0-unknown-q5-o2-r1",
+          "page_id": "d-192cecdd957c810a6639-p10",
+          "bbox": [
+            0.025,
+            0.5039607401118936,
+            0.985,
+            0.5418062423551926
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-192cecdd957c810a6639-s0-unknown-q5-o2-r2",
+          "page_id": "d-192cecdd957c810a6639-p11",
+          "bbox": [
+            0.025,
+            0.1235177951388889,
+            0.985,
+            0.2151797286524917
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "全国大学生数学竞赛数学A",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "5. evk?ØýéÂñ5, Øž©.\n8!\n(\u001dK 20 ©) (1) \u0017 f1(t) = t+3\nt+6\n3 , {nk}\n2 , f2(t) =\n\u000f\n\u001a©\n•\u0012Šu {1, 2} \u001b\u0012ê\u000f. - F1(t) = fn1(t), Fk+1(t) =\n\u000e\n;’:\n\u0000\n\u0001 (k ⩾1). y2: é?Û x ∈R, 4• lim\nFk fnk+1(t)\nk→+∞Fk(x)\nμ\u001d<\n•3...† x Ã'.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-192cecdd957c810a6639-s0-unknown-q2-o4",
+      "document_id": "d-192cecdd957c810a6639",
+      "number": "2",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "全国大学生数学竞赛数学A",
+        "2024年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-192cecdd957c810a6639-s0-unknown-q2-o4-r1",
+          "page_id": "d-192cecdd957c810a6639-p11",
+          "bbox": [
+            0.025,
+            0.2151797286524917,
+            0.985,
+            0.9767828393801294
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-192cecdd957c810a6639-s0-unknown-q2-o4-r2",
+          "page_id": "d-192cecdd957c810a6639-p12",
+          "bbox": [
+            0.025,
+            0.09980702409840594,
+            0.985,
+            0.6529346929993293
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "全国大学生数学竞赛数学A",
+        "year": "2024",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(2) eK (1) ¥\u001b f1, f2 U• f1(t) = t −arctan t, f2(t) = 2 arctan t −t, (ØXÛ?\nŒ Ò:\ny2. (1) ·‚k\n1(t) = 1\n2(t) = 1\n∀t ∈R.\nf ′\nf ′\n2,\n3,\nÏd, d‡©¥Š1⁄2nŒ\u001a\n•|Ò:\n⩽1\n∀k = 1, 2; t, s ∈R.\nfk(t) −fk(s)\n2|t −s|,\n\u000f\n\u000e\nùL2 f1, f2 Ñ ́Ø N\u0013. \r§‚\u001b• ̃\u001bØÄ:TÐÑ ́  ̄x = 3.\n‰KžØ‡‡Ld‚\n(8 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\nu ́, ?\u0012 x ∈R, éu?Û k ⩾1, ·‚k\n=\nFk(x) −3\nfn1 ◦fn2 ◦· · · ◦fnk(x) −fn1(3)\n⩽1\n= 1\nfn2 ◦· · · ◦fnk(x) −3\nfn2 ◦· · · ◦fnk(x) −fn2(3)\n¤3\u0013\u0004:\n=\n⩽· · · ⩽\nfnk(x) −3\nfnk(x) −fnk(3)\n—μ‚\n2k−1\n2k−1\n⩽1\n2k |x −3|.\n\u000f\n- k →+∞=\u001a lim\nk→+∞Fk(x) = 3.\n\u000e\n(15 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n(2) \b f1(t) = t −arctan t, f2(t) = 2 arctan t −t ž,\nt2\n2(t) = 1 −t2\nf ′\nf ′\n∀x ∈R.\n1(t) = 1 + t2,\n1 + t2,\nO•yÒ:\nÏd, é?Û t ∈R, k |f ′\n2(t)| ⩽1 ...\b...=\b t = 0 ž, k |f ′\n1(t)| < 1, |f ′\n2(t)| = 1.\ndd(Ü f1(0) = f2(0) = 0 Œ\u001a f1, f2 k• ̃\u001bØÄ:  ̄x = 0. ?\n⩽|t|,\n∀k = 1, 2; t ∈R.\nfk(t)\ny?\u0012 x ∈R, K |Fk(x)| ⩽|x| (k ⩾1). ·‚‡y2 k→+∞Fk(x) = 0. ÄKk\nlim\n\u000f\n{Fk(x)} \u001bf\u000f {Fmk(x)} ÷v 0 < δ < |Fmk(x)| ⩽|x| (k ⩾1). ù\u0018, |f ′\n1|, |f ′\n2| 3\n\u000e\n6¶:\n[ δ\n2, |x|] ∪[−|x|, −δ\n2] þkþ. l< 1. d‡©¥Š1⁄2n, é?Û y ∈[δ, |x|], k\nfk(±y) −fk(±δ\n2) + fk(±δ\n=\nfk(±y)\n2) −fk(0)\nfk(±y) −fk(±δ\nfk(±δ\n+\n⩽\n2)\n2) −fk(0)\n⩽l(y −δ\n2) + δ\n2 = ly + (1 −l)δ\n⩽ly + (1 −l)y\n2 = l+ 1\ny,\nk = 1, 2.\n, ̃•¡,\nδ ⩽|Fmk(x)| = fn1 ◦fn2 ◦· · · ◦fnmk(x)\n⩽|x|,\n⩽\nfnj ◦fnj+1 ◦· · · ◦fnmk(x)\n∀j = 1, 2, . . . , mk,\nÏd,\n=\nFmk(x)\nfn1 ◦fn2 ◦· · · ◦fnmk(x)\n⩽l+ 1\nfn2 ◦· · · ◦fnmk(x)\n\u0000l+ 1\n\u0001mk|x|,\n⩽· · · ⩽\nk ⩾1.\n= 0. gñ.\n- k →+∞\u001a lim Fmk(x)\nk→+∞\nÏd, lim\nk→+∞Fk(x) = 0.\n(20 ©)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n5. 5¿\u0014 Fk \u001b1⁄2Â•a, {|Fk(x) − ̄x|} Ø„\u001a ́üNeü\u001b.",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [],
+  "identity": {
+    "category": "全国大学生数学竞赛数学A",
+    "year": "2024",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

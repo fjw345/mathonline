@@ -1,0 +1,843 @@
+{
+  "item": {
+    "id": "d-e0dda2f7b8f132e5b49e",
+    "path": "resource/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2021-2024年数学三真题+解析/2022考研数学(卷三)真题+答案.pdf",
+    "name": "2022考研数学(卷三)真题+答案.pdf",
+    "sha256": "a7f3eb45fb1698faf273effbcf5daf2228749646ae4ab2a48a3ea3ed497777e4",
+    "format": "pdf",
+    "bytes": 1276573,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 13,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 320.31500244140625,
+        "height": 481.8900146484375,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 320.4289855957031,
+        "height": 481.9659729003906,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 320.4289855957031,
+        "height": 481.9659729003906,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 320.4289855957031,
+        "height": 481.9659729003906,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 320.4289855957031,
+        "height": 481.9659729003906,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 6,
+        "width": 320.4289855957031,
+        "height": 481.9659729003906,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 7,
+        "width": 320.4289855957031,
+        "height": 481.9659729003906,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 8,
+        "width": 320.4289855957031,
+        "height": 481.9659729003906,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 9,
+        "width": 320.4289855957031,
+        "height": 481.9659729003906,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 10,
+        "width": 320.4289855957031,
+        "height": 481.9659729003906,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 11,
+        "width": 320.4289855957031,
+        "height": 481.9659729003906,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 12,
+        "width": 320.4289855957031,
+        "height": 481.9659729003906,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 13,
+        "width": 320.31500244140625,
+        "height": 481.8900146484375,
+        "text_chars": 0,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "a7f3eb45fb1698faf273effbcf5daf2228749646ae4ab2a48a3ea3ed497777e4",
+  "engine_version": 6,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2021-2024年数学三真题+解析/2022考研数学(卷三)真题+答案.pdf",
+  "pdf_sha256": "a7f3eb45fb1698faf273effbcf5daf2228749646ae4ab2a48a3ea3ed497777e4",
+  "pages": [
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-p1",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": 1,
+      "width": 320.31500244140625,
+      "height": 481.8900146484375,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-p2",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": 2,
+      "width": 320.4289855957031,
+      "height": 481.9659729003906,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-p3",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": 3,
+      "width": 320.4289855957031,
+      "height": 481.9659729003906,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-p4",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": 4,
+      "width": 320.4289855957031,
+      "height": 481.9659729003906,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-p5",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": 5,
+      "width": 320.4289855957031,
+      "height": 481.9659729003906,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-p6",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": 6,
+      "width": 320.4289855957031,
+      "height": 481.9659729003906,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-p7",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": 7,
+      "width": 320.4289855957031,
+      "height": 481.9659729003906,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-p8",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": 8,
+      "width": 320.4289855957031,
+      "height": 481.9659729003906,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-p9",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": 9,
+      "width": 320.4289855957031,
+      "height": 481.9659729003906,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-p10",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": 10,
+      "width": 320.4289855957031,
+      "height": 481.9659729003906,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-p11",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": 11,
+      "width": 320.4289855957031,
+      "height": 481.9659729003906,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-p12",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": 12,
+      "width": 320.4289855957031,
+      "height": 481.9659729003906,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-p13",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": 13,
+      "width": 320.31500244140625,
+      "height": 481.8900146484375,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-s0-unknown-q1-o1",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": "1",
+      "kind": "choice",
+      "answer": "D",
+      "tags": [
+        "考研数三",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-unknown-q1-o1-r1",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p4",
+          "bbox": [
+            0.025,
+            0.8792282157676349,
+            0.985,
+            0.987
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-unknown-q1-o1-r2",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p5",
+          "bbox": [
+            0.025,
+            0.04,
+            0.985,
+            0.13985358395747288
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-unknown-q1-o1-r3",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p5",
+          "bbox": [
+            0.025,
+            0.13985358395747288,
+            0.985,
+            0.8379882682067337
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-unknown-q1-o1-r4",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p5",
+          "bbox": [
+            0.025,
+            0.8379882682067337,
+            0.985,
+            0.9426099585062241
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "1 大 4\n故选 (D).\n3 则\n2 1 1 1\n已设 wa=| 1 4 | 车向量组 a,aa,as 与 qi,Qavas 等价 , 则妈的\n二\n取值范围是 )\n的 fl) 人 asRaz-2 (Cl [asR2z-L2z-2 IDl 人 asR2z-\n【答案】(c)\n【解析因 (w,ca,asc)=|1 2 1 24|~\n1 1 入\n1 1 不下\n0 2-1 1 一人 4- 形\n0 0 Cr- 和 CQ+DU- 和\n当中 1 且和 #-2 且和 rz 一 1 时,r(aiaa,)=r(aaaai)=\nav0Gv Gy Gav On\n故 qivQa,0 与\nvaa 等价 ,\n当中 =1 时 , 四 = 9 = 的一必 , 显然可知 @i,0ay0 与 wsQavQ4 等价\n11 -2 4\n当 1= -2 时 ,(aaaassa) -|0 -3 3 -6|, 可得 r(avaasa]=2*rl\n000 3\n故 w,aay,aa 与 wayGu 不等价 .\n11 -1\n当 &=-1 时 , (woaaa) 一 |0 -2 2 二 |, 可得 r(aw,amm)=3x#r(ayaayas)=2.\n0 0 2 0\n故 aivaa,0s 与 aaayGs 不等价 .\n综上 , 故选 (ch.\n人 ) 玉了机酸拉 - No. 人 ,风机过友人 2, 且下与了不相关 , 则 ( 尤 -37+D)=(  )\n从 2 人) 4 人 6 (10\n【答案】(D)\n盖只中 , D(7)-3\n【解析 X- N(0.4),D(X)=4;\nE,\n因为与了不相关 , 因此 D(X-3r+D)=D(XJ+9D()=4+9.3=10, 故选 (D).",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-s0-unknown-q9-o1",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": "9",
+      "kind": "choice",
+      "answer": "B",
+      "tags": [
+        "考研数三",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-unknown-q9-o1-r1",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p6",
+          "bbox": [
+            0.025,
+            0.026065788112049126,
+            0.985,
+            0.1969094300324598
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-unknown-q9-o1-r2",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p6",
+          "bbox": [
+            0.025,
+            0.1969094300324598,
+            0.985,
+            0.5008513387461527
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-unknown-q9-o1-r3",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p6",
+          "bbox": [
+            0.025,
+            0.5008513387461527,
+            0.985,
+            0.6422754701387776
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(9) 设随机变量序列半天 :天 ,独立同分布 , 且厦的概率密度为 7(x) |\n当 m-yam 时 , 四依概率收敛于 ( 。 )\n1 1 此\n人四和了中了\n【答案】(B)\n【解析 】E(X3)= CC-hja -ze0-ont,\n根据广钦大数定律 , 和和估计收儿于 6 人立妇 ]=EC9), 故选 B),\n10) 设二维随机变量 (X, 太 ) 的概率分布\n7 | 0 1 2\n二 0 | ol |\n1 a | 01 | 01\n若事件 {max{X, 六 = 2?} 与事件 {min{X,Z = 由相互独立 , 则 Cov(X,7)=(  )\n人 -0.6 人 -0.36 人加 0 (ol 048\n【答案】(B)\n【解析 ]】 设事件 4= fmax{X, 攻 = 对 , 事件 B= fminfX, 攻 = 站\n则 P( 人 =Pfr= 寺 =6+01,P(B)=PIXK=LY=3j+PK=LY=I=o1+01=-02,\nP(4B)= PK=LT= 了 =041",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-s0-unknown-q4-o1",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": "4",
+      "kind": "choice",
+      "answer": "B",
+      "tags": [
+        "考研数三",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-unknown-q4-o1-r1",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p6",
+          "bbox": [
+            0.025,
+            0.6422754701387776,
+            0.985,
+            0.8822473193737262
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "4 和书相互独立 , 所以 P(48)= P(4)P(B), 即 (b+0.1)0.2= 0.1, 可得 5= 0.4,\n根据概率分布的规范性 , 可得 ao+b= 0.6, 所以 w=0.2\nAT 的概率分布如下 ,\nP | 04\n则 EU)=-06,E(X)=-02,E(7)=12.\n于是 Cov(X,Y)= E(XY)- E(X)E(P)=-0.6+02x12=-036, 故选 B.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-s0-blank-q16-o1",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": "16",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-blank-q16-o1-r1",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p8",
+          "bbox": [
+            0.025,
+            0.9168260030576065,
+            0.985,
+            0.987
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-blank-q16-o1-r2",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p9",
+          "bbox": [
+            0.025,
+            0.04,
+            0.985,
+            0.07069856017897178
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-blank-q16-o1-r3",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p9",
+          "bbox": [
+            0.025,
+            0.07069856017897178,
+            0.985,
+            0.3832851031950526
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(16) 设 4 如,C 为随机事件 , 且 44 与妃互不相容 , 了 4 与 C 互不相容 , 刀与 C 相互独立 ,\n阳\n, 则 P(BUC|4UBUC)= -\nP(4)=P(B)=P(C\n【答案】 了\n和\n【解析 ] reuddusug-ResO\nS\n因为 PLBUC)= P(B)+ P(C)- PLBC)= PLB)+P(C)- PLB)P(C)=\n了\nP(4UBUC)= PLDO+P(B)+P(C)-P(4B)-P(4C)-P(BC)+P(4BC)\n=PLUD+P(B)+P(C)-P(48)-P(4C)-P(B)P(C)+P(4BC)\n9 9\nolw\n所以 P(BUC|4UBUC)=",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-s0-solution-q8-o1",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-solution-q8-o1-r1",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p9",
+          "bbox": [
+            0.025,
+            0.7909613052684418,
+            0.985,
+            0.9394979253112034
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-solution-q8-o1-r2",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p10",
+          "bbox": [
+            0.025,
+            0.04,
+            0.985,
+            0.23148738134469646
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(8) 设某产品的产量人由资本投入量 x 和劳动投入量 》 决定 , 生产函数为 @ = 12x2y4 , 该产品的\n销售单价己与人的关系为己 = 1160 -1.5@ , 若单位资本投入和单位劳动投入的价格分别为 6 和 8 ,\n求利润最大时的产量\n【解析 】 利润 = PO-6x-8&y = (1160-1.5O)O-6r-8y\n=13920r2)4 -216o2 -6x-8y,\n1 1 1 1 1\n=6960x 27 -2167 -6=37(2320x 27 -72)-6=0\ns : > 1 1\n2320027 -729 -8= 吕 12320r37 -72)-8=0\n得驻点为 (256,64), 此时 @ = 12xV256xgf64 = 384\n在实际问题中由于开\n唯一 , 故利润三在巴 =384 处取得最大值 .",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-s0-solution-q19-o1",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-solution-q19-o1-r1",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p10",
+          "bbox": [
+            0.025,
+            0.23148738134469646,
+            0.985,
+            0.5296431535269709
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(19) (本题满分 12 分 )\n已知平面区域思 = 人 17-2<xs4 ia\n[ 角近 ] 1= | 区 dd\n人十\nEl 网 ee\n[isePCeaso-\n0 疡 [Etaaag -sg\n交人 0\n本\n加\n击乓 2(cosg-singjdb+ 虑 240\n上\n-2-4singcosbig+r=2r-2",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-s0-solution-q20-o1",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-solution-q20-o1-r1",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p10",
+          "bbox": [
+            0.025,
+            0.5296431535269709,
+            0.985,
+            0.9208257261410788
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-solution-q20-o1-r2",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p11",
+          "bbox": [
+            0.025,
+            0.04,
+            0.985,
+            0.9374232365145229
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-solution-q20-o1-r3",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p12",
+          "bbox": [
+            0.025,
+            0.06261410788381744,
+            0.985,
+            0.3805189491156978
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(20) (本是满分 12 分 )\nCCJ +La\n2 的收敛域及和函数 S(x)\n多 1 间\n(用汪 +1 am\n, |4\"\"(C2m+3)\n<1, 解得 |<1-. 及 =1 收生区间为 (L.D),\n5 |\n4Cn+D\n当 x= 二 | 时, 下 ks 收全域为 1]\nSO0= 立 CD-e+ 袜一\n气 2n+1 所 4Cn+D\n设 SC9= 立全 2\n证\n芝 cDoy Zoo\n气 2n+1\n学 (CD om- at\n气 2n+1 司\n则 S(D= Larctan xxz0.\n四\nSa\nol\n安 FGm\n气\n全 4 Cn+D\nSO)=2.\nUn actanx+dmn2 xz0xeCh\n2 x=0\n(231) (本题满分 12 分 )\n[\n二次型了 (za,5)= 3 如 +4 卫 +3 妇 +2x06,\n全求正交变换 = Gy 将太 (x,xava ] 化为标准型 ,\n【解析 ] (1) 令 4=\n由 |aE-4=| 0 24-4 0 |=(2-47(4-2)=0,\n得 4 的特征值为几 = 妈 =4,\n当 4= 4 时 ,(4 巨 - x= 0 的基础解析为 w = (0..0 ,ow = (0.1\n外与 an 已经正交 , 将四 、Co 和四单位化 ,\n-=(0L0o7, 户 = 笃 -= 人 ol, 六 = -LO01\n和六再 0 天本六瑟 Ce\n1 1\n\"瑟瑟 4\n4O=|1 0 0 |,O4o=| 4 |.\n0 二 1 2\n五厂\n在正交变换 x = Gy 下 , 二次型的标准形为 458 +4 呈 + 2 有 3.\nwx=(OJ (Oo)=7Cor=m,",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-s0-solution-q7-o1",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-solution-q7-o1-r1",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p12",
+          "bbox": [
+            0.025,
+            0.3805189491156978,
+            0.985,
+            0.48503734439834023
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "7 加 7- 包 +4+2 瑟 -1\n2 史 +2 呈\nTY 关 + 呈 +\n=0, 力关 0 时 , 向 -ah 最小值为 2\n2 天十只十",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-s0-solution-q22-o1",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-solution-q22-o1-r1",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p12",
+          "bbox": [
+            0.025,
+            0.48503734439834023,
+            0.985,
+            0.5665494755342682
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(22) (本题满分 12 分 )\n设着,,... 克为来自均值为 @ 的指数分布总体的简单随机样本 , 基 ,及 ,..., 蕊为来自均值为",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e0dda2f7b8f132e5b49e-s0-solution-q26-o1",
+      "document_id": "d-e0dda2f7b8f132e5b49e",
+      "number": "26",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2022年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-solution-q26-o1-r1",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p12",
+          "bbox": [
+            0.025,
+            0.5665494755342682,
+            0.985,
+            0.987
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-e0dda2f7b8f132e5b49e-s0-solution-q26-o1-r2",
+          "page_id": "d-e0dda2f7b8f132e5b49e-p13",
+          "bbox": [
+            0.025,
+            0.2337759336099585,
+            0.985,
+            0.42704979253112035
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2022",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2022 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "26 的指数分布总体的简单随机样本 , 且两样本相互独立 , 其中 6(O > 9) 是未知参数 .利用样本\n天, 和 ,下五及 , 求 @ 的最大似然估计最历 , 并求 OO)\n【解析 】 由题知 , oemremoneor|\n1 ye\n0 , 其他\nromremuhoo- 志\nsz=ITAes:oUTzoso -IT en >02>0), 则\nIn 工 = 立 c 6- 为 + 写 o5-ne- 节全\n了本\n所以 0 的最大似然估计最为 = 二 [2 地]\nDO= 而忒 |[oo + 它 2 人中 -二 Er wo00*jooo|\n-0 (ord -二",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [
+    {
+      "type": "no_question_anchor",
+      "page": 1,
+      "lane": 0,
+      "details": "本页未定位题号，保留原页待核对；可能为封面、答案表或延续页。"
+    },
+    {
+      "type": "no_question_anchor",
+      "page": 2,
+      "lane": 0,
+      "details": "本页未定位题号，保留原页待核对；可能为封面、答案表或延续页。"
+    },
+    {
+      "type": "no_question_anchor",
+      "page": 3,
+      "lane": 0,
+      "details": "本页未定位题号，保留原页待核对；可能为封面、答案表或延续页。"
+    },
+    {
+      "type": "no_question_anchor",
+      "page": 7,
+      "lane": 0,
+      "details": "本页未定位题号，保留原页待核对；可能为封面、答案表或延续页。"
+    }
+  ],
+  "identity": {
+    "category": "考研数三",
+    "year": "2022",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

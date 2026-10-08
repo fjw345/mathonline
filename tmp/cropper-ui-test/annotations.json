@@ -1,0 +1,998 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "questions": [
+    {
+      "id": "single-q1",
+      "document_id": "single",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2019?"
+      ],
+      "reviewed": true,
+      "note": "",
+      "regions": [
+        {
+          "id": "single-q1-r1",
+          "page_id": "single-p1",
+          "bbox": [
+            0.07,
+            0.152,
+            0.965,
+            0.219
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "single-q2",
+      "document_id": "single",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2019?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "single-q2-r1",
+          "page_id": "single-p1",
+          "bbox": [
+            0.07,
+            0.216,
+            0.965,
+            0.311
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "single-q3",
+      "document_id": "single",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2019?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "single-q3-r1",
+          "page_id": "single-p1",
+          "bbox": [
+            0.07,
+            0.317,
+            0.965,
+            0.475
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "single-q4",
+      "document_id": "single",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2019?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "single-q4-r1",
+          "page_id": "single-p1",
+          "bbox": [
+            0.07,
+            0.485,
+            0.965,
+            0.624
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "single-q5",
+      "document_id": "single",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2019?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "single-q5-r1",
+          "page_id": "single-p1",
+          "bbox": [
+            0.07,
+            0.628,
+            0.965,
+            0.757
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "single-q6",
+      "document_id": "single",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2019?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "single-q6-r1",
+          "page_id": "single-p1",
+          "bbox": [
+            0.07,
+            0.762,
+            0.965,
+            0.987
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "single-q6-r2",
+          "page_id": "single-p2",
+          "bbox": [
+            0.085,
+            0.063,
+            0.935,
+            0.099
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "single-q7",
+      "document_id": "single",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2019?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "single-q7-r1",
+          "page_id": "single-p2",
+          "bbox": [
+            0.085,
+            0.103,
+            0.945,
+            0.212
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "single-q8",
+      "document_id": "single",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2019?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "single-q8-r1",
+          "page_id": "single-p2",
+          "bbox": [
+            0.085,
+            0.217,
+            0.945,
+            0.324
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "single-q9",
+      "document_id": "single",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "????",
+        "2019?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "single-q9-r1",
+          "page_id": "single-p2",
+          "bbox": [
+            0.085,
+            0.354,
+            0.945,
+            0.405
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "single-q10",
+      "document_id": "single",
+      "number": "10",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "????",
+        "2019?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "single-q10-r1",
+          "page_id": "single-p2",
+          "bbox": [
+            0.085,
+            0.409,
+            0.945,
+            0.449
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "single-q11",
+      "document_id": "single",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "????",
+        "2019?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "single-q11-r1",
+          "page_id": "single-p2",
+          "bbox": [
+            0.085,
+            0.45,
+            0.945,
+            0.498
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "single-q12",
+      "document_id": "single",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "????",
+        "2019?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "single-q12-r1",
+          "page_id": "single-p2",
+          "bbox": [
+            0.085,
+            0.499,
+            0.945,
+            0.54
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "single-q13",
+      "document_id": "single",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "????",
+        "2019?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "single-q13-r1",
+          "page_id": "single-p2",
+          "bbox": [
+            0.085,
+            0.541,
+            0.945,
+            0.605
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "single-q14",
+      "document_id": "single",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "????",
+        "2019?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "single-q14-r1",
+          "page_id": "single-p2",
+          "bbox": [
+            0.085,
+            0.608,
+            0.945,
+            0.705
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "single-q15",
+      "document_id": "single",
+      "number": "15",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "????",
+        "2019?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "single-q15-r1",
+          "page_id": "single-p2",
+          "bbox": [
+            0.085,
+            0.729,
+            0.945,
+            0.861
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "scan-q1",
+      "document_id": "scan",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2026?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "scan-q1-r1",
+          "page_id": "scan-p2",
+          "bbox": [
+            0.11,
+            0.148,
+            0.905,
+            0.285
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "scan-q2",
+      "document_id": "scan",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2026?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "scan-q2-r1",
+          "page_id": "scan-p2",
+          "bbox": [
+            0.11,
+            0.3,
+            0.905,
+            0.414
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "scan-q3",
+      "document_id": "scan",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2026?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "scan-q3-r1",
+          "page_id": "scan-p2",
+          "bbox": [
+            0.11,
+            0.425,
+            0.905,
+            0.603
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "scan-q4",
+      "document_id": "scan",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2026?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "scan-q4-r1",
+          "page_id": "scan-p2",
+          "bbox": [
+            0.11,
+            0.61,
+            0.905,
+            0.83
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "scan-q5",
+      "document_id": "scan",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2026?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "scan-q5-r1",
+          "page_id": "scan-p2",
+          "bbox": [
+            0.11,
+            0.834,
+            0.905,
+            0.9
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "scan-q5-r2",
+          "page_id": "scan-p3",
+          "bbox": [
+            0.11,
+            0.087,
+            0.905,
+            0.146
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "scan-q6",
+      "document_id": "scan",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2026?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "scan-q6-r1",
+          "page_id": "scan-p3",
+          "bbox": [
+            0.11,
+            0.149,
+            0.92,
+            0.322
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "scan-q7",
+      "document_id": "scan",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2026?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "scan-q7-r1",
+          "page_id": "scan-p3",
+          "bbox": [
+            0.11,
+            0.326,
+            0.92,
+            0.57
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "scan-q8",
+      "document_id": "scan",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2026?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "scan-q8-r1",
+          "page_id": "scan-p3",
+          "bbox": [
+            0.11,
+            0.575,
+            0.92,
+            0.684
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "scan-q9",
+      "document_id": "scan",
+      "number": "9",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2026?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "scan-q9-r1",
+          "page_id": "scan-p3",
+          "bbox": [
+            0.11,
+            0.688,
+            0.92,
+            0.832
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "scan-q10",
+      "document_id": "scan",
+      "number": "10",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2026?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "scan-q10-r1",
+          "page_id": "scan-p3",
+          "bbox": [
+            0.11,
+            0.836,
+            0.92,
+            0.925
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "columns-q1",
+      "document_id": "columns",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2024?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "columns-q1-r1",
+          "page_id": "columns-p1",
+          "bbox": [
+            0.055,
+            0.32544659825161537,
+            0.489,
+            0.390773470163436
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "columns-q2",
+      "document_id": "columns",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2024?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "columns-q2-r1",
+          "page_id": "columns-p1",
+          "bbox": [
+            0.055,
+            0.39314899277841125,
+            0.489,
+            0.48223109083998483
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "columns-q3",
+      "document_id": "columns",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2024?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "columns-q3-r1",
+          "page_id": "columns-p1",
+          "bbox": [
+            0.055,
+            0.4834188521474725,
+            0.489,
+            0.5772519954389966
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "columns-q4",
+      "document_id": "columns",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2024?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "columns-q4-r1",
+          "page_id": "columns-p1",
+          "bbox": [
+            0.055,
+            0.5808152793614596,
+            0.489,
+            0.6984036488027366
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "columns-q5",
+      "document_id": "columns",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2024?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "columns-q5-r1",
+          "page_id": "columns-p1",
+          "bbox": [
+            0.055,
+            0.700779171417712,
+            0.489,
+            0.8765678449258837
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "columns-q6",
+      "document_id": "columns",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2024?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "columns-q6-r1",
+          "page_id": "columns-p1",
+          "bbox": [
+            0.502,
+            0.11877613074876474,
+            0.95,
+            0.27199733941467125
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "columns-q7",
+      "document_id": "columns",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2024?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "columns-q7-r1",
+          "page_id": "columns-p1",
+          "bbox": [
+            0.502,
+            0.27556062333713416,
+            0.95,
+            0.4941087039148613
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "columns-q8",
+      "document_id": "columns",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2024?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "columns-q8-r1",
+          "page_id": "columns-p1",
+          "bbox": [
+            0.502,
+            0.4964842265298366,
+            0.95,
+            0.6283257316609654
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "columns-q9",
+      "document_id": "columns",
+      "number": "9",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2024?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "columns-q9-r1",
+          "page_id": "columns-p1",
+          "bbox": [
+            0.502,
+            0.629513492968453,
+            0.95,
+            0.6889015583428355
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "columns-q10",
+      "document_id": "columns",
+      "number": "10",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "????",
+        "2024?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "columns-q10-r1",
+          "page_id": "columns-p1",
+          "bbox": [
+            0.502,
+            0.690089319650323,
+            0.95,
+            0.7482896237172179
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "columns-q11",
+      "document_id": "columns",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "????",
+        "2024?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "columns-q11-r1",
+          "page_id": "columns-p1",
+          "bbox": [
+            0.502,
+            0.8053021664766249,
+            0.95,
+            0.8456860509312049
+          ],
+          "role": "stem"
+        }
+      ]
+    },
+    {
+      "id": "columns-q12",
+      "document_id": "columns",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "????",
+        "2024?"
+      ],
+      "reviewed": false,
+      "note": "",
+      "regions": [
+        {
+          "id": "columns-q12-r1",
+          "page_id": "columns-p1",
+          "bbox": [
+            0.502,
+            0.8468738122386925,
+            0.95,
+            0.8860699353857849
+          ],
+          "role": "stem"
+        }
+      ]
+    }
+  ],
+  "page_notes": {
+    "single-p1": "",
+    "single-p2": "",
+    "scan-p2": "",
+    "scan-p3": "",
+    "columns-p1": ""
+  },
+  "updated_at": "2026-09-20 23:12:50"
+}

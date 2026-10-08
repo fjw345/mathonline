@@ -1,0 +1,1374 @@
+{
+  "item": {
+    "id": "d-0ea49fbf32b6d64b15b0",
+    "path": "resource/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/1987-2016考研数学（一）真题答案与解析/2014考研数学一真题及答案解析.pdf",
+    "name": "2014考研数学一真题及答案解析.pdf",
+    "sha256": "5eef48db565df6742e8417705ee9fde20f005bf56a62a7634137b4cfdd58e782",
+    "format": "pdf",
+    "bytes": 1588776,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 14,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 6,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 7,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 8,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 9,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 10,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 11,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 12,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 13,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 14,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 0,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "5eef48db565df6742e8417705ee9fde20f005bf56a62a7634137b4cfdd58e782",
+  "engine_version": 6,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/1987-2016考研数学（一）真题答案与解析/2014考研数学一真题及答案解析.pdf",
+  "pdf_sha256": "5eef48db565df6742e8417705ee9fde20f005bf56a62a7634137b4cfdd58e782",
+  "pages": [
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-p1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": 1,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-p2",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": 2,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-p3",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": 3,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-p4",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": 4,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-p5",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": 5,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-p6",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": 6,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-p7",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": 7,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-p8",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": 8,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-p9",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": 9,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-p10",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": 10,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-p11",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": 11,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-p12",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": 12,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-p13",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": 13,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-p14",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": 14,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-choice-q1-o1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-choice-q1-o1-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p1",
+          "bbox": [
+            0.025,
+            0.2617450514647664,
+            0.985,
+            0.4852209026128266
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-choice-q1-o1-r2",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p1",
+          "bbox": [
+            0.025,
+            0.4852209026128266,
+            0.985,
+            0.8777648456057007
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-choice-q1-o1-r3",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p2",
+          "bbox": [
+            0.025,
+            0.09688836104513064,
+            0.985,
+            0.3763531274742676
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(1) 下列曲线中有渐近线的是\n(A) 7?=X+sin x. (B) y= 妆 +sin x. (O) y=wdinl CD)\n训\n2 , .1\n?=x +sin 一 .\n半\nx 击上\n【解析 】u=lim 7 = lim z -limd+Lsinz)=1\nzi 人\nD=1lim[F(xz) 一 axz]= | =1lmsin 一 =0\nem E 区 0\n3=x 是 ?arsin 工的全渐近线",
+      "answer_hint": "【答案】C\nO) 设函数了 (xz) 具有 2 阶导数 ,8(z) = 了 (0)(1- 如 +F(D)z, 则在区间 [0, DEC )\n(A) 当 JoD>0 时 , 太 (xz)>8(z). G@) 当 jD>0 时 ,F(z)<sg(z)\n(O 当 jaD>0 时 , 太 (xz)>8(z). CD) 当疡 >0 时 ,F(z)<sg(z)\n【解析 】 当放 (x*) >0 时 , 太 (xz) 是四函数\n而 8 (2) 是连接 (0, 太 (0)) 与 7(D) 的直线段 , 如右图\n故 j (9 <8(z\n【答案 D\nG) 设 7(z 是连续函数 , 则 | 7 =\nCO Ta renot af reno\nG) af 六 7oenet 人 | Jo Dady,\n亚于\nRE 下而 | 可 Jrcosg,rsing)dr 址 do Jrcosg,rsing)dr.\n克 1 站\n(D) 下玛 | Jrcosg,rsing)rdr 二上 d6 [ Jrcosg,rsinB)rar.\n【解析 】 积分区域如图\n0<ys1.\n-JI- 六 <x<1-)》\n用极坐标表示 , 即 : Dr 了 <0< 克 0<rsl\n开 1\n0O<r<\n“加 ”cosg+sing\n【答案 D",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-choice-q4-o1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-choice-q4-o1-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p2",
+          "bbox": [
+            0.025,
+            0.3763531274742676,
+            0.985,
+            0.6722422802850356
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-choice-q4-o1-r2",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p2",
+          "bbox": [
+            0.025,
+            0.6722422802850356,
+            0.985,
+            0.908643705463183
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-choice-q4-o1-r3",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p3",
+          "bbox": [
+            0.025,
+            0.09213776722090261,
+            0.985,
+            0.18692319873317498
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-choice-q4-o1-r4",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p3",
+          "bbox": [
+            0.025,
+            0.18692319873317498,
+            0.985,
+            0.5168915281076801
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(4 ) 着 [ G-acosr-bsimardac=min 人人 Gracosx-bsnandd , 则\naeR\nicOSX 十久 SinX 一\n(A) 27sinx. (B) 2cosx. (C) 27rsinx. (D) 2Fcosx.\n【解析 】 令 Z(a,D) =| 二 G-acosx-bsinm?dr\n开 =2| 二 Ce-acosx-bpsinm(cosDdr=0 (D\n交 =2| 二 (X 一 4cosx-psin(-sinmdxz=0 (2)\n由 (1) 得 2a|; cosxax=0 故 a=0,w=0\n[ixsinxar\n由 〈2) 得 = 一 -2 =2\n5sin Xcar",
+      "answer_hint": "【答案】 和 A\n0 ap 0\n0 0 了\nG) 行列式 | =\n0 c ad 0\nco00d4\nCA) (ad-bc7) 2 (B) - (ad-bc) 2 (CC) De (D)22 co2 友\n0apb 0\n0 0 apD 0| 0 a 2\n[7 这\n【解析 ] | 。 7 | 按第 4 行展开 <(-D”|0 0 中 +dCD2a 0 0\n0 0 cad 0 0 c d\n[\nce 1\n六\nQ D\nQ\n= 一 CCD3 +d.0.(]D) 和 9\nc ad\n=(ad -pc).pc-ad(ad -pc)\n=(ad -bc)(pc-ad)=-(ad -bc)?\n【答案】 B\n(6 设 W ,0 , 好均为 3 维向量 , 则对任意常数大 ,六向量组 W + ko, + 1 线性无\n关是向量组 w ,oo , 吧线性无关的 (\n〈A) 必要非充分条件 . @B) 充分非必要条件 .\n〈C) 充分必要条件 . (D) 既非充分也非必要条件 .\n1 0\n【解析 】 由 (Qi+Kaa,wz+ias)=(2xuwza3s)|0 1 工 | 知 ,\n站对\n当 cu wz,s 线性无关时 , mx 二 0\n1 0\n所以 w+Kaa,az+1as 线性无关\n反之不成立 “” 如当 wa =0,wi 与 az 线性无关时 , wu wa,ws 线性相关",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-choice-q7-o1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-choice-q7-o1-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p3",
+          "bbox": [
+            0.025,
+            0.5176832937450514,
+            0.985,
+            0.7063214568487728
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-choice-q7-o1-r2",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p3",
+          "bbox": [
+            0.025,
+            0.7063214568487728,
+            0.985,
+            0.9139881235154395
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-choice-q7-o1-r3",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p4",
+          "bbox": [
+            0.025,
+            0.09095011876484561,
+            0.985,
+            0.5160997624703088
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "【答案】A^\n(7) 设随机事件 A 与 B 相互独立 , 且 P(B)=0.5,P(4-B)j=0.3, 则 P(B-4 六 〈\n)\n(CA) 0.1 GB)0.2 (C)0.3\n(D)0.4\n【解析 】P (A-B) =P (A) -P(AB)\nA 与 B 相互独立\nP (AB) =P (A) P (B)\nPP (A-B) =P (A) -P (A) P (B) =P (A) [1]-P (B) ]=0.3\nP〈A)〈1-0.5) =0.3\n...P (A) =0.6 P (AB) =P (A) P (B) =0.6X05=0.3\nP (B-A) =P (B) -P (BA) =0.5-0.3=0.2",
+      "answer_hint": "【答案】B\n《8) 设连续性随机变量史与驴相互独立 , 且方差均存在 ,2 与马的概率密度分别为用 CD)\n与万 (zx) , 随机变量马的概率密度为万 (>) = JUNOO+AOO, 随机变量 Y=-\n了 +X) 则 ( )\n(CA)EYIi>EY2,DYIi>DY> (B)EYi=EY2,DYi=DY>\n(CEY=EY2,DYIi<DY> (D)EYi=EY>,DYIi>DY,\nee 1 Im Ps\n【解析 】z85 =| 2 701 人大 Do+5[ 态 Oay\n-了 0 +\n1 1 1\n三 = EDC0+X)]=EXI+EX。\nEN =\n-orao = 了 EXP+IEX3\nte 直工 1 1\nDZ = 工 EX? + 工 EX2 一工 EX, + 工 EX = 工 EX2? + 工 EX2 一工 (EX 中 (EX 让) 一工 EYE,\n区 2 2 2 2 2 4 4 2\n= 工 DX 让上 DXAH 工 2 二工 EX2 一工 EXIEX,\n4 4 ”4 4 2\n1 1 1 va va 1 1 [\n_TDX +TDX + 攻 LEX; +EX3 -2EC0X)] = 了 DXK + 于 DX + 了 [EC 一 X) ]\nD7 ,= oo +z] = 了 DX HITDX。\n1 1 1\nDY7P>D7,",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-blank-q9-o1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-blank-q9-o1-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p4",
+          "bbox": [
+            0.025,
+            0.5602406967537609,
+            0.985,
+            0.7643182897862232
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(9) 曲面 z=x2Q -sin 力 + 克 (1-sin z) 在点 (1,0,1) 处的切平面方程为 -\n_[2xd 一 siny) 一六 2 cosx]\n【解析 】 在点 (1,0,1) 处 ,z。 doD\n点 〈1,0,1) 处 , 二\n=2\n山 0.D\n_ 记和妇 cosy+27yU-sin2)]\n2 GOD\nGOD\n切平面方程为 zxr(xz-D+zy(0-0O+(D(Cz-D=0\n即 2x-y-z-1=0",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-blank-q10-o1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "10",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-blank-q10-o1-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p4",
+          "bbox": [
+            0.025,
+            0.7643182897862232,
+            0.985,
+            0.8920166270783848
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-blank-q10-o1-r2",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p5",
+          "bbox": [
+            0.025,
+            0.09866983372921616,
+            0.985,
+            0.1685146476642914
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(10) 设广 (x) 是周期为 4 的可导奇函数 , 且 fo =2C-D,xe[0,2], 则 /7)=-\n【解析 】`... 太 (z) 是周期为 4 的可导函数\n...JfOD=7G=JCD=-fDO 有 (DO=0\n又 Jo0=20-D  ...FoD0= 妇 -2xz+c 将 F(O)=0 代入得 C=0\nFCD=xz2-2xr  xe[02]\n...JGOD=-1 从而 FI7)=-7OD=1",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-blank-q11-o1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-blank-q11-o1-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p5",
+          "bbox": [
+            0.025,
+            0.1685146476642914,
+            0.985,
+            0.6018083927157561
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(11) 微分方程 zy +y(Inx-Iny) =0 满足条件 XID)=e? 的解为关\n【解析 】z'+ ynx-n7)=0 即忆 + ?my =0 两边同除 * 得\nY+YIn 二 =0\n革了\n令 x= 了 , 则 ?=xm, 作 -x+x 甸代入上式得\ncr cx\n碟\nx+x 钙 +ulnL 上 -0 , 整理得\nCr 下\n碟 1 aa\n和人得\n[和 = 工 tz+nC\n(nu 一 JTJ 坟\n人 = 三 wsrmc\nInz 一 1 天\nlnz 一 1= cx\n下二 ErH\n了\n将 y(D =e 代入上式得 C=2",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-blank-q7-o1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "7",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-blank-q7-o1-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p5",
+          "bbox": [
+            0.025,
+            0.6018083927157561,
+            0.985,
+            0.6299160728424387
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "7 一 Xe2m",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-blank-q12-o1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-blank-q12-o1-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p5",
+          "bbox": [
+            0.025,
+            0.6299160728424387,
+            0.985,
+            0.8813277909738717
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(12) 设工是柱面妇十 )2 =] 与平面 y+z= 0 的交线 , 从 z 轴正向往 z 轴负向看去为递时\n针方向 , 则曲面积分 [ 门 zax+ ydz =\n天一 COSE\n【解析 】 令 >=sint 二 [0.2 可\nZ= 一 Sint\n上二 +) 大 = 企 sint(-sinD) +sint(-cosb]\n下\n加\ndt CsinDdsint\n)\n= 各二 0= 乞",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-blank-q13-o1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-blank-q13-o1-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p6",
+          "bbox": [
+            0.025,
+            0.0861710213776722,
+            0.985,
+            0.3729881235154395
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(13) 设二次型广 (2 和 ,为 )= 世一刀十 24006 士 402 的负惯性指数是 1, 则 a 的取值范围\n1 0 4\n【解析 】 4=|0 -1 2\n4 2 0\n因为和 +42+43=0, +42+43 导 41, 负惯性指数为 1\n...... 设如 <0, 从而 4243>0\n-44AKE0\n@@ 若 14K0,, 则和 <0,1a > 0,23 > 0. 此时符合题意而 |[ 放 = 吧一 4",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-blank-q2-o1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "2",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-blank-q2-o1-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p6",
+          "bbox": [
+            0.025,
+            0.3729881235154395,
+            0.985,
+            0.7100823436262865
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "02 一 4< 0, 即 -2<a<2.\n@ 若 | 让 =0 则厂 <0, 和 >0,43=0, 此时 a= 妆\n1 0 2 1-1 0 2\n当 &=2 时 4=|0 -1 2 |4E-4l=| 0 4+l - 引 =240+3)(4-3)\n2 2 0 2 -2 1\n=-3,42=3,43=0\n沪 Q=2 符合题意\n1 0 一 M-l1 0 2\n当 a=-2 时 4=|0 -l1 2 |4E-4=| 0 4+1 -=40+3)(4-3)\n-22 2 0 2 -2 1\nMi=-3,42=3,43=0 符合题意\n综上 ,a 的取值范围是 -2<a<2",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-blank-q14-o1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-blank-q14-o1-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p6",
+          "bbox": [
+            0.025,
+            0.7100823436262865,
+            0.985,
+            0.8866722090261283
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-blank-q14-o1-r2",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p7",
+          "bbox": [
+            0.025,
+            0.10045130641330166,
+            0.985,
+            0.20256057007125894
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(14) 设总体和的概率密度为 Jx, 0)= 1302 ,0 <+z<20 ,其中 0 是未知数 , 思 7 各\n0, 其他\n为来自总体忆的简单样本 , 若 c 交 P 是 2 的无偏估计 , 则 c= _ .\ni=1\n【解析 】E(X5) = | 2 妆 : 540= 二 5\n=\n6 2\nca 攻 2 要 2 2\nROSEC2 RE = 人 5 己 C=a",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q2-o1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "2",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q2-o1-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p7",
+          "bbox": [
+            0.025,
+            0.43886935866983373,
+            0.985,
+            0.5168915281076801
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "= lim 二一\n2 攻 2\n= lim mlez 1- 了 =lime 二 -lime 二 1- 工\n和 ,\nFe 充 0 21 2",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q16-o1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "16",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q16-o1-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p7",
+          "bbox": [
+            0.025,
+            0.5168915281076801,
+            0.985,
+            0.6121013460015835
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(16)《〈 本题满分 10 分 )\n设函数 》 = Co 由方程 2 + +z2y+6=0 确定 , 求 (zxo) 的极值 。\n【 解 】 由 y3 +xy2 +x2y+6=0 得",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q3-o1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "3",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q3-o1-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p7",
+          "bbox": [
+            0.025,
+            0.6121013460015835,
+            0.985,
+            0.832806017418844
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "由,” 必 2 吃 1\n3 交一上只 +2z 一 +22 二姑一 =0, 解得\n了起 》 和 4 可\n血 -- 一 229+ ,由几 = 0 得 )》= -2x, 代入原式得 。\n地 2xy 十罗 X=1\nCr X 十 227 十 37 Cr y=-2\n几中, 2 几几\n2 7 2 区 +37 ) 一 (227 十 》 ?+275 7 7\n27 二 27 一 +27 一 )X2 二 2i 二 37 ) 一 ( 20 二 2 二 27 寺 28 一一十 57 一\nax (xz2 +2xy 二 3y2)2\nXZ=1 dy 4 、 、\n将代入得一了 = 二 > 0, 故 x= ] 为最小点 , 最小值为 ?= -2 。\n?=-2 Cr 9",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q17-o1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q17-o1-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p7",
+          "bbox": [
+            0.025,
+            0.832806017418844,
+            0.985,
+            0.8926104513064133
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q17-o1-r2",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p8",
+          "bbox": [
+            0.025,
+            0.09688836104513064,
+            0.985,
+            0.2625368171021378
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(17)《〈 本题满分 10 分 )\n设函数 F (zw) 二阶连续可导 ,Zz = J (er cos y) 满足\n92z 9?z 2\n二二二 =(4z+ercosy)e,\nDx2 9y? 多切\n若 j(0) = 0,F (0) =0, 求 Co 的表达式 。\n【 解 】\n芋 =ecosy 刀 , 空 =-ersiny. 户 ,",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q2-o2",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "2",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q2-o2-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p8",
+          "bbox": [
+            0.025,
+            0.2625368171021378,
+            0.985,
+            0.8908289786223278
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q2-o2-r2",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p9",
+          "bbox": [
+            0.025,
+            0.09095011876484561,
+            0.985,
+            0.20770704671417262
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "2 本\neeosy +ereosy 7 9 -ercosy. 疡 +exsin? yj,\n和\n32z 9\n如\n此芝\n令 &=ercosy, 由 3 全 (dz+eroosy)e 得\n攻有\n(0=47G0)+24, 或 700 一 47G00=a,\n解得 FoO) = Ce 如二 Ce -了\nCi+C, =0 i\n由 (0) =0,F(0)=0 得 , 解得 C; =- 一 ,C; = 一 ,\nJJ(OD=0 太 (0) -2c +2c, -=0 1 一 16 下\n改 /CO=- 让 Ge-e0-J\n〈18)《〈 本题满分 10 分 )\n设为曲面 z = xz2 + 72(z<]1) 的上侧 , 计算曲面积分\n了 = ee-D?erac +(-Dadzdz+(z-Ddxay 。\n工\n【 解 】 令 Zu :z =1 (za+y2 <1), 取下侧 , 其中卫与 Zo 围成的几何体为 O ,\n由高斯公式得\n归 c-D?edz+rO-D?dazar+(Gc-Ddupy=-[Be-D:+30-D2+la\nZ+Zo\n人\n= -|ec” +y2)-6x-6y+7]d = -|ec” +y72)+7]dv\n人人\n=-[e [Bo2+yD+7w =-fa 广 zefGn +77)ar\n2sz\n3 7 17\n=-2zfG +Ddz -270T+ 们 =-47 ,\n而 [ce-D?wdz+(0y-D?dzar+(z-Daudy=||(z-Dauay=0,\nZo Z0\n故 7= [ec-D?adz+O-D?dzdr+(c-Ddrty =-4z。\n工",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q19-o1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q19-o1-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p9",
+          "bbox": [
+            0.025,
+            0.20770704671417262,
+            0.985,
+            0.9128004750593824
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q19-o1-r2",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p10",
+          "bbox": [
+            0.025,
+            0.09748218527315915,
+            0.985,
+            0.9080498812351544
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q19-o1-r3",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p11",
+          "bbox": [
+            0.025,
+            0.09570071258907364,
+            0.985,
+            0.837978622327791
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q19-o1-r4",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p12",
+          "bbox": [
+            0.025,
+            0.09510688836104514,
+            0.985,
+            0.4800744259699129
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(19) (本题满分 10 分 ) 设数列 {a, } 、{B,} 满足 0 < @, < 了 0< < 了了 ,\ncosa, 一 Qu =cosD, 且级数六收敛 。\n(D 证明 :, lima, =0。\nea\n《ID 证明 : 六和收敛。\n【证明 】\n(D 方法一\n由六咏收敛得 imp = 0。\nen\nml\n令 lima, =4, 等式 cosa, - q, = cos, 两边取极限得 cosa -au=1。\nen\n令 VCJ=1-cosx+xY,J(O)=0,\n因为 (xz) = sinx+1> 0, 所以 VC 单调增加 , 由 VOD =0 得 x=0,\n故 lima, =a=0。\n方法二\n由 cosa, 一 Qu = cosb, 得 a, =cosa 一 cosb >0, 从而 0< av < 及,\n因为六忆收伊 , 所以久 w, 收敛 , 故 lima, =0。\nm=1 Pm=1\n(ID 由 a, = cosa, 一 cosb, 得\n,) 吧十机一\nacosa cos 加 2sn( 2 )sin( 2 ) 有一 0\n加 D 加 25,”\n好一 0 疡一\n因为 0< 一 < 之且 》 访收系所以》 一一 ”收敛 ,\n22 2 乌并志 22\n二 oo | 四\n和比较审煞法得 2 2 收全 。\nnl On\n〈20)《〈 本题满分 11 分 )\n外一 2 .3 一生\n设 4=|0 1 -1 1 |, 互为三阶单位矩阵 。\n这, 浊 = 汉\n(JI) 求方程组 4AX = O 的一个基础解系 。\n(ID 求满足 4B8 = 五的所有矩阵至 。\n【 解 】\n1-23 -人 M-2 3 -4 1 -2 3 -4\nCD 4=|0 1 -1 1|I>o1 -1 1|>lo1 -1 1\n12 0 -oo4 -3 1 0 0 1 -3\n上一必油污 100 1\n0 d =-2I010=-2h\n0 0 1 -3 0 0 1 -3\n则方程组 4X = O 的一个基础解系为 = (-12,3,1) 。\n1 -2 3 -4\n光基 。 大\n4B=|0 1 -1 1\n1 2 0 -jj 和\n石 =224 ++3X1 一 4xio 2 一 275 十 3x6 一 401 六一 2x6 十 3xo 一 422\n二和一她二 20 让一各十 1 2 一 2 二 72 ,\n娘十 2x4 一 3xio 3 二 275 一 3x70 2 十 2x5 一 3xi>\n由 4B = 已得\n娘一 2x4 二 3x7 一 4xo =1 |z2 一 2x5+3za 一 42=0 | 妇一 2x6+3xo 一 4xo =0\n如一蕊 +Xo=0 、1 站一区十 2 = 、1x6 一 z 切 +zo=0 。\n和 +214 一 386 =0 加 +225 一 3x1 =0 7X3a 十 2X765 一 3 = 工\n1 -2 3 -4 1 1 -2 3 -4 1\n由 |0 1 -1 1 0I”>0 1 -1 1 0\n1 2 0 -3 0 0 4 -3 1 -=-!\n-2 3 -4 1 1-205 4 站\n1 -11 0|>lo 1 0-2 -12>|010 -2 -1| 得\n0 1 -3-Joo1-3-J ool-3-l\n=-23 一 410 1001 6\n一 |0 1 -1L1 1 1 | 一 |0 1 0 -2 -3| 得\n00 1 -3-4 ool-3 -4\n加相知 6- 访\n5 = 泥 2 二和 215 -3\n和 3 | |-4| |3k -4\n1 1 0 态\n001-3U ool-3 1\n沽 -也大生 -1 及\n区 2 1 2 所 +1\n“| = 及时 | 和 ,\n加 | 1 3 +1\n5 1 0 态\n2- 后 6- 所一 1- 避\n昌国 -1 2 -3 241T| 人人为全天)\n|3k -1 3 -4 31s+1 中后, ja 为任症币数 )\n入加大\n11...mnNfo...01\n11...1| |o...02\n《21) (本题满分 11 分) 证明, 阶抢阵 | ,, , :| 与 | : , , :| 相似 。\n111o 0\n【证明 】\n至于 1 0 ... 0\n1 1 1 0 0 2\n令 4= ,B=| : ,\n1 I 1 0 ... 0\n由 14 一 AI=0 得人的特征值为必 =...= 和 = 0 和. =m,\n由 14 尼 ~ 巨 0 得五的特征值为 =...= 和 = 0.4. =7。\n因为 hr7 = A , 所以人可对角化 ;\n对五 , 因为 r(OE_B) = r(B) =1, 所以刀可对角化 ,\n因为 4, 巨特征值相同且都可对角化 , 所以义 ~ 玉 。",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q22-o1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q22-o1-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p12",
+          "bbox": [
+            0.025,
+            0.4800744259699129,
+            0.985,
+            0.6667331749802059
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(22) (本题满分 11 分 ) 设随机变量 X 的概率分布为 PLX = 了 = P(X =9] -1 5\n在给定 X =; 的条件下 , 随机变量了服从均匀分布 D(O,DG = 12) 。\n5D 求了得分布函数五 (7) 。\n(ID) 求 E7 。\n【 解 】\nCD 玉 O)=PZ<yj=PIX=1PI7<y>IX=1+P(X=2PI7<yIX=9",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q5-o1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "5",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q5-o1-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p12",
+          "bbox": [
+            0.025,
+            0.6667331749802059,
+            0.985,
+            0.8926104513064133
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q5-o1-r2",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p13",
+          "bbox": [
+            0.025,
+            0.09688836104513064,
+            0.985,
+            0.3969390340459224
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "1 1\n= 二 PIT<yIX=1+=PI7<yIX=92],\n5 懂芝列 5 人 }\n?<0 时 , 瓦 (7)=0;\n1 3\n当 0<y<1 时 , 有刀 (7)= 二 .二 + 二 :二 = 一 ;\n?<1 时 , 忆 (7) 是二二二\n当 1<y<2 时 ,\n1 1 yy 1\n古一二站过二一二十去,\n7 222 4 2\n当 》>2 时 , 丈 (7)=1,\n0,y<0\n了 0sy<1\n故玉 (7)= i\n4 2\n本全 -9\n一 <3<l\n本 0<?\n(ID 方 (>)= 了 <y<2,\n0, 其他\n了 at\n3.3 3\n7 = ar+| 二 wei= 二 + 二 = 二 。",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q23-o1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "23",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q23-o1-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p13",
+          "bbox": [
+            0.025,
+            0.3969390340459224,
+            0.985,
+            0.8724204275534442
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q23-o1-r2",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p14",
+          "bbox": [
+            0.025,
+            0.10282660332541568,
+            0.985,
+            0.26273475851148065
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "0,x<0\n(23) (本题满分 11 分 ) 设总体现的分布函数严 (x) = 了 , 其中刀 > 0 为未知\n1-e 2,xz>0\n参数 ,X,X;,... 怀 ,为来自总体届的简单随机样本 。\n(CD 求到及 EX ?。\nCID 求 @ 的最大似然估计量 6\nII) 是否存在实数 w , 使得对任意的 e > 0, 都有 limP{16-aEes}=0?\non\n【 解 】\n0,x<0\n(D Jo = 。\n2 0\n好洒汪沁 VB\nFE = 人 roOdax=2 与 ete=2 和\nFroa- 丰 fr 上要\n=V6 矿 Verd= VJ6rdA+D -2 .\n。 2 2\n二 = x2FCrodx = 中 0 5 e 信三可 “CD)= ErC)=6。\n过庆\n(ID) 似然函数忆 OO) -2 入本\n蕴敬入\n严四\nInL(O)=nln2+》 nx nb- 一\n十妆十十\n南遂省 Mgj 二 -项和熙把下让,\ndO O",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q6-o1",
+      "document_id": "d-0ea49fbf32b6d64b15b0",
+      "number": "6",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-0ea49fbf32b6d64b15b0-s0-solution-q6-o1-r1",
+          "page_id": "d-0ea49fbf32b6d64b15b0-p14",
+          "bbox": [
+            0.025,
+            0.26273475851148065,
+            0.985,
+            0.41220665083135394
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2014",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2014 年全国硕士研究生入学统一考试数学一试题及解析 ( 完"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "6 的最大似然估计量为 G= 上六 X 。\n于邱\n二六 X? 依概率必全于 EX? = 0,\n《II 由大数定律得 6\n所\n故存在 a = 9 , 使得对任意的 e > 0, 有 lim P(I16-aEej=0。\nmm",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [],
+  "identity": {
+    "category": "考研数一",
+    "year": "2014",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

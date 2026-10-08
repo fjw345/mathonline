@@ -1,0 +1,4528 @@
+{
+  "item": {
+    "id": "d-553f056a4e9c7c8aba47",
+    "path": "resource/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/1987-2016考研数学（一）真题答案与解析/2008考研数学一真题及答案解析.pdf",
+    "name": "2008考研数学一真题及答案解析.pdf",
+    "sha256": "ff900d55a6d92cad36f874c0befa4f3a5e16a6e6cfcce84397ffb56ab13b0635",
+    "format": "pdf",
+    "bytes": 732551,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 19,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 595.3200073242188,
+        "height": 723.0,
+        "text_chars": 1576,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 595.3200073242188,
+        "height": 723.0,
+        "text_chars": 1411,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 595.3200073242188,
+        "height": 723.0,
+        "text_chars": 1591,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 595.3200073242188,
+        "height": 723.0,
+        "text_chars": 1905,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 595.3200073242188,
+        "height": 723.0,
+        "text_chars": 1130,
+        "renderable": true
+      },
+      {
+        "number": 6,
+        "width": 595.3200073242188,
+        "height": 723.0,
+        "text_chars": 702,
+        "renderable": true
+      },
+      {
+        "number": 7,
+        "width": 595.3200073242188,
+        "height": 723.0,
+        "text_chars": 1548,
+        "renderable": true
+      },
+      {
+        "number": 8,
+        "width": 595.3200073242188,
+        "height": 723.0,
+        "text_chars": 470,
+        "renderable": true
+      },
+      {
+        "number": 9,
+        "width": 595.3200073242188,
+        "height": 723.0,
+        "text_chars": 1051,
+        "renderable": true
+      },
+      {
+        "number": 10,
+        "width": 595.3200073242188,
+        "height": 723.0,
+        "text_chars": 1086,
+        "renderable": true
+      },
+      {
+        "number": 11,
+        "width": 595.3200073242188,
+        "height": 723.0,
+        "text_chars": 1344,
+        "renderable": true
+      },
+      {
+        "number": 12,
+        "width": 595.3200073242188,
+        "height": 723.0,
+        "text_chars": 1567,
+        "renderable": true
+      },
+      {
+        "number": 13,
+        "width": 595.3200073242188,
+        "height": 723.0,
+        "text_chars": 1302,
+        "renderable": true
+      },
+      {
+        "number": 14,
+        "width": 595.3200073242188,
+        "height": 723.0,
+        "text_chars": 959,
+        "renderable": true
+      },
+      {
+        "number": 15,
+        "width": 595.3200073242188,
+        "height": 723.0,
+        "text_chars": 1601,
+        "renderable": true
+      },
+      {
+        "number": 16,
+        "width": 595.3200073242188,
+        "height": 723.0,
+        "text_chars": 1695,
+        "renderable": true
+      },
+      {
+        "number": 17,
+        "width": 595.3200073242188,
+        "height": 723.0,
+        "text_chars": 695,
+        "renderable": true
+      },
+      {
+        "number": 18,
+        "width": 595.3200073242188,
+        "height": 723.0,
+        "text_chars": 950,
+        "renderable": true
+      },
+      {
+        "number": 19,
+        "width": 595.3200073242188,
+        "height": 723.0,
+        "text_chars": 1389,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "ff900d55a6d92cad36f874c0befa4f3a5e16a6e6cfcce84397ffb56ab13b0635",
+  "engine_version": 6,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/1987-2016考研数学（一）真题答案与解析/2008考研数学一真题及答案解析.pdf",
+  "pdf_sha256": "ff900d55a6d92cad36f874c0befa4f3a5e16a6e6cfcce84397ffb56ab13b0635",
+  "pages": [
+    {
+      "id": "d-553f056a4e9c7c8aba47-p1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": 1,
+      "width": 595.3200073242188,
+      "height": 723.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-p2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": 2,
+      "width": 595.3200073242188,
+      "height": 723.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-p3",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": 3,
+      "width": 595.3200073242188,
+      "height": 723.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-p4",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": 4,
+      "width": 595.3200073242188,
+      "height": 723.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-p5",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": 5,
+      "width": 595.3200073242188,
+      "height": 723.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-p6",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": 6,
+      "width": 595.3200073242188,
+      "height": 723.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-p7",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": 7,
+      "width": 595.3200073242188,
+      "height": 723.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-p8",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": 8,
+      "width": 595.3200073242188,
+      "height": 723.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-p9",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": 9,
+      "width": 595.3200073242188,
+      "height": 723.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-p10",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": 10,
+      "width": 595.3200073242188,
+      "height": 723.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-p11",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": 11,
+      "width": 595.3200073242188,
+      "height": 723.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-p12",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": 12,
+      "width": 595.3200073242188,
+      "height": 723.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-p13",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": 13,
+      "width": 595.3200073242188,
+      "height": 723.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-p14",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": 14,
+      "width": 595.3200073242188,
+      "height": 723.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-p15",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": 15,
+      "width": 595.3200073242188,
+      "height": 723.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-p16",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": 16,
+      "width": 595.3200073242188,
+      "height": 723.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-p17",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": 17,
+      "width": 595.3200073242188,
+      "height": 723.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-p18",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": 18,
+      "width": 595.3200073242188,
+      "height": 723.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-p19",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": 19,
+      "width": 595.3200073242188,
+      "height": 723.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q1-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q1-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p1",
+          "bbox": [
+            0.025,
+            0.26944447618610246,
+            0.985,
+            0.3306201483663626
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2008 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "x\n\n  ln(2\n t dt\n( )\n)\nf ( )\nx 的零点个数为                     (B)\n(1)设函数 f x\n,则\n(A)0         (B)1            (C)2           (D)3",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q2-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q2-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p1",
+          "bbox": [
+            0.025,
+            0.3306201483663626,
+            0.985,
+            0.3975450002161134
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2008 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "arctan x\n\n( , )\n在点(0,1)处的梯度等于                      (A)\n(2)函数 f x y\ny\n(A)i         (B)            (C)j           (D)  j\ni",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q3-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q3-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p1",
+          "bbox": [
+            0.025,
+            0.3975450002161134,
+            0.985,
+            0.4953596630386626
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2008 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": " C e x\n C cos2 x\n C sin2 x\nC C C 为任意常数)为\n,\n,\n(3)在下列微分方程中,以 y\n(\n通解的是                                                               (D)\n   \n \n 0\n   \n \n 0\ny\n4 y\n4 y\ny\n4 y\n4 y\n(A) y\n.       (B) y\n   \n \n   \n \n 0\n 0\ny\n4 y\n4 y\ny\n4 y\n4 y\n(C) y\n.       (D) y",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q4-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q4-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p1",
+          "bbox": [
+            0.025,
+            0.4953596630386626,
+            0.985,
+            0.5741886215385834
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2008 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "内单调有界,{ nx }\n( )\n,\n)\n(4)设函数 f x 在(\n为数列,下列命题正确的是        (B)\n(A)若{ nx } 收敛,则{ (\nf x )} 收敛.      (B) 若{ nx } 单调,则{ (\nf x )} 收敛.\nn\nn\n(C) 若{ (\nf x )} 收敛,则{ nx } 收敛.       (D) 若{ (\nf x )} 单调,则{ nx } 收敛.\nn\nn\n3 ",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q5-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q5-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p1",
+          "bbox": [
+            0.025,
+            0.5741886215385834,
+            0.985,
+            0.6415007469419951
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2008 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "A\n0 ,则                      (C)\n(5) 设A 为n 阶非零矩阵,E 为n 阶单位矩阵,若\n(A)E  A 不可逆,E  A 不可逆.      (B)E  A 不可逆,E  A 可逆.\n(C)E  A 可逆,E  A 可逆.          (D)E  A 可逆,E  A 不可逆",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q6-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q6-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p1",
+          "bbox": [
+            0.025,
+            0.6415007469419951,
+            0.985,
+            0.7787114363618026
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2008 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(6)设A 为3 阶非零矩阵,如果二次曲面方程\n\nx\n\n( , , )\nx y z A y\n1 在正交变换下的标准方程\n\n\nz\n\n的图形如图,则A 的正特征值个数为      (B)\n(A)0     (B)1      (C)2     (D)3",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q7-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q7-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p1",
+          "bbox": [
+            0.025,
+            0.7787114363618026,
+            0.985,
+            0.8254426421485995
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2008 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(7) 随机变量X,Y 独立同分布,且X 的分布函数为F(x),则Z=max{X, Y}分布函数为  (A)\n2 x\nF ( ) ;(B)\nF ( x ) F ( y ) ;(C)\n1  1[  F ( x\n)] 2 ;(D)\n1[  F ( x )][\n1  F ( y )]\n(A)",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q8-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q8-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p1",
+          "bbox": [
+            0.025,
+            0.8254426421485995,
+            0.985,
+            0.9313236041774724
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q8-o1-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p2",
+          "bbox": [
+            0.025,
+            0.050277973138115384,
+            0.985,
+            0.060277973138115386
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q8-o1-r3",
+          "page_id": "d-553f056a4e9c7c8aba47-p2",
+          "bbox": [
+            0.025,
+            0.060277973138115386,
+            0.985,
+            0.08984099801513334
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2008 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "  1\nX ~ N (0,1), Y ~ N (1,4) ,且相关系数\n(8)随机变量\n,则                   (D)\nXY\n(A){\nP Y \n2 X  1}       (B){\nP Y  2 X  1}  1\n(C){\nP Y \n2 X  1}  1 (D){\nP Y  2 X  1}  1\n2008 年 • 第1 页\n郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q9-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q9-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p2",
+          "bbox": [
+            0.025,
+            0.1231282609207062,
+            0.985,
+            0.15103652280154123
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "xy '  y  0 满足条件(1)  1 的解是\ny\ny \n1 / x\n(9)  微分方程",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q10-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "10",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q10-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p2",
+          "bbox": [
+            0.025,
+            0.15103652280154123,
+            0.985,
+            0.18376444099113215
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "\n x )\n x\nx  1\n(10) 曲线sin( xy ) ln( y\ny\n在点(0,1)处的切线方程是\n.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q11-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q11-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p2",
+          "bbox": [
+            0.025,
+            0.18376444099113215,
+            0.985,
+            0.261941703574786
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "\n\n\n\nx  0\nx 处发散,则幂级数\na x\n(  2)n 在\na x\n(  3)n 的\n(11) 已知幂级数\n处收敛,在\nn\nn\n\n\nn 0\nn 0\n\n\n5,1\n收敛域为",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q12-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q12-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p2",
+          "bbox": [
+            0.025,
+            0.261941703574786,
+            0.985,
+            0.3145021114956129
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "的上侧,则\n(12) 设曲面是  4\n 2  2\n\n 2\n\nz\nx\ny\nxydydz xdzdx\nx dxdy =\n",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q13-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q13-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p2",
+          "bbox": [
+            0.025,
+            0.3145021114956129,
+            0.985,
+            0.3440216424079357
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "\n1,\nAa  0, Aa  2\na  a 则A 的\n(13) 设A 为2 阶矩阵,\n为线性无关的2 维列向量,",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q14-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q14-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p2",
+          "bbox": [
+            0.025,
+            0.3440216424079357,
+            0.985,
+            0.4129253530752939
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "非零特征值为__1___\n(14) 设随机变量X 服从参数为1 的泊松分布,则\n\nP X  EX 2 =\ne",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q17-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q17-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p3",
+          "bbox": [
+            0.025,
+            0.29288847647245275,
+            0.985,
+            0.37529222664804496
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q17-o1-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p3",
+          "bbox": [
+            0.025,
+            0.37529222664804496,
+            0.985,
+            0.7407954067794777
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(17)(本题满分11 分)\n\nx 2  y 2  2 z 2  0\nC : \n,求C 上距离xOy 面最远的点和最近的点.\n已知曲线\n 3 z\n 5\ny\n x\n到xOy 面的距离为z ,故求C 上距离xOy 面最远点和最近点的坐标,\n解:点 ( x , y , z )\nH  2\n y\n 3  5\n2  2  2 z\n2  0\nz 在条件 x\ny\nz\n等价于求函数\n与 x\n下的最大值点和最小值\n点.                                                                     ......3 分\n\n  z 2\n \n y 2\n 2 z 2 )\n   y\n 3\n 5\nL , , , , )\n( x y z\n( x 2\n( x\nz\n) ......5 分\n令\n '    \n 0\nL\n2 x\nx\n\n   \n 0\n'\n2 y\n L\ny\n\n'  2 z\n   \n 0\n4 z\n......7 分\n由  L\nz\n\n\n 2 z 2\n 0\nx 2 y 2\n\n\nx  y  3 z  5\n\n x   5\n x  1\n\n2  2 z\n2  0\n2 x\n\n\nx  y\n  5\n 1\ny\ny\n\n得\n,从而\n,解得\n或\n......10 分\n 3 z\n 5\n2 x\n\n\n\n 5\n 1\nz\nz\n \n根据几何意义,曲线C 上存在距离xOy 面最远的点和最近的点,故所求点依次为 ( ,5 5,5\n)\n和 )1,1,1( ......11 分",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q18-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q18-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p3",
+          "bbox": [
+            0.025,
+            0.7407954067794777,
+            0.985,
+            0.9313236041774724
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q18-o1-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p4",
+          "bbox": [
+            0.025,
+            0.050277973138115384,
+            0.985,
+            0.060277973138115386
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q18-o1-r3",
+          "page_id": "d-553f056a4e9c7c8aba47-p4",
+          "bbox": [
+            0.025,
+            0.060277973138115386,
+            0.985,
+            0.6143177031556161
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(18)(本题满分10 分)\n( )\n设 f x 是连续函数,\n x\n\n\n f x\nf (\nt ) dt 可导,且 F x\n( )\n( ) ;\n(I) 利用定义证明函数 F ( x )\nx\n\n\nf x 是以2 为周期的周期函数时,证明函数 G ( x )  2\n( )\nf (\nt ) dt  x\nf (\nt ) dt 也\n(II) 当\n是以2 为周期的周期函数.\n2008 年 • 第3 页\n郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考\n(I) 证:对任意的x ,由于 f x 是连续函数,所以\n( )\n \n \n x x\n x\n x x\nf (\nt ) dt \nf (\nt ) dt\nf (\nt ) dt\nF ( x  \nx )  F ( x )\n lim 0\n lim x\nlim\n......2 分\n\n\n\nx\nx\nx\n\n\n\nx  0\nx  0\nx  0\n \nf ( ) x\n lim\n lim f ( )\n (其中介于x 与 x  \nx 之间)\n\nx\n 0\n 0\nx \nx \n  f ( x )\n' ( x\n f ( x\n在x 处可导,且 F\n)\n) ......5 分\n由 lim f ( )\n,可知函数 F (x )\n 0\nx \nG (x ) 以2 为周期,即要证明对任意的x ,都有 G ( x  2 )  G ( x ) ,\n(II) 证法1:要证明\nH ( x )  G ( x  2\n)  G ( x ) ,则\n记\n\n\n\n\n\nx  2\nx\n\n\n\n\n 2\n ( x\n 2)\n 2\n  f t dt\nH x\n( )\nf t dt\n( )\nf t dt\n( )\nf t dt\n( )\nx\n( )\n 2\n 2\n 2 f ( x\n 2\n\n 2 f ( x )\n\n 0\n)\nf (\nt ) dt\nf (\nt ) dt\n......8 分\n\n\n\n G ( 2\n G ( )\n  2\n  f (\n 0\n 0\nH ( )\n)\nf (\nt ) dt 2\nt ) dt \n又因为\n 0\n 2 )\n G ( x )\n所以 H ( x )\n,即 G ( x\n......10 分\nf x 是以2 为周期的连续函数,所以对任意的x ,有\n( )\n证法2:由于\nx  2\nx\nx\n\n\n\n\nG ( x  2\n)  G ( x )  2\nf (\nt ) dt  ( x  2\n)\nf (\nt ) dt  2\nf (\nt ) dt  x\nf (\nt ) dt\n\n\n\n\n\n 2\n x 2\n 2\n x\n x\n x\n 2\nf (\nt ) dt \nf (\nt ) dt \nf (\nt ) dt \nf (\nt ) dt  2\nf (\nu  2\n) du \nf (\nt ) dt ......8 分\n\n\n\n\n\n\n x\nf (\nt  2\n)  f (\nt ) dt  0\n即 G (x ) 是以2 为周期的周期函数.                                         ......10 分",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q19-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q19-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p4",
+          "bbox": [
+            0.025,
+            0.6143177031556161,
+            0.985,
+            0.6841073522009351
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q19-o1-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p4",
+          "bbox": [
+            0.025,
+            0.6841073522009351,
+            0.985,
+            0.9313236041774724
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q19-o1-r3",
+          "page_id": "d-553f056a4e9c7c8aba47-p5",
+          "bbox": [
+            0.025,
+            0.050277973138115384,
+            0.985,
+            0.060277973138115386
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q19-o1-r4",
+          "page_id": "d-553f056a4e9c7c8aba47-p5",
+          "bbox": [
+            0.025,
+            0.060277973138115386,
+            0.985,
+            0.099522879066309
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(19)(本题满分11 分)\n\n ( 1)n \n  2\nx  \n\n)\n1 x , ( 0\n) 展开成余弦级数,并求级数\n将函数 f ( x\n的和.\nn 2\nn 1\n\n\n2 2\n\n\n解:由于 a\n\n 2\n 2\n\n......2 分\n1( x ) dx\n\n\n\n1 , n  ,2,1\na \n1(  x 2 ) cos nxdx \n( \n)1 n \n ......5 分\nn\n\nn 2\n\na\n\n ( \n)1 n \n\n\n0 x   ,     ......7 分\n所以 f ( x )  0 \n 4\na cos nx  1 \ncos nx ,\nn\nn\nn \nn \n\n ( \n)1 n \n\nx  0 ,有\n 4\n,\n令\nf ( 0\n)  1 \nn 2\nn \n n \n\n ( 1\n)\n 1\n\nf ( 0 )\n又\n,所以\n......11 分\n\nn\nn \n2008 年 • 第4 页\n郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q20-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q20-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p5",
+          "bbox": [
+            0.025,
+            0.099522879066309,
+            0.985,
+            0.22083242942771367
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q20-o1-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p5",
+          "bbox": [
+            0.025,
+            0.22083242942771367,
+            0.985,
+            0.37384746062233465
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(20)(本题满分10 分)\n, \n\n\nT  \nT ,\nT\nT 为,的转置. 证明:\nA  \n设\n为3 维列向量,矩阵\n其中\n,\nr A  2\n(I) 秩( )\n;\n线性相关,则秩( )\nr A  2.\n,\n(II) 若\n r   \nT\nT )\n证:(I) ( )\nr A\n(\n  ) r (\nT  \nT )\nr (\n......3分\n r ( )\n  r ( )\n  2\n......6 分\n, \n  k\n\n(II) 由于\n线性相关,不妨设\n,\n\n\n  1  2\nT  \nT )  r ((\nT )  r ( )\nr ( A\n)  r (\n1  k 2 )\n于是\n......10 分",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q21-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q21-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p5",
+          "bbox": [
+            0.025,
+            0.37384746062233465,
+            0.985,
+            0.9313236041774724
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q21-o1-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p6",
+          "bbox": [
+            0.025,
+            0.050277973138115384,
+            0.985,
+            0.060277973138115386
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q21-o1-r3",
+          "page_id": "d-553f056a4e9c7c8aba47-p6",
+          "bbox": [
+            0.025,
+            0.060277973138115386,
+            0.985,
+            0.9313236041774724
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q21-o1-r4",
+          "page_id": "d-553f056a4e9c7c8aba47-p7",
+          "bbox": [
+            0.025,
+            0.050277973138115384,
+            0.985,
+            0.060277973138115386
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q21-o1-r5",
+          "page_id": "d-553f056a4e9c7c8aba47-p7",
+          "bbox": [
+            0.025,
+            0.060277973138115386,
+            0.985,
+            0.25683041726548095
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(21)(本题满分12 分)\n 2 a\n\n x \n\n\n\na 2\n2 a\n\n\n\n\n\nx\n\n\n\n\n\na 2\n2 a\nAx  ,其中A \n 2\n\n设n 元线性方程\nb\nx\nb\n,\n,\n\n\n\n\n\n  \n\n\n\n\n\n\n\nx\n\n\n\na\n2 a\nn\n\n\n\n\na 2\n2 a \n\n\nn n\n ( \nA\nn )1 a n ;\n(I) 证明行列式\n(II) 当a 为何值时,该方程组有唯一解,并求 1x ;\n(III) 当a 为何值时,该方程组有无穷多解,并求通解.\n2 a\na 2\n2 a\nD  A \na 2\n2 a\n(I) 证法1:记\nn\n  \na 2\n2 a\na 2\n2 a\nn\n1  2 a\n 1\n,结论成立,\n当 n\n时, D\n2 a\n\n 3\n 2\na ,结论成立                               ......2 分\n当 n\n时, D\na 2\n2 a\n假设结论对小于n 的情况成立,将 D 按第1 行展开得\nn\n 2\nn   a 2 (\n 2\n 2\nA  ( \nn )1 a n ......6 分\nD\naD\na D\nana 1\nn  )1\na n  2  (\nn  )1\na n ,即\n\n\nn\nn 1\nn 2\n2008 年 • 第5 页\n郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考\n2 a\n2 a\na\n2 a\na\na 2\n2 a\n证法2:\n......2 分\na 2\n2 a\n\n ar\nA\nr\n  \n2 1\n  \na 2\n2 a\na\n2 a\na 2\n2 a\na\n2 a\nn\nn\n2 a\na\n......4 分\na\n ar\n\nr\na 2\n2 a\n  \na 2\n2 a\na 2\n2 a\nn\n2 a\na\na\nn  1\n......6 分\n ( n  )1 a n\nr \nar\nn\nn \n\n\n\nn\nn\na\nn  1\n\nn 1\na\nn\nn\nD  0 ,故方程组有唯一解.\na  0 时,方程组系数行列式\n(II) 解:当\nn\nD 第1 列换成b ,得行列式为\n由克莱姆法则,将\nn\n2 a\n2 a\na\n2 a\na 2\n2 a\n\n\n D\n na n 1\n\n\n\nn \n\n\n\na\n2 a\na 2\n2 a\na 2\n2 a\n\na\n2 a\nn 1\nn\nD\nn\n\n \nx\nn 1\n......9 分\n所以,\n\nD\n( n )1 a\nn\n2008 年 • 第6 页\n郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考\n 0 1\n  x \n\n\n \n\n\nx\n\n \n\n\n 0\n(III) 解:当 a\n时,方程组为\n\n  \n  \n\n\n\n \n\n\nx\n\n \n\n\nn \n\n \n\n\n0   x \n\n\nn\n\nn 1 ,所以方程组有无穷多解,其通解为\n此时方程组系数矩阵的秩和增广矩阵的秩均为\n\n\n\n\nT \nT\nx  0 1 0  0\nk 1 0\n0  0\n,其中k 为任意常数            ......12 分",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q22-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q22-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p7",
+          "bbox": [
+            0.025,
+            0.25683041726548095,
+            0.985,
+            0.4136445633293353
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q22-o1-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p7",
+          "bbox": [
+            0.025,
+            0.4136445633293353,
+            0.985,
+            0.718185919445525
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(22)(本题满分11 分)\nP X  i\n{\n} \n(\ni \n1,0,1) ,Y 的概率密度\n设随机变量X 与Y 相互独立,X 概率分布为\n\n0  y  1\nZ  X  Y\n\n为 f ( )\ny\n记\n,\nY\n其它\n\n(I) 求 P Z\n{ \nX  0} ; (II) 求Z 的概率密度 f z (z ) .\n\n\n\n\n\n\n解:(I)\n......4 分\n\nP Z \nX  0  P X  Y \nX  0  P Y \n\n\n\n\nFZ ( z )  P Z  z  P X  Y  z\n(II)\n\n\n\n\n\n\n P X  Y  z , X  \n1  P X  Y  z , X  0  P X  Y  z , X  1\n\n\n\n\n\n\n P Y  z  ,1 X  \n1  P Y  z , X  0  P Y  z  ,1 X  1\n\n\n\n\n\n\n\n\n\n P Y  z  1 P X  \n1  P Y  z P X  0  P Y  z  1 P X  1\n \n\n\n\n\n\n\n 1\nP Y  z  1  P Y  z  P Y  z  1\n\n)1\n 1 F ( z\n )1\n F ( z )\n F ( z\n\n......7 分\nY\nY\nY\n\n\n\n F z\n 1 f ( z\n 1)\n f ( )\n f ( z\n 1)\nf ( )\nz\n( )\nz\n......9 分\nZ\nZ\nY\nY\nY\n 1 ,  1  z  2\n 3\n\n......11 分\n,0 其他\n",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q23-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "23",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q23-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p7",
+          "bbox": [
+            0.025,
+            0.718185919445525,
+            0.985,
+            0.9313236041774724
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q23-o1-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p8",
+          "bbox": [
+            0.025,
+            0.050277973138115384,
+            0.985,
+            0.060277973138115386
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q23-o1-r3",
+          "page_id": "d-553f056a4e9c7c8aba47-p8",
+          "bbox": [
+            0.025,
+            0.060277973138115386,
+            0.985,
+            0.19602099823237235
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(23)(本题满分11 分)\nN \nX X , \n,\n, X 是总体为\n( , 2 ) 的简单随机样本,记\n设\nn\n1 \n1 n\nn\n1 S\n\n\n X\n\nX\nX ,\nS 2 \n( X  X ) , T\ni\ni\nn\nn  1\nn\ni \ni \n的无偏估计量; (II) 当 \n 0,\n  1\n(I) 证明T 是\n时,求DT.\n(I) 证:因 ET\n E ( X\n\n\n\n2  E X\n2  ( E X )\n2  D X\n2 ......4 分\nS )\nES\nES\nn\nn\nn\n2008 年 • 第7 页\n郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考\n\n\n \n\n \n2 \nn\nn\n的无偏估计量                                                ......7 分\n所以T 是\n  0\n  1 时,由于X 与 S 独立 ,有\n(II) 解:当\n,",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q2-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "2",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q2-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p8",
+          "bbox": [
+            0.025,
+            0.19602099823237235,
+            0.985,
+            0.9313236041774724
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q2-o1-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p9",
+          "bbox": [
+            0.025,
+            0.050277973138115384,
+            0.985,
+            0.060277973138115386
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q2-o1-r3",
+          "page_id": "d-553f056a4e9c7c8aba47-p9",
+          "bbox": [
+            0.025,
+            0.060277973138115386,
+            0.985,
+            0.16200332192772265
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "1 DS\n D ( X\n\n D X\n\n2 ......9 分\nDT\nS 2 )\nn\nn\n\n\n\n\n\n\nD ( n X ) 2\nD ( n )1 S 2\n 2\n2 ( n )1\nn\nn\n2 \n1 \n\n \n\n 2\n\n\n\n\n\n\n( n )1\n......11分\n\n\n2 ( n )1\n 2\nn\nn\nn \nn 1 \nn ( n )1\n2008 年 • 第8 页\n郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考\n数学(二)",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q1-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q1-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p9",
+          "bbox": [
+            0.025,
+            0.20416096070968043,
+            0.985,
+            0.26645691925372433
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "\n 2 (\n\n\n( )\nx x 1)( x 2) ,则 f ( )\nx 的零点个数为                     (D)\n(1)设函数 f x\n(A)0         (B)1            (C)2           (D)3",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q2-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q2-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p9",
+          "bbox": [
+            0.025,
+            0.26645691925372433,
+            0.985,
+            0.41530433125054034
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "y  f x\n( ) ,\n(2)如图,曲线段的方程为\n函数在区间[0, ]\na 上有连续导数,\na xf\n\n\n( )\nx dx 等于                (C)\n则定积分\n(A)曲边梯形ABCD 面积.   (B)梯形ABCD 面积.\n(C)曲边三角形ACD 面积.  (D)三角形ACD 面积.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q3-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q3-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p9",
+          "bbox": [
+            0.025,
+            0.41530433125054034,
+            0.985,
+            0.4438520693534967
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(3)【 同数学一(3)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q4-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q4-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p9",
+          "bbox": [
+            0.025,
+            0.4438520693534967,
+            0.985,
+            0.5438889155653888
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "ln x\nf ( x ) \nsin x ,则 f (x ) 有                                   (A)\n(4)判断函数\nx  1\n(A)1 个可去间断点,1 个跳跃间断点; (B)1 个跳跃间断点,1 个无穷间断点.\n(C)2 个跳跃间断点;                (D)2 个无穷间断点",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q5-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q5-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p9",
+          "bbox": [
+            0.025,
+            0.5438889155653888,
+            0.985,
+            0.573863461907309
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(5)【 同数学一(4)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q6-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q6-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p9",
+          "bbox": [
+            0.025,
+            0.573863461907309,
+            0.985,
+            0.7535200971970089
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "2  2\nf ( x\ny )\n D\n(6)设函数f 连续,若 F (\nu , v )\ndxdy ,\n y 2\nx 2\nu v\nD 为图中阴影部分,\n其中区域\nuv\n\n则F\n\n(A)\n\nu\nv\nv\nu 2 ) (B)\nf (\nu 2 ) (C) vf (u ) (D)\nf (u )\n(A) vf (\nu\nu",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q7-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q7-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p9",
+          "bbox": [
+            0.025,
+            0.7535200971970089,
+            0.985,
+            0.7801130781934359
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(7)【 同数学一(5)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q8-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q8-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p9",
+          "bbox": [
+            0.025,
+            0.7801130781934359,
+            0.985,
+            0.9313236041774724
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q8-o2-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p10",
+          "bbox": [
+            0.025,
+            0.050277973138115384,
+            0.985,
+            0.060277973138115386
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q8-o2-r3",
+          "page_id": "d-553f056a4e9c7c8aba47-p10",
+          "bbox": [
+            0.025,
+            0.060277973138115386,
+            0.985,
+            0.08984099801513334
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": " 1\n2 \nA \n(8)设\n ,则在实数域上与A 合同的矩阵为                           (D)\n1 \n 2\n 1\n 2 \n  2\n 2\n\n 2\n 1\n1 \n1 \n\n\n\n\n\n\n\n\n(A)\n(B)\n(C)\n(D)\n 2\n\n\n2 \n2 \n1 \n 1\n\n 1\n 1\n 2\n2008 年 • 第9 页\n郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q9-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q9-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p10",
+          "bbox": [
+            0.025,
+            0.12362616597127674,
+            0.985,
+            0.1791355898950769
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "\n1 cos[\nxf ( x )]\n 1\n\n( )\n(9) 已知函数 f x 连续,且 lim\n,则 f ( 0 )\n.\n ( e x  )1 f ( x )\nx 0",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q10-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "10",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q10-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p10",
+          "bbox": [
+            0.025,
+            0.1791355898950769,
+            0.985,
+            0.21423007310486544
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": " x 2 e\n x )\n xdy\n 0\n\n \ndx\ny\nx C\n(\ne x )\n(10) 微分方程 ( y\n的通解是\n.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q11-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q11-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p10",
+          "bbox": [
+            0.025,
+            0.21423007310486544,
+            0.985,
+            0.252219997717302
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(11) 【 同数学一(10)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q12-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q12-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p10",
+          "bbox": [
+            0.025,
+            0.252219997717302,
+            0.985,
+            0.2861388155003746
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "y  ( x  5\n) x 3 的拐点坐标为\n( \n,1  )\n(12) 曲线\n.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q13-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q13-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p10",
+          "bbox": [
+            0.025,
+            0.2861388155003746,
+            0.985,
+            0.3498548052142765
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "x\n\n y \nz\ny\n\nz \n(ln 2  )1\n(13) 已知\n.\n ,则\n(\n,1 2 )\n\n x \nx",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q14-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q14-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p10",
+          "bbox": [
+            0.025,
+            0.3498548052142765,
+            0.985,
+            0.390076128989994
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "\n \n \n 1\n,3,2\n2 A\n48 ,则\n(14) 设3 阶矩阵A 的特征值是\n.\n,若行列式",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q17-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q17-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p11",
+          "bbox": [
+            0.025,
+            0.08984099801513334,
+            0.985,
+            0.17901283015826705
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q17-o2-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p11",
+          "bbox": [
+            0.025,
+            0.17901283015826705,
+            0.985,
+            0.42262566567434584
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(17)(本题满分9 分)\nx 2 arcsin xdx\n 1\n计算\n.\n1  x 2\nx 2 arcsin x\nx 2 arcsin x\n\n \ndx 是反常积分\n解:由于 lim\n,故\n \n 2\n 2\nx\n1 x\nx 1\n\nx  t\n sin t\narcsin\nx\n令\n,有\n, \nt\n[0,\n)\n\n\nx arcsin x\nt sin t\n\n\n\n\n\ndx\ncos tdt\n2 t sin tdt ......3 分\ncos t\n 2\n1 x\n\n\n\nt sin 2\nt\n\n\n\n\ntdt ......7 分\n2 sin 2\n4 0\n\n\n\n\n cos 2\n\nt 2 \n......9 分",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q18-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q18-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p11",
+          "bbox": [
+            0.025,
+            0.42262566567434584,
+            0.985,
+            0.4953844401041667
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q18-o2-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p11",
+          "bbox": [
+            0.025,
+            0.4953844401041667,
+            0.985,
+            0.6659913074006238
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(18)(本题满分11 分)\n\n\n\n\n\n ( x\n x\n 0,2\n y\n 2\nmax xy 1, dxdy ,其中\nD\n, y ) 0\n计算\n.\nD\nxy  1 将区域D 分成如图所示的两个区域 D 和 D                ......3 分\n解:曲线\n\n\n\n\n\nmax xy\n1, dxdy \nxydxdy \ndxdy ......5 分\nD\nD\nD\n\n\n\n  dx\n \n  dx\nxydy\ndy\n2 dx\nx dy ......8 分\nx\n\n ln 2 1\n  2 ln 2\n\n ln 2\n......11 分",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q19-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q19-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p11",
+          "bbox": [
+            0.025,
+            0.6659913074006238,
+            0.985,
+            0.7715992789015674
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q19-o2-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p11",
+          "bbox": [
+            0.025,
+            0.7715992789015674,
+            0.985,
+            0.9313236041774724
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q19-o2-r3",
+          "page_id": "d-553f056a4e9c7c8aba47-p12",
+          "bbox": [
+            0.025,
+            0.050277973138115384,
+            0.495,
+            0.060277973138115386
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q19-o2-r4",
+          "page_id": "d-553f056a4e9c7c8aba47-p12",
+          "bbox": [
+            0.025,
+            0.060277973138115386,
+            0.495,
+            0.21293918939909667
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(19)(本题满分11 分)\n是区间\n\n\nf (x )\n,0\nf ( 0 )  1 ,对任意的\n设\n上具有连续导数的单调增加函数,且\n\n\ny  f (x ) 以及x 轴围成的曲边梯形绕x 轴旋转一周生\nt  ,0  ,直线\nx ,0 x  t ,曲线\nf (x ) 的表达式.\n成一旋转体,若该旋转体的侧面面积在数值上等于其体积的2 倍,求函数\n t\n t\nV   f 2 ( x ) dx ,侧面积\nS  2\nf ( x ) 1  f 2' ( x ) dx ,\n解:旋转体的体积\nt\nt\n\n\nf 2 ( x ) dx \nf ( x ) 1  f ; 2 ( x ) dx ......4 分\n由题设条件知\n\n上式两端对t 求导得: f 2 (\nt )  f (\nt ) 1  f 2' (\nt ) , 即\ny\ny 2  1 ......6 分\n2008 年 • 第11 页\n郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考\n\n2  1\n  C\ny\n)\nt\n,即 y\n由分离变量法解得 ln( y\n 1\n 1\n\n  te\ny ( 0\n)\nC\ny\ny 2\n将\n代入知\n,故\n f ( x )\n\n \n(\ne x\ne x ) ......11 分\n于是所求函数为 y",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q20-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q20-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p12",
+          "bbox": [
+            0.025,
+            0.21293918939909667,
+            0.495,
+            0.37081092642418745
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q20-o2-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p12",
+          "bbox": [
+            0.025,
+            0.37081092642418745,
+            0.495,
+            0.7669825560454127
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(20)(本题满分11 分)\n在闭区间\n(I) 证明积分中值定理:若函数 f (x )\nb\n\n f ( ()\n b\n a )\nf ( x ) dx\n使得\n;\na\n\n\n(II) 若函数 (x ) 具有二阶导数,且满足\n\n\n 3,1(\n\n) ,使得\n( )  0\n一点\n在\n在\n证:(I) 设M 与m 是连续函数 f (x )\na, b 上的最大值与最小值,即\nm  f ( x )  M ,\nb\n\nm b\n(  a ) \nf ( x ) dx  M (\nb  a ) ,即\n由积分性质,有\na\n\n\n a, b\n由连续函数介值定理,至少存在一点\nb\n\n b  a )\nf ( x ) dx  f ( )(\n即\n......4 分\na\n\n\n\n 3,2\n(II) 由 (I) 知至少存在一点\n,使\n \n )\n \n\n\n 3\n( 2\n( x ) dx\n( ) 知,\n又由\n,对\n )\n )\n( 2  \n)1( ,\n( 2  \n中值定理,并注意到\n )\n( 2  \n)1(\n \n 1,0    2\n  ) \n(' ) \n('\n,\n2  1\n\n ,\n[ 1  ] 上对导函数\n( )\nx 应用拉格朗日中值定理,有\n在\n\n\n  \n( )\n( )\n\n\n ( ,\n( ) \n1  0,   )  (1,3) ......11 分\n  \n1 2",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q21-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q21-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p12",
+          "bbox": [
+            0.025,
+            0.7669825560454127,
+            0.495,
+            0.8302991439657531
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q21-o2-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p12",
+          "bbox": [
+            0.025,
+            0.8302991439657531,
+            0.495,
+            0.9313236041774724
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q21-o2-r3",
+          "page_id": "d-553f056a4e9c7c8aba47-p12",
+          "bbox": [
+            0.495,
+            0.09363891939239713,
+            0.985,
+            0.8653413923376988
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q21-o2-r4",
+          "page_id": "d-553f056a4e9c7c8aba47-p13",
+          "bbox": [
+            0.025,
+            0.050277973138115384,
+            0.985,
+            0.060277973138115386
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q21-o2-r5",
+          "page_id": "d-553f056a4e9c7c8aba47-p13",
+          "bbox": [
+            0.025,
+            0.060277973138115386,
+            0.985,
+            0.29720382241600396
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(21)(本题满分11 分)\n 2  2  2\nx\ny\nz 在约束条件\nz  x 2  y 2 和 x\n求函数 u\nF ( x , , , \n, y z  )  x 2  y 2  z 2  \n解:作拉格朗日函数\n2008 年 • 第12 页\n\n2   Ce\nt\ny\n......9 分\n\n \ny\n(\ne t\ne t )\n,\n\n\n\n\n a, b\na, b 上连续,则至少存在一点\n,\n \n\n  \n( 2 )\n( x ) dx ,则至少存在\n( 2 )\n)1( ,\n\n\n\nx  a , b\nb\n\nm \nf ( x ) dx  M ......2 分\nb  a a\n\nb\n\nf (\n) \nf ( x ) dx ,\n,使得\nb  a a\n \n \n\n 2\n \n\n( x ) dx\n( )( 3\n)\n( ) ......6 分\n\n[ 上分别应用拉格朗日\n(x ) 在\n2,1[ ] 和\n,2 ]\n\n( ) ,得\n\n   )\n( )\n( 2\n 2,0    \n 3\n......9 分\n\n 2\n y\n  4\nz\n下的最大值与最小值.\n( x 2  y 2  z )  \n( x  y  z  )4 ......3 分\n郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考\n ' \n   \n 0\nF\n2 x\n2 x\nx\n\n 2 y\n   \n 0\nF '\n2 y\n\ny\n\n'  2 z\n \n \n 0\n......6 分\n令  F\nz\n\nF '  x 2  y 2  z  0\n\n\n\nF '  x  y  z  4  0\n \n( x , y , z )  2,1,1( ) ,\n( x , y , z )  (  ,2  8,2\n) ......9 分\n解方程组得\n故所求的最大值为72,最小值为6.                                        ......11 分",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q22-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q22-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p13",
+          "bbox": [
+            0.025,
+            0.29720382241600396,
+            0.985,
+            0.32674741282975306
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(22)(本题满分12 分) 【 同数学一(21)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q23-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "23",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q23-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p13",
+          "bbox": [
+            0.025,
+            0.32674741282975306,
+            0.985,
+            0.4653735044276236
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q23-o2-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p13",
+          "bbox": [
+            0.025,
+            0.4653735044276236,
+            0.985,
+            0.9313236041774724
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q23-o2-r3",
+          "page_id": "d-553f056a4e9c7c8aba47-p14",
+          "bbox": [
+            0.025,
+            0.050277973138115384,
+            0.985,
+            0.060277973138115386
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q23-o2-r4",
+          "page_id": "d-553f056a4e9c7c8aba47-p14",
+          "bbox": [
+            0.025,
+            0.060277973138115386,
+            0.985,
+            0.16878983544314058
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(23)(本题满分10 分)\n为A 的分别属于特征值-1,1 的特征向量,向量 满足\n,\n设A 为3 阶矩阵,\nA    \n,\n线性无关;\n,\n,\n(I) 证明\n\n \n,\n} ,求 P AP .\n(II)令 P { ,\n  k\n    ○\nk\n证明: (I) 设存在数 k , k , k ,使得 k\n1 1\n2 2\n3 3\n  \n\n  \n用A 左乘○\nA\n1 的两边,并由 A\n,\n,得:\n k   (\n  k   0 ○\nk  k )\n2                                  ......3 分\n1 1\n3 3\n    ○\n○\n1 -○\nk\nk\n2 得: 2\n1 1\n3 2\n\n1,\n\n1,\nk k  0\n因为\n是A 的属于不同特征值的特征向量,所以\n线性无关,从而\n\n2  0\n线性无关.  ......7 分\n代入○\nk   0 ,又由于\nk 2  0 ,故\n,\n,\n1 得,\n,所以\n2 2\n )  ( A\n\n , A\n )\nAP  A   ,\n(\n,\n, A\n(II)由题设,可得\n 1 0\n 1 0\n0 \n0 \n\n\n\n\n    )\n P\n(\n,\n,\n1 \n1 \n 0\n 0\n\n\n\n\n\n\n\n\n 1 0\n0 \n\n\n\n\n由(I)知,P 为可逆矩阵,从而 P 1AP\n1  ......10 分\n 0\n\n\n\n\n2008 年 • 第13 页\n郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考\n数学(三)",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q4-o3",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q4-o3-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p14",
+          "bbox": [
+            0.025,
+            0.41010376449310604,
+            0.985,
+            0.4390387761497234
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(4)【 同数学二(6)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q5-o3",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q5-o3-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p14",
+          "bbox": [
+            0.025,
+            0.4390387761497234,
+            0.985,
+            0.46734673529168114
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(5)【 同数学一(5)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q6-o3",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q6-o3-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p14",
+          "bbox": [
+            0.025,
+            0.46734673529168114,
+            0.985,
+            0.49473265273365463
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(6)【 同数学二(8)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q7-o3",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q7-o3-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p14",
+          "bbox": [
+            0.025,
+            0.49473265273365463,
+            0.985,
+            0.5212241335878068
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(7)【 同数学一(7)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q8-o3",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q8-o3-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p14",
+          "bbox": [
+            0.025,
+            0.5212241335878068,
+            0.985,
+            0.5530913231138702
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(8)【 同数学一(8)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q9-o3",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q9-o3-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p14",
+          "bbox": [
+            0.025,
+            0.6167888812798956,
+            0.985,
+            0.669366137886663
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "f x\n( )  2 ,\n在( 内连续,则 c \n,\n)\n(9)  设函数\n.\n c\nx\n\nx",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q10-o3",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "10",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q10-o3-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p14",
+          "bbox": [
+            0.025,
+            0.669366137886663,
+            0.985,
+            0.7220032759192024
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "\n1 \nx  x 3\n,求积分 2 2\n\n\n\nf ( x ) dx\n(10) 函数 f  x\n.\n\nln 3\n 4\n\nx \n1 x\n\n",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q11-o3",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q11-o3-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p14",
+          "bbox": [
+            0.025,
+            0.7220032759192024,
+            0.985,
+            0.7708552915820223
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": ",则\n\n ( x\n2  2  1\n2  y ) dxdy\n( x\n\n, y ) x\ny\n(11) 设 D\n/ 4\n.\nD",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q12-o3",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q12-o3-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p14",
+          "bbox": [
+            0.025,
+            0.7708552915820223,
+            0.985,
+            0.8013024921478792
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(12) 【 同数学一(9)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q13-o3",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q13-o3-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p14",
+          "bbox": [
+            0.025,
+            0.8013024921478792,
+            0.985,
+            0.8419608546565237
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "4 A 1  E =   _3___ .\n(13) 设3 阶矩阵A 的特征值是1, 2, 2,E 为3 阶单位矩阵,则",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q14-o3",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q14-o3-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p14",
+          "bbox": [
+            0.025,
+            0.8419608546565237,
+            0.985,
+            0.9313236041774724
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q14-o3-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p15",
+          "bbox": [
+            0.025,
+            0.050277973138115384,
+            0.985,
+            0.060277973138115386
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q14-o3-r3",
+          "page_id": "d-553f056a4e9c7c8aba47-p15",
+          "bbox": [
+            0.025,
+            0.060277973138115386,
+            0.985,
+            0.08984099801513334
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(14) 【 同数学一(14)题 】\n2008 年 • 第14 页\n郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q15-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "15",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q15-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p15",
+          "bbox": [
+            0.025,
+            0.1216897559933203,
+            0.985,
+            0.19443013053250346
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q15-o1-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p15",
+          "bbox": [
+            0.025,
+            0.19443013053250346,
+            0.985,
+            0.314041069540795
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(15)(本题满分9 分)\nsin x\nln\n计算 lim\n.\nx\n x\nx 0\nlnsin x  ln x\nx cos x  sin x\n解:原式= lim\n= lim\n......4 分\nx 2\n2 x sin x\nx \nx \n x sin x\nx cos x  sin x\n lim\n lim\n......7 分\n2 x 3\n6 x 2\nx \nx \n......9 分\n ",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q16-o1",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "16",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q16-o1-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p15",
+          "bbox": [
+            0.025,
+            0.314041069540795,
+            0.985,
+            0.7607493160910846
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(16)(本题满分10 分)\n z x y\n y 2\n    z )\n所确定的函数,其中具有二阶导数\nz\n( , ) 是由方程\nx 2\nz\n( x\ny\n设\n,\n且\n\n\n\nz\nz\nu\n\n\n(I) 求 dz ; (II) 记 u x y\n( , )\n(\n) ,求\n.\n y\n\n\n\nx\nx\ny\nx\n 2  2   ( x\n  y\n z )\n, y\n, z )\nx\ny\nz\n解法1:(I) 设 F ( x\n\n\n 2 x\n \n y \n \n \n\n......3 分\n则 F\n, F\n, zF\nx\ny\n\n\n F\n F\n\n \n\n\n \n\nz\nz\nz\n2 x\nz\n2 y\ny\n\n\nx\n,得\n由公式\n,\n,\n\n\n\n\n\n\n\n \n\n \nx\ny\nx\ny\nF\nF\nz\nz\n\n\nz\nz\n\n\n\n\ndz \ndx \ndy \n(2 x  \n) dx  (2 y  \n) dy ......7 分\n所以\n\n\n\nx\ny\n1  \n\n\n\n\n \nu\nz\n2(2 x 1)\n \n\n\n\n\n(1\n)\n( , )\n(II) 由于 u x y\n, 所以\n......10 分\n\n\n \n 2\n\n \n 3\n \nx\n(1\n)\nx\n(1\n)\nx 2  y 2  z  \n( x  y  z ) 两端求微分,得\n解法2:(I) 对等式\n 2 ydy\n dz\n   ( dx\n dy\n dz )\n2 xdx\n......5 分\n \n\n \n\n2 x\n2 y\n\n\ndx\ndy ......7 分\n解出dz 得 dz\n\n\n \n \n(II) 同解法1                                                      ......10 分",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q17-o3",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q17-o3-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p15",
+          "bbox": [
+            0.025,
+            0.7607493160910846,
+            0.985,
+            0.7925796425213953
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(17)(本题满分11 分) 【 同数学二(18)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q18-o3",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q18-o3-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p15",
+          "bbox": [
+            0.025,
+            0.7925796425213953,
+            0.985,
+            0.9313236041774724
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q18-o3-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p16",
+          "bbox": [
+            0.025,
+            0.050277973138115384,
+            0.985,
+            0.060277973138115386
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q18-o3-r3",
+          "page_id": "d-553f056a4e9c7c8aba47-p16",
+          "bbox": [
+            0.025,
+            0.060277973138115386,
+            0.985,
+            0.7441148582025848
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "( )\n(18)(本题满分10 分) f x 是周期为2 的连续函数,\nt  2\n\n  f ( x ) dx\nf ( x ) dx\n(I) 证明对任意实数t,有\n;\nt\n\n x\n t 2\n\n\n[ 2 f (\nt )\nf ( s ) ds dt 是周期为2 的周期函数.\n]\n(II) 证明 G ( x )\nt\n2008 年 • 第15 页\n郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考\n证法1:(I) 由积分的性质知对任意的实数t,\nt  2\nt  2\n\n  f ( x ) dx\n  f ( x ) dx\n \nf ( x ) dx\nf ( x ) dx ......2 分\nt\nt\n\n t 2\n t\n t\n 0\nx  2\n\n 2\n\n \nf ( x ) dx\nf ( s\n) ds\nf ( s ) ds\nf ( x ) dx\n令 s\n,则有\nt\nt  2\n\n\n\n\n\nf ( x ) dx \nf ( x ) dx \nf ( x ) dx \nf ( x ) dx \nf ( x ) dx ......5 分\n所以\nt\nt\nt\nt  2\n\n  f ( s ) ds\n(II) 由 (I) 知对任意的t 有\nf ( s ) ds\nt\nx\n\n0\nf ( s ) ds  a ,则\nG ( x )\nf (\nt ) dt  ax\n记\nx  2\nx\n 2\n G ( x )\n \n a ( x\n 2\n  f (\n ax\n因为对任意的x , G ( x\n)\nf (\nt ) dt\n)\nt ) dt\n\n x 2\n 2 a\nf (\nt ) dt\n......8 分\nx\n\nf (\nt ) dt  2 a  0\nG (x ) 是周期为2 的周期函数.                                        ......10 分\n所以\n\n t 2\nF (\nt ) \nf ( x ) dx ,由于\nF ' (\nt )  f (\nt  2\n)  f (\nt )  0 ,  ......2 分\n证法2:(I) 设\nt\n F ( 0\nF (t ) 为常数,从而有\nF (\nt )\n)\n所以\nt  2\n\n  f ( x ) dx\n  f ( x ) dx\n  f ( x ) dx\nF ( 0\n)\nF (\nt )\nf ( x ) dx\n而\n,所以\n,即\n......5 分\nt\n\n t 2\n 2\n\n(II) 由 (I) 知对任意的t 有\nf ( s ) ds\nf ( s ) ds\nt\nx\nx  2\n0\n\n\nG ( x )\nf (\nt ) dt  ax\nG ( x  2\n)  2\nf (\nt ) dt  a ( x  2\n) ......7 分\nf ( s ) ds  a ,则\n记\n,\n \n\n 2))\n 2)\n a\n 2 ( )\n a ,( ( ))\n\n由于对任意x ,( (\nG x\n2 (\nf x\nf x\nG x\n2 ( ) a\nf x\n 2)\n G x   0\n 2 )\n G ( x )\n所以( (\nG x\n( ))\n是常数,\n,从而 G ( x\n 2\n G ( x )\n G ( 2\n G ( 0\n 0\n)\n)\n)\n即有 G ( x\n,所以 G (x ) 是周期为2 的周期函数.  ......10 分",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q19-o3",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q19-o3-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p16",
+          "bbox": [
+            0.025,
+            0.7441148582025848,
+            0.985,
+            0.8540280594005735
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q19-o3-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p16",
+          "bbox": [
+            0.025,
+            0.8540280594005735,
+            0.985,
+            0.9313236041774724
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q19-o3-r3",
+          "page_id": "d-553f056a4e9c7c8aba47-p17",
+          "bbox": [
+            0.025,
+            0.050277973138115384,
+            0.985,
+            0.060277973138115386
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q19-o3-r4",
+          "page_id": "d-553f056a4e9c7c8aba47-p17",
+          "bbox": [
+            0.025,
+            0.060277973138115386,
+            0.985,
+            0.36512452657654737
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(19)(本题满分10 分)\n .0\nr\n05 ,并依年复利计算,某基金会希望通过存款A 万元实\n设银行存款的年利率为\n 9 n )\n现第一年提取19 万元,第二年提取28 万元,...,第n 年提取 (\n万元,并能按此规\n律一直提取下去,问A 至少应为多少万元?\nA 为用于第n 年提取 (\n10  9 n ) 万元的贴现值,则\nA  1(  r )  n (\n10  9 )\nn\n解:设\nn\nn\n2008 年 • 第16 页\n郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考\n\n 10  9 n\n\n\nA \nA \n故\n......3 分\nn\n1(  r ) n\nn \nn \n\n\n\n9 n\nn\n\n\n\n 10\n\n 200\n 9\n......6 分\n\nn\n\nn\n\nn\n1( r )\n1( r )\n1( r )\nn \nn \nn \n\n\nS ( x ) \nnx n ,\nx  (\n)1,1\n设\nn \n\nx\nx\n\n\n\nS x\n( )  x (\nx n )  x (\n) \nx  (\n)1,1 ......9 分\n因为\n,\n1  x\n(1  x ) 2\nn \n 1 \n 1 \n\n  \n  420 (万元)\nS\n所以 S\n\n 1 r \n .1\n05 \nA  200  9  420  3980 (万元),即至少应存入3980 万元.             ......10 分\n故",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q20-o3",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q20-o3-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p17",
+          "bbox": [
+            0.025,
+            0.36512452657654737,
+            0.985,
+            0.39579303234587515
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(20) ( 本题满分12 分 ) 【 同数学一(21)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q21-o3",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q21-o3-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p17",
+          "bbox": [
+            0.025,
+            0.39579303234587515,
+            0.985,
+            0.42675661171983054
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(21) ( 本题满分10 分 ) 【 同数学二(23)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q22-o3",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q22-o3-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p17",
+          "bbox": [
+            0.025,
+            0.42675661171983054,
+            0.985,
+            0.4569640755343405
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(22) ( 本题满分11 分 ) 【 同数学一(22)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q23-o3",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "23",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q23-o3-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p17",
+          "bbox": [
+            0.025,
+            0.4569640755343405,
+            0.985,
+            0.9313236041774724
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q23-o3-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p18",
+          "bbox": [
+            0.025,
+            0.050277973138115384,
+            0.985,
+            0.060277973138115386
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q23-o3-r3",
+          "page_id": "d-553f056a4e9c7c8aba47-p18",
+          "bbox": [
+            0.025,
+            0.060277973138115386,
+            0.985,
+            0.15907101742932192
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(23) ( 本题满分11 分 ) 【 同数学一(23)题 】\n2008 年 • 第17 页\n郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考\n数学(四)",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q4-o4",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q4-o4-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p18",
+          "bbox": [
+            0.025,
+            0.45640665487497845,
+            0.985,
+            0.4873190761511642
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(4)【 同数学二(2)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q5-o4",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q5-o4-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p18",
+          "bbox": [
+            0.025,
+            0.4873190761511642,
+            0.985,
+            0.5197119024689157
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(5)【 同数学一(5)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q6-o4",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q6-o4-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p18",
+          "bbox": [
+            0.025,
+            0.5197119024689157,
+            0.985,
+            0.5520770392552011
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(6)【 同数学二(8)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q7-o4",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q7-o4-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p18",
+          "bbox": [
+            0.025,
+            0.5520770392552011,
+            0.985,
+            0.5849032179963045
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(7)【 同数学一(7)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-choice-q8-o4",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-choice-q8-o4-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p18",
+          "bbox": [
+            0.025,
+            0.5849032179963045,
+            0.985,
+            0.6187068175003242
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(8)【 同数学一(8)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q9-o4",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q9-o4-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p18",
+          "bbox": [
+            0.025,
+            0.6500945335236933,
+            0.985,
+            0.6774066825645099
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(9) 【 同数学三(9)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q10-o4",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "10",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q10-o4-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p18",
+          "bbox": [
+            0.025,
+            0.6774066825645099,
+            0.985,
+            0.7491494566098289
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "f x\n( )\n 2\nx  0\nf x 连续且 lim\n( )\ny  f x\n( ) 上对应\n(10) 已知函数\n,则曲线\n处切线方程是\nx\nx \n 2 x\ny\n.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q11-o4",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q11-o4-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p18",
+          "bbox": [
+            0.025,
+            0.7491494566098289,
+            0.985,
+            0.7926903162279564
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": " 2\n 1\ny\n\ndx x ln xdy\n1 / 2\n(11)\n.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q12-o4",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q12-o4-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p18",
+          "bbox": [
+            0.025,
+            0.7926903162279564,
+            0.985,
+            0.8265264171637275
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(12) 【 同数学二(10)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q13-o4",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q13-o4-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p18",
+          "bbox": [
+            0.025,
+            0.8265264171637275,
+            0.985,
+            0.8639064685897158
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "A  0 ,则A 的秩为___2___.\n(13) 设3 阶矩阵A 的特征值互不相同,且行列式",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-blank-q14-o4",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q14-o4-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p18",
+          "bbox": [
+            0.025,
+            0.8639064685897158,
+            0.985,
+            0.9313236041774724
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q14-o4-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p19",
+          "bbox": [
+            0.025,
+            0.050277973138115384,
+            0.985,
+            0.060277973138115386
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-blank-q14-o4-r3",
+          "page_id": "d-553f056a4e9c7c8aba47-p19",
+          "bbox": [
+            0.025,
+            0.060277973138115386,
+            0.985,
+            0.08984099801513334
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(14) 【 同数学一(14)题 】\n2008 年 • 第18 页\n郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q15-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "15",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q15-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p19",
+          "bbox": [
+            0.025,
+            0.12473264977897902,
+            0.985,
+            0.15790923897799064
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(15)(本题满分9 分) 【 同数学三(15)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q16-o2",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "16",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q16-o2-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p19",
+          "bbox": [
+            0.025,
+            0.15790923897799064,
+            0.985,
+            0.2415485676633097
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q16-o2-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p19",
+          "bbox": [
+            0.025,
+            0.2415485676633097,
+            0.985,
+            0.4697441872244555
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(16)(本题满分10 分)\n\n\n x ) dt ( 0\nx  )1\ny  f (x )\nt (\nt\n( )\n设函数 f ( x )\n,求 f x 的极值、单调区间及曲线\n的\n凹凸区间.\nx\nx\n\n\n\nf ( x ) \nt ( x  t ) dt \nt (\nt  x ) dt \nx 3 \n解:\n......4 分\nx\n\n 0\nf ( )\nx  x 2 \nx \n, x  \n令\n,得\n(舍去)\n\n 2 x\n 0\nx  1\nx\n)                                           ......5 分\n因 f ( )\n( 0\n\n\n\ny  f (x )\nx\nf x 的极小值点,极小值 f (\n( )\n)\n1(\n) ,且曲线\n( )1,0 内\n故\n为\n在\n是凹的.                                                                 ......8 分\n\n 2 \nx\nx\n( )\n) 内单调递减,在 (\n)1, 内单调递增.     ......10 分\n由 f ( )\n知, f x 在 ( ,0",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q17-o4",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q17-o4-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p19",
+          "bbox": [
+            0.025,
+            0.4697441872244555,
+            0.985,
+            0.4985500514169836
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(17)(本题满分11 分) 【 同数学二(21)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q18-o4",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q18-o4-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p19",
+          "bbox": [
+            0.025,
+            0.4985500514169836,
+            0.985,
+            0.5257054478815483
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(18)(本题满分10 分) 【 同数学三(16)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q19-o4",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q19-o4-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p19",
+          "bbox": [
+            0.025,
+            0.5257054478815483,
+            0.985,
+            0.5546773226339182
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(19)(本题满分10 分) 【 同数学三(18)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q20-o4",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q20-o4-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p19",
+          "bbox": [
+            0.025,
+            0.5546773226339182,
+            0.985,
+            0.5827271134766525
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(20)(本题满分12 分) 【 同数学一(21)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q21-o4",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q21-o4-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p19",
+          "bbox": [
+            0.025,
+            0.5827271134766525,
+            0.985,
+            0.6101498940143787
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(21)(本题满分10 分) 【 同数学二(23)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q22-o4",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q22-o4-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p19",
+          "bbox": [
+            0.025,
+            0.6101498940143787,
+            0.985,
+            0.6400991473200135
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(22)(本题满分11 分) 【 同数学一(22)题 】",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-553f056a4e9c7c8aba47-s0-solution-q23-o4",
+      "document_id": "d-553f056a4e9c7c8aba47",
+      "number": "23",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2008年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q23-o4-r1",
+          "page_id": "d-553f056a4e9c7c8aba47-p19",
+          "bbox": [
+            0.025,
+            0.6400991473200135,
+            0.985,
+            0.7611797138388227
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-553f056a4e9c7c8aba47-s0-solution-q23-o4-r2",
+          "page_id": "d-553f056a4e9c7c8aba47-p19",
+          "bbox": [
+            0.025,
+            0.7611797138388227,
+            0.985,
+            0.9313236041774724
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2008",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "郝海龙:考研数学复习大全·配套光盘·2008 年数学试题参考答案和评分参考"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(23)(本题满分11 分)\n设某企业生产线上产品合格率为0.96,不合格产品中只有3\n产品可进行再加工,且再\n加工合格率为0.8,其余均为废品,每件合格品获利80 元,每件废品亏损20 元,为保证该\n企业每天平均利润不低于2 万元,问企业每天至少应生产多少件产品?\np  .0\n96  .0\n04  .0\n75  8.0  .0\n984 ......4 分\n解:进行再加工后,产品的合格率\n记X 为n 件产品中的合格产品数, T (n ) 为n 件产品的利润,则\nX ~ B ( n\n, p ), EX  np  .0\n984 n ......8 分\n 80 X\n 20 ( n\n X )\n 100 EX\n 20 n\n 78.4 n\nT ( n )\n( )\n, ET n\n......10 分\nET ( n )  20000 ,则\nn  256 ,即该企业每天至少应生产256 件产品.        ......11 分\n要\n2008 年 • 第19 页",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [],
+  "identity": {
+    "category": "考研数一",
+    "year": "2008",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

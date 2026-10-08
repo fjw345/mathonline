@@ -1,0 +1,5420 @@
+{
+  "item": {
+    "id": "d-777002d3fd9cab3d960b",
+    "path": "resource/北交大历年期末真题/历年微积分上月考二（2017-2023）试题及答案.pdf",
+    "name": "历年微积分上月考二（2017-2023）试题及答案.pdf",
+    "sha256": "3b3688ed7234e1b8c303b027bcdd2610ca0c7bf7432ffe9c0809744dca4c212c",
+    "format": "pdf",
+    "bytes": 2654472,
+    "included": true,
+    "monthly": true,
+    "status": "renderable",
+    "pages": 28,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1058,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1123,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1314,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1401,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1269,
+        "renderable": true
+      },
+      {
+        "number": 6,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 966,
+        "renderable": true
+      },
+      {
+        "number": 7,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1500,
+        "renderable": true
+      },
+      {
+        "number": 8,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1391,
+        "renderable": true
+      },
+      {
+        "number": 9,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1199,
+        "renderable": true
+      },
+      {
+        "number": 10,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1024,
+        "renderable": true
+      },
+      {
+        "number": 11,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1174,
+        "renderable": true
+      },
+      {
+        "number": 12,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1263,
+        "renderable": true
+      },
+      {
+        "number": 13,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1046,
+        "renderable": true
+      },
+      {
+        "number": 14,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 554,
+        "renderable": true
+      },
+      {
+        "number": 15,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 663,
+        "renderable": true
+      },
+      {
+        "number": 16,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 969,
+        "renderable": true
+      },
+      {
+        "number": 17,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 948,
+        "renderable": true
+      },
+      {
+        "number": 18,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1000,
+        "renderable": true
+      },
+      {
+        "number": 19,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 755,
+        "renderable": true
+      },
+      {
+        "number": 20,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 627,
+        "renderable": true
+      },
+      {
+        "number": 21,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 917,
+        "renderable": true
+      },
+      {
+        "number": 22,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 993,
+        "renderable": true
+      },
+      {
+        "number": 23,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 762,
+        "renderable": true
+      },
+      {
+        "number": 24,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1130,
+        "renderable": true
+      },
+      {
+        "number": 25,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1284,
+        "renderable": true
+      },
+      {
+        "number": 26,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 1007,
+        "renderable": true
+      },
+      {
+        "number": 27,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 899,
+        "renderable": true
+      },
+      {
+        "number": 28,
+        "width": 592.5,
+        "height": 839.1500244140625,
+        "text_chars": 873,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "3b3688ed7234e1b8c303b027bcdd2610ca0c7bf7432ffe9c0809744dca4c212c",
+  "engine_version": 6,
+  "status": "detected",
+  "pdf_path": "resource/北交大历年期末真题/历年微积分上月考二（2017-2023）试题及答案.pdf",
+  "pdf_sha256": "3b3688ed7234e1b8c303b027bcdd2610ca0c7bf7432ffe9c0809744dca4c212c",
+  "pages": [
+    {
+      "id": "d-777002d3fd9cab3d960b-p1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 1,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p2",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 2,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p3",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 3,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p4",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 4,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p5",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 5,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p6",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 6,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p7",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 7,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p8",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 8,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p9",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 9,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p10",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 10,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p11",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 11,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p12",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 12,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p13",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 13,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p14",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 14,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p15",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 15,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p16",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 16,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p17",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 17,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p18",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 18,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p19",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 19,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p20",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 20,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p21",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 21,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p22",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 22,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p23",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 23,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p24",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 24,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p25",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 25,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p26",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 26,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p27",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 27,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-p28",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": 28,
+      "width": 592.5,
+      "height": 839.1500244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-777002d3fd9cab3d960b-s1-choice-q1-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-choice-q1-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p1",
+          "bbox": [
+            0.025,
+            0.2090444557619324,
+            0.985,
+            0.287344719385698
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2017",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2017-2018 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "1.下列反常积分中收敛的是(\n).\nln xdx\ndx\ndx\ndx\n\n\n\n\n\n\n\n\n; (B)\n; (C)\n; (D)\n2 . 答:D\n(A)\n\n\nx\nx ln x\nx ln x\nx ln x\ne\ne\ne\ne",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s1-choice-q2-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "2",
+      "kind": "choice",
+      "answer": "A",
+      "tags": [
+        "北交月考",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-choice-q2-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p1",
+          "bbox": [
+            0.025,
+            0.287344719385698,
+            0.985,
+            0.4347490239393964
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-choice-q2-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p1",
+          "bbox": [
+            0.025,
+            0.4347490239393964,
+            0.985,
+            0.4721519518714853
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2017",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2017-2018 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "\n\n\n \nx  f x\n2.设函数 f x 连续, F x 可导,且 F\n,则下列命题中正确的是(\n).\n\n\n(A) f x 为奇函数的充要条件是 F x 为偶函数;\n\n\n(B) f x 为偶函数的充要条件是 F x 为奇函数;\n\n\n(C) f x 为周期函数的充要条件是 F x 为周期函数;",
+      "answer_hint": "\n\nf x 单调增加的充要条件是 F x 单调增加.\n(D)\n答:A",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s1-choice-q3-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "3",
+      "kind": "choice",
+      "answer": "B",
+      "tags": [
+        "北交月考",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-choice-q3-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p1",
+          "bbox": [
+            0.025,
+            0.4721519518714853,
+            0.985,
+            0.5482289279550729
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-choice-q3-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p1",
+          "bbox": [
+            0.025,
+            0.5482289279550729,
+            0.985,
+            0.5854717793782277
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2017",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2017-2018 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "\nf x 是以T 为周期的函数,下列函数中以T 为周期的函数是(\n3.设\n).\nx f t dt\nx\n\n\n\n\n f t dt \n\n; (B)\nf t dt ;\n(A)\n x",
+      "answer_hint": "x\n\n\n\n x f t dt ;\n f t dt \n\nf t dt .\n(C)\n(D)\n答:B\n x",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s1-choice-q4-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "4",
+      "kind": "choice",
+      "answer": "C",
+      "tags": [
+        "北交月考",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-choice-q4-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p1",
+          "bbox": [
+            0.025,
+            0.5854717793782277,
+            0.985,
+            0.6239404374281837
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-choice-q4-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p1",
+          "bbox": [
+            0.025,
+            0.6239404374281837,
+            0.985,
+            0.6561953266532999
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2017",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2017-2018 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "x 2\n\n\n\n\n0 ln 2  t dt ,\nf  x\nf x  \n4.设函数\n则\n的零点个数为(\n).",
+      "answer_hint": "(A)0;\n(B)2;\n(C)1;\n(D)4.\n答:C",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s1-choice-q5-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "5",
+      "kind": "choice",
+      "answer": "C",
+      "tags": [
+        "北交月考",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-choice-q5-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p1",
+          "bbox": [
+            0.025,
+            0.6561953266532999,
+            0.985,
+            0.7344649932980007
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-choice-q5-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p1",
+          "bbox": [
+            0.025,
+            0.7344649932980007,
+            0.985,
+            0.7712715104642397
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2017",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2017-2018 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "f x 在\n\n\n\n\n0,1 有连续导数,且 f 0  0\nM  max f  x\n5.函数\n,令\n,则必有( ).\n \nx\n 0,1\nM\n\n\nM   f x dx  3\nM ; (B)\n  f x dx  M ;\n(A)",
+      "answer_hint": "M\n\n f x dx  3 M .\n f \n;\nx dx \n(C)\n(D)\n答:C",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s1-blank-q1-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "1",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q1-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p1",
+          "bbox": [
+            0.025,
+            0.7971939160404348,
+            0.985,
+            0.8424778329735642
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2017",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2017-2018 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "1  x 4 arcsin x dx\n\n\n\n1.定积分\n.\n 1\n4  x 2\n\n",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s1-blank-q2-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "2",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q2-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p1",
+          "bbox": [
+            0.025,
+            0.8424778329735642,
+            0.985,
+            0.8908430980125007
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q2-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p2",
+          "bbox": [
+            0.025,
+            0.07096673458614143,
+            0.985,
+            0.2137549237255134
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2017",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2017-2018 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "f  ln x dx\n\n\nf x  e\n x  C\n,\n2 x  C\n.\n2.已知\n则\n.\nx\n\n\n3 n 2  3 2 n 2    3 n n\n 2 \n3. lim\n.\nn 2\nn \n\n\n\nx\nln x dx \ne是 f x 的一个原函数,则  2\nx f\n\n2 x 2 \nC\n4.已知\n.\n 2,\nx x  0,\n x\n\n\n\n f x \n2 dx \ne \n5.设 f x \n则\n.\nx ,\nx \n0,\n e",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s1-blank-q3-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "3",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q3-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p2",
+          "bbox": [
+            0.025,
+            0.2137549237255134,
+            0.985,
+            0.24896421554800763
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q3-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p2",
+          "bbox": [
+            0.025,
+            0.24896421554800763,
+            0.985,
+            0.3600299039647623
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2017",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2017-2018 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "\n\n.\n xf x dx ,\nf x\n三、(满分10 分)已知 f x  x\n求",
+      "answer_hint": "\n\n xf x dx  A\n,\nf x  x  A\n,\n解:设\n则\n\n1 \n\n xf x dx \n x 2  Ax dx \nA \n\nA\n,\n\nA \n,\n f x  x \n.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s1-blank-q4-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "4",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q4-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p2",
+          "bbox": [
+            0.025,
+            0.3600299039647623,
+            0.985,
+            0.4004349483252906
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q4-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p2",
+          "bbox": [
+            0.025,
+            0.4004349483252906,
+            0.985,
+            0.4517735394900565
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2017",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2017-2018 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "dy\ny\nsin x\n te dt \n\ncos 2 tdt  0,\n.\n四、(满分10 分)已知\n求\ndx",
+      "answer_hint": "\n\ncos 2 sin x cos x\n\ndy\ndy\n\n\ne\ny 2\n\ncos 2 sin x \ncos ,\nx\n\n.\n解:\ndx\ndx\ne y 2",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s1-blank-q5-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "5",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q5-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p2",
+          "bbox": [
+            0.025,
+            0.4517735394900565,
+            0.985,
+            0.5065264456090692
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q5-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p2",
+          "bbox": [
+            0.025,
+            0.5065264456090692,
+            0.985,
+            0.7156914433826662
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2017",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2017-2018 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": " 3\nt  2 ,\nt\ndy\n x\n\n.\n五、(满分10 分)设函数 y  f x 由方程组\n确定,求\ndx\ny sin t \n y  e\nt  0",
+      "answer_hint": "dx\ndt  6\nt  2,\n解:\ndy\ndy\nsin t  e y cos ,\n e y\nt\ndt\ndt\ndy\ne y cos t\n\n.\ndt\n1 e y sin t\ndy\ne y cos t\n\n.\n\n\n\ndx\n1  e y sin t\nt  2\ndy\ne\nt  0\ny ,所以\n\n.\n时\ndx\nt  0",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s1-blank-q6-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "6",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q6-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p2",
+          "bbox": [
+            0.025,
+            0.7156914433826662,
+            0.985,
+            0.8088164525047845
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q6-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p2",
+          "bbox": [
+            0.025,
+            0.8088164525047845,
+            0.985,
+            0.9167218871343873
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q6-o1-r3",
+          "page_id": "d-777002d3fd9cab3d960b-p3",
+          "bbox": [
+            0.025,
+            0.07436005351513467,
+            0.495,
+            0.12960628515288622
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2017",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2017-2018 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": " 1 \n\nf x 具有一阶连续导数, f\n六、(满分10 分)设\n,且满足方程\n\n\n 2 \nx\nx\n\n\n\n f t dt \nf x\nf x  x ,求",
+      "answer_hint": "\nf x\nx\n\n\n\n\nf x \nf  x  1  xf  x  f x  2.\n\n解:\n\ndf x\ndx\n \n\n\n2 \n ln f x  2  ln x  C\n f x  Cx  2.\n\nf x \nx\n1 \n\n\nf x  2 x  2.\nf\n由\n,得\n\n\n2 \n",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s1-blank-q7-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "7",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q7-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p3",
+          "bbox": [
+            0.025,
+            0.12960628515288622,
+            0.495,
+            0.1804822182334623
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q7-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p3",
+          "bbox": [
+            0.025,
+            0.1804822182334623,
+            0.495,
+            0.38537301562710397
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2017",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2017-2018 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": " sin cos x\nx\n\n\n七、(满分10 分)求不定积分\n\n1 sin 4 x\n\n1  1  x \n",
+      "answer_hint": "1  x  t x\n,  t 2  1, dx  2\ntdt\n解:令\n sin cos x\nx\n\n\n\ndx\n\n\n1 sin 4 x\n\n1  1  x \n\nd sin 2 x\ntdt\n\n\n\n\n2 1 sin 4 x\n1  t\n\n1 arctan sin\n\n\n\n\n\n2 x  2 t  2ln 1  t  C\n1 arctan sin\n\n\n\n2 x  2 1  x  2ln 1  1  x  C\n",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s1-blank-q8-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "8",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q8-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p3",
+          "bbox": [
+            0.025,
+            0.38537301562710397,
+            0.495,
+            0.417136328743641
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q8-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p3",
+          "bbox": [
+            0.025,
+            0.417136328743641,
+            0.495,
+            0.6038004123658152
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2017",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2017-2018 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "xtf \n\n\n\n2 x  t dt \n八、(满分10 分)设 f x 连续,且",
+      "answer_hint": "解:令2 x  u ,\nt\n得\n2 x \n\n\n2 x  u f u du \narctan x 2\n,\nx\n2 x\n2 x\n\n\n\n u f u du \n2 x\nf u du \narctan x 2\nx\nx\n2 x\n\n\n\n\n\n\nf u du  4 xf 2 x  2 xf x  4 xf 2 x  xf x \nx\nx\nx\n2 x\n\n\n\nf u du \nf x \n4 ,\nx  1,  f x dx \n令\n\n\n2 1  x\nx",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s1-blank-q9-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q9-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p3",
+          "bbox": [
+            0.025,
+            0.6038004123658152,
+            0.495,
+            0.6761742811685874
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q9-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p3",
+          "bbox": [
+            0.025,
+            0.6761742811685874,
+            0.495,
+            0.8858873329524956
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q9-o1-r3",
+          "page_id": "d-777002d3fd9cab3d960b-p3",
+          "bbox": [
+            0.495,
+            0.12323658190333674,
+            0.985,
+            0.8313744996048335
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2017",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2017-2018 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "f x 在\n\n\n1,上有一阶导数, f 1 \n九、(满分10 分)设函数\n\nf x\n  x\n\n\n\n\n2 xf x \nf x \nt 1 dt \ng t dt  x  1 e x  2,",
+      "answer_hint": "x\n\n\n\n f x \nu  x \nt 1,\nt 1 dt   f u du   f u du ,\n解:令\n则\nx\n\nx\nf x\n\n\n\n\n2 xf x   f u du  \ng t dt  x  1 e x  2,\n\n\n\n\n2 f x  2 xf  x  f x  xf  x  xe x ,\n\n\n \nxf x\nxe x ,\n\n\nxf x  xe dx  xe x  e x  C .\nx\n1\n\nf\n 1,\nC  1.\nf x  e x \n由\n得\n所以,\n\n.\ndx\n\n\n.\n\n\n f x dx\n.\narctan x 2 , f 1  1.\n求\n,\nx\n\n\n,\n1 x 4\n3.\n\n\n\n\n1, g x\nf x 的反函数,满足\n为\n\n\n.\nf x\n求\nx\n\n",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s1-blank-q1-o2",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "1",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q1-o2-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p3",
+          "bbox": [
+            0.495,
+            0.8313744996048335,
+            0.985,
+            0.8961460975686748
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s1-blank-q1-o2-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p4",
+          "bbox": [
+            0.025,
+            0.11084847847429789,
+            0.985,
+            0.16257789682960502
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2017",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2017-2018 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 1,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "e x\n1 .\n\nx\nx\n北\n京\n交\n通\n大\n学",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s2-choice-q1-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "1",
+      "kind": "choice",
+      "answer": "A",
+      "tags": [
+        "北交月考",
+        "2018年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-choice-q1-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p4",
+          "bbox": [
+            0.025,
+            0.22210528056823686,
+            0.985,
+            0.2559172820611366
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-choice-q1-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p4",
+          "bbox": [
+            0.025,
+            0.2559172820611366,
+            0.985,
+            0.28222844140976727
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2018",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2018-2019 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 2,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "x  2\n\n\nF x \ne sint sintdt,\n1.设\n则其(\n).\nx",
+      "answer_hint": "(A)为正常数;(B)为负常数;(C)恒为零;(D)不为常数.\n答:A",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s2-choice-q2-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "2",
+      "kind": "choice",
+      "answer": "C",
+      "tags": [
+        "北交月考",
+        "2018年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-choice-q2-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p4",
+          "bbox": [
+            0.025,
+            0.28222844140976727,
+            0.985,
+            0.3554624320253682
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2018",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2018-2019 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 2,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "x \n\nst\n\n\n0 f t \nI \ndx s \n0 ,t \n0 , 则I (\n2.若\n答:C\n\n\n).\ns\ns \n\n(A)依赖于s,t, x; (B)依赖于t 和s ;(C)依赖于t,不依赖于s ;(D)依赖于s, x.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s2-choice-q3-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "3",
+      "kind": "choice",
+      "answer": "C",
+      "tags": [
+        "北交月考",
+        "2018年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-choice-q3-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p4",
+          "bbox": [
+            0.025,
+            0.3554624320253682,
+            0.985,
+            0.42624837337779636
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-choice-q3-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p4",
+          "bbox": [
+            0.025,
+            0.42624837337779636,
+            0.985,
+            0.46488701195090854
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2018",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2018-2019 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 2,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "\n\n\n\n\n\n当x 0 时, f  x  0 , f  x  0 则当x 0 时(\n,\n3. f x 满足 f  x  f x ,\n).\n\n\n\n\nf  x  0, f  x  0; (B)\nf  x  0, f  x  0;\n(A)",
+      "answer_hint": "\n\n\n\nf  x  0, f  x  0; (D)\nf  x  0, f  x  0.\n(C)\n答:C",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s2-choice-q4-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2018年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-choice-q4-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p4",
+          "bbox": [
+            0.025,
+            0.46488701195090854,
+            0.985,
+            0.5536629950776686
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2018",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2018-2019 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 2,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\n\n\n4.设I   ln sin xdx,I   lncos xdx,I   lncot xdx,\n则有(\n).\n\n\n\nI  I  I 3; (B)\nI  I  I\n1; (C)\nI  I  I\n1; (D)\nI  I  I 3. 答:A\n(A)",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s2-choice-q5-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2018年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-choice-q5-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p4",
+          "bbox": [
+            0.025,
+            0.5536629950776686,
+            0.985,
+            0.7060943929896356
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2018",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2018-2019 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 2,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "1  x\n\n\nf x \nln\n,\nf\nn\nx (\n5.设\n则\n).\n1  x\n\n\n\n\n(A)\n\n(B)\n\nn  1 !\n\n\n ;\nn  1 !\n\n\n ;\n \n \n\n\n \n\n\n \n1  x n\n1  x n\n1  x n\n1  x n\n\n\n\n\n n \n n \n  1\n\n  1\n\n\n\n(C)\n\n(D)\n\nn  1 !\n\n\n ;\nn  1 !\n\n\n . 答:D\n \n \n n\n\n n \n n\n\n n \n1  x\n1  x\n1  x\n1  x\n\n\n\n",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s2-blank-q1-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "1",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2018年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q1-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p4",
+          "bbox": [
+            0.025,
+            0.7332097898113611,
+            0.985,
+            0.7780964794029719
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2018",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2018-2019 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 2,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "dy\nx  y\nx\n\n\n x sint dt\ny  y x\ne  t 2 dt \n -1 .\n1.设可导函数\n由方程\n确定,则\ndx\nx 0\n",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s2-blank-q2-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "2",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2018年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q2-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p4",
+          "bbox": [
+            0.025,
+            0.7780964794029719,
+            0.985,
+            0.8184376749961729
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2018",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2018-2019 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 2,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "1 \n\n\n\n\n\n\n\n\n\nf x 满足 f x  cos x \nf 2 x dx,\nf x dx \n2.连续函数\n则 2\n.\n 0",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s2-blank-q4-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "4",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2018年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q4-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p4",
+          "bbox": [
+            0.025,
+            0.8184376749961729,
+            0.985,
+            0.8614367103912528
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2018",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2018-2019 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 2,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "n\n \n\n\n\n f x dx  cos x  C,\n f\nn\nx dx \ncos x \n C\n4.设\n则\n\n\n.\n\n",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s2-blank-q5-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "5",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2018年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q5-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p4",
+          "bbox": [
+            0.025,
+            0.8614367103912528,
+            0.985,
+            0.915598284600492
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q5-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p5",
+          "bbox": [
+            0.025,
+            0.07653695159824606,
+            0.985,
+            0.0864124152503684
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2018",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2018-2019 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 2,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "5.已知x  2 t  5 , 则d y\n\n\n\n.\ny  t lnt,\ndx 2\n4t\n",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s2-blank-q3-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "3",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2018年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q3-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p5",
+          "bbox": [
+            0.025,
+            0.0864124152503684,
+            0.985,
+            0.16664376465812286
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2018",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2018-2019 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 2,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\n\n\n\nn\n\n \n  \n3.极限 lim\n+\n.\n n n \n1 \nn \nn n \nn n \n\n\nn \n\n\n",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s2-blank-q3-o2",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "3",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2018年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q3-o2-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p5",
+          "bbox": [
+            0.025,
+            0.16664376465812286,
+            0.985,
+            0.23726864758588623
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q3-o2-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p5",
+          "bbox": [
+            0.025,
+            0.23726864758588623,
+            0.985,
+            0.39515950302165775
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2018",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2018-2019 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 2,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "\n\nx y  sin \nx  y 0 确定了x 1 附近的一个二阶可导的隐函数\n三、(满分10 分)设方程\nd y\n\ny  y x\n.\n,求\ndx 2\nx  1\n\n",
+      "answer_hint": "e yln x  sin \nx  y 0\n解:\ny \n\n\n\n\ne yln x\ny ln x \ncos \nx  y   0\n \n\n\nx \n\n\n\nx  1 , y 1  1\n.\ny  1 \n1 \n.\ny \n2 y \ny \n\n\n\n\ne yln x\ny ln x \n\ny ln x \n\n2 sin \nx  y   0 .\n e yln x\n\n \n\n\n\n\nx \nx\nx 2 \n\n\n\n\n\ny  1  2 \n 4 .\n\n",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s2-blank-q4-o2",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "4",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2018年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q4-o2-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p5",
+          "bbox": [
+            0.025,
+            0.39515950302165775,
+            0.985,
+            0.4412051683583014
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q4-o2-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p5",
+          "bbox": [
+            0.025,
+            0.4412051683583014,
+            0.985,
+            0.5752624014865767
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2018",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2018-2019 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 2,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "\n\n x  a 1  cos t , 求dx d x\n\n,\n.\n四、(满分10 分)设\ndy dy 2\n y  a sint,",
+      "answer_hint": "解:\ndx\ndx\na sint\ndt\n\n\n tant.\ndy\ndy\na cos t\ndt\nd x\nd tant dt\n\n sec t\n\n.\ndy\ndt\ndy\na cos t\na cos t",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s2-blank-q5-o2",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "5",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2018年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q5-o2-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p5",
+          "bbox": [
+            0.025,
+            0.5752624014865767,
+            0.985,
+            0.6105034904073621
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q5-o2-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p5",
+          "bbox": [
+            0.025,
+            0.6105034904073621,
+            0.985,
+            0.6486076637625721
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2018",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2018-2019 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 2,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "2 ,求\n\n\n xf  x dx.\nf x 的一个原函数是 e x\n五、(满分10 分)已知",
+      "answer_hint": "\n\n\n\n xf  x dx   xdf x  xf x   f x dx  2 x e\n2  x 2  e  x 2  C.\n解:",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s2-blank-q6-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "6",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2018年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q6-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p5",
+          "bbox": [
+            0.025,
+            0.6486076637625721,
+            0.985,
+            0.6845319357060005
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q6-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p5",
+          "bbox": [
+            0.025,
+            0.6845319357060005,
+            0.985,
+            0.7668054182934343
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2018",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2018-2019 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 2,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "x\n\n 0\n\n0 f x cos xdx.\ne cost dt,\nI\n六、(满分10 分)设 f x\n求",
+      "answer_hint": "\n\n\n\n\n  \n f x cos xdx \n f x dsinx  f x sin x \nI \ne cos x sin xdx\n解:\n\n\n e cos x dcosx  e cos x\n\n\n e.\ne",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s2-blank-q7-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "7",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2018年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q7-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p5",
+          "bbox": [
+            0.025,
+            0.7668054182934343,
+            0.985,
+            0.807942523259644
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q7-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p5",
+          "bbox": [
+            0.025,
+            0.807942523259644,
+            0.985,
+            0.9005802835394411
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q7-o1-r3",
+          "page_id": "d-777002d3fd9cab3d960b-p6",
+          "bbox": [
+            0.025,
+            0.07437857353683283,
+            0.985,
+            0.12941442063747327
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2018",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2018-2019 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 2,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "\n\n\n\n f x dx,\n\nf 1  x dx.\n七、(满分10 分)已知 f x  x\n求\n",
+      "answer_hint": "\n\n\n\n\n f x dx \n xdx \n f x dx dx \n f x dx.\n\n解:\n1\n\n\n\n\n f x dx \n.\nf x  x\n.\nf 1  x \n x.\n3 3\n3 \n\n\n\n\n\n f 1  x dx  \n x dx   4\n x dx  \nx \ndx \n.\n\n\n\n\n\n\n\n",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s2-blank-q8-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "8",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2018年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q8-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p6",
+          "bbox": [
+            0.025,
+            0.12941442063747327,
+            0.985,
+            0.1633537832679717
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q8-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p6",
+          "bbox": [
+            0.025,
+            0.1633537832679717,
+            0.985,
+            0.34183692081700623
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2018",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2018-2019 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 2,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "x \n1 \n\n\n \n\n  dt,\nf x  e x t\nf x \nf 1\ndx.\n八、(满分10 分)已知\n求",
+      "answer_hint": "x \nx\n\n e \n e du \n e du,\nx t  dt \nf x \nu\nu\n解:\nx\n\nf  x  e x .\n\n\n\n\n\n\n\nf x  f 1 dx  f 1   f x dx\n\n 1\n\n xf  x dx\n f 1  xf x\n\n1 1\n\n\n xe dx \nx\ne x\n\n\n e .",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s2-blank-q9-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2018年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q9-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p6",
+          "bbox": [
+            0.025,
+            0.34183692081700623,
+            0.985,
+            0.4151788373060674
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q9-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p6",
+          "bbox": [
+            0.025,
+            0.4151788373060674,
+            0.985,
+            0.7525852900004466
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s2-blank-q9-o1-r3",
+          "page_id": "d-777002d3fd9cab3d960b-p7",
+          "bbox": [
+            0.025,
+            0.10155335504603585,
+            0.985,
+            0.153282773401343
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2018",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2018-2019 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 2,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": " \n1 \n\nx\n\n\n\n\nsin\n,\ng x\n g 2 x\n九、(满分10 分)设 f x  lim t 2 g 2 x \n \n\n\n且\n的一个原函数为\nt \nt\nt \n \n\n\n\n\n f x dx.\nln x 1 ,求",
+      "answer_hint": "解:\n \n1 \n\nx\n\n\n\nf x  lim t 2 g 2 x \n g 2 x\nsin\n \n\n\nt \nt\nt \n \n\n1 \n\nx\n\n\ng 2 x \n g 2 x sin\n\n\nt \n\nt\n\n\n lim\n xg  2\nx .\nt \nt\nt\n\n f x dx\n\n\n\n\n xg  2 x dx \n xdg 2 x\n\n1 \n\n\n\n g 2 x dx\n\nxg 2 x\n\n\n\n\ng 2 \nln 2 x  1\n\nln 3\n\n\n.\n北\n京\n交\n通\n大\n学",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s3-choice-q1-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-choice-q1-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p7",
+          "bbox": [
+            0.025,
+            0.20647041822482146,
+            0.985,
+            0.3041788160191042
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-choice-q1-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p7",
+          "bbox": [
+            0.025,
+            0.3041788160191042,
+            0.985,
+            0.34246516504839675
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2019",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2019-2020 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 3,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "f ( h 2 )\nx  0\nlim\n 1\n1.设函数 f (x ) 在\nC\n处连续,且\n,则【\n】.\nh 2\nh  0\n)\nf (0 )\n)\nf (0 )\nf ( 0  0\nf ( 0  1\n(A)\n(B)\n且\n存在;\n且\n存在;\n)\nf (0 )\n)\nf (0 )\n(C) f ( 0  0 且\n(D) f ( 0  1 且\n存在;\n存在.",
+      "answer_hint": "f ( h 2 )\nf (x )\nx  0\nlim\n 1\n解:因为\n在\n处连续,所以\n有两层意思,即\nh 2\nh  0\n2 ",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s3-choice-q2-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-choice-q2-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p7",
+          "bbox": [
+            0.025,
+            0.34246516504839675,
+            0.985,
+            0.41126493332598224
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2019",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2019-2020 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 3,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "f ( 0  0\n)\nf  ( 0  1\n)\nh\n且\n.\n——为什么不是导数,是因为这里\n.\n)\nx  0\nf (x )\nx 处的微分dy 与x\n\n\n2.设 f  (x 0  3 ,则\nB\n时,\n在\n比较是【\n】无穷小.\n(A)等价;\n(B)同阶;\n(C)低阶;\n(D)高阶.",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s3-choice-q3-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-choice-q3-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p7",
+          "bbox": [
+            0.025,
+            0.41126493332598224,
+            0.985,
+            0.4802776439705452
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-choice-q3-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p7",
+          "bbox": [
+            0.025,
+            0.4802776439705452,
+            0.985,
+            0.5081884046565401
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2019",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2019-2020 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 3,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": " f ( x )\n e  x f ( e  x )\ndx  F ( x )  C\ndx \n3.若\nB\n,则\n【\n】.\nx\nF ( e )\nx \nx \nx \nF ( e ) C ;(B)\n F ( e ) C\nF ( e ) C\n C\n(A)\n(C)\n;\n; (D)\n.\nx",
+      "answer_hint": " e  x f ( e  x )\n f ( e  x )\ndx  \nde  x   F ( e  x )  C\n解:\n.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s3-choice-q4-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-choice-q4-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p7",
+          "bbox": [
+            0.025,
+            0.5081884046565401,
+            0.985,
+            0.619513767355603
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-choice-q4-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p7",
+          "bbox": [
+            0.025,
+            0.619513767355603,
+            0.985,
+            0.6576877173397735
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2019",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2019-2020 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 3,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "ln x\n\nF ( x ) \nf ( t )\ndt\nF  (x ) \n4.设函数 f (x ) 为连续函数,且\nA\n,则\n【\n】.\nx\nf (ln x ) \nf ( )\nf (ln x )  f ( )\n(A)\n(B)\n;\n;\nx\nx\nx\nx\nf (ln x ) \nf ( )\n(C)\n(D) f (ln x )  f ( ) .\n;\nx\nx 2\nx\nx",
+      "answer_hint": " 1\nF  ( x ) \nf (ln x )  f ( )(\n) \nf (ln x ) \nf ( )\n解:\n.\nx\nx\nx 2\nx\nx 2\nx",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s3-choice-q5-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-choice-q5-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p7",
+          "bbox": [
+            0.025,
+            0.6576877173397735,
+            0.985,
+            0.7381576268110223
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-choice-q5-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p7",
+          "bbox": [
+            0.025,
+            0.7381576268110223,
+            0.985,
+            0.7571704837004171
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2019",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2019-2020 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 3,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "s\n\n\n\n\n0\nI  t t f tx dx\ns  0 ,t  0 ,则I 的值【\n5.设 f (x ) 连续,\nD\n】\n(A)依赖于s,t ;\n(B)依赖于t,不依赖于s ;\n(C)不依赖于s 和t ;\n(D)依赖于s ,不依赖于t .",
+      "answer_hint": "s\ns\ns\n\n\n\n\n\n\n\n f u du\nI  t t f tx dx \nt f tx dtx \n解:\n.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s3-blank-q6-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "6",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q6-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p7",
+          "bbox": [
+            0.025,
+            0.7931422407976433,
+            0.985,
+            0.8430403615854977
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q6-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p7",
+          "bbox": [
+            0.025,
+            0.8430403615854977,
+            0.985,
+            0.9219352050538258
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q6-o1-r3",
+          "page_id": "d-777002d3fd9cab3d960b-p8",
+          "bbox": [
+            0.025,
+            0.08168597222094938,
+            0.985,
+            0.08628529959170246
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2019",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2019-2020 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 3,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": " x  e t sin 2 t\n( 0 , 1\n)\n2 x y  1  0\n6.曲线 \n在点\n处的法线方程为【\n】.\ny  e t cos t\n",
+      "answer_hint": "dy\ne t cos t  e t sin t\n( 0 , 1\n)\n\n\n解:\n,所以,点\n处的法线方程为\ndx\ne t sin 2 t  2 e t cos 2 t x  0\nx  0\n( x  0 )\ny  1   2\n2 x y  1  0\n(或\n).",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s3-blank-q7-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "7",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q7-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p8",
+          "bbox": [
+            0.025,
+            0.08628529959170246,
+            0.985,
+            0.1181799015087608
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q7-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p8",
+          "bbox": [
+            0.025,
+            0.1181799015087608,
+            0.985,
+            0.20696298231033955
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2019",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2019-2020 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 3,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "2 xy  x  y\ndy\n\n(ln 2  1 dx\n)\n7.设 y  y (x ) 由方程\n所确定,则\n【\n】.\nx\n0",
+      "answer_hint": "2 xy  x  y\n2 xy ln 2\n( xdy  ydx )  dx  dy\n解:方程\n两边微分,得\n.\ny \nx \n当\n时,\n,所以,\n1  y 2 xy ln 2\n1  y 2 xy ln 2\n)\ndy \ndx\ndy\n\ndx  (ln 2  1 dx\n,\n.\nx  0\nx 2 xy ln 2  1\nx 2 xy ln 2  1 x  0\ny \ny \n1 ln",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s3-blank-q8-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "8",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q8-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p8",
+          "bbox": [
+            0.025,
+            0.20696298231033955,
+            0.985,
+            0.24370374142866363
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q8-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p8",
+          "bbox": [
+            0.025,
+            0.24370374142866363,
+            0.985,
+            0.3394462590732044
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2019",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2019-2020 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 3,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "1 ln\nf  ( e x )  xe  x\nf ( )\n1  0\nf (x ) \n2 x\n8.已知\n,且\n,则\n【\n】.",
+      "answer_hint": "x  ln t\nt  e x\n解:令\n,即\n,因此有\nln t\nln t\n1 ln\nf  ( t ) \nf ( t ) \ndt \n2 t \nC\n,\n,\nt\nt\n\n\nf ( )\n1  0\nC  0\nf ( x ) \nln 2 x \nln x\n再由\n,得\n,所以,\n.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s3-blank-q9-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q9-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p8",
+          "bbox": [
+            0.025,
+            0.3394462590732044,
+            0.985,
+            0.37812545925168517
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q9-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p8",
+          "bbox": [
+            0.025,
+            0.37812545925168517,
+            0.985,
+            0.5293832860292399
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2019",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2019-2020 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 3,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "\n f ( x )\ndx \nf ( x ) \n 1  x 2  f ( x )\ndx\n9.已知\n,则\n【\n】.\n1  x\n4  ",
+      "answer_hint": " f ( x )\ndx  A\nf ( x ) \n A  1  x 2\n解:令\n,则\n,\n1  x 2\nA  \ndx  A  \n1  x 2 dx\n因此,\n1  x 2\nA\n\n\nA\n\n\n\n1 \narctan x\n\n\n,\n\n\n f ( x )\nA 4\ndx \n得\n,即\n.\n \n4  ",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s3-blank-q10-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "10",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q10-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p8",
+          "bbox": [
+            0.025,
+            0.5293832860292399,
+            0.985,
+            0.5618204842750195
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q10-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p8",
+          "bbox": [
+            0.025,
+            0.5618204842750195,
+            0.985,
+            0.5947115579142868
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2019",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2019-2020 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 3,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "\n\n| sin x | dx \n10.\n【\n】.\n",
+      "answer_hint": "\n\n\n| sin x\n| dx \n100  sin xdx \n解:\n.\n",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s3-blank-q3-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "3",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q3-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p8",
+          "bbox": [
+            0.025,
+            0.5947115579142868,
+            0.985,
+            0.6201341441387316
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q3-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p8",
+          "bbox": [
+            0.025,
+            0.6201341441387316,
+            0.985,
+            0.7300390020807399
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2019",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2019-2020 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 3,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "y  x 2 e 3 x ,求\ny (10 ) .\n三、(满分10 分)设",
+      "answer_hint": "解:利用莱布尼茨公式,有\ny (10 )  C 0 x 2 ( e 3 x ) (\n10 )  C 1 2 x ( e 3 x ) ( 9 )  C 2 2\n( e 3 x ) ( 8 )  0\n10 x 2 e 3 x \n9 10 2 xe 3 x \n8 45 2 e 3 x\n\n3 \n3 \n\n3 \n\n\n.\n\n3 \n9 e 3 x 3 x 2 \n20 x ",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s3-blank-q4-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "4",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q4-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p8",
+          "bbox": [
+            0.025,
+            0.7300390020807399,
+            0.985,
+            0.7553115353859882
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q4-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p8",
+          "bbox": [
+            0.025,
+            0.7553115353859882,
+            0.985,
+            0.8921836675556277
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q4-o1-r3",
+          "page_id": "d-777002d3fd9cab3d960b-p9",
+          "bbox": [
+            0.025,
+            0.08320178644656626,
+            0.985,
+            0.17082232523366808
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2019",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2019-2020 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 3,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "\n4  xy  y 4  1\n四、(满分10 分)设 x\n,求 y\n.\nx  0",
+      "answer_hint": "y \n解:方程两边,对x 求导,得\n\n\n4 x 3  y  x y  4 y 3 y  0 ,\n(1)\n方程(1)两边,再对x 求导,得\n12 x 2  2 y   x y   12 y 2 ( y  ) 2  4 y 3 y   0 ,\n(2)\n)\nx  0\ny  1 及(1),得 y  ( 0 \n由\n,\n;\n 1\nx  0\ny  1 ,\ny  ( 0 \n)\n及(2),得 y \n\n由\n,\n.\nx  0\ny ",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s3-blank-q5-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "5",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q5-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p9",
+          "bbox": [
+            0.025,
+            0.17082232523366808,
+            0.985,
+            0.24877420273170409
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q5-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p9",
+          "bbox": [
+            0.025,
+            0.24877420273170409,
+            0.985,
+            0.42194942508470296
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2019",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2019-2020 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 3,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "F (x ) 是\nf (x ) 的一个原函数,且\nF ( )\n1 \n ,若当\nx  0 时,有\n五、(满分10 分)设\narctan\nx\nf ( x ) F ( x ) \nf (x ) .\n,试求\nx (\n1  x )",
+      "answer_hint": "解:整理,得\n F x dF x\n arctan\n( )\n( )  2\nx d\narctan\nx\n2 ( )\nx  2\n(arctan\nx\n) 2  C\n因此, F\n.\nF ( )\n1 \n ,得\nC \n0 ,因此,\nF ( x ) \n2 arctan\nx ,\n由\n( )\n ( )\n\n\n所以, f x  F x \n.\n1  x 2 x\n2 x (\n1  x )",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s3-blank-q6-o2",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "6",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q6-o2-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p9",
+          "bbox": [
+            0.025,
+            0.42194942508470296,
+            0.985,
+            0.4515666825761259
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q6-o2-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p9",
+          "bbox": [
+            0.025,
+            0.4515666825761259,
+            0.985,
+            0.5718789259597232
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2019",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2019-2020 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 3,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "f  (sin 2 x )  cos 2 x  tan 2 x ,\n0  x  1\nf (x ) .\n六、(满分10 分)已知\n,求",
+      "answer_hint": "sin 2 x\n (sin 2 )\nx  1 \n(\nsin 2 )\nx \n解: f\n,因此,有\n1  sin 2 x\nf  ( x )   x \n,\n1  x\nx 2\nf ( x )  \n ln(\n1  x )  C .\n两边积分,得",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s3-blank-q7-o2",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "7",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q7-o2-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p9",
+          "bbox": [
+            0.025,
+            0.5718789259597232,
+            0.985,
+            0.6043562857711294
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q7-o2-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p9",
+          "bbox": [
+            0.025,
+            0.6043562857711294,
+            0.985,
+            0.7187259266629689
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2019",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2019-2020 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 3,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "f ( 0 )  1\n,\nf ( 2 )  3\n,\nf  ( 2 )  5 ,求 x f  ( 2 x )\ndx .\n七、(满分10 分)已知",
+      "answer_hint": " x f\n x f\n ( 2 x dx \n)\n ( 2 x d\n) 2 x\n解:\n\n\n1 \n f  ( 2 x )\nx f  ( 2 x )\ndx\n\n\n\n\n\n\n\n\nf  ( 2 )  0 \nf ( 2 x ) 1 \n\n3  1  2 .",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s3-blank-q8-o2",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "8",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q8-o2-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p9",
+          "bbox": [
+            0.025,
+            0.7187259266629689,
+            0.985,
+            0.7563036477175356
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q8-o2-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p9",
+          "bbox": [
+            0.025,
+            0.7563036477175356,
+            0.985,
+            0.9123421065685507
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s3-blank-q8-o2-r3",
+          "page_id": "d-777002d3fd9cab3d960b-p10",
+          "bbox": [
+            0.025,
+            0.10155335504603585,
+            0.985,
+            0.153282773401343
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2019",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2019-2020 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 3,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": " f ( tx )\n(x )\ndt  f ( x )  x sin x .\n八、(满分10 分)求连续函数 f\n,使其满足",
+      "answer_hint": "x\n f ( u )\ndu  xf ( x )  x 2 sin x ,\n(1)\n解:整理方程,得\n式(1)两边对求导,得\nf  ( x )   2 sin x  x cos x ,\n(2)\n式(2)两边积分,得\nf ( x )  cos x  x sin x  C .\n北\n京\n交\n通\n大\n学",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-choice-q1-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "1",
+      "kind": "choice",
+      "answer": "A",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q1-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p10",
+          "bbox": [
+            0.025,
+            0.2108120253013257,
+            0.985,
+            0.29142020305435434
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q1-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p10",
+          "bbox": [
+            0.025,
+            0.29142020305435434,
+            0.985,
+            0.3776633891046921
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": " x \ncos t \ncos 2 t\n\nt \n1、曲线 \n上在对应\n点处的法线斜率为【\n】.\ny  1  sin t\n\n(A) 2  1\n(B) 2  1\n(C)  1 2\n(D) 1 2 .",
+      "answer_hint": "dy\ncos t\n\nt \n\n\n解:当\n时,\n,\ndx\n sin t  2 cos t sin t\n 1  2\n\n\nt \nt \nk \n2  1\n故选(A).\n故该点处法线斜率\n,",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-choice-q2-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "2",
+      "kind": "choice",
+      "answer": "B",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q2-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p10",
+          "bbox": [
+            0.025,
+            0.3776633891046921,
+            0.985,
+            0.4666915791052405
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q2-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p10",
+          "bbox": [
+            0.025,
+            0.4666915791052405,
+            0.985,
+            0.5634069085457265
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "1 du\ndu\nx\n( x  0 )\nf ( x )  \n  x\n2、设\n,则【\n】.\n1  u\n1  u\n\n(A) f (x )   (B) f (x ) \n(C) f (x )  0 (D) f ( x )  arctan x\n.",
+      "answer_hint": "\nf \n( x ) \n\n (\n)  0\nf ( x )  C\n解:\n,故\n.\n1  x\nx\n1 \nx 2\ndu\ndu\n  \n\n\nf ( )\n1 \n\n\n\n\n故选(B).\n再由\n,\n1  u 2\n1  u 2",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-choice-q3-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "3",
+      "kind": "choice",
+      "answer": "C",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q3-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p10",
+          "bbox": [
+            0.025,
+            0.5634069085457265,
+            0.985,
+            0.6884250739867442
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q3-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p10",
+          "bbox": [
+            0.025,
+            0.6884250739867442,
+            0.985,
+            0.8161706134102729
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "dx\n\nI \nI \n3、设\n,则\n【\n】.\nx\nx )  C\nx )  C\n(A)  2 x  2 ln(1 \n(B) 2 x  2 ln(1 \nx )  C\nx )  C\n(C) 2 x  2 ln(1 \n(D)  2 x  2 ln(1 \n.",
+      "answer_hint": "u \nx\ndx  udu\n解:令\n,则\n,因此\ndx\n2 udu\n2 du\n\n\n\n\nI \n\n 2 du \n 2 u  2\nln(1  u\n)  C\n1  u\n1  u\n1 \nx\n 2 x  2 ln(1 \nx )  C\n故选(C).\n.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-choice-q4-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "4",
+      "kind": "choice",
+      "answer": "B",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q4-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p10",
+          "bbox": [
+            0.025,
+            0.8161706134102729,
+            0.985,
+            0.9137281351732834
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q4-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p11",
+          "bbox": [
+            0.025,
+            0.07341863271653025,
+            0.985,
+            0.12209010209062708
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q4-o1-r3",
+          "page_id": "d-777002d3fd9cab3d960b-p11",
+          "bbox": [
+            0.025,
+            0.12209010209062708,
+            0.985,
+            0.26254689825912886
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "y \n4、微分方程 y  \n的通解是【\n】.\n2 \nx\nx ( x\n)\narctan x  C\n(arctan x  C )\n(A)\n(B)\nx\n1\narctan x  C\n(C)\n(D) arctan x\n C\n.\nx\nx",
+      "answer_hint": ",\nP ( x ) \nQ ( x ) \n解:一阶线性常微分方程,\n,故\n2 \n)\nx\nx ( x\n\n dx\n dx\ny  e\n( C  \ne x\ndx )\nx\nx ( x 2  1\n)\n\n( C  \ndx ) \n( C  arctan x )\n故选(B).\n.\nx\nx 2  1\nx",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-choice-q5-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "5",
+      "kind": "choice",
+      "answer": "B",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q5-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p11",
+          "bbox": [
+            0.025,
+            0.26254689825912886,
+            0.985,
+            0.35000325937834986
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q5-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p11",
+          "bbox": [
+            0.025,
+            0.35000325937834986,
+            0.985,
+            0.5573673994570417
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "n\n1 1\n\nlim na\n x n dx\n5、设 a \nn \n1 x n \n,则极限\n等于【\n】.\nn\nn\nn  \n1 )  1 (B) (\ne 2\n1  e )  1\n1 2\n1  e )  1\n1 2\n1 )  1\ne 2\n(A) (\n(C) (\n(D) (\n.",
+      "answer_hint": "n\nn\n\n\n1 1  x n dx \nna \nnx n \n1  x n d (\n1  x n )\nn \nn \n解:\nn\nn\n3 n 1\nn\n\n1  x n ) 2\n1  (\n) n ) 2  1\n (\n (\n.\nn  1\nn\nlim na  lim (\n1  (\n) n )  1  lim (\n1 \n)  1\n所以,\nn\nn  1\nn  \nn  \nn  \n(\n1 \n) n\nn\n1  e )\n1 2  1\n (\n故选(B).\n.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q1-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "1",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q1-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p11",
+          "bbox": [
+            0.025,
+            0.5860329502795212,
+            0.985,
+            0.6177344875619402
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q1-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p11",
+          "bbox": [
+            0.025,
+            0.6177344875619402,
+            0.985,
+            0.7658021428650051
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "x 3  y 3  sin 3 x  6 y  0\ndy\n1、设 y  f (x ) 是由方程\n\n所确定的隐函数,则\n【\n】.\nx 0",
+      "answer_hint": "解:方程两边同时微分,有\n3 x 2 dx  3 y 2 dy  3 cos 3 xdx  6 dy  0\n,\nx  0\ny  0\ndy\n\ndx\n】.\n再由\n,得\n,代入上式得\n【\nx 0\ndy\n \ndx\n注:若考虑复数域,还有一个可能的结果:\n.\nx 0",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q2-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "2",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q2-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p11",
+          "bbox": [
+            0.025,
+            0.7658021428650051,
+            0.985,
+            0.8017778623437547
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q2-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p11",
+          "bbox": [
+            0.025,
+            0.8017778623437547,
+            0.985,
+            0.8918772371131561
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q2-o1-r3",
+          "page_id": "d-777002d3fd9cab3d960b-p12",
+          "bbox": [
+            0.025,
+            0.07341783263704599,
+            0.985,
+            0.08398408612812007
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "\ndx \n2、 x sin 2 x\n【\n】.",
+      "answer_hint": " x sin 2 x\n x sin 2 x\n cos 2 x\ndx \nd 2 x  \nx cos 2 x \ndx\n解:\n cos 2 x\nx\ncos 2 x \nd 2 x \nx\ncos 2 x \nsin 2 x  C\n \n\n【\n】.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q3-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "3",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q3-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p12",
+          "bbox": [
+            0.025,
+            0.08398408612812007,
+            0.985,
+            0.1290960071863624
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q3-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p12",
+          "bbox": [
+            0.025,
+            0.1290960071863624,
+            0.985,
+            0.21201958769140267
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "dx\n\n\n3、\n\n【\n】.\nx x 2  1",
+      "answer_hint": "x  sec t ,\ndx  sec t tan tdt\n解:令\n,则\n sec t tan tdt\n\ndx\n\n \n\n\n\n 2\n 2 dt \n【\n】.\nsec t tan t\nx x 2  1",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q4-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "4",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q4-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p12",
+          "bbox": [
+            0.025,
+            0.21201958769140267,
+            0.985,
+            0.2535465556311509
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q4-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p12",
+          "bbox": [
+            0.025,
+            0.2535465556311509,
+            0.985,
+            0.38187401347168987
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "t\n2 x\n\nf ( x )\nf ( )\ndt  ln 2\nf (x ) \n4、若连续函数 f (x )\n满足关系式\n,则\n【\n】.",
+      "answer_hint": "解:关系两边同时对x 求导,有\nf \n( x )  f ( x )  2\nf ( x )  Ce 2 x\n通过分离变量法求解,得\n.\nt\n2 ln\nf ( 0 )  f ( )\ndt  ln 2  ln 2\nC  ln 2\nf (x ) \ne x\n再由\n,得\n,故\n【\n】.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q5-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "5",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q5-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p12",
+          "bbox": [
+            0.025,
+            0.38187401347168987,
+            0.985,
+            0.4142746505095221
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q5-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p12",
+          "bbox": [
+            0.025,
+            0.4142746505095221,
+            0.985,
+            0.542053575067894
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "\n\n\nf ( x )  f ( x )  2 f ( x )  0\nf ( x )  f ( x )  2 e x\nf (x ) \n5、函数 f (x ) 满足\n及\n,则\n【\n】.",
+      "answer_hint": "\n( )\n( )\nx\nf x  f x  2 e\n解:由\n,得\n dx\n  dx\n( C   2 e x e\nf ( x )  e\ndx )  Ce  x  e x\n,\n( x )  f \n( x )  2 f ( x )  0\nf \nC  0\n代入\n,得\n.\nf (x ) \ne x\n故,所求函数\n【\n】.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q3-o2",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "3",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q3-o2-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p12",
+          "bbox": [
+            0.025,
+            0.542053575067894,
+            0.985,
+            0.5878789154859554
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q3-o2-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p12",
+          "bbox": [
+            0.025,
+            0.5878789154859554,
+            0.985,
+            0.7064262562617736
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "sin t\nx\n\n\n,求 f ( x )\nf ( x ) \ndt\ndx\n三、(满分10 分) 设\n.\nt\n",
+      "answer_hint": "\n\n\n\n f ( x )\n x f \n \ndx  xf ( x )\n( x )\ndx\n解:\nsin x\n\n [ f \n ( )  0 ]   x \ndx\nx\n\n 0   sin xdx   2\n.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q4-o2",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "4",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q4-o2-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p12",
+          "bbox": [
+            0.025,
+            0.7064262562617736,
+            0.985,
+            0.7411291947500627
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q4-o2-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p12",
+          "bbox": [
+            0.025,
+            0.7411291947500627,
+            0.985,
+            0.920562850534824
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q4-o2-r3",
+          "page_id": "d-777002d3fd9cab3d960b-p13",
+          "bbox": [
+            0.025,
+            0.0820482445746974,
+            0.985,
+            0.1266661657926647
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "f ( x )  x 2  x  f ( x )\ndx  2  f ( x )\ndx\nf (x )\n四、(满分10 分) 设\n,求\n.",
+      "answer_hint": "A   f ( x )\ndx ,\nB   f ( x )\ndx\n解:令\n,则\nf x  x  Ax  2 B\n( )\n.\nA\n\n\nA  ( x 2  Ax  2 B )\ndx  \nx 3 \nx 2  2 Bx  \n 2 A  4 B\n因此,\n,\n\n\nA\nA\n\n\nB  ( x 2  Ax  2 B )\ndx  \nx 3 \nx 2  2 Bx \n\n\n 2 B\n.\n 3\n\nA \n,\nB \nf ( x )  x 2 \nx \n解得,\n,即\n.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q5-o2",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "5",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q5-o2-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p13",
+          "bbox": [
+            0.025,
+            0.1266661657926647,
+            0.985,
+            0.17024876522278504
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q5-o2-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p13",
+          "bbox": [
+            0.025,
+            0.17024876522278504,
+            0.985,
+            0.4471956786397834
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": " f ( x d\nf \n )  \nf ( x )  1\n(x )\nf (x )\n五、(满分10 分) 设\n,且\n存在,求\n.",
+      "answer_hint": "u  x\n\ndu  xd\n\n解:设\n,则\n,因此\nx\n f ( x ) \n f ( u )\n d\ndu \nf ( x )  1\n.\nx\nx\n f u du  xf x\n( )\n( )  2 x\n即\n.\n两边同时对x 求导,得\nf \n( x ) \nf ( x )  \n,\nx\nx\n dx\n\n dx\nf ( x ) \ne x\n( C \n2 \ne x\ndx )\n解得,\nx\n)  Cx  2\n x ( C  2 \ndx )  x ( C \n.\nx 2\nx",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q6-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "6",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q6-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p13",
+          "bbox": [
+            0.025,
+            0.4471956786397834,
+            0.985,
+            0.4759878844691044
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q6-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p13",
+          "bbox": [
+            0.025,
+            0.4759878844691044,
+            0.985,
+            0.7547938007514055
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "y ( x  y 2 )  y\n\n\n\ny 1  y 1  1\n( )\n\n( )\n六、(满分10 分) 求微分方程\n满足初始条件\n的特解.",
+      "answer_hint": "\ny  p (x )\ny   p \n解:令\n,则\n,于是有\n( x  p 2 )  p\np \n... ... 3 分\n,\ndx 1\nx  p\n即\n,解得\ndp\np\n dp\n\n dp\n pe\nx  e p ( C \np dp )  p ( C  p )\n.\n( ) 1\ny ( )\n1 \ny  1 \nC 1 \n... ... 5 分\n再由\n,得\n.\np  y  \nx\ny \nx 2  C\n... ... 8 分\n故\n,求解,得\n.\ny ( )\n1  1\nC 2 \ny \nx \n... ... 10 分\n再由\n,得\n,故\n.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q7-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "7",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q7-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p13",
+          "bbox": [
+            0.025,
+            0.7547938007514055,
+            0.985,
+            0.8074661607836822
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q7-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p13",
+          "bbox": [
+            0.025,
+            0.8074661607836822,
+            0.985,
+            0.9173580230588726
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q7-o1-r3",
+          "page_id": "d-777002d3fd9cab3d960b-p14",
+          "bbox": [
+            0.025,
+            0.07526017021036417,
+            0.985,
+            0.3274248587411181
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "\n( y  ) 2  1  2 y\ny \n七、(满分10 分) 求解初值条件问题 \ny ( 0 )  y \n( 0 )  1\n",
+      "answer_hint": "y  p ( y )\n\ny   p \np\n解:令\n,则\n,于是有\np 2  1  2 yp p \n,\n2 p\ndp \ndy\n即\n.\np 2  1\ny\np  C y  1\n解得\n.\ny ( 0 )  y \n( 0 )  1\nC\n1  2\n再由\n,得\n,故\ny  p \n\n2 \ny 1\n.\n)  d 2 x\nd ( 2 y  1\n即\n,解得\n2 y  1\n2 y  1  x  C\n.\n)\ny ( 0  1\nC 2  1\n再由\n,得\n,故\ny \nx 2 \nx 1\n\n.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q8-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "8",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q8-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p14",
+          "bbox": [
+            0.025,
+            0.3274248587411181,
+            0.985,
+            0.35864694233138594
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q8-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p14",
+          "bbox": [
+            0.025,
+            0.35864694233138594,
+            0.985,
+            0.6352916010419654
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q8-o1-r3",
+          "page_id": "d-777002d3fd9cab3d960b-p15",
+          "bbox": [
+            0.025,
+            0.07795804732310134,
+            0.985,
+            0.12939409107843006
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "x 2 y   xy  y 3\ny ( )\n1  1\n八、(满分10 分) 求\n满足\n的特解.",
+      "answer_hint": "z  y 1 3\n y  2\n解:令\n,则有\nz  \nz  \n.\nx\nx 2\n2 \n\n\n  dx\n  dx\n C   \nz  e\ne x\ndx \nx\n解得\nx 2\n\n\n2 \n\n x 2  C \n  Cx 2 \n,\n3 x 3 \n3 x\n\ny  2  z  Cx 2 \ny ( )\n1  1\nC 2 \n即\n,由\n,得\n.\n3 x\ny  2 \nx 2 \n故\n.\n3 x\n北京交通大学",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q0-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "0",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q0-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p17",
+          "bbox": [
+            0.025,
+            0.7841377583644551,
+            0.985,
+            0.8973079584488175
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q0-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p18",
+          "bbox": [
+            0.025,
+            0.12741787002257823,
+            0.985,
+            0.13204124523692073
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q0-o1-r3",
+          "page_id": "d-777002d3fd9cab3d960b-p18",
+          "bbox": [
+            0.025,
+            0.13204124523692073,
+            0.985,
+            0.3198270736326726
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q0-o1-r4",
+          "page_id": "d-777002d3fd9cab3d960b-p18",
+          "bbox": [
+            0.025,
+            0.3198270736326726,
+            0.985,
+            0.6380294492286773
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q0-o1-r5",
+          "page_id": "d-777002d3fd9cab3d960b-p18",
+          "bbox": [
+            0.025,
+            0.6380294492286773,
+            0.985,
+            0.8271369145472924
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q0-o1-r6",
+          "page_id": "d-777002d3fd9cab3d960b-p19",
+          "bbox": [
+            0.025,
+            0.07795804732310134,
+            0.985,
+            0.12939409107843006
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "( 0 )  1\ny ( 0 )  ,0 y \nC\n1  1\np  y  \n由已知,得\n,故\n,即\n.\n1  x 2\ny  arctan x  C\ny ( 0 )  0\nC 2  0\n再解,得\n,并由\n,得\n,\ny  arctan x\n所以,\n.",
+      "answer_hint": "e x \nx  ln 2\n解:令\n,得\n.\nln 2\n\n\n\nmin( e  x , ) dx  \ndx  \ne  x dx\n所以,\nln 2\n\n\n\n\nln 2 \nde  \nx\nln 2  e \nx\nln 2\nln 2\n\nln 2 \n\n(ln 2  1\n).\n解:1)先求齐次通解:\nr 2 r\n2  3  0\nr   ,3\nr  1\n由特征方程\n,得\n.\nY \nC e  3 x \nC e x\n故齐次通解为\n.\n2)求 y   2 y   3 y  2 e  3 x\n的特解:\ny  x 1 Ae  3 x\nA  \ny  \nxe  3 x\n令\n,代入得\n,即\n;\n3)再求 y   2 y   3 y  5\n的特解:\ny  B\nB  \ny  \n令\n,代入得\n,即\n,\ny  Y  y  y  C e  3 x  C e x \nxe  3 x \n故,所求微分方程通解\n.\n\n\n\n [ f ( x )  f (\n f ( x ) sin xdx \n sin xd f (\n x )] sin xdx \n x )\n解:\n\n\n\n\n  f ( x ) sin xdx  sin x  f ( x )    f \n( x ) cos xdx\n\n\n f ( x ) sin xdx  0 \n cos xdf ( x )\n\n\n\n\n\n f ( x ) sin xdx  cos x  f ( x )\n \n f ( x ) sin xdx\n\n\n\n\n\n  cos x  f ( x )    cos \n f ( )\n  cos 0  f ( 0 )  2  f ( 0 )  .5\nf ( 0 )  3\n所以,\n.\n北京交通大学",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-choice-q1-o2",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "1",
+      "kind": "choice",
+      "answer": "B",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q1-o2-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p19",
+          "bbox": [
+            0.025,
+            0.20011820534316355,
+            0.985,
+            0.2968228125063188
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q1-o2-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p19",
+          "bbox": [
+            0.025,
+            0.2968228125063188,
+            0.985,
+            0.3564033618661074
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": " x \n\n1.设 f ( x )\nln(\n1  t )\ndt ,\ng ( x )  e x  x  1 ,则当 x  0 时, f (x ) 是 g (x ) 的【\n】.\n(A)等价无穷小\n(B)同阶但不等价无穷小\n(C)高阶无穷小\n(D)低阶无穷小.",
+      "answer_hint": "ln 1  x \nln 1  x\nf ( x )\n2 1  x\nlim\n lim\n lim\n\n故选(B).\n解:\n.\ng ( x )\ne x  1\n2 x\nx  0\nx  0\nx  0",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-choice-q2-o2",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "2",
+      "kind": "choice",
+      "answer": "D",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q2-o2-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p19",
+          "bbox": [
+            0.025,
+            0.3564033618661074,
+            0.985,
+            0.4274140891863633
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q2-o2-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p19",
+          "bbox": [
+            0.025,
+            0.4274140891863633,
+            0.985,
+            0.895639501786141
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q2-o2-r3",
+          "page_id": "d-777002d3fd9cab3d960b-p20",
+          "bbox": [
+            0.025,
+            0.23065898110314084,
+            0.985,
+            0.615050317871579
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "k\n\n\n\n e x\n2 sin xdx k  1\n2.设 I\n, 2 ,\n3 ,则有【\n】.\nk\n(A) I  I  I\n(B) I  I  I\n(C) I  I  I\n(D) I  I  I\n.",
+      "answer_hint": "I  I  I .\n故选(D).\n解:由函数图像性质,易知\n解3:易知, I ( x )   [ f ( x )  xf ( xt )]\ndt   f ( x )\ndt   f ( xt )\ndxt\nx\n f ( x )   f ( u )\ndu .\nI \n( x )  f \n( x )  f ( x )  0\n再由\n,得\nf ( x )  Ce  x .\n故选(B).\n解4:易知只有选项(B)中,权系数之和为1.\n故选(B).\ne x  1  xf ( x )\ne x  f ( x )  x f \n( x )\n解5:原式  lim\n lim\nx 2\n2 x\nx  0\nx  0\ne x  f ( x )\nf \n( x )\n\nlim\n\nlim\n2 x\nx  0\nx  0\ne x  f \n( x )\nf \n( x )\ne x\n( x )  3.\n lim\n lim\n lim\n lim f \nx  0\nx  0\nx  0\nx  0",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-choice-q0-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "0",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q0-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p20",
+          "bbox": [
+            0.025,
+            0.615050317871579,
+            0.985,
+            0.8218414070808779
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\n( 0 ) \n,\nf ( 0 )   1 .\n故选(A).\n所以, f\nf (x ) 利用泰勒展开式,更简单:\n注:若对\n[ x \n( 2 )]  x f\n[ ( 0 )  f\n\n( 0 ) x  o x\n( )]\nx  o x\ne x  1  xf ( x )\n!\nlim\n\nlim\nx 2\nx 2\nx  0\nx  0\n[\n1  f ( 0 )] x  [\n( 0 )] x 2  o ( x 2 )\n f \n!\n lim\n 3 .\nx 2\nx 0\n",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q1-o2",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "1",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q1-o2-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p21",
+          "bbox": [
+            0.025,
+            0.8638676670472619,
+            0.985,
+            0.9043800064791891
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q1-o2-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p22",
+          "bbox": [
+            0.025,
+            0.07319166471374539,
+            0.985,
+            0.08443402779747669
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\n\n2 \n\ne x 2 C \ne  x 2 \nCe x 2 \n1 .\nCe x\n故填【\n】.",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q0-o2",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "0",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q0-o2-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p22",
+          "bbox": [
+            0.025,
+            0.08443402779747669,
+            0.985,
+            0.18013332902745105
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q0-o2-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p22",
+          "bbox": [
+            0.025,
+            0.18013332902745105,
+            0.985,
+            0.4385841322126984
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q0-o2-r3",
+          "page_id": "d-777002d3fd9cab3d960b-p22",
+          "bbox": [
+            0.025,
+            0.4385841322126984,
+            0.985,
+            0.6522436855908739
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q0-o2-r4",
+          "page_id": "d-777002d3fd9cab3d960b-p22",
+          "bbox": [
+            0.025,
+            0.6522436855908739,
+            0.985,
+            0.839165285705232
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q0-o2-r5",
+          "page_id": "d-777002d3fd9cab3d960b-p22",
+          "bbox": [
+            0.025,
+            0.839165285705232,
+            0.985,
+            0.9212952869354148
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q0-o2-r6",
+          "page_id": "d-777002d3fd9cab3d960b-p23",
+          "bbox": [
+            0.025,
+            0.08222222549527466,
+            0.985,
+            0.21671002336183606
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q0-o2-r7",
+          "page_id": "d-777002d3fd9cab3d960b-p23",
+          "bbox": [
+            0.025,
+            0.21671002336183606,
+            0.985,
+            0.47776775826117224
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "( x )\n( x )\n( x )\nf ( x )\nf \nf \nf \n解5: lim\n( 0 )  2\n lim\n lim\n lim\n f \n.\nsin x\n1  cos x\nx\nx  0\nx  0\nx  0\nx  0",
+      "answer_hint": "ln x\n ln x \n\n\n\ndx   ln xd\nd ln x .\n  \n \n解:\n(\n1  x ) 2\n1  x\n1  x \n1  x\n\nln x \n\n\ndx\n  \n \n1  x \n1  x )\nx (\n\nln x \nx ln x\n\n\n\n\n\n\n\n1  ln(\n1 \n  \n1  x )\n ln(\n1  x )    ln 2 .\n  ln x\n\n1  x \n1  x\n\n\n\nx\nx\n\nf ( u )\ndu\n tf ( x 2  t 2 )\ndt\nI  lim 0\n lim\n解:\nx 3 sin x\nx 4\nx  0\nx  0\nxf ( x 2 )\nf ( x 2 )\nf ( x )\nf ( x )  f ( 0 )\n lim\n lim\n lim\n lim\n\nf ( 0 ) \n\n.\n4 x 3\n4 x 2\n4 x\n4 x\nx  0\nx  0\nx  0\nx  0\nx\nx\n解:两边对x 求导,得 x  f \n( x ) \n\n( x ) \n,即 f\n.\ne x  e  x\ne x  e  x\nx \nf ( x ) arctan e\nC .\n解得\n\nf ( 0 ) \nC  0 ,故\nf ( x )  arctan e x .\n再由\n,得\nf ( )\n1  arctan e .\n因此,\nx  te\n解:若用欧拉方程,设\n易得.\nC\n( x  y  )\n  0  x  y   C  dy \n1 dx  y  C ln x  C .\n另:恒等变形,有\nx\n( e )  1\ny ( e )  e , y \nC  e ,\nC  0 .\n再由\n,得\ny \ne ln x .\n故满足条件的特解为\n1  cos 2 x\ny   y \ncos 2 x\n\n\n解:恒等变形,有\n.\n1)对应的齐次方程特征方程 r 2 \n1 \n  i .\n,特征根 r\n1,\ncos x  C sin x\n故,齐次方程通解为 Y  C\n.\n2)易知 y   y \ny\n1 \n的一个特解:\n;\n1 cos\n3)设 y   y \n2 x\ny  A cos 2 x  B sin 2 x ,\n的特解:\nA  \n,\nB  0\ny   cos 2 x\n代入,得\n,于是\n.\ny  C cos x  C sin x \ncos 2 x\n\n综上,得\n.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q0-o3",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "0",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q0-o3-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p23",
+          "bbox": [
+            0.025,
+            0.47776775826117224,
+            0.985,
+            0.6260925542615119
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q0-o3-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p23",
+          "bbox": [
+            0.025,
+            0.6260925542615119,
+            0.985,
+            0.7918035134254064
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q0-o3-r3",
+          "page_id": "d-777002d3fd9cab3d960b-p24",
+          "bbox": [
+            0.025,
+            0.07795804732310134,
+            0.985,
+            0.12939409107843006
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "( 0 ) 1\ny ( 0 ) \n0 ,\ny \n ,有\nC   ,\nC  1\n再利用已知条件\n.\ncos x \nsin x \ncos 2 x\ny  \n\n故所求之特解为\n.",
+      "answer_hint": ")\n\n ( , 1 ,使得\n证:利用积分中值定理,存在\n3  f ( x )\ndx \n3 f ( ) (\n1 \n) \nf ( )\nf ( 0 ) .\n \n \n再利用Rolle 定理,存在 \n)  ( 0 , 1\n)\n ( 0 , \n,使得\n(\n)  0\nf \n.\n北京交通大学",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-choice-q1-o3",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q1-o3-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p24",
+          "bbox": [
+            0.025,
+            0.2009603193063883,
+            0.985,
+            0.2964732626286121
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q1-o3-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p24",
+          "bbox": [
+            0.025,
+            0.2964732626286121,
+            0.985,
+            0.3285656508615086
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "( ,\n( x )  f ( x )\n1、设 f (x )\n  ) 内的偶函数,\nF \nF (x ) 【\nC\n为\n,则原函数\n】.\n(A)均为奇函数\n(B)均为偶函数\n(C)只有一个是奇函数\n(D)既非奇函数又非偶函数.",
+      "answer_hint": "F ( x )  C 中,仅有经过原点的函数,才是奇函数.\n解:原函数族",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-choice-q2-o3",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q2-o3-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p24",
+          "bbox": [
+            0.025,
+            0.3285656508615086,
+            0.985,
+            0.45761565927204106
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q2-o3-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p24",
+          "bbox": [
+            0.025,
+            0.45761565927204106,
+            0.985,
+            0.6465222444644319
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "2、下列反常积分中收敛的是【\nA\n】.\n\n\n(A)\n(B)\ndx\ndx\nx 2 \nx ln x  2\ne\n\n(C)\n(D)\nsin xdx\ndx .\nx  1\n ",
+      "answer_hint": "\n1  \n1 \n x \n \ndx \narctan \n\n\narctan\n\n\n ;\n解:\nx 2  2\n2 \n2 \n2 \n\n\n\n\n\n\n\n\ndx \nd (ln x  2 )  2 ln x  2\n   2 3 ;\ne\nx ln x \nln x \ne\ne\n\ndx   \ndx ,显然发散;\nx  1\nx\n\n r\n\nsin xdx  lim  sin xdx  lim 0  0\n错解:\n.\n——这就是对定义的误解!!\n \nr  \n r\nr  ",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-choice-q3-o2",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q3-o2-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p24",
+          "bbox": [
+            0.025,
+            0.6465222444644319,
+            0.985,
+            0.7885414200906553
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q3-o2-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p24",
+          "bbox": [
+            0.025,
+            0.7885414200906553,
+            0.985,
+            0.8795835313772504
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "\n3、如果作换元 x  2 sin t\nf ( 4  x 2 )\ndx  【\nC\n,则定积分\n】.\n\n\n(A) f ( 2 cos t )  2 cos tdt\n(B) f ( 2 cos t )  2 cos tdt\n\n\n(C)\n(D) f ( 2 cos t )\ndt .\n4 f ( 2 cos t )  2 cos tdt\n\n",
+      "answer_hint": "x  2 sin t ,知\ndx  2 cos tdt ,\n4  x 2  2 1  sin 2 t  2 cos t ,\n解:由\n\n \n\n\nx : 2 \n2  t :\nf ( 4  x 2 )\ndx  4 f ( 2 cos t )  2 cos tdt .\n,因此,\n",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-choice-q4-o2",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q4-o2-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p24",
+          "bbox": [
+            0.025,
+            0.8795835313772504,
+            0.985,
+            0.9171494205169765
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q4-o2-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p25",
+          "bbox": [
+            0.025,
+            0.07859082836884014,
+            0.985,
+            0.1852019477231944
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q4-o2-r3",
+          "page_id": "d-777002d3fd9cab3d960b-p25",
+          "bbox": [
+            0.025,
+            0.1852019477231944,
+            0.985,
+            0.3635681342597381
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "4、设线性无关的函数 y , y , y\n都是二阶非齐次线性微分方程的特解,则该非齐次线性\nB\n微分方程的通解为【\n】.\n(A) C y  C y  (\n1  C  C ) y\n(B) C y  C y  (\n1  C  C ) y\n1 1\n2 2\n1 1\n2 2\n(C) C y  C y  y\n(D) C y  C y  ( C  C ) y\n.\n1 1\n2 2\n1 1\n2 2",
+      "answer_hint": "y  y , y  y 是齐次线性微分方程的一组基础解系,因此,\n解:易知\nC ( y \ny ) C ( y \ny ) \ny .\n\n该非齐次线性微分方程的通解为:\n其实关键是注意当 C  C  C  1 时,\ny  C y  C y  C y\n1 1\n2 2\n3 3\n就是该非齐次线性微分方程的通解.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-choice-q5-o2",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q5-o2-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p25",
+          "bbox": [
+            0.025,
+            0.3635681342597381,
+            0.985,
+            0.43745717176945237
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-choice-q5-o2-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p25",
+          "bbox": [
+            0.025,
+            0.43745717176945237,
+            0.985,
+            0.5488509048971701
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "choice",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "5、微分方程 y  5 y  6 y  xe x\n\n\nD\n的特解形式为【\n】.\ne 3 x\ne 3 x .\n(A) Ae3 x\n(B) Axe3 x\n(C) ( Ax  B )\n(D) x ( Ax  B )",
+      "answer_hint": "r 2 r\n5  6  0\nr  2 ,\nr  3 .\n解:特征方程:\n,故\nY  C e 2 x  C e 3 x .\n齐次方程的通解为:\n*  x ( Ax  B )\ny\ne 3 x .\n可设非齐次方程的特解:",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q1-o3",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "1",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q1-o3-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p25",
+          "bbox": [
+            0.025,
+            0.5843165009702055,
+            0.985,
+            0.6227876198706965
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q1-o3-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p25",
+          "bbox": [
+            0.025,
+            0.6227876198706965,
+            0.985,
+            0.6984160301791923
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": " x 2 f (ln x )\n1、已知 e是 f (x )\nx\ndx  【\n的原函数,则\n】.",
+      "answer_hint": "f ( x )  \ne  x ,\nf (ln x )  \ne  ln x  \n解:易知\n,\nx\n 2 (ln x )\n\ndx\n xdx  \nx 2  C .\nx  C .\n因此, x f\n故填: ",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q2-o2",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "2",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q2-o2-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p25",
+          "bbox": [
+            0.025,
+            0.6984160301791923,
+            0.985,
+            0.7359302297716752
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q2-o2-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p25",
+          "bbox": [
+            0.025,
+            0.7359302297716752,
+            0.985,
+            0.7745395199746147
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "d\n x sin t 2 dt \n2、\n【\n】.\ndx\nx 2",
+      "answer_hint": "d\n x sin t 2 dt\n sin t 2 dt  x sin x 4  (  2 x )\n sin t 2 dt  2 x 2 sin x 4\n解:\n.\n故填:\n.\ndx\nx 2\nx 2\nx 2",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q3-o3",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "3",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q3-o3-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p25",
+          "bbox": [
+            0.025,
+            0.7745395199746147,
+            0.985,
+            0.8104659739530002
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q3-o3-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p25",
+          "bbox": [
+            0.025,
+            0.8104659739530002,
+            0.985,
+            0.8815378346193035
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "b\nb\n x f \n3、\nf (x ) 在\n[ a , b ]\nf ( a )  f ( b )  0  f ( x )\ndx  1 ,则\n( x )\ndx \n上连续可微,且\n,\n【\n】.\na\na",
+      "answer_hint": "\n\nb\nb\nb\n x f \n xdf ( x ) \n f ( x )\n( x )\ndx \nxf ( x ) b \ndx\n解:\na\na\na\na\n\n\n\n0 0 \n\n1  \n1 .\n故填:1\n.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q4-o3",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "4",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q4-o3-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p25",
+          "bbox": [
+            0.025,
+            0.8815378346193035,
+            0.985,
+            0.9199240961683902
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q4-o3-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p26",
+          "bbox": [
+            0.025,
+            0.08129676082729383,
+            0.985,
+            0.085116538026008
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q4-o3-r3",
+          "page_id": "d-777002d3fd9cab3d960b-p26",
+          "bbox": [
+            0.025,
+            0.085116538026008,
+            0.985,
+            0.20555109053015744
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "\n4、方程 y  2 xy  2 x\n的通解为【\n】.",
+      "answer_hint": "解:一阶线性微分方程通解为:\n\n\n\n\n\n P ( x ) dx\n P ( x ) dx\n\n\ny  e\nC  Q ( x )\ne\ndx  e x C  2 xe  x dx\n\n\n\n\n2 \n\ne x 2 C \ne  x 2 \nCe x 2 \n1 .\nCe x\n1 .\n故填:",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q5-o3",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "5",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q5-o3-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p26",
+          "bbox": [
+            0.025,
+            0.20555109053015744,
+            0.985,
+            0.24035299036495794
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q5-o3-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p26",
+          "bbox": [
+            0.025,
+            0.24035299036495794,
+            0.985,
+            0.3750560027999873
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "5、已知二阶常系数齐次线性微分方程的一个特解为 y  xe x\n,则该方程为【\n】.",
+      "answer_hint": "r  1 为特征方程的二重根,即\n解:由该微分方程的特征,易知\n( r  1\n) 2  r 2  2 r  1\n所以,其特征方程为:\n.\n故,则该方程为:\ny   2 y   y  0 .\ny   2 y   y  0 .\n故填:",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q3-o4",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "3",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q3-o4-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p26",
+          "bbox": [
+            0.025,
+            0.3750560027999873,
+            0.985,
+            0.4569468413128654
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q3-o4-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p26",
+          "bbox": [
+            0.025,
+            0.4569468413128654,
+            0.985,
+            0.6548788079843665
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "\n三、\nf (x ) 可导,其反函数为\ng (x ) ,\nf ( 0 ) \nf (x ) 与\ng (x )\n(本题满分10 分)设函数\n,并且\nt\nf ( x )\nx\n\ng ( t )\ndt  \ndt .求\nf (1 .\n)\n满足关系式:\ne t \ne  t",
+      "answer_hint": "解:关系式两边对x 求导,得\nx\ng ( f ( x ))  f \n( x )  x  f \n( x ) \n.\ne x  e  x\nx\nf ( x )  \ndx  \nde x  arctan e x  C .\n则\n( e x ) 2  1\ne x  e  x\n\n( )\n0 \n再由 f\n,得 C  ,\n( )\n1  arctan e\n因此, f\n.",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q4-o4",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "4",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q4-o4-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p26",
+          "bbox": [
+            0.025,
+            0.6548788079843665,
+            0.985,
+            0.7337094030820321
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q4-o4-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p26",
+          "bbox": [
+            0.025,
+            0.7337094030820321,
+            0.985,
+            0.9217672610966297
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "\n f ( x )\nf (x ) 在区间\n[ 0 , \n]\n四、\nf ( x )  sin x \ndx ,\n(本题满分10 分)设函数\n上连续,并且\nf (x ) 的表达式.\n求",
+      "answer_hint": "\n f ( x )\ndx  A ,则\nf ( x ) sin x  A ,\n解:令\n因此,有\n\n\n f ( x )\n (sin x  A )\nA \ndx \ndx  2  A\n .\n所以, A 1\n.\n \nf ( x )  sin x \n因此,\n.\n1  ",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-blank-q5-o4",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "5",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q5-o4-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p27",
+          "bbox": [
+            0.025,
+            0.08590507696982841,
+            0.985,
+            0.12124833664687464
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-blank-q5-o4-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p27",
+          "bbox": [
+            0.025,
+            0.12124833664687464,
+            0.985,
+            0.4196852728787456
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "blank",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "五、(本题满分10 分)求微分方程 y\ny   2\n( y  ) 2\n的通解.",
+      "answer_hint": "\ny  p ( y ) ,则\ny   p \np ,因此原方程为\n解:设\ny p\np   2 p 2 .\n1)若 p  0\ny  0\ny  C .\n,则\n,因此,\n2)若 p  0\ny\np   2 p ,即\ndp \ndy .\n,则\np\ny\nln | p |\n 2 ln | y |  ln | C | ,即\n解得\ny  \np \nC 2 y 2 .\n 1\n解得 y \n.\nC x  C",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-solution-q7-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "7",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-solution-q7-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p27",
+          "bbox": [
+            0.025,
+            0.7401555707522167,
+            0.985,
+            0.7751322091586214
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-solution-q7-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p27",
+          "bbox": [
+            0.025,
+            0.7751322091586214,
+            0.985,
+            0.9095667763066498
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-solution-q7-o1-r3",
+          "page_id": "d-777002d3fd9cab3d960b-p28",
+          "bbox": [
+            0.025,
+            0.07844566849332087,
+            0.985,
+            0.23445340426789552
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "solution",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "x\n tf ( 2 x  t )\n,求 f ( x )\nf (x ) 连续,且\ndt  e  x ,若\nf ( )\n1  2\ndx .\n七、\n(本题满分10 分)已知",
+      "answer_hint": "解:化简,有\nx\nx\n tf ( 2 x \n \n( 2 x \n2 x \nt )\ndt \nu ) f ( u )\ndu\nu \nt\n2 x\n2 x\n2 x\n\n uf ( u )\n 2 x\nf ( u )\ndu \ndu  e  x .\nx\nx\n两边对x 求导,得\n2 x\n\n\n\n\nf ( u )\ndu  2 x 2 f ( 2 x )  f ( x )  2 x  f ( 2 x )  2  xf ( x )   2 xe  x .\nx\n2 x\n2 \nf ( u )\ndu  xf ( x )   2 xe  x 2 ,\n整理,得\nx\n2 x\n\nf ( u )\ndu   xe  x 2 \nxf ( x ) .\n即\nx\n f ( x )\ndx  \n1 e  .\n因此,",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-777002d3fd9cab3d960b-s4-solution-q8-o1",
+      "document_id": "d-777002d3fd9cab3d960b",
+      "number": "8",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北交月考",
+        "2020年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-solution-q8-o1-r1",
+          "page_id": "d-777002d3fd9cab3d960b-p28",
+          "bbox": [
+            0.025,
+            0.23445340426789552,
+            0.985,
+            0.27141137284377975
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-777002d3fd9cab3d960b-s4-solution-q8-o1-r2",
+          "page_id": "d-777002d3fd9cab3d960b-p28",
+          "bbox": [
+            0.025,
+            0.27141137284377975,
+            0.985,
+            0.6971053055889044
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北交月考",
+        "year": "2020",
+        "complete": true,
+        "collection": true,
+        "group": null,
+        "course": "微积分B",
+        "session": "第二次月考",
+        "heading": "2020-2021 学年第一学期《微积分B》第二次月考试卷"
+      },
+      "section": "solution",
+      "segment": 4,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "x\n ( x  t f t dt\n八、(本题满分10 分)设 f x \n( )\ncos x \n) ( )\n(x )\n(x )\n,其中 f\n连续,求 f\n.",
+      "answer_hint": "x\nx\n f ( t )\n tf ( t )\n解:1)整理,有 f ( x )  cos x  x\ndt \ndt .\n两边对x 求导,得\nx\nf \n( x )   sin x   f ( t )\ndt .\n两边再对x 求导,得\n x\n( )  f x\n( )  \ncos x\nf\n.\n( 0 )  1\n,\n( 0 )  0\nf \n当 x  时,代入上述诸式,有 f\n.\n2)齐次方程通解: Y  C cos x  C sin x\n.\n3)设非齐次方程特解: y\n*  x ( A cos x  B sin x )\n,\nA  0\nB  \n得\n,\n,\n4)整理,得 f ( x )  Y  y\n*  C cos x  C sin x \nx sin x .\n,\n( 0 ) \nf ( 0 ) \nf \n0 .\n再由\n,得 C  1\n, C \n( x )  Y  y\n*  cos x \nx sin x .\n因此, f",
+      "suspected_answer_in_stem": true
+    }
+  ],
+  "issues": [
+    {
+      "type": "no_question_anchor",
+      "page": 15,
+      "lane": 0,
+      "details": "本页未定位题号，保留原页待核对；可能为封面、答案表或延续页。"
+    },
+    {
+      "type": "no_question_anchor",
+      "page": 16,
+      "lane": 0,
+      "details": "本页未定位题号，保留原页待核对；可能为封面、答案表或延续页。"
+    }
+  ],
+  "identity": {
+    "category": "北交月考",
+    "year": null,
+    "complete": false,
+    "collection": true,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

@@ -1,0 +1,1090 @@
+{
+  "item": {
+    "id": "d-271e1e35f7bf58b63cfd",
+    "path": "resource/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2017-2020考研数学（一）真题+答案解析/2019考研数一真题解析.pdf",
+    "name": "2019考研数一真题解析.pdf",
+    "sha256": "30a7ab86a585c2b8cc8b6aeb93e506230f6e2427e6b696fe404c145454b7e851",
+    "format": "pdf",
+    "bytes": 2161680,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 7,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 595.3200073242188,
+        "height": 802.2349853515625,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 595.3200073242188,
+        "height": 802.2349853515625,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 595.3200073242188,
+        "height": 802.2349853515625,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 595.3200073242188,
+        "height": 802.2349853515625,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 595.3200073242188,
+        "height": 802.2349853515625,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 6,
+        "width": 595.3200073242188,
+        "height": 802.2349853515625,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 7,
+        "width": 595.3200073242188,
+        "height": 802.2349853515625,
+        "text_chars": 0,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "30a7ab86a585c2b8cc8b6aeb93e506230f6e2427e6b696fe404c145454b7e851",
+  "engine_version": 6,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2017-2020考研数学（一）真题+答案解析/2019考研数一真题解析.pdf",
+  "pdf_sha256": "30a7ab86a585c2b8cc8b6aeb93e506230f6e2427e6b696fe404c145454b7e851",
+  "pages": [
+    {
+      "id": "d-271e1e35f7bf58b63cfd-p1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": 1,
+      "width": 595.3200073242188,
+      "height": 802.2349853515625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-p2",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": 2,
+      "width": 595.3200073242188,
+      "height": 802.2349853515625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-p3",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": 3,
+      "width": 595.3200073242188,
+      "height": 802.2349853515625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-p4",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": 4,
+      "width": 595.3200073242188,
+      "height": 802.2349853515625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-p5",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": 5,
+      "width": 595.3200073242188,
+      "height": 802.2349853515625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-p6",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": 6,
+      "width": 595.3200073242188,
+      "height": 802.2349853515625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-p7",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": 7,
+      "width": 595.3200073242188,
+      "height": 802.2349853515625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-271e1e35f7bf58b63cfd-s0-choice-q2-o1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": "2",
+      "kind": "choice",
+      "answer": "B",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-choice-q2-o1-r1",
+          "page_id": "d-271e1e35f7bf58b63cfd-p1",
+          "bbox": [
+            0.025,
+            0.24734391751429863,
+            0.985,
+            0.3588708089104532
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年 〈 数一 ) 真题答案解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(2) 也\n解 7(z) 在 z 一 0 处的有导数 lim 三 2 一方 0 =lim inz 不存在 ,\n则 z 一 0 是 Az) 的不可导点 .F(0) 一 0, 在工一 0 点的左邻域内 /Cz) 一 0,\n右邻域内 f(z) 二 0, 则 z 一 0 是 jz) 的极大值点 . 故应选 B.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-s0-choice-q3-o1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": "3",
+      "kind": "choice",
+      "answer": "D",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-choice-q3-o1-r1",
+          "page_id": "d-271e1e35f7bf58b63cfd-p1",
+          "bbox": [
+            0.025,
+            0.3588708089104532,
+            0.985,
+            0.6388295464767371
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年 〈 数一 ) 真题答案解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(3) D\n1 SR 人\n解取一一二 , 则之元发散 ,A 错误 ,\n着 > 一 1 过收敛, 则由菜布尼英判别法 ,二应单调递减趋向于零 ,\n并\n而由题意 {fu, } 是单调增加的有界数列 , 则二单调递减不趋于零 ,B 错误\n取凡一一二 , 则 2 (1 一儿 -) = 六 (一二) 发散 ,C 错误\n对于 D 选项 , ee 站) 一 (一 0 十 (一人十 ...=limGuesna 一 x) 存在 ,\n故六 Ca 一好 ) 收敛 . 故应选 D.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-s0-choice-q4-o1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": "4",
+      "kind": "choice",
+      "answer": "D",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-choice-q4-o1-r1",
+          "page_id": "d-271e1e35f7bf58b63cfd-p1",
+          "bbox": [
+            0.025,
+            0.6388295464767371,
+            0.985,
+            0.7248104432425762
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年 〈 数一 ) 真题答案解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(4) D\n解曲线积分与数径无关 , 则应使 5 一 3 ,排除和. 有\n对于 C 选项 ,z =0 不连续 ,排除 . 故应选 D.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-s0-choice-q5-o1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": "5",
+      "kind": "choice",
+      "answer": "C",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-choice-q5-o1-r1",
+          "page_id": "d-271e1e35f7bf58b63cfd-p1",
+          "bbox": [
+            0.025,
+            0.7248104432425762,
+            0.985,
+            0.8396601465409471
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年 〈 数一 ) 真题答案解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(5) C\n解设 ) 是 4 的特征值 ,根据 4 二 4=2B 得 :2 十) 一 2, 解得 1 一 1 或一 2.\n由于 4 是 3 阶实对称矩阵 , 则 4 的三个特征值的积为 | 4 | 的值 ,\n故 4 的三个特征值为 1, 一 2, 一 2, 正惯性指数为 1, 负惯性指数为 2,\n故二次型 xz4x 的规范型为 y! 一光一 %3. 故应选 C.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-s0-choice-q6-o1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": "6",
+      "kind": "choice",
+      "answer": "A",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-choice-q6-o1-r1",
+          "page_id": "d-271e1e35f7bf58b63cfd-p1",
+          "bbox": [
+            0.025,
+            0.8396601465409471,
+            0.985,
+            0.9610249221183801
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年 〈 数一 ) 真题答案解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(6) 人\n解三张平面无公共交线 , 则 Ar = 无解一 r(4) 一 (4) ,排除 B.D.\n又因为三张平面两两相交 , 且交线相互平行 , 则齐次方程组 hx =0\n只有一个线性无关解 ,所以 ~(4) 一 2,\n故应选 A.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-s0-choice-q7-o1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": "7",
+      "kind": "choice",
+      "answer": "C",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-choice-q7-o1-r1",
+          "page_id": "d-271e1e35f7bf58b63cfd-p2",
+          "bbox": [
+            0.025,
+            0.05502480697001932,
+            0.985,
+            0.15824775595095167
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年 〈 数一 ) 真题答案解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(7) C\n解 ”由 P(C4B)=PCB4) 得\nP(C4B)=P(4) 一 POAB)=P(OB4)=P(GB) 一 PCOAB) 扫 P(4)=PCB).\n故应选 C.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-s0-choice-q8-o1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": "8",
+      "kind": "choice",
+      "answer": "A",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-choice-q8-o1-r1",
+          "page_id": "d-271e1e35f7bf58b63cfd-p2",
+          "bbox": [
+            0.025,
+            0.15824775595095167,
+            0.985,
+            0.3177497252287263
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年 〈 数一 ) 真题答案解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(8) A\n解由 X 一 No 一 No), 且相互独立 ,\n则 ECGX 一切 =0,DGX 一 Z 一 DXTDY= 2o4 得- 工一 N(0D,\nVZc\n全声 < 协 | 2()\n|IX-Yl 1 1 ,\n故 P{|X 一 Y|<1)}= P 二一 ) = 25 一 1 与 c* 有关 , 与 w 无关 .\n故应选 A.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-s0-blank-q9-o1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-blank-q9-o1-r1",
+          "page_id": "d-271e1e35f7bf58b63cfd-p2",
+          "bbox": [
+            0.025,
+            0.34495486176058293,
+            0.985,
+            0.471850530039568
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年 〈 数一 ) 真题答案解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(9) 二二\ncoOsZ cosy\nDz az / 和\n解一 = 一 cosz。 上证 y, 二一 cosy。 太十 z, 代人得\nBrz y\n.至二过, 笃一 -之 -二故应填 -> 二- 芝 _,\n1 1 < 并 3\ncosTY Br cosy By cosr cosy cos 并 cosy",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-s0-blank-q10-o1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": "10",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-blank-q10-o1-r1",
+          "page_id": "d-271e1e35f7bf58b63cfd-p2",
+          "bbox": [
+            0.025,
+            0.471850530039568,
+            0.985,
+            0.5956305218756693
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年 〈 数一 ) 真题答案解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(10) V3er 一 2\ndy yyY+2 2y\n2yy 一史一 2 一 0>> 于一二-\n解 2yy 一六去到一玉二 3\n则通解交十 2=cer ,再由 y(0) = 一 1, 得 c=3,\n故特解 y =V3e- 一 2. 故应填 V3er 一",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-s0-blank-q11-o1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-blank-q11-o1-r1",
+          "page_id": "d-271e1e35f7bf58b63cfd-p2",
+          "bbox": [
+            0.025,
+            0.5956305218756693,
+            0.985,
+            0.6666565010319677
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年 〈 数一 ) 真题答案解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(11) cosV 工\nCD 人一 D 辣\n解 > CT -之 [让 (Vz )” 一 cosVZz . 故应填 cosVz .\nwo =",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-s0-blank-q12-o1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-blank-q12-o1-r1",
+          "page_id": "d-271e1e35f7bf58b63cfd-p2",
+          "bbox": [
+            0.025,
+            0.6666565010319677,
+            0.985,
+            0.8784973887801282
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年 〈 数一 ) 真题答案解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(12) 本\n解 “将曲面方程代入积分表达式中 , 原积分一 | | y | dzdy,\n三\n由于关于 roz 平面对称 , 则 | | y| dzdy 一 2 ydzdy ,其中总为三的右半侧 (y > 0),\n了 3\nee D。, 为吧 , 在 roz 平面的投影 ,\n,一 2 fa singdr 一到故应环宇 ,",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-s0-blank-q13-o1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-blank-q13-o1-r1",
+          "page_id": "d-271e1e35f7bf58b63cfd-p2",
+          "bbox": [
+            0.025,
+            0.8784973887801282,
+            0.985,
+            0.9610249221183801
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-blank-q13-o1-r2",
+          "page_id": "d-271e1e35f7bf58b63cfd-p3",
+          "bbox": [
+            0.025,
+            0.06850467289719626,
+            0.985,
+            0.1615672746901615
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年 〈 数一 ) 真题答案解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(13) x 一 A( ,一 2,1)7,R ER\n解 ” 先计算 4 的秩 , 由于 xi,a; 线性无关 , 可知 ~(4) 三 2; 又由于 as = 一 xc 十 2c,,\n可知 r(4) 过 2. 从而有 r(4)=2,4x 一 0 的基础解系中含有一个向量 .\n由 ws 一一 xi 十 2x:,, 可知 4 -eol 即为 4x 一 0 的基础解系 .\n1 1\n4x 一 0 的通解为 &(1, 一 2,1)7, 故应填 x 一 A(G1 ,一 2,1)7, 为任意常数 .",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-s0-blank-q14-o1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-blank-q14-o1-r1",
+          "page_id": "d-271e1e35f7bf58b63cfd-p3",
+          "bbox": [
+            0.025,
+            0.1615672746901615,
+            0.985,
+            0.48659666560827247
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年 〈 数一 ) 真题答案解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(14) 本\n_ 记 , 0<< 工二 2,\n解 ”由随机变址 X 的概率密度 FCz ) =1 2 可知 X 的分布函数\n[6, ”其他 ,\n上忆 0,\n下 (X ) 一本 , 0o<z < 一 2EX=| -rd =| = “了 dz 一 5,\n加 2 PP 4\n1, 工三 2,\n、 4 X \"1\nPFC > EX-1) -PFC > 了-I=P| 宁 > 本 |\n-Pi > 上 2d 3\n一 2 六工由\n故应填本 ,",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-s0-solution-q15-o1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": "15",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-solution-q15-o1-r1",
+          "page_id": "d-271e1e35f7bf58b63cfd-p3",
+          "bbox": [
+            0.025,
+            0.5098575838599145,
+            0.985,
+            0.9560404984423676
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-solution-q15-o1-r2",
+          "page_id": "d-271e1e35f7bf58b63cfd-p4",
+          "bbox": [
+            0.025,
+            0.056666666666666664,
+            0.985,
+            0.2591819237448282
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年 〈 数一 ) 真题答案解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(15) 解 〈( 工 ) 这是一阶线性微分方程 ,由公式法可得方程的通解为\nyy 一 ee (Ja +C) 一 ( 工 +C)e 大,\n因为 >(0) =0, 可知 C=0, 则 y>=ze“.\n2 2 2 2\n(1] 2 五间目一 2 3)c 三\n(IT)y =e “十 (一 ze 一 (1 一 z)e“”, 进一步光一工 ( 3)e\n2 ,\n令多 =0, 得 z=0,z 一士 V3.\n(一 co 一) | 一 3 | 一 5,0) 0 (0W3) V3 CV3 ,十 co)\n凡\n了一 0 十 0\n了凸拐点凹拐点凸拐点凹\n则函数的凸区间为 :( 一 ,一 V3),(0,V3),\n凹区间为 :[ 一 v3 ,0),[V3 ,十 cc),\n了一\n拐点 :( 一 3, 一 \\3c“),(0,0),(CV3,V3e ).\nG6) 解 (IT) 坚一 2az, 择一 20y, 则\nzx z\n于 |o 一 0,5|o 一 2,\nB7z By\n由于方向导数最大方向即为梯度方向 ,从而 2 一世 , 所以 < 一 4 且 a 一 0 一 0,\n又由于 6a( 过)+86( 一二 ) 一 10, 所以 a = 一一\n〈 开 ) 要计算曲面 z 王 2 一袜一 yz 伺 0)( 设为了 ) 的面积 ,只需对函数 ?! 在曲面上求第一型\n曲面积分 .\n中 ss ee\n其中万为在 <Oy 平面上的投影 ,D =({((z,y) |z 十交近 2).\n4 |\n用极坐标计算该积分可得 S 一 af rvVT 二他炎一 J",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-s0-solution-q17-o1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-solution-q17-o1-r1",
+          "page_id": "d-271e1e35f7bf58b63cfd-p4",
+          "bbox": [
+            0.025,
+            0.2591819237448282,
+            0.985,
+            0.48244037212421537
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年 〈 数一 ) 真题答案解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "解 ”由题意 ,所求面积为\n(17)\ns=|= = | sinz | dz 一忆 (一 1) 六 esinzdz,\nCn 十 1) 亚\n+\n。\n因为 | esinrdz 一一 ecos 工\nopr\nCrDr\nCnHDr\n一 ecosz dz\n-CDrreeo+eec]-| esinzdz.\nCHDr\n(一 1)”\n得 | esinzdr= 一 [e+e]\n折以 SS 二工 eta] .\n1 总, _ er 十 1\n乒了",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-s0-solution-q18-o1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-solution-q18-o1-r1",
+          "page_id": "d-271e1e35f7bf58b63cfd-p4",
+          "bbox": [
+            0.025,
+            0.48244037212421537,
+            0.985,
+            0.9591557632398754
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-solution-q18-o1-r2",
+          "page_id": "d-271e1e35f7bf58b63cfd-p5",
+          "bbox": [
+            0.025,
+            0.06102803738317757,
+            0.985,
+            0.44381308411214954
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年 〈 数一 ) 真题答案解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "解 (I)asi 一。 =| rc 一 D) VI 二 zzdz.\n(18)\n因为在积分区间 [0,1] 上 ,z\"(z 一 1D) VI 一 zx 芝 0 且不恒等于 0,\n所以 ac 一 ay, 二 0, 即 {a,) 单调减少 .\n当之 2 时 ,因为 ,一 | eVIT 一 ardr\n3 四也\n= 一了 0z9 | +\n= 二 7 一 1\nVT 一二 dz 一四 ”V1 一工 ” 5 dx\n一了 1 , 3 QQ,\n_ 寻一 1\n、 一 1\n所以 a, 一 2 aa 一 2,3,).\n4 _ 光一 1 2\nCID 一\n因为 fa,) 单调减少且 a, > 0, 所以 2 一一 1, 从而 im 2- 一 1.\n有十 2 an ne Qn\n解设形心坐标 (z,y,z), 由于 2 是关于 yOz 平面对称的 ,\n《19)\n由对称性可知二一 0, 由先二后一法可知 ,\n由 re 中 dzdy 一 zj,G 一 ?dz 一了了,\n20 一 a)2S(1 一 =)2\n:sr=|a 中 zdzdy 一五;\n外了 2 二 (一 2<(1 一 a)2\n:ar\n则 == 全一一寺 .\n册 a\n了\n由 mr= 和 ydzdy,\n2 了 (12\n其中中 ydzdy 一一一和 (十 z)dzdu\n了 (2 2 Hu2 迟 (1 一 <)\n一和 zdzdx 一 rz(1 一 z),\n2 二 (1 一 z)2\n则由 yar=| za 一 z) :dz 一一\n开\n12”\n四\n由 ar\n一 1 罗网本 1 1\n故 y 一 】 总一于 , 则形心为 (0, 开 ,于 )",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-s0-solution-q20-o1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-solution-q20-o1-r1",
+          "page_id": "d-271e1e35f7bf58b63cfd-p5",
+          "bbox": [
+            0.025,
+            0.44381308411214954,
+            0.985,
+            0.7661407206105151
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年 〈 数一 ) 真题答案解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "人\n(20) 解 〈( 工 ) 由题目可知 ,\n人 1 站\n有 =bai 十 cas 十 cs, 代入可得 ?22 十 3c 十 < 一 1, 解得 4 一 2\n8 十 2c 十 3 一 1 < 一一 2\n1 1 1\n(I) 由于 | (cz,xs,5)|=|0 0 一 2|=2 尖 0,\n0 1 一 !\n故 aa,as,B 线性无关 , 则 xs,as,B 为民 : 的一个基 ;\n设过渡和矩阵为 C, 则 (alias,as)=(as,ai,P)C, 进而有\n1 10]\n2 2 0 1\nCC 一 (aas;1) ou- 让 0 - 2 。\n_ 1 一村 0 1\n1 0 0 1 |\n丈 0 9|",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-s0-solution-q21-o1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-solution-q21-o1-r1",
+          "page_id": "d-271e1e35f7bf58b63cfd-p5",
+          "bbox": [
+            0.025,
+            0.7661407206105151,
+            0.985,
+            0.9585327102803738
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-solution-q21-o1-r2",
+          "page_id": "d-271e1e35f7bf58b63cfd-p6",
+          "bbox": [
+            0.025,
+            0.054174454828660436,
+            0.985,
+            0.46852854142810324
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年 〈 数一 ) 真题答案解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(21) 解 〈 工 ) 因为矩阵 4 与了相似 ,所以 tr(4) 一 tr(B),| 4 |=|B |,\n一 4 一 y 十 1,\n即他一 ?1 解得 z=3,y 一一 2\n14> 一 8 一一 2y,\n([I) 矩阵也的特征多项式为 | 下一 B | 一 (一 2)(A 十 1)G 十 2),\n所以如的特征值为 2, 一 1, 一 2.\n由于 4 与也相似 ,所以 4 的特征值也为 2, 一 1, 一 2.\n4 的属于特征值 2 的特征向量为旨一 (1,, 一 2,0)7;\nA 的属于特征值一 1 的特征向量为 # 一 (一 2,1,0)7;\n4 的属于特征值一 2 的特征向量为 $ 一 (1, 一 2, 一 4)7.\n2 0 0\n0 一 1 \"|\n记 P, 一 (6 ,和 ,6 ), 于是 PT 4P,, 一\n0 0 一\n了的属于特征值 2 的特征向量为力一 (1,0,0)\n了 3 的属于特征值一 1 的特征向量为 7 一 (1, 一 3,0)7;\n呈的属于特征值一 2 的特征向量为 7 一 (0,0,1) 7.\n2 0 0\n记 P: 一 (7 ,7z, 放 3), 于是 P?BP: 一 |0 一 1 0 |\n0 0 一 2\n由 Pi 4P; 一 P7BP,,\n得 (P,P7) 4(PP7 ) 一如 .\n忆 -2 1 03 9 1 1 1\n一 1 一 | 一一 1 一 |-2 一 1 下 ,\n卫一 PPz 2 1 0 _1 |\n0 0 一 4 3 0 0 一 4\n0 0 1\n则 PP 一 4P 一甩 .",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-s0-solution-q22-o1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-solution-q22-o1-r1",
+          "page_id": "d-271e1e35f7bf58b63cfd-p6",
+          "bbox": [
+            0.025,
+            0.46852854142810324,
+            0.985,
+            0.9572866043613707
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-solution-q22-o1-r2",
+          "page_id": "d-271e1e35f7bf58b63cfd-p7",
+          "bbox": [
+            0.025,
+            0.05978193146417445,
+            0.985,
+            0.08971193040578035
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年 〈 数一 ) 真题答案解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(22) 解 ( 工 ) 2 的分布函数为\nFz(z) 一 P(Z 过 =)\n王 P{(XY 过 > |Y= 一 1)P{Y= 一 1) 十 P(XY 近 = |Y=1)P(Y=1)\n一 bP{( 一 X 雪 >} 二 (1 一记 )P(X 扫 >)\n当 z 二 0 时 ,Fz(z) 一 pP{X 三一 z)} 十 (1 一记 ) .0 一 be\n当 z 三 0 时 ,Fz(z)= ,1+(1 一记 )P(X 近 zx) 一 1 一 (1 一 De\n所以 2 的概率密度为\n, er , xz < 到 0,\n太一 e0\n(IT) CovCX,Z)=ECOXZ) 一 EX .EZ ,\n一 EC(X2Y) 一 EX .已 CXY)\n一下 (X2?)。 忆 (7Y) 一 (EX) .下 (Y)\n一 DX .EY\n一 1 一 22,\nCov(X,Z) =0, 得户一二 .所以户一于时 ,X 与 2 不相关 ,\n(了严 ) 因为\nPI(X 近 1,Z 近一 1}=PI(X 过 1,XY 近一 1)=0,\nPI(X 近 1) 二 0,P(Z 近一 1) 二 0,\n所以\nP{(X 近 1,Z 近一 1) 和关 P(X 近 1)P(Z 近一 1).\n故 X 与 2 不相互独立 .",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-271e1e35f7bf58b63cfd-s0-solution-q23-o1",
+      "document_id": "d-271e1e35f7bf58b63cfd",
+      "number": "23",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-271e1e35f7bf58b63cfd-s0-solution-q23-o1-r1",
+          "page_id": "d-271e1e35f7bf58b63cfd-p7",
+          "bbox": [
+            0.025,
+            0.08971193040578035,
+            0.985,
+            0.6607133956386293
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年 〈 数一 ) 真题答案解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(23) 解 (IT) 由 | 7Gziaodz 一 1, 得\n本一\n1=| <。 2 dr =4 e dt\n交 。\n/ HH 人\n=A, 反 | 1 ed\n2 一硕\n一 Y2rA,\n所以 A= 有尼\n二\n(I) 设 zzs,...zw 为样本 Xi,X:,...X,, 的观测值 , 则似然丽数为\n-人 zs\n0, 其他 ,\n对数似然函数为\n2 也 1 如\nLa2) 一二 In 二一二 no 一- 一》 (zi 一六\nlnLGCc ) In 元 Inc 了包 (人挛 )\ndlnLCc ) 也 1 2\nda? 加到十环 G,\n令 S 下 52 一 0, 得 o 的最大似然估计值为 4 一二 >) (Cr, 一 /0?,\ndlnL(c? 、 介局\n气\n所以 o* 的最大似然估计量为 2 一工 > CX, 一",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [],
+  "identity": {
+    "category": "考研数一",
+    "year": "2019",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

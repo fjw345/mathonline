@@ -1,0 +1,1429 @@
+{
+  "item": {
+    "id": "d-9deb3caadf648f3e75bf",
+    "path": "resource/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/1987-2016考研数学（一）真题答案与解析/2006考研数学一真题及答案解析.pdf",
+    "name": "2006考研数学一真题及答案解析.pdf",
+    "sha256": "361948941fdf305e2cc5e61d403d00f75da6006c989724edeaa17d8bf63ab021",
+    "format": "pdf",
+    "bytes": 646565,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 14,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "text_chars": 1077,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "text_chars": 941,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "text_chars": 1080,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "text_chars": 1131,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "text_chars": 1397,
+        "renderable": true
+      },
+      {
+        "number": 6,
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "text_chars": 1233,
+        "renderable": true
+      },
+      {
+        "number": 7,
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "text_chars": 1161,
+        "renderable": true
+      },
+      {
+        "number": 8,
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "text_chars": 1372,
+        "renderable": true
+      },
+      {
+        "number": 9,
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "text_chars": 1131,
+        "renderable": true
+      },
+      {
+        "number": 10,
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "text_chars": 1110,
+        "renderable": true
+      },
+      {
+        "number": 11,
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "text_chars": 928,
+        "renderable": true
+      },
+      {
+        "number": 12,
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "text_chars": 1122,
+        "renderable": true
+      },
+      {
+        "number": 13,
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "text_chars": 1004,
+        "renderable": true
+      },
+      {
+        "number": 14,
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "text_chars": 840,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "361948941fdf305e2cc5e61d403d00f75da6006c989724edeaa17d8bf63ab021",
+  "engine_version": 6,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/1987-2016考研数学（一）真题答案与解析/2006考研数学一真题及答案解析.pdf",
+  "pdf_sha256": "361948941fdf305e2cc5e61d403d00f75da6006c989724edeaa17d8bf63ab021",
+  "pages": [
+    {
+      "id": "d-9deb3caadf648f3e75bf-p1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": 1,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-p2",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": 2,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-p3",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": 3,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-p4",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": 4,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-p5",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": 5,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-p6",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": 6,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-p7",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": 7,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-p8",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": 8,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-p9",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": 9,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-p10",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": 10,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-p11",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": 11,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-p12",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": 12,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-p13",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": 13,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-p14",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": 14,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-blank-q1-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "1",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-blank-q1-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p1",
+          "bbox": [
+            0.025,
+            0.16053091152973545,
+            0.985,
+            0.28983854299536776
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "x ln(1  x )\n 2.\n(1) lim 1 cos\n\nx\nx  0\n【分析】 本题为0\n未定式极限的求解,利用等价无穷小代换即可.\n\n\nx ln(1 x )\nx x\n lim\n 2\nlim\n【详解】\n.\n\nx  0 1 cos x\nx  0\nx",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-blank-q2-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "2",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-blank-q2-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p1",
+          "bbox": [
+            0.025,
+            0.28983854299536776,
+            0.985,
+            0.4926892910165327
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "y (1  x )\n\n x\n Cx\n 0).\ne ( x\n(2)  微分方程 y\n的通解是 y\nx\n【分析】 本方程为可分离变量型,先分离变量,然后两边积分即可\n【详解】 原方程等价为\nd\ny\n 1\n\n\n 1 d\n\n x ,\ny\n x\n\n ln x\n\nx C ,整理得\n两边积分得 ln y\nCx \nC  eC\ne x\ny \n.(\n1 )",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-blank-q3-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "3",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-blank-q3-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p1",
+          "bbox": [
+            0.025,
+            0.4926892910165327,
+            0.985,
+            0.9496428163746645
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-blank-q3-o1-r2",
+          "page_id": "d-9deb3caadf648f3e75bf-p2",
+          "bbox": [
+            0.025,
+            0.04210587405394672,
+            0.985,
+            0.12517685790875857
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "2 (0\n(3)设是锥面 z \n z  1)\nx 2  y\n的下侧,则\n\n 2 d d\n\n\n 2.\nx y z\nd d\ny z x 3( z 1)d d\nx y\n\n z  1\n【分析】 本题不是封闭曲面,首先想到加一曲面 :\n\n\n,取上侧,使\nx 2  y 2  1\n\n构成封闭曲面,然后利用高斯公式转化为三重积分,再用球面(或柱面)坐标进行计\n算即可.\n: z  1( x 2  y 2  1)\n【详解】 设\n,取上侧,则\n\n 2 d d\n\n\nx y z\nd d\ny z x 3( z 1)d d\nx y\n\n\n\n\nx y z\nd d  2 d d\ny z x  3( z  1)d d\nx y \nx y z\nd d  2 d d\ny z x  3( z  1)d d\nx y\n.\n\n\n\n\n\n 2\n 1\n 1\n\nx y z\nd d  2 d d\ny z x  3( z  1)d d\nx y =\n6d\nv  6\nd\nr r\nd\nd\nz  2 ,\n而\nr\n\nV\n\n\n\n\n\nx\nd y\nd z\n2 y\nd z\nd x 3 ( z\n1 )\n.\n\n中国教育在线考研频道  www.kaoyan.cn\n中国教育在线(www.kaoyan.cn) 中国最权威考研门户\n\n\nx y z\nd d  2 d d\ny z x  3( z  1)d d\nx y  2\n所以\n.\n",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-blank-q4-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "4",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-blank-q4-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p2",
+          "bbox": [
+            0.025,
+            0.12517685790875857,
+            0.985,
+            0.3269164780643666
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(4)点(2,1,0) 到平面3 x  4 y  5 z  0 的距离d \n2 .\n【分析】 本题直接利用点到平面距离公式\nAx  By  Cz  D\nd \n2  B 2  C 2\nA\n( x , y z ) 为点的坐标,\n,\nAx  By  Cz  D  0 为平面方程.\n进行计算即可. 其中\n\n0 2\n\n\n【详解】 d\n.\n2  4 2  5 2",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-blank-q5-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "5",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-blank-q5-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p2",
+          "bbox": [
+            0.025,
+            0.3269164780643666,
+            0.985,
+            0.5673021467205672
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": " 2\n1 \n\n B\n 2 E\n(5)设矩阵 A\n ,E 为2 阶单位矩阵,矩阵B 满足 BA\n,则\n\n 1 2 \nB \n2  .\n【分析】 将矩阵方程改写为AX  B\n或\nXA  B\n或\nAXB  C 的形式,再用方阵相乘的行\n列式性质进行计算即可.\n【详解】  由题设,有\nB A\n(  E )  2 E\n E\n 4\n 2\nB  2\nB A\nA  E \n于是有\n,而\n,所以\n.\n\n1 1",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-blank-q6-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "6",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-blank-q6-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p2",
+          "bbox": [
+            0.025,
+            0.5673021467205672,
+            0.985,
+            0.9496428163746645
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-blank-q6-o1-r2",
+          "page_id": "d-9deb3caadf648f3e75bf-p3",
+          "bbox": [
+            0.025,
+            0.04210587405394672,
+            0.985,
+            0.30348984800197554
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "相互独立,且均服从区间\n\n(6 )设随机变量X 与\nY\n0,3 上的均匀分布,则\n\n   1\n\n\nX Y  1\nP max\n,\n.\n【分析】 利用X 与\nY 的独立性及分布计算.\n【详解】 由题设知,X 与\nY 具有相同的概率密度\n 1 ,\n x  3\n\n 3\nf x\n( )\n.\n\n0, 其他\n\n\n\n\n\n\n\n\n\nP max X Y  1  P X  1, Y  1  P X  1 P Y  1\n,\n则\n\n\n \n  2\n P X\n 1\n \n\nd\nx \n\n.\n 0\n\n中国教育在线考研频道  www.kaoyan.cn\n中国教育在线(www.kaoyan.cn) 中国最权威考研门户\n【评注】 本题属几何概型,也可如下计算,如下图:\nS\n\n\n\n\n\n\n 1\n P X\n 1, Y\n 1\n 阴\n\n,\n则 P max X Y\n.\nS",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-choice-q7-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-choice-q7-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p3",
+          "bbox": [
+            0.025,
+            0.34885045615549604,
+            0.985,
+            0.6471765106084277
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "为自变量x 在点 0x 处的\ny  f x\n( ) 具有二阶导数,且\nf  x\n( )  0, f  x\n( )  0 ,x\n(7)设函数\n与 y\ny\nd 分别为\nf x 在点 0x 处对应的增量与微分,若  0 ,则\n( )\nx\n增量,\n dy\n.                (B)  0  d\n(A)  0\ny\ny\ny\n.\n d\n 0 .            (D)  d\n 0\ny\ny\ny\ny\n.             [ A ]\n(C)\n【分析】 题设条件有明显的几何意义,用图示法求解.\nf  x\n( )  0, f  x\n( )  0 知,函数\nf x 单\n( )\n【详解】  由\ny  f x\n( ) 凹向,作函数\ny  f x\n( ) 的图形如\n调增加,曲线\n 0\nx\n右图所示,显然当\n时,\n\n\n d\ny\ny  f ( x )d\nx  f ( x )  0 ,故应选(A).\nx",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-choice-q8-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-choice-q8-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p3",
+          "bbox": [
+            0.025,
+            0.6471765106084277,
+            0.985,
+            0.9496428163746645
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-choice-q8-o1-r2",
+          "page_id": "d-9deb3caadf648f3e75bf-p4",
+          "bbox": [
+            0.025,
+            0.04210587405394672,
+            0.985,
+            0.16433176228988747
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "f x y\n( , )\n( 8 ) 设\n为 连 续 函 数 , 则\n\n\n 1\n f r\n r\n r r\nd\n( cos , sin ) d 等于\n x 2\n x 2\n\n\n\n\nf x y\n( , )d y .    (B)\nx\nf x y\n( , )d y\n2 x\n2 d\n(A) 0 d\n.\nx\n y 2\n y 2\n\n\n\n\n0 d\nf x y\n( , )d x .  (D)\ny\nf x y\n( , )d x .          [   C  ]\n2 y\n2 d\n(C)\ny\n【分析】 本题首先由题设画出积分区域的图形,然后化为直角坐标系下累次积分即可.\n【详解】 由题设可知积分区域D 如右图所示,显然是Y\n型域,则\n中国教育在线考研频道  www.kaoyan.cn\n中国教育在线(www.kaoyan.cn) 中国最权威考研门户\n 2\n\n 1 y\n0 d\ny\nf x y x\n( , )d\n原式\n.\ny\n故选(C).",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-choice-q9-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "9",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-choice-q9-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p4",
+          "bbox": [
+            0.025,
+            0.16433176228988747,
+            0.985,
+            0.5123180788695079
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\n\na 收敛,则级数\n(9)若级数\nn\nn 1\n\n\n\n\n\n( 1)n a\na 收敛 .         (B)\n收敛.\n(A)\nn\nn\nn 1\nn \n\n a  a\n\n\na a\nn\nn \n1 收敛.               [  D ]\n收敛.          (D)\n(C)\n\nn n 1\n\nn 1\nn 1\n【分析】 可以通过举反例及级数的性质来判定.\n\n\n a  a\n\n\n\nn\nn \n1 收敛,故应选(D).\na 收敛知\na\n【详解】 由\n收敛,所以级数\n\nn\nn 1\nn 1\nn 1\nn 1\n\n或利用排除法:\n\n( 1)n\n取 na\n,则可排除选项(A),(B);\nn\n( 1)n\nna \n取\n,则可排除选项(C).故(D)项正确.\nn",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-choice-q10-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "10",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-choice-q10-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p4",
+          "bbox": [
+            0.025,
+            0.5123180788695079,
+            0.985,
+            0.9496428163746645
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-choice-q10-o1-r2",
+          "page_id": "d-9deb3caadf648f3e75bf-p5",
+          "bbox": [
+            0.025,
+            0.04210587405394672,
+            0.985,
+            0.32754996527359165
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\n x y\n 0\n( , )\n( , )\n( , )\n(10)设 f x y 与 ( , ) 均为可微函数,且 y x y\n,已知 ( x , y ) 是 f x y 在约\n x y  0\n束条件( , )\n下的一个极值点,下列选项正确的是\n\n\nxf ( x , y )  0 ,则\nyf ( x , y )  0\n(A)  若\n.\n\n\nxf ( x , y )  0 ,则\nyf ( x , y )  0\n(B)  若\n.\n\n\nxf ( x , y )  0 ,则\nyf ( x , y )  0\n(C)  若\n.\n\n\nxf ( x , y )  0 ,则\nyf ( x , y )  0 .                   [  D ]\n(D)  若\nF x y \n( , , )  f x y\n( , )   x y\n( , ) 在\n( x , y (\n,\n) 是对应\n【分析】 利用拉格朗日函数\nx , y 的参数的值)取到极值的必要条件即可.\nF x y \n( , , )  f x y\n( , )   x y\n( , ) ,并记对应\nx , y 的参数的\n【详解】 作拉格朗日函数\n,则\n值为\n中国教育在线考研频道  www.kaoyan.cn\n中国教育在线(www.kaoyan.cn) 中国最权威考研门户\n \n \n\n \n  ( x , y )\n 0\n)\n F ( x , y ,\n f ( x , y )\nx\nx\n0 x\n, 即\n.\n\n\n\n \n  ( x , y )\n 0\n F ( x , y ,\n f ( x , y )\n)\ny\ny\n0 y\n,得\n消去\n\n\n\n\n ( x , y )  f ( x , y )\n ( x , y )  0\nf ( x , y )\n,\nx\ny\ny\nx\n\n\n\n\n\n ( x , y )\n 0\nf ( x , y )\n( , )\n整理得 f ( x , y )\n.(因为 y x y\n),\nx\ny\nx\n\n ( x , y )\ny\n\n\nxf ( x , y )  0 ,则\nyf ( x , y )  0 .故选(D).\n若",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-choice-q11-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "11",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-choice-q11-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p5",
+          "bbox": [
+            0.025,
+            0.32754996527359165,
+            0.985,
+            0.6546854182747008
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": " ,\n 均为n 维列向量,A 为m n\n\n,\n,\n(11)设\n矩阵,下列选项正确的是\ns\n ,\n\n  ,\n\n,\n,\n, A\n(A) 若\n线性相关,则 A , A\n线性相关.\ns\ns\n ,\n\n A\n\n,\n,\nA ,  ,\n, A\n(B) 若\n线性相关,则\n线性无关.\ns\ns\n ,\n\n A\n\n,\n,\nA ,  ,\n, A\n(C)  若\n线性无关,则\n线性相关.\ns\ns\n ,\n\n A\n\n,\n,\nA ,  ,\n, A\n(D) 若\n线性无关,则\n线性无关.\ns\ns\n[   C   ]\n【分析】 本题考查向量组的线性相关性问题,利用定义或性质进行判定.\n ,\n )\n A\n )  AB\nB  (\n,\n,\n( A ,  ,\n, A\n【详解】 记\n,则\n.\ns\ns\n ,\n 线性相关,则( )\n s ,从而(\n r B\n s\n,\n,\nr B\nr AB\n)\n( )\n所以,若向量组\n,向量组\ns\n  ,\n\nA , A\n, A\n也线性相关,故应选(A).\ns",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-choice-q12-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "12",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-choice-q12-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p5",
+          "bbox": [
+            0.025,
+            0.6546854182747008,
+            0.985,
+            0.9496428163746645
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-choice-q12-o1-r2",
+          "page_id": "d-9deb3caadf648f3e75bf-p6",
+          "bbox": [
+            0.025,
+            0.04210587405394672,
+            0.985,
+            0.23453348452931924
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "倍加到第2\n(12)设A 为3 阶矩阵,将A 的第2 行加到第1 行得B ,再将B 的第1 列的1\n 1\n0 \n\n\n 0\n0 ,则\n列得C ,记 P\n\n\n\n1 \n\n\nC  P AP .           (B)\nC  PAP\n(A)\n.\nT\nC  P AP .           (D)\nC  PAP T .   [ B ]\n(C)\n【分析】 利用矩阵的初等变换与初等矩阵的关系以及初等矩阵的性质可得.\n【详解】 由题设可得\n中国教育在线考研频道  www.kaoyan.cn\n中国教育在线(www.kaoyan.cn) 中国最权威考研门户\n\n\n 1\n\n 1\n1 0\n\n 1\n  1\n1 0\n\n\n\n\n\n\n \n\nB  0\n0 A\n,\nC  B 0\n0  0\n0 A 0\n0 ,\n\n\n\n\n\n \n\n\n\n\n\n\n \n\n1 \n1 \n1  \n1 \n\n\n\n\n 1\n1 0 \n\n\nP\n1  0\n0 ,则有\nC  PAP .故应选(B).\n而\n\n\n\n1 \n 0",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-choice-q13-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "13",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-choice-q13-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p6",
+          "bbox": [
+            0.025,
+            0.23453348452931924,
+            0.985,
+            0.47849144470872157
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": " 0, ( | ) 1\n,则必有\n(13)设,\nA B 为随机事件,且( )\nP B\nP A B\n(  B \n)\nP A\n(\nP A\n(  B\n)  P B\n( )\n(A) P A\n(B)\nP A\n(  B\n)  P A\n( ) (D)\nP A\n(  B\n)  P B\n( )\n(C)\n[   B   ]\n【分析】 利用事件和的运算和条件概率的概念即可.\nP AB )\n(\n,即(\nP A B\n( | ) \nP AB )  P A\n( )\n【详解】 由题设,知\n.\nP B\n( )\n B\n P A\n P B\n P AB\n P A\n(\n)\n( )\n( )\n(\n)\n( )\n又 P A\n.\n故应选(C).",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-choice-q14-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "14",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-choice-q14-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p6",
+          "bbox": [
+            0.025,
+            0.47849144470872157,
+            0.985,
+            0.9496428163746645
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-choice-q14-o1-r2",
+          "page_id": "d-9deb3caadf648f3e75bf-p7",
+          "bbox": [
+            0.025,
+            0.04210587405394672,
+            0.985,
+            0.07715792936411006
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(14)设随机变量X 服从正态分布 N \n(\n, 2 ) ,Y 服从正态分布 N \n(\n, 2 ) ,且\n\n\n\n\nP X    1  P Y    1\n则必有\n  \n  \n(A)\n(B)\n  \n  \n(D)\n[   D   ]\n(C)\n【分析】 利用标准正态分布密度曲线的几何意义可得.\n【详解】 由题设可得\n X  \n\n Y  \n\n1 \n2 \nP \n  P \n ,\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2 \n 1\n 1 ,即\n\n\n\n .\n则 2 \n\n\n\n\n\n\n\n\n\n\n\n\n ( )\nx 是标准正态分布的分布函数.\n其中\n  \n ( )\n\nx 是单调不减函数,则\n又\n,即\n.\n\n\n故选(A).\n中国教育在线考研频道  www.kaoyan.cn\n中国教育在线(www.kaoyan.cn) 中国最权威考研门户",
+      "answer_hint": "",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-solution-q15-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "15",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-solution-q15-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p7",
+          "bbox": [
+            0.025,
+            0.10362923693656459,
+            0.985,
+            0.5448231618099354
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(15)(本题满分10 分)\n\n\n1  xy\n\nD  ( , )\nx y x 2  y 2  1, x  0 , 计算二重积分\nd d .\nx y\n设区域\n1  x 2  y 2\nD\n【分析】 由于积分区域D 关于x 轴对称,故可先利用二重积分的对称性结论简化所求\n积分,又积分区域为圆域的一部分,则将其化为极坐标系下累次积分即可.\n【详解】 积分区域D 如右图所示.因为区域D 关于x 轴对称,\n\n( , )\n是变量y 的偶函数,\n函数 f x y\n y 2\n1 x 2\nxy\ng x y\n( , ) \n是变量y 的奇函数.\n函数\n2  2\n1 x\ny\n则\n\n\nr\nln 2\n\n\n \n \n\n\nd d\nx y\nd d\nx y\n2 2 d\nd\nr\n1  x 2  y 2\n1  x 2  y 2\n1  r 2\nD\nD\nxy\n\n 0\n2 d d\nx y\n,\n\n y\n1 x 2\nD\n\n1  xy\nxy\nln 2\n\n\n\nd d\nx y \nd d\nx y \nd d\nx y \n故\n.\n 2  2\n 2  2\n 2  2\n1 x\ny\n1 x\ny\n1 x\ny\nD\nD\nD",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-solution-q16-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "16",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-solution-q16-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p7",
+          "bbox": [
+            0.025,
+            0.5448231618099354,
+            0.985,
+            0.9496428163746645
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-solution-q16-o1-r2",
+          "page_id": "d-9deb3caadf648f3e75bf-p8",
+          "bbox": [
+            0.025,
+            0.04210587405394672,
+            0.985,
+            0.4367923152963105
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(16)(本题满分12 分)\n设数列\n sin x n\nnx 满足\n0  x  \n, x\n(  1,2,\n)\n\nn 1\nn\n(I)证明lim x 存在,并求该极限;\nn\nn \n\n\nx\nnx\nlim \nn \n1 \n(II)计算\n.\nn   x \nn\n【分析】 一般利用单调增加有上界或单调减少有下界数列必有极限的准则来证明数列\n极限的存在. (II)的计算需利用(I)的结果.\n0  x  \n0  x  sin x \n1 \n【详解】 (I)因为\n,则\n.\n,则数列\n sin x  ,\nnx 有界.\n0  x\n1  n  1,2,\n可推得\nn \nn\nx\nsin x\n,可见数列\n\n,(因当  0\n x\n x\nn 1\nn\nx\n时,\nsin x\nnx 单\n于是\n), 则有 x\nn 1\nn\nx\nx\nn\nn\n调减少,故由单调减少有下界数列必有极限知极限lim x 存在.\nn\nn \n中国教育在线考研频道  www.kaoyan.cn\n中国教育在线(www.kaoyan.cn) 中国最权威考研门户\n,在 x\n sin x\n两边令n ,得 l\n sin l\nl  0 ,即lim x 0\n\n设lim x\nl\n,解得\n.\nn\nn 1\nn\nn\nn \nn \n\n\n\n\nx\nsin x\nx\nx\nn \nn ,由(I)知该极限为1型,\n\nlim \nn \n(II) 因 lim  n 1 \nx \nx\n \n \nn\nn\n\nn\nn\nt  x ,则\nn \n, t  0 ,而\n令\nn\nsin t\n\n1 t\n\n\n1 \nt 2\n sin t \n\nsin t\n\n\nsin t\n\nsin t \nt\nt\n\n\n lim 1 \n 1\n lim\n 1\nlim \n1 \n,\n\n\n\n\n t\n\n\nt\n\nt\n\nt  0  t \nt  0 \nt  0 \n\n\n sin t\n\n1  sin t\nsin t  t\ncos t  1\n 1\n lim\n lim\n lim\n\nlim\n又\n\n\n.\nt 2  t\n\nt 3\nt 3\nt\nt  0\nt  0\nt  0\nt  0\n(利用了sin x 的麦克劳林展开式)\n\n\n\n\nx\nsin x\nx 2\nx 2\n\nn \nn \nlim \nn \n1 \nlim \nn \ne 6\n故\n.\nx\n  x \n \nn\nn\n\nn\nn",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-solution-q17-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-solution-q17-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p8",
+          "bbox": [
+            0.025,
+            0.4367923152963105,
+            0.985,
+            0.7861326971927999
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(17)(本题满分12 分)\nx\n\n( )\n展成x 的幂级数.\n将函数 f x\n2  x  x 2\n【分析】 利用常见函数的幂级数展开式.\nx\nx\nA\nB\n\n\n\n\n( )\n【详解】 f x\n,\n2  x  x 2\n(2  x )(1  x )\n2  x\n1  x\n\n\n\n\n1 \n1 \n\n\n\n\n\n\n, B\n( )\n\n .\n比较两边系数可得 A\n,即 f x\n\n\nx\n x\n\n\n3 2\n\n1 x \n1 x\n \n\n\n\nn\n\n  x \n\n\n\n n x n , x \n\n( 1)\n( 1,1) ,\n, x \n( 2,2) ,\n而\n \nx\n1  x\n 2 \n\n1 \n\nn 0\nn 0\n故\n\n\n 1\nx\n1 \n1  \n1 \n\n\n\n\n\n\n\n\n\n n 1\n \n\nn , x\nf x\n( )\n( 1) n x n\nx n\n( 1,1)\n\n\n ( 1)\n x\n.\n2  x  x 2\n3 \n2 n\n\n2 n \n\nn  0\nn  0\nn  0",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-solution-q18-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-solution-q18-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p8",
+          "bbox": [
+            0.025,
+            0.7861326971927999,
+            0.985,
+            0.9496428163746645
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-solution-q18-o1-r2",
+          "page_id": "d-9deb3caadf648f3e75bf-p9",
+          "bbox": [
+            0.025,
+            0.04210587405394672,
+            0.985,
+            0.803474056131244
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(18)(本题满分12 分)\n\n\nf u 在(0, 内具有二阶导数,且 z  f\n( )\n)\nx 2  y 2 满足等式\n设函数\n 2 z\n 2 z\n\n 0\n.\n 2\n 2\nx\ny\n中国教育在线考研频道  www.kaoyan.cn\n中国教育在线(www.kaoyan.cn) 中国最权威考研门户\n\nf u\n( )\n u\n\n 0\n(I)验证 f ( )\n;\nu\n 0,\nf \n,求函数 f u 的表达式.\n(1) 1\n( )\n(II)若 f (1)\n 2 z  2 z\n 2 z\n 2 z\n\n 0\n,\n【分析】 利用复合函数偏导数计算方法求出\n代入\n即可得(I).\n\n\n\nx 2 \ny 2\nx 2\ny 2\n按常规方法解(II)即可.\n\n2  2\nx\ny ,则\n【详解】 (I) 设 u\n\n\nz\nx\nz\ny\n\n\n f u\n f u\n( )\n,\n( )\n.\n\n\nx\ny\nx 2  y 2\nx 2  y 2\nx\nx 2  y 2 \n 2 z\nx 2  y 2\nx\nx\n u\n\n f ( ) \n\n f u\n( ) \n\nx 2\nx 2  y 2\nx 2  y 2\nx 2  y 2\nx 2\ny 2\n u\n f ( )\n\n \n\nf u\n( )\n,\nx 2  y 2\n\n\n y 2\nx 2\n 2 z\ny 2\nx 2\n u\n f ( )\n\n \n\nf u\n( )\n.\n\n y 2\ny 2\nx 2\n\n 3\n2  2 2\nx\ny\n 2 z\n 2 z\n 2 z\n 2 z\n\n 0\n,\n将\n代入\n得\n 2  2\n 2\n 2\nx\ny\nx\ny\n\nf u\n( )\n u\n 0\nf ( ) \n.\nu\np\nd\np\nd\nu\n\n\n p\n \n\n( )\n(II) 令 f u\n,则 p\n,两边积分得\nu\np\nu\nC\nC\n\nln p  ln u  ln C ,即\np  1 ,亦即\nf u\n( )  1\n.\nu\nu\nf \n\n(1) 可得 C  1 .所以有\nf u\n( ) \n由\n,两边积分得\nu\nf u\n( )  ln u  C ,\nC  0\nf (1)  0 可得\nf u\n( )  ln u\n由\n,故\n.",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-solution-q19-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-solution-q19-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p9",
+          "bbox": [
+            0.025,
+            0.803474056131244,
+            0.985,
+            0.9496428163746645
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-solution-q19-o1-r2",
+          "page_id": "d-9deb3caadf648f3e75bf-p10",
+          "bbox": [
+            0.025,
+            0.04210587405394672,
+            0.985,
+            0.5089290129191518
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(19)(本题满分12 分)\n\n\n ( , ) | y\n 0\nt  0\nx y\n( , )\n设在上半平面 D\n内,函数 f x y 具有连续偏导数,且对任意的\n2 f x y\nf tx ty\n( , )  t \n( , ) . 证明:对D 内的任意分段光滑的有向简单闭曲线L ,都有\n都有\n中国教育在线考研频道  www.kaoyan.cn\n中国教育在线(www.kaoyan.cn) 中国最权威考研门户\n\nL yf x y x\n( , )d  xf x y y\n( , )d  0\n.\n\n\n【分析】 利用曲线积分与路径无关的条件Q\nP\n\n.\n\n\nx\ny\n \n2 f x y\n( , )\nt\n( , ) 两边对t 求导得\n【详解】 f tx ty\n\n ( , )  t 3 ( , )\nxf tx ty\n( , )  yf tx ty\n2  f x y .\nx\ny\nt ,则 xf  x y\n( , )  yf  ( , )\nx y  f x y\n2 ( , ) .            1\n令\nx\ny\n yf x y Q x y\n xf x y\n设( , )\nP x y\n( , ), ( , )\n( , ) ,则\n\n\nQ\nP\n\n\n f x y\n f x y\n( , )  xf ( , ),\nx y\n( , )  yf ( , )\nx y\n.\n\nx\n\ny\nx\ny\n\n\nQ\nP\n\n则由1可得\n.\n\n\nx\ny\n故由曲线积分与路径无关的定理可知,对D 内的任意分段光滑的有向简单闭曲线L ,\n都有\n\nL yf x y x\n( , )d  xf x y y\n( , )d  0\n.",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-solution-q20-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-solution-q20-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p10",
+          "bbox": [
+            0.025,
+            0.5089290129191518,
+            0.985,
+            0.9496428163746645
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-solution-q20-o1-r2",
+          "page_id": "d-9deb3caadf648f3e75bf-p11",
+          "bbox": [
+            0.025,
+            0.04210587405394672,
+            0.985,
+            0.9496428163746645
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-solution-q20-o1-r3",
+          "page_id": "d-9deb3caadf648f3e75bf-p12",
+          "bbox": [
+            0.025,
+            0.04210587405394672,
+            0.985,
+            0.1765577391995385
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(20)(本题满分9 分)\n已知非齐次线性方程组\n x\n x\n x\n\n x\n\n 4 x  3 x  5 x  x \n\nax  x  3 x  bx  1\n\n有3 个线性无关的解.\n(I)证明方程组系数矩阵A 的秩\nr A  2\n;\n(II)求,a b 的值及方程组的通解.\n【分析】 (I)根据系数矩阵的秩与基础解系的关系证明;(II)利用初等变换求矩阵A\n的秩确定参数,a b ,然后解方程组.\n是方程组Ax  \n,\n,\n【详解】 (I) 设\n的3 个线性无关的解,其中\n\n 1\n1 1\n1 \n 1 \n\n\n\n\n\nA  4\n3 5\n1 ,  \n.\n\n\n\n\n\n\n\n\n1 3\nb \n a\n 1 \n中国教育在线考研频道  www.kaoyan.cn\n中国教育在线(www.kaoyan.cn) 中国最权威考研门户\n )  0, (\n )  0\nA  \n(\nA  \n则有\n.\n \n \n\nAx  0\n,\n则\n是对应齐次线性方程组\n的解,且线性无关.(否则,易推出\n线性相关,矛盾).\n,\n,\n ( )\n 2 ,即4\n r A\n  r A\n 2\n( )\n( )\n所以 n r A\n.\n又矩阵A 中有一个2 阶子式1\n3  0 ,所以( )\nr A  2\n.\nr A  2\n( )\n因此\n.\n(II)  因为\n 1\n1 1\n1 \n 1\n1 \n 1\n\n\n\n\n\n\n\n 4\n\n 0\n\n\n 0\n\n\nA\n3 5\n\n\n\n\n\n .\n\n\n\n\n\n\na\n1 3\nb \n0 1  a\n3  a\nb  a \n4  2 a\nb  4 a  5 \n\n\n\nr A  2\n又( )\n,则\n 4  2 a  0\n a  2\n \n\n.\n 4 a 5\n  0\n\nb\nb\n\n\n对原方程组的增广矩阵A 施行初等行变换,\n \n\n 1\n1 1\n 1\n\n\n\n\n\n\n\n\nA  4\n3 5\n1 \n1  0\n3 ,\n\n\n\n\n\n\n\n\n\n2 1 3\n1 \n0 \n\n\n故原方程组与下面的方程组同解.\n\n 4 x\n 2\n x\n2 x\n\n.\nx  x  5 x  3\n\nx x 为自由变量,则\n,\n选\n\n 4 x\n 2\n x\n2 x\n\n x  5 x  3\n x\n.\n x\nx\n\n\nx  x\n\n故所求通解为\n中国教育在线考研频道  www.kaoyan.cn\n中国教育在线(www.kaoyan.cn) 中国最权威考研门户\n \n 4   2 \n2 \n\n\n\n \n\n\n\n\n\n\n \n\n k\n k\n\nx\n,\n, k k 为任意常数.\n\n\n\n \n\n1 2\n\n\n\n \n\n 0 \n 1   0 ",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-solution-q21-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-solution-q21-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p12",
+          "bbox": [
+            0.025,
+            0.1765577391995385,
+            0.985,
+            0.9496428163746645
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-solution-q21-o1-r2",
+          "page_id": "d-9deb3caadf648f3e75bf-p13",
+          "bbox": [
+            0.025,
+            0.04210587405394672,
+            0.985,
+            0.32443008607765716
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(21)(本题满分9 分)\n\n T\n\n T\n \n\n  0, 1,1\n\n设3 阶实对称矩阵A 的各行元素之和均为3,向量\n1,2, 1 ,\n是\nAx  0\n线性方程组\n的两个解.\n(I) 求A 的特征值与特征向量;\n(II) 求正交矩阵Q 和对角矩阵,使得 Q AQ .\nT\n【分析】 由矩阵A 的各行元素之和均为3 及矩阵乘法可得矩阵A 的一个特征值和对应\nAx  0 有非零解可知A 必有零特征值,其非零解是0 特征\n的特征向量;由齐次线性方程组\n值所对应的特征向量.将A 的线性无关的特征向量正交化可得正交矩阵Q .\n【详解】 (I) 因为矩阵A 的各行元素之和均为3,所以\n\n\n\n\n\n\n 3\n 3 1\nA 1\n,\n\n\n\n\n\n\n\n\n\n 3 是矩阵A 的特征值,\n (1,1,1)\nT\n则由特征值和特征向量的定义知,\n是对应\n 的全部特征向量为k,其中k 为不为零的常数.\n的特征向量.对应\n  0, A\n  0\n \n  \n\n线性无\n, A\n,\n又由题设知 A\n,即 A\n,而且\n 0 是矩阵A 的二重特征值,\n是其对应的特征向量,对应  0\n,\n关,所以\n的全\nk   k  ,其中\nk k 为不全为零的常数.\n,\n部特征向量为\n1 1\n2 2\n1 2\n(II) 因为A 是实对称矩阵,所以与\n正交,所以只需将\n正交.\n,\n,\n  \n取\n,\n 1 \n\n\n\n 0 \n  \n\n\n \n\n\n\n,\n\n\n3 \n\n   \n\n 0\n1  \n .\n\n\n\n\n\n\n\n,\n\n\n\n\n\n\n\n1 \n\n\n\n\n\n 2 \n单位化,得\n,\n再将 ,\n中国教育在线考研频道  www.kaoyan.cn\n中国教育在线(www.kaoyan.cn) 中国最权威考研门户\n 1\n\n\n\n\n\n1 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 1\n\n\n\n\n\n \n\n \n \n,\n1 \n,\n2 \n0  ,\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 1 \n\n1 \n\n\n\n2 \n\n\n\n\n 3 \n\n6 \n\n\nQ   ,则\n,\n,\nQ  Q T ,由A 是实对称矩阵必可相似对角化,得\n令\n 3\n\n\n\nT\n\nQ AQ \n.\n\n\n\n0 \n\n",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-solution-q22-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-solution-q22-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p13",
+          "bbox": [
+            0.025,
+            0.32443008607765716,
+            0.985,
+            0.9496428163746645
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-solution-q22-o1-r2",
+          "page_id": "d-9deb3caadf648f3e75bf-p14",
+          "bbox": [
+            0.025,
+            0.04210587405394672,
+            0.985,
+            0.39617086325663264
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(22)(本题满分9 分)\n设随机变量X 的概率密度为\n 1 , 1\n x  0\n\n\n1 ,0\n\n \n x\n 2\nf\nx\n,\nX\n\n 0, 其他\n\n\n\n X\n2, F x y 为二维随机变量( X Y 的分布函数.\n,\n, )\n令 Y\n\n(I) 求Y 的概率密度 Yf y\nF  1 ,4 \n\n(II)\n\n .\n\n\n【分析】 求一维随机变量函数的概率密度一般先求分布,然后求导得相应的概率密度\n或利用公式计算.\n【详解】 (I)设Y 的分布函数为 F ( )\ny ,即 F ( )\ny  P Y\n(  y )  P X 2  y ) ,则\n(\nY\nY\ny  0\ny  0\nF ( )\n1) 当\n时,\n;\nY\n\n\ny  P X 2  y )  P  y  X \n(\ny\n2) 当0  y 时, F ( )\nY\n 0\n y\n\nd\nx \nd\nx \ny\n.\n y 2\n0 4\n\n\n3) 当1  y  4 时,\nF ( )\ny  P X 2  y )  P  X \n(\ny\nY\n 0\n y\n\n\n\n\nd\nx\nd\nx\ny\n.\n 2\ny  4\ny .\n4) 当\n, F ( ) 1\nY\n中国教育在线考研频道  www.kaoyan.cn\n中国教育在线(www.kaoyan.cn) 中国最权威考研门户\n所以\n 3\n y\n 1\n,0\n\n8 y\n\n\n\n F ( )\n \n y\n 4\nf ( )\ny\ny\n,1\n.\nY\nY\n 8 y\n\n0, 其他\n\nF  1 ,4 \n\n\n\n\n\n P X\n , Y\n 4\n P X\n , X\n2  4\n(II)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1 \n P X  , 2\n X  2  P  X \n\n\n\n\n\n\n\n2 \n1 1\n\n \n\nd\nx\n.\n 2",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-9deb3caadf648f3e75bf-s0-solution-q23-o1",
+      "document_id": "d-9deb3caadf648f3e75bf",
+      "number": "23",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2006年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-9deb3caadf648f3e75bf-s0-solution-q23-o1-r1",
+          "page_id": "d-9deb3caadf648f3e75bf-p14",
+          "bbox": [
+            0.025,
+            0.39617086325663264,
+            0.985,
+            0.9496428163746645
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2006",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2006 年硕士研究生入学考试数学一试题及答案解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(23)(本题满分9 分)\n设总体X 的概率密度为\n\n ,\n0  x  1,\n\n\n\n  \n ,1\n  x\n 2,\nf x\n;\n\n0,\n其他,\n其中是未知参数\n\n 1\n0  \nX , X ..., X 为来自总体X 的简单随机样本,记N 为样本\n,\nn\nx x ..., x 中小于1 的个数,求的最大似然估计.\n,\n值\nn\n【分析】 先写出似然函数,然后用最大似然估计法计算的最大似然估计.\nL ,则\n【详解】 记似然函数为( )\n\n\n\n\n\nL \n\n\n 1 \n  1 \n \n 1 \n  \nN (1  ) \n n N\n( )  \n.\nN 个\n \n\nn N 个\n两边取对数得\n ( n  N )ln(1  )\n\nln ( )\nL   N ln \n,\n令dln ( )\nL \nN\nn  N\nN\n\n\n 0\n\n为的最大似然估计.\n,解得\n\n\n\nd\n1 \nn\n中国教育在线考研频道  www.kaoyan.cn",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [],
+  "identity": {
+    "category": "考研数一",
+    "year": "2006",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

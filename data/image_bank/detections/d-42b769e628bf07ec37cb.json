@@ -1,0 +1,1055 @@
+{
+  "item": {
+    "id": "d-42b769e628bf07ec37cb",
+    "path": "resource/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2017-2020年考研数学二真题及解析/2017年考研数学二试题及答案解析.pdf",
+    "name": "2017年考研数学二试题及答案解析.pdf",
+    "sha256": "18e8a3a9a4d4bdbb8873c852ff423115516a79328b25cf5dab2b4686e877893e",
+    "format": "pdf",
+    "bytes": 279116,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 10,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 595.2999877929688,
+        "height": 841.9000244140625,
+        "text_chars": 1255,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 595.2999877929688,
+        "height": 841.9000244140625,
+        "text_chars": 1064,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 595.2999877929688,
+        "height": 841.9000244140625,
+        "text_chars": 934,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 595.2999877929688,
+        "height": 841.9000244140625,
+        "text_chars": 994,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 595.2999877929688,
+        "height": 841.9000244140625,
+        "text_chars": 1087,
+        "renderable": true
+      },
+      {
+        "number": 6,
+        "width": 595.2999877929688,
+        "height": 841.9000244140625,
+        "text_chars": 966,
+        "renderable": true
+      },
+      {
+        "number": 7,
+        "width": 595.2999877929688,
+        "height": 841.9000244140625,
+        "text_chars": 1352,
+        "renderable": true
+      },
+      {
+        "number": 8,
+        "width": 595.2999877929688,
+        "height": 841.9000244140625,
+        "text_chars": 1171,
+        "renderable": true
+      },
+      {
+        "number": 9,
+        "width": 595.2999877929688,
+        "height": 841.9000244140625,
+        "text_chars": 921,
+        "renderable": true
+      },
+      {
+        "number": 10,
+        "width": 595.2999877929688,
+        "height": 841.9000244140625,
+        "text_chars": 300,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "18e8a3a9a4d4bdbb8873c852ff423115516a79328b25cf5dab2b4686e877893e",
+  "engine_version": 5,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2017-2020年考研数学二真题及解析/2017年考研数学二试题及答案解析.pdf",
+  "pdf_sha256": "18e8a3a9a4d4bdbb8873c852ff423115516a79328b25cf5dab2b4686e877893e",
+  "pages": [
+    {
+      "id": "d-42b769e628bf07ec37cb-p1",
+      "document_id": "d-42b769e628bf07ec37cb",
+      "number": 1,
+      "width": 595.2999877929688,
+      "height": 841.9000244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-42b769e628bf07ec37cb-p2",
+      "document_id": "d-42b769e628bf07ec37cb",
+      "number": 2,
+      "width": 595.2999877929688,
+      "height": 841.9000244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-42b769e628bf07ec37cb-p3",
+      "document_id": "d-42b769e628bf07ec37cb",
+      "number": 3,
+      "width": 595.2999877929688,
+      "height": 841.9000244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-42b769e628bf07ec37cb-p4",
+      "document_id": "d-42b769e628bf07ec37cb",
+      "number": 4,
+      "width": 595.2999877929688,
+      "height": 841.9000244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-42b769e628bf07ec37cb-p5",
+      "document_id": "d-42b769e628bf07ec37cb",
+      "number": 5,
+      "width": 595.2999877929688,
+      "height": 841.9000244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-42b769e628bf07ec37cb-p6",
+      "document_id": "d-42b769e628bf07ec37cb",
+      "number": 6,
+      "width": 595.2999877929688,
+      "height": 841.9000244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-42b769e628bf07ec37cb-p7",
+      "document_id": "d-42b769e628bf07ec37cb",
+      "number": 7,
+      "width": 595.2999877929688,
+      "height": 841.9000244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-42b769e628bf07ec37cb-p8",
+      "document_id": "d-42b769e628bf07ec37cb",
+      "number": 8,
+      "width": 595.2999877929688,
+      "height": 841.9000244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-42b769e628bf07ec37cb-p9",
+      "document_id": "d-42b769e628bf07ec37cb",
+      "number": 9,
+      "width": 595.2999877929688,
+      "height": 841.9000244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-42b769e628bf07ec37cb-p10",
+      "document_id": "d-42b769e628bf07ec37cb",
+      "number": 10,
+      "width": 595.2999877929688,
+      "height": 841.9000244140625,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-42b769e628bf07ec37cb-s0-choice-q4-o1",
+      "document_id": "d-42b769e628bf07ec37cb",
+      "number": "4",
+      "kind": "choice",
+      "answer": "C",
+      "tags": [
+        "考研数二",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-choice-q4-o1-r1",
+          "page_id": "d-42b769e628bf07ec37cb-p1",
+          "bbox": [
+            0.025,
+            0.8303533514237307,
+            0.985,
+            0.9293064763670925
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-choice-q4-o1-r2",
+          "page_id": "d-42b769e628bf07ec37cb-p2",
+          "bbox": [
+            0.025,
+            0.060643177786364647,
+            0.985,
+            0.07864317778636463
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-choice-q4-o1-r3",
+          "page_id": "d-42b769e628bf07ec37cb-p2",
+          "bbox": [
+            0.025,
+            0.07064317778636464,
+            0.985,
+            0.10826208324241011
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-choice-q4-o1-r4",
+          "page_id": "d-42b769e628bf07ec37cb-p2",
+          "bbox": [
+            0.025,
+            0.10026208324241012,
+            0.985,
+            0.3195269170178538
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-choice-q4-o1-r5",
+          "page_id": "d-42b769e628bf07ec37cb-p2",
+          "bbox": [
+            0.025,
+            0.3115269170178538,
+            0.985,
+            0.3568426389167801
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-choice-q4-o1-r6",
+          "page_id": "d-42b769e628bf07ec37cb-p2",
+          "bbox": [
+            0.025,
+            0.3488426389167801,
+            0.985,
+            0.745705771262077
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-choice-q4-o1-r7",
+          "page_id": "d-42b769e628bf07ec37cb-p2",
+          "bbox": [
+            0.025,
+            0.737705771262077,
+            0.985,
+            0.7718085037433783
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-choice-q4-o1-r8",
+          "page_id": "d-42b769e628bf07ec37cb-p2",
+          "bbox": [
+            0.025,
+            0.7638085037433783,
+            0.985,
+            0.9651777334418854
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-choice-q4-o1-r9",
+          "page_id": "d-42b769e628bf07ec37cb-p3",
+          "bbox": [
+            0.025,
+            0.060643177786364647,
+            0.985,
+            0.07864317778636463
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-choice-q4-o1-r10",
+          "page_id": "d-42b769e628bf07ec37cb-p3",
+          "bbox": [
+            0.025,
+            0.07064317778636464,
+            0.985,
+            0.09899733066351353
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-choice-q4-o1-r11",
+          "page_id": "d-42b769e628bf07ec37cb-p3",
+          "bbox": [
+            0.025,
+            0.09099733066351354,
+            0.985,
+            0.3893689244864862
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-choice-q4-o1-r12",
+          "page_id": "d-42b769e628bf07ec37cb-p3",
+          "bbox": [
+            0.025,
+            0.3813689244864862,
+            0.985,
+            0.4182751127508303
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-choice-q4-o1-r13",
+          "page_id": "d-42b769e628bf07ec37cb-p3",
+          "bbox": [
+            0.025,
+            0.4102751127508303,
+            0.985,
+            0.6233176358175369
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2017",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2017 年全国硕士研究生入学统一考试数学二试题解析"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(4)微分方程的特解可设为\n2 (\n2 (\n2 x  e\nx B cos2 x  C sin 2 )\nx\n2 x  e\nx B cos2 x  C sin 2 )\nx\n(A) Ae\n(B) Axe\n2 (\n2 (\nx\nx\n(C) Ae 2 x  xe x B cos2 x  C sin 2 )\n(D) Axe 2 x  e x B cos2 x  C sin 2 )",
+      "answer_hint": "【答案】A\n2  4 \n\n 8  0    2  2i\n【解析】特征方程为:\n1,2\n( )  e 2 (1 cos2 )\nx\n\nx  e 2  e 2 cos2 x  y *  Ae 2 , y *  xe 2 ( B cos2 x  C sin 2 ),\nx\nx\nx\nx\nx\n f x\ny *  y *  y *  Ae 2 x  xe 2 x (\nB cos2\nx  C sin 2 ), 选C.\nx\n故特解为:\n ( , )\nf x y\n ( , )\nf x y\n( , )\nx y ,都有\n 0,\n 0\n(5)设 f x y 具有一阶偏导数,且对任意的( , )\n,则\n\nx\n\ny\n(A) f (0,0)  f (1,1) (B) f (0,0)  f (1,1) (C) f (0,1)  f (1,0) (D) f (0,1)  f (1,0)\n【答案】C\n ( , )\nf x y\n ( , )\nf x y\n 0,\n 0,  f x y\n( , ) 是关于x 的单调递增函数,是关于y 的单调递减函数,\n【解析】\n\nx\n\ny\nf (0,1)  f (1,1)  f (1,0) ,故答案选D.\n所以有\n1( )\nm s ),\n(6)甲乙两人赛跑,计时开始时,甲在乙前方10(单位:m)处,图中实线表示甲的速度曲线 v  v t (单位:/\nv  v t\n2( ) ,三块阴影部分面积的数值依次为10,20,3,计时开始后乙追上甲的时刻记为0t (单\n虚线表示乙的速度曲线\n位:s),则(\n)\nt  10\n15  t  20\nt  25\nt  25\n(A)0\n(B)\n(C)0\n(D)0\n【答案】B\nt\nt\n\n\n【解析】从0 到0t 这段时间内甲乙的位移分别为 0 v (t) , 0 v (t) ,\ndt\ndt\n则乙要追上甲,则\nt v\n 0\n(t)  v (t)\ndt  10\nt  25 时满足,故选C.\n,当0\n\n\n\n\n(7)设A 为三阶矩阵, P  (\n )\n,\n,\nP AP \n 1\nA  ) (\n(\n,\n,\n为可逆矩阵,使得\n,则\n)\n\n\n\n\n\n  \n  2\n\n  \n  2\n\n(A)\n(B)\n(C)\n(D)\n【答案】B\n【解析】\n 0\n\n 0\n\n 0\n\n\n\n\n\n\n\nP AP \n 1\n AP  P\n A \n(\n,\n,\n)  (\n\n,\n,\n)\n   2\n ,\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n因此B 正确。\n0 \n0 \n0 \n 2\n 2\n 1\n\n\n\n\n\n\nA  0\nB  0\nC  0\n1 ,\n0 ,\n0 ,则(\n(8)设矩阵\n)\n\n\n\n\n\n\n 0\n 0\n 0\n1 \n1 \n2 \n\n\n\n\n\n\nA\nC\n, B 与相似\nC\nA\nC\n, B 与不相似\nC\n(A) 与相似\n(B) 与相似\nA\nC\n, 与相似\nB\nC\nA\nC\n, 与不相似\nB\nC\n(C) 与不相似\n(D) 与不相似\n【答案】B\n\nE  A  0\n可知A 的特征值为2,2,1,\n【解析】由\n0 \n 1\n\n\n因为3  r (2 E  A\n) ,∴A 可相似对角化,即 A ~ 0\n\n\n\n\n\n\nE  B  0 可知B 特征值为2,2,1.\n\n由\n因为3  r (2 E  B )  2 ,∴B 不可相似对角化,显然C 可相似对角化,∴\nA ~ C ,但B 不相似于C.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-42b769e628bf07ec37cb-s0-solution-q15-o1",
+      "document_id": "d-42b769e628bf07ec37cb",
+      "number": "15",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q15-o1-r1",
+          "page_id": "d-42b769e628bf07ec37cb-p5",
+          "bbox": [
+            0.025,
+            0.3004091885492569,
+            0.985,
+            0.34030997071849517
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q15-o1-r2",
+          "page_id": "d-42b769e628bf07ec37cb-p5",
+          "bbox": [
+            0.025,
+            0.33230997071849516,
+            0.985,
+            0.4027376459816046
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q15-o1-r3",
+          "page_id": "d-42b769e628bf07ec37cb-p5",
+          "bbox": [
+            0.025,
+            0.3947376459816046,
+            0.985,
+            0.6376644132208278
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2017",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2017 年全国硕士研究生入学统一考试数学二试题解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "lim 0\n(15)(本题满分10 分)求极限\n\nx 3\nx  0",
+      "answer_hint": "【答案】2\nx\n\nx  te t\nlim 0\ndt ,令x  u\nt\n【解析】\n,则有\nx  0\nx 3\nx\nx\n\n\n\nx  te dt \nt\nue x u\n du \nue x u\n du\nx\nx\nx\n\n\nue x u\n du\ne x\nue du\nu\n lim\n原式 =lim 0\nx  0\nx  0\nx 2\nx 2\nx\n\nue du\nu\nxe x\n lim 0\n lim\n\nx  0\nx  0 3\nx 2\nx 2\ndy\nd y\nf u v 具有2 阶连续偏导数, y  f e\nx",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-42b769e628bf07ec37cb-s0-solution-q16-o1",
+      "document_id": "d-42b769e628bf07ec37cb",
+      "number": "16",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q16-o1-r1",
+          "page_id": "d-42b769e628bf07ec37cb-p5",
+          "bbox": [
+            0.025,
+            0.6296644132208278,
+            0.985,
+            0.6950776217241362
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q16-o1-r2",
+          "page_id": "d-42b769e628bf07ec37cb-p5",
+          "bbox": [
+            0.025,
+            0.6870776217241362,
+            0.985,
+            0.7329918419219222
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q16-o1-r3",
+          "page_id": "d-42b769e628bf07ec37cb-p5",
+          "bbox": [
+            0.025,
+            0.7249918419219222,
+            0.985,
+            0.9190834686004977
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q16-o1-r4",
+          "page_id": "d-42b769e628bf07ec37cb-p6",
+          "bbox": [
+            0.025,
+            0.043938288630525985,
+            0.985,
+            0.20735205662879186
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2017",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2017 年全国硕士研究生入学统一考试数学二试题解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "f u v 具有2 阶连续偏导数, y  f e\n( x ,cos )\nx\n(16)(本题满分10 分)设函数 ( , )\n,求\n,\ndx\ndx 2\nx  0\nx  0\ndy\nd y\n f ' (1,1),\n f '' (1,1),",
+      "answer_hint": "【答案】\ndx\ndx 2\nx  0\nx  0\n【解析】\nx  0\ny  f e\n( x ,cos )\nx  y (0)  f (1,1)\ndy\n\n\n\n\n\n f e\n' x  f '  sin x\n f ' (1,1) 1\n f ' (1,1) 0\n  f ' (1,1)\ndx\nx  0\nx  0\nd y\n'' 2 x  f e \n'' x ( sin )\n'' x ( sin )\n' x  f ' cos x\n\n f e\nx  f e \nx  f '' sin 2 x  f e\ndx 2\nd y\n\n f '' (1,1)  f ' (1,1)  f ' (1,1)\ndx 2\nx  0\n结论:\ndy\n f ' (1,1)\ndx\nx  0\nd y\n f '' (1,1)  f ' (1,1)  f ' (1,1)\ndx 2\nx  0\nn k\nk \n\n",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-42b769e628bf07ec37cb-s0-solution-q17-o1",
+      "document_id": "d-42b769e628bf07ec37cb",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q17-o1-r1",
+          "page_id": "d-42b769e628bf07ec37cb-p6",
+          "bbox": [
+            0.025,
+            0.19935205662879185,
+            0.985,
+            0.24368330664238502
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q17-o1-r2",
+          "page_id": "d-42b769e628bf07ec37cb-p6",
+          "bbox": [
+            0.025,
+            0.23568330664238502,
+            0.985,
+            0.2842924909868208
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q17-o1-r3",
+          "page_id": "d-42b769e628bf07ec37cb-p6",
+          "bbox": [
+            0.025,
+            0.2762924909868208,
+            0.985,
+            0.3823597413020011
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2017",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2017 年全国硕士研究生入学统一考试数学二试题解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "ln 1 \n(17)(本题满分10 分)求 lim\n\n\nn 2\nn \n\nn \nk ",
+      "answer_hint": "【答案】1\n【解析】\nk\nx 2 \n1 1\nn k\n\n ln(1  x dx 2 \nlim\nln(1  )   x ln(1  x dx \n)\n)\n(ln(1  x )  x 2 1  \ndx ) \nn 2\nn\n1  x\nn \nk ",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-42b769e628bf07ec37cb-s0-solution-q18-o1",
+      "document_id": "d-42b769e628bf07ec37cb",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q18-o1-r1",
+          "page_id": "d-42b769e628bf07ec37cb-p6",
+          "bbox": [
+            0.025,
+            0.3743597413020011,
+            0.985,
+            0.418759899635268
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q18-o1-r2",
+          "page_id": "d-42b769e628bf07ec37cb-p6",
+          "bbox": [
+            0.025,
+            0.410759899635268,
+            0.985,
+            0.45105810990387635
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q18-o1-r3",
+          "page_id": "d-42b769e628bf07ec37cb-p6",
+          "bbox": [
+            0.025,
+            0.44305810990387634,
+            0.985,
+            0.7917445034649901
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2017",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2017 年全国硕士研究生入学统一考试数学二试题解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(18)(本题满分10 分)已知函数( )\ny x 由方程 x 3  y 3  3 x  3 y  2  0 确定,求( )\ny x 的极值",
+      "answer_hint": "【答案】极大值为(1)  1 ,极小值为( 1)  0\ny\ny \n【解析】\n两边求导得:\n3 x 2  3 y y  y\n2 ' 3 3 '  0\n(1)\ny  0\n'\nx  1\n令\n得\n\n 2\n6 x  6 y y '\n 3 y y  y\n2 '' 3 ''  0\n对(1)式两边关于x 求导得\n(2)\n x  1\n x \nx 代入原题给的等式中,得 \nor\n\n将\n,\ny  1\ny  0\n\n\nx  1, y  1\ny ''(1) \n1 0\n代入(2)得\n将\nx \n1, y  0 代入(2)得\ny \n''( 1)  2  0\n将\ny\nx 为极小值点,( 1)  0\ny \nx  1 为极大值点,(1)  1\n故\n;\nf x\n( )",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-42b769e628bf07ec37cb-s0-solution-q19-o1",
+      "document_id": "d-42b769e628bf07ec37cb",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q19-o1-r1",
+          "page_id": "d-42b769e628bf07ec37cb-p6",
+          "bbox": [
+            0.025,
+            0.7837445034649901,
+            0.985,
+            0.895766487430122
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q19-o1-r2",
+          "page_id": "d-42b769e628bf07ec37cb-p6",
+          "bbox": [
+            0.025,
+            0.887766487430122,
+            0.985,
+            0.914296046960603
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q19-o1-r3",
+          "page_id": "d-42b769e628bf07ec37cb-p6",
+          "bbox": [
+            0.025,
+            0.906296046960603,
+            0.985,
+            0.9357457250380428
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q19-o1-r4",
+          "page_id": "d-42b769e628bf07ec37cb-p7",
+          "bbox": [
+            0.025,
+            0.040147769197364874,
+            0.985,
+            0.10600984870618377
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q19-o1-r5",
+          "page_id": "d-42b769e628bf07ec37cb-p7",
+          "bbox": [
+            0.025,
+            0.09800984870618377,
+            0.985,
+            0.5569885752108391
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2017",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2017 年全国硕士研究生入学统一考试数学二试题解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "f x 在区间[0,1] 上具有2 阶导数,且 f (1)  0, lim\n( )\n 0\n(19)(本题满分10 分)设函数\n,证明:\nx\n\nx  0\n( )方程 f x  0 在区间(0,1) 内至少存在一个实根;\n( )\n' x\n' x\n( 方程 f x f ( )  ( f ( )) 2  0 在区间(0,1) 内至少存在两个不同实根。\n)\n( )",
+      "answer_hint": "【答案】\n【解析】\nf x\n( )\nf x 二阶导数, f (1)  0, lim\n( )\n 0\n(I)\nx\nx  0 \nf x\n( )\n 0\n解:1)由于 lim\n,根据极限的保号性得\nx\nx  0 \nf x\n( )\n\n  0,  (0, )\nx\n\n 0\nf x  0\n( )\n有\n,即\nx\n\n\nx  (0, )\n 有\nf   0\n进而\nf x 二阶可导,所以 f x 在[0,1] 上必连续\n( )\n( )\n又由于\nf x 在[ ,1]\nf ( )\n( )\n\n 0, f (1)  0\n那么\n上连续,由\n根据零点定理得:\nf  0\n\n ( ,1)\n\n( )\n至少存在一点\n,使\n,即得证\nf (0)  0\nf ( )\nF x\n( )  f x f x\n( ) '( )\nf (0)  f \n( )  0\n\n (0,1), 使\n  0\n(II)由(1)可知\n,\n,令\n,则\nf '( )\nF (0)  F ( )\n  F ( )\n  0\n\n (0, ),\n 使\n  0\n由罗尔定理\n,则\n,\nF x 在(0, ),( , )\n( )\n 分别使用罗尔定理:\n对\n\n  (0, ),\n  ( , )\n\n  (0,1),\n,\n  \nF '( )\n  F '(\n )  0\n且\n,使得\n,即\n\n 2\nF x\nx  f '( )\nx\n'( )  f x f\n( ) ''( )\n 0 在(0,1) 至少有两个不同实根。\n得证。\n\n\n\n\n\n  x  1 dxdy",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-42b769e628bf07ec37cb-s0-solution-q20-o1",
+      "document_id": "d-42b769e628bf07ec37cb",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q20-o1-r1",
+          "page_id": "d-42b769e628bf07ec37cb-p7",
+          "bbox": [
+            0.025,
+            0.5489885752108391,
+            0.985,
+            0.5957441221312064
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q20-o1-r2",
+          "page_id": "d-42b769e628bf07ec37cb-p7",
+          "bbox": [
+            0.025,
+            0.5877441221312064,
+            0.985,
+            0.6538850184395909
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q20-o1-r3",
+          "page_id": "d-42b769e628bf07ec37cb-p7",
+          "bbox": [
+            0.025,
+            0.6458850184395909,
+            0.985,
+            0.7058807498211138
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2017",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2017 年全国硕士研究生入学统一考试数学二试题解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "x y | x 2  y 2  2 y ,\n,\n(20)(本题满分11 分)已知平面区域 D \n计算二重积分\n。\nD",
+      "answer_hint": "【答案】5\n\n\n\n\n\n2sin \n\n 2\n x  1 dxdy   x 2  1 dxdy  2  x dxdy   dxdy  2  d \n\nr 2 cos 2 \nd  \n\n【解析】\nD\nD\nD\nD\n3 \n",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-42b769e628bf07ec37cb-s0-solution-q21-o1",
+      "document_id": "d-42b769e628bf07ec37cb",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q21-o1-r1",
+          "page_id": "d-42b769e628bf07ec37cb-p7",
+          "bbox": [
+            0.025,
+            0.6978807498211138,
+            0.985,
+            0.8031189072684684
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q21-o1-r2",
+          "page_id": "d-42b769e628bf07ec37cb-p7",
+          "bbox": [
+            0.025,
+            0.7951189072684683,
+            0.985,
+            0.8299154352461161
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q21-o1-r3",
+          "page_id": "d-42b769e628bf07ec37cb-p7",
+          "bbox": [
+            0.025,
+            0.8219154352461161,
+            0.985,
+            0.9108066405726096
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q21-o1-r4",
+          "page_id": "d-42b769e628bf07ec37cb-p8",
+          "bbox": [
+            0.025,
+            0.04851336970020349,
+            0.985,
+            0.16102826654796504
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2017",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2017 年全国硕士研究生入学统一考试数学二试题解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "(21)(本题满分11 分)设( )\ny x 是区间 0, 2 内的可导函数,且(1)  0 ,点P 是曲线L: y  y x\ny\n( )\n上任意一点,\n\n\n\n\nL 在点P 处的切线与y 轴相交于点\n ,法线与x 轴相交于点\n\n,求L 上点的坐标\n\n0, Y\nX ,0\nX  Y\n,x y 满足\n,若\np\np\np\np\n的方程。",
+      "answer_hint": "【答案】\n\n\n\n\np x y x\n, ( )\nY  y x\n( )  y x\n\n( ) X  x\nX  0\nY  y x\n\n( )  y x x\n( )\n【解析】设\n的切线为\n,令\n得\n,法线\np\n\n\n\n\nY  y x\n( ) \nX  x\nX  x  y x y x\n( ) \n( )\nX  Y\ny  xy x\n( )  x  yy x\n( )\n, 令 Y  0 得\n。由\n得\n,即\n\np\np\np\ny x\n( )\ny\ny\ny\n\n\ny  ux\n 1 y x\n( ) \n 1\nx  u\n。令\n,则\n,按照齐次微分方程的解法不难解出\n\n\nx\nx\n\n\n1 ln(\nu 2  1)  arctan u  ln | x |  C ,\nx\n\n",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-42b769e628bf07ec37cb-s0-solution-q22-o1",
+      "document_id": "d-42b769e628bf07ec37cb",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q22-o1-r1",
+          "page_id": "d-42b769e628bf07ec37cb-p8",
+          "bbox": [
+            0.025,
+            0.15302826654796503,
+            0.985,
+            0.29073487514943425
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q22-o1-r2",
+          "page_id": "d-42b769e628bf07ec37cb-p8",
+          "bbox": [
+            0.025,
+            0.28273487514943424,
+            0.985,
+            0.33988100646020025
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q22-o1-r3",
+          "page_id": "d-42b769e628bf07ec37cb-p8",
+          "bbox": [
+            0.025,
+            0.33188100646020025,
+            0.985,
+            0.8286610210900781
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2017",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2017 年全国硕士研究生入学统一考试数学二试题解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "A   ,  ,  有3 个不同的特征值,且\n    2\n\n(22)(本题满分11 分)设3 阶矩阵\n。\n( )证明:( )\nr A  2\n( )\n若        ,求方程组Ax  \n的通解。\n 1  \n\n ",
+      "answer_hint": "2  1 , k  R\n【答案】(I)略;(II)通解为 k\n\n \n\n \n 1\n\n \n【解析】\n    2\n\n  2\n    0\n线性相关,\n,\n,\n(I)证明:由\n可得\n,即\nA    0 ,即A 的特征值必有0。\n因此,\n1 2 3\n又因为A 有三个不同的特征值,则三个特征值中只有1 个0,另外两个非0.\n \n\n\n\n\n,     0\n且由于A 必可相似对角化,则可设其对角矩阵为 \n\n\n\n\n\n\nr A  r ( )\n∴( )\n 2\nr A  2 ,知3  r A\n(II)由(1)( )\n( ) ,即 Ax  0 的基础解系只有1 个解向量,\n 1 \n 1 \n 1 \n\n\n\n\n\n\n可得\n\n  2\n    0\nAx  0\n\n,\n,\n A 2\n 0\n由\n,则\n的基础解系为\n,\n\n\n\n\n\n\n\n\n\n\n\n\n 1\n 1\n 1\n\n\n\n\n\n\n\n\n\n\n\n\n,即\n\n      \n\n,\n,\n1  A 1   ,则Ax  \n又\n的一个特解为\n,\n\n\n\n\n\n\n\n\n\n 1  \n\n \n综上,Ax  \nk 2\n 1 , k  R\n的通解为\n\n \n\n \n 1\n\n ",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-42b769e628bf07ec37cb-s0-solution-q23-o1",
+      "document_id": "d-42b769e628bf07ec37cb",
+      "number": "23",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2017年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q23-o1-r1",
+          "page_id": "d-42b769e628bf07ec37cb-p8",
+          "bbox": [
+            0.025,
+            0.8206610210900781,
+            0.985,
+            0.8935305527382448
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q23-o1-r2",
+          "page_id": "d-42b769e628bf07ec37cb-p9",
+          "bbox": [
+            0.025,
+            0.045517013214013066,
+            0.985,
+            0.11652909700015006
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q23-o1-r3",
+          "page_id": "d-42b769e628bf07ec37cb-p9",
+          "bbox": [
+            0.025,
+            0.10852909700015007,
+            0.985,
+            0.19164491082516716
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q23-o1-r4",
+          "page_id": "d-42b769e628bf07ec37cb-p9",
+          "bbox": [
+            0.025,
+            0.18364491082516715,
+            0.985,
+            0.8820897417587317
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-42b769e628bf07ec37cb-s0-solution-q23-o1-r5",
+          "page_id": "d-42b769e628bf07ec37cb-p10",
+          "bbox": [
+            0.025,
+            0.045517013214013066,
+            0.985,
+            0.32628244871386847
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2017",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2017 年全国硕士研究生入学统一考试数学二试题解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "f x x , x )  2 x 2  x 2  ax 2  2 x x  8 x x  2 x x 在正交变换X  QY\n( ,\n(23)(本题满分11 分)设二次型\n下的标\n1 2\n1 3\n2 3\n\ny 2   y 2 ,求a 的值及一个正交矩阵Q.\n准型\n1 1\n2 2\n\n1 \n\n\n\n\n\n\n2 \na  2; Q \n, f x  Qy  3 y 2  6 y 2",
+      "answer_hint": "【答案】\n\n\n\n\n\n1 \n\n\n6 \n\n【解析】\n 4 \n 2\n\n\nf x x , x )  X AX\n( ,\nT\nA \n 1\n,其中\n\n\n\n\n 4\na\n\n\nT\nf x x x ) \n( ,\n,\nX AX\n\ny 2  \ny 2\n由于\n经正交变换后,得到的标准形为\n1 1\n2 2 ,\n 4\nr A\n( )  2 \n| A | 0  1\n\n 1\n1  0  a  2\n故\n,\n 4\na\n 4 \n\n\n\na  2 代入,满足( )\nr A  2\na  2\nA \n 1\n将\n,因此\n符合题意,此时\n,则\n\n\n\n\n 4\n\n\n\n 2\n 1\n| \nE  A |\n\n 1\n\n 1\n 1  0    3,   0,   6\n,\n 1\n\n 2\n 1 \n\n\n由( 3\n E  A x\n)  0 ,可得A 的属于特征值-3 的特征向量为\n  1\n;\n\n\n\n\n\n\n\n1 \n\n\n\n由(6 E  A x\n)  0 ,可得A 的属于特征值6 的特征向量为   0\n\n\n\n\n\n\n\n由(0  )  0 ,可得A 的属于特征值0 的特征向量为  \nE\nA x\n\n\n  3\n\n\n\n\n\nP  \n,\n,\nP AP \n 1\n\n,\n,\n令\n,则\n,由于\n彼此正交,故只需单位化即可:\n\n\n\n\n\n\n\n\n\n\n\nT\nT\nT\n \n1, 1,1 ,  \n\n\n1,0,1 ,  \n1,2,1 ,\n,\n\n1 \n\n\n\n\n\n  3\n\n\n2 \n\n\n\n\nQ   \nQ AQ \nT\n则\n,\n\n\n\n\n\n\n\n\n\n\n1 \n\n\n6 \n\nf x x x )\n( ,\n,\n 3 y 2  6 y 2\nx Qy\n\n如果想要了解更多,广大研友们也可加入2017 考研复试交流群(118146590)和大家一起交流考研心\n路历程。也可将自己考研的经验传授给学弟学妹们2018 考研交流总群(337587371),希望他们在\n2018 年金榜题名。",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [
+    {
+      "type": "no_question_anchor",
+      "page": 3,
+      "lane": 0,
+      "details": "本页未定位题号，保留原页待核对；可能为封面、答案表或延续页。"
+    },
+    {
+      "type": "no_question_anchor",
+      "page": 4,
+      "lane": 0,
+      "details": "本页未定位题号，保留原页待核对；可能为封面、答案表或延续页。"
+    }
+  ],
+  "identity": {
+    "category": "考研数二",
+    "year": "2017",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

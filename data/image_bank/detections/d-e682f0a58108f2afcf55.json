@@ -1,0 +1,1127 @@
+{
+  "item": {
+    "id": "d-e682f0a58108f2afcf55",
+    "path": "resource/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2017-2020考研数学（一）真题+答案解析/2019年考研数学一真题.pdf",
+    "name": "2019年考研数学一真题.pdf",
+    "sha256": "58c3e5322d3e39ef8e6c3be6b67524aa382d89d81bb0177a7503afa1ab2750f1",
+    "format": "pdf",
+    "bytes": 203773,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 4,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 595.2999877929688,
+        "height": 816.3882446289062,
+        "text_chars": 973,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 595.2999877929688,
+        "height": 816.3882446289062,
+        "text_chars": 1107,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 595.2999877929688,
+        "height": 816.3882446289062,
+        "text_chars": 687,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 595.2999877929688,
+        "height": 816.3882446289062,
+        "text_chars": 532,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "58c3e5322d3e39ef8e6c3be6b67524aa382d89d81bb0177a7503afa1ab2750f1",
+  "engine_version": 6,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2017-2020考研数学（一）真题+答案解析/2019年考研数学一真题.pdf",
+  "pdf_sha256": "58c3e5322d3e39ef8e6c3be6b67524aa382d89d81bb0177a7503afa1ab2750f1",
+  "pages": [
+    {
+      "id": "d-e682f0a58108f2afcf55-p1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": 1,
+      "width": 595.2999877929688,
+      "height": 816.3882446289062,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-p2",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": 2,
+      "width": 595.2999877929688,
+      "height": 816.3882446289062,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-p3",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": 3,
+      "width": 595.2999877929688,
+      "height": 816.3882446289062,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-p4",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": 4,
+      "width": 595.2999877929688,
+      "height": 816.3882446289062,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-choice-q1-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-choice-q1-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p1",
+          "bbox": [
+            0.025,
+            0.1514667717826213,
+            0.985,
+            0.20660394648356853
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "kx 是同阶无穷小,则k =(\nx  0\nx  tan x\n(1)当\n时,若\n与\n)\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-choice-q2-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-choice-q2-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p1",
+          "bbox": [
+            0.025,
+            0.20660394648356853,
+            0.985,
+            0.3154736471834569
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": " x x , x  0\nf ( x ) \nx  0\nf (x )\n\n(2)设函数\n,则\n是\n的(\n)\nx ln x , x  0\n\n(A)可导点,极值点\n(B) 不可导点,极值点\n(C)可导点,非极值点\n(D) 不可导点,非极值点",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-choice-q3-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-choice-q3-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p1",
+          "bbox": [
+            0.025,
+            0.3154736471834569,
+            0.985,
+            0.47435235052407826
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(3)设\nu\n是单调增加的有界数列,则下列级数中收敛的是(\n)\nn\n u\n\n(B) \n(A)\nn\n(  )1\nn\nu\nn 1\nn \nn\nu\n\n\n\n\n1( \nn )\n(  u 2 )\nu 2\n(C)\n(D)\nn 1\nn\nu\nn \nn \nn ",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-choice-q4-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-choice-q4-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p1",
+          "bbox": [
+            0.025,
+            0.47435235052407826,
+            0.985,
+            0.6251943933671782
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "x\nQ x y\n( , ) \n.\n( y  0 )\n(4)设函数\n如果对上半平面\n内的任意有向光滑封闭曲线C 都有\ny 2\n P ( x , y ) dx  Q ( x , y ) dy  ,0\nP ( x , y )\n那么函数\n可取为(\n)\nC\nx 2\nx 2\n1  1\ny \ny \nx \n(A)\n(B)\n(C)\n(D)\ny 3\ny 3\nx\ny\ny",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-choice-q5-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-choice-q5-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p1",
+          "bbox": [
+            0.025,
+            0.6251943933671782,
+            0.985,
+            0.7573222824516539
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "2  A  2 E ,\nT Ax\n设 A 是 阶实对称矩阵, E 是 阶单位矩阵,若 A\n且 A  4\n,则二次型 x\n(5)\n的规范为\n(\n)\ny 2  y 2  y 2\ny 2  y 2  y 2\n(A)\n(B)\ny 2 \ny 2 \ny 2\n\ny 2 \ny 2 \ny 2\n(C)\n(D)",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-choice-q6-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-choice-q6-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p1",
+          "bbox": [
+            0.025,
+            0.7573222824516539,
+            0.985,
+            0.987
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-choice-q6-o1-r2",
+          "page_id": "d-e682f0a58108f2afcf55-p2",
+          "bbox": [
+            0.025,
+            0.06014580259507816,
+            0.985,
+            0.09948170819158068
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\n\na x  a y  a z  d i  3,2,1\n(6)如图所示,有3 张平面两两相交,交线相互平行,它们的方程\n组成的\ni\ni 2\ni 3\ni\nA\n, A\n,\n线性方程组的系数矩阵和增广矩阵分别记为\n则(\n)\nr ( A\n)  ,2 r ( A\n)  3\nr ( A\n)  ,2 r ( A\n)  2\n(A)\n(B)\nr ( A\n)  ,1 r ( A\n)  2\nr ( A\n)  ,1 r ( A\n)  1\n(C)\n(D)",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-choice-q7-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-choice-q7-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p2",
+          "bbox": [
+            0.025,
+            0.09948170819158068,
+            0.985,
+            0.21232018100478942
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "A\n, B 为随机事件,则\nP ( A\n)  P ( B )\n的充分必要条件是 (\n(7) 设\n)\nP A\n(  ) \nB\nP A\n( )  ( )\nP B\nP AB ) \n(\nP A P B\n( ) ( )\n(A)\n(B)\nP A B ) \n(\nP B A\n(\n)\nP AB ) \n(\nP A B )\n(\n(C)\n(D)",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-choice-q8-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-choice-q8-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p2",
+          "bbox": [
+            0.025,
+            0.21232018100478942,
+            0.985,
+            0.3236070876264092
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\n\nX\nY\nN ( ,\nP X Y  1\n 2 ,则\n )\n设随机变量 与 相互独立,且都服从于 正态分布\n(8)\n(\n)\n\n 有关\n\n 无关\n(A) 与 无关,而与\n(B) 与 有关,而与\n  都有关\n  都无关\n与 ,\n与 ,\n(C)\n(D)",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-blank-q9-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-blank-q9-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p2",
+          "bbox": [
+            0.025,
+            0.35177995776671206,
+            0.985,
+            0.40539824056626056
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\nz\n\nz\n\n\nf ( 可导,\nu )\nz  f sin y  sin x  xy , 则\n\n\n\n\n(9) 设函数\n__________.\nx\ny\ncos x \ncos y ",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-blank-q10-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "10",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-blank-q10-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p2",
+          "bbox": [
+            0.025,
+            0.40539824056626056,
+            0.985,
+            0.4448239132068179
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\ny   y 2  2  0\ny 0  1\ny \n2 y\n满足条件\n的特解\n(10) 微分方程\n__________.",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-blank-q11-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-blank-q11-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p2",
+          "bbox": [
+            0.025,
+            0.4448239132068179,
+            0.985,
+            0.4970866288294087
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\n(  )1 n\n\nx n 在\n( ,0  )\ns ( x ) \n内的和函数\n(11) 幂级数\n.\n( 2 n )!\nn  0",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-blank-q12-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-blank-q12-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p2",
+          "bbox": [
+            0.025,
+            0.4970866288294087,
+            0.985,
+            0.5419182470506538
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": " 4 \nx 2 \ny 2  4\nz 2  4 (\nz  0 )\nx 2  4\nz 2 dxdy \n设  为曲面\n的上侧,则\n(12)\n.\n",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-blank-q13-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-blank-q13-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p2",
+          "bbox": [
+            0.025,
+            0.5419182470506538,
+            0.985,
+            0.6123749070921245
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "\n\nA  a , a , a 为 阶矩阵,若\na , a 线性无关,且\na  \na  2\na , 则线性方程组\nAx  0\n(13) 设\n的\n1 2 3\n1 2\n通解为\n.\n x",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-blank-q14-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-blank-q14-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p2",
+          "bbox": [
+            0.025,
+            0.6123749070921245,
+            0.985,
+            0.7057781582353977
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": " , 0  x  2\n设随机变量 X 的概率密度为 f ( x )  2\n, F ( x )\n为 X 的分布函数, EX 为 X\n(14)\n ,0\n其他\n\n\nP F ( X )  EX  1\n的数学期望,则\n.",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-solution-q15-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "15",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-solution-q15-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p2",
+          "bbox": [
+            0.025,
+            0.728969783150371,
+            0.985,
+            0.861669821889762
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(15)(本题满分10 分)\nx 2\n\n\n\ny x 是微分方程\ny   xy  e 2 满足条件\ny 0  0\n.\n设函数\n的特解\n(1)求;\ny x\n\ny  y x\n(2)求曲线\n的凹凸区间及拐点.",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-solution-q16-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "16",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-solution-q16-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p3",
+          "bbox": [
+            0.025,
+            0.04710466058923,
+            0.985,
+            0.2955158891936288
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(16)(本题满分10 分)\na, b\nz  2  ax 2  by 2\n( ,处的方向导数中,沿方向 l   3  4 j\n3 4 )\ni\n设\n为实数,函数\n在点\n的方向导数最\n大,最大值为10.\na, b\n(1)求\n;\n\n\nz  2  ax 2  by 2 z  0\n(2)求曲面\n的面积.",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-solution-q17-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-solution-q17-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p3",
+          "bbox": [
+            0.025,
+            0.2955158891936288,
+            0.985,
+            0.447975996280819
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(17)(本题满分10 分)\n\n\ny  e  x sin x x  0 与\nx\n求曲线\n轴之间图形的面积.",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-solution-q18-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-solution-q18-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p3",
+          "bbox": [
+            0.025,
+            0.447975996280819,
+            0.985,
+            0.6585784529986768
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(18)(本题满分10 分)\n x n 1  x 2 dx ( n  ,2,1,0\na\n)\n\n设\nn\nn  1\n\na\na \na\n( n  ,3,2 \n)\n(1) 证明:数列 n 单调减少,且\nn\nn  2\nn  2\na\nlim\nn .\n(2) 求\na\nn  \nn ",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-solution-q19-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-solution-q19-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p3",
+          "bbox": [
+            0.025,
+            0.6585784529986768,
+            0.985,
+            0.7923382809853138
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(19)(本题满分10 分)\n\nx 2  ( y  z ) 2  1(  z ) 2 ( 0  z  )1\nz  0\n\n.\n设 是由锥面在\n与平面\n围成的锥体,求 的形心坐标",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-solution-q20-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-solution-q20-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p3",
+          "bbox": [
+            0.025,
+            0.7923382809853138,
+            0.985,
+            0.9762966770723487
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(20)(本题满分11 分)\nT x  2,3,1( ) T x  ,1( a 3,\nb , c )1, T .\n) T 为 R 3\n  )1,1,1( T 在基下的坐标 (\n设向量组 x  )1,2,1(\n的一个基,\na , b , c\n(1) 求\n;\na , a ,  R 3\n.\na , a ,  a , a , a 的过渡矩阵\n.\n证明\n为 的一个基 并求\n到\n(2)",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-solution-q21-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-solution-q21-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p4",
+          "bbox": [
+            0.025,
+            0.04710466058923,
+            0.985,
+            0.31462443337877644
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(21)(本题满分11 分)\n 2\n 2\n1 \n0 \n\n\n\n\n\n\nA \nx\n 2 与\nB  0\n 1\n0 相似\n.\n已知矩阵\n\n\n\n\n\n\n\n\n 2\ny\n\n\n\n\nx、 y\n求\n(1)\n;\nP\nP  1 AP  B\n.\n(2) 求可逆矩阵 ,使得",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-solution-q22-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-solution-q22-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p4",
+          "bbox": [
+            0.025,
+            0.31462443337877644,
+            0.985,
+            0.6203613272471744
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(22)(本题满分11 分)\n设随机变量X 与Y 相互独立, X 服从参数为1 的指数分布. Y 的概率分布为\n\n\n\n\nP Y   1  p , P Y  1  1  p ( 0  p  1\n), 令\nZ  XY\n求Z 的概率密度;\n(1)\np 为何值时,\nX 与 不相关;\nY\n(2)\nX 与Z 是否相互独立 .\n(3)",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-e682f0a58108f2afcf55-s0-solution-q23-o1",
+      "document_id": "d-e682f0a58108f2afcf55",
+      "number": "23",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数一",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-e682f0a58108f2afcf55-s0-solution-q23-o1-r1",
+          "page_id": "d-e682f0a58108f2afcf55-p4",
+          "bbox": [
+            0.025,
+            0.6203613272471744,
+            0.985,
+            0.8437898671509277
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数一",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(一)试卷"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(23)(本题满分11 分)\n\n( x  \n) 2\nA\n\n\ne 2 2\nx\n.\n ,  \nX\nf ( x \n; 2 ) \n设总体 的概率密度为\n\n\n,0\nx  \n.\n其中是已知参数,   0 是未知参数,A 是常数, X , X ,  , X 是来自总体X 的简单随机样本.\nn\n求A ;\n(1)\n2的最大似然估计量 .\n求\n(2)",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [],
+  "identity": {
+    "category": "考研数一",
+    "year": "2019",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

@@ -1,0 +1,1281 @@
+{
+  "item": {
+    "id": "d-d90f39a624f2c4085ad1",
+    "path": "resource/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/1987-2002考研数（三）真题及解析/1999考研数三试题及解析.pdf",
+    "name": "1999考研数三试题及解析.pdf",
+    "sha256": "e56173ef8985ee15746be6f1ffb7faddfa4b6039dcc597c37613c2e6a08c583a",
+    "format": "pdf",
+    "bytes": 120128,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 15,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 710,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 949,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1111,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1050,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 962,
+        "renderable": true
+      },
+      {
+        "number": 6,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 830,
+        "renderable": true
+      },
+      {
+        "number": 7,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 470,
+        "renderable": true
+      },
+      {
+        "number": 8,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 656,
+        "renderable": true
+      },
+      {
+        "number": 9,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 807,
+        "renderable": true
+      },
+      {
+        "number": 10,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 862,
+        "renderable": true
+      },
+      {
+        "number": 11,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1130,
+        "renderable": true
+      },
+      {
+        "number": 12,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 874,
+        "renderable": true
+      },
+      {
+        "number": 13,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 732,
+        "renderable": true
+      },
+      {
+        "number": 14,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 1105,
+        "renderable": true
+      },
+      {
+        "number": 15,
+        "width": 595.0,
+        "height": 842.0,
+        "text_chars": 194,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "e56173ef8985ee15746be6f1ffb7faddfa4b6039dcc597c37613c2e6a08c583a",
+  "engine_version": 6,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/1987-2002考研数（三）真题及解析/1999考研数三试题及解析.pdf",
+  "pdf_sha256": "e56173ef8985ee15746be6f1ffb7faddfa4b6039dcc597c37613c2e6a08c583a",
+  "pages": [
+    {
+      "id": "d-d90f39a624f2c4085ad1-p1",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": 1,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-p2",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": 2,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-p3",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": 3,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-p4",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": 4,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-p5",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": 5,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-p6",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": 6,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-p7",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": 7,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-p8",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": 8,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-p9",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": 9,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-p10",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": 10,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-p11",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": 11,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-p12",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": 12,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-p13",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": 13,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-p14",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": 14,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-p15",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": 15,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-d90f39a624f2c4085ad1-s0-unknown-q1-o1",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": "1",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "1999年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-unknown-q1-o1-r1",
+          "page_id": "d-d90f39a624f2c4085ad1-p1",
+          "bbox": [
+            0.025,
+            0.16553922608195085,
+            0.985,
+            0.20543174742444203
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "1999",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "1999 年全国硕士研究生入学统一考试"
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "一、\n填空题",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-s0-unknown-q1-o2",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": "1",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "1999年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-unknown-q1-o2-r1",
+          "page_id": "d-d90f39a624f2c4085ad1-p1",
+          "bbox": [
+            0.025,
+            0.20543174742444203,
+            0.985,
+            0.5567781114495187
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "1999",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "1999 年全国硕士研究生入学统一考试"
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "f x 有一个原函数sin x\nπ\n( )\n( )\n∫\n′ x dx\n=\n, 则\nxf\n(1) 设\n___________.\nπ\nx\n【答】 4\nπ −\nf x 有一个原函数sin x\n( )\n, 则\n【详解】 由题设\nx\n′\n−\n⎛ sin x ⎞\nx cos x sin x\n( )\n=\n=\nf x\n,\n⎜\n⎟\n⎝\nx ⎠\nx 2\n从而\nπ\nπ\nπ\nπ ( )\n( )\n( )\n( )\n∫\n′ x dx\n= ∫ xdf x\n= xf x π\n− ∫ f x dx\nxf\nπ\nπ\nπ\nπ\nπ\n⎛\nsin x ⎞\nsin x\n= cos x −\n− 1.\nπ −\nπ =\n⎜\n⎟\nπ\n⎝\nx ⎠\nx",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-s0-unknown-q2-o1",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": "2",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "1999年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-unknown-q2-o1-r1",
+          "page_id": "d-d90f39a624f2c4085ad1-p1",
+          "bbox": [
+            0.025,
+            0.5567781114495187,
+            0.985,
+            0.8812666108410036
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-unknown-q2-o1-r2",
+          "page_id": "d-d90f39a624f2c4085ad1-p2",
+          "bbox": [
+            0.025,
+            0.06341824801121075,
+            0.985,
+            0.06992108758366117
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "1999",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "1999 年全国硕士研究生入学统一考试"
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "n −\n∞\n⎛ 1 ⎞\n∑\n=\nn ⎜\n(2)\n__________.\n⎟\n⎝ 2 ⎠\n=\ni 1\n【答】 4\n【详解】 考虑幂级数\n∞\n( )\n∑\n=\nn − , 1\n1 −< x\n< 1,\nS x\nnx\ni =\n∞\n∞\nx\n∑ ∫ x\n∑\n∫ x ( )\n1 dx =\nn\nS x dx =\nnx n −\nx dx = − ,\n因为\n1 x\ni =\ni =\n′\n⎛ x ⎞\n所以( )\n=\n−< x < 1,\nS x = ⎜\n, 1\n⎟\n(\n) 2\n⎝ 1 − x ⎠\n−\n1 x\nn −\n∞\n⎛ 1 ⎞\n⎛ 1 ⎞\n∑\n= S\n= 4.\nn ⎜\n故\n⎟\n⎜\n⎟\n⎝ 2 ⎠\n⎝ 2 ⎠\n=\ni 1",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-s0-unknown-q3-o1",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": "3",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "1999年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-unknown-q3-o1-r1",
+          "page_id": "d-d90f39a624f2c4085ad1-p2",
+          "bbox": [
+            0.025,
+            0.06992108758366117,
+            0.985,
+            0.2924801368018699
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "1999",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "1999 年全国硕士研究生入学统一考试"
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "⎛ 1\n1 ⎞\n⎜\n⎟\nn−\n= ⎜ 0\nn ≥ 2\nn − 2 A\n1 =\n(3) 设 A\n,而\n为整数,则 A\n.\n⎟\n⎜\n⎟\n1 ⎠\n⎝\n【答】 O\n【详解】  因为\n⎛ 1\n1 ⎞⎛ 1\n1 ⎞\n⎛ 2\n2 ⎞\n⎜\n⎟⎜\n⎟\n⎜\n⎟\nA 2 = 0\n0 i 0\n0 = 0\n0 = 2 .\nA\n⎜\n⎟⎜\n⎟\n⎜\n⎟\n⎜\n⎟⎜\n⎟\n⎜\n⎟\n1 ⎠⎝ 1\n1 ⎠\n2 ⎠\n⎝ 1\n⎝ 2\n1 = A n − 2 ( A 2 − 2 )\nA n − 2 A n −\nA = O\n.\n故有",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-s0-unknown-q4-o1",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": "4",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "1999年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-unknown-q4-o1-r1",
+          "page_id": "d-d90f39a624f2c4085ad1-p2",
+          "bbox": [
+            0.025,
+            0.2924801368018699,
+            0.985,
+            0.7931751124245349
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "1999",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "1999 年全国硕士研究生入学统一考试"
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "(4) 在天平上重复称量一重维a 的物品,假设各次称量结果相互独立且服从正态分布,\nX 表示n 称量结果的算术平均值,则为使{\n}\n(\n)\n− a\n< 0.1\n≥ 0.95, n\nN 0,0.2\nP X\n,若以\n的\nn\nn\n最小值应不小于自然数=_________.\n【答】 16\n⎛\n⎞\n1 n\n0.2 2\n∑\n=\nX ~ N a\n【详解】 由于 X\n⎜ ,\n⎟ ,\nn\ni\nn\nn ⎠\n⎝\ni =\n于是\n− a\n⎛\n⎞\nX\n0.2 2\n=\nu\nn\n~ N ⎜ 0,\n⎟ .\n0.2\nn ⎠\n⎝\nn\n又因为{\n}\nP u < 1.96\n≥ 0.95,\n⎧\n⎫\n⎪\n⎪\n⎛\n⎞\n故要求{\n}\n⎪ X − a\nn ⎪\nn\n<\nP X − a < 0.1 = P ⎨\nn\n2 ⎜\n⎟ −≥\n1 0.95,\n⎬ = Φ\n⎜\n⎟\nn\n0.2\n⎪\n⎪\n⎝\n⎠\n⎪\n⎪\n⎩\nn\n⎭\n⎛\n⎞\nn\nΦ ⎜\n⎟ ≥ 0.975.\n即\n⎜\n⎟\n⎝\n⎠\nn ≥\nn = 16.\n1.96, 解得\n于是令",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-s0-unknown-q5-o1",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": "5",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "1999年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-unknown-q5-o1-r1",
+          "page_id": "d-d90f39a624f2c4085ad1-p2",
+          "bbox": [
+            0.025,
+            0.7931751124245349,
+            0.985,
+            0.9285105763342488
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-unknown-q5-o1-r2",
+          "page_id": "d-d90f39a624f2c4085ad1-p3",
+          "bbox": [
+            0.025,
+            0.061762737355719265,
+            0.985,
+            0.4002062754385639
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "1999",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "1999 年全国硕士研究生入学统一考试"
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "独立同分布,(\n)\n(\n)\n= 1,2, \" , ;\n≥ 2\n= 2,\ni j\n,\nn n\nE X\n(5) 设随机变量 X\n则行列式\nij\nij\n⎡ X\nX\n\"\nX ⎤\n1 n\n⎢\n⎥\nX\nX\n\"\nX\n⎢\n⎥\n( )\n2 n\nE Y = ________.\nY = ⎢ 21\n的数学期望\n⎥\n#\n#\n#\n⎢\n⎥\nX\nX\n\"\nX ⎦\n⎣\nn\nn\nnn\n【答】  0\n【详解】根据行列式的定义,有\n∑ (\n(\n)\n) r j j \" j\n−\nY =\nX\n\" X\n,\n1 2 n X\n1 j\n2 j\nnj\nn\nj j \" j\n1 2 n\n(\n)\nX\ni j\n, = 1,2, \" , ;\nn n ≥ 2 独立同分布,因此有\n由于随机变量\nij\n) (\n)\n∑ (\n( )\n) (\n=\n− r j j \" j\nE Y\nX\n\" X\n1 2 n E X\n1 j\n2 j\nnj\nn\nj j \" j\n1 2 n\n) (\n)\n(\n)\n(\n)\n∑ (\n) (\n\" j\n=\n− 1 r j j\n⋅ E X\n⋅ \" ⋅ E X\nE X\n1 2 n\n1 j\n2 j\nnj\nn\nj j \" j\n1 2 n\n(\n)\n(\n)\n(\n)\nE X\nE X\n\"\nE X\n2 \" 2\nn\n(\n)\n(\n)\n(\n)\nE X\nE X\n\"\nE X\n2 \" 2\n=\n2 n =\n= 0.\n#\n#\n#\n#\n#\n#\n(\n)\n(\n)\n(\n)\nE X\nE X\n\"\nE X\n2 \" 2\nn\nn 2\nnn",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-s0-choice-q1-o1",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "1999年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q1-o1-r1",
+          "page_id": "d-d90f39a624f2c4085ad1-p3",
+          "bbox": [
+            0.025,
+            0.43708690149785984,
+            0.985,
+            0.9284470765754899
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q1-o1-r2",
+          "page_id": "d-d90f39a624f2c4085ad1-p4",
+          "bbox": [
+            0.025,
+            0.0672854585262489,
+            0.985,
+            0.1637924330130703
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "1999",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "1999 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "f (x ) 是连续奇函数,\nF (x ) 是\nf (x ) 的原函数,则\n(1) 设\nf (x ) 是奇函数时,\nF (x ) 必为偶函数\n(A) 当\nf (x ) 是偶函数时,\nF (x ) 必为奇函数\n(B) 当\nf (x ) 是周期函数时,\nF (x ) 必为周期函数\n(C) 当\n(D) 当 f (x ) 是单调增函数时, F (x ) 必为单调增函数\n【 】\n【答】 应选(A)\n∫ x\nf x 的原函数 F x 可以表示为 F x\n( )\n( )\n( ) =\nf t dt + C , 于是\n( )\n【详解】\n− x\n∫\n∫ x\nF ( − x ) =\nf t dt + Cu = − t\n( )\nf ( − u d\n) ( − u ) + C .\nf x 为奇函数,即 f ( −\n( )\nu ) = − f u\n( ), 从而有\n当\n− x\nx\n−\n= ∫\n+ C\n= ∫ f t dt\n+ C\n= F x\nF ( x )\nf t dt\n( )\n( )\n( ).\nF x 为偶函数.\n( )\n即\n故(A)为正确选项,\n至于(B),(C),(D)可分别举反例如下:\nf x\n( ) = x 2 是偶函数,但其原函数\nF x\n( ) =\nx 3 + 不是奇函数,可排除(B);\nf x\n( ) = cos x 2 是周期函数,但其原函数\nF x\n( ) =\nx +\nsin 2 x 不是周期函数,可排除(C);\nf x\n( ) = x 在区间( −∞+∞内是单调增函数,但其原函数 F x\n,\n)\n( ) =\nx 2 在区间( −∞+∞ )\n,\n内非单调增加函数,可排除(D).",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-s0-choice-q2-o1",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "1999年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q2-o1-r1",
+          "page_id": "d-d90f39a624f2c4085ad1-p4",
+          "bbox": [
+            0.025,
+            0.1637924330130703,
+            0.985,
+            0.9240376852221274
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q2-o1-r2",
+          "page_id": "d-d90f39a624f2c4085ad1-p5",
+          "bbox": [
+            0.025,
+            0.061762737355719265,
+            0.985,
+            0.696864873673174
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "1999",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "1999 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "= xy\n+ ∫∫ f (\n= ,0 y\n= 2\n= 1\nu , v ) dudv , 其中D 是由 y\nx , x\n(2)设 f ( x , y ) 连续,且 f ( x , y )\nD\nf ( x , y ) 等于\n所围区域,则\n(A) xy       (B)xy\nxy +\nxy + 1\n(C)\n(D)\n【 】\n【答】   (C)\n( )\n∫∫\n∗\nf u v dudv = A\n( , )\n【详解1】 令\nD\n则\n= xy\n+ A\n= xy\n+ A\nf x y\n( , )\n( , )\n,将 f x y\n代入(*)式得\n∫∫\n[\nuv + A dudv = A\n]\nD\n即\n∫∫\n[ xy + A dxdy = A\n]\nD\n∫ 1\n∫ x\n∫ 1\ndx\nxydy + A\nx dx = A\n+ 3 A\n= A\nA =\n, 解得\n= xy\n+\n( , )\n故 f x y\n+∫∫\n= xy\n( , )\nf u v dudv 两边取在区域D 上的二重积分得:\n( , )\n【详解2】 等式 f x y\nD\n∫∫\n∫∫\n= ∫∫ xydxdy\n+ ∫∫ xydxdy i\nf x y dxdy\n( , )\nf u v dudvA\n( , )\nD\nD\nD\nD\n∫∫\n∫ 1\n∫ x\n∫ 1\n∫∫\n=\n+\nf x y dxdy\n( , )\ndx\nxydxdy\nx dx\ni\nf x y dxdy\n( , )\nD\nD\n∫∫\n∫∫\n+\nf x y dxdy =\n( , )\nf x y dxdy\n( , )\nD\nD\n由上式解得\n∫∫ f x y dxdy =\n( , )\nD\n则\n= xy\n+\nf x y\n( , )\n(3)设向量β 可由向量组 α α , \"\nα 线形表示,但不能有向量组(I) α α , \"\nα\n,\n,\n线\nm−\nm\nα α , \"\nα ,\nβ ,则:\n,\n性表示,记向量组(II):\nm−\nα  不能由(I)线性表示,也不能由(II)线性表示\n(A)\nm\nα  不能由(I)线性表示,但可由(II)线性表示\n(B)\nm\nα  可由(I)线性表示,也可由(II)线性表示\n(C)\nm\nα 可由(I)线性表示,但不能由(II)线性表示\n(D)\nm\n【 】\n【答】 (B)\n,\n【详解】 由题设,存在 k k , \" k , 使得\nm\nβ = α + α +\" α ,\nk\nk\nk\n1 1\n2 2\nm m\nk ≠ 0 .否则与β 不能由向量组 α α , \"\nα\n,\n且\n线性表示矛盾,从而有\nm−\nm\nk\nk\nα = − 1\nα − \"\n− m 1\n+\nβ\n− α\n,\nm\nm −\nk\nk\nk\nm\nm\nm\nα 可由向量组\nα α , \"\nα ,\nβ 线性表示.\n,\n即\nm−\nm\n又根据β 不能由向量组\nα α , \"\nα\nα 一定不能由\nα α , \"\nα 线性表示,\n,\n,\n线性表示知,\nm−\nm\nm\nα 用\nα α , \"\nα\n,\n线性表示后代入(*)式,即可推出矛盾.\n否则将\nm−\nm\n因此正确选项为(B)",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-s0-choice-q4-o1",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "1999年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q4-o1-r1",
+          "page_id": "d-d90f39a624f2c4085ad1-p5",
+          "bbox": [
+            0.025,
+            0.696864873673174,
+            0.985,
+            0.9224188038153207
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q4-o1-r2",
+          "page_id": "d-d90f39a624f2c4085ad1-p6",
+          "bbox": [
+            0.025,
+            0.06786454950545577,
+            0.985,
+            0.20410895659747996
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "1999",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "1999 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "A B 为n 阶矩阵,且 A\n,\nB 相似,E 为n 阶单位矩阵,则\n与\n(4)设\n( )\n( )\nλ\nλ\nA\nE − A = E − B. B A\n与有相同的特征值和特征向量 .\nB\n( )\nB 都相似于一个对角矩阵      (\n)\nC A\n与\nD 对于任意常数,t t E − A\n与 E − B 相似\n【 】\n【答】 (D)\n【详解】( )\nA 首先贝排除,因它意味着A = B;\nB 有相同的特征值,但不一定有相同的特征向量,故( )\nA\n与\nB 相似, A\n与\nB 不成立;\nA\n与\nB 不一定可以对角化,更谈不上都相似于一个对角矩阵,排除(C)\n剩下(D)为正确答案.\n−\nA\nB 相似,所以存在n 阶可逆矩阵 P 使得 P AP = B,进而有\n,\n与\n因为\n1 t\n(\n)\n−\n− A P\n= t E\n− B 可见t E\n− A\n− B 相似.\nP\nE\n与\nE",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-s0-choice-q5-o1",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "1999年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q5-o1-r1",
+          "page_id": "d-d90f39a624f2c4085ad1-p6",
+          "bbox": [
+            0.025,
+            0.20410895659747996,
+            0.985,
+            0.8525267518587935
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "1999",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "1999 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "−\n⎡ 1\n1 ⎤\n⎢\n⎥ (\n) 且满足{\n}\n,则{\n}\n= 1,2 ,\nP X X = 0\n= 1,\n= X\ni\nP X\n(5)设随机变量 X ~\n等\n⎢\n⎥\ni\n1 2\n⎣ 4\n4 ⎦\n于\n( )\n( )\n( )\n(\n)\nA 0. B\n. C\n. D 1.\n【 】\n【答】 (A)\n【详解】首先,列出二维随机变量(\n)\nX , X\n的联合分布律及其边缘分布中的部分数值.\np i⋅\nX X\na\nc\nb\nd\nh\nf\ng\ne\nk\n⋅\np j\n由于{\n}\n故{\n}\nP X X = 0\n= 1,\nP X X ≠ 0\n= 0.\n1 2\n1 2\n= c\n= g\n= k\n= 0.\na\n因此\n根据边缘分布的性质\n(\n)\n=\n=\n=\n=\n=\n− b\n+ h\n= 0.\nb\n, h\n, d\n, f\n, e\n可见有\n{\n}\n{\n}\n{\n}\n{\n}\n= X\n= P X\n= − 1, X\n= − 1\n+ P X\n= 0, X\n= 0\n+ P X\n= 1, X\n= 1\n= 0.\nP X\n因此正确选项为(A)。",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-s0-choice-q3-o1",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "1999年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q3-o1-r1",
+          "page_id": "d-d90f39a624f2c4085ad1-p6",
+          "bbox": [
+            0.025,
+            0.8525267518587935,
+            0.985,
+            0.8911001573866167
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q3-o1-r2",
+          "page_id": "d-d90f39a624f2c4085ad1-p7",
+          "bbox": [
+            0.025,
+            0.07376721814805709,
+            0.985,
+            0.664988429706057
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "1999",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "1999 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "三 、(本题满分6 分)\n=\n的切线与x 轴和y 轴围成一个图形,记切点的横坐标为a ,试求切线方\n曲线 y\nx\n程和这个图形的面积,当切点沿曲线趋于无穷远时,该面积的变化趋势如何?\n1 ,\n−\ny =\ny ' = −\nx ,\nP a\n( ,\n) 处的切线方程为\n2 则切点\n【详解】   由\n得\nx\na\n−\n= −\n− a ).\ny\n( x\na\n2 a\n切线与x 轴和y 轴的交点分别为 A a\n(3 ,0) 和\nB (0,\n).\n2 a\n于是,三角形AOB 的面积为\n= i a\n=\nS\n3 i\na .\n2 a\n当切点沿x 轴方向趋于无穷远时,有lim S = +∞\n.\na →+∞\n当切点沿y 轴方向趋于无穷远时,有 lim S = 0.\na →+",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-s0-choice-q4-o2",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "1999年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q4-o2-r1",
+          "page_id": "d-d90f39a624f2c4085ad1-p7",
+          "bbox": [
+            0.025,
+            0.664988429706057,
+            0.985,
+            0.7541395863875074
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q4-o2-r2",
+          "page_id": "d-d90f39a624f2c4085ad1-p8",
+          "bbox": [
+            0.025,
+            0.2712777630223797,
+            0.985,
+            0.9154123013240425
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q4-o2-r3",
+          "page_id": "d-d90f39a624f2c4085ad1-p9",
+          "bbox": [
+            0.025,
+            0.06593313022350755,
+            0.985,
+            0.4735239474310916
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "1999",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "1999 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "四 、(本题满分7 分)\n∫∫\n= −\n= ,0 y\n= 2\n=\n− y 2\nydxdy 其中D 是由 x\n,\n,2 y\n2 y\n计算二重积分\n以及曲线 x\n所围成\nD\n的平面区域.\n= {( , ) | 0\n≤ y\n≤ 2, 2\n−≤ x\n≤− 2 y\n− y 2 },\nx y\n【详解1】 如图所示, D\n则\n− 2 y y\n−\n∫∫\n∫ 2\n∫\n∫ 2\n∫ 2\n=\n= 2\n−\n− 2\nydxdy\nydy\ndx\nydy\ny 2 y\ny dy\n−\nD\n= − ∫ y 1 (\n− y\n− 1) 2 dy\n−=\nt 则\n令 y 1 sin ,\nπ\n∫\n−\n− 2\n= ∫\n+\ny 1 ( y 1) dy\nt\n2 (1 sin )cos tdt\nπ\n−\nπ\nπ\nπ\n∫\n∫\n=\ncos 2 tdt + 2\ncos 2 t sin tdt =\n.\nπ\nπ\n−\n−\n于是\nπ\n∫∫\nydxdy = 4 −\n.\nD\n【详解2】 区域D 和 D 如图所示,有\n∫∫\n∫∫\n∫∫\nydxdy =\nydxdy , −\nydxdy ,\n+\nD\nD D\nD\n易知\n∫∫\n∫\n∫\nydxdy =\ndx\nydy = 4.\n−\n+\nD D\nπ\n≤ θ\n≤ π\nθ\nD = {( , ) |\nr θ\n,0 ≤ r ≤ 2sin },\n而在极坐标系下,有\n于是\nπ\nθ\nπ\n2sin\n∫∫\n∫\n∫\n= ∫ d\nθ\nθ\n=\nθ θ\nydxdy\nr sin i rdr\nsin 4 d\nπ\nπ\nD\n⎛ 1 cos 2 θ\n⎞\n−\nπ\nπ\n∫\n=\nθ =\nd\n.\n⎜\n⎟\nπ\n⎝\n⎠\n故\nπ\n∫∫\n= −\nydxdy\n.\nD\n= ∫∫\nydxdy\nD\n【详解3】由心形公式 y\nS\nD\n∫∫\nydxdy = y S , 其中y 为D 的心形y 坐标,\ni\n知\nD\nD\ny = 1\n由D 的图形不难看出\n, S 为积分域D 的面积, 该面积应为正方形减去半\nD\nπ\n= −\n圆, S\nD\n则\nπ\n∫∫\n= −\nydxdy\n.\nD",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-s0-choice-q5-o2",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "1999年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q5-o2-r1",
+          "page_id": "d-d90f39a624f2c4085ad1-p9",
+          "bbox": [
+            0.025,
+            0.4735239474310916,
+            0.985,
+            0.9062802241454498
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q5-o2-r2",
+          "page_id": "d-d90f39a624f2c4085ad1-p10",
+          "bbox": [
+            0.025,
+            0.06667787964157142,
+            0.985,
+            0.24828132664430547
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "1999",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "1999 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "五 、(本题满分6 分)\n1x 和 2x 分别为两元素要投入量,Q 为产出量;若生\n设生产某种产品必须投入两种元素,\nQ = 2 x x\nα β ,其中αβ 为正常数,且\nα\n+ β = 1\n产函数为\n。假设两种元素的价格分别为 1p 和 p ,\n试问:当产量为12 时,两元素各投入多少可以使得投入总费用最小.\nα β\n12 = 2x x 的条件下,求总费用\nC = p x + p x 的最小值,\n【详解】 根据题设,在产出量满足\n1 1\n2 2\n为此构造拉格朗日函数\nλ = p x + p x + λ\nα β\nF x x , )\n( ,\n(12 − 2 x x ).\n1 1\n2 2\n∂\n⎧ F\nα\n−\n= p − 2\nλα 1 x β = 0,\nx\n(1)\n⎪∂\nx\n⎪\n⎪ ∂\nF\nα β\n= p − 2\nλβ\n−\nx x 1 ,\n(2)\n令 ⎨∂\n1 2\nx\n⎪\n⎪∂\nF\n= 12\n− 2 x x\nα β\n= 0,\n⎪∂\n(3)\nλ\n⎩\n由第1,2 个方程,得\nβ\np\nx\np α\n2 =\n1 , x =\nx ,\nα\np\nx\np β 2\n1x 代入第3 个方程,得\n将\nα\nβ\n⎛\n⎛\n⎞\nβ ⎞\nα\np\np\nx = 6 ⎜\n, x = 6 ⎜\n.\n⎟\n⎟\nα\nβ\n⎝ p\n⎠\n⎝ p\n⎠\nα\nβ\n⎛\n⎞\n⎛\n⎞\np β\np α\n= 6\n= 6\n因驻点唯一,且实际问题存在最小值,故当 x\n⎜ 1\n⎟ , x\n⎜ 2\n⎟ . 时,投入费\np α\np β ⎠\n⎝\n⎠\n⎝\n用最小.",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-s0-choice-q6-o1",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "1999年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q6-o1-r1",
+          "page_id": "d-d90f39a624f2c4085ad1-p10",
+          "bbox": [
+            0.025,
+            0.24828132664430547,
+            0.985,
+            0.8816465220689207
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q6-o1-r2",
+          "page_id": "d-d90f39a624f2c4085ad1-p11",
+          "bbox": [
+            0.025,
+            0.061071035788348056,
+            0.985,
+            0.15480340547176552
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "1999",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "1999 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "六、(本题满分6 分)\n( )\ny ′− 2 y = φ x , 其中\n设有微分方程\n⎧ 2,\nx < 1,\n( )\nφ x = ⎨\n> 1.\nx\n⎩ 0,\n试求出(\n)\n( ) ,使之在(\n) 和(\n)\n−∞+∞内的连续函数 y = y x\n−∞ ,1\n1,+∞内都满足所给方程,且满\n,\n足条件( )\ny 0 = 0.\nx < , y ′− 2 y = 2,\n【详解】 当\n其通解为\n⎡\n⎤\n∫\n∫\n− 2 dx\n2 dx ∫\n⎡ ∫\n⎤ =\n= e 2 x\n2 x dx + C\ny = e\n2 e\ndx + C\n2 e −\nC e 2 x − 1,\n⎢\n⎥\n⎣\n⎦\n⎣\n1 ⎦\n由( )\nC = 1,\ny 0 = 0. 得\n所以\n(\n)\ny = e 2 x − 1 x < 1 .\nx > 1\ny ′− y = 0, 其通解为\n当\n时,\n∫\n2 dx =\n= C e\n2 x\ny\nC e ,\n由\n(\n)\nlim C e 2 x = lim e 2 x − 1 = e 2 − 1,\nx → +\nx → −\n得\n2 ,\nC e 2 = e 2 −,即 C = −\n1 e−\n(\n)\n(\n)\n2 e 2 x , x > 1 .\ny = 1 − e −\n所以\n于是若补充定义( )\n则得在(\n)\n−∞+∞内的连续函数\ny 1 = e 2 − 1,\n,\n⎧ e 2 x − 1, x ≤ 1,\n⎪\n( )\n= ⎨\ny x\n(\n)\n1 − e 2 e 2 x , x > 1.\n⎪⎩\n满足题中要求的全部条件.",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-s0-choice-q7-o1",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "1999年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q7-o1-r1",
+          "page_id": "d-d90f39a624f2c4085ad1-p11",
+          "bbox": [
+            0.025,
+            0.15480340547176552,
+            0.985,
+            0.582119178608874
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "1999",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "1999 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "七、(本题满分6 分)\nxtf (\n)\n( )\n( )1\n( )\n∫\n∫\n−\n=\n= 1,\n2 x t dt\narctan x 2 . 已知 f\n设函数 f x 连续,且\n求 1 f x dx 的值\n= 2 x\n− t ,\n= 2 x\n− u dt\n= − du ,\n,\n【详解】 作变量代换 u\n则 t\n于是\n(\n)\n)\n( )\n( )\n( )\n∫ x\n∫ x (\n∫ 2 x\n∫ 2 x\ntf 2 x − t dt = −\n2 x − u f u du = 2 x\nf u du −\nuf u du ,\n2 x\nx\nx\n因此原函数变换为\n2 x\n( )\n2 x\n( )\n∫\n− ∫ uf u du\n=\n2 x\nf u du\narctan x 2 ,\nx\nx\n上式两边对x 求导,得\n2 x\n( )\n(\n)\n( )\n(\n)\n( )\n∫\nf u du + 2 x ⎡ 2 f 2 x − f x ⎤ − ⎡ 2 xf 2 x ⋅− xf x ⎤ =\n⎣\n⎦\n⎣\n⎦\n1 + x 4 ,\nx\n即\nx\n2 x\n( )\n( )\n∫\n+ xf x .\nf u du =\n1 + x 4\nx\n( )\n∫ 2 f u du =\n+ =\nx = 1\n,\n令\n得\n3.\n( )\n∫ 2 f x dx =\n于是",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-s0-choice-q8-o1",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "1999年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q8-o1-r1",
+          "page_id": "d-d90f39a624f2c4085ad1-p11",
+          "bbox": [
+            0.025,
+            0.582119178608874,
+            0.985,
+            0.9335352484551291
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q8-o1-r2",
+          "page_id": "d-d90f39a624f2c4085ad1-p12",
+          "bbox": [
+            0.025,
+            0.061762737355719265,
+            0.985,
+            0.12619129732423423
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "1999",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "1999 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "八、 (本题满分7 分)\nf ⎛ ⎞\nf x 在区间[ 0,1 上连续,在(\n( )\n]\n)\n( )\n( )\n= 1.\n0,1 内可导,且 f 0 = f 1 = 0,\n设函数\n⎜ ⎟\n⎝ 2 ⎠\n试证:\n⎛ 1 ,1 ⎞\n( )\nη\n∈⎜\nf η = η\n;\n(1) 存在\n⎟ ,使\n⎝ 2\n⎠\n( )\n( )\n′ ξ − λ\n(2) 对于任意实数λ ,必存在\n(\n)\n⎡ f\nξ − ξ\n⎤ = 1.\nξ ∈ 0,\nη ,使得 f\n⎣\n⎦\n⎡\n⎤\n在闭区间1 ,1\n【详解】 (1) 令( )\n( )\n则( )\nφ x = f x − x ,\nφ x\n上连续,且\n⎢\n⎥\n⎣ 2\n⎦\nφ ⎛ 1 ⎞= 1\n⎛ 1 ,1 ⎞\n( )\n> 0, φ 1 = −<\nη\n∈⎜\n1 0, 故由闭区间上连续函数的介值定理知,存在\n⎜ ⎟\n⎟ 使得\n⎝ 2 ⎠\n⎝ 2\n⎠\n( )\n( )\nφ η = f η −\nη\n= 0,\n即\n( )\nf η = η\n.",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-s0-choice-q2-o2",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "1999年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q2-o2-r1",
+          "page_id": "d-d90f39a624f2c4085ad1-p12",
+          "bbox": [
+            0.025,
+            0.12619129732423423,
+            0.985,
+            0.343782040122569
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "1999",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "1999 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "( )\n( )\n( ) 在[ 0,η 上连续,在(\n]\n)\n= ⎡ f x\n− x e λ\n⎤ − x ,\n0,η\n(2 )设 F x\n则 F x\n内可导,且\n⎣\n⎦\n( )\n( )\n( )\n= 0, F\nη = − λη ⎡ f\nη − ⎤\nη = 0,\nF 0\ne\n⎣\n⎦\nF x 在[\n( )\n]\n( )\n0,η 上满足罗尔定理的条件,故存在\n(\n)\nF ξ = 0,\n′\nξ ∈ 0,\nη ,使得\n即\n{\n}\n( )\n( )\n′\n- x f ξ − λ\n⎡ f ξ − ξ\n⎤ − 1 = 0,\ne λ\n⎣\n⎦\n于是有\n( )\n( )\n′ ξ − λ\n⎡ f\nξ − ξ\n⎤ = 1.\nf\n⎣\n⎦",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-s0-choice-q9-o1",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": "9",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "1999年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q9-o1-r1",
+          "page_id": "d-d90f39a624f2c4085ad1-p12",
+          "bbox": [
+            0.025,
+            0.343782040122569,
+            0.985,
+            0.9047088225810941
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q9-o1-r2",
+          "page_id": "d-d90f39a624f2c4085ad1-p13",
+          "bbox": [
+            0.025,
+            0.06665312488401871,
+            0.985,
+            0.11404331082233057
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "1999",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "1999 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "九、(本题满分9 分)\n−\n⎡ a\nc\n⎤\n⎢\n⎥\n∗\n= ⎢ 5\n= − 1. 又设A  伴随矩阵 A 有特征值 0,\nλ\nλ 的特\nA\nA\nb\n3 , 且\n设矩阵\n属于\n⎥\n⎢\n− a ⎥\n1 − c\n⎣\n⎦\n(\n)\nT\nα\n= −−\nλ 的值.\n1, 1,1\n, 求a\nb\nc\n、、、及\n征向量为\nA α\n∗\n= λ\nα\n【详解】 根据题设\n∗\nα\n= A E =\n− E\n又 AA\n∗\n= A = λ A\nα,\nAA α\n也即\n−\n− ⎤\n− ⎤\n⎡ a\n⎡ 1\nc ⎤⎡ 1\n⎢\n⎥⎢\n⎥\n⎢\n⎥\nλ\n−\nb\n1 = −− 1 ,\n⎢\n⎥⎢\n⎥\n⎢\n⎥\n⎢ −\n⎥\n⎢\n⎥\n− ⎥⎢\n1 c\na ⎦⎣ 1 ⎦\n⎣\n⎣ 1 ⎦\n由此可得\n(\n)\n⎧\nλ −+ +\na 1 c = 1,\n⎪\n(\n)\nλ −−\n5 b + c = 1,\n⎨\n⎪\n(\n)\nλ −+ − a = − 1,\n1 c\n⎩\nλ = 1, b\n= −\n= c\n= −\n= c\n3, a\n. 又由 A\n1 和a\n解此方程组,得\n有\n− 1\na\nc\n= a 3\n− = − 1,\nb\n−\n− a\n1 c\na = c = 2, 因此\na = 2, b = −\n3, c = 2, λ = 1.\n故",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-d90f39a624f2c4085ad1-s0-choice-q10-o1",
+      "document_id": "d-d90f39a624f2c4085ad1",
+      "number": "10",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "1999年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q10-o1-r1",
+          "page_id": "d-d90f39a624f2c4085ad1-p13",
+          "bbox": [
+            0.025,
+            0.11404331082233057,
+            0.985,
+            0.7000910708320962
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q10-o1-r2",
+          "page_id": "d-d90f39a624f2c4085ad1-p14",
+          "bbox": [
+            0.025,
+            0.06225866159180848,
+            0.985,
+            0.9150118759046542
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-d90f39a624f2c4085ad1-s0-choice-q10-o1-r3",
+          "page_id": "d-d90f39a624f2c4085ad1-p15",
+          "bbox": [
+            0.025,
+            0.0647628834921504,
+            0.985,
+            0.3097931018385355
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "1999",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "1999 年全国硕士研究生入学统一考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "十、(本题满分7 分)\nT\n设A 为m × n 实矩阵,E 为n 阶单位矩阵.已知矩阵 B = λ\nE + A A试证:当 λ > 0 时,\n矩阵B 为正定矩阵.\n【详解】 因为\n(\n)\nT\n= λ\nT\nT\nT\nB = λ\nE + A A\nE + A A = B,\n可见B 为n 阶实对称矩阵.\n又对于任意的实n 维向量x ,有\n(\n)\n(\n) (\n)\nT\nλ\nλ T\n+ T T\n= λ T\n+ Ax\nT\nT\nx Bx =\nE + A A x =\nx x\nx A Ax\nx x\nAx ,\n(\n) (\n)\nT\n≠ 0,\n> 0, Ax\n≥ 0.\nT\nAx\n当 x\n有 x x\nλ > 0\n≠ 0,\n因此,当\n时,对任意的 x\n有\n(\n) (\n)\nT\nT\nx Bx = λ T\nx x + Ax\nAx > 0\n即B 维正定矩阵.\n十一、(本题满分9 分)\n{\n}\n假设二维随机变量(\n)\n(\n)\n=\n≤ x\n≤ 2,0\n≤ y\n≤ 1\nX Y 在矩形 G\n,\nx y | 0\n,\n上服从均匀分布.记\n≤ Y ,\n≤ 2 ,\n⎧ 0,\nX\n⎧ 0,\nX\nY\n= ⎨\n= ⎨\nU\nV\n1,\nX > Y ,\n1,\nX > 2 ,\nY\n⎩\n⎩\n(1) 求U 和V 的联合分布;\n(2) 求U 和V 的的相关系数r.\n【详解】 如图所示,因(\n)\nX Y 在矩形区域G 上服从均匀分布,所以\n,\n{\n}\n{\n}\n{\n}\nP X ≤ Y =\n, P X > 2\nY =\n, P Y < X ≤ 2\nY =\n(1)(\nU V 有四个可能取值;(\n)\n) (\n) (\n) (\n)\n,\n0,0 , 0,1 , 1,0 , 1,1 .每一点处取值的概率为:\n{\n}\n{\n}\n{\n}\nP U = 0, V = 0 = P X ≤ Y X ≤ 2\n,\nY = P X ≤ Y =\n;\n{\n}\n{\n}\nP U = 1, V = 1 = P X ≤ Y X > 2\n,\nY = 0;\n{\n}\n{\n}\n{\n}\n= 1, V\n= 0\n= P X\n> Y X\n≤ 2\n= P Y\n< X\n≤ 2\n=\nP U\n,\nY\nY\n;\n⎛ 1\n1 ⎞\n{\n}\n+\n=\nP U = 1, V = 1 = −\n1 ⎜\n.\n⎟\n⎝ 4\n4 ⎠\n(3) 由以上可见,UV 和U、V 的分布为\n⎡ 0\n1 ⎤\n⎡ 0\n1 ⎤\n⎡ 0\n1 ⎤\n⎢\n⎥\n⎢\n⎥\n⎢\n⎥\nUV ~ 1\n1 ; U ~ 1\n3 ; V ~ 1\n1 .\n⎢\n⎥\n⎢\n⎥\n⎢\n⎥\n⎣ 2\n⎣ 4\n⎣ 2\n2 ⎦\n4 ⎦\n2 ⎦\n于是\n( )\n( )\n( )\n( )\n(\n)\nE U =\n, D U =\n; E V =\n, D V =\n, E UV =\n.\n故有\n(\n)\n(\n)\n( )\n( )\n= E UV\n− E U\n⋅ E V\n= .\nCov U V\n,\n(\n)\nCov U V\n,\n=\n=\n因此 r\n( )\n( )\n⋅ D V\n3.\nD U\n十二、(本题满分7 分)\n(\n)\n=\n+ \"\n+ X\nX , X , \" , X 是来自正态总体X 的简单随机样本, Y\nX\n,\n设\n(\n)\n2 Y − Y\n1 9\n∑ (\n(\n)\n) 2\n2 ,证明统计量Z 服从自由度为\nY =\nX + X + X\n, S 2 =\nX − Y\n, Z =\ni\nS\ni = 7\n2 的t 分布.\n(\n)\nX ~ N μ σ\n, 2\n【详解】 设\nσ\nσ\n( )\n(\n)\n( )\n(\n)\n= E Y\n= μ\n=\n=\n, D Y\n, D Y\n.\n则有 E Y\n1Y 和 2Y 相互独立,因此有\n由于\nσ\nσ\nσ\n(\n)\n(\n)\n= 0, D Y − Y\n=\n+\n=\nE Y − Y\n,\n⎛\nσ\n⎞\n− Y\n2 ~ N ⎜ 0, 2 ⎟\n所以 Y\n⎝\n⎠\n− Y\nY\n2 ~\n(\n)\nU = 1\nN 0,1 ,\n从而\nσ\n2 S\n( )\n2 2 .\nV =\n~ χ\n又由正态总体样本的方差的性质,知\nσ\n(\n)\n− Y\n2 Y\nU\n( )\n− Y\n=\n2 = Z ~ t 2 .\n又因为 Y\n与 S 独立,因此\nS\nV",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [],
+  "identity": {
+    "category": "考研数三",
+    "year": "1999",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

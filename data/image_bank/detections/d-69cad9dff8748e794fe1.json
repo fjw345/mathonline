@@ -1,0 +1,990 @@
+{
+  "item": {
+    "id": "d-69cad9dff8748e794fe1",
+    "path": "resource/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2021-2023年考研数学（二）真题+解析/2023考研数学二真题及解析.pdf",
+    "name": "2023考研数学二真题及解析.pdf",
+    "sha256": "f9eb68827b0b32bdff2bd7f4ebc3fc88cdc423c9fb6cda73d85d6f6a055dc88e",
+    "format": "pdf",
+    "bytes": 1616135,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 13,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 6,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 7,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 8,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 9,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 10,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 11,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 12,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 13,
+        "width": 595.0,
+        "height": 841.5,
+        "text_chars": 0,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "f9eb68827b0b32bdff2bd7f4ebc3fc88cdc423c9fb6cda73d85d6f6a055dc88e",
+  "engine_version": 5,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2021-2023年考研数学（二）真题+解析/2023考研数学二真题及解析.pdf",
+  "pdf_sha256": "f9eb68827b0b32bdff2bd7f4ebc3fc88cdc423c9fb6cda73d85d6f6a055dc88e",
+  "pages": [
+    {
+      "id": "d-69cad9dff8748e794fe1-p1",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": 1,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-p2",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": 2,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-p3",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": 3,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-p4",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": 4,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-p5",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": 5,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-p6",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": 6,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-p7",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": 7,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-p8",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": 8,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-p9",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": 9,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-p10",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": 10,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-p11",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": 11,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-p12",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": 12,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-p13",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": 13,
+      "width": 595.0,
+      "height": 841.5,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-69cad9dff8748e794fe1-s0-choice-q3-o1",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": "3",
+      "kind": "choice",
+      "answer": "C",
+      "tags": [
+        "考研数二",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q3-o1-r1",
+          "page_id": "d-69cad9dff8748e794fe1-p1",
+          "bbox": [
+            0.025,
+            0.5168175876411171,
+            0.985,
+            0.9057724301841948
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q3-o1-r2",
+          "page_id": "d-69cad9dff8748e794fe1-p2",
+          "bbox": [
+            0.025,
+            0.028,
+            0.985,
+            0.2122804515745692
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q3-o1-r3",
+          "page_id": "d-69cad9dff8748e794fe1-p2",
+          "bbox": [
+            0.025,
+            0.2042804515745692,
+            0.985,
+            0.49035531788472964
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q3-o1-r4",
+          "page_id": "d-69cad9dff8748e794fe1-p2",
+          "bbox": [
+            0.025,
+            0.48235531788472963,
+            0.985,
+            0.8808169934640523
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q3-o1-r5",
+          "page_id": "d-69cad9dff8748e794fe1-p3",
+          "bbox": [
+            0.025,
+            0.028,
+            0.985,
+            0.2889292929292929
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q3-o1-r6",
+          "page_id": "d-69cad9dff8748e794fe1-p3",
+          "bbox": [
+            0.025,
+            0.2809292929292929,
+            0.985,
+            0.42143077837195486
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "3 工 xz zaCcDe\n工工\n7Y=xY+-. 选 B.\ne\n52) 国数 .oO =]1VL+z2 的一个原轴数为 ( )\n(+Dcosx,x>0\nCA) ro ML+ 了 -中 xYS<0, 人 We -9ji1 xYE0\nCB) Fo -|\n(K+DcosxY 一 sinx,xY>0 (+DcosxY 一 sinx,xY>0\nCC) -| CD) -|\n了 VE + 中 , x<0,\n人 We + xS0\n(K+DsinxY+cosxY,xY>0\n(+DsinxY+cosxY,Y>0\n+Verl+c, YE0\n【解析 】 (oO =\ne+Deosxw=|G+Dasinxr=(r+Dsinxr+eosr+Cy xY>0\nF(O 在 Y=0 处连续 ,Ci = C +1 若 C =0, 则 G =1. 选 D.\n人新文道考研北京新文道教育科技集团\n(3) 已知 { jn 清足下 = 二 sa 号 0=12 ) , 则当 m->w 时 5 )》\nCA) 区是功的高阶无穷小 . (B) 切是 zo 的高阶无穷小 .\n〈《C) 芒与切是等价无穷小 . (CD) 罗与切是同阶但不等价的无穷小 .",
+      "answer_hint": "【答案】 好 .\n【解析 ]\n寿 [0 中 , 2x<sinx\n克\n故 v ai 2\nVs1=Sinyn > 二 3\n丈\n汪 lol\n站 mn\n< 过区 -下了 < <| 工 | 世 =| 开\n<\n了 4 世 4) 间 4\nal 0 Yo\n所以 lm 阵 =0. 故世是 mw 的高阶无穷小 . 选妃 ,\nit\n(4) 若微分方程交 +E+ 有 =0 的解在 (-,+o) 上有界 , 则 ( )\n(A) a<0,.5>0. CB) a>0.D>0. CC) a=0.D>0. (D) a=0.D<0.\n【答案】C .\n【解析 】 二阶常系数齐次线性微分方程 y + wy + 加 =0 特征方程为 : 入 +aa+D=0\n加当 A= 吧一入 >0 时 , 设其两不同特征值为为 ,为 , 则其通解结构为 :Co = Ge + Ce 人\n不管为, 生的正负如何 , 其在 x 人一时 ,J(z) 一 , 其必然为无界酚数 . 舍去 .\n回当 A= 吧一 4=0 时 , 设其两相同特征值为为三为 , 则其通解结构为 ?CO =(G + Cox)es\n不管售 , 思的正负如何 , 其在 Y 一时 ,T(z) 一 2 , 其必然为无界函数 . 舍去 .\n图当 A= 只 -4<0. 时 , 设其两特征值为 4 = x+ 记 , 则其通解结构为\nTCD=es (Gasinpr+Cocosr).\n若 w&z=0, 则 zx 一加时 ,?GD=es(Q sin x+CocosBx)] 为无界函数 , 从而 w=0\n即当 xc=0 时 ,?GCO= Csin pxr+Cocospx 为有界函数 .\n此时 A= 吧 -4505<0, 即 a=0.2>0, 故选 (C) .\n人新文道考研北京新文道教育科技集团\n(5) 设本数 7=.FGoO 由\nxY=2t+|il\nrsinr 确定 , 则 ( )\nCA) Go 连续, 矿 (0) 不存在 .\n(B) (0 存在, 太 Co) 在 x=0 处不连续 .\n〈C) Go 连续 , 太 (0) 不存在 .\n(D) 大 (0 存在, 矿 CoD 在 zx=0 处不连续 .\n【答案】C.\n【解析 】 由参数方程可得\n一 tsin x, Y<0\n加 GD) = 加 CO0=0=700) ,Ano 在 x=0 处连续 .",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-s0-choice-q1-o1",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": "1",
+      "kind": "choice",
+      "answer": "C",
+      "tags": [
+        "考研数二",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q1-o1-r1",
+          "page_id": "d-69cad9dff8748e794fe1-p3",
+          "bbox": [
+            0.025,
+            0.41343077837195485,
+            0.985,
+            0.7500106951871658
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q1-o1-r2",
+          "page_id": "d-69cad9dff8748e794fe1-p3",
+          "bbox": [
+            0.025,
+            0.7420106951871658,
+            0.985,
+            0.8760635769459298
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q1-o1-r3",
+          "page_id": "d-69cad9dff8748e794fe1-p4",
+          "bbox": [
+            0.025,
+            0.028,
+            0.985,
+            0.21465715983363043
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q1-o1-r4",
+          "page_id": "d-69cad9dff8748e794fe1-p4",
+          "bbox": [
+            0.025,
+            0.20665715983363042,
+            0.985,
+            0.9194385026737968
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q1-o1-r5",
+          "page_id": "d-69cad9dff8748e794fe1-p5",
+          "bbox": [
+            0.025,
+            0.0320701128936423,
+            0.985,
+            0.08274985145573381
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q1-o1-r6",
+          "page_id": "d-69cad9dff8748e794fe1-p5",
+          "bbox": [
+            0.025,
+            0.07474985145573382,
+            0.985,
+            0.5771051693404634
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "1 .,xX\n二 Sin 二十二 cos 王 , xY>0\nJCO=13 3 9 3 ,\n一 SinxY 一 YcosXYXY<0\nIm JeD= lim oO=0= KONGCO 在 x=0 处连续 .\n1 .YXY、X\nJrO-inZa=7O- 闸了 55 3-2.\n一 0 并 20 并 9 ”\nmn CD 天 OO) 一 sinx-YcosY\n大 (DO= mn 二 = 二 =-\n加 \"Co)= Tim GD, 1\"Go 在 x=0 处不可导 , 选 C:\n(6) 兰画数 KO= 人 -ads 在 C 四处取得最小信则 m=( )\nnx”\nCA) -1 (B) -hd2)\nndn2)\nCC 工 CD) mm2\nIn2",
+      "answer_hint": "【答案】 4 .\n【解析 】\n要使得 ,Fa) = 三 -ad 收委 w>0.\n7 xdn ze [ 而中 rd 0 人 0 (n2)“ w\n1 | + 1 1 1\n=| 一 -dx= dhnx=d =0- 二 (mn2) = -二\n人 Gy 新文道考研\n北京新文道教育科技集团\n7 -而六更- 面基有 -7 面环忆 ] nn\n, 1 1 nnzl 11 1 1\noa) = 一 -一一 -二 = 一一 :| 二 +lnln2|=0. am = 一 - 选 4\n57) 设函数 ,A(z) =( 空 +ajer, 若 .Gaz) 没有极值点 , 但曲线 = AGe) 有拐点 , 则 4 的取\n值范围是 )\nCC) [L2) CD) [2.+eo) .\nCA) [0.D CB) [L+eo)\n【答案】C.\n【 解术 】\nJo)=2xer 二 (和 +aqjer =(2x+2 +aqjer\nJo 没有极值点 , 则 Go) = 0 无解 , 即 2x+x2 +a= 0 无解 .\nA=4--4a<0,\nQ>1\nJo)=(2+2x)ex +(2x+ 了 +9je =(2+a+4t+ 了 je\n曲线 fCo) 有拐点 , 则 \"Cec) = 0 有解即 2 于 a+4r+x2 =0 有解\nA=16-42+o=8-4a>0a<2\na=1 时 ,JO=(2xr+22+lje=(x+ eaO=(3+4+2je=(xz+l(x+3le,\n<= 二为拐点 , 不是极值点 , 满足题意 ,\na=2 时 ,JGD) =(4+48T]er =(xz+2) ee >05\nx= 过不是拐点 , 不是极值点 , 不满足题意 ,\n所以 ,as[L2) , 选 C.\nCe 六人 8 为 0 本本 En 引\n2 -3 [2 -4\nA. |. B. |.\nO | 引 4 O | 引 4\n| 引全 -人 | 引 4 人一 4 瑟\nC. + | D. + |\nO HB O HB\n【答案也.\n和寺 -1LmR=1l\n【解析 ] | 4 引 4418| 4 才码 |-|84 到 3 | . 选 D\nO 卫 OO BT OO 14|B\n一 4( 盖区广的规范形为\n(59) 二次型 Amp)=(a+z) +(a+35)\nA, 世十芭 .\nB, 基一六 .\nC, 旭十本一 4 防 .\n2 2 2\nD, 益十节一入 .\n新文道考研\n北京新文道教育科技集团\n【答案】 好 .\n【解析 】《〈 法一 )\nJJ)=( 拉 +2 拉 +(x+33)\n一 4(m\n= 了 + 妈 +2x00 二吉二全 +2420 一 4 一 4 十 Sr\n2 2 2\n=2x1 一 372 一 333 + 2r72 二 203 二 8273\n2 1 11x\n=[xao.6l1 -3 4|\n1 4 -|\n2-2 1 1 |pP-2 1 1 2-1 2 1\n1 3- 4|=|1 3 4|=1 1 41=C7-D(2-34+2-9)\n+ 4 -|0 7 7- 让 |o 0 二 -4\n=(C7-DGQ-3)1=0\n=0.4=3 和 =-7\n规范形为 :\n(法二 ) : 2\n(3)=( 国二 +(2+2) 一 4(2\n= 半二芭二 20 圭旭二全 +2420 一 4 一 4 二 Sr\n三 231 一 3 也一 323 士 2072 +2x71003 +8Y22\n2 2\n2 1 1][a\n=[xo:l1 -3 4\n1 4 -|",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-s0-choice-q2-o1",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q2-o1-r1",
+          "page_id": "d-69cad9dff8748e794fe1-p5",
+          "bbox": [
+            0.025,
+            0.5691051693404634,
+            0.985,
+            0.8808169934640523
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q2-o1-r2",
+          "page_id": "d-69cad9dff8748e794fe1-p6",
+          "bbox": [
+            0.025,
+            0.043953654188948296,
+            0.985,
+            0.23129411764705882
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q2-o1-r3",
+          "page_id": "d-69cad9dff8748e794fe1-p6",
+          "bbox": [
+            0.025,
+            0.2232941176470588,
+            0.985,
+            0.29724777183600715
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "2 一人 1 1 2 一人 1 1\n1 -3 一 4 4 |=| 1 一 3 一 4 和\n+1 4 -3-4 0 4+7 一一 4\n2-1 2 1\n=| 1 1-24 4 |=C7-(-34+2-2)\n0 0 二 -让\n=(C7-DGQ-3)1=0\n=0.4=3 和 =-7\n规范性为 : 黄\n1 2 2 1\n(10) 已知向量 m=| 2|,om =|1 1, 局 =|5|, 尼 =| 0|. 若 7 既可由 .oo 线性表示 ,\n3 1 9 1\n也可由局 .应线性表示 , 则 ZY=〈 )\n北京新文道教育科技集团\n3 3\nA. 旭 3 KE 玉 . B. 大 S |,ER 玉 R.\n4 10\n一 1 1\nC. 有 1 |EE 玉 R. D. 大 SEE 尺\n2 8",
+      "answer_hint": "【答案】 忆\n【解析 】 由题意可知 : 设存在常数石 , 访 ,4, 志使得 :",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-s0-choice-q7-o1",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q7-o1-r1",
+          "page_id": "d-69cad9dff8748e794fe1-p6",
+          "bbox": [
+            0.025,
+            0.28924777183600714,
+            0.985,
+            0.3750849673202614
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "7 三有 0 二有 22 二 1 有 +D\n石 +21 三 21 十六 ;\n即而 ax 十后 oo = 在岂 + 访房 , 可得 : 12 有十后三 5 二 0.D;",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-s0-choice-q3-o2",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q3-o2-r1",
+          "page_id": "d-69cad9dff8748e794fe1-p6",
+          "bbox": [
+            0.025,
+            0.3670849673202614,
+            0.985,
+            0.6198859180035651
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q3-o2-r2",
+          "page_id": "d-69cad9dff8748e794fe1-p6",
+          "bbox": [
+            0.025,
+            0.6118859180035651,
+            0.985,
+            0.8427896613190731
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q3-o2-r3",
+          "page_id": "d-69cad9dff8748e794fe1-p7",
+          "bbox": [
+            0.025,
+            0.028,
+            0.985,
+            0.19980273321449793
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "3 二有 =96+D;\n解得 : 石 =-3 护 .\n一 1 1\n即包三太 o 十态 os = 二 3 乒 o 二及 os = 有 |-5 = 有 SEER, 选 (人 D) .\n一 8 8\n选刀 .\n、 填空题 : 11~16 小题 , 每小题 $ 分 , 共 30 分 .请将答案写在答题纸指定位置上 .\n(11) 当 x -0 时 , 函数 j(z)=ac+px +mn(I+z) 与 8(z)=e -cosx 是等价无穷小 ,\n则 ap =",
+      "answer_hint": "【答案】 忆 = 一 2.\n【解析 】\nar+p2 nd Crx+ 2 +XY 开工 G 工作 +oG4)\n加于 = 加 4\nes 1+2+dL(c9]- 1 并 + 工 o4| + ocx9\n> 一 5 2\n2 2 4!\nCrDxet|o-3 +ofz )\n1 1 2\nL 2\n-lm 、-\n32+ofe)\n了 1\na+1=0 a= -1LD- 工 -3 D= 2,\n2 2\n《Gy 新文道考研北京新文道教育科技集团\n612) 沿线 = 人 53 一 Pd 的弧长为 .\n[答案】 亿 +\n【解析 】 7 =vV3-2 .<xr<A",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-s0-choice-q5-o1",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q5-o1-r1",
+          "page_id": "d-69cad9dff8748e794fe1-p7",
+          "bbox": [
+            0.025,
+            0.19180273321449792,
+            0.985,
+            0.40954723707664886
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q5-o1-r2",
+          "page_id": "d-69cad9dff8748e794fe1-p7",
+          "bbox": [
+            0.025,
+            0.40154723707664886,
+            0.985,
+            0.6828686868686868
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q5-o1-r3",
+          "page_id": "d-69cad9dff8748e794fe1-p7",
+          "bbox": [
+            0.025,
+            0.6748686868686868,
+            0.985,
+            0.8843820558526441
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q5-o1-r4",
+          "page_id": "d-69cad9dff8748e794fe1-p8",
+          "bbox": [
+            0.025,
+            0.028,
+            0.985,
+            0.0922566844919786
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q5-o1-r5",
+          "page_id": "d-69cad9dff8748e794fe1-p8",
+          "bbox": [
+            0.025,
+            0.08425668449197861,
+            0.985,
+            0.4166773618538324
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q5-o1-r6",
+          "page_id": "d-69cad9dff8748e794fe1-p8",
+          "bbox": [
+            0.025,
+            0.4086773618538324,
+            0.985,
+            0.48144266191325014
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "text_hint": "5 六 Joe- 六 JS 二\n令 Y=2sinz2\nS= 2 2cos2 .ad2sinu= 间 cos2ad\n-| =8| 工 . 邢 + 工 .3 = 色 3\n0 2 4 四 3 4 2\n_ _ . B\n(13) 设函数 ==:(x?7) 由 er Ac =2x=7 确定, 则六 2 六\n人",
+      "answer_hint": "【答案】 -\n【解析 ]\n=(D=0\n] _ 了 -204+D=_ 3\n4 2\nGD\n《14) 曲线 3z = 5 +2] 归在 Y=1 对应点处的法线斜率为\n【答案】 -本\n【解析 ]\n9 =354 .+627 一 7Y=1 将 =]1 代入 3=+273, 得 =\n9=51Y +67,1\n1 11\n大 =- 二 = 一一\n(15) 设迄续数 ./(z) 满足 : .J(z+2)-J(z)=xr, | 7(zjdc=0, 则 | 7(zjde=\n人新文道考研北京新文道教育科技集团\n【答案】\n【 解术 】\n3 2 3 2 1\n上 JoOd = 上 Code+ God = 上 JoOae+ 上 Je+2d\n= 「 Code+ fr + = COae+ [ Joar+ 和\n2 1 1 1\n= 上 TDde+ ra-0+5-\na0+2 三]\n0 1\n_ 习 +Tao+x=0 本四\n《16) 已知线性方程组有解 , 其中 0.0 为常数 。 若 1 Q 也 =4, 则\n+22 + =0,\n1 2 ad|\nCU+TD =2\n1 a 1\n1 2 ql=\napD 0\n【答案】 8 .\n【解析 ]\nCar +33 =|",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-s0-choice-q3-o3",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-choice-q3-o3-r1",
+          "page_id": "d-69cad9dff8748e794fe1-p8",
+          "bbox": [
+            0.025,
+            0.47344266191325013,
+            0.985,
+            0.7410980392156863
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "3 人 +ao + =0,、\n四方程组有解\n嫉 +2r +ax3 三 0\ncr +pra =2\n7(4)=7(4.D<3< 二 | 剑 DI=0\naa01l1\n1 a 1 aa 0 1 1 6 1\n1a10 4 4\n145r| > dl=LCDR 2 qq+22CD = 2 qq+2x4=0,\na5 0 12d oo\nap0 3\n1 a 1\n所以上 2 吉 =s8.\na D 0",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-s0-solution-q1-o1",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-solution-q1-o1-r1",
+          "page_id": "d-69cad9dff8748e794fe1-p10",
+          "bbox": [
+            0.025,
+            0.47879025549613785,
+            0.985,
+            0.9117142008318478
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-solution-q1-o1-r2",
+          "page_id": "d-69cad9dff8748e794fe1-p11",
+          "bbox": [
+            0.025,
+            0.028,
+            0.985,
+            0.18375995246583482
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "1 := VE 1 《一 | 站\nS = 人 = 必 ==T =lnC2+D,\n上 XV1+ MI+ je 全这 2 .Li+1l5\n〈I) 旋转体体积\nma ES 下局下和 3\n1 -| 1 1 区\n天 = 人灾 = 一 ce= 和 1- 二 |.\n〈20) 《本题满分 12 分 )\n设平面有界区域万位于第一象限 , 由曲线阅二妇一区 =1, 了 2 十了妇一区三 2 与直线\nyy=ASx,y=0 国成计算用 aa 挛 kedy\n四 ) 一加 、| 各 drdy\n【解析 】 本题目采用极坐标进行计算\nER\n-aehyEaess 1 10O= ef 导本 ET 1 1zg\n大 (3cos 6+sin2g) 9) (3cos26+sim 9) 记\nsa6cos5 拒 Eee 6\n《Gy 新文道考研北京新文道教育科技集团\n= 上 _ 1 .mL-sinecose 46- 记 _ 1 加\n-mvV2cde\n0 (3ecos OH+Sin 9) 1 0 (3ecos OH+Sin” 9)\n1-singcosO",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-s0-solution-q1-o2",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-solution-q1-o2-r1",
+          "page_id": "d-69cad9dff8748e794fe1-p11",
+          "bbox": [
+            0.025,
+            0.1757599524658348,
+            0.985,
+            0.7203018419489008
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "1 了 1\n1 3 1\n42-52 上 Ga。\n1in2. 1 arctantan6\n=-Z ln2.\n2 3\n名 8V3\n《21) 《本题满分 12 分 )\n设函数 ,fo 在 [-a.q] 上具有 2 阶连续导数 。 证明 :\n《CD 着 7O=0, 则存在 se( 人本, 使得六加 = 方 [MO+7Ca];\n7O-ACa.\n(2) 若 .Fo 在 (- 民加内取得极值 , 则存在 7e(-wa ,使得 | 产 (7| 5\n人\n【解析 】《〈 工 ) 证明 : 由泰勒中值定理\nJa=7OHAORTOa -Ar 二赔 。, 力介于 0 与 < 之间 , 则\n/=7(aeua , 0< 太 <a0\n7JCaj-7OCa+ 加六 <0\nOH+@ 得 ; Ai7Ca=SIPUJS7FOTS\n又 jj\"(x) 在 [7, 岂 ] 上连续 , 则必有最大值 W 与最小值疡 , 即",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-s0-solution-q7-o1",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-solution-q7-o1-r1",
+          "page_id": "d-69cad9dff8748e794fe1-p11",
+          "bbox": [
+            0.025,
+            0.7123018419489008,
+            0.985,
+            0.9170617944147356
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-solution-q7-o1-r2",
+          "page_id": "d-69cad9dff8748e794fe1-p12",
+          "bbox": [
+            0.025,
+            0.028,
+            0.985,
+            0.6662317290552585
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "7 三万 ( 力 )<ME (六 )<M 内而让 <CN)+ 让 ) < AM,\n由介值定理得 , 存在二 < [及 :四 ]c(-awa), 和 -7 代入轩得 ;\nja)+A-q)\nJo)+7CO=aA 5 万司 =\nGT\n(IT) 证明 : 设 ./(z) 在 x=me(-aa) 取极值且 . 帮 xz) 在 x=xo 可导 , 则万 (m)=0.\n人新文道考研北京新文道教育科技集团\n万 (1 zx =jx 万罗 e-a 六 7\n又 JJ= Ja)+ 太 (oo)(x 一 oo)+\n与 x 之间 , 则 J(-a)= Ai -a< 和 <0\n和 0 ,0< 力 <a\n人 Ma-7Ca-ie-s77OoO-3esa7O\n1 2 ev\n+koraP7O\nsjlc-a) 六 (5\n又 |7\"(z]| 连续 , 设 M= mas{| 普护 )\n国风\n“05)\nCO-ACalsJM(G+G Mo-a 入 <MX( + 如 )\n又 mm El(-aa) , 则 |/O) -=-o ) < 2M(c +2oJ<2Mn , 则 M> 二 |7(a) -7(-a)\n即存在刀 = 为或 7 三为 E(-@a), 有\nIOoie 志 ImoO-yCo\n《22) 〈 本题满分 12 分 )\n-- 阅二二 3\n设和矩阵 4 满足 :对任意罗 ,mxz3 , 均有 4 xz |=| 20 一 m+",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-69cad9dff8748e794fe1-s0-solution-q3-o1",
+      "document_id": "d-69cad9dff8748e794fe1",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-solution-q3-o1-r1",
+          "page_id": "d-69cad9dff8748e794fe1-p12",
+          "bbox": [
+            0.025,
+            0.6582317290552585,
+            0.985,
+            0.9022073677956031
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-69cad9dff8748e794fe1-s0-solution-q3-o1-r2",
+          "page_id": "d-69cad9dff8748e794fe1-p13",
+          "bbox": [
+            0.025,
+            0.028,
+            0.985,
+            0.6681016042780749
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2023 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "3 一司\n(1) 求 4.\n《2) 求可逆矩阵书与对角和矩阵 4 , 使得 P-L4P = 人.\n【解析 ]\n恒关十冯十区 1 1 1106\n(CT) 因为妇 z |=| 2 一 2+3B =|2 -1 1 | 对任意的 xm 均成立 ,\n总 2 一避 0 1 -1 八\n1 1 1\n所以 4=|2 -1 1\n0 1 =\n《Gy 新文道考研北京新文道教育科技集团\nM-1 -1 -1- 0- 0\nGD ME-4d=|-2 al -=|2 242 2-4= 2 14 0\n0 -ao -2+410 -2+\n=C+M( 和到 -24-2)=CQ+204-2(0-D=0\n所以了的特征值为凡 = -2 , 罗 =2, 见 = -1.\n-有 -1 -| 1 0 0\nM] = 时,4F-4=|-2 -1 -一 0 1 1|,\n0 -=-1 =- 0 0 0\n得特征向量的基础解系为 m = (0,-LI) ,\n1 =-!1 一 ! 1 0 二\n用 =2 时 ,H4FE-4=|-22 3 = 一 0 1 -|,\n0 -1 3 0 0 0\n得特征向量的基础解系为 ws <(4.3,.1] ,\n2 020 1105\n4-=-IN, NE-4=| -2 0 ->|o10l>o1o0l\n0 -0 looolloeooo\n得特征向量的基础解系为中 =(10,-2) ,\n0 4 1 -2 0 0\n令 P=(a,o,o)=|-1 3 0|, 则 Pi4P=l 0 2 0|.\n1 1 -2 0 0 -=-!",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [
+    {
+      "type": "no_question_anchor",
+      "page": 9,
+      "lane": 0,
+      "details": "本页未定位题号，保留原页待核对；可能为封面、答案表或延续页。"
+    }
+  ],
+  "identity": {
+    "category": "考研数二",
+    "year": "2023",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

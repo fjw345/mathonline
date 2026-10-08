@@ -1,0 +1,1074 @@
+{
+  "item": {
+    "id": "d-029c41510541dd1cca3d",
+    "path": "resource/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2026考研数学真题及答案（数三）/26数三真题.pdf",
+    "name": "26数三真题.pdf",
+    "sha256": "c859f8a9adc5ea454fdd14627ef2aecb4715bd0e0ef9626d2bd72a75d31ffb86",
+    "format": "pdf",
+    "bytes": 1299461,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 5,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 595.2999877929688,
+        "height": 841.9000244140625,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 595.2999877929688,
+        "height": 841.9000244140625,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 595.2999877929688,
+        "height": 841.9000244140625,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 595.2999877929688,
+        "height": 841.9000244140625,
+        "text_chars": 0,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 595.2999877929688,
+        "height": 841.9000244140625,
+        "text_chars": 0,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "c859f8a9adc5ea454fdd14627ef2aecb4715bd0e0ef9626d2bd72a75d31ffb86",
+  "engine_version": 5,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2026考研数学真题及答案（数三）/26数三真题.pdf",
+  "pdf_sha256": "c859f8a9adc5ea454fdd14627ef2aecb4715bd0e0ef9626d2bd72a75d31ffb86",
+  "pages": [
+    {
+      "id": "d-029c41510541dd1cca3d-p1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": 1,
+      "width": 595.2999877929688,
+      "height": 841.9000244140625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-p2",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": 2,
+      "width": 595.2999877929688,
+      "height": 841.9000244140625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-p3",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": 3,
+      "width": 595.2999877929688,
+      "height": 841.9000244140625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-p4",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": 4,
+      "width": 595.2999877929688,
+      "height": 841.9000244140625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-p5",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": 5,
+      "width": 595.2999877929688,
+      "height": 841.9000244140625,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-029c41510541dd1cca3d-s0-choice-q1-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-choice-q1-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p2",
+          "bbox": [
+            0.025,
+            0.12220427553444181,
+            0.985,
+            0.19968171021377673
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "1. 曲线了 = xex( )\n(A) 无水平渐近线 , 无铅直渐近线 ”(B) 有水平渐近线 , 有铅直渐近线\n(C) 无水平渐近线 , 有铅直渐近线 ” (D) 有水平渐近线 , 无铅直渐近线",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-s0-choice-q2-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-choice-q2-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p2",
+          "bbox": [
+            0.025,
+            0.19168171021377672,
+            0.985,
+            0.35229453681710216
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "2 设函数 == =(% 了 ) 由方程 Y 一 dc =e\"c (4 是非零常数 ) 确定 , 则 ( )\noz 6 _ 1 6 6 1\n(A) 二 -二 = 一 (B) 二 + 二一\ncx 6 4a exr 0 aa\n6 6 1 6 6\n(C) 二 -二 = 一一 (D) 二 + 一 = 一一\nex 0 Q er 0 Q",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-s0-choice-q3-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-choice-q3-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p2",
+          "bbox": [
+            0.025,
+            0.34429453681710215,
+            0.985,
+            0.4769976247030879
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "3 己知画数太 (x] = | 二和 dy 的反画数 & , 则 ( )\ngs(D)=1s(O)=3e (B) s(D)=1s(0)- 过\n(O) sO=1s()=3e (D) sO=1g() = 过",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-s0-choice-q4-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-choice-q4-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p2",
+          "bbox": [
+            0.025,
+            0.46899762470308787,
+            0.985,
+            0.6907743467933491
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "4. 设 7 时刻某证券的交易单价为已 (t) , 某机构持有该证券的份额为 9(1) , 若该机构在 [0.7] 持续购\n入一定份额该证券 , 则这些证券的平均购入价格为 (  )\n] 人 7 1 T\n(A) 本 P(Id (B) OOE70 P(I)d\nA) 二 B) 一一一一一 DJdt\n1 17 1 了\n站 2Oq( 7PON2O7O0\n(C) 二 | P(0D)9(0adt (D) 一一一一 | pz(0)9(0)d\n1 0 1 2 0\n、 0 0 1 1 1|",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-s0-choice-q5-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-choice-q5-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p2",
+          "bbox": [
+            0.025,
+            0.6827743467933491,
+            0.985,
+            0.7940997624703088
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "5. 设矩阵 4= 113|, C= 1 1 若存在矩阵及满足 4B=C, 则 (  )\n1 1 1 Qa 0\n(A) a=-1,0=-1 (B) ga=2,D=2\n(C) a=-1,0=2 (D) Q=2,0=-1",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-s0-choice-q6-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-choice-q6-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p2",
+          "bbox": [
+            0.025,
+            0.7860997624703088,
+            0.985,
+            0.8927672209026128
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-029c41510541dd1cca3d-s0-choice-q6-o1-r2",
+          "page_id": "d-029c41510541dd1cca3d-p3",
+          "bbox": [
+            0.025,
+            0.06766745843230404,
+            0.985,
+            0.1640522565320665
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "6. 设 4 为 3 阶非零矩阵 , 尹为 4 的伴随矩阵 。 若人 =-24, 则人 =( )\n-4 0 0 -4 0 0\n(Al 0 4 0 (B)|0 -4 0\n0 0 二 0 0 4\n-4 0 0 4 0 0\n(10 4 0 (D) 10 4 0\n0 0 4 0 0 4",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-s0-choice-q7-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-choice-q7-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p3",
+          "bbox": [
+            0.025,
+            0.1560522565320665,
+            0.985,
+            0.27034679334916867
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "7. 设 3 阶和矩阵 4、 刀满足 4B+B4= 42+B2, 且了尖刀 , 则下列错误的是 (  )\n(A)(4-B)3=0 (B)4- 忆只有零特征值\n(C)4 、 刀不能都是对角矩阵 (D)4- 中只有一个线性无关的特征向量\n>0",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-s0-choice-q8-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-choice-q8-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p3",
+          "bbox": [
+            0.025,
+            0.26234679334916866,
+            0.985,
+            0.44077434679334915
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "8. 设随机变量 X 和了独立同分布 , 盛概率密度为 (xz) = 1 (1+ zx) 7\n0, X<0\n则 P{X7<l=( )\n3 1\nA) 一 B) 二\n(人 ) 了\n(OO 工 CD) 工\n3 6",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-s0-choice-q9-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "9",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-choice-q9-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p3",
+          "bbox": [
+            0.025,
+            0.43277434679334914,
+            0.985,
+            0.6195154394299287
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "9 设随机变量 X~ N(0.D) , 了 Wi 灾 @Y~ 中 [2 且矶与了独立 , 则 X7 与闷 + 了的相关系数\n为 ( )\n避刀\nA) 一 B) 一\n人 9) ->\n2 1\nC) 二 D) 二\n(9 5 D) 7",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-s0-choice-q10-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "10",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-choice-q10-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p3",
+          "bbox": [
+            0.025,
+            0.6115154394299287,
+            0.985,
+            0.8594204275534442
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "choice",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "10 设随机变量的概率分布为 P{X= 如 = 了 + 二 CE=12.), 则对于正整数妈 , 尹 , 有\n四 ]\n( )\n(A) P{X>m+HalX>m =P{X>O\n{ {\n(B) P{X>m+nalx> 中 =PE> 要\n(CO) P{XE>m+HlX> 叶 >PIE> 呈\n(D) P{X>m+alX>m>P{X> 志\n{",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-s0-blank-q11-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-blank-q11-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p4",
+          "bbox": [
+            0.025,
+            0.07885510688836105,
+            0.985,
+            0.13911163895486936
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "1 1\n11. xza-De-aw=\n, 工 1 和 1",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-s0-blank-q12-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-blank-q12-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p4",
+          "bbox": [
+            0.025,
+            0.13111163895486935,
+            0.985,
+            0.18424228028503561
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "12. lim -一一 )=\n2 Sinx tanx",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-s0-blank-q13-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-blank-q13-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p4",
+          "bbox": [
+            0.025,
+            0.1762422802850356,
+            0.985,
+            0.23293586698337293
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "13. 设六为常数 , 若反常积分 | ET 则疡的取值范围是",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-s0-blank-q14-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-blank-q14-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p4",
+          "bbox": [
+            0.025,
+            0.22493586698337292,
+            0.985,
+            0.36892161520190025
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "14 微分方程 J\" 一 2 = e* 满足条件 y(0) = 1\"(0) = 1 的解为 ?=\n这生计 ( 3 -3a\n] , 若二次型 x (447 ) x 的规范型为了 ,\n1 2 -=-!\n15. 4=\n则 a+z=",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-s0-blank-q16-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "16",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-blank-q16-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p4",
+          "bbox": [
+            0.025,
+            0.36092161520190025,
+            0.985,
+            0.47046555819477437
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "16. 设随机变量 X 服从参数为 1 的泊松分布 , 随机变量了服从参数为 3 的泊松分布 .不与了一站相互\n独立 , 则 ECX7) =",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-s0-solution-q17-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-solution-q17-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p4",
+          "bbox": [
+            0.025,
+            0.49928266033254154,
+            0.985,
+            0.582104513064133
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "17. (本题满分 10 分 )\n已知函数 A(x) 满足 (zx)=\n(人",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-s0-solution-q18-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-solution-q18-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p4",
+          "bbox": [
+            0.025,
+            0.574104513064133,
+            0.985,
+            0.6551448931116389
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "18. (本题满分 12 分 )\n已知函数 8 (x) 连续 , 设 /(x) = 六 s (xD)df , 求 .万 (x) 的表达式 , 并判断 .万 (x) 在 x=0 处\n的连续性",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-s0-solution-q19-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-solution-q19-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p4",
+          "bbox": [
+            0.025,
+            0.6471448931116389,
+            0.985,
+            0.7109643705463183
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "19. (本题满分 12 分 )\n求 J(x,y) =(2x2 一 72)er 的极值 .",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-s0-solution-q20-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-solution-q20-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p4",
+          "bbox": [
+            0.025,
+            0.7029643705463183,
+            0.985,
+            0.7851923990498813
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "20. (本题满分 12 分 )\n设平面区域站 = {Co yl0<x<10<y<1}, 计算二重积分 | 一一一 cd\n2 0+ 了 2 十 J)",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-s0-solution-q21-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-solution-q21-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p4",
+          "bbox": [
+            0.025,
+            0.7771923990498812,
+            0.985,
+            0.8755463182897862
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "d-029c41510541dd1cca3d-s0-solution-q21-o1-r2",
+          "page_id": "d-029c41510541dd1cca3d-p5",
+          "bbox": [
+            0.025,
+            0.07301187648456058,
+            0.985,
+            0.19255581947743466
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "21. (本题满分 12 分 )\n已知向量组 w =| 1 |, =| 0 赴国 =| | ws=| | 记 4=(wvooscy,\nG=(w:o).\n(D 证明 :wm,a: 是 ma:0s,Qs 的极大线性无关组 .\n(2) 求矩阵妃使得 4= GH, 并求 4 .",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-029c41510541dd1cca3d-s0-solution-q22-o1",
+      "document_id": "d-029c41510541dd1cca3d",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数三",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-029c41510541dd1cca3d-s0-solution-q22-o1-r1",
+          "page_id": "d-029c41510541dd1cca3d-p5",
+          "bbox": [
+            0.025,
+            0.18455581947743466,
+            0.985,
+            0.41533254156769595
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "考研数三",
+        "year": "2026",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2026 年全国硕士研究生招生考试"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "22. (本题满分 12 分 )\n假设某种元件的寿命服从指数分布 , 其均值是未知参数 .为估计避 , 取 , 个这种元件同时做寿\n命试验 , 试验到出现上 (1< 大 <7 ) 个元件失效时停止.\n(D 若大 = 1 ,失效元件的寿命记为了 , (iD 求了的概率密度 ; (ii) 记 6 = a7 ,确定 q ,使忆 (6)=0,\n并求 D 人 6).\n(2) 已知丰个失效元件的寿命值分别为上访 ;...: 丰 , 且在和志和 ... 和友 , 似然函数为\nZL(O)= 了让 , 求 0 的最大似然估计值\nero]\n1 [<",
+      "answer_hint": "",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [
+    {
+      "type": "no_question_anchor",
+      "page": 1,
+      "lane": 0,
+      "details": "本页未定位题号，保留原页待核对；可能为封面、答案表或延续页。"
+    }
+  ],
+  "identity": {
+    "category": "考研数三",
+    "year": "2026",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

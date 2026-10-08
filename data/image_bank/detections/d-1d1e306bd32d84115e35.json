@@ -1,0 +1,1170 @@
+{
+  "item": {
+    "id": "d-1d1e306bd32d84115e35",
+    "path": "resource/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2017-2020年考研数学二真题及解析/2019考研数学二答案真题解析.pdf",
+    "name": "2019考研数学二答案真题解析.pdf",
+    "sha256": "981200e9a1b2d311852c69757ca42b522eb99de78958b44139d7868507a33cd0",
+    "format": "pdf",
+    "bytes": 301521,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 9,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 595.219970703125,
+        "height": 779.6378173828125,
+        "text_chars": 1264,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 595.219970703125,
+        "height": 779.6378173828125,
+        "text_chars": 1437,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 595.219970703125,
+        "height": 779.6378173828125,
+        "text_chars": 1333,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 595.219970703125,
+        "height": 779.6378173828125,
+        "text_chars": 1368,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 595.219970703125,
+        "height": 779.6378173828125,
+        "text_chars": 1340,
+        "renderable": true
+      },
+      {
+        "number": 6,
+        "width": 595.219970703125,
+        "height": 779.6378173828125,
+        "text_chars": 1645,
+        "renderable": true
+      },
+      {
+        "number": 7,
+        "width": 595.219970703125,
+        "height": 779.6378173828125,
+        "text_chars": 1619,
+        "renderable": true
+      },
+      {
+        "number": 8,
+        "width": 595.219970703125,
+        "height": 779.6378173828125,
+        "text_chars": 1580,
+        "renderable": true
+      },
+      {
+        "number": 9,
+        "width": 595.219970703125,
+        "height": 779.6378173828125,
+        "text_chars": 726,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "981200e9a1b2d311852c69757ca42b522eb99de78958b44139d7868507a33cd0",
+  "engine_version": 5,
+  "status": "detected",
+  "pdf_path": "resource/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2017-2020年考研数学二真题及解析/2019考研数学二答案真题解析.pdf",
+  "pdf_sha256": "981200e9a1b2d311852c69757ca42b522eb99de78958b44139d7868507a33cd0",
+  "pages": [
+    {
+      "id": "d-1d1e306bd32d84115e35-p1",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": 1,
+      "width": 595.219970703125,
+      "height": 779.6378173828125,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-p2",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": 2,
+      "width": 595.219970703125,
+      "height": 779.6378173828125,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-p3",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": 3,
+      "width": 595.219970703125,
+      "height": 779.6378173828125,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-p4",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": 4,
+      "width": 595.219970703125,
+      "height": 779.6378173828125,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-p5",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": 5,
+      "width": 595.219970703125,
+      "height": 779.6378173828125,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-p6",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": 6,
+      "width": 595.219970703125,
+      "height": 779.6378173828125,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-p7",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": 7,
+      "width": 595.219970703125,
+      "height": 779.6378173828125,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-p8",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": 8,
+      "width": 595.219970703125,
+      "height": 779.6378173828125,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-p9",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": 9,
+      "width": 595.219970703125,
+      "height": 779.6378173828125,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-1d1e306bd32d84115e35-s0-blank-q9-o1",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-blank-q9-o1-r1",
+          "page_id": "d-1d1e306bd32d84115e35-p3",
+          "bbox": [
+            0.025,
+            0.6561946635815502,
+            0.985,
+            0.697983452415007
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-blank-q9-o1-r2",
+          "page_id": "d-1d1e306bd32d84115e35-p3",
+          "bbox": [
+            0.025,
+            0.689983452415007,
+            0.985,
+            0.7361551921285064
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-blank-q9-o1-r3",
+          "page_id": "d-1d1e306bd32d84115e35-p3",
+          "bbox": [
+            0.025,
+            0.7281551921285064,
+            0.985,
+            0.780249152900368
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(二)试题解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "9. lim( x  2 )\n\n.\nx x\nx  0\n4e\n【答案】\nlim ( x  2 x \n1) \n【解析】 lim( x 2 )\n x x\n e\n 2 2ln 2  4\n\ne\ne\nx\nx  0\nx  0\n x \nt sin t\n对应点处切线在y 轴的截距为",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-s0-blank-q10-o1",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": "10",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-blank-q10-o1-r1",
+          "page_id": "d-1d1e306bd32d84115e35-p3",
+          "bbox": [
+            0.025,
+            0.772249152900368,
+            0.985,
+            0.8182243933692543
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-blank-q10-o1-r2",
+          "page_id": "d-1d1e306bd32d84115e35-p3",
+          "bbox": [
+            0.025,
+            0.8102243933692543,
+            0.985,
+            0.8735266397392244
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-blank-q10-o1-r3",
+          "page_id": "d-1d1e306bd32d84115e35-p3",
+          "bbox": [
+            0.025,
+            0.8655266397392244,
+            0.985,
+            0.9432824838694475
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-blank-q10-o1-r4",
+          "page_id": "d-1d1e306bd32d84115e35-p4",
+          "bbox": [
+            0.025,
+            0.07111696026472128,
+            0.985,
+            0.10016353520460111
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(二)试题解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "对应点处切线在y 轴的截距为\n10.曲线 \n.\n在 t  \n cos t\n y 1\n【答案】3\n2 2\ndy\ndy dt\n/\nsin t\n\n\n\n 1\n\n\n 1\n+1, y , y\n【解析】当 t   时, x  \n\ndx\ndx dt\n/\n1 cos t  \nt\n 1) ,即 y  \n 2 ,令 x  0 , y  \n 2\n故切线方程为 y  1( x  \nx\n\n\nz\nz\ny 2\n y\n",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-s0-blank-q11-o1",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-blank-q11-o1-r1",
+          "page_id": "d-1d1e306bd32d84115e35-p4",
+          "bbox": [
+            0.025,
+            0.09216353520460112,
+            0.985,
+            0.14734333655404205
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-blank-q11-o1-r2",
+          "page_id": "d-1d1e306bd32d84115e35-p4",
+          "bbox": [
+            0.025,
+            0.13934333655404205,
+            0.985,
+            0.19413427881567477
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-blank-q11-o1-r3",
+          "page_id": "d-1d1e306bd32d84115e35-p4",
+          "bbox": [
+            0.025,
+            0.18613427881567476,
+            0.985,
+            0.2903287029969501
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(二)试题解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": " y\n\n( )\n11.设函数 f u 可导, z  yf (\n.\n) ,则2 x\n\n\nx\ny\nx\ny 2\n【答案】 yf (\n)\nx\n\n\nz\ny\ny\n2 y\ny\n2 y\ny\nz\ny 2\ny 2\ny 3\ny 2\n f (\n\n f (\n\n f (\n f (\n yf \n)  yf (\n) \n) \nf (\n)\n【解析】\n(\n)( \n) \nf \n(\n) ,\n y\n\nx\nx\nx\nx\nx\nx\nx\nx\nx 2\nx 2\nx\n\n\n y 3\n\nz\nz\ny 2 \ny 2\n2 y 2\ny 2 \ny 2\n\n\n y\n 2 x\n\n\n\n yf (\nf (\n)  y f\n)\nf (\n) \n)\n则 2 x\n\n (\n\n\nx\ny\nx \nx\nx\nx \nx\n x\n\n",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-s0-blank-q12-o1",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-blank-q12-o1-r1",
+          "page_id": "d-1d1e306bd32d84115e35-p4",
+          "bbox": [
+            0.025,
+            0.2823287029969501,
+            0.985,
+            0.3263002383199205
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-blank-q12-o1-r2",
+          "page_id": "d-1d1e306bd32d84115e35-p4",
+          "bbox": [
+            0.025,
+            0.3183002383199205,
+            0.985,
+            0.38183691376877255
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-blank-q12-o1-r3",
+          "page_id": "d-1d1e306bd32d84115e35-p4",
+          "bbox": [
+            0.025,
+            0.37383691376877254,
+            0.985,
+            0.4296242774738433
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(二)试题解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "12.设函数 y  ln cos x (0  x \n) 的弧长为\n.\n【答案】ln3\n\n\n\n\nln3\n\n\n\n 2\n\n\ns  6\n1  y dx  6\n1  tan 2 xdx  6\nsec xdx  ln sec x  tan x 6\n【解析】\nsin t 2\n 1 f x dx \n x",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-s0-blank-q13-o1",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-blank-q13-o1-r1",
+          "page_id": "d-1d1e306bd32d84115e35-p4",
+          "bbox": [
+            0.025,
+            0.4216242774738433,
+            0.985,
+            0.46651916353011597
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-blank-q13-o1-r2",
+          "page_id": "d-1d1e306bd32d84115e35-p4",
+          "bbox": [
+            0.025,
+            0.45851916353011596,
+            0.985,
+            0.5195161841005337
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-blank-q13-o1-r3",
+          "page_id": "d-1d1e306bd32d84115e35-p4",
+          "bbox": [
+            0.025,
+            0.5115161841005337,
+            0.985,
+            0.6375672153457925
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(二)试题解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": " x\n( )\n13.已知函数 f x\n( )\nx\ndt ,则\n.\nt\n\n【答案】cos1 1\nsin t\n x\n\n\n\n 2\n\n\n2 ( ) 1 \n( )\ndt ,故有\nf x dx  xF x dx \n( )\n( )\nF x dx\n( ) 2  x F x\nx F x dx\n( )\n【解析】设 F x\nt\n2 0\n2 0\n\nsin x 2\ncos1 1\n  2\n  x sin x dx\n cos x\n2 1 \nx\ndx\n2 0\nx\n2 0\n\n 1\n0 \n\n\n\n\n\n\n\nA\nA 表示A 中元素( , )\ni j 的代数余子式,则 A  A ",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-s0-blank-q14-o1",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-blank-q14-o1-r1",
+          "page_id": "d-1d1e306bd32d84115e35-p4",
+          "bbox": [
+            0.025,
+            0.6295672153457925,
+            0.985,
+            0.7021413294590885
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-blank-q14-o1-r2",
+          "page_id": "d-1d1e306bd32d84115e35-p4",
+          "bbox": [
+            0.025,
+            0.6941413294590885,
+            0.985,
+            0.7590119686045876
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-blank-q14-o1-r3",
+          "page_id": "d-1d1e306bd32d84115e35-p4",
+          "bbox": [
+            0.025,
+            0.7510119686045876,
+            0.985,
+            0.8228508154248932
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(二)试题解析"
+      },
+      "section": "blank",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "A\nA 表示A 中元素( , )\ni j 的代数余子式,则 A  A \n14.已知矩阵\n,\n.\n\nij\n\n\n\n\n4 \n\n\n【答案】4\n\n 1\n\n\n 1 1\n\n\n\n\n\n\n 1\n\nA  A  A \n1  0\n0 \n【解析】\n\n\n\n 23 小题,共94 分.请将解答写在答题纸指定位置上.解答应写出文字说明、证明过程",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-s0-solution-q15-o1",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": "15",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q15-o1-r1",
+          "page_id": "d-1d1e306bd32d84115e35-p4",
+          "bbox": [
+            0.025,
+            0.877143502850335,
+            0.985,
+            0.9664995350561698
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q15-o1-r2",
+          "page_id": "d-1d1e306bd32d84115e35-p5",
+          "bbox": [
+            0.025,
+            0.07482458199287186,
+            0.985,
+            0.10655116981245517
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q15-o1-r3",
+          "page_id": "d-1d1e306bd32d84115e35-p5",
+          "bbox": [
+            0.025,
+            0.09855116981245518,
+            0.985,
+            0.19382244390886005
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q15-o1-r4",
+          "page_id": "d-1d1e306bd32d84115e35-p5",
+          "bbox": [
+            0.025,
+            0.18582244390886005,
+            0.985,
+            0.5536852498585754
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(二)试题解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": " xy\n f x\n e 2 满足条件(0)\n 0 的特解。\n15.设函数 y\n( ) 是微分方程 y\ny\n(1)求  f x\ny\n( )\n;\n(2)求曲线 y  y x\n( ) 的凹凸区间及拐点。\nx 2\n\n xe\n 3)  (0, 3) ,凹区间为(\n 3,0)  ( 3,\n )\n,\n2 ;(2)凸区间为(\n【答案】(1) y\n,\n\n\n(  3,  3 2\ne ) ,(0,0) , ( 3, 3 2\ne )\n拐点为\nx 2\nx 2\nx 2\nx 2\nx 2\n\n\n\n\n\n\nxdx \nxdx\n\n e\n\n C )\n e\n\n C )\n e\n C )\n( )\n( e 2 e\ndx\n( )\n( e 2 e\ndx\n2 ( e 2 e dx\n2 ( x\n【解析】(1) y x\n,\nx\n\n 0\nC  0\n因为(0)\ny\ny  xe 2 ;\n,得\n,所以\nx\nx\nx\n\n\n\n\n xe\n\n (1\n x e\n2 )\ny\ne 2\n2 ( x )\n2 ,\n(2)由(1)有\nx 2\nx 2\nx 2\n\n\n\n\ny\n (1 x e\n 2 )\n\n ( x\n3  3 )\nx  0,\n 3\ny\n2 xe 2\nx e 2\n2 ( x )\n0 得\n,令\n,\ny\nx  3 或0\n x\n 3 时,\n当\ny\n当  3  x  0 或 x  3 时,\n 3)  (0, 3) ,凹区间为(\n 3,0)  ( 3,\n )\n所以凸区间为(\n,\n,\n\n\n,(0)  0 ,\ny\ny (  3)  3\ne 2 ,\ny ( 3)  3\ne 2\n又\n\n\n 3,\n 3\n(\ne 2 ) ,(0,0) , ( 3, 3\ne 2 ) .\n所以拐点为\n3 x  6\n\ndx",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-s0-solution-q16-o1",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": "16",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q16-o1-r1",
+          "page_id": "d-1d1e306bd32d84115e35-p5",
+          "bbox": [
+            0.025,
+            0.5456852498585754,
+            0.985,
+            0.6007080671003429
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q16-o1-r2",
+          "page_id": "d-1d1e306bd32d84115e35-p5",
+          "bbox": [
+            0.025,
+            0.5927080671003429,
+            0.985,
+            0.7852136162859826
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(二)试题解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "dx\n16.求不定积分\n 2 2  \n( x 1) ( x\nx 1)\n3 x  6\n2 x  1\n\n\n\n【解析】由于\n\n 2\n \n\n\n x 1\n( x 1) ( x 2\nx 1)\nx 1 ( x 1) 2\nx 2\n\n\n\n\n2 x 1\n2 x 1\n \n\n\n\n\n\n故原积分可化为:\ndx  2\ndx  3\ndx \ndx\n\n\nx  1 ( x  1) 2\nx 2  x  1 \nx  1\n( x  1) 2\nx 2  x  1\n\n\n 2ln x  1 \n\nd x\n( 2  x  1)\nx  1\nx 2  x  1\n\n \n ln( x\n2   \n2ln x 1\nx 1) C\n\nx 1\nx",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-s0-solution-q17-o1",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q17-o1-r1",
+          "page_id": "d-1d1e306bd32d84115e35-p5",
+          "bbox": [
+            0.025,
+            0.7772136162859826,
+            0.985,
+            0.9047679841823588
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q17-o1-r2",
+          "page_id": "d-1d1e306bd32d84115e35-p5",
+          "bbox": [
+            0.025,
+            0.8967679841823588,
+            0.985,
+            0.9470759370156508
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q17-o1-r3",
+          "page_id": "d-1d1e306bd32d84115e35-p6",
+          "bbox": [
+            0.025,
+            0.07468764902823687,
+            0.985,
+            0.2711656426002847
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(二)试题解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": " xy \n e\n17.已知( )\ny x 满足微分方程 y\ny\ne 2 ,且有(1)\n.\n2 x\n(1)求( )\ny x\n\n x\n 2,0\n y\n y x\nx y\n( )} ,求平面区域D 绕x 轴旋转成的旋转体体积.\n(2) D {( , ) 1\n\n\nx 2\n\n\n xdx \n xdx\n e\n\n\ny x\n( )\ne e\ndx C \ny x\n( )\ne e\ndx C \n【解析】(1)\n\n\n2 x\n\n\nx \n\nx\n\n e\ndx  C  e ( x  C )\n2 \n\n 2 x\n\nx\n e\nC  0\n又因为(1)\ny\n,故\n所以\ny \nxe 2\n\n2 \nx\n\n\n\n\n\n\n \n  xe dx\n\n\n\n e )\n xe 2  dx\nx\nx\ne dx 2\ne x 2\n( e 4\n(2) V\n\n\n2 1\n1 \n\n y\nx\n\ndxdy\n\n y x\n2  2 3  4\nD {( , )\nx y x\n,(\ny )\ny }",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-s0-solution-q18-o1",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q18-o1-r1",
+          "page_id": "d-1d1e306bd32d84115e35-p6",
+          "bbox": [
+            0.025,
+            0.2631656426002847,
+            0.985,
+            0.32873514579226226
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q18-o1-r2",
+          "page_id": "d-1d1e306bd32d84115e35-p6",
+          "bbox": [
+            0.025,
+            0.32073514579226226,
+            0.985,
+            0.544985030515315
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(二)试题解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "D {( , )\nx y x\n,(\ny )\ny }\n18.已知平面区域\n,计算二重积分\nx 2  y 2\nD\nx\n\n 0\ndxdy\n sin\n sin\n( x 2  y 2 ) 3  y 4 的极坐标方程 r\n2 \n【解析】\n,由对称性可得:\nx 2  y 2\nD\n\n y\n\nx\ny\nr sin\n2 \n\n\n\n\n sin\n\n 2\n\n 2\n\n\ndxdy\ndxdy\nrdrd\nr sin dr\n2 d\n所以\n\nr\nx 2  y 2\nx 2  y 2\nD\nD\nD\n\n\n\n\n\n\n\n\n \n\n cos 4  d\n\nsin 5 \nd  2\n(1 cos 2 \n) 2 d cos\n(1 2cos 2 \n) cos\n\n\n\n\n\n\n=  (cos \ncos 3 \ncos 5 \n) 2 \n\nS ,并求lim S",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-s0-solution-q19-o1",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q19-o1-r1",
+          "page_id": "d-1d1e306bd32d84115e35-p6",
+          "bbox": [
+            0.025,
+            0.536985030515315,
+            0.985,
+            0.5853158741797331
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q19-o1-r2",
+          "page_id": "d-1d1e306bd32d84115e35-p6",
+          "bbox": [
+            0.025,
+            0.5773158741797331,
+            0.985,
+            0.8407007754909233
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(二)试题解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "S 是 f x\n( )  e  x sin (0  x  n\nx\n) 的图像与x 轴所围图形的面积求\n19. n  N * ,\nn\nn\nn\n\nn\n\n\n\n n\n\n 2\nS \ne  x sin x dx \ne  x sin xdx \ne  x sin xdx  \n【解析】面积\n\n( k  \n1)\n\n\n\nn 1\nn 1\nn 1\n ( k  \n1)\n\n( k  \n1)\n\n\n\n x sin x dx\n\n k \n x sin xdx\n\n k \n x\n\ne\n( 1)\ne\n( 1) [\ne (cos x sin )]\nx\n\n\nk\nk\n\n\n\nk 0\nk 0\nk 0\n\nk\n1 n \n\n\n k  [ e  ( k   ( 1) 1\n  k\n1)  k   e  k\n( 1) 1\n( 1) ]\nk  0\n1)\n1 n \nn \n1  e  ( n  \n\n\n  \n \n\n\n \n\n\n\n[ e ( k 1)  e k ] \n(1  e )\ne k \n(1  e )\n\n \n1 e\nk  0\nk  0\n   \n  1\n1 e ( n 1)\n1 e\n\n \n\n\n \n\n\n\n(1 e )lim\n(1 e )\n所以 lim S\nn\n\n\n  1\n \n \n1 e\n1 e\n2 e\nn \nn \n 2 u\n 2 u\n\n\nu\nu",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-s0-solution-q20-o1",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q20-o1-r1",
+          "page_id": "d-1d1e306bd32d84115e35-p6",
+          "bbox": [
+            0.025,
+            0.8327007754909233,
+            0.985,
+            0.926089483094254
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q20-o1-r2",
+          "page_id": "d-1d1e306bd32d84115e35-p6",
+          "bbox": [
+            0.025,
+            0.918089483094254,
+            0.985,
+            0.9674999588995604
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q20-o1-r3",
+          "page_id": "d-1d1e306bd32d84115e35-p7",
+          "bbox": [
+            0.025,
+            0.0694328403942323,
+            0.985,
+            0.5284394809726884
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(二)试题解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": " 2\n\n 3\n 0 ,求,a b 的值,使得在变换\n20.已知函数( , )\nu x y 满足 2\n\n\n\n\nx 2\ny 2\nx\ny\n 下,上述等式可化为( , )\n v x y e\nax by\nu x y\n( , )\n( , )\nv x y 不含一阶偏导数的等式.\n\n\nu\nv e\n\n  v x y ae ax by\n\nax by\n( , )\n( , )\n【解析】\n\n\nx\nx\n,\n\n\nu\nv e\n\n  v x y be ax by\n\nax by\n( , )\n\n\ny\ny\n 2 u\n 2 v\n\nv\n\n  2\n  v x y a e\n\ne ax by\na\ne ax by\n( , ) 2 ax by\n 2\n 2\n\nx\nx\nx\n,\n 2 u\n 2 v\n\nv\n  2\n  v x y b e \n\ne ax by\nb\ne ax by\n( , ) 2 ax by\n\n\n\ny 2\ny 2\ny\n 2 u\n 2 u\n\nu\n 2\n 3\n 0\n带入已知条件\n 2\n 2\n\nx\ny\ny\n  2 v\n\n  2 v\n\n\n\nv\nv\n \n \n\n \n \n\nax by\nax by\n2 ax by \nax by\nax by\n2 ax by\ne\n2 a\ne\nv x y a e\n( , )\ne\nb\ne\nv x y b e\n( , )\n\n\n\n得: \n\n\n\n\nx 2\nx\ny 2\ny\n\n\n\n\n\n \n\n v\n\nv\n  v x y ae\n\n  v x y be\n\nax by\nax by +3\nax by\nax by =0\n+3\ne\n( , )\ne\n( , )\n\n\n\n\n\n \nx\n\ny\n\n\n 2 v\n 2 v\n\n\nv\nv\n\n\n\n (3 4 )\n b\n (2 a 2\n 2\n 3\n b v x y\n 0\n2(\n) (4 a 3)\nb 2\na 3 ) ( , )\n整理得:\n 2\n 2\n\n\nx\ny\nx\ny\n b  0\n由题意可得上式不含( , )\nv x y 的一阶偏导数,所以4\na  0,3 4\na  , b \n,即:\n f x dx \n( )\n1 ,证明:",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-s0-solution-q21-o1",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q21-o1-r1",
+          "page_id": "d-1d1e306bd32d84115e35-p7",
+          "bbox": [
+            0.025,
+            0.5204394809726884,
+            0.985,
+            0.6289475920074441
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q21-o1-r2",
+          "page_id": "d-1d1e306bd32d84115e35-p7",
+          "bbox": [
+            0.025,
+            0.6209475920074441,
+            0.985,
+            0.967233549764334
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q21-o1-r3",
+          "page_id": "d-1d1e306bd32d84115e35-p8",
+          "bbox": [
+            0.025,
+            0.0680717210499855,
+            0.985,
+            0.14671921659274068
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(二)试题解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "( )\n1 ,证明:\nf x 在[0,1]上具有二阶导数,且 f (0)  0 ,\n( )\nf (1) ,\n21.已知函数\n\nf   0\n( )\n(1)存在  (0,1) ,使得\n\nf \n( ) \n (0,1) ,使得\n(2)存在\n x\nF x 在[0,1]上连续,在(0,1) 内可导,由拉格朗日中值定理可\n( )\nF x 在[0,1]上连续,在(0,1) 内可导,由拉格朗日中值定理可\n( )\n( )\nf t dt ,易知\n( )\n【解析】(1)令 F x\n\n F c\n\nf c \nF (1) F (0)\n( )\n( ) 1\nc  (0,1)\n得:存在\n使得\n,即\n\nf   0\nf x 在[ ,1]\n( )\n ( ,1)  (0,1)\n( )\nc\nc\n对\n上使用罗尔定理可得,存在\n,使得\n (0, )  ( ,1)\nG x\n( )  f x\n( )  x 2 ,分别在[0, ],[ ,1] 上应用拉格朗日中值定理可得:存在\nc c\nc ,2\nc\n(2)令\n使\n \n \n\n G ( ) c\n ( )\n G (\n\nG c\n( ) G (0)\nG (1) G c\n)(1 c )\n得\n;\n2  1\nc\n  \n  \nG (\n) 1 c\n即: G ( )\n;\nc\n\n ]\n[ ,\nG x\n( )\n再次使用拉格朗日中值定理可得:\n在\n上对\n \n \n  \n\nG (\n)  G ( )  G ( )(\n)\n2  1\nc\n1 \nc\n    \n\nG (\n) G ( )\nc 1\nc\n整理可得 \n     \n\n\n 0\nG ( )\nf ( ) 2\n \n\n \n\n \n\nc (\n)\n\nf  .\n( )\n故有\n\n\n\n\n 1 \n 0 \n\n\n\n\n\n\n\n\n\n\n\n\n  1 ,\n  0 ,\n \n \n,  \n,  ",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-s0-solution-q22-o1",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q22-o1-r1",
+          "page_id": "d-1d1e306bd32d84115e35-p8",
+          "bbox": [
+            0.025,
+            0.13871921659274067,
+            0.985,
+            0.2328405395321251
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q22-o1-r2",
+          "page_id": "d-1d1e306bd32d84115e35-p8",
+          "bbox": [
+            0.025,
+            0.2248405395321251,
+            0.985,
+            0.8223387430906247
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(二)试题解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": ",  \n,  \n22.已知向量组(I)1\n,\n(II)1\n,\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\na 2  3 \na  3 \n1  a \na 2  3 \n\n\n\n\n\n\n用\n线性表示.\n,\n,\n若向量组(I)和向量组(II)等价,求a 的值,并将\n【解析】(1)因为向量组(I)和向量组(II)等价,\n  r ( ,\n   )\nr ( ,\n,\n)\n,\n)\nr ( ,\n,\n,\n,\n,\n所以有\n 1\n\n\n\n    1\n(\n,\n,\n,\n,\n,\n)\n对其初等行变换有:\n\n\n\n 3\n\n\n 3\na 2\na 3 1 a\na 2\n\n\n 1\n\n\n\n 0\n\n\n\n\n\na 2  1 a  1 1  a\na 2  1 \n\n  r (\n   \na  1\nr (\n,\n,\n)\n,\n,\n)\nr (\n,\n,\n,\n,\n,\n)\n1 若\n,\n,有\n所以向量组(I)和向量组(II)等价\na  1\n )  r (\n )  r (\n )  2\nr (\n,\n,\n,\n,\n,\n,\n,\n,\n,\n2 若\n,有\n所以向量组(I)和向量组(II)等价\n 1\n 1\n 1\n1 \n1 \n3 \n\n\n\n\n\n\n ,  )  1\n\n\na  1\n(\n,\n,\n3  0\n1 1\n2  0\n1 \n2 ,\n(2)1 当\n,因为\n\n\n\n\n\n\n\n\n\n\n\n\n4 \n0 \n0 \n\n\n\n  (3  2 )\n  k\n , k  R\n k ( 2,1,1)\n\nT  (3, 2,0)\n\nT ,k\n R\nk   ( k  2)\n.\n所以\n,即\n 1\n 1\n 1\n1 \n1 1 \n1 \n\n\n\n\n\n\n ,  )  1\n 0\n\n\na  1\n(\n,\n,\n1 1 2  0\n2 当\n,\n\n\n\n\n\n\n\n\n\n\n\n\na 2 +3\na 2 +3 \n1 1 \n1 \n\n\n\n      \n所以\n\n \n1 \n 2\n0 \n\n\n\n\n\n\nA \nx\nB  0\n1 0",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-1d1e306bd32d84115e35-s0-solution-q23-o1",
+      "document_id": "d-1d1e306bd32d84115e35",
+      "number": "23",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "考研数二",
+        "2019年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q23-o1-r1",
+          "page_id": "d-1d1e306bd32d84115e35-p8",
+          "bbox": [
+            0.025,
+            0.8143387430906247,
+            0.985,
+            0.9327964485462422
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q23-o1-r2",
+          "page_id": "d-1d1e306bd32d84115e35-p8",
+          "bbox": [
+            0.025,
+            0.9247964485462422,
+            0.985,
+            0.9609619358260084
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "d-1d1e306bd32d84115e35-s0-solution-q23-o1-r3",
+          "page_id": "d-1d1e306bd32d84115e35-p9",
+          "bbox": [
+            0.025,
+            0.06911500678039824,
+            0.985,
+            0.6766433427543369
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "考研数二",
+        "year": "2019",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null,
+        "heading": "2019 年全国硕士研究生入学统一考试数学(二)试题解析"
+      },
+      "section": "solution",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "A \nx\nB  0\n1 0\n23.已知矩阵\n相似.\n与\n\n\n\n\n\n\n\n\n\n2 \ny \n\n\n(1)求,x y\n\n(2)求可逆矩阵P 使得 P AP  B .\n tr B\n【解析】(1)由于A 与B 相似,根据相似性质,有:A  B\ntr A\n( )\n( )\n;\n,\n    y\n  x  4) \nx\n2 1\n即:2( 2\n2 y ,2\nx  3, y ;\n解得\n\n\n(2)B 是上三角矩阵,则B 的特征值为1, 2,2 ,又因为A 和B 相似,则A 的特征值也为1, 2,2\n对矩阵A :\n 2 时,解(2 E  A x\n\n( 1,2,0)T\n)  0\n当\n得\n;\n时,解(  E  A x\n (2, 1,0)T\n\n)  0\n当\n得\n;\n时,解( 2\n E\n A x\n 0\n\n)\n( 1,2,4)T\n当\n得\n;\n对矩阵B :\n 2 时,解(2 E\n B x\n 0\n (1,0,0)T\n)\n当\n得\n;\n时,解( E\n  B x\n 0\n\n)\n( 1,3,0)T\n当\n得\n;\n时,解( 2  B x\n E\n 0\n (0,0,1)T\n)\n当\n得\n;\n 2\n\n\n\n  )\n\n\n\nP\n(\n,\n,\nP AP\n令\n,则\n;\n\n\n\n \n2 \n\n 2\n\n\n\n   )\n\n\nP\n(\n,\n,\nP 1 AP \n令\n,则\n;\n\n\n\n\n\n2 \n\n \n \n\n\n\n\n B\n\n1 AP\n1 \nP AP  P \nP  P P \n.\n,则 P P APP\n;故\n\n\n2 1\n1 2\n1 2\n\n\n4 \n",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [
+    {
+      "type": "no_question_anchor",
+      "page": 1,
+      "lane": 0,
+      "details": "本页未定位题号，保留原页待核对；可能为封面、答案表或延续页。"
+    },
+    {
+      "type": "no_question_anchor",
+      "page": 2,
+      "lane": 0,
+      "details": "本页未定位题号，保留原页待核对；可能为封面、答案表或延续页。"
+    }
+  ],
+  "identity": {
+    "category": "考研数二",
+    "year": "2019",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}

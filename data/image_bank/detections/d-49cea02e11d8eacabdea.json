@@ -1,0 +1,692 @@
+{
+  "item": {
+    "id": "d-49cea02e11d8eacabdea",
+    "path": "resource/数学竞赛历年题目及解析/全国大学生数学竞赛/第15届初赛数学类B试题参考答案.pdf",
+    "name": "第15届初赛数学类B试题参考答案.pdf",
+    "sha256": "6a54ee93e1384f9cbe2277eed6320d54172c78fe308010793ba514364b2e613d",
+    "format": "pdf",
+    "bytes": 425704,
+    "included": true,
+    "monthly": false,
+    "status": "renderable",
+    "pages": 10,
+    "page_details": [
+      {
+        "number": 1,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 1029,
+        "renderable": true
+      },
+      {
+        "number": 2,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 1096,
+        "renderable": true
+      },
+      {
+        "number": 3,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 634,
+        "renderable": true
+      },
+      {
+        "number": 4,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 1003,
+        "renderable": true
+      },
+      {
+        "number": 5,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 1480,
+        "renderable": true
+      },
+      {
+        "number": 6,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 1184,
+        "renderable": true
+      },
+      {
+        "number": 7,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 637,
+        "renderable": true
+      },
+      {
+        "number": 8,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 901,
+        "renderable": true
+      },
+      {
+        "number": 9,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 1214,
+        "renderable": true
+      },
+      {
+        "number": 10,
+        "width": 612.0,
+        "height": 792.0,
+        "text_chars": 678,
+        "renderable": true
+      }
+    ],
+    "errors": []
+  },
+  "sha256": "6a54ee93e1384f9cbe2277eed6320d54172c78fe308010793ba514364b2e613d",
+  "engine_version": 6,
+  "status": "detected",
+  "pdf_path": "resource/数学竞赛历年题目及解析/全国大学生数学竞赛/第15届初赛数学类B试题参考答案.pdf",
+  "pdf_sha256": "6a54ee93e1384f9cbe2277eed6320d54172c78fe308010793ba514364b2e613d",
+  "pages": [
+    {
+      "id": "d-49cea02e11d8eacabdea-p1",
+      "document_id": "d-49cea02e11d8eacabdea",
+      "number": 1,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-49cea02e11d8eacabdea-p2",
+      "document_id": "d-49cea02e11d8eacabdea",
+      "number": 2,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-49cea02e11d8eacabdea-p3",
+      "document_id": "d-49cea02e11d8eacabdea",
+      "number": 3,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-49cea02e11d8eacabdea-p4",
+      "document_id": "d-49cea02e11d8eacabdea",
+      "number": 4,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-49cea02e11d8eacabdea-p5",
+      "document_id": "d-49cea02e11d8eacabdea",
+      "number": 5,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-49cea02e11d8eacabdea-p6",
+      "document_id": "d-49cea02e11d8eacabdea",
+      "number": 6,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-49cea02e11d8eacabdea-p7",
+      "document_id": "d-49cea02e11d8eacabdea",
+      "number": 7,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-49cea02e11d8eacabdea-p8",
+      "document_id": "d-49cea02e11d8eacabdea",
+      "number": 8,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-49cea02e11d8eacabdea-p9",
+      "document_id": "d-49cea02e11d8eacabdea",
+      "number": 9,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    },
+    {
+      "id": "d-49cea02e11d8eacabdea-p10",
+      "document_id": "d-49cea02e11d8eacabdea",
+      "number": 10,
+      "width": 612.0,
+      "height": 792.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text"
+    }
+  ],
+  "questions": [
+    {
+      "id": "d-49cea02e11d8eacabdea-s0-unknown-q1-o1",
+      "document_id": "d-49cea02e11d8eacabdea",
+      "number": "1",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "全国大学生数学竞赛数学B",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-49cea02e11d8eacabdea-s0-unknown-q1-o1-r1",
+          "page_id": "d-49cea02e11d8eacabdea-p1",
+          "bbox": [
+            0.025,
+            0.3269151207509667,
+            0.985,
+            0.35046309284248733
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "全国大学生数学竞赛数学B",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "1. ¤k‰KÑL\u00153\u001dÁò•1⁄2\u001b‰K«•S.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-49cea02e11d8eacabdea-s0-unknown-q2-o1",
+      "document_id": "d-49cea02e11d8eacabdea",
+      "number": "2",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "全国大学生数学竞赛数学B",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-49cea02e11d8eacabdea-s0-unknown-q2-o1-r1",
+          "page_id": "d-49cea02e11d8eacabdea-p1",
+          "bbox": [
+            0.025,
+            0.35046309284248733,
+            0.985,
+            0.3828427147656579
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "全国大学生数学竞赛数学B",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "•|Ò:\n2. —μ‚†>žÕ‰K, —μ‚\tØ\u001ak6¶9ƒ'IP.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-49cea02e11d8eacabdea-s0-unknown-q3-o1",
+      "document_id": "d-49cea02e11d8eacabdea",
+      "number": "3",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "全国大学生数学竞赛数学B",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-49cea02e11d8eacabdea-s0-unknown-q3-o1-r1",
+          "page_id": "d-49cea02e11d8eacabdea-p1",
+          "bbox": [
+            0.025,
+            0.3828427147656579,
+            0.985,
+            0.9767828393801294
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-49cea02e11d8eacabdea-s0-unknown-q3-o1-r2",
+          "page_id": "d-49cea02e11d8eacabdea-p2",
+          "bbox": [
+            0.025,
+            0.12030252552995778,
+            0.985,
+            0.20887902400469538
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "全国大学生数学竞赛数学B",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "\u000f\n3. X‰K ̃xØ\n, Œ\u00153\b•\u0012¡, ¿I2KÒ.\n\u000e\n‰KžØ‡‡Ld‚\ñ! (\u001dK 15 ©) 3 ̃m¥‰1⁄2üØÓ: P Ú Q. L P :\n\u001a©\n†‚ L(P) ÚL Q :†‚ L(Q) \u0014\u0002u: M.  ̄μ¤kŒ\nU\u001b\u0014\u0002: M \b¤Û«-¡oy2\\\u001b(Ø.\nμ\u001d<\ny2. 3 ̃m¥ïá†\u000e‹IX§¦\u001a‚ã PQ \u001b¥:•\u0006: O, †‚ PQ • x−¶,\n¤3\u0013\u0004:\nP = (−a, 0, 0), Q = (a, 0, 0) (a > 0).\n—μ‚\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .(5 ©)\n\u0017L P :†‚ L(P) ÚL Q :†‚ L(Q) \u0014\u0002u M = (x, y, z) :§Kk\n\u000f\n−−→\nPM · −−→\n\u000e\nQM = 0,\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (10 ©)\n(x + a, y, z) · (x −a, y, z) = 0,\nO•yÒ:\nx2 + y2 + z2 = a2,\n•¥¡.\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (15 ©)\n\u000f\n\u000e\n6¶:\n\u0013! (\u001dK 15 ©) \u0017 f(x, y, z) = x2 + (y2 + z2)(1 −x)3.\n\u001a©\n(1) OŽ f \u001b7:.\n(2) ¦ f 3 Σ þ\u001b•\u0002Š, Ù¥,\nμ\u001d<\n|x| ⩽2, y2 + z2 ⩽4\nΣ  ́ \b (x, y, z)\n\u001b>..",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-49cea02e11d8eacabdea-s0-unknown-q3-o2",
+      "document_id": "d-49cea02e11d8eacabdea",
+      "number": "3",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "全国大学生数学竞赛数学B",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-49cea02e11d8eacabdea-s0-unknown-q3-o2-r1",
+          "page_id": "d-49cea02e11d8eacabdea-p2",
+          "bbox": [
+            0.025,
+            0.20887902400469538,
+            0.985,
+            0.4978021489923651
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "全国大学生数学竞赛数学B",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "Σ  ́ \b (x, y, z)\n\u001b>..\n(3) ¦ f 3ý¥ x2 + y2\n2 + z2\n3 ⩽1 þ\u001b•\u0002Š.\n)‰. (1)\n fx(x, y, z) = 2x −3(y2 + z2)(1 −x)2,\n\n\n\nfy(x, y, z) = 2y(1 −x)3,\n\n fz(x, y, z) = 2z(1 −x)3.\n\n¦) fx(x0, y0, z0) = fy(x0, y0, z0) = fz(x0, y0, z0) = 0 \u001b:Œ\u001a1⁄4ê3\u0012‡ ̃m\nþ•k• ̃\u001b7: (x0, y0, z0) = (0, 0, 0).\n(5.  ́„dþã•§\u001b1\u0013aŒ\u001a x0 = 1 1⁄2 y0 = 0. \u0002 x0 = 1 †1 ̃‡afg\nñ. Ïd x0 = 0, ?\rqk y0 = z0 = 0.)\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .(5 ©)",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-49cea02e11d8eacabdea-s0-unknown-q2-o2",
+      "document_id": "d-49cea02e11d8eacabdea",
+      "number": "2",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "全国大学生数学竞赛数学B",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-49cea02e11d8eacabdea-s0-unknown-q2-o2-r1",
+          "page_id": "d-49cea02e11d8eacabdea-p2",
+          "bbox": [
+            0.025,
+            0.4978021489923651,
+            0.985,
+            0.9272793203026357
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-49cea02e11d8eacabdea-s0-unknown-q2-o2-r2",
+          "page_id": "d-49cea02e11d8eacabdea-p3",
+          "bbox": [
+            0.025,
+            0.10063537212333294,
+            0.985,
+            0.28911004515368527
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "全国大学生数学竞赛数学B",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "(2) Σ = Σ1 ∪Σ2 ∪Σ3, Ù¥\nx ∈[−2, 2], y2 + z2 = 4\n\b\nΣ1 = (x, y, z)\n,\nx = 2, y2 + z2 ⩽4\nΣ2 = \b (x, y, z)\n,\nx = −2, y2 + z2 ⩽4\nΣ3 = \b (x, y, z)\n.\n3 Σ1 þ,\nf(x, y, z) = x2 + 4(1 −x)3 = g1(x),\nx ∈[−2, 2].\nŠ• ̃\u00031⁄4ê, •Ä g1 3 [−2, 2] S\u001b7::\n1(ξ) = 2ξ −12(1 −ξ)2 = 0.\ng′\nŒ\u001a: ξ1 = 3\nξ2 = 2\n2,\n3.\n·‚k\n\u00003 = 7\n\u00002 = 16\n\u0001\n\u0001\ng1(2) = 0,\ng1(−2) = 112,\ng1\n4,\ng1\n27.\n\u0019 f 3 Σ1 þ\u001b•\u0002Š• 0.\n\u0000 3\n\u0000 2\n(5: ±þ?Ø`2 g1(2) = 0 ±9 g1(−2), g1\n\u0001 , g1\n\u0001 ⩾0 =Œ. 1⁄2Ø7¦7:,\n†\u001a`2 g1 ⩾0 ... g1(2) = 0.)\n3 Σ2 þ,\ny2 + z2 ⩽4.\n\u000f\nf(x, y, z) = 4 −(y2 + z2) = g2(x, y) ⩾0,\n\u000e\n;’:\n3 Σ3 þ,\ny2 + z2 ⩽4.\nf(x, y, z) = 4 + 27(y2 + z2) = g3(x, y) ⩾0,\nŒ Ò:\n\u0019 f 3 Σ þ\u001b•\u0002Š• 0.",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-49cea02e11d8eacabdea-s0-unknown-q3-o3",
+      "document_id": "d-49cea02e11d8eacabdea",
+      "number": "3",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "全国大学生数学竞赛数学B",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-49cea02e11d8eacabdea-s0-unknown-q3-o3-r1",
+          "page_id": "d-49cea02e11d8eacabdea-p3",
+          "bbox": [
+            0.025,
+            0.28911004515368527,
+            0.985,
+            0.9767828393801294
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-49cea02e11d8eacabdea-s0-unknown-q3-o3-r2",
+          "page_id": "d-49cea02e11d8eacabdea-p4",
+          "bbox": [
+            0.025,
+            0.1230389157690183,
+            0.985,
+            0.9264642081212516
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-49cea02e11d8eacabdea-s0-unknown-q3-o3-r3",
+          "page_id": "d-49cea02e11d8eacabdea-p5",
+          "bbox": [
+            0.025,
+            0.10063537212333294,
+            0.985,
+            0.9767828393801294
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-49cea02e11d8eacabdea-s0-unknown-q3-o3-r4",
+          "page_id": "d-49cea02e11d8eacabdea-p6",
+          "bbox": [
+            0.025,
+            0.12434622022840712,
+            0.985,
+            0.9017091348050821
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-49cea02e11d8eacabdea-s0-unknown-q3-o3-r5",
+          "page_id": "d-49cea02e11d8eacabdea-p7",
+          "bbox": [
+            0.025,
+            0.12398372765743372,
+            0.985,
+            0.9767828393801294
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-49cea02e11d8eacabdea-s0-unknown-q3-o3-r6",
+          "page_id": "d-49cea02e11d8eacabdea-p8",
+          "bbox": [
+            0.025,
+            0.12460631322379064,
+            0.985,
+            0.8853105670145464
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "全国大学生数学竞赛数学B",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (10 ©)\n(3) 5¿\u0014ý¥ x2 + y2\n2 + z2\n3 ⩽1 \u0011\u001c3 Σ Œ¤\u001b«• ΩS, \r...1⁄4ê f 3 Ω\nSk• ̃7: (0, 0, 0), f(0, 0, 0) = 0. Ïd, f 3 Ωþ\u001b•\u0002Š• 0. ?\r f 3T\ný¥þ\u001b•\u0002ŠÒ ́ 0.\n•|Ò:\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (15 ©)\n\u000f\n\u000e\n‰KžØ‡‡Ld‚\n¤3\u0013\u0004:\n—μ‚\n\u000f\n\u000e\nO•yÒ:\n\u000f\n\u000e\n6¶:\nn! (\u001dK 20 ©) \u0017 V  ́Eê• C þ\u001b n ‘‚5 ̃\n\u001a©\nm, A  ́ V þ\u001b ̃‡‚5C†. y2: •3 α ∈V ¦\n\u001a {α, Aα, · · · , An−1α} ¤• V \u001b ̃|Ä\b...=\béu A\nμ\u001d<\n\u001b? ̃A\u000eŠ λ, λ \u001bAÛ-ê• 1.\n)‰. 7‡5. \u0017•3 α ∈V ¦\u001a {α, Aα, · · · , An−1α} ¤• V \u001b ̃|Ä, w, A 3\nTÄe\u001bÝ\n•\n 0\n\n∗\n∗ \n 1 0\n\n\n... \n...\n\nA =\n.\n\n\n\n\n...\n\n\n0 ∗\n\n\n\n\n1 ∗\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .(2 ©)\né?¿ c ∈C,\n c\n\n∗\nc\n∗ \n −1\n\n\n... \n...\n\ncI −A =\n,\n−1\n\n\n\n\n...\n\n\n∗\nc\n\n\n\n\n−1 ∗\nÙ†e\u000e\u001b n −1 \u001efaš\", ¤± rank(cI −A) ≥n −1, l\ràg‚5•§|\n(cI −A)X = 0\n\u001b) ̃m‘ê• n −rank(cI −A) ≤1.\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .(5 ©)\nqé A \u001b? ̃A\u000eŠ λ,\n(λI −A)X = 0\ñ1⁄2kš\"), §\u001b) ̃m‘ê ≥1. ¤±àg‚5•§|\n(λI −A)X = 0\n\u001b) ̃m‘ê• 1, = λ \u001bAÛ-ê• 1.\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .(8 ©)\n¿©5: \u0017 A \u001bpØƒÓ\u001bA\u000eŠ• λ1, λ2, · · · , λs, “ê-ê©O• d1, d2, · · · , ds,\nÙ¥ d1 + d2 + · · · + ds = n, = A \u001bA\u000eõ‘a•\n\u000f\n\u000e\n;’:\nf(x) = (x −λ1)d1(x −λ2)d2 · · · (x −λs)ds.\néu 1 ≤i ≤s, P Vλi = Ker(A −λiI)di, Ù¥ I •ð\u001fC†, K Vλi • A-ØCf\ñm...\nŒ Ò:\nV = Vλ1 ⊕Vλ2 ⊕· · · ⊕Vλs.\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (11 ©)\ndu λi \u001bAÛ-ê• 1, \u0019 A|Vλi \u001b Jordan IO.•\n\n\nλi\n•|Ò:\n\n\nλi\n\n\n\u000f\n.\n\n\n...\n...\n\n\n\u000e\n\n\n\n\n‰KžØ‡‡Ld‚\nλi\ndi×di\n¤±•3 αi ∈Vλi ¦\u001a (A −λiI)di−1αi ̸= 0.\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (14 ©)\n-\nα = α1 + α2 + · · · + αs,\n¤3\u0013\u0004:\nK {α, Aα, · · · , An−1α}  ́ V \u001b ̃|Ä. eÄ, K α, Aα, · · · , An−1α ‚5ƒ',\n—μ‚\nl\r•3gê ≤n −1 \u001bš\"õ‘a p(x) ∈C[x] ¦\u001a p(A)α = 0. du Vλi\n• A-ØCf ̃m, ¤± p(A)αi ∈Vλi. d\n\u000f\n\u000e\n0 = p(A)α = p(A)α1 + p(A)α2 + · · · + p(A)αs\nŒ• p(A)αi = 0. du (A −λiI)di−1αi ̸= 0, ¤± (x −λi)di  ́ A \u001b\"z αi \u001bg\nê•$\u001bõ‘a, l\n(x −λi)di | p(x).\nO•yÒ:\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (18 ©)\nq\b i ̸= j ž, (x −λi)di † (x −λj)dj pƒ, ¤±\n(x −λ1)d1(x −λ2)d2 · · · (x −λs)ds | p(x),\n= f(x) | p(x), ù† degp(x) < degf(x) ... p(x) ̸= 0 gñ.\n\u000f\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (20 ©)\n\u000e\n6¶:\no! (\u001dK 15 ©) y2é?¿ n \u001e•\n A, •3Ìé\u000e‚þ\n\u001a©\n\u0003ƒ• 1 1⁄2 −1 \u001b n \u001eé\u000eÝ\n J ¦\u001a A + J Œ_.\nμ\u001d<\n)‰. é n ‰8B. \b n = 1 ž, A = (a), w, a + 1 1⁄2ö a −1 ¥ ̃1⁄2k ̃‡êš\",\n(Ø¤á. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (2 ©)\n\u0017(Øé n −1 \u001eÝ\n¤á, e¡•\t n \u001e•\n A. P\n!\nA1\nβ\nA =\n,\nα\nann\nÙ¥ A1 • n −1 \u001eÝ\n, α • n −1 ‘1•þ, β • n −1 ‘\u000f•þ, ann • ̃\n‡ê. d8Bb\u0017, •3Ìé\u000e‚þ\u0003ƒ• 1 1⁄2 −1 \u001b n −1 \u001eé\u000eÝ\n J1 ¦\n\u001a A1 + J1 Œ_. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (5 ©)\nl\nA +\n!\f\f\f\f\f − A +\n!\nJ1 0\nJ1\n−1\n−\nA1 + J1\nβ\nA1 + J1\nβ\n=\nα\nann + 1\nα\nann −1\nA1 + J1\nβ −β\n=\nα\n(ann + 1) −(ann −1)\n= 2 |A1 + J1| ̸= 0.\nùL2þa•†>\u001bü‡1\u000fa¥–\bk ̃‡š\". . . . . . . . . . . . . . . . . . . (11 ©)\n-\n!\nA +\n!\f\f\f\f\f ̸= 0,\nJ1 0\nJ1 0\ne\nJ =\n1⁄2ö\nA +\n!\f\f\f\f\f ̸= 0,\n!\nJ1\nJ1\ne\nJ =\n−1\n−1\nK J •Ìé\u000e‚þ\u0003ƒ• 1 1⁄2 −1 \u001b n \u001eé\u000eÝ\n... |A + J| ̸= 0, = A + J Œ\n_, ¤±(Øé n \u001eÝ\n¤á. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .(14 ©)\nd8B{\u0006n, (Øé?¿•\n¤á. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (15 ©)\nÊ! (\u001dK 15 ©) \u0017 f(x) = xn(1 −x)n,\n\u000f\n\u001a©\n′′(x) + f (4)(x) −· · · + (−1)nf (2n)(x).\nF(x) = f(x) −f\n\u000e\n;’:\nd \u0000 F ′(x) sin x −F(x) cos x \u0001 .\nOŽ¿z{\nμ\u001d<\ndx\nŒ Ò:\nd\ndx(F ′(x) sin x −F(x) cos x)\ny2.\n= F ′′(x) sin x + F ′(x) cos x −F ′(x) cos x + F(x) sin x\n= (F ′′(x) + F(x)) sin x\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (5 ©)\n•|Ò:\n\u0000 f(x) + (−1)nf (2n+2)(x)\n\u0001 sin x\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (10 ©)\n=\n\u000f\n= f(x) sin x = xn(1 −x)n sin x.\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (15 ©)\n\u000e\n‰KžØ‡‡Ld‚\n¤3\u0013\u0004:\n—μ‚\n\u000f\n\u000e\nO•yÒ:\n\u000f\n\u000e\n6¶:\n8! (\u001dK 20 ©) \u0017šK1⁄4ê f 3 [0, +∞) þëYŒ‡,\nZ +∞\n\u001a©\nÃ¡È©\nf(x) dx Âñ, ...•3 [0, +∞) þ\u001bšK1⁄4ê\nμ\u001d<\ng, ¦\u001a\nf ′(x) ≤g(x),\nx ≥0.\n(1)\n©OÒe\u000fn«œ/, y2 lim\nx→+∞f(x) = 0.\nZ +∞\ng(x) dx Âñ.\n(i)\n(ii) g(x) = C > 0, Ù¥ C •~ê.\n(iii) g(x) = Cf p(x), Ù¥ C > 0, p > 0 •~ê.\ny2.\n{ I. (i) d^‡ (1),\nZ x\nZ +∞\nf(x) ≤f (y) +\ng(x) dx ≤f (y) +\ng(x) dx,\n0 ≤y < x.\ny\ny\n¤± f 3 [0, +∞) þk.. u ́\nZ +∞\nx→+∞f(x) ≤f (y) +\n0 ≤y < +∞\nlim\ng(x) dx,\ny\nZ +∞\n?\rdÃ¡È©\ng(x) dx Âñ, \u001a\u0014\nx→+∞f(x) ≤lim\nlim\nx→+∞f(x)\nZ +∞\n\u0019 lim\nx→+∞f(x) = A •3, qÃ¡È©\nf(x) dx Âñ, l\r A = 0.\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (10 ©)\n(ii) ·‚^‡y{y2(Ø.\nb\u0017(ØØ¤á, @o•3\u0014ê a Ú\u0014êê\u000f {xn}, ¦\u001a n→+∞xn = +∞,\nlim\nf(xn) ≥a, n = 1, 2, · · · . w,Ø”\u0017\nxn > a\n2C ,\nn = 1, 2, · · · .\n(2)\n3«m [xn − 2C, xn] þéØ\u001fa (1) l x È©\u0014 xn, |^ (2) \u001a\u0014\na",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-49cea02e11d8eacabdea-s0-unknown-q2-o3",
+      "document_id": "d-49cea02e11d8eacabdea",
+      "number": "2",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "全国大学生数学竞赛数学B",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-49cea02e11d8eacabdea-s0-unknown-q2-o3-r1",
+          "page_id": "d-49cea02e11d8eacabdea-p8",
+          "bbox": [
+            0.025,
+            0.8853105670145464,
+            0.985,
+            0.9336626574583728
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-49cea02e11d8eacabdea-s0-unknown-q2-o3-r2",
+          "page_id": "d-49cea02e11d8eacabdea-p9",
+          "bbox": [
+            0.025,
+            0.10063537212333294,
+            0.985,
+            0.4237839339028304
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "全国大学生数学竞赛数学B",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "f (xn) −f(x) ≤C (xn −x) . ⇒a −f(x) ≤C (xn −x) ≤C · a\n2C = a\n2.\n·‚k\nf(x) ≥a\n2, xn −a\n2C ≤x ≤xn, n = 1, 2, · · · .\n\u000f\n\u000e\n;’:\nl\nZ xn\n2C = a2\nf(x)dx ≥a\n2 · a\n4C , n = 0, 1, 2, · · · .\nxn−a\n2C\nZ +∞\nd†\nf(x) dx Âñ\u001b Cauchy OKgñ, y..\nŒ Ò:\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (15 ©)\n(iii) b\u0017(ØØ¤á, @o•3\u0014ê a Ú\u0014êê\u000f {xn}, ¦\u001a lim\nn→+∞xn = +∞,\nf(xn) ≥a, n = 1, 2, · · · . w,Ø”\u0017\na\n•|Ò:\nxn > b = 2ap−1C , n = 1, 2, · · · .\n(3)\n\u000f\ny3y2 f 3«m [xn −b, xn] þ\u001b•\u0002Š mn Œu ̃‡\u0014~ê.\n\u000e",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-49cea02e11d8eacabdea-s0-unknown-q1-o2",
+      "document_id": "d-49cea02e11d8eacabdea",
+      "number": "1",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "全国大学生数学竞赛数学B",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-49cea02e11d8eacabdea-s0-unknown-q1-o2-r1",
+          "page_id": "d-49cea02e11d8eacabdea-p9",
+          "bbox": [
+            0.025,
+            0.4237839339028304,
+            0.985,
+            0.45760252611564867
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "全国大学生数学竞赛数学B",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "\u0017 tn ∈[xn −b, xn], f(tn) = mn. ·‚©ü«œ15?Ø.\n‰KžØ‡‡Ld‚\n1. mn = a, Kk f(x) ≥a, x ∈[xn −b, xn].",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "d-49cea02e11d8eacabdea-s0-unknown-q2-o4",
+      "document_id": "d-49cea02e11d8eacabdea",
+      "number": "2",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "全国大学生数学竞赛数学B",
+        "2023年"
+      ],
+      "reviewed": false,
+      "note": "自动初切，边界与答案分别待核对。",
+      "regions": [
+        {
+          "id": "d-49cea02e11d8eacabdea-s0-unknown-q2-o4-r1",
+          "page_id": "d-49cea02e11d8eacabdea-p9",
+          "bbox": [
+            0.025,
+            0.45760252611564867,
+            0.985,
+            0.9767828393801294
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "d-49cea02e11d8eacabdea-s0-unknown-q2-o4-r2",
+          "page_id": "d-49cea02e11d8eacabdea-p10",
+          "bbox": [
+            0.025,
+            0.09851996836036143,
+            0.985,
+            0.506506999006175
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "全国大学生数学竞赛数学B",
+        "year": "2023",
+        "complete": true,
+        "collection": false,
+        "group": null,
+        "course": null,
+        "session": null
+      },
+      "section": "unknown",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "text_hint": "",
+      "answer_hint": "2. mn < a, Ï• f(xn) ≥a, ¤± tn < xn. P Tn = sup {t; f(x) < a, x ∈[tn, t)},\n@o, d f \u001bëY5•\u0017, tn < Tn ≤xn, f (Tn) = a.\n3 tn Ú Tn ?A^Ø\u001fa (1), |^ (3), \u001a\u0014\nZ Tn\nf p(x)dx ≤Cap (Tn −tn) ≤Capb = a\n¤3\u0013\u0004:\na −mn = f (Tn) −f (tn) ≤C\n2.\n—μ‚\ntn\n=\na\n2 ≤mn ≤f(x),\nx ∈[xn −b, xn] .\n\u000f\n\u000e\nnÜü«œ1, ·‚ok\nf(x) ≥a\n2, x ∈[xn −b, xn] .\nu ́\nZ xn\nf(x)dx ≥ab\n2 = a\n4C > 0,\nO•yÒ:\nxn−b\nZ +∞\nd†\nf(x) dx Âñ\u001b Cauchy OKgñ, y..\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (20 ©)\n{ 2. ·‚én«œ/ŠÚ ̃?n. \u0017 g(x) = Cf p(x) + h(x), Ù¥ C ⩾0,\nZ +∞\n\u000f\np ⩾0 •~ê(00 n)• 1), h šK...\nh(x) dx Âñ.\n\u000e\n6¶:\n?\u0012 m ⩾16C + 2, d Cauchy OK, •3 N = Nm ⩾1 ¦\u001a\b n ⩾N ž,\nn+1\nZ m2\n4m3. Ïd, (Ü f šK, éu?Û n ⩾N, k\n\u0000 f(x) + h(x)\n\u0001 dx <\nn\nm2\nξn ∈[ n\nm2, n+1\nm2 ] ¦\u001a f(ξn) < 4m.\nm2 ž, f(x) ⩽1\n·‚äó\b x > N+1\nm.\nm. ·‚k k ⩾N ¦\u001a ξk < η1 < ξk + 2\nÄK, k η1 > N+1\nm2 , ¦\u001a f(η1) > 1\nm2.\n? ̃Ú, \u0017 η2 • f −1\nm 3 [ξk, η1] ¥•\u0002\u001b\":, η3 • f − 2m 3 [ξk, η2] ¥•\nŒ\u001b\":. K3 [η3, η2] þ 2m ⩽f ⩽1\nm < 1. l\nZ η2\nf ′(t) dt\n2m =f(η2) −f(η3) =\nη3\nZ η2\nZ η2\n\u0010\n\u0011\n\u0010\n\u0011\n⩽\nCf p(t) + h(t) dt ⩽\nC + h(t) dt\nη3\nη3\n⩽2C\n2m3 ⩽\nm2 +\n4m.\ngñ.\nÏd, \b x > N+1 ž, f(x) ⩽1\nm. dd=\u001a lim\nx→+∞f(x) = 0.\nm\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (20 ©)",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": [],
+  "identity": {
+    "category": "全国大学生数学竞赛数学B",
+    "year": "2023",
+    "complete": true,
+    "collection": false,
+    "group": null,
+    "course": null,
+    "session": null
+  }
+}
