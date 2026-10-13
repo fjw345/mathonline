@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm --prefix frontend ci && npm --prefix frontend run build",
+  "outputDirectory": "frontend/dist",
+  "rewrites": [
+    {"source": "/api/v1/:path*", "destination": "/api/index"},
+    {"source": "/((?!api/|assets/).*)", "destination": "/index.html"}
+  ]
+}
