@@ -177,6 +177,7 @@ Vercel **Logs/Functions** 查看 Python 异常；Supabase 查看 Auth、Database
 | 现象 | 检查方向 |
 | --- | --- |
 | 构建成功，API 404 或返回 HTML | 根目录是否正确、`api/index.py` 是否导出 app、API rewrite 是否生效及保留原路径 |
+| Python 函数 bundle 超过大小上限 | 保留 `vercel.json` 中 `functions.api/index.py.excludeFiles`，排除原卷、拆分截图、前端及本地数据目录；题图通过离线导入上传 Supabase，不打包到函数 |
 | API 500，日志提到 SQLite 或只读目录 | `APP_MODE` 是否为 `supabase`，变量是否属于当前部署环境，改完是否 Redeploy |
 | 表或 RPC 不存在 | 四份迁移是否在同一个项目按顺序执行，URL 与 key 是否属于该项目 |
 | 登录或提交返回“请求来源不被允许” | `APP_ORIGIN` 是否包含当前页面完整 HTTPS origin，自有域名是否已加入 |
