@@ -1,5 +1,7 @@
 # 本地运行与后续部署
 
+首次部署请按 [Supabase + Vercel 逐步指南](supabase-vercel-guide.md) 操作，包含迁移顺序、环境变量、图片导入、邮件回调、管理员设置和上线检查。
+
 ## 当前本地模式
 
 `APP_MODE=local` 使用 SQLite、磁盘图片与本地邮箱密码账号，不依赖 Supabase/Vercel。服务默认只监听 `127.0.0.1:8011`。注册/login 会创建 HttpOnly 会话 Cookie，密码经 scrypt 加盐散列存储。首次账号的管理员分配在数据库事务内完成，无默认管理员口令。
