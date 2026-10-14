@@ -95,7 +95,7 @@ select count(*) as image_count from public.media_assets;
 | Output Directory | `frontend/dist` |
 | Install Command | 可设 `npm --prefix frontend ci`；构建命令也会执行安装 |
 
-根目录必须包含 `requirements.txt`，Vercel 为 `api/index.py` 安装 Python 依赖。不要用本地 `scripts/start_local.py` 启动云端，也不要在云端使用 SQLite。
+根目录保留 `pyproject.toml`、`uv.lock` 和 `.python-version`。Vercel 优先通过 `pyproject.toml` 的 `[project]` 读取依赖，使用 Python 3.12；该文件不能只有 Ruff 配置。`requirements.txt` 仍用于本地启动器。不要用本地 `scripts/start_local.py` 启动云端，也不要在云端使用 SQLite。
 
 在 **Settings → Environment Variables** 设置以下变量，首次只对 **Production** 生效：
 
