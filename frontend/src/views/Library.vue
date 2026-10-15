@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, ref, watch } from "vue";
+import { onMounted, onBeforeUnmount, ref, watch } from "vue";
 import { useRouter } from "vue-router";
 import {
   ArrowRight,
@@ -28,6 +28,7 @@ const year = ref("");
 const type = ref("");
 const search = ref("");
 let requestId = 0;
+let controller: AbortController | undefined;
 function params() {
   const p = new URLSearchParams({ page: String(page.value) });
   if (year.value) p.set("year", year.value);
@@ -38,10 +39,16 @@ function params() {
 }
 async function load() {
   const id = ++requestId;
+  controller?.abort();
+  controller = new AbortController();
+  const signal = AbortSignal.any([
+    controller.signal,
+    AbortSignal.timeout(20000),
+  ]);
   loading.value = true;
   error.value = "";
   try {
-    const data = await api("/problems?" + params());
+    const data = await api("/problems?" + params(), { signal });
     if (id === requestId) {
       items.value = data.items;
       total.value = data.total;
@@ -62,22 +69,28 @@ onMounted(async () => {
   await initialLoad;
 });
 watch([year, type, tag], () => {
-  page.value = 1;
-  load();
+  if (page.value !== 1) page.value = 1;
+  else void load();
 });
 watch(page, load);
 function doSearch() {
-  page.value = 1;
-  load();
+  if (page.value !== 1) page.value = 1;
+  else void load();
 }
 function reset() {
+  const needsLoad =
+    !tag.value && !year.value && !type.value && page.value === 1;
   tag.value = "";
   year.value = "";
   type.value = "";
   search.value = "";
   page.value = 1;
-  load();
+  if (needsLoad) void load();
 }
+onBeforeUnmount(() => {
+  requestId++;
+  controller?.abort();
+});
 function random() {
   const p = params();
   p.delete("page");

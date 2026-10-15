@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from "vue";
+import { computed, onMounted, ref, watch } from "vue";
 import {
   Download,
   Upload,
@@ -67,6 +67,33 @@ const shown = computed(() =>
       (!status.value || p.status === status.value),
   ),
 );
+const page = ref(1), total = ref(0), bankLoading = ref(false);
+let bankRequest = 0;
+async function loadBank() {
+  const request = ++bankRequest;
+  bankLoading.value = true;
+  try {
+    const query = new URLSearchParams({ page: String(page.value), page_size: "30", q: search.value, status: status.value });
+    const data = await api("/admin/problems?" + query);
+    if (request === bankRequest) {
+      problems.value = data.items;
+      total.value = data.total;
+    }
+  } catch (e) {
+    if (request === bankRequest) error.value = "题库：" + (e as Error).message;
+  } finally {
+    if (request === bankRequest) bankLoading.value = false;
+  }
+}
+let searchTimer: ReturnType<typeof setTimeout>;
+watch([search, status], () => {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(() => { page.value = 1; void loadBank(); }, 300);
+});
+async function turnPage(step: number) {
+  page.value += step;
+  await loadBank();
+}
 async function load() {
   loading.value = true;
   error.value = "";
@@ -74,13 +101,16 @@ async function load() {
     await loadMe();
     if (!state.user || state.user.role === "user") return;
     if (state.user.role === "admin") {
-      [pending.value, problems.value, users.value, feedback.value] =
-        await Promise.all([
-          api("/admin/moderation"),
-          api("/admin/problems"),
-          api("/admin/users"),
-          api("/admin/feedback"),
-        ]);
+      const results = await Promise.allSettled([
+        api("/admin/moderation"), loadBank(), api("/admin/users"), api("/admin/feedback"),
+      ]);
+      const labels = ["内容审核", "题库", "用户角色", "题目反馈"];
+      results.forEach((result, i) => {
+        if (result.status === "rejected") error.value += `${labels[i]}：${result.reason.message} `;
+      });
+      if (results[0].status === "fulfilled") pending.value = results[0].value;
+      if (results[2].status === "fulfilled") users.value = results[2].value;
+      if (results[3].status === "fulfilled") feedback.value = results[3].value;
     } else {
       pending.value = await api("/admin/moderation");
     }
@@ -285,9 +315,16 @@ async function roleChange(u: User, event: Event) {
     await load();
   });
 }
-function editFeedbackProblem(f: ProblemFeedback) {
-  const p = problems.value.find((p) => p.id === f.problem_id);
-  if (p) open(p);
+async function editFeedbackProblem(f: ProblemFeedback) {
+  await action(async () => {
+    let p = problems.value.find((p) => p.id === f.problem_id);
+    if (!p) {
+      const data = await api("/admin/problems?page=1&pid=" + encodeURIComponent(f.problem_id));
+      p = data.items[0];
+    }
+    if (p) open(p);
+    else throw new Error("题目不存在，请刷新反馈列表。");
+  });
 }
 async function reviewFeedback(
   f: ProblemFeedback,
@@ -316,18 +353,18 @@ async function reviewFeedback(
     <Settings :size="28" />
   </div>
   <div v-if="loading" class="loading-panel">加载中…</div>
-  <div v-else-if="error" class="form-error" role="alert">
+  <div v-if="error" class="form-error" role="alert">
     {{ error }}<button class="button small" @click="load">重试</button>
   </div>
   <div
-    v-else-if="!state.user || state.user.role === 'user'"
+    v-if="!loading && (!state.user || state.user.role === 'user')"
     class="empty-state"
   >
     <h2>需要管理权限</h2>
     <p>登录管理员或审核账号后使用此页面。</p>
     <RouterLink to="/auth?next=/admin" class="button primary">登录</RouterLink>
   </div>
-  <template v-else
+  <template v-if="!loading && state.user && state.user.role !== 'user'"
     ><div class="tabs">
       <button
         v-if="state.user.role === 'admin'"
@@ -413,6 +450,11 @@ async function reviewFeedback(
             </tr>
           </tbody>
         </table>
+      </div>
+      <div class="admin-toolbar">
+        <button class="button" :disabled="bankLoading || page <= 1" @click="turnPage(-1)">上一页</button>
+        <span>第 {{ page }} 页 · 共 {{ total }} 道题</span>
+        <button class="button" :disabled="bankLoading || page * 30 >= total" @click="turnPage(1)">下一页</button>
       </div>
     </section>
     <section v-if="tab === 'feedback' && state.user.role === 'admin'">

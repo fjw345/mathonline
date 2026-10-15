@@ -285,7 +285,18 @@ class SupabaseStore:
             cached = self._cache.get("catalog")
             if cached and cached[0] > monotonic():
                 return deepcopy(cached[1])
-        rows = self.list("problems", status="published")
+        # Statistics need no image IDs, titles or answer/grading metadata.
+        rows, offset = [], 0
+        while True:
+            part = self.request(
+                "GET", "/rest/v1/problems",
+                params={"status": "eq.published", "select": "id,year,type,tags",
+                        "order": "id", "offset": offset, "limit": 500},
+            )
+            rows.extend(part)
+            if len(part) < 500:
+                break
+            offset += 500
         result = {
             "total": len(rows),
             "years": sorted({p["year"] for p in rows}, reverse=True),

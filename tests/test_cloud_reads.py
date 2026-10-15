@@ -183,6 +183,7 @@ def test_cloud_catalog_cache_is_public_and_expires(monkeypatch):
 
     db = cloud(handler, monkeypatch)
     first = db.catalog()
+    assert calls[0].url.params["select"] == "id,year,type,tags"
     first["tags"].append("must not change cached value")
     assert db.catalog()["tags"] == ["竞赛"] and len(calls) == 1
     clock[0] += 31

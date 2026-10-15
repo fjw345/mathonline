@@ -6,7 +6,7 @@ from typing import Literal
 from uuid import uuid4
 
 import httpx
-from fastapi import FastAPI, File, Form, HTTPException, Request, Response, UploadFile
+from fastapi import FastAPI, File, Form, HTTPException, Query, Request, Response, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
@@ -879,11 +879,28 @@ def media(aid: str, request: Request):
 
 
 @app.get("/api/v1/admin/problems")
-def admin_problems(request: Request):
+def admin_problems(
+    request: Request,
+    page: int | None = Query(default=None, ge=1),
+    page_size: int = Query(default=30, ge=1, le=60),
+    q: str = "",
+    pid: str = "",
+    status: Literal["", "draft", "published", "archived"] = "",
+):
     require_admin(request)
     with read_store(store) as reader:
         result = []
         rows = reader.list("problems")
+        if pid:
+            rows = [p for p in rows if p["id"] == pid]
+        if status:
+            rows = [p for p in rows if p["status"] == status]
+        if q:
+            rows = [p for p in rows if q.lower() in (p["title"] + p["id"]).lower()]
+        rows = sorted(rows, key=lambda p: (-p["year"], p["id"]))
+        total = len(rows)
+        if page is not None:
+            rows = rows[(page - 1) * page_size : page * page_size]
         if hasattr(reader, "prepare_problems"):
             reader.prepare_problems(rows, admin=True)
         for p in rows:
@@ -899,7 +916,7 @@ def admin_problems(request: Request):
                     "source": reader.get("problem_sources", id=p["source_id"]),
                 }
             )
-        return result
+        return {"items": result, "total": total} if page is not None else result
 
 
 @app.post("/api/v1/admin/problems")

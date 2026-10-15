@@ -8,6 +8,19 @@ from backend.store import LocalStore
 from scripts.build_image_manifest import parse_name
 
 
+def test_admin_bank_pagination_search_and_permissions(env):
+    client = env["admin"]
+    first = client.get("/api/v1/admin/problems?page=1&page_size=2").json()
+    second = client.get("/api/v1/admin/problems?page=2&page_size=2").json()
+    assert first["total"] == second["total"] == 3
+    assert len(first["items"]) == 2 and len(second["items"]) == 1
+    assert not ({p["id"] for p in first["items"]} & {p["id"] for p in second["items"]})
+    result = client.get("/api/v1/admin/problems?page=1&q=test-q2").json()
+    assert result["total"] == 1 and result["items"][0]["id"] == "test-q2"
+    assert client.get("/api/v1/admin/problems?page=0").status_code == 422
+    assert env["one"].get("/api/v1/admin/problems?page=1").status_code == 403
+
+
 def test_screenshot_names_and_order():
     assert parse_name("1 (4)上") == ("1.4", 0)
     assert parse_name("1(4)下") == ("1.4", 2)
