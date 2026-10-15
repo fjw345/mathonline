@@ -1,0 +1,1301 @@
+{
+  "item": {
+    "id": "2026-d22",
+    "name": "2026考研数学二参考答案.pdf",
+    "path": "data/math2_2010_2026/sources/2026-d22.pdf",
+    "format": "pdf",
+    "pages": 2,
+    "year": 2026,
+    "mode": "answers",
+    "original_path": "devided-math/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2026考研数学真题及答案（数二）/26数二参考答案.pdf",
+    "original_sha256": "72b876235805399180332b320ef92e18637ce0b29cd46cba81c77e9bd25a2069",
+    "page_offset": 0
+  },
+  "engine_version": 8,
+  "status": "detected",
+  "pdf_path": "data/math2_2010_2026/sources/2026-d22.pdf",
+  "pdf_sha256": "4a6a26558dbfe2a02d2e3ec40784643708b8c8941e1cdd53bf213ddeab8b95ed",
+  "pages": [
+    {
+      "id": "2026-d22-p1",
+      "document_id": "2026-d22",
+      "number": 1,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 10,
+      "unassigned": [
+        [
+          0.025,
+          0.1263610451306413,
+          0.985,
+          0.3039144893111639
+        ],
+        [
+          0.025,
+          0.3039144893111639,
+          0.985,
+          0.35973396674584324
+        ]
+      ],
+      "status": "located"
+    },
+    {
+      "id": "2026-d22-p2",
+      "document_id": "2026-d22",
+      "number": 2,
+      "width": 595.0,
+      "height": 842.0,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 12,
+      "unassigned": [
+        [
+          0.025,
+          0.11567220902612828,
+          0.985,
+          0.1394251781472684
+        ]
+      ],
+      "status": "located"
+    }
+  ],
+  "questions": [
+    {
+      "id": "2026-d22-q12fd7db50f8a",
+      "document_id": "2026-d22",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-q12fd7db50f8a-r1",
+          "page_id": "2026-d22-p1",
+          "bbox": [
+            0.025,
+            0.35973396674584324,
+            0.985,
+            0.41102137767220903
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.18487394957983194,
+          0.37292161520190026,
+          0.2630252100840336,
+          0.3842042755344418
+        ],
+        "text": "1【答案】",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": ",b=-1\n1【答案】\n考点：泰勒公式求参数\n(A)",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-q7fe5f4082ab9",
+      "document_id": "2026-d22",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-q7fe5f4082ab9-r1",
+          "page_id": "2026-d22-p1",
+          "bbox": [
+            0.025,
+            0.40902137767220903,
+            0.985,
+            0.4597149643705463
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.18319327731092436,
+          0.42280285035629456,
+          0.26134453781512607,
+          0.4352731591448931
+        ],
+        "text": "2【答案】",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "(B) 2:\n2【答案】\n考点：齐与非解的关系",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-q4189277530b6",
+      "document_id": "2026-d22",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-q4189277530b6-r1",
+          "page_id": "2026-d22-p1",
+          "bbox": [
+            0.025,
+            0.4577149643705463,
+            0.985,
+            0.49712589073634206
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.18319327731092436,
+          0.47149643705463185,
+          0.26134453781512607,
+          0.4839667458432304
+        ],
+        "text": "3【答案】",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "考点：偏导数基本计算\n(A)\n3【答案】\nax",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-q71254023a922",
+      "document_id": "2026-d22",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-q71254023a922-r1",
+          "page_id": "2026-d22-p1",
+          "bbox": [
+            0.025,
+            0.49512589073634206,
+            0.985,
+            0.578479809976247
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.18403361344537816,
+          0.5172209026128266,
+          0.26134453781512607,
+          0.5296912114014252
+        ],
+        "text": "4【答案】",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "2Gm\n(D)\n4【答案】\n考点：引力计算水平左右抵消只要竖直方向\ndx\n(x2 +1)2\n注：25年已考今年再考，边角考点喜欢梅开二度",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-q354ea99b7ea8",
+      "document_id": "2026-d22",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-q354ea99b7ea8-r1",
+          "page_id": "2026-d22-p1",
+          "bbox": [
+            0.025,
+            0.576479809976247,
+            0.985,
+            0.6455819477434679
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.18319327731092436,
+          0.588479809976247,
+          0.5403361344537815,
+          0.6027315914489311
+        ],
+        "text": "5【答案】（C）当f(x)的图形在[-1,1]是凹的，",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "5【答案】（C）当f(x)的图形在[-1,1]是凹的，\nx-1\n考点：凸凹性与单调性定义",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-q8e61ea9f9871",
+      "document_id": "2026-d22",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-q8e61ea9f9871-r1",
+          "page_id": "2026-d22-p1",
+          "bbox": [
+            0.025,
+            0.6435819477434679,
+            0.985,
+            0.6859619952494062
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.18319327731092436,
+          0.6555819477434679,
+          0.43025210084033616,
+          0.671021377672209
+        ],
+        "text": "6【答案】（B）g(0)=l,g(0)=",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "6【答案】（B）g(0)=l,g(0)=\n考点：原函数与反函数的导数计算\n3e",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-q0dd932a6680d",
+      "document_id": "2026-d22",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-q0dd932a6680d-r1",
+          "page_id": "2026-d22-p1",
+          "bbox": [
+            0.025,
+            0.6839619952494062,
+            0.985,
+            0.737624703087886
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.18487394957983194,
+          0.7054631828978623,
+          0.2638655462184874,
+          0.7173396674584323
+        ],
+        "text": "7【答案】",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "lm()\n(d)\n7【答案】\n考点：二重积分与数列极限2n等分\n2n'2n'n\n2 n→00\ni=l j=l",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-q942b86e410e9",
+      "document_id": "2026-d22",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-q942b86e410e9-r1",
+          "page_id": "2026-d22-p1",
+          "bbox": [
+            0.025,
+            0.735624703087886,
+            0.985,
+            0.7619714964370546
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.18319327731092436,
+          0.7494061757719715,
+          0.2605042016806723,
+          0.7618764845605701
+        ],
+        "text": "8【答案】",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "（B）A-为置换矩阵\n考点：初等变换的逆矩阵\n8【答案】",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-q5b2ea11bccbf",
+      "document_id": "2026-d22",
+      "number": "9",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-q5b2ea11bccbf-r1",
+          "page_id": "2026-d22-p1",
+          "bbox": [
+            0.025,
+            0.7599714964370546,
+            0.985,
+            0.7797862232779097
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.18319327731092436,
+          0.7719714964370546,
+          0.2630252100840336,
+          0.7862232779097387
+        ],
+        "text": "9【答案】",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "（B）A-为置换矩阵\n9【答案】\n（A）α=-1,b=-1考点：非齐次有解充要条件两秩相等",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-qc1708ecc5476",
+      "document_id": "2026-d22",
+      "number": "10",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-qc1708ecc5476-r1",
+          "page_id": "2026-d22-p1",
+          "bbox": [
+            0.025,
+            0.7777862232779097,
+            0.985,
+            0.96
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.18487394957983194,
+          0.7897862232779097,
+          0.5882352941176471,
+          0.8028503562945368
+        ],
+        "text": "10【答案】（D）A－B只有一个线性无关的特征向量",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "9【答案】\n（A）α=-1,b=-1考点：非齐次有解充要条件两秩相等\n10【答案】（D）A－B只有一个线性无关的特征向量\n考点：矩阵运算,f(A)=O=→f(2)=0,特征向量定义",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-q15c61335c2a1",
+      "document_id": "2026-d22",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-q15c61335c2a1-r1",
+          "page_id": "2026-d22-p2",
+          "bbox": [
+            0.025,
+            0.1394251781472684,
+            0.985,
+            0.18477434679334917
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.18487394957983194,
+          0.1514251781472684,
+          0.7739495798319328,
+          0.16508313539192399
+        ],
+        "text": "11【答案】0<p<2考点：反常积分敛散性判别拆分化简被积函数套公式",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "11【答案】0<p<2考点：反常积分敛散性判别拆分化简被积函数套公式",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-q6606f4de179a",
+      "document_id": "2026-d22",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-q6606f4de179a-r1",
+          "page_id": "2026-d22-p2",
+          "bbox": [
+            0.025,
+            0.18277434679334917,
+            0.985,
+            0.21802850356294537
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.18403361344537816,
+          0.19536817102137768,
+          0.2689075630252101,
+          0.20902612826603326
+        ],
+        "text": "12【答案】",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "考点：无穷减无穷通分即可\n12【答案】",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-qfc34f76f9fd1",
+      "document_id": "2026-d22",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-qfc34f76f9fd1-r1",
+          "page_id": "2026-d22-p2",
+          "bbox": [
+            0.025,
+            0.21602850356294537,
+            0.985,
+            0.23524940617577197
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.18403361344537816,
+          0.22921615201900236,
+          0.27058823529411763,
+          0.24109263657957244
+        ],
+        "text": "13【答案】",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "4考点：隐函数求导曲率与曲率半径\n13【答案】",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-q07cdce02d259",
+      "document_id": "2026-d22",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-q07cdce02d259-r1",
+          "page_id": "2026-d22-p2",
+          "bbox": [
+            0.025,
+            0.23324940617577197,
+            0.985,
+            0.25128266033254154
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.18319327731092436,
+          0.24524940617577198,
+          0.26974789915966385,
+          0.2589073634204275
+        ],
+        "text": "14【答案】",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "4考点：隐函数求导曲率与曲率半径\n13【答案】\n14【答案】\n-2元考点：二元函数求导",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-q447592b7f1ef",
+      "document_id": "2026-d22",
+      "number": "15",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-q447592b7f1ef-r1",
+          "page_id": "2026-d22-p2",
+          "bbox": [
+            0.025,
+            0.24928266033254154,
+            0.985,
+            0.2762232779097387
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.18319327731092436,
+          0.26128266033254155,
+          0.515126050420168,
+          0.2755344418052256
+        ],
+        "text": "15【答案】3ln2-1考点：积分中值定理",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "14【答案】\n-2元考点：二元函数求导\n15【答案】3ln2-1考点：积分中值定理",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-qbdef7233b006",
+      "document_id": "2026-d22",
+      "number": "16",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-qbdef7233b006-r1",
+          "page_id": "2026-d22-p2",
+          "bbox": [
+            0.025,
+            0.2742232779097387,
+            0.985,
+            0.3415439429928741
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.18403361344537816,
+          0.28741092636579574,
+          0.28907563025210087,
+          0.3004750593824228
+        ],
+        "text": "16【答案】2",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "考点：规范形定义r(AA）=r(A）秩为1行成比例\n16【答案】2\n三解答题17-22题共70分",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-qc90291e7ba70",
+      "document_id": "2026-d22",
+      "number": "17",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-qc90291e7ba70-r1",
+          "page_id": "2026-d22-p2",
+          "bbox": [
+            0.025,
+            0.3395439429928741,
+            0.985,
+            0.37895486935866984
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.18235294117647058,
+          0.3515439429928741,
+          0.3873949579831933,
+          0.37232779097387175
+        ],
+        "text": "17【答案】4sin√2-2√2",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "17【答案】4sin√2-2√2\n考点：极坐标计算与基本定积分分部积分计算",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-q4bc9bd00a342",
+      "document_id": "2026-d22",
+      "number": "18",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-q4bc9bd00a342-r1",
+          "page_id": "2026-d22-p2",
+          "bbox": [
+            0.025,
+            0.37695486935866984,
+            0.985,
+            0.4757482185273159
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.18319327731092436,
+          0.41092636579572445,
+          0.34369747899159664,
+          0.42636579572446553
+        ],
+        "text": "18【答案】f(x)=",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "3x'g(x3)- f\ng(u)du\n，x0\n18【答案】f(x)=\nf'(x)在x=0处连续\nx=0\n0,\n考点：变限积分求导讨论x，导数定义，",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-qfe40918a7f94",
+      "document_id": "2026-d22",
+      "number": "19",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-qfe40918a7f94-r1",
+          "page_id": "2026-d22-p2",
+          "bbox": [
+            0.025,
+            0.4737482185273159,
+            0.985,
+            0.5042517814726841
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.18319327731092436,
+          0.4857482185273159,
+          0.46050420168067224,
+          0.5029691211401425
+        ],
+        "text": "19【答案】极大值为f(-2,0)=8e-2",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "19【答案】极大值为f(-2,0)=8e-2\n考点：多元函数极值点计算",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-qb05ccfcd9444",
+      "document_id": "2026-d22",
+      "number": "20",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-qb05ccfcd9444-r1",
+          "page_id": "2026-d22-p2",
+          "bbox": [
+            0.025,
+            0.5022517814726841,
+            0.985,
+            0.5879809976247031
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.1815126050420168,
+          0.5255344418052257,
+          0.39327731092436974,
+          0.5486935866983373
+        ],
+        "text": "20【答案】旋转体体积为",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "²_ V3元\n20【答案】旋转体体积为\n16\n考点：先求拐点，旋转体为一个锥和无穷积分计算",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-qd9f7a709ac6c",
+      "document_id": "2026-d22",
+      "number": "21",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-qd9f7a709ac6c-r1",
+          "page_id": "2026-d22-p2",
+          "bbox": [
+            0.025,
+            0.5859809976247031,
+            0.985,
+            0.6438004750593824
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.18403361344537816,
+          0.5979809976247031,
+          0.3067226890756303,
+          0.6098574821852731
+        ],
+        "text": "21【答案】y=",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "21【答案】y=\n考点：可降阶微分方程或直接转换为商的求导公式",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2026-d22-qc6a8f8f251be",
+      "document_id": "2026-d22",
+      "number": "22",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2026年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2026-d22-qc6a8f8f251be-r1",
+          "page_id": "2026-d22-p2",
+          "bbox": [
+            0.025,
+            0.6418004750593824,
+            0.985,
+            0.96
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2026",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.18235294117647058,
+          0.6538004750593824,
+          0.5218487394957984,
+          0.6692399049881235
+        ],
+        "text": "22【答案】（1）r(A)=2且α,α,线性无关",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "22【答案】（1）r(A)=2且α,α,线性无关\n-9\n-8\n０-1\n-1\n-1\n(2)\n-10\n-1\n10\n-1\n-8\n考点：极大线性无关组定义及表示其余向量\n矩阵乘法计算",
+      "record_type": "answer",
+      "suspected_answer_in_stem": true
+    }
+  ],
+  "issues": []
+}

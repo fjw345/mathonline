@@ -1,0 +1,2320 @@
+{
+  "item": {
+    "id": "2025-d0",
+    "name": "2025考研数学二真题及解析.pdf",
+    "path": "data/math2_2010_2026/sources/2025-d0.pdf",
+    "format": "pdf",
+    "pages": 21,
+    "year": 2025,
+    "mode": "combined",
+    "original_path": "devided-math/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2025考研数学（二）真题试卷及解析详细版.pdf",
+    "original_sha256": "ff4630af06fc97fefc9f9ef9d3cfc1e17998b7a6863cd476b5e86d64061d95fc",
+    "page_offset": 0
+  },
+  "engine_version": 8,
+  "status": "detected",
+  "pdf_path": "data/math2_2010_2026/sources/2025-d0.pdf",
+  "pdf_sha256": "8eb040f63306f65a610e2d031a545a2c24a20059a316dfd6b50194c196319bef",
+  "pages": [
+    {
+      "id": "2025-d0-p1",
+      "document_id": "2025-d0",
+      "number": 1,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 3,
+      "unassigned": [
+        [
+          0.025,
+          0.09492043552489657,
+          0.985,
+          0.17765199443620355
+        ],
+        [
+          0.025,
+          0.17765199443620355,
+          0.985,
+          0.243448656853898
+        ]
+      ],
+      "status": "located"
+    },
+    {
+      "id": "2025-d0-p2",
+      "document_id": "2025-d0",
+      "number": 2,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 2,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2025-d0-p3",
+      "document_id": "2025-d0",
+      "number": 3,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 2,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2025-d0-p4",
+      "document_id": "2025-d0",
+      "number": 4,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2025-d0-p5",
+      "document_id": "2025-d0",
+      "number": 5,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2025-d0-p6",
+      "document_id": "2025-d0",
+      "number": 6,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 2,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2025-d0-p7",
+      "document_id": "2025-d0",
+      "number": 7,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2025-d0-p8",
+      "document_id": "2025-d0",
+      "number": 8,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 2,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2025-d0-p9",
+      "document_id": "2025-d0",
+      "number": 9,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 0,
+      "unassigned": [],
+      "status": "continuation"
+    },
+    {
+      "id": "2025-d0-p10",
+      "document_id": "2025-d0",
+      "number": 10,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 2,
+      "unassigned": [
+        [
+          0.025,
+          0.7881525423532328,
+          0.985,
+          0.820732614668013
+        ]
+      ],
+      "status": "located"
+    },
+    {
+      "id": "2025-d0-p11",
+      "document_id": "2025-d0",
+      "number": 11,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2025-d0-p12",
+      "document_id": "2025-d0",
+      "number": 12,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 0,
+      "unassigned": [],
+      "status": "continuation"
+    },
+    {
+      "id": "2025-d0-p13",
+      "document_id": "2025-d0",
+      "number": 13,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 2,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2025-d0-p14",
+      "document_id": "2025-d0",
+      "number": 14,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2025-d0-p15",
+      "document_id": "2025-d0",
+      "number": 15,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 0,
+      "unassigned": [],
+      "status": "continuation"
+    },
+    {
+      "id": "2025-d0-p16",
+      "document_id": "2025-d0",
+      "number": 16,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 3,
+      "unassigned": [
+        [
+          0.025,
+          0.1076479448846973,
+          0.985,
+          0.14183591396154197
+        ]
+      ],
+      "status": "located"
+    },
+    {
+      "id": "2025-d0-p17",
+      "document_id": "2025-d0",
+      "number": 17,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 0,
+      "unassigned": [],
+      "status": "continuation"
+    },
+    {
+      "id": "2025-d0-p18",
+      "document_id": "2025-d0",
+      "number": 18,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 3,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2025-d0-p19",
+      "document_id": "2025-d0",
+      "number": 19,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2025-d0-p20",
+      "document_id": "2025-d0",
+      "number": 20,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 0,
+      "unassigned": [],
+      "status": "continuation"
+    },
+    {
+      "id": "2025-d0-p21",
+      "document_id": "2025-d0",
+      "number": 21,
+      "width": 521.6500244140625,
+      "height": 737.0999755859375,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    }
+  ],
+  "questions": [
+    {
+      "id": "2025-d0-q2d90531bd1e5",
+      "document_id": "2025-d0",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-q2d90531bd1e5-r1",
+          "page_id": "2025-d0-p1",
+          "bbox": [
+            0.025,
+            0.243448656853898,
+            0.985,
+            0.5130653444673298
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.09776671186142417,
+          0.2673076614152638,
+          0.18795982584651832,
+          0.28637595239605435
+        ],
+        "text": "1. 设函数",
+        "style": "arabic"
+      },
+      "text_hint": "确定,则z\nz\n\n\n\nln\nd\n0\n( , )\n\nz\nz x y\nz\nz\ne\nt\n\n\n\n\n\n\n1. 设函数\n由\nx\ny\n\n\n\n\nz\n\n\ne\ne\n\nA.\n.\n1\nz\n\n\n\nz\n\n\ne\n+e\nB.\n.\n1\nz\n\n\n\nz\nx\ny\n\n\ne\ne\n\n\nC.\n.\n1\nz\n\n\n\nz\nx\ny\n\n\ne\ne\n\n\nD.\n.\n1\nz\n",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-q16ab6d11c677",
+      "document_id": "2025-d0",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-q16ab6d11c677-r1",
+          "page_id": "2025-d0-p1",
+          "bbox": [
+            0.025,
+            0.5110653444673298,
+            0.985,
+            0.5334269581140326
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2025-d0-q16ab6d11c677-r2",
+          "page_id": "2025-d0-p1",
+          "bbox": [
+            0.025,
+            0.5314269581140326,
+            0.985,
+            0.7374155489860347
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.09776672648692819,
+          0.5230653444673298,
+          0.2079265639402465,
+          0.5421336354481203
+        ],
+        "text": "1.【答案】A",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "1.【答案】A\n1.【答案】A\n【解析】\n,分别对\n求偏导,得:",
+      "record_type": "answer",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-q5d7a07b11482",
+      "document_id": "2025-d0",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-q5d7a07b11482-r1",
+          "page_id": "2025-d0-p1",
+          "bbox": [
+            0.025,
+            0.7354155489860347,
+            0.985,
+            0.9674145732184251
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2025-d0-q5d7a07b11482-r2",
+          "page_id": "2025-d0-p2",
+          "bbox": [
+            0.025,
+            0.07093982762266941,
+            0.985,
+            0.11615985224705601
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2025-d0-q5d7a07b11482-r3",
+          "page_id": "2025-d0-p2",
+          "bbox": [
+            0.025,
+            0.114159852247056,
+            0.985,
+            0.14523457423526365
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2025-d0-q5d7a07b11482-r4",
+          "page_id": "2025-d0-p2",
+          "bbox": [
+            0.025,
+            0.14323457423526365,
+            0.985,
+            0.49592941947623537
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.09776669723592014,
+          0.7526135981794946,
+          0.19325042642119533,
+          0.771681889160285
+        ],
+        "text": "2.已知函数",
+        "style": "arabic"
+      },
+      "text_hint": "\n,\n\n\n2\n0 e sin d\n0 e d sin\nf x\nt t\ng x\nt\nx\n\n2.已知函数\n,则\nf x 的极值点,也是\n\ng x 的极值点.\n0\nx \nA.\n是\nf x 的极值点,\n\n\n\n0,0 是曲线\ny\ng x\n\n0\nx \nB.\n是\n的拐点.\nf x 的极值点,\n\n\n\n0,0 是曲线\ny\nf x\n\n0\nx \nC.\n是\n的拐点.\n数学试题及解析 第1页\nD.\n\n\n的拐点,\n\n\n0,0 是曲线\n0,0 也是曲线\ny\nf x\ny\ng x\n\n\n的拐点.",
+      "answer_hint": "【答案】B\n【解析】\n( )\nsin ,\n( )\n2\nsin\ncos\n\nf\nx\ne\nx f\nx\nxe\nx\ne\nx\n\n\n\n(0)\n0,\n(0)\n1\n0\n\nf\nf\n\n\n( )\n0\nf x\nx \n的极值点.\n是\n\n2\n( )\nsin\nsin 2\ng x\ne\nx\nx\ne dt\n\n\n0\n\n2\n( )\nsin 2\n2\nsin\nsin 2\n2cos2\n\ng\nx\ne\nx\nxe\nx\nxe\nx\ne dt\n\n\n\n\n0\n(0)\n0,\n(0)\n0,\n(0)\n0\n\n\ng\ng\ng\n\n\n\n(0,0) 是\n( )\ny\ng x\n\n的拐点.",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-qec1f29e105d2",
+      "document_id": "2025-d0",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-qec1f29e105d2-r1",
+          "page_id": "2025-d0-p2",
+          "bbox": [
+            0.025,
+            0.49392941947623537,
+            0.985,
+            0.6400494425356179
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.09776672648692819,
+          0.5128102620545473,
+          0.2537481949202933,
+          0.5318785530353378
+        ],
+        "text": "3.如果对微分方程",
+        "style": "arabic"
+      },
+      "text_hint": "\n+\n\n\n任一解\nd\n\n\n0\ny -2ay + a+2 y\ny x ,反常积分\ny x\nx\n均收敛,则a 的\n\n3.如果对微分方程\n0\n取值范围为\n2\n1]\n1]\n\n\n\nA.\nB.\n(\n,\n(\n,\n2\n\nD. \nC.\n,0).\n,0).\n(\n(",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-q113d69d83883",
+      "document_id": "2025-d0",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-q113d69d83883-r1",
+          "page_id": "2025-d0-p2",
+          "bbox": [
+            0.025,
+            0.6380494425356179,
+            0.985,
+            0.6604110975845445
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2025-d0-q113d69d83883-r2",
+          "page_id": "2025-d0-p2",
+          "bbox": [
+            0.025,
+            0.6584110975845445,
+            0.985,
+            0.9798344123028861
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.09776675573793624,
+          0.6500494425356179,
+          0.21692649947102477,
+          0.6691177335164085
+        ],
+        "text": "3. 【答案】C",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "3. 【答案】C\n3. 【答案】C\n4\n0\n\ny\ny\n\n\n【解析】当\n时,\n,通解:\n,\n时,\n不收敛.\n故B、D 排除.\n当\n时,\n,通解:\n收敛.\n数学试题",
+      "record_type": "answer",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-q5ae18774c289",
+      "document_id": "2025-d0",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-q5ae18774c289-r1",
+          "page_id": "2025-d0-p3",
+          "bbox": [
+            0.025,
+            0.07093982762266941,
+            0.985,
+            0.30142508441499405
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.09776672648692819,
+          0.08822746605307467,
+          0.17323732547971069,
+          0.10729577773497707
+        ],
+        "text": "4.设函数",
+        "style": "arabic"
+      },
+      "text_hint": "f x ,\n\n时,\nf x 是\n0\n0\nx \nx \ng x 在\ng x\n某去心邻域内有定义且恒不为0,若\n4.设函数\n0\nx \n的高阶无穷小,则当\n时\n\n\no\n\n\n\nf x\ng x\ng x\n\n\nA.\n\n\no\n\n\n2\nf x g x\nf\nx\n\nB.\n\n\no\n\n\ng x\ne\n1\nf x\n\n\nC.\n\n\no\n\n\n2\nf x\ng\nx\n\nD.",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-q545e86ab44ff",
+      "document_id": "2025-d0",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-q545e86ab44ff-r1",
+          "page_id": "2025-d0-p3",
+          "bbox": [
+            0.025,
+            0.29942508441499405,
+            0.985,
+            0.3217867187628088
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2025-d0-q545e86ab44ff-r2",
+          "page_id": "2025-d0-p3",
+          "bbox": [
+            0.025,
+            0.3197867187628088,
+            0.985,
+            0.9798344123028861
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2025-d0-q545e86ab44ff-r3",
+          "page_id": "2025-d0-p4",
+          "bbox": [
+            0.025,
+            0.138677597074552,
+            0.985,
+            0.44157045259089317
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.09776669723592014,
+          0.31142508441499406,
+          0.20680472927958043,
+          0.33049337539578455
+        ],
+        "text": "4.【答案】C",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "4.【答案】C\n4.【答案】C\n高阶无穷小.\n【解析】由题易知,\n时,\n是\n则有\n及\n,\n某去心邻域内有定义且不恒等于0.\n又\n,\n在\n故对于\n选项,等式两端同除\n得:\n取极限得\n,显然A 不成立.\n即\n对于B 选项,等式两端同除\n得\n, 即\n,显然不成立.\n两端取极限得\n对于C 选项,等式两端同除\n得\n数学试题\n取极限得\n正确.\n显然有\n,故\n对于D 等式两端同除\n得\n,显然不成立.\n取极限得\n综上选C.",
+      "record_type": "answer",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-qb77b139fdf59",
+      "document_id": "2025-d0",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-qb77b139fdf59-r1",
+          "page_id": "2025-d0-p4",
+          "bbox": [
+            0.025,
+            0.43957045259089317,
+            0.985,
+            0.717379522427005
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2025-d0-qb77b139fdf59-r2",
+          "page_id": "2025-d0-p4",
+          "bbox": [
+            0.025,
+            0.715379522427005,
+            0.985,
+            0.7475951965471208
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2025-d0-qb77b139fdf59-r3",
+          "page_id": "2025-d0-p4",
+          "bbox": [
+            0.025,
+            0.7455951965471208,
+            0.985,
+            0.9827752122567806
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2025-d0-qb77b139fdf59-r4",
+          "page_id": "2025-d0-p5",
+          "bbox": [
+            0.025,
+            0.2130246260426943,
+            0.985,
+            0.5730825876654826
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 4,
+        "bbox": [
+          0.10788845280186046,
+          0.45875924490955516,
+          0.19831085081354075,
+          0.4778275358903457
+        ],
+        "text": "5.设函数",
+        "style": "arabic"
+      },
+      "text_hint": "2\n4\n\n\n\n\nd\nd\n( , )\nx\nf x y\ny\nf x y 连续,则\n\n5.设函数\n2\n4\n\n\n\n\n4\n4\n2\n\n\n\n\n\n\n\n\nd\nd\nd\nf x y\nx\nf x y\nx\ny\n\nA.\n.\n\n\n\n\n0\n2\n4\n\n\n\n\n4\n4\n2\n\n\n\n\n\n\n\nd\nd\nd\nf x y\nx\nf x y\nx\ny\n\nB.\n.\n\n\n\n\n0\n2\n4\n\n\n\n\n4\n4\n4\n\n\n\n\n\n\n\n\n\nd\nd\nd\nf x y\nx\nf x y\nx\ny\n\nC.\n.\n\n\n\n\n0\n2\n2\n\n4\n2\n\n\n\n\n2\nd\nd\ny\nf x y\nx\nD.\n.\n0\n4\n",
+      "answer_hint": "\n\n0\n4\n\n【答案】A\n【解析】由题易知,此二重积分积分区域为\n数学试题 第4页\n\n\n2\nD\n( , ) 4\n4, 2\n2\nx y\nx\ny\nx\n\n\n\n\n\n\n,对应图像为上图所示。\n\n\n\n\n2\n2\nD\n( , ) 4\n4, 2\n0\nD\n( , ) 4\n4,0\n2\nx y\nx\ny\nx\nx y\nx\ny\nx\n\n\n\n\n\n\n\n\n\n\n\n\n记\n,\n,且\n1\n2\n2\n4\n\n\n\n\n\n\n\n\n\n\nI=\nd\nd\nI=\nd\nd\nx\nf x y\ny\nf x y\nf x y\n\n\n\n,则\n,交换积分次序得\n2\n4\n\n\nD\nD\n4\n4\n4\n2\n\n\n\n\n\n\n\n\n\n\nI=\nd\nd\nd\nd\ny\nf x y\nx\ny\nf x y\nx\n\n0\n2\n0\n4\n\n\n\n\n4\n4\n2\n\n\n\n\n\n\n\n\nd\nd\nd\nf x y\nx\nf x y\nx\ny\n\n\n\n\n\n\n0\n2\n4\n\n\n故A 正确。",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-q2dc740c9f6fb",
+      "document_id": "2025-d0",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-q2dc740c9f6fb-r1",
+          "page_id": "2025-d0-p5",
+          "bbox": [
+            0.025,
+            0.5710825876654826,
+            0.985,
+            0.7776155349755222
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2025-d0-q2dc740c9f6fb-r2",
+          "page_id": "2025-d0-p5",
+          "bbox": [
+            0.025,
+            0.7756155349755222,
+            0.985,
+            0.8150596233424413
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2025-d0-q2dc740c9f6fb-r3",
+          "page_id": "2025-d0-p5",
+          "bbox": [
+            0.025,
+            0.8130596233424413,
+            0.985,
+            0.9798344123028861
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2025-d0-q2dc740c9f6fb-r4",
+          "page_id": "2025-d0-p6",
+          "bbox": [
+            0.025,
+            0.06662082526887018,
+            0.985,
+            0.48468014546422905
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 5,
+        "bbox": [
+          0.09776670454867216,
+          0.5865573935014738,
+          0.22361446457667825,
+          0.6056256844822644
+        ],
+        "text": "6. 设单位质点",
+        "style": "arabic"
+      },
+      "text_hint": "P Q 分别位于点(0,0) 和(0,1) 处,P 从点(0,0) 出发沿x 轴正向移动,记G 为\n6. 设单位质点\n引力常量,则当质点P 移动到点( ,0)\nl\n时,克服质点Q 的引力所做的功为(\n)\nGx\nG\n\nd\nx\n\nd\nx\nA.\nB.\n2\n(\n1)\nx \n2\n1\nx \n0\n0\nl G x\n(\n1) d\nG\n\n\n\nd\nx\nx\nC.\nD.\n2\n2\n(\n1)\n(\n1)\nx \nx\n\n0\n0",
+      "answer_hint": "【答案】A\n【解析】由题可知,其对应如图所示.\n单位质点P 与单位质点Q 之间的引力为\n数学试题\n为两质点间的距离.\n其中\n旦由图可知\n又引力F 在\n方向上的力投影为\n故克服引力做功为:\nG\nx\nGx\n1\n1\n1\n\n\n\nd\nd\nd\nW\nF x\nx\nx\n\n\n\nx\n3\n2\n(\n1)\nx\n\n2\n0\n0\n0\n1\nx\n\n2\n(1\n)\nx\n\n2",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-q0197b55663e5",
+      "document_id": "2025-d0",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-q0197b55663e5-r1",
+          "page_id": "2025-d0-p6",
+          "bbox": [
+            0.025,
+            0.48268014546422905,
+            0.985,
+            0.8370376626093039
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 6,
+        "bbox": [
+          0.09776669723592014,
+          0.4968558323229811,
+          0.17323729622870263,
+          0.5159241233037716
+        ],
+        "text": "7.设函数",
+        "style": "arabic"
+      },
+      "text_hint": "( )\nf x 连续,给出下列4 个条件:\n7.设函数\n( )\n(0)\nf x\nf\n\nlim\n1\n存在;\nx\n0\n\n( )\n(0)\nf x\nf\n\nlim\n2\n存在;\nx\n0\n\n( )\nf x\nlim\n3\n存在;\nx\n0\n\n( )\n(0)\nf x\nf\n\nlim\n存在.\n4\nx\n0\n\n( )\n0\nf x 在\nx \n其中可得到“\n处可导”的条件个数为\nA.1 .\nB.2 .\nC.3.\nD.4.",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-q0762d05e05f1",
+      "document_id": "2025-d0",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-q0762d05e05f1-r1",
+          "page_id": "2025-d0-p6",
+          "bbox": [
+            0.025,
+            0.8350376626093039,
+            0.985,
+            0.8573991934515593
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2025-d0-q0762d05e05f1-r2",
+          "page_id": "2025-d0-p6",
+          "bbox": [
+            0.025,
+            0.8553991934515593,
+            0.985,
+            0.9827752122567806
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2025-d0-q0762d05e05f1-r3",
+          "page_id": "2025-d0-p7",
+          "bbox": [
+            0.025,
+            0.07476910894796453,
+            0.985,
+            0.6525460827451596
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 6,
+        "bbox": [
+          0.09776672648692819,
+          0.8470376626093039,
+          0.2068047585305885,
+          0.8661059535900945
+        ],
+        "text": "7.【答案】B",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "A.1 .\nB.2 .\nC.3.\nD.4.\n7.【答案】B\n7.【答案】B\n【解析】1\n. 或\n为正.\n数学试题 第6页\n\n0\nx \n时. 有\n.则\n为正,则当\n若\n若\n,\n\nf x\nlim\nA\n\nx\n\n不存在.\n,则\n存在,若\n,则\n\n\nf x\nlim\nA\n\n\nx\n\n2由\n,则\n若\n,则\n从而2成立.\n若\n,则\n则同1,从而3错.\n3由\n存在,则\n处可导,4正确.\n4\n存在,则\n在\n处可导\n在\n从而13错误,24正确,选B.",
+      "record_type": "answer",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-q5b24dc69e353",
+      "document_id": "2025-d0",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-q5b24dc69e353-r1",
+          "page_id": "2025-d0-p7",
+          "bbox": [
+            0.025,
+            0.6505460827451596,
+            0.985,
+            0.8438766475393913
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2025-d0-q5b24dc69e353-r2",
+          "page_id": "2025-d0-p7",
+          "bbox": [
+            0.025,
+            0.8418766475393913,
+            0.985,
+            0.878162325864317
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2025-d0-q5b24dc69e353-r3",
+          "page_id": "2025-d0-p7",
+          "bbox": [
+            0.025,
+            0.876162325864317,
+            0.985,
+            0.9798344123028861
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2025-d0-q5b24dc69e353-r4",
+          "page_id": "2025-d0-p8",
+          "bbox": [
+            0.025,
+            0.07082146384020861,
+            0.985,
+            0.3163637519887558
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 7,
+        "bbox": [
+          0.09776675573793624,
+          0.6889599976682268,
+          0.17323732547971069,
+          0.7080282886490172
+        ],
+        "text": "8.设矩阵",
+        "style": "arabic"
+      },
+      "text_hint": "1\n2\n0\n\n\n\n\n2\n0\na\n8.设矩阵\n有一个正特征值和两个负特征值,则(\n)\n\n\n\n\n0\n0\nb\n\n\nA.\n4,\n0\nB.\n4,\n0\na\nb\na\nb\n\n\n\n\nC.\n4,\n0\nD.\n4,\n0\na\nb\na\nb\n\n\n\n",
+      "answer_hint": "【答案】D\n【解析】\n数学试题\n1\n2\n0\n\n\n\n\n\n\n2\n2\n2\n4\n2\n0\nf x x x\nx\nax\nbx\nx x\nA\na\n\n\n\n\n\n令\n,为实对称矩阵,对应二次型为\n,\n\n1\n2\n3\n1\n2\n3\n1\n2\n\n\n0\n0\nb\n\n\n则用配方法将其化为标准型,\n\n\n\n2\n2\n2\n2\n(\n4)\nf x x x\nx\nx\na\nx\nbx\n。已知A 有一正两\n\n\n\n\n\n1\n2\n3\n1\n2\n2\n3\n负特征值,则\n4\n0\n4\na\na\n\n\n\n\n\n,故选D.\n\n\n0\n0\nb\nb\n\n\n\n",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-qebe3f76560a3",
+      "document_id": "2025-d0",
+      "number": "9",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-qebe3f76560a3-r1",
+          "page_id": "2025-d0-p8",
+          "bbox": [
+            0.025,
+            0.3143637519887558,
+            0.985,
+            0.565975357727634
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 8,
+        "bbox": [
+          0.09776669723592014,
+          0.35629279851375956,
+          0.5405953094955558,
+          0.37046999638807
+        ],
+        "text": "9.下列矩阵中,可以经过若干初等行变换得到矩阵",
+        "style": "arabic"
+      },
+      "text_hint": "1\n1\n0\n1\n\n\n\n\n0\n0\n1\n2\n9.下列矩阵中,可以经过若干初等行变换得到矩阵\n的是\n\n\n\n\n0\n0\n0\n0\n\n\n1\n1\n0\n1\n1 1\n0\n1\n\n\n\n\n\n\n\n\n1\n2\n1\n3 .\n1 1\n2\n5 .\n\n\n\n\n\n\n\n\n2\n3\n1\n4\n1 1\n1\n3\n\n\n\n\nA.\nB.\n1\n0\n0\n1\n1\n1\n2\n3\n\n\n\n\n\n\n\n\n0\n1\n0\n3 .\n1\n2\n2\n3 .\n\n\n\n\n\n\n\n\n0\n1\n0\n0\n2\n3\n4\n6\n\n\n\n\nB.\nD.",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-qd72af33689aa",
+      "document_id": "2025-d0",
+      "number": "9",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-qd72af33689aa-r1",
+          "page_id": "2025-d0-p8",
+          "bbox": [
+            0.025,
+            0.563975357727634,
+            0.985,
+            0.6059590999024067
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2025-d0-qd72af33689aa-r2",
+          "page_id": "2025-d0-p8",
+          "bbox": [
+            0.025,
+            0.6039590999024067,
+            0.985,
+            0.9798344123028861
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2025-d0-qd72af33689aa-r3",
+          "page_id": "2025-d0-p9",
+          "bbox": [
+            0.025,
+            0.08494915254237288,
+            0.985,
+            0.9793898305084746
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 8,
+        "bbox": [
+          0.09776669723592014,
+          0.575975357727634,
+          0.20680474390508446,
+          0.5950436487084245
+        ],
+        "text": "9.【答案】B",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "\n\n\n\nB.\nD.\n9.【答案】B\n【解析】\nA 选项:\nB 选项:\nC 选项:\n数学试题\n3)\n/1\nD选项：\n12\n0/\n10\n数学试题",
+      "record_type": "answer",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-q432319fd9992",
+      "document_id": "2025-d0",
+      "number": "10",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-q432319fd9992-r1",
+          "page_id": "2025-d0-p10",
+          "bbox": [
+            0.025,
+            0.14161380138160876,
+            0.985,
+            0.3437531447059059
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2025-d0-q432319fd9992-r2",
+          "page_id": "2025-d0-p10",
+          "bbox": [
+            0.025,
+            0.3417531447059059,
+            0.985,
+            0.3837368454784549
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2025-d0-q432319fd9992-r3",
+          "page_id": "2025-d0-p10",
+          "bbox": [
+            0.025,
+            0.3817368454784549,
+            0.985,
+            0.7901525423532328
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 10,
+        "bbox": [
+          0.09776669723592014,
+          0.162462978131511,
+          0.2236158978760726,
+          0.1815312794628575
+        ],
+        "text": "10.设3 阶矩阵",
+        "style": "arabic"
+      },
+      "text_hint": "A B 满足(\n) = (\n) 1,\nAB\nBA\nr\nr\n+\n10.设3 阶矩阵\n则\n= 0\nA.方程组(\n+\n)\nA\nB x\n只有零解.\n= 0\n= 0\nAx\nBx\nB.方程组\n均只有零解.\n与方程组\n= 0\n= 0\nAx\nBx\nC.方程组\n没有公共非零解.\n与方程组\n= 0\n= 0\nABAx\nBABx\n有公共非零解.\nD.方程组\n与方程组",
+      "answer_hint": "= 0\n= 0\nABAx\nBABx\n有公共非零解.\nD.方程组\n与方程组\n【答案】D\n【解析】\n,则\n取\n,\n.排除B,C.\n,\n排除A,故选D.\n,",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-qca0c1438dc99",
+      "document_id": "2025-d0",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-qca0c1438dc99-r1",
+          "page_id": "2025-d0-p10",
+          "bbox": [
+            0.025,
+            0.820732614668013,
+            0.985,
+            0.8784597594398312
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2025-d0-qca0c1438dc99-r2",
+          "page_id": "2025-d0-p10",
+          "bbox": [
+            0.025,
+            0.8764597594398312,
+            0.985,
+            0.9827752122567806
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2025-d0-qca0c1438dc99-r3",
+          "page_id": "2025-d0-p11",
+          "bbox": [
+            0.025,
+            0.0753483415842445,
+            0.985,
+            0.3549637076386937
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 10,
+        "bbox": [
+          0.09776669723592014,
+          0.8447597950623046,
+          0.1421834461759221,
+          0.863828086043095
+        ],
+        "text": "11.设",
+        "style": "arabic"
+      },
+      "text_hint": "a\n\n\n______\nd\nln 2\na \nx\n\n11.设\n,则\n\n\n2\nx\nx\na\n\n1",
+      "answer_hint": "2\na \n【解析】\n数学试题 第10页\n原式\na\na\n\n\n\n\nd\nln\nln(2\n)\nd\nln\nln(2\n)\n\n\nx\nx\nx\na\nx\nx\nx\na\n\n\n\n\n\n\n\n\n1\n1\n(2\n)\n(2\n)\nx\nx\na\nx\nx\na\n\n\n1\n1\n1\nx\nx\nlim ln\nln\nlim\nln(2\n)\na\n\n\n\n\n\n2\n2\nx\na\na\nx\na\n\n\n\n\n\n1\nln\nln(2\n)\nln 2\na\n\n\n\n\n2\nln(2\n)\n2ln 2\n2\na\na\n\n\n\n",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-q79e14c17d109",
+      "document_id": "2025-d0",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-q79e14c17d109-r1",
+          "page_id": "2025-d0-p11",
+          "bbox": [
+            0.025,
+            0.3529637076386937,
+            0.985,
+            0.3860927562172477
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2025-d0-q79e14c17d109-r2",
+          "page_id": "2025-d0-p11",
+          "bbox": [
+            0.025,
+            0.3840927562172477,
+            0.985,
+            0.9827752122567806
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2025-d0-q79e14c17d109-r3",
+          "page_id": "2025-d0-p12",
+          "bbox": [
+            0.025,
+            0.08630508474576272,
+            0.985,
+            0.9793898305084746
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 11,
+        "bbox": [
+          0.09776669723592014,
+          0.3674297068904727,
+          0.16311672532858829,
+          0.38649799787126327
+        ],
+        "text": "12.曲线",
+        "style": "arabic"
+      },
+      "text_hint": "的渐近线方程为______ .\n3\n3\n2\n3\n1\ny\nx\nx\n\n\n\n12.曲线",
+      "answer_hint": "的渐近线方程为______ .\n3\n1\ny\nx\nx\n【解析】\n可得无水平渐近线、铅直渐近线,故求斜渐近线即可.\n故\n1\n1\n2\n1\nn\n\n\n\n\n\nlim\nln\n2ln\n1 ln\n______\nn\n\n\n\n\n\n\n13.\n\n\n2\nn\nn\nn\nn\n\n\nn\n\n【解析】\n数学试题 第11页\nlim\n2ln\nn-00\nn-\nlim\nn→00\nlim\nN→00\nlim\n-00\ni=1\nxlnxdx\nInxdx?\nJo\nJO\nxdx\n数学试题",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-q5b635cb514d1",
+      "document_id": "2025-d0",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-q5b635cb514d1-r1",
+          "page_id": "2025-d0-p13",
+          "bbox": [
+            0.025,
+            0.09385396599353828,
+            0.985,
+            0.17698064015455947
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2025-d0-q5b635cb514d1-r2",
+          "page_id": "2025-d0-p13",
+          "bbox": [
+            0.025,
+            0.17498064015455947,
+            0.985,
+            0.49784837114543223
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 13,
+        "bbox": [
+          0.09776669723592014,
+          0.13039264999570244,
+          0.2033721673616316,
+          0.14946096167760486
+        ],
+        "text": "14.已知函数",
+        "style": "arabic"
+      },
+      "text_hint": "\n\nln 1\n2\nx\nt\n\n\n\nd\ny\n\n______\ny\ny x\n\n\n14.已知函数\n由\n确定,则\ny t\n0\n\nd\nx\n\nu\n2\ne\nd\n0\n\nt\nu\n\n\n\n1",
+      "answer_hint": "【解析】\n由2两边关于\n求导,则\n时,\n当\n则",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-q028864fe49e6",
+      "document_id": "2025-d0",
+      "number": "15",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-q028864fe49e6-r1",
+          "page_id": "2025-d0-p13",
+          "bbox": [
+            0.025,
+            0.49584837114543223,
+            0.985,
+            0.5445374932742088
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2025-d0-q028864fe49e6-r2",
+          "page_id": "2025-d0-p13",
+          "bbox": [
+            0.025,
+            0.5425374932742087,
+            0.985,
+            0.5859360736416386
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2025-d0-q028864fe49e6-r3",
+          "page_id": "2025-d0-p13",
+          "bbox": [
+            0.025,
+            0.5839360736416386,
+            0.985,
+            0.9827752122567806
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2025-d0-q028864fe49e6-r4",
+          "page_id": "2025-d0-p14",
+          "bbox": [
+            0.025,
+            0.10286160975489388,
+            0.985,
+            0.4327283038684747
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 13,
+        "bbox": [
+          0.09776669723592014,
+          0.5078483711454322,
+          0.21372466950456045,
+          0.5337414874957832
+        ],
+        "text": "15.微分方程",
+        "style": "arabic"
+      },
+      "text_hint": "15.微分方程\n\n\n\n满足条件\n的解为______ .\n2\n3\nd\n2\n5\nd\n0\n1\n1\ny\nx\nx\nx\ny\ny\ny\n\n\n\n\n",
+      "answer_hint": "2\n2\n3\n4\n5\n4\nx\nxy\ny\n\n\n\n【答案】\n【解析】\n解:\n(2\n3 )d\n(2\n5 )d\n0\ny\nx\nx\nx\ny\ny =\n\n\n\n2 d\n2 d\n3 d\n5 d\n0\ny x\nx y\nx x\ny y =\n\n\n\n\n3\n5\n2\n2\nd(2\n)\nd(\n)\nd(\n)\n0\nxy\nx\ny\n=\n\n\n\n2\n2\n即\n3\n5\n2\n2\nd(2\n)\n0\nxy\nx\ny\n=\n\n\n2\n2\n3\n5\n2\n2\n2\nxy\nx\ny\nc\n\n\n\n\n2\n2\n数学试题 第13页\n又因为\n(1)\n1\ny\n\n则\n3\n5\n2\n2\nc\nc\n\n\n\n\n\n2\n2\n即\n3\n5\n2\n2\n2\n2\nxy\nx\ny\n\n\n\n2\n2\n2\n2\n3\n4\n5\n4\nx\nxy\ny\n\n\n\n2\n2\n20 11\nx\nx\n\n\ny\n\n则所求方程为\n5",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-qca0771cdb1a2",
+      "document_id": "2025-d0",
+      "number": "16",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-qca0771cdb1a2-r1",
+          "page_id": "2025-d0-p14",
+          "bbox": [
+            0.025,
+            0.4307283038684747,
+            0.985,
+            0.5157573170564078
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2025-d0-qca0771cdb1a2-r2",
+          "page_id": "2025-d0-p14",
+          "bbox": [
+            0.025,
+            0.5137573170564078,
+            0.985,
+            0.6264788700438847
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2025-d0-qca0771cdb1a2-r3",
+          "page_id": "2025-d0-p14",
+          "bbox": [
+            0.025,
+            0.6244788700438847,
+            0.985,
+            0.9827752122567806
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2025-d0-qca0771cdb1a2-r4",
+          "page_id": "2025-d0-p15",
+          "bbox": [
+            0.025,
+            0.07952542372881356,
+            0.985,
+            0.9807457627118644
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 14,
+        "bbox": [
+          0.09776669723592014,
+          0.4480157818652629,
+          0.19255844994930216,
+          0.46708407284605347
+        ],
+        "text": "16. 设矩阵",
+        "style": "arabic"
+      },
+      "text_hint": "\n\na a a 线性无关,且\na\na\na\na ,则方程组\nA\na a a a\n\n\n\n\n16. 设矩阵\n,若\n1\n2\n3\n1\n2\n3\n4\n1\n2\n3\n4\n______\n4\nx\nAx\na\na 的通解为\n\n\n\n1\n4",
+      "answer_hint": "1\n1\n\n\n\n\n\n\n1\n0\n\n\n\nk\n\n,k 为任意常数\n【答案】\n\n\n\n1\n0\n\n\n\n\n1\n4\n\n\n\n\n\n\n\n\n\n\n\n线性相关;且已知\n线性无关,\n【解析】由于\n,故\n1\n2\n3\n4\n1\n2\n3\n4\n1\n2\n3\n1\n1\n\n\n\n\n0\n0\n\n\n\n等价于\n\n4\nAx\n3\n\n\n\n\n4\nr A \n\n\n\n\n\n则\n。那么\n,故\n是\n1\n4\n1\n2\n3\n4\n1\n4\n\n\n0\n0\n\n\n4\n4\n\n\n4\n0\nAx\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n的一个特解。又因为\n,即\n,则\n1\n4\n1\n2\n3\n4\n1\n2\n3\n4\n1\n1\n\n\n\n\n\n\n\n\n1\n1\n\n\n\n\n\n\n\n4\n3\n1\n0\n0\ns\nn\nr A\nAx \n\n\n\n\n\n\n\n。由\n可得,\n是\n的一个基础解\n1\n2\n3\n4\n\n\n\n\n1\n1\n\n\n\n\n\n\n\n\n\n\n\n\n数学试题 第14页\n系，故Ax=α+4α4的通解为\n，其中k为任意常数。\n-1\n¥第15页\n数学试题",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-qfc2728ca1823",
+      "document_id": "2025-d0",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-qfc2728ca1823-r1",
+          "page_id": "2025-d0-p16",
+          "bbox": [
+            0.025,
+            0.14183591396154197,
+            0.985,
+            0.2634940644943969
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 16,
+        "bbox": [
+          0.1078884235508524,
+          0.15383591396154198,
+          0.3089615786839246,
+          0.17290422564344438
+        ],
+        "text": "17.(本题满分10 分)",
+        "style": "arabic"
+      },
+      "text_hint": "17.(本题满分10 分)\n1\n1\n\nd .\nx\n计算\n\n\n\n2\n1\n2\n2\nx\nx\nx\n\n\n\n0",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-qa0cf86fa8311",
+      "document_id": "2025-d0",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-qa0cf86fa8311-r1",
+          "page_id": "2025-d0-p16",
+          "bbox": [
+            0.025,
+            0.2614940644943969,
+            0.985,
+            0.5138793121865127
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 16,
+        "bbox": [
+          0.10788843086360442,
+          0.2734940644943969,
+          0.18842134825150345,
+          0.2925623554751874
+        ],
+        "text": "17.解:",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "17.解:\n1\nA\nBx\nC\n\n\n\n1\n1\n\n\ndx\ndx\n\n\n\n\n\n\n2\n1\n2\n2\nx\nx\nx\n\n\n\n2\n(\n1)\n2\n2\nx\nx\nx\n\n\n\n\n\n0\n0\n1\n1\n3\n\n\nx\n\n\n\n\n5\n3\n5\n1\n\ndx\n\n\n\n\n2\n1\n2\n2\nx\nx\nx\n\n\n\n0\n\n\n\n\n1\n1\n1\n1\n1\n2\n3\n1\n2\nln |1\nln\n2\n2\na\nrctan(\n1)\nln 2\nπ\nx\nx\nx\nx\n\n\n\n\n\n\n\n\n\n5\n10\n5\n0\n10\n0\n0\n0",
+      "record_type": "answer",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-qd09c0fee6316",
+      "document_id": "2025-d0",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-qd09c0fee6316-r1",
+          "page_id": "2025-d0-p16",
+          "bbox": [
+            0.025,
+            0.5118793121865127,
+            0.985,
+            0.9827752122567806
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2025-d0-qd09c0fee6316-r2",
+          "page_id": "2025-d0-p17",
+          "bbox": [
+            0.025,
+            0.07559298732446078,
+            0.985,
+            0.9827752122567806
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 16,
+        "bbox": [
+          0.09776669723592014,
+          0.5238793121865127,
+          0.29377714639801916,
+          0.5429476031673033
+        ],
+        "text": "18.(本题满分12 分)",
+        "style": "arabic"
+      },
+      "text_hint": "18.(本题满分12 分)\n\n2sin\ne\n1\nxf\nx\n\n\n\n0\nlim\n3.\nx \nf x 在\n\n处连续,且\n设函数\n\n\n\n\nln 1\nln 1\nx\nx\n\n\n\n0\n\n\n\nf \n0\n0 .\nx \nf x 在\n处可导,并求\n证明\n18 解:\n1\n1\n\n\n\n\n\n\n2\n2\n2\n2\n2\n2\nln(1\n)\nln(1\n)\nx\nx\nx\nx\no x\nx\nx\no x\nx\no x\n\n\n\n\n\n\n\n\n\n\n\n已知\n2\n2\n1\n\n\n\n\n2sin\n2\n2\n2\n2\n1\n2sin\n(2sin )\n1\n2sin\n2sin\ne\nx\nx\no x\nx\nx\no x\n\n\n\n\n\n\n2\n\n\n\n\n2\n2\n( )\n1\n2sin\n2sin\n1\nxf x\nx\nx\no x\n\n\n\n\n\n2sin\n( )\n1\nxf x\ne\n\n\n3\nlim\nlim\n\n\n因此,\n2\n2\nx\nx\n\n\n0\n0\n\n\n2\n( )\n2sin\n2sin\nxf x\nx\nx\n\n\nlim\nlim\n\n\n2\n2\nx\nx\n\n\nx\nx\n\n\n数学试题 第16页\n1\n\n\n\n\n3\n3\n( )\n2\nxf x\nx\nx\no x\n\n\n\n\n\n( )\n2sin\nxf x\nx\n\n6\n\n\nlim\n5\nlim\n5\n\n可以得出\n,\n2\n2\nx\nx\n\n0\n0\n\n\n( )\n2\n( )\n2\nf x\nxf x\nx\n\n\nlim\n5\nlim\n5\n\n\n,以及\n进一步可以得出\n2\nx\nx\n0\n0\n\n\n( )\n2\nf\nx\n\nlim[ ( )\n2]\n0\nlim\n( )\n2\n(0)\n(0)\nlim\n5\nf x\nf x\nf\nf\n\n\n\n\n\n\n,可得\n,故\n。\nx\n0\n0\n0\n\n\n\n数学试题 第17页",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-qdcf02f270024",
+      "document_id": "2025-d0",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-qdcf02f270024-r1",
+          "page_id": "2025-d0-p18",
+          "bbox": [
+            0.025,
+            0.13336899359308865,
+            0.985,
+            0.27082002238038605
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 18,
+        "bbox": [
+          0.09776669723592014,
+          0.14536899359308866,
+          0.2937771171470111,
+          0.1644373052749911
+        ],
+        "text": "19.(本题满分12 分)",
+        "style": "arabic"
+      },
+      "text_hint": "19.(本题满分12 分)\n\n\n\n\n\n\n\n\n2\nd\n2 e d\ne\n1 d ,\n0,0\n2,\ny\ny\n\n\nf x y\nx\nx\nx\ny\ny f\n\n\n\n\n\nf\nx y\n可微, 且满足\n求\n设函数\n\n\n\n\nf x y ,并求\nf\nx y 的极值.",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-qaf2df67271cd",
+      "document_id": "2025-d0",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-qaf2df67271cd-r1",
+          "page_id": "2025-d0-p18",
+          "bbox": [
+            0.025,
+            0.26882002238038605,
+            0.985,
+            0.8932036709530112
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 18,
+        "bbox": [
+          0.1078884235508524,
+          0.28082002238038606,
+          0.18313013340565742,
+          0.2998883133611766
+        ],
+        "text": "19. 解:",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "19. 解:\nf\nf\n\n\n2\n2\n2\n2\n( , )\n( ).\n( )\n(\n1)\n\n\n\n\n\nxe\nf x y\nx e\ny\nx e\ny\ne\nx\ny\ne\n\n\n\n\n\n\n\n\n\n\n\n则\nx\ny\n\n\n\n( )\n(\n1)\ny\ny\ne\n\n\n\n则\n\n( )\n(\n2)\ny\ny\ne\nC\n\n\n\n\n\n则\n2\n( , )\n(\n2)\n\n\nf x y\nx e\ny\ne\nC\n\n\n\n\n(0,0)\n2 ,\nC\n0\nf\n\n\n\n又\n2\ny\ny\n( , )\n(\n2)\n\n\nf x y\nx e\ny\ne\n\n\n\n则\nì\nf\n¶ = -\n2\n0\nxe\n=\nï\nì\n0\nx\n=\nx\n¶\nÞ\nf\n¶\n1\ny\n= -\nï\nï\nî\n(\n1)\n0\ne\nx\ny\n=\n-\n-\n=\nï¶\ny\nî\n则驻点(0,-1)\n2\n,\n2\n,\n(\n1)\n(\n)\nf\ne\nf\nxe\nf\ne\nx\ny\ne\ne\nx\ny\n= -\n=\n=\n-\n-\n-\n=\n-\n2\n2\n-\n-\n-\n-\n-\nxx\nxy\nyy\n2 ,\n0,\nA\ne B\nC\ne\n= -\n=\n= -\n在点(0,-1)处\n( , )\n0\n1\n0,\n0,\nf x y 在(,)处有极大值,且极大值为\nAC\nB\nA\n-\n-\n>\n<\n2\n从而\n则\n(0, 1)\nf\ne\n-\n=",
+      "record_type": "answer",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-q68333720fccb",
+      "document_id": "2025-d0",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-q68333720fccb-r1",
+          "page_id": "2025-d0-p18",
+          "bbox": [
+            0.025,
+            0.8912036709530112,
+            0.985,
+            0.9827752122567806
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2025-d0-q68333720fccb-r2",
+          "page_id": "2025-d0-p19",
+          "bbox": [
+            0.025,
+            0.06424571424880716,
+            0.985,
+            0.12109720198803543
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2025-d0-q68333720fccb-r3",
+          "page_id": "2025-d0-p19",
+          "bbox": [
+            0.025,
+            0.11909720198803543,
+            0.985,
+            0.7719175953323464
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 18,
+        "bbox": [
+          0.09776669723592014,
+          0.9032036709530112,
+          0.2937771171470111,
+          0.9222719619338018
+        ],
+        "text": "20.(本题满分12 分)",
+        "style": "arabic"
+      },
+      "text_hint": "20.(本题满分12 分)\n数学试题 第18页\n2 d d .\n\n\n\n\n\n\n\n2\n2\n2\n2\n4 ,\n4\nD x\ny\nx y\nD\nx y\nx\ny\nx x\ny\ny\n\n\n\n\n\n\n已知平面有界区域\n计算",
+      "answer_hint": "16\n12\n\n【答案】\n3\n\n\n2\n2\n2\n2\n2\n2\n( , )(\n2)\n2 ,\n(\n2)\n2\nD\nx y\nx\ny\nx\ny\n\n\n\n\n\n\n\n∣\n由题可知,积分区域\n对应图形为右图所示,\n显然积分区域关于y\nx\n\n对称\n\n\n\n2\n2\n2\n( , )\n(\n2)\n2 ,\nD\nx y\nx\ny\ny x\n\n\n\n\n∣\n记\n1\n\n\n\n\n2\n2\n2\n( , )(\n2)\n2 ,\nD\nx y\nx\ny\ny x\n\n\n\n∣\n2\n\n\n\n2\n2\n2\n(\n)\n(\n)\n(\n)\nI\nx\ny dxdy\nx\ny dxdy\nx\ny dxdy\n\n\n\n\n\n\n故\nD\nD\nD\n\n2\n2\n(\n)\nx\ny dxdy\n\n\nD\n\n0\n4cos\nr\n\n\ncos .\nsin\nx\nr\ny\nr\nD 上有\n\n\n\n\n\n令\n则在积分区域\n1\n\n0\n\n\n4\n\n\n\n\n\n4cos\n\n\n\n\n\n2\n2\n2\n2\n2\n(\n)\n2\n2\ncos sin\nx\ny dxdy\nx\ny\nxy dxdy\nd\nr\nr\nrdr\n\n\n\n\n\n\n\n\n\n4\n则\n0\n0\nD\nD\n8\n\n\n\n4cos\n\n\n\n3\n3\n2\ncos sin\n6\nd\nr\nr\ndr\n\n\n\n\n\n\n\n\n3\n0\n0\n8\n16\n2(6\n)\n12\nI\n\n\n\n\n\n\n故\n3\n3",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-qb2a789476593",
+      "document_id": "2025-d0",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-qb2a789476593-r1",
+          "page_id": "2025-d0-p19",
+          "bbox": [
+            0.025,
+            0.7699175953323464,
+            0.985,
+            0.9827752122567806
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2025-d0-qb2a789476593-r2",
+          "page_id": "2025-d0-p20",
+          "bbox": [
+            0.025,
+            0.06941408839838478,
+            0.985,
+            0.15191076562151445
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2025-d0-qb2a789476593-r3",
+          "page_id": "2025-d0-p20",
+          "bbox": [
+            0.025,
+            0.14991076562151445,
+            0.985,
+            0.9827752122567806
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2025-d0-qb2a789476593-r4",
+          "page_id": "2025-d0-p21",
+          "bbox": [
+            0.025,
+            0.06916061363395101,
+            0.985,
+            0.13536899359308865
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 19,
+        "bbox": [
+          0.09776672648692819,
+          0.7819175953323464,
+          0.29377714639801916,
+          0.8009858863131369
+        ],
+        "text": "21.(本题满分12 分)",
+        "style": "arabic"
+      },
+      "text_hint": "21.(本题满分12 分)\nf x 在区间\n\n\n\n在\n\n,a b 内可导.证明导函数\n,a b 内严格单调增加的充分必要条\nf\nx\n设函数\n件是:\n数学试题 第19页\n\n\n\n\n\n\n\n\nf x\nf x\nf x\nf x\n\n\n对\n\n2\n1\n3\n2\n,a b 内任意的\nx x\nx ,当\nx\nx\nx\n\n\n\n时,\n1\n2\n3\n1\n2\n3\nx\nx\nx\nx\n\n\n2\n1\n3\n2",
+      "answer_hint": "解:充分性:若对( , )\na b 内任意的\nx x x ,当\nx\nx\nx\n\n\n时,都有\n1\n2\n3\n1\n2\n3\n\n\n\n\n\n\n\n\nf x\nf x\nf x\nf x\n\n\n2\n1\n3\n2\n\nx\nx\nx\nx\n\n\n2\n1\n3\n2\n( , )\na b 内取任意的\nx\nx\nx\nx\nx\n\n\n\n\n,有\n1\n2\n3\n4\n5\n则在\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nf x\nf x\nf x\nf x\nf x\nf x\nf x\nf x\n\n\n\n\n2\n1\n3\n2\n4\n3\n5\n4\n\n\n\nx\nx\nx\nx\nx\nx\nx\nx\n\n\n\n\n2\n1\n3\n2\n4\n3\n5\n4\n\n\n\n\n\n\n\n\nx \nx\nf x\nf x\nf x\nf x\n\n\n\n,得\n2\n1\n2\n1\n3\n2\n\n在\n两边同时令\nx\nx\nx\nx\n\n\n2\n1\n3\n2\n\n\n\n\n\n\n\n\nx \nx\nf x\nf x\nf x\nf x\n\n\n\n,得\n\n\n\n\n2\n3\n3\n1\n3\n1\nf\nx\nf\nx\n\n\n,两边同时令\n,即\n1\n3\n\n\nx\nx\nx\nx\n\n\n3\n1\n3\n1\n\n\n\n\n\n\n\n\nf x\nf x\nf x\nf x\n\n\n\n\n\n\n\n\n\n\n3\n1\n3\n1\nf\nx\nf\nx\nf\nx\nf\nx\n\n\n\n\n.因为\n,同理可得\n1\n3\n3\n5\n\n\n\n\nx\nx\nx\nx\n\n\n3\n1\n3\n1\n\n\n\n\n\n\n\n\n\n\n\n\nx x 的任意性,可得\nf x\nf x\nf x\nf x\n\n\nf\nx\nf\nx\nf\nx\n\n.由\n在\n1\n5\n3\n1\n5\n3\n\n1\n5\n\n\n,所以\nx\nx\nx\nx\n\n\n3\n1\n5\n3\n\n\n,a b 内严格单调递增,充分性得证。\n单调递增,在\n\n\n\nf\nx\nx x\nx x\n上分别使用拉格朗日中值定理,\n1\n2\n2\n3\n再证必要性,即已知\n\n\n\n\nx x\nx x\n\n\n\n\n知存在\n,使\n1\n1\n2\n2\n2\n3\n\n\n\n\n\n\n\n\nf x\nf x\nf x\nf x\n\n\n\n\n\n\n2\n1\n3\n2\nf\nf\n\n\n\n\n,\n,\n1\n2\nx\nx\nx\nx\n\n\n2\n1\n3\n2\n\n\n\n\n\n\n\nf\nx\nf\nf\n\n\n\n知,\n单调递增,且\n,即\n1\n2\n1\n2\n又由\n\n\n\n\n\n\n\n\n,必要性得证。\nf x\nf x\nf x\nf x\n\n\n2\n1\n3\n2\n\nx\nx\nx\nx\n\n\n数学试题 第20页\n综上所述,充要条件得证。",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2025-d0-q8b8d54224ba5",
+      "document_id": "2025-d0",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2025年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2025-d0-q8b8d54224ba5-r1",
+          "page_id": "2025-d0-p21",
+          "bbox": [
+            0.025,
+            0.13336899359308865,
+            0.985,
+            0.9827752122567806
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2025",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 21,
+        "bbox": [
+          0.09776669723592014,
+          0.14536899359308866,
+          0.2937771171470111,
+          0.1644373052749911
+        ],
+        "text": "22.(本题满分12 分)",
+        "style": "arabic"
+      },
+      "text_hint": "22.(本题满分12 分)\n4\n1\n2\n0\n0\nk\n\n\n\n\n\n\n\n\n\n1\n1\n1\n0\n6\n0\nA\nB\n\n\n合同.\n与\n已知矩阵\n\n\n\n\n\n\n2\n1\n0\n0\n0\na\n\n\n\n\n\n(1)求a 的值及k 的取值范围;\nQ 使得\nQ\nT\nQ AQ\nB 求k 及\n\n(2)若存在正交矩阵\n(1)A 与B 合同知,二者有相同的正负惯性指数\n显然,B 的特征值为K、6、0,故\n有特征值0.故\n计算得\n,即有\n此时\n的特征值为3、6、0.\nP=2. 故k>0.\n知\n(2)由\n,知\n.对A:\n故\n、\n相似,特征值相同,故\n时,解\n,\n,\n时,解\n,\n时,解\n再单位化得:\n数学试题 第21页",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": []
+}

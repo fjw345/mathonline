@@ -1,0 +1,1360 @@
+{
+  "item": {
+    "id": "2014-d4",
+    "name": "2014考研数学二真题.pdf",
+    "path": "data/math2_2010_2026/sources/2014-d4.pdf",
+    "format": "pdf",
+    "pages": 4,
+    "year": 2014,
+    "mode": "questions",
+    "original_path": "devided-math/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/1987-2016考研数学二真题及答案解析/1989-2014考研数学二真题及答案解析.pdf",
+    "original_sha256": "b3abb76c527105bf39e557c480dd3337bee4ce4ba5be123003985a390a9156c5",
+    "page_offset": 397
+  },
+  "engine_version": 8,
+  "status": "detected",
+  "pdf_path": "data/math2_2010_2026/sources/2014-d4.pdf",
+  "pdf_sha256": "2e9b3690a243e0f4dab8a3d38256175316f1ffad8b060ab33c3e3bab17e083dc",
+  "pages": [
+    {
+      "id": "2014-d4-p1",
+      "document_id": "2014-d4",
+      "number": 1,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 6,
+      "unassigned": [
+        [
+          0.025,
+          0.08598099762470308,
+          0.985,
+          0.1263610451306413
+        ],
+        [
+          0.025,
+          0.1263610451306413,
+          0.985,
+          0.1762422802850356
+        ]
+      ],
+      "status": "located"
+    },
+    {
+      "id": "2014-d4-p2",
+      "document_id": "2014-d4",
+      "number": 2,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 6,
+      "unassigned": [
+        [
+          0.025,
+          0.4945320665083135,
+          0.985,
+          0.5533206650831354
+        ]
+      ],
+      "status": "located"
+    },
+    {
+      "id": "2014-d4-p3",
+      "document_id": "2014-d4",
+      "number": 3,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 7,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2014-d4-p4",
+      "document_id": "2014-d4",
+      "number": 4,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 3,
+      "unassigned": [],
+      "status": "located"
+    }
+  ],
+  "questions": [
+    {
+      "id": "2014-d4-qd2094f8623d3",
+      "document_id": "2014-d4",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-qd2094f8623d3-r1",
+          "page_id": "2014-d4-p1",
+          "bbox": [
+            0.025,
+            0.1762422802850356,
+            0.985,
+            0.23228028503562945
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.16204869857262805,
+          0.18824228028503562,
+          0.8119227539882452,
+          0.20368171021377673
+        ],
+        "text": "(1）当x一→0时，若1n(1+2)，(1-COsx)均是比x高阶的无穷小,则α的取值范围是（",
+        "style": "paren"
+      },
+      "text_hint": "(1）当x一→0时，若1n(1+2)，(1-COsx)均是比x高阶的无穷小,则α的取值范围是（\nD) (0,\n(A) (2, +c0)\n(B)  (1, 2)",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-qbe7189e73b74",
+      "document_id": "2014-d4",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-qbe7189e73b74-r1",
+          "page_id": "2014-d4-p1",
+          "bbox": [
+            0.025,
+            0.23028028503562945,
+            0.985,
+            0.3231353919239905
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.16120906801007556,
+          0.24228028503562946,
+          0.35432409739714527,
+          0.25653206650831356
+        ],
+        "text": "(2）下列曲线有渐近线的是",
+        "style": "paren"
+      },
+      "text_hint": "(2）下列曲线有渐近线的是\n(B) y=x+sin x\n(A) y= x +sin x\n(D) y= X + sin’ x\n(C) y= x+ sin -",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-q650637c0979a",
+      "document_id": "2014-d4",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-q650637c0979a-r1",
+          "page_id": "2014-d4-p1",
+          "bbox": [
+            0.025,
+            0.3211353919239905,
+            0.985,
+            0.3920190023752969
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.16204869857262805,
+          0.3331353919239905,
+          0.7136859781696053,
+          0.3485748218527316
+        ],
+        "text": "(3) 设函效f(x)具有 2 阶导数, g(x)=f(0)(1-x) + (1)x,则在区间[0,1) 上",
+        "style": "paren"
+      },
+      "text_hint": "(3) 设函效f(x)具有 2 阶导数, g(x)=f(0)(1-x) + (1)x,则在区间[0,1) 上\n(A)当 f(x)≥0时, J(x)2g(x)\n(B)当 f(x)≥ 0时, f(x)≤g(x)\n(C)当 f\"(x)≥  时, (α)≥g(x)\n(D)当 f'(x)≥0 时, f(x)≤g(x)",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-q600445fe82be",
+      "document_id": "2014-d4",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-q600445fe82be-r1",
+          "page_id": "2014-d4-p1",
+          "bbox": [
+            0.025,
+            0.3900190023752969,
+            0.985,
+            0.5155344418052257
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.163727959697733,
+          0.415083135391924,
+          0.235936188077246,
+          0.42755344418052255
+        ],
+        "text": "(4)曲线",
+        "style": "paren"
+      },
+      "text_hint": "(C)当 f\"(x)≥  时, (α)≥g(x)\n(D)当 f'(x)≥0 时, f(x)≤g(x)\n[x=t+7\n上对应于t=1的点处的曲率半径是\n(4)曲线\nly=t2+ 4t+1\n(cC) 10-/0\n(B\n50\n100",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-qfcb4d499322a",
+      "document_id": "2014-d4",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-qfcb4d499322a-r1",
+          "page_id": "2014-d4-p1",
+          "bbox": [
+            0.025,
+            0.5135344418052257,
+            0.985,
+            0.5980760095011877
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.16960537363560033,
+          0.5255344418052257,
+          0.5323257766582704,
+          0.5409738717339667
+        ],
+        "text": "(5)设函数f()=arctan x,若f)手（)，则",
+        "style": "paren"
+      },
+      "text_hint": "(5)设函数f()=arctan x,若f)手（)，则\n0 x\n(A)1\n(B) -",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-q38e1b5354bb0",
+      "document_id": "2014-d4",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-q38e1b5354bb0-r1",
+          "page_id": "2014-d4-p1",
+          "bbox": [
+            0.025,
+            0.5960760095011877,
+            0.985,
+            0.96
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2014-d4-q38e1b5354bb0-r2",
+          "page_id": "2014-d4-p2",
+          "bbox": [
+            0.025,
+            0.08598099762470308,
+            0.985,
+            0.24712589073634206
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.16876574307304787,
+          0.6080760095011877,
+          0.7565071368597817,
+          0.6217339667458432
+        ],
+        "text": "(6）设函数u（y）在有界闭区域D上连续，在D的内部具有2阶连续偏导数，且满足",
+        "style": "paren"
+      },
+      "text_hint": "(6）设函数u（y）在有界闭区域D上连续，在D的内部具有2阶连续偏导数，且满足\noxay\n0.则\n(A) u(x,J)的最大值和最小值部在D 的边界上取得\n(B）u(x,y)的最大值和最小值在 D的内部上取得\n(C)(x,y)的最大值在D的内部取得，最小值在D的边界上取得\n(D）(,)的最小值在D的内部取得，最大值在D的边界上取得",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-qb945e278b504",
+      "document_id": "2014-d4",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-qb945e278b504-r1",
+          "page_id": "2014-d4-p2",
+          "bbox": [
+            0.025,
+            0.24512589073634206,
+            0.985,
+            0.3730166270783848
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.16120906801007556,
+          0.25712589073634207,
+          0.24433249370277077,
+          0.27256532066508316
+        ],
+        "text": "(7)行列式",
+        "style": "paren"
+      },
+      "text_hint": "(7)行列式\n(B) -(ad -bc)2\n(A) (ad-bc)\n(C) a'd3_bc?\n(D) b’c3-aa?",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-qa30c78ac4e98",
+      "document_id": "2014-d4",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-qa30c78ac4e98-r1",
+          "page_id": "2014-d4-p2",
+          "bbox": [
+            0.025,
+            0.3710166270783848,
+            0.985,
+            0.4965320665083135
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.16120906801007556,
+          0.3830166270783848,
+          0.8337531486146096,
+          0.4002375296912114
+        ],
+        "text": "(8) 设 ai,α2,α, 均为 3 维向量, 则对任意常数k,1, 向量组a1 +kα, α + 1α, 线性无关是向量组",
+        "style": "paren"
+      },
+      "text_hint": "(8) 设 ai,α2,α, 均为 3 维向量, 则对任意常数k,1, 向量组a1 +kα, α + 1α, 线性无关是向量组\na, α2,g 线性无关的\n(A）必要非充分条件\n(B)充分非必要条件\n(C)充分必要条件\n(D）既非充分也非必要条件",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-q543c142ae83d",
+      "document_id": "2014-d4",
+      "number": "10",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-q543c142ae83d-r1",
+          "page_id": "2014-d4-p2",
+          "bbox": [
+            0.025,
+            0.5533206650831354,
+            0.985,
+            0.5951068883610451
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.1670864819479429,
+          0.5653206650831354,
+          0.7363560033585222,
+          0.581353919239905
+        ],
+        "text": "(10) 设f(x) 是周期为4 的可导奇函数-且于(x) =2(x-1), x[0, 2] ,则 F(7) =",
+        "style": "paren"
+      },
+      "text_hint": "2+ 2x+ 5\n(10) 设f(x) 是周期为4 的可导奇函数-且于(x) =2(x-1), x[0, 2] ,则 F(7) =",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-qaf77243c2410",
+      "document_id": "2014-d4",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-qaf77243c2410-r1",
+          "page_id": "2014-d4-p2",
+          "bbox": [
+            0.025,
+            0.5931068883610451,
+            0.985,
+            0.6384560570071259
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.16624685138539042,
+          0.6051068883610451,
+          0.41981528127623846,
+          0.6258907363420427
+        ],
+        "text": "(11) 设z =z(,)是由方程e2 + x",
+        "style": "paren"
+      },
+      "text_hint": "(11) 设z =z(,)是由方程e2 + x\n+z=一确定的函数，则dz\n11\n(2)",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-qa93ff14fbc84",
+      "document_id": "2014-d4",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-qa93ff14fbc84-r1",
+          "page_id": "2014-d4-p2",
+          "bbox": [
+            0.025,
+            0.6364560570071259,
+            0.985,
+            0.6883372921615202
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.16876574307304787,
+          0.649643705463183,
+          0.5684298908480269,
+          0.6633016627078385
+        ],
+        "text": "(12)曲线L的极坐标方程是r=e，则L在点(r,e)=",
+        "style": "paren"
+      },
+      "text_hint": "处的切线的直角坐标方程是\n(12)曲线L的极坐标方程是r=e，则L在点(r,e)=\n1.2",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-qc5d6eeeca330",
+      "document_id": "2014-d4",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-qc5d6eeeca330-r1",
+          "page_id": "2014-d4-p2",
+          "bbox": [
+            0.025,
+            0.6863372921615202,
+            0.985,
+            0.96
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2014-d4-qc5d6eeeca330-r2",
+          "page_id": "2014-d4-p3",
+          "bbox": [
+            0.025,
+            0.08419952494061758,
+            0.985,
+            0.10817102137767222
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.16792611251049538,
+          0.6983372921615202,
+          0.8278757346767422,
+          0.7131828978622328
+        ],
+        "text": "(13)一根长为 1 的细位于:轴的区间[0,1)上,若其线密度 (x)=-x+2x+1,则该细棒的质心",
+        "style": "paren"
+      },
+      "text_hint": "(13)一根长为 1 的细位于:轴的区间[0,1)上,若其线密度 (x)=-x+2x+1,则该细棒的质心\n坐标文=",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-q3626ad8015b9",
+      "document_id": "2014-d4",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-q3626ad8015b9-r1",
+          "page_id": "2014-d4-p3",
+          "bbox": [
+            0.025,
+            0.10617102137767222,
+            0.985,
+            0.17230403800475058
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.16120906801007556,
+          0.11817102137767221,
+          0.7523089840470193,
+          0.1347980997624703
+        ],
+        "text": "(14) 设二饮型F(x,2s)=x -x2 +2ax,+4x, 的负惯性指数是 1, 则a 的取值范围",
+        "style": "paren"
+      },
+      "text_hint": "(14) 设二饮型F(x,2s)=x -x2 +2ax,+4x, 的负惯性指数是 1, 则a 的取值范围\n三。解各题，15~23 小题,共 94 分,请将解答写在答题指定位置上解管应写出文手说明、证\n明过短或滴算步骤。",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-q2175cc477b3f",
+      "document_id": "2014-d4",
+      "number": "15",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-q2175cc477b3f-r1",
+          "page_id": "2014-d4-p3",
+          "bbox": [
+            0.025,
+            0.17030403800475058,
+            0.985,
+            0.2750356294536817
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.16120906801007556,
+          0.1823040380047506,
+          0.31150293870696893,
+          0.19714964370546317
+        ],
+        "text": "（15)（本题满分10分）",
+        "style": "paren"
+      },
+      "text_hint": "明过短或滴算步骤。\n（15)（本题满分10分）\n求极限 lirm ",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-q9499cf3ed218",
+      "document_id": "2014-d4",
+      "number": "16",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-q9499cf3ed218-r1",
+          "page_id": "2014-d4-p3",
+          "bbox": [
+            0.025,
+            0.2730356294536817,
+            0.985,
+            0.3415439429928741
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.163727959697733,
+          0.2850356294536817,
+          0.31066330814441645,
+          0.29631828978622327
+        ],
+        "text": "（16）（本题满分10分）",
+        "style": "paren"
+      },
+      "text_hint": "（16）（本题满分10分）\n已知函数=(x)满足微分方程x+=1-，且(2)=，求()的极大值与极小",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-q01c70a538d49",
+      "document_id": "2014-d4",
+      "number": "17",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-q01c70a538d49-r1",
+          "page_id": "2014-d4-p3",
+          "bbox": [
+            0.025,
+            0.3395439429928741,
+            0.985,
+            0.415771971496437
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.16204869857262805,
+          0.3515439429928741,
+          0.31150293870696893,
+          0.3652019002375297
+        ],
+        "text": "(17)（本题满分10分）",
+        "style": "paren"
+      },
+      "text_hint": "(17)（本题满分10分）\nxsin\n设平面区域 D=[(y)1≤x +y2 ≤4, x≥0, y ≥0], 计算[\ndxay.",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-qe5f8092f5f46",
+      "document_id": "2014-d4",
+      "number": "18",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-qe5f8092f5f46-r1",
+          "page_id": "2014-d4-p3",
+          "bbox": [
+            0.025,
+            0.413771971496437,
+            0.985,
+            0.5131591448931117
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.16204869857262805,
+          0.42577197149643703,
+          0.6817800167926112,
+          0.4412114014251782
+        ],
+        "text": "(18) (本题满分 10 分)设函数f(u)具有 2阶连续导数，z=f(e\"cosy)满足",
+        "style": "paren"
+      },
+      "text_hint": "(18) (本题满分 10 分)设函数f(u)具有 2阶连续导数，z=f(e\"cosy)满足\nzz",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-qf96821270192",
+      "document_id": "2014-d4",
+      "number": "19",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-qf96821270192-r1",
+          "page_id": "2014-d4-p3",
+          "bbox": [
+            0.025,
+            0.5111591448931116,
+            0.985,
+            0.6420190023752969
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.16960537363560033,
+          0.5231591448931117,
+          0.8194794290512175,
+          0.5368171021377672
+        ],
+        "text": "(19) (本题满分 10 分)设函数于(x),g(x)的区间[a b) 上连续，且f(x)单调增加，0≤g(x)≤1,",
+        "style": "paren"
+      },
+      "text_hint": "(19) (本题满分 10 分)设函数于(x),g(x)的区间[a b) 上连续，且f(x)单调增加，0≤g(x)≤1,\n证明：\n(I) 0 ≤ J,g()dt≤x-a, x[a,b],",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-q0016cb573830",
+      "document_id": "2014-d4",
+      "number": "20",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-q0016cb573830-r1",
+          "page_id": "2014-d4-p3",
+          "bbox": [
+            0.025,
+            0.6400190023752969,
+            0.985,
+            0.96
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2014-d4-q0016cb573830-r2",
+          "page_id": "2014-d4-p4",
+          "bbox": [
+            0.025,
+            0.08182422802850356,
+            0.985,
+            0.12479809976247032
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.16792611251049538,
+          0.6520190023752969,
+          0.4265323257766583,
+          0.671021377672209
+        ],
+        "text": "(20) (本题满分 11 分) 设函数,f(α) =",
+        "style": "paren"
+      },
+      "text_hint": "(20) (本题满分 11 分) 设函数,f(α) =\ni(g) =f(x),f(μ) =f(fi(x)),f(x) =f(f-1(g),.记S,是曲线 y= f,(μ),直线 x=1\n及x轴所围成平面图形的面积，求极限limnS",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-q8c7cfc319a54",
+      "document_id": "2014-d4",
+      "number": "21",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-q8c7cfc319a54-r1",
+          "page_id": "2014-d4-p4",
+          "bbox": [
+            0.025,
+            0.12279809976247032,
+            0.985,
+            0.241187648456057
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 4,
+        "bbox": [
+          0.16960537363560033,
+          0.13717339667458434,
+          0.48446683459277917,
+          0.15498812351543942
+        ],
+        "text": "(21)（本题满分11分）已知函效f（x）满足",
+        "style": "paren"
+      },
+      "text_hint": "-2(0+1),且f(0)(=叶Q2   \n(21)（本题满分11分）已知函效f（x）满足\n求曲线f（x,）=0所围成的图形绕直线=-1旋转所成的旋转体的体积\n-23\n-4",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-q39818ca8f804",
+      "document_id": "2014-d4",
+      "number": "22",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-q39818ca8f804-r1",
+          "page_id": "2014-d4-p4",
+          "bbox": [
+            0.025,
+            0.239187648456057,
+            0.985,
+            0.35163895486935864
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 4,
+        "bbox": [
+          0.1704450041981528,
+          0.251187648456057,
+          0.37615449202350965,
+          0.2654394299287411
+        ],
+        "text": "(22)（本题满分11分）设A=",
+        "style": "paren"
+      },
+      "text_hint": "-23\n-4\n(22)（本题满分11分）设A=\n-1\nE为3阶单位矩阵，\n（I）求方程组Ax=0的一个基础解累：\n（II）求满足AB=E的所有矩阵B.",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d4-qc742d8703333",
+      "document_id": "2014-d4",
+      "number": "23",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d4-qc742d8703333-r1",
+          "page_id": "2014-d4-p4",
+          "bbox": [
+            0.025,
+            0.34963895486935864,
+            0.985,
+            0.96
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 4,
+        "bbox": [
+          0.17212426532325778,
+          0.36342042755344417,
+          0.4290512174643157,
+          0.3752969121140142
+        ],
+        "text": "(23)（本题满分11分）证明n阶矩阵",
+        "style": "paren"
+      },
+      "text_hint": "相似\n(23)（本题满分11分）证明n阶矩阵",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": []
+}

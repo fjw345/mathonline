@@ -1,0 +1,2052 @@
+{
+  "item": {
+    "id": "2016-xdf",
+    "name": "2016年全国硕士研究生入学统一考试数学二试题及答案（新东方）",
+    "path": "data/math2_2010_2026/sources/2016-xdf-combined.pdf",
+    "format": "pdf",
+    "pages": 13,
+    "year": 2016,
+    "mode": "combined",
+    "original_path": "data/math2_2010_2026/sources/2016-xdf-combined.pdf",
+    "original_sha256": "4609337643de3cb02eccd6eef171912f590ea108ab053c62f2d36e7cd315f39f",
+    "page_offset": 0,
+    "source_url": "https://file.xdf.cn/uploads/151228/124_151228170532e5Y1wqxy5kiH4SBz.pdf",
+    "retrieved_date": "2026-10-14",
+    "publisher": "新东方在线",
+    "source_status": "publisher_reference_not_official_answer",
+    "identity_evidence": "第一页标题2016数学二；第1题无穷小阶排序，第19题二阶微分方程，第23题矩阵幂，与2014卷不同",
+    "alternative_source_note": "同站5页独立题卷选项重复、缺图和水印，不用于裁切"
+  },
+  "engine_version": 8,
+  "status": "detected",
+  "pdf_path": "data/math2_2010_2026/sources/2016-xdf-combined.pdf",
+  "pdf_sha256": "4609337643de3cb02eccd6eef171912f590ea108ab053c62f2d36e7cd315f39f",
+  "pages": [
+    {
+      "id": "2016-xdf-p1",
+      "document_id": "2016-xdf",
+      "number": 1,
+      "width": 516.0,
+      "height": 729.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 3,
+      "unassigned": [
+        [
+          0.025,
+          0.08178054897481031,
+          0.985,
+          0.1783368579670889
+        ],
+        [
+          0.025,
+          0.1783368579670889,
+          0.985,
+          0.23580922302329818
+        ]
+      ],
+      "status": "located"
+    },
+    {
+      "id": "2016-xdf-p2",
+      "document_id": "2016-xdf",
+      "number": 2,
+      "width": 516.0,
+      "height": 729.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 2,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2016-xdf-p3",
+      "document_id": "2016-xdf",
+      "number": 3,
+      "width": 516.0,
+      "height": 729.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 2,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2016-xdf-p4",
+      "document_id": "2016-xdf",
+      "number": 4,
+      "width": 516.0,
+      "height": 729.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 2,
+      "unassigned": [
+        [
+          0.025,
+          0.5750447145731524,
+          0.985,
+          0.6126515805175111
+        ]
+      ],
+      "status": "located"
+    },
+    {
+      "id": "2016-xdf-p5",
+      "document_id": "2016-xdf",
+      "number": 5,
+      "width": 516.0,
+      "height": 729.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 4,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2016-xdf-p6",
+      "document_id": "2016-xdf",
+      "number": 6,
+      "width": 516.0,
+      "height": 729.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 2,
+      "unassigned": [
+        [
+          0.025,
+          0.7451041070548268,
+          0.985,
+          0.7921823064021777
+        ]
+      ],
+      "status": "located"
+    },
+    {
+      "id": "2016-xdf-p7",
+      "document_id": "2016-xdf",
+      "number": 7,
+      "width": 516.0,
+      "height": 729.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 2,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2016-xdf-p8",
+      "document_id": "2016-xdf",
+      "number": 8,
+      "width": 516.0,
+      "height": 729.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 2,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2016-xdf-p9",
+      "document_id": "2016-xdf",
+      "number": 9,
+      "width": 516.0,
+      "height": 729.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2016-xdf-p10",
+      "document_id": "2016-xdf",
+      "number": 10,
+      "width": 516.0,
+      "height": 729.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2016-xdf-p11",
+      "document_id": "2016-xdf",
+      "number": 11,
+      "width": 516.0,
+      "height": 729.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2016-xdf-p12",
+      "document_id": "2016-xdf",
+      "number": 12,
+      "width": 516.0,
+      "height": 729.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2016-xdf-p13",
+      "document_id": "2016-xdf",
+      "number": 13,
+      "width": 516.0,
+      "height": 729.0,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 0,
+      "unassigned": [],
+      "status": "continuation"
+    }
+  ],
+  "questions": [
+    {
+      "id": "2016-xdf-q049671ab69da",
+      "document_id": "2016-xdf",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-q049671ab69da-r1",
+          "page_id": "2016-xdf-p1",
+          "bbox": [
+            0.025,
+            0.23580922302329818,
+            0.985,
+            0.3368984596032665
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q049671ab69da-r2",
+          "page_id": "2016-xdf-p1",
+          "bbox": [
+            0.025,
+            0.3348984596032665,
+            0.985,
+            0.35848694601176695
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2016-xdf-q049671ab69da-r3",
+          "page_id": "2016-xdf-p1",
+          "bbox": [
+            0.025,
+            0.35648694601176695,
+            0.985,
+            0.4362099009907622
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.08232504083204639,
+          0.25076674891760975,
+          0.13721510421398075,
+          0.26665252978582604
+        ],
+        "text": "(1) 设",
+        "style": "paren"
+      },
+      "text_hint": "\n3\n3\na\nx\nx\na\nx\nx\na\nx\n\n(cos\n\n1),\n\nln(1\n\n),\n\n\n1 1,\n(1) 设\n当\n时,以上三个无穷小量按\nx\n\n0\n1\n2\n3\n照从低阶到高阶的排序是                                                        (    )\na a a         (B)\na a a         (C)\na a a         (D)\na a a\n(A)\n1\n2\n3\n2\n3\n1\n2\n1\n3\n3\n2\n1",
+      "answer_hint": "【答案】(B)\n【答案】(B)\n5\n1\n1\n\n\n\n\n2\n3\n3\n,\n,\n,\n【解析】当\n时,\nx\n\n0\na\nx\nx\nx\na\nx\nx\n\n(cos\n\n1)\n\n\n1\n1\na\nx\nx\nx\n\nln(1\n\n)\n6\n1\n3\n2\n2\n3\n所以3 个无穷小量按照从低阶到高阶的排序是\na a a ,故选(B).\n2\n3\n1",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-qd8281974800c",
+      "document_id": "2016-xdf",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-qd8281974800c-r1",
+          "page_id": "2016-xdf-p1",
+          "bbox": [
+            0.025,
+            0.4342099009907622,
+            0.985,
+            0.6206844326694316
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-qd8281974800c-r2",
+          "page_id": "2016-xdf-p1",
+          "bbox": [
+            0.025,
+            0.6186844326694316,
+            0.985,
+            0.6404375107167353
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2016-xdf-qd8281974800c-r3",
+          "page_id": "2016-xdf-p1",
+          "bbox": [
+            0.025,
+            0.6384375107167353,
+            0.985,
+            0.7832112161351166
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.0823251295459363,
+          0.458174173069916,
+          0.19815150711887566,
+          0.47405993300700877
+        ],
+        "text": "(2) 已知函数",
+        "style": "paren"
+      },
+      "text_hint": "x\nx\n\n\n2(\n1),\n1\n\nf x 的一个原函数是                        (    )\n( )\n(2) 已知函数\n,则\nf x\n\n( )\nx\nx\n\nln ,\n1\n\n2\n2\n\n\nx\nx\nx\nx\n(\n\n1) ,\n\n1\n(\n\n1) ,\n\n1\n(B)\nF x\nF x\n( )\n\n( )\n\n(A)\nx\nx\nx\nx\nx\nx\n(ln\n1) 1,\n1\n(ln\n1),\n1\n\n\n\n\n\n\n\n2\n2\n\n\nx\nx\nx\nx\n(\n1) ,\n1\n\n\n(\n\n1) ,\n\n1\n(C)\n(D)\nF x\nF x\n( )\n\n( )\n\nx\nx\nx\nx\nx\nx\n(ln\n1) 1,\n1\n\n\n\n(ln\n\n1) 1,\n\n\n1\n\n",
+      "answer_hint": "【答案】(D)\n【答案】(D)\n【解析】根据原函数一定可导,所以原函数一定连续,所以原函数在=1\n处连续,排除(A)和(C);\nx\n由已知条件,可知原函数满足\n.\nF\n(1)\n\n(1)\n\n0\nF x\nF\nx\nx\nx\n( )\n\n(1)\n(ln\n\n1)\n\n1\n0\nln\n\n1 1\n(B)选项中,\n,所以(B)不正\nF\n(1)\n\nlim\n\nlim\n\nlim\n\n2\n\nx\nx\n\n1\n\n1\n1\n\n1\n\n1\n\n1\n确.选(D).\n也可以对(D)选项的函数求导,验证(D)选项是正确答案.故选D.",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-q19c96f115bb9",
+      "document_id": "2016-xdf",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-q19c96f115bb9-r1",
+          "page_id": "2016-xdf-p1",
+          "bbox": [
+            0.025,
+            0.7812112161351166,
+            0.985,
+            0.8810961177286951
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q19c96f115bb9-r2",
+          "page_id": "2016-xdf-p1",
+          "bbox": [
+            0.025,
+            0.8790961177286951,
+            0.985,
+            0.9215817110875343
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2016-xdf-q19c96f115bb9-r3",
+          "page_id": "2016-xdf-p2",
+          "bbox": [
+            0.025,
+            0.08178054897481031,
+            0.985,
+            0.10399928172756452
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2016-xdf-q19c96f115bb9-r4",
+          "page_id": "2016-xdf-p2",
+          "bbox": [
+            0.025,
+            0.10199928172756452,
+            0.985,
+            0.20404845102987826
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.08232672639595445,
+          0.8064869068287037,
+          0.21861213861509812,
+          0.8223727086280436
+        ],
+        "text": "(3) 反常积分1",
+        "style": "paren"
+      },
+      "text_hint": "1\n1\n1\n1\n0\n\n\n\nxe dx\nxe dx\n(3) 反常积分1\n,2\n的敛散性为                               (    )\n2\n2\nx\nx\n0\n(A) 1收敛,2收敛                      (B) 1收敛,2发散\n(C) 1发散,2收敛                      (D) 1发散,2发散",
+      "answer_hint": "(C) 1发散,2收敛                      (D) 1发散,2发散\n【答案】(B)\n2016 年硕士研究生入学统一考试数学二试题及答案\n2016 年硕士研究生入学统一考试数学二试题及答案\n1\n1\n1\n1\n1\n1\n1\n0\n0\n0\n【解析】1\n,收敛.\n\n\ne dx\ne d\ne\ne\ne\n\n\n\n\n\n=\n=\n(lim\nlim\n)\n1\n\n2\nx\nx\n\n\n\n\n0\n1\n1\n1\n1\n1\n1\n1\n1\n\n\n\n2\n,发散.故选B.\n\n\ne dx\ne d\ne\ne\ne\ne\n=\n=\n( lim\nlim\n)\n1\nlim\n=\n\n\n\n\n\n\n0\n2\nx\nx\n0\n0\n\n0\n0\n\n",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-qe2472fec7dd1",
+      "document_id": "2016-xdf",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-qe2472fec7dd1-r1",
+          "page_id": "2016-xdf-p2",
+          "bbox": [
+            0.025,
+            0.20204845102987826,
+            0.985,
+            0.5798614158682699
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-qe2472fec7dd1-r2",
+          "page_id": "2016-xdf-p2",
+          "bbox": [
+            0.025,
+            0.5778614158682699,
+            0.985,
+            0.5996144939155735
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2016-xdf-qe2472fec7dd1-r3",
+          "page_id": "2016-xdf-p2",
+          "bbox": [
+            0.025,
+            0.5976144939155735,
+            0.985,
+            0.7440112405156893
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.08232518868852956,
+          0.21422368639617628,
+          0.17768694264020107,
+          0.23010946726439258
+        ],
+        "text": "(4) 设函数",
+        "style": "paren"
+      },
+      "text_hint": "f x 在(- ,\n( )\n内连续,其导函数的的图形如图所示,则                   (    )\n)\n(4) 设函数\nf x 有2 个极值点,曲线\ny\nf x\n( )\n\n( )\n有2 个拐点\n(A) 函数\nf x 有2 个极值点,曲线\ny\nf x\n( )\n\n( )\n(B) 函数\n有3 个拐点\nf x 有3 个极值点,曲线\ny\nf x\n( )\n\n( )\n有1个拐点\n(C) 函数\nf x 有3 个极值点,曲线\ny\nf x\n( )\n\n( )\n有2 个拐点\n(D) 函数",
+      "answer_hint": "【答案】(B)\n【答案】(B)\n【解析】根据极值的必要条件可知,极值点可能是驻点或导数不存在的点.根据极值的充分条件\n可知,在某点左右导函数符号发生改变,则该点是极值点,因此从图形可知函数\nf x 有2 个极\n( )\n值点.\n根据拐点的必要条件可知,拐点可能是二阶导为零的点或二阶导不存在的点.根据拐点的充\n分条件可知,曲线在某点左右导函数的单调性发生改变,则该点是曲线的拐点,因此曲线\ny\nf x\n\n( )\n有3 个拐点.故选B.",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-q5bca25d5dcc9",
+      "document_id": "2016-xdf",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-q5bca25d5dcc9-r1",
+          "page_id": "2016-xdf-p2",
+          "bbox": [
+            0.025,
+            0.7420112405156893,
+            0.985,
+            0.9158792357896091
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q5bca25d5dcc9-r2",
+          "page_id": "2016-xdf-p3",
+          "bbox": [
+            0.025,
+            0.08178054897481031,
+            0.985,
+            0.14661035022290808
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q5bca25d5dcc9-r3",
+          "page_id": "2016-xdf-p3",
+          "bbox": [
+            0.025,
+            0.14461035022290808,
+            0.985,
+            0.17693688998333545
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2016-xdf-q5bca25d5dcc9-r4",
+          "page_id": "2016-xdf-p3",
+          "bbox": [
+            0.025,
+            0.17493688998333545,
+            0.985,
+            0.4332680315768604
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.08232489297556322,
+          0.7574333954903978,
+          0.19346844872762992,
+          0.7733191972897376
+        ],
+        "text": "(5) 设函数",
+        "style": "paren"
+      },
+      "text_hint": "\n\n\n\n\n\n\nif\nx\ni\n\n0\n\n1,2\nif\nx\ni \n1,2\n(5) 设函数\n具有二阶连续导数,且\n,若两条曲线\n0\n在点\n\n(\n\ny\nf x\n\n1( )\ny\nf\nx\ni\nx\ny\ny\ng x\n\n\n1,2)\n\n处具有公切线\n,且在该点处曲线\n的曲率大于\n0\n0\ny\nf\nx\n0x 的某个邻域内,有                                    (    )\n\n2( )\n曲线\n的曲率,则在\nf x\nf\nx\ng x\nf\nx\nf x\ng x\n( )\n\n( )\n\n( )\n( )\n\n( )\n\n( )\n(A)\n(B)\n2016 年硕士研究生入学统一考试数学二试题及答案\nf x\ng x\nf\nx\nf\nx\ng x\nf x\n( )\n\n( )\n\n( )\n( )\n\n( )\n\n( )\n(D)\n(C)\n1\n2\n2\n1",
+      "answer_hint": "【答案】(A)\n\n\nif\nx\nif\nx\n( )\n(\n)\n\n0\n0x 的某邻域\n【解析】 因为\n连续且\n,所以根据连续的定义和极限的保号性在\n0\n\nif\nx\n( )\n\n0\nU x\nif x 在\nU x\n(\n)\n( )\n(\n)\ny\ng x\n\n( )\nx\nx\n\n内有\n,所以\n内是凸的.又因为在\n处具有公切线\n,\n0\n0\n0\nif x\ng x\ny\nf x\n( )\n\n( )\n\n1( )\n0x 处\n根据凸函数的几何意义可知曲线与切线位置关系为\n.在\n曲率大于\n\n\nf\nx\nf\nx\n(\n)\n\n(\n)\n\n0\nF x\nf x\nf\nx\n( )\n\n( )\n\n( )\ny\nf\nx\nx\nx\n\n2( )\n\n,所以\n,所以令\n,因为在\n处具有公\n1\n0\n2\n0\n1\n2\n0\n\nF x 的极大值,\n( )\nF x\nF x\n(\n)\n\n0\n(\n)\n\n0\ny\ng x\n\n( )\nF x\nF\nx\n(\n)\n\n0\n(\n)\n\n0\n切线\n,所以\n,\n.再由\n得,\n为\n0\n0\n0\n0\nF x \n( )\n0\nU x\nf x\nf\nx\nf x\nf\nx\ng x\n(\n)\n( )\n\n( )\n( )\n\n( )\n\n( )\n0x 的某邻域\n所以在\n内\n,故\n.从而\n.故选A.\n1\n0\n1\n2\n1\n2",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-q3e79cc377609",
+      "document_id": "2016-xdf",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-q3e79cc377609-r1",
+          "page_id": "2016-xdf-p3",
+          "bbox": [
+            0.025,
+            0.4312680315768604,
+            0.985,
+            0.5745938893175583
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q3e79cc377609-r2",
+          "page_id": "2016-xdf-p3",
+          "bbox": [
+            0.025,
+            0.5725938893175583,
+            0.985,
+            0.5972144057034465
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2016-xdf-q3e79cc377609-r3",
+          "page_id": "2016-xdf-p3",
+          "bbox": [
+            0.025,
+            0.5952144057034465,
+            0.985,
+            0.6921247434681499
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.08232607582742854,
+          0.45586965636788407,
+          0.19815909215646196,
+          0.47175541630497686
+        ],
+        "text": "(6) 已知函数",
+        "style": "paren"
+      },
+      "text_hint": "xe\nf x y\n( , )\n\n,则                                                 (    )\n(6) 已知函数\nx\ny\n\nf\nf\nf\nf\n\n\n0\n\n\n0\n(B)\n(A)\nf\nf\nf\n\n\nf\nf\nf\n\n\n(C)\n(D)",
+      "answer_hint": "【答案】(D)\n【答案】(D)\ne\nx\ny\ne\ne\n(\n)\n\n\n【解析】因为\n,\n,\nx y\nx y\n( , )\n\n( , )\n\n2\n2\nx\ny\nx\ny\n(\n\n)\n(\n)\n\ne\n所以\n.故选D.\nx y\nx y\nf x\n( , )\n\n( , )\n\n\n( )\nx\ny\n",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-qedfb28caa8f3",
+      "document_id": "2016-xdf",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-qedfb28caa8f3-r1",
+          "page_id": "2016-xdf-p3",
+          "bbox": [
+            0.025,
+            0.6901247434681499,
+            0.985,
+            0.7991206282418124
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-qedfb28caa8f3-r2",
+          "page_id": "2016-xdf-p3",
+          "bbox": [
+            0.025,
+            0.7971206282418124,
+            0.985,
+            0.8197228819712363
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2016-xdf-qedfb28caa8f3-r3",
+          "page_id": "2016-xdf-p3",
+          "bbox": [
+            0.025,
+            0.8177228819712363,
+            0.985,
+            0.9055139759623628
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2016-xdf-qedfb28caa8f3-r4",
+          "page_id": "2016-xdf-p4",
+          "bbox": [
+            0.025,
+            0.08178054897481031,
+            0.985,
+            0.20185378086419753
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.08232504083204639,
+          0.7021247434681499,
+          0.9390721875567769,
+          0.7184643320258917
+        ],
+        "text": "(7) 设A ,B 是可逆矩阵,且A 与B 相似,则下列结论错误的是                       (    )",
+        "style": "paren"
+      },
+      "text_hint": "(7) 设A ,B 是可逆矩阵,且A 与B 相似,则下列结论错误的是                       (    )\nT\nT\nA与\n1\nB相似\n1\nA 与\nB 相似                      (B)\n(A)\nT\nT\nA\n1\nB\n1\nA\nA\nB\nB\nA\nB\n\n\n\n\n与\n相似               (D)\n与\n相似\n(C)",
+      "answer_hint": "【答案】(C)\n【答案】(C)\n\n1\nP AP\nB\n\n【解析】A 与B 相似,即存在可逆矩阵P ,使\n,则\n\n1\nT\nT\n\n1\n\n1\n\n1\nT\nT\nT\nT\nT\nT\nT\nT\nT\n\n1\n\n1\n\n\n\n\n\n\n\n\n\n\n\n\n,即(A)是正确说法;\nB\nP AP\nP A\nP\nP A\nP\nP\nA\nP\n\n\n\n\n2016 年硕士研究生入学统一考试数学二试题及答案\n\n1\n\n1\n\n1\n\n1\n\n1\n\n1\n\n1\n\n1\n\n1\n\n\n\n\nB\nP AP\nP A\nP\nP A P\n\n\n\n,进一步有\n\n1\n\n1\n\n1\n\n1\n\n1\n\n1\n\n\nB\nB\nP AP\nP A P\nP\nA\nA\nP\n\n\n\n\n\n,即(B)(D)都是正确说法;\n故选(C).",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-q54cad33709f5",
+      "document_id": "2016-xdf",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-q54cad33709f5-r1",
+          "page_id": "2016-xdf-p4",
+          "bbox": [
+            0.025,
+            0.19985378086419753,
+            0.985,
+            0.30068443434392145
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q54cad33709f5-r2",
+          "page_id": "2016-xdf-p4",
+          "bbox": [
+            0.025,
+            0.29868443434392145,
+            0.985,
+            0.3281905261381173
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2016-xdf-q54cad33709f5-r3",
+          "page_id": "2016-xdf-p4",
+          "bbox": [
+            0.025,
+            0.3261905261381173,
+            0.985,
+            0.5770447145731524
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 4,
+        "bbox": [
+          0.08232563225797905,
+          0.2138943142361111,
+          0.1981586633726608,
+          0.22978009510432743
+        ],
+        "text": "(8) 设二次型",
+        "style": "paren"
+      },
+      "text_hint": "2\n2\n2\n)\nf x x x\na x\nx\nx\nx x\nx x\nx x\n( ,\n)\n\n(\n\n\n\n2\n\n2\n\n2\n的正、负惯性指数分别为1,\n(8) 设二次型\n1\n2\n3\n1\n2\n3\n1\n2\n2\n3\n1\n3\n2 ,则                                                                         (    )\na \na \n1\n2\n(B)\n(A)\n或\na\na \na \n\n2\n                         (D)\n1\n1\n2\n(C)",
+      "answer_hint": "或\na\na \na \n\n2\n                         (D)\n1\n1\n2\n(C)\n【答案】(C)\na\n1\n1\n\n\n\n\n\n\nf x x x\nA\na\n\n1\n1\n【解析】二次型\n对应的矩阵\n,由\n\n1\n2\n3\n\n\na\n1\n1\n\n\na\n\n\n\n1\n\n1\n2\n\n\n\nE\nA\na\na\na\n\n\n\n\n1\n\n\n\n1\n\n\n\n\n2\n\n\n\n1\n\n0\na\n\n1\n\n1\n\n\n\n\nf x x x\na\na\n2,\n1\n\n\n\n\n\n\n\n,由于\n得,A 的特征值为\n的正、负惯性指数为1,2,且正、\n1\n2\n3\n1\n2\n3\na \na \na\n2\n\n0\n1\n0\n,即2\n\n\n1\n负惯性指数恰好等于特征值中正、负数的个数,所以\n且\n.故选\n(C).",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-q285607d8edef",
+      "document_id": "2016-xdf",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-q285607d8edef-r1",
+          "page_id": "2016-xdf-p4",
+          "bbox": [
+            0.025,
+            0.6126515805175111,
+            0.985,
+            0.6793282080546982
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q285607d8edef-r2",
+          "page_id": "2016-xdf-p4",
+          "bbox": [
+            0.025,
+            0.6773282080546982,
+            0.985,
+            0.7333272415391375
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2016-xdf-q285607d8edef-r3",
+          "page_id": "2016-xdf-p4",
+          "bbox": [
+            0.025,
+            0.7313272415391375,
+            0.985,
+            0.8965108299307699
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2016-xdf-q285607d8edef-r4",
+          "page_id": "2016-xdf-p5",
+          "bbox": [
+            0.025,
+            0.08178054897481031,
+            0.985,
+            0.11354658464345423
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 4,
+        "bbox": [
+          0.08232489297556322,
+          0.6372687780644505,
+          0.16745367715525072,
+          0.6531545380015432
+        ],
+        "text": "(9)  曲线",
+        "style": "paren"
+      },
+      "text_hint": "3\nx\n2\n\n\ny\nx\n\n\narctan 1\n\n(9)  曲线\n的斜渐近线方程为___________.\n2\nx\n1\n",
+      "answer_hint": "\ny\nx\n\n\n【答案】\n2\n3\ny\nx\n1\n2\na\nx\n\nlim\n\nlim\n(\n\narctan(1\n\n))\n\n1\n【解析】 因为\n,\n2\nx\nx\nx\n1\n\nx\nx\n\n\n3\nx\n\n2\nb\ny\nax\nx\nx\n\nlim(\n\n)\n\nlim(\n\narctan(1\n\n)\n\n)\n\n.\n2\nx\n1\n\n2\nx\nx\n\n\n\ny\nx\n\n\n所以斜渐近线为\n.\n2\n2016 年硕士研究生入学统一考试数学二试题及答案",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-q28a79a4d5e66",
+      "document_id": "2016-xdf",
+      "number": "10",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-q28a79a4d5e66-r1",
+          "page_id": "2016-xdf-p5",
+          "bbox": [
+            0.025,
+            0.11154658464345422,
+            0.985,
+            0.16800949368784293
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q28a79a4d5e66-r2",
+          "page_id": "2016-xdf-p5",
+          "bbox": [
+            0.025,
+            0.16600949368784293,
+            0.985,
+            0.18902088808915252
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2016-xdf-q28a79a4d5e66-r3",
+          "page_id": "2016-xdf-p5",
+          "bbox": [
+            0.025,
+            0.18702088808915251,
+            0.985,
+            0.3759949517478995
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 5,
+        "bbox": [
+          0.08232548440149588,
+          0.13422350890024862,
+          0.1674541946529418,
+          0.15010927930290316
+        ],
+        "text": "(10) 极限",
+        "style": "paren"
+      },
+      "text_hint": "n\n1\n1\n2\n\n\nn\nlim\nsin\n\n2sin\n\nsin\n\n___________.\n(10) 极限\n\n\n2\nn\nn\nn\nn\n\n\nn\n",
+      "answer_hint": "【答案】sin1 cos1\n\n【答案】sin1 cos1\n\nn\n1\n1\n2\n\nn\nlim\n(sin\n\n2sin\n\n\nsin\n)\n【解析】因为\n2\nn\nn\nn\nn\nn\n\nn\nn\n1 1\n1\n2\n2\n\n\n\n\n\nlim\n( sin\nsin\nsin\n)\nn n\nn\nn\nn\nn\nn\nn\n\nn\nk\nk\n1\n\n\nlim\nsin\nn\nn\nn\nn\n\nk\n\n1\n1\n1\n\n所以由定积分定义得,原极限\n.\nx\nxdx\nx\nx\nx\n\nsin\n\n(\ncos\n\nsin )\n\nsin1\n\ncos1\n0\n0",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-q3d96d1fe6785",
+      "document_id": "2016-xdf",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-q3d96d1fe6785-r1",
+          "page_id": "2016-xdf-p5",
+          "bbox": [
+            0.025,
+            0.3739949517478995,
+            0.985,
+            0.4187278917100694
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q3d96d1fe6785-r2",
+          "page_id": "2016-xdf-p5",
+          "bbox": [
+            0.025,
+            0.4167278917100694,
+            0.985,
+            0.4503077662170996
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2016-xdf-q3d96d1fe6785-r3",
+          "page_id": "2016-xdf-p5",
+          "bbox": [
+            0.025,
+            0.4483077662170996,
+            0.985,
+            0.5396385781035665
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 5,
+        "bbox": [
+          0.08232566182927568,
+          0.38805072297775206,
+          0.14651810106380966,
+          0.4039364829148448
+        ],
+        "text": "(11) 以",
+        "style": "paren"
+      },
+      "text_hint": "2\n2\ny\nx\ne\ny\nx\n\n\n\n为特解的一阶非齐次线性微分方程为___________.\n(11) 以\n和",
+      "answer_hint": "2\n\ny\ny\nx\nx\n\n2\n\n【答案】\n\ny\np x y\nq x\n( )\n\n( )\n【解析】设一阶非齐次线性微分方程为\n.根据线性微分方程齐次与非齐次解之\n\nx\nx\n2\n2\n2\ny\np x y\np x \n( )\n\n0\n( )\n1\n的解. 所以\n. 又因为\nx\nx\ne\ne\n\n(\n\n)\n\ny\nx\n\n间的关系知\n为\n为\n\n2\n2\ny\np x y\nq x\n( )\n\n( )\n\nq x\nx\nx\ny\ny\nx\nx\n( )\n\n2\n\n\n2\n\n的解,所以\n.故一阶非齐次线性微分方程为\n.",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-q87e75dbfb8df",
+      "document_id": "2016-xdf",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-q87e75dbfb8df-r1",
+          "page_id": "2016-xdf-p5",
+          "bbox": [
+            0.025,
+            0.5376385781035665,
+            0.985,
+            0.6186171911838777
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q87e75dbfb8df-r2",
+          "page_id": "2016-xdf-p5",
+          "bbox": [
+            0.025,
+            0.6166171911838777,
+            0.985,
+            0.6605931361320088
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2016-xdf-q87e75dbfb8df-r3",
+          "page_id": "2016-xdf-p5",
+          "bbox": [
+            0.025,
+            0.6585931361320088,
+            0.985,
+            0.828669848867241
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 5,
+        "bbox": [
+          0.0823251295459363,
+          0.5539766790444959,
+          0.2199428173922753,
+          0.5698624389815886
+        ],
+        "text": "(12) 已知函数",
+        "style": "paren"
+      },
+      "text_hint": "2\n\n\n\n\n\nx 在\n\n\nf\n\n,则当\n时,\n上连续,\n(12) 已知函数\nf\nx\nx\nf t dt\n\n\n1\n2\nn \n2\n0\nn\n\nf\n0\n___________.\n?",
+      "answer_hint": "【答案】5\nn\n\n2\n2\n2\nx \n0\nf\n(0)\n;\n1\n【解析】当\n时,\nx\n2\nf \n两边同时对x 求导,得\nf\nx\nx\nf x\n( )\n\n2(\n\n1)\n\n2 ( )\n(0)\n\n4\n\n,\n;\nf x\nx\nf t dt\n( )\n\n(\n\n1)\n2\n( )\n0\n\nf \n两边同时对x 求导,得\nf\nx\nx\nf x\nf\nx\nf\nx\n( )\n\n2(\n\n1)\n\n2 ( )\n( )\n\n2\n\n2\n( )\n(0)\n\n10\n,\n;\n\n\n\n两边同时对x 求导,得\nf\nx\nf\nx\nf\nx\nf\nx\n( )\n\n2\n\n2\n( )\n( )\n\n2\n( )\n;\n5\nn\nn\n( )\n\n2\nn\nn\nn\nn\n( )\n\n2\n\n2\n\n\nf\nx\nf\nx\n( )\n\n2\n( )\nf\nf\n(0)\n\n2\n(0)\n\n10 2\n\n\n\n2\n依次求导得\n;所以\n.\n2",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-q969cd9a04bc3",
+      "document_id": "2016-xdf",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-q969cd9a04bc3-r1",
+          "page_id": "2016-xdf-p5",
+          "bbox": [
+            0.025,
+            0.826669848867241,
+            0.985,
+            0.9163977415820045
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q969cd9a04bc3-r2",
+          "page_id": "2016-xdf-p6",
+          "bbox": [
+            0.025,
+            0.08178054897481031,
+            0.985,
+            0.11461400915075232
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q969cd9a04bc3-r3",
+          "page_id": "2016-xdf-p6",
+          "bbox": [
+            0.025,
+            0.11261400915075231,
+            0.985,
+            0.14671395928444358
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2016-xdf-q969cd9a04bc3-r4",
+          "page_id": "2016-xdf-p6",
+          "bbox": [
+            0.025,
+            0.14471395928444358,
+            0.985,
+            0.2568039036712856
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 5,
+        "bbox": [
+          0.08232666725336119,
+          0.8406518588177297,
+          0.29257784702981166,
+          0.8570644551343879
+        ],
+        "text": "(13) 已知动点P 在曲线",
+        "style": "paren"
+      },
+      "text_hint": "3\ny\nx\n\n(13) 已知动点P 在曲线\n上运动,记坐标原点与点P 间的距离为l . 若点P 的横坐标对时间\nV ,则当点P 运动到点\n\n1,1 时,l 对时间的变化率是___________.\n的变化率为常数\n2016 年硕士研究生入学统一考试数学二试题及答案",
+      "answer_hint": "2 2v\n【答案】\n0\n5\ndl\ndl dx\nx\nx\ndx\n\n2\n6\n2\n2\n2\n6\nl\nx\ny\nx\nx\n\n\n\n\n\n\n,\n【解析】\n,同时对t 求导得,\ndt\ndx dt\ndt\n2\n6\nx\nx\n\n2\ndl\n8\ndx\nx \n1\nv\nv\n\n\n2 2\nv\ndt \n又因为\n,\n,所以\n.\n0\n0\n0\ndt\n2 2\n\n1",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-q0e12d532e22b",
+      "document_id": "2016-xdf",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-q0e12d532e22b-r1",
+          "page_id": "2016-xdf-p6",
+          "bbox": [
+            0.025,
+            0.2548039036712856,
+            0.985,
+            0.33624000831886575
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q0e12d532e22b-r2",
+          "page_id": "2016-xdf-p6",
+          "bbox": [
+            0.025,
+            0.33424000831886574,
+            0.985,
+            0.35913706670899775
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2016-xdf-q0e12d532e22b-r3",
+          "page_id": "2016-xdf-p6",
+          "bbox": [
+            0.025,
+            0.35713706670899775,
+            0.985,
+            0.7471041070548268
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 6,
+        "bbox": [
+          0.08232489297556322,
+          0.2915897238565244,
+          0.18792486560437105,
+          0.30747550472474067
+        ],
+        "text": "(14) 设矩阵",
+        "style": "paren"
+      },
+      "text_hint": "a\n1\n1\n0\n\n1\n\n1\n\n\n\n\n\n\n\n\n等价,则a ___________.\na\n\n\n0\n\n1\n1\n1\n1\n与\n(14) 设矩阵\n\n\n\n\n\n\n\n\na\n\n\n1\n0\n1\n1\n1\n\n\n\n",
+      "answer_hint": "【答案】2\n【答案】2\na\n\n1\n\n1\n1\n1\n0\n\n\n\n\n\n\n\n\nA\na\nB\n\n1\n\n1\n\n0\n\n1\n1\n【解析】设\n,\n.\n\n\n\n\n\n\n\n\na\n\n1\n\n1\n1\n0\n1\n\n\n\n\n1\n1\n0\n1\n1\n0\n\n\n\n\n\n\n\n\nB\n\n0\n\n1\n1\n\n0\n\n1\n1\n由\n,得( )\n.\nr B \n2\n\n\n\n\n\n\n\n\n1\n0\n1\n0\n0\n0\n\n\n\n\n因为A 与B 等价,所以( )\n,于是\nr A\nr B\n\n( )\n\n2\na\n\n1\n\n1\n2\n\n\n\nA\na\na\na\n\n1\n\n1\n\n2\n\n1\n\n0\na\n\n1\n\n1\na \na .\n2\n1\n即\n或\n\n1\n\n1\n\n1\n\n\n\n\na 时,\n1\nA\n\n\n\n1\n1\n1\n,此时( )\nr A ,不合题意.\n而\n1\n\n\n\n\n\n\n\n1\n1\n1\n\n\na \n2\n故\n.",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-q833a5a816332",
+      "document_id": "2016-xdf",
+      "number": "15",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-q833a5a816332-r1",
+          "page_id": "2016-xdf-p6",
+          "bbox": [
+            0.025,
+            0.7921823064021777,
+            0.985,
+            0.8583799042459705
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q833a5a816332-r2",
+          "page_id": "2016-xdf-p6",
+          "bbox": [
+            0.025,
+            0.8563799042459705,
+            0.985,
+            0.9002657060453104
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2016-xdf-q833a5a816332-r3",
+          "page_id": "2016-xdf-p7",
+          "bbox": [
+            0.025,
+            0.08178054897481031,
+            0.985,
+            0.33920297630529833
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 6,
+        "bbox": [
+          0.08232573575751725,
+          0.8041823064021777,
+          0.27209487441898317,
+          0.8200681082015175
+        ],
+        "text": "(15) (本题满分10 分)",
+        "style": "paren"
+      },
+      "text_hint": "明过程或演算步骤.\n(15) (本题满分10 分)\n2 sin )x\n求极限\nx\nx\nx\nlim(cos 2\n\n.\n\n0",
+      "answer_hint": "\n0\n【解析】\n2016 年硕士研究生入学统一考试数学二试题及答案\n1\n\n\nx\nx\nx\n\nlim cos 2\n2 sin\n\n0\n1\n\n\nlim\ncos2\n2 sin\n1\ne\n\n\n1\n1\no x\nx x\no x\n\n\n\n\n\n\n\n1\n2\n(2 )\n2\n1\n2\n4!\n3!\nlim\ne\n\n\n1\no x\n\n3\nlim\ne\n\n\n1\ne\n\n3",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-q5c47a5110d83",
+      "document_id": "2016-xdf",
+      "number": "16",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-q5c47a5110d83-r1",
+          "page_id": "2016-xdf-p7",
+          "bbox": [
+            0.025,
+            0.33720297630529833,
+            0.985,
+            0.403400490424597
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q5c47a5110d83-r2",
+          "page_id": "2016-xdf-p7",
+          "bbox": [
+            0.025,
+            0.401400490424597,
+            0.985,
+            0.6815897740912208
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 7,
+        "bbox": [
+          0.08232625325520833,
+          0.34920297630529834,
+          0.27209537713102594,
+          0.36508873624239113
+        ],
+        "text": "(16) (本题满分10 分)",
+        "style": "paren"
+      },
+      "text_hint": "(16) (本题满分10 分)\n1\n2\n2\n\nf x\nt\nx\ndt x\n( )\n\n\n(\n\n0)\nf\nx\n( )\n设函数\n,求\n并求\nf x 的最小值.\n( )\n0",
+      "answer_hint": "\n0\n【解析】\n1\n2\n2\n2\n2\n\n\n\n\n\n\nf x\nx\nt\ndt\nt\nx\ndt\n\n\n\n\n( )\n0\n4\n1\n3\n2\nx\nx\n\n\n\n3\n3\n2\n\n\n\nf\nx\nx\nx\nx\nx\n\n\n\n\n4\n2\n2\n2\n1\n1\n1 ,\n1\n\n\n\n\n\n\n\n\n\nx\nx\n\n0, 2\n\n\nx\nx\n\n\n0\nf\nx \nf\nx \n0\n0\n令\n可得\n,且当\n时,\n;当\n时,\n\n\n\n2\n2\n\n\n\n\n1\n1\nx 在1\nf \n\n\n\nf\nx \nf\n0\n,从而\n处取极小值且为最小值\n。\n\n\n2\n4\n2\n\n",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-q4c9ef14a2f52",
+      "document_id": "2016-xdf",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-q4c9ef14a2f52-r1",
+          "page_id": "2016-xdf-p7",
+          "bbox": [
+            0.025,
+            0.6795897740912208,
+            0.985,
+            0.7545303859632202
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q4c9ef14a2f52-r2",
+          "page_id": "2016-xdf-p7",
+          "bbox": [
+            0.025,
+            0.7525303859632202,
+            0.985,
+            0.9106209189332561
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2016-xdf-q4c9ef14a2f52-r3",
+          "page_id": "2016-xdf-p8",
+          "bbox": [
+            0.025,
+            0.08178054897481031,
+            0.985,
+            0.46759804640614283
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 7,
+        "bbox": [
+          0.0823257801144622,
+          0.6915897740912208,
+          0.2720949039902798,
+          0.7074755758905606
+        ],
+        "text": "(17) (本题满分10 分)",
+        "style": "paren"
+      },
+      "text_hint": "(17) (本题满分10 分)\n2\n2\nx\ny\nz\nz\nx\ny\n(\n\n)\n\nln\n\n2(\n\n\n1)\n\n0\n已知函数\n由方程\n确定求\n的极值.\nz\nz x y\nz\nz x y\n\n( , )\n\n( , )",
+      "answer_hint": "2\n2\nx\ny\nz\nz\nx\ny\n(\n\n)\n\nln\n\n2\n(\n\n\n)1\n\n0\n解:由\n,两边分别同时对\n求偏导数得:\ny\nx,\nz\nz\n\n1\n\n\n2\n2\nxz\nx\ny\n\n\n2\n\n(\n\n)\n\n2\n0\n)1(\n\nx\nz\nx\n\n\n\nz\nz\n\n1\n\n\n2\n2\nyz\nx\ny\n2\n\n(\n\n)\n\n\n2\n\n0\n(\n2\n)\n\ny\nz\ny\n\n\n\n2016 年硕士研究生入学统一考试数学二试题及答案\nx\n\n\n1\n\nz\nz\n\n\n\n,0\n\n0\n\ny\n\n\n1\n令\n(4)\n(3)得:\nx\ny\n\n\n\nz\n\n1\n又对(1)关于x 求偏导数,(1)对y 求偏导数,(2)对y 求偏导数,再把(3),(4)代入即得:\n2\n2\nz\nz\n\n\n1\n2\n2\nz\nx\ny\n\n\n\n\n2\n(\n)\n0\n2\n2\nz\nx\nx\n\n\n2\n2\nz\nz\n\n\n1\n2\n2\nz\nx\ny\n\n\n\n\n2\n(\n)\n0\n2\n2\nz\ny\ny\n\n\n2\n2\nz\nz\n\n\n1\n2\n2\nx\ny\n\n\n\n(\n)\n0\nx\ny\nz\nx\ny\n\n\n\n\n2\n2\n2\nz\nz\nz\n\n2\n\n\n2\n得:\nA\nB\nC\n\n\n\n\n\n,0\n\n\n\n2\n2\nx\ny\n3\n\n\n3\nx\ny\n\n\n2\nAC\nB\nA\n\n\n,0\n\n0\n又\n,故\n在\n取得极大值,极大值为\nz \nz\nx\ny\nz\n(\n)\n(\n\n,1\n\n)1\n(\n\n,1\n\n)1\n\n1",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-q1fea6e1f8964",
+      "document_id": "2016-xdf",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-q1fea6e1f8964-r1",
+          "page_id": "2016-xdf-p8",
+          "bbox": [
+            0.025,
+            0.46559804640614283,
+            0.985,
+            0.5514995760191616
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q1fea6e1f8964-r2",
+          "page_id": "2016-xdf-p8",
+          "bbox": [
+            0.025,
+            0.5494995760191616,
+            0.985,
+            0.8178860502936386
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 8,
+        "bbox": [
+          0.08232672639595445,
+          0.47759804640614284,
+          0.282328583473383,
+          0.4934838063432356
+        ],
+        "text": "(18) (本题满分 10 分)",
+        "style": "paren"
+      },
+      "text_hint": "(18) (本题满分 10 分)\n2\n2\nx\nxy\ny dxdy\n\n\n\n设D 是由直线\n围成的有界区域,计算二重积分\ny\ny\nx y\nx\n\n1,\n\n.\n2\n2\nx\ny\n+\nD",
+      "answer_hint": "\n3\n\n1\n\n\nD\nr\nr\n\n( , )\n\n\n\n\n,0\n\n\n【解析】\n\n\n4\n4\nsin\n\n\n\n3\n\n1\n2\n2\n2\n2\n2\n2\n2\nx\nxy\ny\nr\nr\nr\n\n\ncos\n\n\ncos sin\n\n\n\nsin\n\n\n\n\n则\ndxdy\nd\nrdr\n\n\n4\nsin\n\n\n2\n2\n2\nx\ny\nr\n\n0\n4\nD\n3\n\n1\n2\n2\n\n\n)d\nrdr\n\n(cos\n\n\ncos sin\n\n\n\nsin\n\n\n4\nsin\n\n\n0\n4\n\n3\n\n3\n\n1\ncos\n\n1\n1\n1\n\n\n4\n2\n\nd\n\n(csc\n\n\n\n2)\n\n\ncot\n\n\nln sin\n\n\n\n2\n\n1\n4\n4\n\n\n2\nsin\n\n2\n2\n2\n2\n2\n3\n\n4\n4\n4",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-q6c8b04fd24b5",
+      "document_id": "2016-xdf",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-q6c8b04fd24b5-r1",
+          "page_id": "2016-xdf-p8",
+          "bbox": [
+            0.025,
+            0.8158860502936386,
+            0.985,
+            0.9105725261756259
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q6c8b04fd24b5-r2",
+          "page_id": "2016-xdf-p9",
+          "bbox": [
+            0.025,
+            0.08178054897481031,
+            0.985,
+            0.11401774423439644
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q6c8b04fd24b5-r3",
+          "page_id": "2016-xdf-p9",
+          "bbox": [
+            0.025,
+            0.11201774423439644,
+            0.985,
+            0.638791403436857
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 8,
+        "bbox": [
+          0.08232524783112281,
+          0.8278860502936386,
+          0.2720943717069404,
+          0.8437718520929784
+        ],
+        "text": "(19) (本题满分10 分)",
+        "style": "paren"
+      },
+      "text_hint": "(19) (本题满分10 分)\n\nx\ny\nx\ny\ny\n是二阶微分方程 (2\n\n1)\n\n(2\n\n1)\n\n2\n\n0\n已知\n的两个解.\ny x\ne\ny\nx\nx e\n( )\n\n( )\n\n( )\n1\n2\n若\n,\n,求\n并写出微分方程的通解.\ne\n( )x\n\n( 1)\n\n\n\n(0)\n\n1\n\n2016 年硕士研究生入学统一考试数学二试题及答案",
+      "answer_hint": "【解析】把\n代入原方程得,\ny\nx e\n\n\n( )\n2\n\nx\ne\nx\nx\nx\nx\ne\nx\nx\nx e\n(2\n\n1)\n[\n\n( )\n\n2\n\n( )\n\n\n( )]\n\n(2\n\n1)\n(\n\n( )\n\n\n( ))\n\n2 ( )\n\n\n0.\n\n,变量分离得\n即,(2\nx\nx\nx\nx\n\n\n\n\n\n\n1)\n( )\n(2\n3)\n( )\n0\nd\nx\nx\n\n( )\n2\n\n3\ndx\n\n,两边积分,\nx\nx\n\n( )\n2\n1\n\nd\nx\nx\n\n( )\n2\n\n3\n2\n\n\n\ndx\n\n\n,即\n,\nx\ndx\nx\nx\nC\nln |\n( ) |\n\n(1\n\n)\n\nln | 2\n\n1|\n\nln\n1\nx\nx\n\n( )\n2\n\n1\nx\n2\n\n1\n\n所以\n,两边积分\nx\nC\nx\ne\n\n( )\n\n(2\n\n1)\n1\n\n\n\n\n\nx dx\nC\nx\ne dx\nC\nx\ne\nC\nC\nx\ne\nC\n\n( )\n\n(2\n\n1)\n\n[ (2\n\n\n1)\n\n2]\n\n\n( 2\n\n\n1)\n\n,\n1\n1\n2\n1\n2\nC e\nC\ne\nC\nC\n\n( 1)\n\n\n\n\n, (0)\n\n\n\n\n1\n由已知\n,解得\n1\n2\n1\n2\ne\n,所以\nC\nC\nx\nx\n\n1,\n\n0\n\n( )\n\n(2\n\n1)\n1\n2\n根据二阶齐次线性方程解得结构得原方程通解为\ny x\nD y\nD y\nD e\nD\nx e\n( )\n\n\n\n\n\n( )\n1\n1\n2\n2\n1\n2\nD D 为任意常数.\nD e\nD\nx\n\n\n2(2\n\n1)\n, 其中\n1\n2\n1",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-q137486de087f",
+      "document_id": "2016-xdf",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-q137486de087f-r1",
+          "page_id": "2016-xdf-p9",
+          "bbox": [
+            0.025,
+            0.636791403436857,
+            0.985,
+            0.7463345952289094
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q137486de087f-r2",
+          "page_id": "2016-xdf-p9",
+          "bbox": [
+            0.025,
+            0.7443345952289094,
+            0.985,
+            0.9099340431830847
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2016-xdf-q137486de087f-r3",
+          "page_id": "2016-xdf-p10",
+          "bbox": [
+            0.025,
+            0.08178054897481031,
+            0.985,
+            0.25360623499657065
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 9,
+        "bbox": [
+          0.08232554354408915,
+          0.648791403436857,
+          0.29163109239681745,
+          0.6646771633739498
+        ],
+        "text": "(20) (本题满分 11 分)",
+        "style": "paren"
+      },
+      "text_hint": "(20) (本题满分 11 分)\n3\n\nx\nt\ncos\n,(0\n\n\n2\ny\nx\nx\n\n1\n\n(0\n\n\n1)\nt\n\n)\n设D 是由曲线\n与\n围成的平面区域,求D 绕x\n\n3\n2\ny\nt\n\nsin\n\n轴转一周所得转体的体积和表面积.",
+      "answer_hint": "3\n\nx\nt\ncos\n\nt\n(0\n\n)\n【解析】由于\n,则可以化成直角坐标系下的方程,可得\n\n3\n2\ny\nt\nsin\n\n\n1\n1\n2\n2\n2\n2\n3\nx\ny\ny\nx\n(\n)\n\n(\n)\n,从而有\n1\n\n(1\n\n)\n3\n3\n3\n2\n1\n1\n2\n2\n3\n\n\n所以有:\nV\nx\ndx\nx\ndx\n\n\n( 1\n\n)\n\n\n(1\n\n)\n3\n0\n0\n2016 年硕士研究生入学统一考试数学二试题及答案\n2\n16\n18\n\n\n\n\n\n\n3\n105\n35\n\n2\n3\n2\n2\n2\n2\n\n表面积\nS\nt\nt\nt\nt\nt\ndt\n\n2\n\n\n1\n\n2\n\nsin\n(3cos\n( sin ))\n\n\n(3sin\ncos )\n2\n0\n\n16\n\n4\n\nt\ntdt\n\n2\n\n\n6\n\nsin\ncos\n\n2\n5\n0",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-q4dcaedf53fa7",
+      "document_id": "2016-xdf",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-q4dcaedf53fa7-r1",
+          "page_id": "2016-xdf-p10",
+          "bbox": [
+            0.025,
+            0.25160623499657064,
+            0.985,
+            0.4034014113940329
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q4dcaedf53fa7-r2",
+          "page_id": "2016-xdf-p10",
+          "bbox": [
+            0.025,
+            0.4014014113940329,
+            0.985,
+            0.9089798351230282
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2016-xdf-q4dcaedf53fa7-r3",
+          "page_id": "2016-xdf-p11",
+          "bbox": [
+            0.025,
+            0.08178054897481031,
+            0.985,
+            0.25360623499657065
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 10,
+        "bbox": [
+          0.08232509997463966,
+          0.26360623499657065,
+          0.291630648827368,
+          0.27949201586478695
+        ],
+        "text": "(21) (本题满分 11 分)",
+        "style": "paren"
+      },
+      "text_hint": "(21) (本题满分 11 分)\nx\n3\n上连续,在\n3\n内是函数cos\n已知函数\nf x 在\n的一个原函数,且\n,\n[0,\n]\n(0,\n)\nf\n( )\n(0)\n\n0\nx \n2\n2\n2\n3\n3\n上的平均值;\n(I)求\nf x 在区间\n[0,\n]\n( )\n2\n3\n内存在唯一零点.\n(II)证明\nf x 在区间\n(0,\n)\n( )\n2",
+      "answer_hint": "2\nt\ncos\n\n【解析】(I)由已知\n,\nf x\ndt f\n( )\n(0)\n0\n\n\nt\n2\n3\n\n\n0\n3\n\n3\n3\n3\n3\n3\n3\n2\n\n\n\n\n\nf x dx\nf x d x\n( )\n\n( ) (\n\n\n)\n\n2\n2\n则\nx\nf x\nx\nf\nx dx\n\n\n\n\n\n\n(\n) ( )\n(\n)\n( )\n2\n2\n2\n2\n0\n0\n0\n0\n3\n3\nx\n3\ncos\n1\n1\n\n\n\n\nx\ndx\nxdx\n\n\n\n\n\n(\n)\ncos\n2\n2\n,\nx\n\n\n2\n2\n3\n2\n2\n0\n0\n3\n1\n1\n1\n1\n3\n\n\n\n\n0, 2\n上的平均值为\n所以\nf x 在\n( )\nf x dx\n( )\n\n\n2\n.\n\n\n3\n3\n2\n3\n\n0\n\n\n\n0\n\n2\n2\nt\nx\ncos\ncos\n\n(II) 由\n得,\n,令\n,\nf x\ndt\nf\nx\n( )\n\n( )\n\nf\nx\n( )\n\n0\nt\nx\n2\n\n3\n\n2\n\n3\n\n0\n3\n\n解得在\n2上的唯一驻点为\n,\nx\n(0,\n)\n\n2\n\n\n3\n\n且当0\n时,\n;当\n时,\nx\nx\n\n\n\n\nf\nx\nf\nx\n( )\n\n0\n( )\n\n0\n.\n2\n2\n2\n\n3\n所以\n为\nf x 在\n2内的极小值点,也是最小值点.\nx\n\n(0,\n)\n( )\n2\n\nt\n\ncos\n\nf\nx\nf\ndt\n( )\n\n(\n)\n\n\n0\n2\n故\n,\n,\nf\n(0)\n\n0\nmin\nt\n2\n2\n\n3\n\n0\n2016 年硕士研究生入学统一考试数学二试题及答案\n\nt\nd\nt\nt\nt\ncos\nsin\nsin\n1\nsin\n\n\n\n\n\n\n\n\nf\ndt\ntd\ndt\n( )\n\n\n\n\n\nsin\n(\n)\n\n2\n\n0\n2\nt\nt\nt\nt\nt\n2\n\n3\n\n2\n\n3\n\n2\n\n3\n\n2\n\n3\n\n(2\n\n3 )\n\n0\n0\n0\n0\n0\n\n\n3\n\n结合单调性可知,函数\nf x 在(0,\n内无零点;函数\nf x 在\n内唯一零点\n)\n(\n)\n( )\n( )\n2\n2\n2\n3\n\n内唯一零点.\n综上所述,\nf x 在\n(0,\n)\n( )\n2",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-q8195f246ba15",
+      "document_id": "2016-xdf",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-q8195f246ba15-r1",
+          "page_id": "2016-xdf-p11",
+          "bbox": [
+            0.025,
+            0.25160623499657064,
+            0.985,
+            0.43090658221879286
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q8195f246ba15-r2",
+          "page_id": "2016-xdf-p11",
+          "bbox": [
+            0.025,
+            0.42890658221879285,
+            0.985,
+            0.9159848123767576
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2016-xdf-q8195f246ba15-r3",
+          "page_id": "2016-xdf-p12",
+          "bbox": [
+            0.025,
+            0.08178054897481031,
+            0.985,
+            0.18940872087727195
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 11,
+        "bbox": [
+          0.08232406497925751,
+          0.26360623499657065,
+          0.2916296138319858,
+          0.27949201586478695
+        ],
+        "text": "(22) (本题满分 11 分)",
+        "style": "paren"
+      },
+      "text_hint": "2\n(22) (本题满分 11 分)\na\n1\n1\n1\n\n0\n\n\n\n\n\n\n\n\n且方程组Ax 无解,\n设矩阵\n,\nA\na\n\n1\n0\n\n\n1\n\n\n\n\n\n\na\na\na\n\n1\n1\n\n1\n2\n2\n\n\n\n\n\n(I)求a 的值;\nT\nT\nA Ax\nA\n\n的通解.\n(II)求方程组",
+      "answer_hint": "a\na\n1\n1\n1\n\n0\n1\n0\n1\n\n\n\n\n\n\n\n\n【解析】(I)\n\nA\na\na\n\n\n1\n0\n1\n\n0\n1\n1 2\n\n\n1\n\n\n\n\n\n\n\n\n2\na\na\na\na\na\na\n\n1\n1\n\n1\n2\n\n2\n0\n0\n2\n\n\n2\n\n\n\n\na \n0\n当\n时, ( )\n, Ax\n无解\nr A\nr A \n\n2, ( ,\n)\n\n3\n\n\n1\n1\n1\n\n\n\n\nA\n\n1\n0\n0\n(II)\n\n\n\n1\n1\n1\n\n\n1\n1\n1\n1\n1\n1\n3\n2\n2\n\n\n\n\n\n\n\n\n\n\nT\nA A\n\n\n1\n0\n1\n1\n0\n0\n2\n2\n2\n\n\n\n\n\n\n\n\n\n\n1\n0\n1\n1\n1\n1\n2\n2\n2\n\n\n\n\n\n1\n1\n1\n0\n\n1\n\n\n\n\n\n\n\n\n\n\nT\nA \n\n1\n0\n1\n1\n\n2\n\n\n\n\n\n\n\n\n\n\n1\n0\n1\n\n2\n\n2\n\n\n\n\n\n3\n2\n2\n\n1\n1\n0\n0\n1\n\n\n\n\n\n\n\n\nT\nT\n\n\nA A\nA \n\n2\n2\n2\n\n2\n\n0\n1\n1\n\n2\n\n\n\n\n\n\n\n\n2\n2\n2\n\n2\n0\n0\n0\n0\n\n\n\n\n2016 年硕士研究生入学统一考试数学二试题及答案\nT\nT\nT\nT\n\n\n\n\nA A\n\n\n\n0, 1,1\n\n\n1, 2,0\n\n的基础解系为\n,\n的特解为\n,\nA A \n0\nT\n,其中k 为任意常数.\nA A\n\n\n的通解为x\n所以\nk\n\n\n",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    },
+    {
+      "id": "2016-xdf-q1fc764ad25d9",
+      "document_id": "2016-xdf",
+      "number": "23",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2016年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。 原卷含答案，题干可能显示正确选项，尚未遮盖。",
+      "regions": [
+        {
+          "id": "2016-xdf-q1fc764ad25d9-r1",
+          "page_id": "2016-xdf-p12",
+          "bbox": [
+            0.025,
+            0.18740872087727195,
+            0.985,
+            0.4556517332309885
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2016-xdf-q1fc764ad25d9-r2",
+          "page_id": "2016-xdf-p12",
+          "bbox": [
+            0.025,
+            0.4536517332309885,
+            0.985,
+            0.9290791558159722
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2016-xdf-q1fc764ad25d9-r3",
+          "page_id": "2016-xdf-p13",
+          "bbox": [
+            0.025,
+            0.08178054897481031,
+            0.985,
+            0.5935734648946545
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2016",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 12,
+        "bbox": [
+          0.0823251295459363,
+          0.19940872087727196,
+          0.29163067839866463,
+          0.21529450174548825
+        ],
+        "text": "(23) (本题满分 11 分)",
+        "style": "paren"
+      },
+      "text_hint": "(23) (本题满分 11 分)\n0\n\n1\n1\n\n\n\n\nA\n\n2\n\n3\n0\n已知矩阵\n,\n\n\n\n\n0\n0\n0\n\n\n99\nA\n(I)求\n;\n2\n100\nB\nBA\n\nB\n\n(\n\n)\n\n分别表示\nB\n\n(\n\n\n)\n(II)设3 阶矩阵\n满足\n.记\n,将\n1\n2\n3\n1\n2\n3\n1\n2\n3\n的线性组合.\n为\n1\n2\n3\n\n1\n\n1",
+      "answer_hint": "\n1\n\n1\nE\nA\n\n\n\n2\n\n\n3\n0\n\n\n(\n\n1)(\n\n\n2).\n【解析】(I)\n0\n0\n\n所以得A 的特征值为\n\n\n1,\n\n\n2,\n\n\n0\n1\n2\n3\n其对应的特征向量分别为\nT\nT\nT\n\n\n\n\n\n\n\n\n1,1,0\n\n\n1,2,0\n\n\n3,2,2\n1\n2\n1\n\n1\n1\n1\n3\n\n\n\n\n\n\n\n\n\n\nP\n\n\n\n\n2\n\n1\n2\n2\n,\n令\n\n\n\n1\n2\n3\n\n\n\n\n0\n0\n2\n0\n\n\n\n\n\n\n\n\n2\n1\n2\n\n\n\n\n1\n\n\n\n1\nP\n1\nP AP\n,易知\n有\n\n1\n1\n\n\n2\n\n\n1\n\n\n0\n0\n2\n\n\nP P\nA\n\n\n所以\n,\n2016 年硕士研究生入学统一考试数学二试题及答案\n\n\n\n\n2\n\n1\n\n2\n1\n1\n3\n\n1\n\n\n\n\n1\n\n\n\n\n99\n99\nA\n\n1\n2\n2\n\n2\n\n1\n1\n\n\n\n\n2\n\n\n\n0\n0\n2\n0\n\n\n\n\n1\n\n\n0\n0\n\n2\n\n99\n99\n98\n\n\n\n2\n2\n1 2\n\n2\n\n2\n\n\n100\n100\n99\n\n2\n2\n1 2\n\n2\n\n2\n\n\n\n\n0\n0\n0\n\n\n4\n2\n2\n2\n3\n2\n3\n2\n2\nB\nB A\nBAA\nBA\n\n\n\nB\nBA\nB\nBBA\nB A\nBAA\nBA\n\n\n\n\n\n\n,\n依次类推得\n(II)\n99\n99\n98\n\n\n\n2\n2\n1 2\n\n2\n\n2\n\n\n100\n99\n99\n100\n100\n99\n,所以有\n\n\n\n\n\nB\nBA\n\nA\n2\n2\n1 2\n2\n2\n\n\n\n\n\n\n\n\n\n\n\n1\n2\n3\n1\n2\n3\n1\n2\n3\n\n\n0\n0\n0\n\n\n从而有\n99\n100\n\n\n\n\n\n( 2\n2 )\n( 2\n2\n)\n1\n1\n2\n99\n100\n\n\n\n\n\n\n\n(1 2 )\n(1 2\n)\n2\n1\n2\n98\n99\n\n\n\n\n\n\n\n(2\n2 )\n(2\n2 )\n3\n1\n2",
+      "record_type": "question",
+      "suspected_answer_in_stem": true
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,868 @@
+{
+  "item": {
+    "id": "2014-d6",
+    "name": "2014考研数学二真题及解析.pdf",
+    "path": "data/math2_2010_2026/sources/2014-d6.pdf",
+    "format": "pdf",
+    "pages": 13,
+    "year": 2014,
+    "mode": "combined",
+    "original_path": "devided-math/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/1987-2016考研数学二真题及答案解析/2014年考研数学二答案解析.pdf",
+    "original_sha256": "4a0b86098457a8fb0902dbef676c608feda6186e392a872852e696af3796b938",
+    "page_offset": 0
+  },
+  "engine_version": 8,
+  "status": "detected",
+  "pdf_path": "data/math2_2010_2026/sources/2014-d6.pdf",
+  "pdf_sha256": "acface5b242b7876ce45cb4f8ba6c57b194bef82917eece67847ae88c24b9066",
+  "pages": [
+    {
+      "id": "2014-d6-p1",
+      "document_id": "2014-d6",
+      "number": 1,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 4,
+      "unassigned": [
+        [
+          0.025,
+          0.07616628615145248,
+          0.985,
+          0.16099866311604516
+        ]
+      ],
+      "status": "located"
+    },
+    {
+      "id": "2014-d6-p2",
+      "document_id": "2014-d6",
+      "number": 2,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2014-d6-p3",
+      "document_id": "2014-d6",
+      "number": 3,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2014-d6-p4",
+      "document_id": "2014-d6",
+      "number": 4,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 2,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2014-d6-p5",
+      "document_id": "2014-d6",
+      "number": 5,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2014-d6-p6",
+      "document_id": "2014-d6",
+      "number": 6,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 0,
+      "unassigned": [],
+      "status": "continuation"
+    },
+    {
+      "id": "2014-d6-p7",
+      "document_id": "2014-d6",
+      "number": 7,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 0,
+      "unassigned": [],
+      "status": "continuation"
+    },
+    {
+      "id": "2014-d6-p8",
+      "document_id": "2014-d6",
+      "number": 8,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 0,
+      "unassigned": [],
+      "status": "continuation"
+    },
+    {
+      "id": "2014-d6-p9",
+      "document_id": "2014-d6",
+      "number": 9,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 0,
+      "unassigned": [],
+      "status": "continuation"
+    },
+    {
+      "id": "2014-d6-p10",
+      "document_id": "2014-d6",
+      "number": 10,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 0,
+      "unassigned": [],
+      "status": "continuation"
+    },
+    {
+      "id": "2014-d6-p11",
+      "document_id": "2014-d6",
+      "number": 11,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 0,
+      "unassigned": [],
+      "status": "continuation"
+    },
+    {
+      "id": "2014-d6-p12",
+      "document_id": "2014-d6",
+      "number": 12,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 0,
+      "unassigned": [],
+      "status": "continuation"
+    },
+    {
+      "id": "2014-d6-p13",
+      "document_id": "2014-d6",
+      "number": 13,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 0,
+      "unassigned": [],
+      "status": "continuation"
+    }
+  ],
+  "questions": [
+    {
+      "id": "2014-d6-q4335462bd715",
+      "document_id": "2014-d6",
+      "number": "1",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d6-q4335462bd715-r1",
+          "page_id": "2014-d6-p1",
+          "bbox": [
+            0.025,
+            0.16099866311604516,
+            0.985,
+            0.3303398734393324
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.15121951382051757,
+          0.17299866311604517,
+          0.18064234292895134,
+          0.18688350536323103
+        ],
+        "text": "1.B",
+        "style": "arabic"
+      },
+      "text_hint": "1.B\n\n\n\nln (1\n2 )\nx\n(2 )\nx\n\n\n\n\n\n\nlim\nlim\n2 lim\nx\n0\nx\nx\n\n\n\n1\n\n(\nx\n)\n\n(1 cos )\nx\n1\n\n2\n\n\n\n\nlim\nlim\n( )\nlim\nx\n0\nx\nx\n2\n\n\n\n2\n\n\n\n\n1\n0\n2\n",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d6-q365b91ecbe6b",
+      "document_id": "2014-d6",
+      "number": "2",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d6-q365b91ecbe6b-r1",
+          "page_id": "2014-d6-p1",
+          "bbox": [
+            0.025,
+            0.3283398734393324,
+            0.985,
+            0.5341834673684975
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.15121951382051757,
+          0.3403398734393324,
+          0.191303092675484,
+          0.3542498171489857
+        ],
+        "text": "2、C",
+        "style": "arabic"
+      },
+      "text_hint": "2、C\n1\n\n\ny\nx\nsin\nx\n1\n\nx\nsin\ny\nx\n\n\n\nk\nlim\nlim\n1\nx\nx\n\n\n1\n\n\n\n\n\nlim\ny\nx\nlimsin\n0\nx\n\n\n1\n\n\n\n\ny\nx\nsin\ny\nx\n存在斜渐近线\nx",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d6-q5c63a56f986c",
+      "document_id": "2014-d6",
+      "number": "3",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d6-q5c63a56f986c-r1",
+          "page_id": "2014-d6-p1",
+          "bbox": [
+            0.025,
+            0.5321834673684975,
+            0.985,
+            0.7005438539041963
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.15121951382051757,
+          0.5441834673684975,
+          0.19271409235222284,
+          0.5580934110781508
+        ],
+        "text": "3、D",
+        "style": "arabic"
+      },
+      "text_hint": "3、D\n\n\n2,\nf x\nx\n令\n则在[0,1]区间\n\n(0)\n0\n\n(1)\n1\n举例:\n\n\n\n\n\n\ng x\n0 (1\nx\n) 1\nx\nx\n\n\n\n\nf x\ng x\n\n\n\n''\nx\n2\n0\nD\n又",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d6-q2c71154bf48a",
+      "document_id": "2014-d6",
+      "number": "4",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d6-q2c71154bf48a-r1",
+          "page_id": "2014-d6-p1",
+          "bbox": [
+            0.025,
+            0.6985438539041963,
+            0.985,
+            0.95667130698766
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2014-d6-q2c71154bf48a-r2",
+          "page_id": "2014-d6-p2",
+          "bbox": [
+            0.025,
+            0.07616628615145248,
+            0.985,
+            0.7626968873534083
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.15121951382051757,
+          0.7105438539041963,
+          0.19394610909085688,
+          0.7244286417799833
+        ],
+        "text": "4.C",
+        "style": "arabic"
+      },
+      "text_hint": "4.C\n新东方网考研频道\nhttp://kaoyan.xdf.cn/\n新东方网考研频道  http://kaoyan.xdf.cn\n\ndy\n2\n4\n\ndx\n2\ndy\n\n3\n\ndx\n\n\n2 2\n2(2\n4)\n\nd y\n8\n(2 )\n\n\ndx\n2\n(2 )\nd y\n\n\n1\n\ndx\ny\n\"\n1\n\n\nk\n\n\n(1\ny\n' )\n(1 3 )\n1\n\n\n\n\n\n\nR\n(1 3 )\n10\n10 10\nk\n5、\n\nx\narctan\nx\nf x\n( )\narctan\nx\n1\n\n\n\n\n.故\n.\n\n2\narctan\nx\nx\nx\n1\n\n\n\n2\nx\narctan\nx\nx\narctan\nx\n\n\nlim\nlim\nlim\n2\n2\n3\nx\nx a\nrctan\nx\nx\n\n\n\n0\n0\n0\n1\n\n1\nx\n1\n1\nx\n\n\n\nlim\nlim\n.\n\n3\nx\n3\nx\n(1\nx\n)\n3\n\n\n6、\n\n\n\n\n\nu\nu\nu\nu\nu\n\n\n\n\n\n\nB\n0\n0\nB\nA\n排除法当\n,因为\n,故\n与\n异号.\n\n\n\nx y\nx\ny\ny\nx\n\n\n2\nu x y 在区域D 内没有极值.\n,函数( , )\nAC\nB\n0\n连续函数在有界闭区域内有最大值和最小值,故最大值和最小值在D 的边界点取到.",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d6-q45e7ea9c2b16",
+      "document_id": "2014-d6",
+      "number": "7",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d6-q45e7ea9c2b16-r1",
+          "page_id": "2014-d6-p2",
+          "bbox": [
+            0.025,
+            0.7606968873534083,
+            0.985,
+            0.7812259351282516
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2014-d6-q45e7ea9c2b16-r2",
+          "page_id": "2014-d6-p2",
+          "bbox": [
+            0.025,
+            0.7792259351282516,
+            0.985,
+            0.95667130698766
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2014-d6-q45e7ea9c2b16-r3",
+          "page_id": "2014-d6-p3",
+          "bbox": [
+            0.025,
+            0.07616628615145248,
+            0.985,
+            0.42911411012470113
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.15121951382051757,
+          0.7726968873534084,
+          0.21791063781491438,
+          0.7866068310630616
+        ],
+        "text": "7、B",
+        "style": "arabic"
+      },
+      "text_hint": "7、B",
+      "answer_hint": "7、B\n解析:\n新东方网考研频道\nhttp://kaoyan.xdf.cn/\n新东方网考研频道  http://kaoyan.xdf.cn\n0\na\nb\n0\na\n0\n0\nb\n0\nc\nd\n0\nc\n0\n0\nd\na\nb\n0\na\nb\n0\n\n\n\n\n\n2 1\n4 1\na\n( 1)\nc\nd\n0\nc\n( 1)\n0\n0\nb\n0\n0\nd\nc\nd\n0\na\nb\na\nb\n\n\n\n\n\n3 3\n2 3\na\nd\n( 1)\nc b\n( 1)\nc\nd\nc\nd\na\nb\na\nb\n\n\nad\nbc\nc\nd\nc\nd\na\nb\n\n\n(\nbc\nad c\n)\nd\n\n\n(\nad\nbc\n)",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d6-q2362cbd8e067",
+      "document_id": "2014-d6",
+      "number": "8",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d6-q2362cbd8e067-r1",
+          "page_id": "2014-d6-p3",
+          "bbox": [
+            0.025,
+            0.42711411012470113,
+            0.985,
+            0.44764319414714365
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2014-d6-q2362cbd8e067-r2",
+          "page_id": "2014-d6-p3",
+          "bbox": [
+            0.025,
+            0.44564319414714365,
+            0.985,
+            0.95667130698766
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2014-d6-q2362cbd8e067-r3",
+          "page_id": "2014-d6-p4",
+          "bbox": [
+            0.025,
+            0.07616628615145248,
+            0.985,
+            0.28084587905031577
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.15121951382051757,
+          0.43911411012470114,
+          0.19190781048426328,
+          0.4530240538343544
+        ],
+        "text": "8、A",
+        "style": "arabic"
+      },
+      "text_hint": "8、A",
+      "answer_hint": "8、A\n解析:\n\n\n\n已知\n,\n,\n无关\n\n\n\n\n\n\n\n+k\n)\n(\n)\n0\n设(\n\n\n\n\n\n\n+\n+\nk\n)\n0\n即\n(\n\n\n\n\n\n\n\n\n\nk\n0\n\n\n\n\n+k\n+\n从而\n,\n无关\n\n\n\n\n\n\n\n+k\n+\n反之,若\n,\n无关,不一定有\n,\n,\n无关\n\n\n\n1\n0\n0\n\n\n\n\n\n\n= 0\n= 1\n= 0\n例如,\n,\n,\n\n\n\n\n\n\n0\n0\n0\n\n\n\n\n\n\n1\n1\n1\nx\n1\n1\n3\n\n\n\n\n\n\n\n\ndx\ndx\narctan\n[\n(\n)]\n9.\n\n\n\n\n\nx\n2\nx\n5\n2\n2\n2 4\n2\n8\n\n\n\n\nx\n1\n4\n10.\n新东方网考研频道\nhttp://kaoyan.xdf.cn/\n新东方网考研频道  http://kaoyan.xdf.cn\n\n\n\n\nx\n2(\nx\n1)\nx\n[0,2]\n\n\n\n\nf x\n( )\nx\n2\nx\nc\nf x\n( )\n又\n是奇函数\n\n\n(0)\n0\nc\n0\n\n\n\nf x\n( )\nx\n2\nx\n\nx\n[0,2]\nf x\n( )\n的周期为4\n\n\n\n\n\n\n\n\n(7)\n(3)\n( 1)\n(1)\n(1 2)\n1",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d6-q36b75cda2e28",
+      "document_id": "2014-d6",
+      "number": "11",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d6-q36b75cda2e28-r1",
+          "page_id": "2014-d6-p4",
+          "bbox": [
+            0.025,
+            0.27884587905031577,
+            0.985,
+            0.6510854546576244
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 4,
+        "bbox": [
+          0.15121951382051757,
+          0.2908458790503158,
+          0.40139180700538657,
+          0.30475582275996904
+        ],
+        "text": "11、解:方程两边对x 求偏导:",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "11、解:方程两边对x 求偏导:\n\n\nz\nz\n\n\n\nyz\ne\n(2 y\n)\n2 x\n0\n\n\nx\nx\n1\n1\n\n\n代入x\n,\ny\n解得:\n2\n2\n\nz\n1\n=\n\n1 1\nx\nz\n(,)\ne\n+1\n2 2\n两边对y求偏导\n\n\nz\nz\n\n\n\n\nyz\ne\n(2z\n2\ny\n)\n2\ny\n0\n\n\ny\ny\n1\n1\n\n\n代入x\n,\ny\n解得:\n2\n2\n1 1\n1\n1\nz\n(,)\n\n1\nz\n(\n,)e\n2 2\n\nz\n2\n2\n=\n\n1 1\ny\nz\n(,)\ne\n+1\n2 2",
+      "record_type": "answer",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d6-q38fbd3d3077f",
+      "document_id": "2014-d6",
+      "number": "12",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d6-q38fbd3d3077f-r1",
+          "page_id": "2014-d6-p4",
+          "bbox": [
+            0.025,
+            0.6490854546576244,
+            0.985,
+            0.95667130698766
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2014-d6-q38fbd3d3077f-r2",
+          "page_id": "2014-d6-p5",
+          "bbox": [
+            0.025,
+            0.07616628615145248,
+            0.985,
+            0.4847013259444294
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 4,
+        "bbox": [
+          0.15121951382051757,
+          0.6610854546576244,
+          0.4689746674167392,
+          0.6749702425334114
+        ],
+        "text": "12. 解:把极坐标方程化为直角坐标方程",
+        "style": "arabic"
+      },
+      "text_hint": "",
+      "answer_hint": "12. 解:把极坐标方程化为直角坐标方程\n令\n新东方网考研频道\nhttp://kaoyan.xdf.cn/\n新东方网考研频道  http://kaoyan.xdf.cn\n\n\n\n\n\n\nx\nr\ncos\ncos\n\n\n\n\n\n\ny\nr\nsin\nsin\n\ndy\n\n\n\n\ndy\nsin\ncos\n\nd\n\n\n则\ndx\n\n\n\n\ndx\ncos\nsin\n\nd\n\n\n1\n0\ndy\n2\n2\n\n\n\n\n\ndx\n\n\n\n0\n1\n2\n\n\n\n\n\nx\ncos\n0\n\n\n\n当\n时,\n\n\n\n\n\n\n2\ny\nsin\n\n2\n则切线方程为\n\n2\n\n\n\n(\ny\n)\n(\nx\n0)\n\n2\n化简为\n\n2\n\n\ny\nx\n\n2",
+      "record_type": "answer",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2014-d6-q32c86b613a1d",
+      "document_id": "2014-d6",
+      "number": "13",
+      "kind": "unknown",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2014年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2014-d6-q32c86b613a1d-r1",
+          "page_id": "2014-d6-p5",
+          "bbox": [
+            0.025,
+            0.4827013259444294,
+            0.985,
+            0.95667130698766
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2014-d6-q32c86b613a1d-r2",
+          "page_id": "2014-d6-p6",
+          "bbox": [
+            0.025,
+            0.07616628615145248,
+            0.985,
+            0.13221184626639215
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2014-d6-q32c86b613a1d-r3",
+          "page_id": "2014-d6-p6",
+          "bbox": [
+            0.025,
+            0.13021184626639215,
+            0.985,
+            0.95667130698766
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2014-d6-q32c86b613a1d-r4",
+          "page_id": "2014-d6-p7",
+          "bbox": [
+            0.025,
+            0.07616628615145248,
+            0.985,
+            0.95667130698766
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2014-d6-q32c86b613a1d-r5",
+          "page_id": "2014-d6-p8",
+          "bbox": [
+            0.025,
+            0.07616628615145248,
+            0.985,
+            0.95667130698766
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2014-d6-q32c86b613a1d-r6",
+          "page_id": "2014-d6-p9",
+          "bbox": [
+            0.025,
+            0.07616628615145248,
+            0.985,
+            0.95667130698766
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2014-d6-q32c86b613a1d-r7",
+          "page_id": "2014-d6-p10",
+          "bbox": [
+            0.025,
+            0.07616628615145248,
+            0.985,
+            0.95667130698766
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2014-d6-q32c86b613a1d-r8",
+          "page_id": "2014-d6-p11",
+          "bbox": [
+            0.025,
+            0.07616628615145248,
+            0.985,
+            0.95667130698766
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2014-d6-q32c86b613a1d-r9",
+          "page_id": "2014-d6-p12",
+          "bbox": [
+            0.025,
+            0.07616628615145248,
+            0.985,
+            0.95667130698766
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2014-d6-q32c86b613a1d-r10",
+          "page_id": "2014-d6-p13",
+          "bbox": [
+            0.025,
+            0.07616628615145248,
+            0.985,
+            0.95667130698766
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2014",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 5,
+        "bbox": [
+          0.15121951382051757,
+          0.4947013259444294,
+          0.31431257069736346,
+          0.5086112696540827
+        ],
+        "text": "13、质心的横坐标:",
+        "style": "arabic"
+      },
+      "text_hint": "13、质心的横坐标:\n1\n1\n2\n1\n\n\n\n(\nx\nx\nx )\n\n\n\n\n\nx (x)dx\nf\nx(\nx\n2 x\n1)dx\n4\n3\n2\n11\n0\n\n\n\n20\n1\n\n\n1\n\n\n\nf\n(x)dx\n(\nx\n2 x\n1)dx\n\n\n\n(\nx\nx\nx)\n3\n0\n14、\n\n\n\n\nf(x ,x ,x )\nx\nx\n2 x x\na\n4 x x\n\n\n\n\n\n\n(x\na\nx )\n(x\n2 x )\n4 x\na\nx\nf\n的负惯性指数为1\n\n\n4-a\n0\n\n\n\na\n新东方网考研频道\nhttp://kaoyan.xdf.cn/\n新东方网考研频道  http://kaoyan.xdf.cn\n15.",
+      "answer_hint": "15.\n解:\n\n\n\n\n\n\n(t (e\n1)\nt)dt\n(t (e\n1)\nt)dt\n\n\nx\n(e\n1)\nx\n1\n\n\n\n\nlim\nlim\nlim\nlim\nx\n(e\n1\n)\n1\n1\n1\nx\n\n\n\n\n\nx\nln(1\n)\nx\nx\nx\n1\n\n\n\n1\n(t ) 1\n\n1\ne\n1\n1\n2\n\n\n\nlim\nlim\n令\nx\n2\n\n\n16、\n解:\n\n\nx\ny y\n1\ny\n\n1\nx\n\n\ny\n\ny\n1\n\n\n\ny\n0,\nx\n1\n令\n\n\n\n\n2 (\nx y\n1)\n(1\nx\n) 2\nyy\n\n\ny\n''\n\n(\ny\n1)\n\n\n\ny\n'(1)\ny\n'( 1)\n0\n又\n\n2\n\n\n\ny\n''(1)\n0,\ny\n(1)\n为极大值\n\ny\n(1) 1\n2\n\n\n\n\ny\n''( 1)\n0, ( 1)\ny\n为极小值\n\ny\n(1) 1\n下求极值\n\n1\nx\n\n\n\n\n\n\n\n\n\n\n\ny\n(\ny\n1)\ndy\n(1\nx\n)\ndx\n(\ny\n1)\ndy\n(1\nx\n)\ndx\n\ny\n1\n1\n1\n\n\n\n\n\ny\ny\nx\nx\nc\n3\n3\n\ny\n(2)\n0\n又\n2\n\nc\n3\n1\n1\n2\n\n\n\n\n\ny\ny\nx\nx\n3\n3\n3\n新东方网考研频道\nhttp://kaoyan.xdf.cn/\n新东方网考研频道  http://kaoyan.xdf.cn\n\nx\n1\n代入\n1\n1\n2\n\n\n\n\ny\n(1)\ny\n(1)\n1\n3\n3\n3\n\n\ny\n(1)\n1\n\nx\n1,\n代入\n1\n1\n2\n\n\n\n\n\n\n\ny\n( 1)\ny\n( 1)\n1\n0\n3\n3\n3\n\n\n\ny\n( 1)\n0\n17、\n\n解:积分区域D 关于y\nx\n对称,利用轮对称行,\n\n\n\n\nx\nsin(\nx\ny\n)\nysin(\nx\ny\n)\n\n\n\ndxdy\ndxdy\n\n\nx\ny\nx\ny\nD\nD\n\n\n\n\nx\nsin(\nx\ny\n)\nysin(\nx\ny\n)\n1\n\n\n\ndxdy\n\n\n2\nx\ny\nx\ny\nD\n1\n\n\n\n\nsin(\nx\ny\n)\ndxdy\n2\nD\n\n1\n1\n\n\n\n\n\n\n\n\nd\nsin(\nr r\n) d\nr\nrd\ncos(\nr\n)\n2\n4\n1\n1\n\n\n\n\n\nr\ncos(\nr\n) |\ncos(\nr\n)d\nr\n4\n4\n1\n1\n3\n\n\n\n2\n4\n4\n18、\n解\n:\n新东方网考研频道\nhttp://kaoyan.xdf.cn/\n新东方网考研频道  http://kaoyan.xdf.cn\n\nz\n\nx\nf\ne\ncos\ny\n,\n\nx\n\nz\n\n\n\n\nx\nx\nx\nx\nx\ncos\ny\n(f''\ne\ncos\ny\ne\nf\ne\n)\nf''(\ne\ncos\ny\n)\nf\ne\ncos\ny\n\nx\n\nz\n\n\nx\nf\ne\n( siny),\n\ny\n\nz\n\n\n\n\n\nx\nx\nx\nx\ne\n[f''\ne\n( siny)\nf\ncos\ny\n]\n(\ne\n) siny f''\nf\ncos\ny\ne\n\ny\n\n\nz\nz\n\n\n\n\nx\nx\nx\nf''\ne\n(4 z\ne\ncos\ny e\n)\n\n\nx\ny\n\nos\n\n\nx\nx\nx\nf''(\ne\nc\ny\n)\n4 f(\ne\ncos\ny\n)\ne\ncos\ny\n\n\n\n\nx\n令t\ne\ncos\ny\n,\nf''( )\nt\n4 f( )\nt\nt\n\n\n\ny\n'' 4\ny\nx\n求特征值:\n\n\n\n\n\n\n\n\n\nx\nx\n4\n0\nx\n2\ny\n(x)\nC e\nC e\n再求非其次特征值。\n1\n\n\n\n\ny\n(ax\nb)\n代入\ny\n-\nx\n4\n1\n\n\n\n\n\n\n\nx\nx\ny\ny\n(x)\ny\nC e\nC e\nx\n4\n\ny(0)=0=\nC\nC\n1\n\n\ny'(0)=0=x\nx\n4\n\n1\n\n\n\n\nC\nC\n0\nC\n\n\n\n16\n\n\n\n\n1\n\n\n1\n2\nC\n2\nC\n\n\n\nC\n\n4\n\n16\n1\n1\n1\n\n\n\n\n\n\n\n\n\nf\n( )\ne\ne\n16\n16\n4\n19.\n解:(I)\n新东方网考研频道\nhttp://kaoyan.xdf.cn/\n新东方网考研频道  http://kaoyan.xdf.cn\n\n\nh x\n( )\ng t dt\n( )\n\nh a\n( )\n0\n\n\nh\n'( )\nx\ng x\n( )\n0\n\nh x\n( )\n单调不减\n\n\n\n\n\nx\na b\nh x\n( )\n0\n当\n时,\n\n\n\n\nh x\n( )\ng t dt\n( )\nx\na\n\n\nh\n'( )\nx\ng x\n( ) 1\n\n\n\n0\ng x\n( )\n1\nh\n'( )\nx\n0\n\n\nh x\n( )\nh a\n( )\n0\n单调不增又\n\n\n\n\n\nx\na b\nh x\n( )\n0\n当\n时,\n\ng t dt\n( )\n\n\n\n\np x\n( )\nf u g u du\n( ) ( )\nf u du\n( )\n\n\n\n\n\n\n\n\n\n\np x\n'( )\nf x g x\n( ) ( )\nf a\n[\ng t dt\n( )\n]\ng x\n( )\nf x\n( )\nf a\n[\ng t dt\n( )\n]\ng x\n( )\n\n\n\n\n\n\n0\ng x\n( )\n1\n\n\n\n\n\n\n\n\ng t dt\n( )\ndt\nx\na\na\ng t dt\n( )\nx\nf x\n( )\n又\n单调增加\n\n\n\n\n\n\nf x\n( )\nf a\n[\ng t dt\n( )\n]\np x\n'( )\n0\n(II)\n\np x\n( )\n单调不减\n\n\np a\n=0\np\n( )\nb\n0\n又()\n\ng t dt\n( )\n\n\n\nf x g x dx\n( ) ( )\nf x dx\n( )\n即\n20、\n解:\n新东方网考研频道\nhttp://kaoyan.xdf.cn/\n新东方网考研频道  http://kaoyan.xdf.cn\nx\n\n\nf\n(x)\n, (x)\nf\nf(x)\n\n1\nx\nx\nx\n\n1\nx\n\n\n\nf\n(x)\nf\n(f(x))\n\nx\n1\n2\nx\n\n1\n\n1\nx\nx\nx\n\n1\n2\nx\n\n\n\nf\n(x)\nf\n(f(x))\n\nx\n1\n3\nx\n\n1\n\n1\n2\nx\nx\n\n\n用归纳法知:(x)\nf\n,\nx\n[0,1]\n\n1\nnx\n\n\nx\n1\nnx\n1\n1\n\n\n\n\nS\ndx\ndx\n\n\nn\n1\nnx\nn\n1\nnx\n1\n1\n\n\n\n(1\n)\ndx\n\nn\n1\nnx\n1\n1 ln(1\n\n\n\nn)\nn\nn\n\n1\n1\nln(1\nn)\n\n\n\n\n\nlim\nn\nS\nlim [\nn n\nln(1\nn)]\n1\nlim\nn\nn\nn\n\n\n\nn\nn\nn\n\n1\n21.\n解:\n\n\n2(\ny\n1)\n则\n因\n\ny\n\n\n\n\nf x y\n( , )\ny\n2\ny\n( )\nx\n\n\n\n\n\nf y y\n( , )\n(\ny\n1)\n(2\ny\n)\n\n\n\n\n\n\nf y y\n( , )\ny\n2\ny\n( )\ny\n\n\n\n( )\ny\ny\n1\n则\n\n\n\n\nf x y\n( , )\ny\n2\ny\nx\n1\n故\n\n\n\n\n\nf x y\n( , )\n0\nx\ny\n2\ny\n1\n\n\n2\nx\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nV\nf x\n( ) 1\ndx\n( )\nx\n2 ( ) 1\nf x\ndx\n(2\nx dx\n)\n2\nx\n2\n\n\n\n\n0\n2\n\n\n22、\n解:\n新东方网考研频道\nhttp://kaoyan.xdf.cn/\n新东方网考研频道  http://kaoyan.xdf.cn\n\n\n\n\n\n\n\n\n\n\n\n\n1\n2\n3\n4\n1\n2\n3\n4\n1\n2\n3\n4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4r\n0\n1\n1 1\n0\n1\n1 1\n0\n1\n1 1\n(A)=\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n2\n0\n3\n0\n4\n3 1\n0\n0\n1\n3\n\n\n\n\n\n\n\n\n\n\n\n1\n2\n0\n5\n1\n0\n0\n1\n\n\n\n\n\n\n\n\n\n\n2r\n0\n1\n0\n2\n0\n1\n0\n2\n\n\n\n\n\n\n3\n\n\n\n\n\n\n0\n0\n1\n3\n0\n0\n1\n3\n\n\n\n\n\n\n\n\n\n\nx\nx\nx\n1\n\n\n\n\n\nx\n2\nx\n2\nx\n\n\n\n\n\nc\nc 为任意常数\n\n\n\n\n\nx\n3\nx\n3\nx\n\n\n\n\n\n1\nx\nx\nx\n\n\n\n\n\n\nx\ny\nz\n\n\nx\ny\nz\n设 B=\n\n\n\n\nx\ny\nz\n\n\n\n\n\n\n\n\n\nx\n1\n1\n2\n3\n4\n1\n\n\n\n\n\n\n\n\nx\n0\n0\n1\n1\n1\n0\nA\n\n\n\n\n\n\n\n\n\n\n\n0\n1\n2\n0\n3\n0\nx\n\n\n\n\n\n\n\n\n\n\n\n\ny\n0\n1\n2\n3\n4\n0\n\n\n\n\n\n\n\n\n0\n1\n1\n1\n1\ny\n1\nA\n\n\n\n\n\n\n\n\n\n\n\n1\n2\n0\n3\n0\n0\ny\n\n\n\n\n\n\n\n\n\n\n\n\nz\n0\n1\n2\n3\n4\n0\n\n\n\n\n\n\n\n\nz\n0\n0\n1\n1\n1\n0\nA\n\n\n\n\n\n\n\n\n\n\n\n1\n1\n2\n0\n3\n1\nz\n\n\n\n\n\n即\n\n\n\n\n\n\n\n\n1\n2\n3\n4\n1\n0\n0\n1\n2\n3\n4\n1\n0\n0\n\n\n\n\n\n\n\n0\n1\n1\n1\n0\n1\n0\n0\n1\n1\n1\n0\n1\n0\n\n\n\n\n\n\n\n\n\n\n1\n2\n0\n3\n0\n0\n1\n0\n4\n3\n1\n0\n0\n1\n\n\n\n\n\n\n\n\n\n\n\n\n1\n2\n3\n4\n1\n0\n0\n1\n2\n0\n5\n4\n12\n3\n\n\n\n\n\n\n\n\n\n\n0\n1\n1\n1\n0\n1\n0\n0\n1\n0\n2\n1\n3\n1\n\n\n\n\n\n\n\n\n\n\n\n0\n0\n1\n3\n0\n0\n1\n0\n0\n1\n3\n1\n4\n1\n\n\n\n\n\n\n1\n0\n0\n1\n2\n6\n-1\n\n\n\n0\n1\n0\n-2\n-1\n-3\n1\n\n\n\n0\n0\n1\n-3\n-1\n-4\n1\n\n\n新东方网考研频道\nhttp://kaoyan.xdf.cn/\n新东方网考研频道  http://kaoyan.xdf.cn\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nx\ny\nz\n1\n2\n1\n6\n1\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nx\ny\nz\n2\n1\n2\n3\n2\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nc\nc\nc\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nx\ny\nz\n3\n1\n3\n4\n3\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nx\ny\nz\n1\n0\n1\n0\n1\n0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nc\n2\nc\n6\nc\n1\n\n\n\n\n\n2\nc\n1\n2\nc\n3\n2\nc\n1\n\n\n\n\nB\n\n\n\n\n3\nc\n1\n3\nc\n4\n3\nc\n1\n\n\nc\nc\nc\n\n\nc c c 为任意常数\n23、\n解:\n\n\n\n\n1\n1\n1\n0\n0\n0\n1\n\n\n\n\n1\n1\n1\n0\n0\n0\n2\n\n\n\n\n\n\nA\nB\n设\n\n\n\n\n\n\n\n\n\n\n1\n1\n1\n0\n0\n0\nn\n\n\n\n\n1\n1\n1\n\n\n\n\n1\n1\n1\n\n\n\n\n\n\n\n\nn\nE\nA\n(\nn\n)\n\n\n\n\n1\n1\n1\n\n\n\n\n=n,\n=\n=0\n所以A  的n 个特征值为\n1\n2\nn\n又因为A 是一个实对称矩阵,所以A 可以相似对角化,且\n\n\n\n\nn\n0\n0\n1\n\n\n\n\n0\n0\n0\n2\n\n\n\n\n\n\n\n\n\n\nn\nA\nE\nB\n(\nn\n)\n,\n\n\n\n\n\n\n\n\n0\n0\n0\n0\nN\n\n\n\n\n’\n’\n’\n=n,\n=\n=0\n所以B  的n 个特征值为\nn\n0\n0\n0 -1\n0\n0\n0 -2\n\n\n0\nE\nB\n又\n0\n0\n0 -n\n\n\n所以r(0 E\nB)\n1\n故B 的n-1重特征值0 有n-1个线性无关的特征向量\n新东方网考研频道\nhttp://kaoyan.xdf.cn/\n新东方网考研频道  http://kaoyan.xdf.cn\n\n\nn\n\n\n0\n\n\nB\n所以B 也可以相似对角化,且\n\n\n\n\n\n\n0\n所以A  与B  相似。\n新东方网考研频道\nhttp://kaoyan.xdf.cn/",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": []
+}
