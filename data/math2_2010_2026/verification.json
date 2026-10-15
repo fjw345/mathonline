@@ -1,0 +1,16 @@
+{
+  "stats": {
+    "questions": 385,
+    "stem_images": 410,
+    "answer_images": 497
+  },
+  "errors": [],
+  "visual_review_status": "partial_manual_review; not mathematical answer validation",
+  "excluded": [
+    {
+      "year": 2016,
+      "source_id": "2016-d8",
+      "reason": "本地 PDF 和同名 DOC 错标为2016，内容实际为2014；已采用网上新东方2016题解原页补齐"
+    }
+  ]
+}

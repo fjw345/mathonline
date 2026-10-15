@@ -1,0 +1,3354 @@
+{
+  "item": {
+    "id": "2013-d4",
+    "name": "2013考研数学二真题及解析.pdf",
+    "path": "data/math2_2010_2026/sources/2013-d4.pdf",
+    "format": "pdf",
+    "pages": 13,
+    "year": 2013,
+    "mode": "combined",
+    "original_path": "devided-math/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/1987-2016考研数学二真题及答案解析/1989-2014考研数学二真题及答案解析.pdf",
+    "original_sha256": "b3abb76c527105bf39e557c480dd3337bee4ce4ba5be123003985a390a9156c5",
+    "page_offset": 384
+  },
+  "engine_version": 8,
+  "status": "detected",
+  "pdf_path": "data/math2_2010_2026/sources/2013-d4.pdf",
+  "pdf_sha256": "aada8aae9864379796bb52b4498985e5a13e87472b36b2f6d52856442fbea6da",
+  "pages": [
+    {
+      "id": "2013-d4-p1",
+      "document_id": "2013-d4",
+      "number": 1,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 7,
+      "unassigned": [
+        [
+          0.025,
+          0.025,
+          0.985,
+          0.16831237746045985
+        ],
+        [
+          0.025,
+          0.16831237746045985,
+          0.985,
+          0.21823383978720629
+        ]
+      ],
+      "status": "located"
+    },
+    {
+      "id": "2013-d4-p2",
+      "document_id": "2013-d4",
+      "number": 2,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 9,
+      "unassigned": [
+        [
+          0.025,
+          0.31255411646948095,
+          0.985,
+          0.34850691397582007
+        ],
+        [
+          0.025,
+          0.7660889352245978,
+          0.985,
+          0.8071925528292447
+        ]
+      ],
+      "status": "located"
+    },
+    {
+      "id": "2013-d4-p3",
+      "document_id": "2013-d4",
+      "number": 3,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 7,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2013-d4-p4",
+      "document_id": "2013-d4",
+      "number": 4,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 3,
+      "unassigned": [
+        [
+          0.025,
+          0.16831237746045985,
+          0.985,
+          0.21823383978720629
+        ]
+      ],
+      "status": "located"
+    },
+    {
+      "id": "2013-d4-p5",
+      "document_id": "2013-d4",
+      "number": 5,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 3,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2013-d4-p6",
+      "document_id": "2013-d4",
+      "number": 6,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 2,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2013-d4-p7",
+      "document_id": "2013-d4",
+      "number": 7,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 4,
+      "unassigned": [
+        [
+          0.025,
+          0.1643215167851395,
+          0.985,
+          0.20027309999690446
+        ]
+      ],
+      "status": "located"
+    },
+    {
+      "id": "2013-d4-p8",
+      "document_id": "2013-d4",
+      "number": 8,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 3,
+      "unassigned": [
+        [
+          0.025,
+          0.7382952910671344,
+          0.985,
+          0.7793989086717814
+        ]
+      ],
+      "status": "located"
+    },
+    {
+      "id": "2013-d4-p9",
+      "document_id": "2013-d4",
+      "number": 9,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 3,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2013-d4-p10",
+      "document_id": "2013-d4",
+      "number": 10,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2013-d4-p11",
+      "document_id": "2013-d4",
+      "number": 11,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 2,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2013-d4-p12",
+      "document_id": "2013-d4",
+      "number": 12,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2013-d4-p13",
+      "document_id": "2013-d4",
+      "number": 13,
+      "width": 595.3200073242188,
+      "height": 841.9199829101562,
+      "rotation": 0,
+      "has_text": true,
+      "method": "text",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    }
+  ],
+  "questions": [
+    {
+      "id": "2013-d4-q03700a4762fb",
+      "document_id": "2013-d4",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q03700a4762fb-r1",
+          "page_id": "2013-d4-p1",
+          "bbox": [
+            0.025,
+            0.21823383978720629,
+            0.985,
+            0.30246130115687114
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.09514042740397692,
+          0.23878162177123605,
+          0.18636067222741512,
+          0.25792058977453775
+        ],
+        "text": "(1)设cos",
+        "style": "paren"
+      },
+      "text_hint": "...指定位置上.\nπ\n( )\n(1)设cos\n1\nsin\n( )\n( )\n0\nx\nx\nx\nx\nx\nx →\nα\n<\n−=\nα\nα\n是(    )\n,其中\n,则当\n时,\n2\n(A)比x 高阶的无穷小                 (B)比x 低阶的无穷小\n(C)与x 同阶但不等价的无穷小         (D)与x 等价的无穷小",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q40f28a0ea79f",
+      "document_id": "2013-d4",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q40f28a0ea79f-r1",
+          "page_id": "2013-d4-p1",
+          "bbox": [
+            0.025,
+            0.30046130115687114,
+            0.985,
+            0.3751517654356958
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.09514378509621403,
+          0.3230492248922123,
+          0.19231451416038778,
+          0.3399443033889258
+        ],
+        "text": "(2)设函数",
+        "style": "paren"
+      },
+      "text_hint": "(C)与x 同阶但不等价的无穷小         (D)与x 等价的无穷小\n2\n\n\nlim\n( ) 1\n( )\nn f n\ny\nf x\n−\n=\n=\n(    )\n(2)设函数\n由方程\n确定,则\n\n\n\n\n→∞\n(A)2       (B)1      (C)1\n−     (D)2\n−",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-qa928d179f12f",
+      "document_id": "2013-d4",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-qa928d179f12f-r1",
+          "page_id": "2013-d4-p1",
+          "bbox": [
+            0.025,
+            0.3731517654356958,
+            0.985,
+            0.5049374544050511
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.09513404522560258,
+          0.39730805029455885,
+          0.1923047614741571,
+          0.41420312879127236
+        ],
+        "text": "(3)设函数",
+        "style": "paren"
+      },
+      "text_hint": "(A)2       (B)1      (C)1\n−     (D)2\n−\nsin ,\n0\nx\nx\n≤\n<\nπ\n\n= ∫\n( )\n( )\n( )=\nF x\nf t dt\nf x\n,则(    )\n(3)设函数\n\n,\n2,\n2\nx\nπ\n≤\n≤\nπ\n\n( )\n( )\n(A)x\n(B)x\nF x 的跳跃间断点\nF x 的可去间断点\n=\nπ\n=\nπ\n是函数\n是函数\n( )\n( )\nF x 在x\nF x 在x\n=\nπ\n=\nπ\n处连续但不可导            (D)\n处可导\n(C)",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-qd9dc928eb50f",
+      "document_id": "2013-d4",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-qd9dc928eb50f-r1",
+          "page_id": "2013-d4-p1",
+          "bbox": [
+            0.025,
+            0.5029374544050511,
+            0.985,
+            0.6170441742967259
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.09514529733928265,
+          0.5455382938849502,
+          0.1923160264034564,
+          0.5624333723816637
+        ],
+        "text": "(4)设函数",
+        "style": "paren"
+      },
+      "text_hint": "1\n\n1\nx\ne\n<\n<\n\n(\n1)\nα\n−\nx\n−\n\n+∞\n∫\n( )\n( )=\nf x dx\nf x\n收敛,则(    )\n(4)设函数\n,若反常积分\n1\n\nx\ne\n≥\n\nln\nα\n+\nx\nx\n2\n2\n(C)2\n0\n(D)0\n2\nα < −    (B)\nα >\n−<\nα\n<\n<\nα\n<\n(A)",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q4fb2bb694883",
+      "document_id": "2013-d4",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q4fb2bb694883-r1",
+          "page_id": "2013-d4-p1",
+          "bbox": [
+            0.025,
+            0.6150441742967259,
+            0.985,
+            0.6644336330743974
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.09514210625009548,
+          0.637471013701085,
+          0.15703124335189753,
+          0.654366164692997
+        ],
+        "text": "(5)设",
+        "style": "paren"
+      },
+      "text_hint": "2\n2\n(C)2\n0\n(D)0\n2\nα < −    (B)\nα >\n−<\nα\n<\n<\nα\n<\n(A)\n,其中函数f 可微,则x\nz\nz\ny\n∂\n∂\n(\n)\nz\nf xy\n+\n=\n=\n(    )\n(5)设\ny x\ny\nx\n∂\n∂",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-qe871402a2aa2",
+      "document_id": "2013-d4",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-qe871402a2aa2-r1",
+          "page_id": "2013-d4-p1",
+          "bbox": [
+            0.025,
+            0.6624336330743974,
+            0.985,
+            0.8030602564865622
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.09514529733928265,
+          0.7161423681006048,
+          0.15781489283630465,
+          0.7330375190925167
+        ],
+        "text": "(6)设",
+        "style": "paren"
+      },
+      "text_hint": "y x\ny\nx\n(C)2\n2\n(\n)\n(\n)\n(A)2\n(\n)\n(B)2\n(\n)\nf xy\nf xy\nyf\nxy\nyf\nxy\n−\n−\n(D)\nx\nx\n{\n}\n∫∫\n( , ) |\n1\n(\n)\n(\n1,2,3,4)\nD 是圆域\nD\nx y\nx\ny\nI\ny\nx dxdy k\n在第k 象限的部分,记\n=\n+\n≤\n=\n−\n=\n(6)设\n,则\nD\n(    )\n0\n0\n0\n0\nI >\nI >\nI >\nI >\n(A)\n(B)\n(C)\n(D)",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q8000cda5aeec",
+      "document_id": "2013-d4",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q8000cda5aeec-r1",
+          "page_id": "2013-d4-p1",
+          "bbox": [
+            0.025,
+            0.8010602564865622,
+            0.985,
+            0.9891421238642811
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-q8000cda5aeec-r2",
+          "page_id": "2013-d4-p2",
+          "bbox": [
+            0.025,
+            0.025,
+            0.985,
+            0.09545045544021007
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.09514529733928265,
+          0.8146398543658457,
+          0.38743131725188423,
+          0.8315350053577576
+        ],
+        "text": "(7)设矩阵A,B,C 均为n 阶矩阵,若",
+        "style": "paren"
+      },
+      "text_hint": "B\nAB\nC\n=\n则可逆,则\n(7)设矩阵A,B,C 均为n 阶矩阵,若\n(A)矩阵C 的行向量组与矩阵A 的行向量组等价\n(B)矩阵C 的列向量组与矩阵A 的列向量组等价\n(C)矩阵C 的行向量组与矩阵B 的行向量组等价\n(D)矩阵C 的行向量组与矩阵B 的列向量组等价\n更多考研资料分享+qq810958634\n更多考研资料分享+qq810958634",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q4cd4779568f0",
+      "document_id": "2013-d4",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q4cd4779568f0-r1",
+          "page_id": "2013-d4-p2",
+          "bbox": [
+            0.025,
+            0.09345045544021006,
+            0.985,
+            0.31455411646948095
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.09514210625009548,
+          0.12863166509074186,
+          0.17476959823443827,
+          0.14552676171125495
+        ],
+        "text": "(8)矩阵",
+        "style": "paren"
+      },
+      "text_hint": "1\n1\n2\n0\n0\na\n\n\n\n\n\n\n\n\n0\nb\n0\na\nb\na\n(8)矩阵\n相似的充分必要条件为\n与\n\n\n\n\n\n\n\n\n1\n1\n0\n0\n0\na\n\n\n\n\n(A)a\n0,b\n2\n=\n=\n,0\na\nb\n=\n(B)\n为任意常数\n,2\n0\na\nb\n=\n=\n(C)\n,2\na\nb\n=\n(D)\n为任意常数",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-qbc232506c88f",
+      "document_id": "2013-d4",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-qbc232506c88f-r1",
+          "page_id": "2013-d4-p2",
+          "bbox": [
+            0.025,
+            0.34850691397582007,
+            0.985,
+            0.4035951478093727
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.09515336477158517,
+          0.3734962049126081,
+          0.13063008094447628,
+          0.3860389616744709
+        ],
+        "text": "(9)",
+        "style": "paren"
+      },
+      "text_hint": "ln(1\n)\nx\n+\nlim(2\n) x\n−\n=                  .\n(9)\nx\n→∞",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q2034dd6a7d38",
+      "document_id": "2013-d4",
+      "number": "10",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q2034dd6a7d38-r1",
+          "page_id": "2013-d4-p2",
+          "bbox": [
+            0.025,
+            0.4015951478093727,
+            0.985,
+            0.48890546749362424
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.09514210625009548,
+          0.41938537555811334,
+          0.2166942305004971,
+          0.4319281323199761
+        ],
+        "text": "(10) 设函数",
+        "style": "paren"
+      },
+      "text_hint": "∫\n( )\n1\n1( )\nf x\ne dt\n( )\n0\n−\n=\n−\nx\ny\ny\nf x\ny =\n=\n=\n(10) 设函数\n,则\n的反函数\n在\n处的导数\n−\ndx\n= =                  .\ndy",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q8b20ac74be8e",
+      "document_id": "2013-d4",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q8b20ac74be8e-r1",
+          "page_id": "2013-d4-p2",
+          "bbox": [
+            0.025,
+            0.48690546749362423,
+            0.985,
+            0.5487070104379311
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.09514210625009548,
+          0.5113181316218474,
+          0.40635614216233124,
+          0.5238608883837101
+        ],
+        "text": "(11) 设封闭曲线L 的极坐标方程为",
+        "style": "paren"
+      },
+      "text_hint": "dy\nπ\nπ\ncos3 (\n)\nr\nθ\nθ\n=\n−\n≤\n≤\n(11) 设封闭曲线L 的极坐标方程为\n,则L 所围成的平面图形的面积\n6\n6\n为                 .",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-qd06cdc669f25",
+      "document_id": "2013-d4",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-qd06cdc669f25-r1",
+          "page_id": "2013-d4-p2",
+          "bbox": [
+            0.025,
+            0.5467070104379311,
+            0.985,
+            0.6088026301547983
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.09514210625009548,
+          0.575457243528118,
+          0.1659004207931679,
+          0.5880000002899808
+        ],
+        "text": "(12)曲线",
+        "style": "paren"
+      },
+      "text_hint": "为                 .\narctan\nx\n=\n\n1\nt = 的点处的法线方程为                 .\n(12)曲线\n上对应于\nln 1\ny\n=\n+\n",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q5f7820856718",
+      "document_id": "2013-d4",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q5f7820856718-r1",
+          "page_id": "2013-d4-p2",
+          "bbox": [
+            0.025,
+            0.6068026301547983,
+            0.985,
+            0.6814918982628483
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.09514210625009548,
+          0.6224925632613038,
+          0.1659004207931679,
+          0.6350353200231665
+        ],
+        "text": "(13)已知",
+        "style": "paren"
+      },
+      "text_hint": "y\ne\nxe\ny\ne\nxe\ny\nxe\n=\n−\n=\n−\n= −\n(13)已知\n,\n,\n是某二阶常系数非齐次线性微分方程的3 个解,该\n0\n1\ny\ny\n= 的解为y =                  .\n= =\n方程满足条件\n=",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q82e44d6f84a3",
+      "document_id": "2013-d4",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q82e44d6f84a3-r1",
+          "page_id": "2013-d4-p2",
+          "bbox": [
+            0.025,
+            0.6794918982628483,
+            0.985,
+            0.7680889352245978
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.09514210625009548,
+          0.6931983627394399,
+          0.179789604441299,
+          0.7100935137313518
+        ],
+        "text": "(14 )设",
+        "style": "paren"
+      },
+      "text_hint": "A\n(a )\nA\na\n是三阶非零矩阵,| A | 为A 的行列式,\n=\n(14 )设\n为\n的代数余子式,若\nij\nij\nij\na\nA\n0(i, j\n1,2,3),\n____\nA\n+\n=\n=\n=\n则\nij\nij",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-qd09cda72b43f",
+      "document_id": "2013-d4",
+      "number": "15",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-qd09cda72b43f-r1",
+          "page_id": "2013-d4-p2",
+          "bbox": [
+            0.025,
+            0.8071925528292447,
+            0.985,
+            0.8647878156160022
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.09514210625009548,
+          0.8191925528292447,
+          0.3023785379182903,
+          0.8360877038211567
+        ],
+        "text": "(15)(本题满分10 分)",
+        "style": "paren"
+      },
+      "text_hint": "演算步骤.\n(15)(本题满分10 分)\n0\n时,1 cos\ncos2\ncos3\nax 为等价无穷小,求n 与a 的值。\nx →\nx\nx\nx\n−\n当\n与",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q3bf6ad490cf5",
+      "document_id": "2013-d4",
+      "number": "16",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q3bf6ad490cf5-r1",
+          "page_id": "2013-d4-p2",
+          "bbox": [
+            0.025,
+            0.8627878156160022,
+            0.985,
+            0.9891421238642811
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-q3bf6ad490cf5-r2",
+          "page_id": "2013-d4-p3",
+          "bbox": [
+            0.025,
+            0.025,
+            0.985,
+            0.16595325930075336
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.09514042740397692,
+          0.8747878156160022,
+          0.3023785379182903,
+          0.8916829666079141
+        ],
+        "text": "(16)(本题满分10 分)",
+        "style": "paren"
+      },
+      "text_hint": "(16)(本题满分10 分)\n更多考研资料分享+qq810958634\n更多考研资料分享+qq810958634\n(\n0)\n及x 轴所围成的平面图形,\nV V 分别是D 绕x 轴,y 轴旋转一\ny\nx\n设D 是由曲线\nx\na a\n=\n=\n>\n,直线\n10\n,求a 的值。\nV\nV\n=\n周所得旋转体的体积,若",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-qb62bd2249518",
+      "document_id": "2013-d4",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-qb62bd2249518-r1",
+          "page_id": "2013-d4-p3",
+          "bbox": [
+            0.025,
+            0.16395325930075336,
+            0.985,
+            0.22153931519730619
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.095151679517657,
+          0.17595325930075337,
+          0.30238863662624005,
+          0.19284835592126645
+        ],
+        "text": "(17)(本题满分10 分)",
+        "style": "paren"
+      },
+      "text_hint": "(17)(本题满分10 分)\n∫∫\n3 ,\n3\n8\nx dxdy\nx\ny y\nx\nx\ny\n设平面内区域D 由直线\n=\n=\n+\n=\n围成.计算\n。\n及",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q88ebde58f54b",
+      "document_id": "2013-d4",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q88ebde58f54b-r1",
+          "page_id": "2013-d4-p3",
+          "bbox": [
+            0.025,
+            0.21953931519730618,
+            0.985,
+            0.31418710952726825
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.09513404522560258,
+          0.2315393151973062,
+          0.30237182253381606,
+          0.24843441181781928
+        ],
+        "text": "(18)(本题满分10 分)",
+        "style": "paren"
+      },
+      "text_hint": "D\n(18)(本题满分10 分)\nf x 在[ 1,1]\n( )\n(1)\n1\n−\n= .证明:\n设奇函数\n上具有二阶导数,且\n′′\n0,1\n0,1\n( )\n1\n( )\n( )\n1\nf ξ\n=\n+\n= 。\nη ∈(\nξ ∈(\nη\nη\n;(II)存在\n(I)存在\n),使得\n),使得",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q5769602535cb",
+      "document_id": "2013-d4",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q5769602535cb-r1",
+          "page_id": "2013-d4-p3",
+          "bbox": [
+            0.025,
+            0.31218710952726825,
+            0.985,
+            0.3697778776117211
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.09515655586077235,
+          0.32418710952726826,
+          0.30239366034897647,
+          0.3410821880239817
+        ],
+        "text": "(19)(本题满分11 分)",
+        "style": "paren"
+      },
+      "text_hint": "(19)(本题满分11 分)\n1(\n0,\n0)\nx\nxy\ny\nx\ny\n−\n+\n=\n≥\n≥\n上的点到坐标原点的最长距离与最短距离。\n求曲线",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q32e847128da2",
+      "document_id": "2013-d4",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q32e847128da2-r1",
+          "page_id": "2013-d4-p3",
+          "bbox": [
+            0.025,
+            0.3677778776117211,
+            0.985,
+            0.5179998205018886
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.09515336477158517,
+          0.3797778776117211,
+          0.29291809906842753,
+          0.39667295610843456
+        ],
+        "text": "(20)(本题满分11 分)",
+        "style": "paren"
+      },
+      "text_hint": "(20)(本题满分11 分)\n1\n( )\nln\nf x\nx\n=\n+\n,\n设函数\nx\n( )\nf x 的最小值\n(I)求\n1\n(II)设数列{\n}\n< ,证明lim\nln\n1\nnx\nx\nx\n+\n存在,并求此极限.\n满足\nx\n→∞",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q5f0fcd124b77",
+      "document_id": "2013-d4",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q5f0fcd124b77-r1",
+          "page_id": "2013-d4-p3",
+          "bbox": [
+            0.025,
+            0.5159998205018886,
+            0.985,
+            0.6291813204231951
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.09515504361770372,
+          0.5279998205018887,
+          0.29291976509892687,
+          0.5448948989986021
+        ],
+        "text": "(21)(本题满分11 分)",
+        "style": "paren"
+      },
+      "text_hint": "(21)(本题满分11 分)\n1\n1 ln\n(1\n)\ny\nx\nx\nx\ne\n设曲线L 的方程为\n=\n−\n≤\n≤\n,\n4\n2\n(1)求L 的弧长;\n1,\n及x 轴所围平面图形,求D 的形心的横坐标。\nx\nx\ne\n(2)设D 是由曲线L ,直线\n=\n=",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-qdd73cb2cef34",
+      "document_id": "2013-d4",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-qdd73cb2cef34-r1",
+          "page_id": "2013-d4-p3",
+          "bbox": [
+            0.025,
+            0.6271813204231951,
+            0.985,
+            0.7032941042482403
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.0951469761854012,
+          0.6391813204231951,
+          0.29291135805271484,
+          0.656076471415107
+        ],
+        "text": "(22)(本题满分11 分)",
+        "style": "paren"
+      },
+      "text_hint": "(22)(本题满分11 分)\n1\n0\n1\na\n\n\n\n\n,当,a b 为何值时,存在矩阵C 使得AC\nCA\nB\n,并求所有矩阵C 。\n−\n=\nA\nB\n=\n=\n设\n\n\n\n\n1\n0\n1\nb\n\n\n\n",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q35c1d2c3c023",
+      "document_id": "2013-d4",
+      "number": "23",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q35c1d2c3c023-r1",
+          "page_id": "2013-d4-p3",
+          "bbox": [
+            0.025,
+            0.7012941042482403,
+            0.985,
+            0.9891421238642811
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-q35c1d2c3c023-r2",
+          "page_id": "2013-d4-p4",
+          "bbox": [
+            0.025,
+            0.025,
+            0.985,
+            0.17031237746045985
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.09514361849316409,
+          0.7132941042482404,
+          0.29290800036047776,
+          0.7301892552401523
+        ],
+        "text": "(23)(本题满分11 分)",
+        "style": "paren"
+      },
+      "text_hint": "\n\n\n\n(23)(本题满分11 分)\na\nb\n\n\n\n\n\n\n\n\n(\n)\n(\n)\n(\n)\na\nb\nα\nβ\n=\n=\n2\nf x x\nx\na x\na x\na x\nb x\nb x\nb x\n=\n+\n+\n+\n+\n+\n。\n设二次型\n,记\n\n\n\n\n1 1\n1 1\n\n\n\n\na\nb\n\n\n\n\n(I)证明二次型f 对应的矩阵为2\nT\nT\nα α\n+\nβ β\n;\n2y\ny\nα β 正交且均为单位向量,证明二次型f 在正交变化下的标准形为二次型\n+\n。\n(II)若\n更多考研资料分享+qq810958634\n更多考研资料分享+qq810958634\n2013 年全国硕士研究生入学统一考试\n数学二试题答案",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-qc9523b115eb4",
+      "document_id": "2013-d4",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-qc9523b115eb4-r1",
+          "page_id": "2013-d4-p4",
+          "bbox": [
+            0.025,
+            0.21823383978720629,
+            0.985,
+            0.29565204465095263
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-qc9523b115eb4-r2",
+          "page_id": "2013-d4-p4",
+          "bbox": [
+            0.025,
+            0.2936520446509526,
+            0.985,
+            0.3123811453907879
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2013-d4-qc9523b115eb4-r3",
+          "page_id": "2013-d4-p4",
+          "bbox": [
+            0.025,
+            0.31038114539078787,
+            0.985,
+            0.43216481681877006
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 4,
+        "bbox": [
+          0.09514042740397692,
+          0.23878162177123605,
+          0.18636067222741512,
+          0.25792058977453775
+        ],
+        "text": "(1)设cos",
+        "style": "paren"
+      },
+      "text_hint": "...指定位置上.\nπ\n( )\n(1)设cos\n1\nsin\n( )\n( )\n0\nx\nx\nx\nx\nx\nx →\nα\n<\n−=\nα\nα\n是(    )\n,其中\n,则当\n时,\n2\n(A)比x 高阶的无穷小                 (B)比x 低阶的无穷小\n(C)与x 同阶但不等价的无穷小         (D)与x 等价的无穷小",
+      "answer_hint": "(C)与x 同阶但不等价的无穷小         (D)与x 等价的无穷小\n【答案】(C)\n【答案】(C)\nsin\n( )\ncos\n1\n1\nx\nx\nα\n−\nlimsin\n( )\n0\nlim\nlim\nx\nα\n=\n=\n= −\n,\n【解析】因为\n,所以\n2\nx\nx\n→\n→\n→\nsin\n( )\n( )\n1\nx\nx\nα\nα\nlim\nlim\n( )\n0\n,所以sin\n( )\n( )\n0\nx\nx\nx\nx →\n=\n= −\nα\n→\nα\nα\n,\n\n时,\n,所以\n因此当\n2\nx\nx\n→\n→\n( )\n是与x 同阶但不等价的无穷小。\nx\nα\n所以",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-qe22a2592cd32",
+      "document_id": "2013-d4",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-qe22a2592cd32-r1",
+          "page_id": "2013-d4-p4",
+          "bbox": [
+            0.025,
+            0.43016481681877006,
+            0.985,
+            0.49947668108571996
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-qe22a2592cd32-r2",
+          "page_id": "2013-d4-p4",
+          "bbox": [
+            0.025,
+            0.49747668108571996,
+            0.985,
+            0.5177578677770225
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2013-d4-qe22a2592cd32-r3",
+          "page_id": "2013-d4-p4",
+          "bbox": [
+            0.025,
+            0.5157578677770225,
+            0.985,
+            0.6530879170295353
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 4,
+        "bbox": [
+          0.09514210625009548,
+          0.452745636024662,
+          0.19231283531426924,
+          0.46964071452137546
+        ],
+        "text": "(2)设函数",
+        "style": "paren"
+      },
+      "text_hint": "2\n\n\nlim\n( ) 1\n( )\n由方程cos(\n)\nln\n1\nn f n\ny\nf x\nxy\ny\nx\n−\n=\n=\n+\n−\n=\n(2)设函数\n(    )\n确定,则\n\n\n\n\n→∞\n(A)2       (B)1      (C)1\n−     (D)2\n−",
+      "answer_hint": "(A)2       (B)1      (C)1\n−     (D)2\n−\n【答案】(A)\n【答案】(A)\n2\n\n\n( )\n(0)\n−\n\n\n2\n\n\nn\n(0)\nlim\n( ) 1\nlim 2\n2\n(0)\n1\nn f\n−\n=\n=\n= ,所以\n,\n\n\n【解析】由于\n\n\n2\nn\n\n\n→∞\n→∞\n\n\nn\n\n\n2\ny\n\n\nf ′\nlim\n( ) 1\n2\n(0)\n1\n对此隐函数两边求导得(\n)sin(\n)\n1\n0\nn f n\ny\nxy\nxy\n−\n=\n=\n−\n+\n+\n−=\n。\n,所以\n,故\n\n\ny\n\n\n→∞",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-qd7252c2317c1",
+      "document_id": "2013-d4",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-qd7252c2317c1-r1",
+          "page_id": "2013-d4-p4",
+          "bbox": [
+            0.025,
+            0.6510879170295353,
+            0.985,
+            0.7774139926027349
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-qd7252c2317c1-r2",
+          "page_id": "2013-d4-p4",
+          "bbox": [
+            0.025,
+            0.7754139926027349,
+            0.985,
+            0.8015082067826943
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2013-d4-qd7252c2317c1-r3",
+          "page_id": "2013-d4-p4",
+          "bbox": [
+            0.025,
+            0.7995082067826943,
+            0.985,
+            0.9891421238642811
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2013-d4-qd7252c2317c1-r4",
+          "page_id": "2013-d4-p5",
+          "bbox": [
+            0.025,
+            0.025,
+            0.985,
+            0.1714140507438841
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 4,
+        "bbox": [
+          0.0951355574686712,
+          0.6752370973589492,
+          0.19230644032027566,
+          0.6921322483508611
+        ],
+        "text": "(3)设函数",
+        "style": "paren"
+      },
+      "text_hint": "sin ,\n0\nx\nx\n≤\n<\nπ\n\n= ∫\n( )\n( )\n( )=\nF x\nf t dt\nf x\n(3)设函数\n,则(    )\n\n,\n2,\n2\nx\nπ\n≤\n≤\nπ\n\n( )\n( )\n(A)x\n(B)x\nF x 的跳跃间断点\nF x 的可去间断点\n=\nπ\n=\nπ\n是函数\n是函数\n( )\n( )\nF x 在x\nF x 在x\n=\nπ\n=\nπ\n处连续但不可导            (D)\n处可导\n(C)",
+      "answer_hint": "【答案】(C)\n【答案】(C)\n\n∫\nsin\n1 cos ,\n0\ntdt\nx\nx\n= −\n≤\n<\nπ\n\n∫\n( )\n( )\nF x\nf t dt\n=\n= \n,\n【解析】\nπ\n∫\n∫\n\nsin\n2\n2(\n1),\n2\ntdt\ndt\nx\nx\n+\n=\n−\n+\n≤\n≤\nπ\nπ\nπ\n\nπ\n由于lim\n( )\nlim\n( )\n2\n( )\nF x 在x\nF x\nF x\n=\nπ\n=\n=\n处连续;\n,所以\n→−\nπ\n→+\nπ\n更多考研资料分享+qq810958634\n更多考研资料分享+qq810958634\n( )\n( )\n1 cos\n( )\n( )\n2(\n)\nF x\nF\nx\nF x\nF\nx\n−\nπ\n−\nπ\n−\nπ\n−−\nlim\nlim\n0\nlim\nlim\n2\n=\n=\n=\n=\n,\n,\nx\nx\nx\nx\n−\nπ\n−\nπ\n−\nπ\n−\nπ\n→+\n→+\n→−\nπ\n→+\nπ\nπ\nπ\n( )\nF x 在x\n=\nπ\n处不可导。\n所以",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q5d6d0875b1e0",
+      "document_id": "2013-d4",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q5d6d0875b1e0-r1",
+          "page_id": "2013-d4-p5",
+          "bbox": [
+            0.025,
+            0.1694140507438841,
+            0.985,
+            0.27712776343540824
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-q5d6d0875b1e0-r2",
+          "page_id": "2013-d4-p5",
+          "bbox": [
+            0.025,
+            0.27512776343540823,
+            0.985,
+            0.3011176026533823
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2013-d4-q5d6d0875b1e0-r3",
+          "page_id": "2013-d4-p5",
+          "bbox": [
+            0.025,
+            0.2991176026533823,
+            0.985,
+            0.6170441742967259
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 5,
+        "bbox": [
+          0.09514848842846983,
+          0.21201490834758288,
+          0.19231921749264358,
+          0.22891000496809594
+        ],
+        "text": "(4)设函数",
+        "style": "paren"
+      },
+      "text_hint": "1\n\n1\nx\ne\n<\n<\n\n(\n1)\nα\n−\nx\n−\n\n+∞\n∫\n( )\n( )=\nf x dx\nf x\n收敛,则(    )\n(4)设函数\n,若反常积分\n1\n\nx\ne\n≥\n\nln\nα\n+\nx\nx\n2\n2\n(C)2\n0\n(D)0\n2\nα < −    (B)\nα >\n−<\nα\n<\n<\nα\n<\n(A)",
+      "answer_hint": "2\n2\n(C)2\n0\n(D)0\n2\nα < −    (B)\nα >\n−<\nα\n<\n<\nα\n<\n(A)\n【答案】(D)\n【答案】(D)\n1\n\n1\nx\ne\n<\n<\n\n(\n1)\nα\n−\nx\n−\n\n( )=\nf x\n【解析】\n1\n\nx\ne\n≥\n\nln\nα\n+\nx\nx\n+∞\n+∞\n∫\n∫\n∫\n( )\n( )\n( )\nf x dx\nf x dx\nf x dx\n=\n+\n,\n因为\n1\n1\n1\n1\n1\n1\n∫\n∫\n∫\n当1\n( )\nlim\nlim[\n]\nx\ne\nf x dx\ndx\ndx\n<\n<\n=\n=\n=\n−\n,\n时,\n(\n1)\n(\n1)\n2\n(\n1)\n2\n(\n1)\nα\n−\nα\n−\nα\n−\nα\n−\nx\nx\ne\n−\n−\n−\nα ε\n−\n−\nα\n−\nε\n→+\n→+\nε\nε\n1\n1\n2\nlim[\n]\nα −\n< 0 ;\n存在,需满足\n要使\n2\n(\n1)α\n−\n−\nα ε\n−\nε\n→+\n1\nln\n1\n1\n1\nd\nx\n+∞\n+∞\n∫\n∫\nlim(\n)\ndx\n当x\ne\n=\n=\n−\n+\n≥\n,\n时,\nln\nln\nln\n+\n+\nα\nα\nα\nx\nx\nx\nα\nλ\nα\n→∞\nλ\n1\n1\nlim(\n)\n存在,需满足α > 0;所以0\n2\n→∞−\n<\nα\n<\n。\n要使\nlnα\nα\nλ\nλ",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-qb8cefd1ac686",
+      "document_id": "2013-d4",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-qb8cefd1ac686-r1",
+          "page_id": "2013-d4-p5",
+          "bbox": [
+            0.025,
+            0.6150441742967259,
+            0.985,
+            0.7032953366666143
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-qb8cefd1ac686-r2",
+          "page_id": "2013-d4-p5",
+          "bbox": [
+            0.025,
+            0.7012953366666143,
+            0.985,
+            0.7306592292875962
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2013-d4-qb8cefd1ac686-r3",
+          "page_id": "2013-d4-p5",
+          "bbox": [
+            0.025,
+            0.7286592292875962,
+            0.985,
+            0.8282460308697605
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 5,
+        "bbox": [
+          0.09513572407172112,
+          0.6374697812827111,
+          0.15702484835790395,
+          0.6543649322746231
+        ],
+        "text": "(5)设",
+        "style": "paren"
+      },
+      "text_hint": "lnα\nα\nλ\n,其中函数f 可微,则x\nz\nz\ny\n∂\n∂\n(\n)\nz\nf xy\n+\n=\n=\n(    )\n(5)设\ny x\ny\nx\n∂\n∂\n(C)2\n2\n(\n)\n(\n)\n(A)2\n(\n)\n(B)2\n(\n)\nf xy\nf xy\nyf\nxy\nyf\nxy\n−\n−\n(D)\nx\nx",
+      "answer_hint": "x\nx\n【答案】(A)\ny\nz\ny\ny\n∂\n(\n)\n(\n)\n(\n)\nz\nf xy\nf xy\nxy\n=\n= −\n+\n,\n【解析】已知\n,所以\nx\nx\nx\nx\n∂\n1\n1\nx\nz\nz\n∂\n∂\n[\n(\n)\n(\n)]\n(\n(\n)\n(\n))\n2\n(\n)\nf xy\nyf\nxy\nf xy\nyf\nxy\nyf\nxy\n+\n= −\n+\n+\n+\n=\n。\n所以\ny x\ny\nx\nx\n∂\n∂",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q1f70c112ce83",
+      "document_id": "2013-d4",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q1f70c112ce83-r1",
+          "page_id": "2013-d4-p5",
+          "bbox": [
+            0.025,
+            0.8262460308697605,
+            0.985,
+            0.9891421238642811
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-q1f70c112ce83-r2",
+          "page_id": "2013-d4-p6",
+          "bbox": [
+            0.025,
+            0.025,
+            0.985,
+            0.12888799578831894
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-q1f70c112ce83-r3",
+          "page_id": "2013-d4-p6",
+          "bbox": [
+            0.025,
+            0.12688799578831894,
+            0.985,
+            0.1539526578805869
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2013-d4-q1f70c112ce83-r4",
+          "page_id": "2013-d4-p6",
+          "bbox": [
+            0.025,
+            0.1519526578805869,
+            0.985,
+            0.2944100206633064
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 5,
+        "bbox": [
+          0.0951469761854012,
+          0.8458470799332783,
+          0.15781657168242322,
+          0.8627422309251902
+        ],
+        "text": "(6)设",
+        "style": "paren"
+      },
+      "text_hint": "y x\ny\nx\nx\n∂\n∂\n{\n}\n∫∫\n( , ) |\n1\n(\n)\n(\n1,2,3,4)\nD 是圆域\nD\nx y\nx\ny\nI\ny\nx dxdy k\n在第k 象限的部分,记\n=\n+\n≤\n=\n−\n=\n(6)设\n,则\nD\n(    )\n更多考研资料分享+qq810958634\n更多考研资料分享+qq810958634\n0\n0\n0\n0\nI >\nI >\nI >\nI >\n(A)\n(B)\n(C)\n(D)",
+      "answer_hint": "【答案】(B)\n【答案】(B)\ncos ,\nsin\nx\nr\ny\nr\n=\nθ\n=\nθ\n,则有\n【解析】令\nβ\n1\nβ\n∫∫\n∫\n∫\n(\n)\n( sin\ncos )\n(cos\nsin )\nI\ny\nx dxdy\nrdr\nr\nr\nd\n=\n−\n=\nθ\n−\nθ\nθ\n= −\nθ\n+\nθ\n3\nα\nα\nD\n2\nπ\n0.\n2\nI =\nk =\nα\nβ\nπ\n=\n=\n>\n故正确答案选B。\n时,\n,此时有\n故当\n2\n3",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q9643c3994ba9",
+      "document_id": "2013-d4",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q9643c3994ba9-r1",
+          "page_id": "2013-d4-p6",
+          "bbox": [
+            0.025,
+            0.2924100206633064,
+            0.985,
+            0.3882879678921666
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-q9643c3994ba9-r2",
+          "page_id": "2013-d4-p6",
+          "bbox": [
+            0.025,
+            0.3862879678921666,
+            0.985,
+            0.4158100450361921
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2013-d4-q9643c3994ba9-r3",
+          "page_id": "2013-d4-p6",
+          "bbox": [
+            0.025,
+            0.4138100450361921,
+            0.985,
+            0.4660319999605626
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 6,
+        "bbox": [
+          0.09513572407172112,
+          0.3044100206633064,
+          0.4165067533699696,
+          0.3232989346033139
+        ],
+        "text": "(7)设矩阵A,B,C 均为n 阶矩阵,若AB",
+        "style": "paren"
+      },
+      "text_hint": "2\n3\n(7)设矩阵A,B,C 均为n 阶矩阵,若AB\nC\n,且C 可逆,则(   )\n=\n(A)矩阵C 的行向量组与矩阵A 的行向量组等价\n(B)矩阵C 的列向量组与矩阵A 的列向量组等价\n(C)矩阵C 的行向量组与矩阵B 的行向量组等价\n(D)矩阵C 的行向量组与矩阵B 的列向量组等价",
+      "answer_hint": "(D)矩阵C 的行向量组与矩阵B 的列向量组等价\n【答案】(B)\n−\nA\n= CB\nC =\nAB\n可知C 的列向量组可以由A 的列向量组线性表示,又B 可逆,故有\n【解析】由\n,从而\nA 的列向量组也可以由C 的列向量组线性表示,故根据向量组等价的定义可知正确选项为(B)。",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q48c61a28438e",
+      "document_id": "2013-d4",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q48c61a28438e-r1",
+          "page_id": "2013-d4-p6",
+          "bbox": [
+            0.025,
+            0.4640319999605626,
+            0.985,
+            0.6847615042086725
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-q48c61a28438e-r2",
+          "page_id": "2013-d4-p6",
+          "bbox": [
+            0.025,
+            0.6827615042086725,
+            0.985,
+            0.7069099472619179
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2013-d4-q48c61a28438e-r3",
+          "page_id": "2013-d4-p6",
+          "bbox": [
+            0.025,
+            0.7049099472619179,
+            0.985,
+            0.9891421238642811
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2013-d4-q48c61a28438e-r4",
+          "page_id": "2013-d4-p7",
+          "bbox": [
+            0.025,
+            0.025,
+            0.985,
+            0.1663215167851395
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 6,
+        "bbox": [
+          0.0951081768981957,
+          0.49922274272969214,
+          0.17473566247472888,
+          0.5161178212264056
+        ],
+        "text": "(8)矩阵",
+        "style": "paren"
+      },
+      "text_hint": "A 的列向量组也可以由C 的列向量组线性表示,故根据向量组等价的定义可知正确选项为(B)。\n1\n1\n2\n0\n0\na\n\n\n\n\n\n\n\n\n0\nb\n0\na\nb\na\n相似的充分必要条件为\n(8)矩阵\n与\n\n\n\n\n\n\n\n\n1\n1\n0\n0\n0\na\n\n\n\n\n0,\n2\na\nb\n=\n=\n(A)\n,0\na\nb\n=\n(B)\n为任意常数\n,2\n0\na\nb\n=\n=\n(C)\n,2\na\nb\n=\n(D)\n为任意常数",
+      "answer_hint": "【答案】(B)\n【答案】(B)\n1\n1\n1\n1\n2\n0\n0\na\na\n\n\n\n\n\n\n\n\n\n\n\n\n0\nb\n0\na\nb\na\na\nb\na\n【解析】由于\n为实对称矩阵,故一定可以相似对角化,从而\n与\n相似的\n\n\n\n\n\n\n\n\n\n\n\n\n1\n1\n1\n1\n0\n0\n0\na\na\n\n\n\n\n\n\n1\n1\na\n\n\n\n\n,2 b\n0,\na\nb\na\n。\n充分必要条件为\n的特征值为\n\n\n\n\n1\n1\na\n\n\n更多考研资料分享+qq810958634\n更多考研资料分享+qq810958634\n1\n1\na\nλ\n−\n−\n−\n[(\n)(\n2)\n2\n]\n,0\nE\nA\na\nb\na\nb\na\na\nb\nλ\n−\n= −\nλ\n−\n−\n=\nλ λ\n−\nλ\n−\n−\n=\n。\n为任意常数\n又\n,从而\n1\n1\na\n−\n−\nλ\n−",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q71d08d387e78",
+      "document_id": "2013-d4",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q71d08d387e78-r1",
+          "page_id": "2013-d4-p7",
+          "bbox": [
+            0.025,
+            0.20027309999690446,
+            0.985,
+            0.2632848596605325
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-q71d08d387e78-r2",
+          "page_id": "2013-d4-p7",
+          "bbox": [
+            0.025,
+            0.2612848596605325,
+            0.985,
+            0.29154221935495656
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2013-d4-q71d08d387e78-r3",
+          "page_id": "2013-d4-p7",
+          "bbox": [
+            0.025,
+            0.28954221935495655,
+            0.985,
+            0.4777114476515434
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 7,
+        "bbox": [
+          0.09515336477158517,
+          0.22526360522826672,
+          0.13063008094447628,
+          0.2378063619901295
+        ],
+        "text": "(9)",
+        "style": "paren"
+      },
+      "text_hint": "ln(1\n)\nx\n+\nlim(2\n) x\n−\n=                  .\n(9)\nx\n→∞",
+      "answer_hint": "e\n【答案】\nln(1\n)\nx\n+\nln(1 1\n)\n+ −\nx\nlim\ne\nx\n0\nx\n→\n【解析】原式=\n,\nln(1\n)\nln(1\n)\n1\nx\nx\n+\n+\nln(1 1\n)\n1\n( ))\n1 (1\nx o x\n+ −\n−\n−\n−\n+\n1\n2\nx\nx\nlim\nlim\nlim\n=\n=\n=\n2\nx\nx\nx\n0\n0\n0\nx\nx\nx\n→\n→\n→\ne .\n因此答案为",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q993fea69150b",
+      "document_id": "2013-d4",
+      "number": "10",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q993fea69150b-r1",
+          "page_id": "2013-d4-p7",
+          "bbox": [
+            0.025,
+            0.4757114476515434,
+            0.985,
+            0.5699475236256415
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-q993fea69150b-r2",
+          "page_id": "2013-d4-p7",
+          "bbox": [
+            0.025,
+            0.5679475236256415,
+            0.985,
+            0.6255323471038204
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2013-d4-q993fea69150b-r3",
+          "page_id": "2013-d4-p7",
+          "bbox": [
+            0.025,
+            0.6235323471038204,
+            0.985,
+            0.6741961989752514
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 7,
+        "bbox": [
+          0.09515016727458837,
+          0.4935064600833825,
+          0.2239484605006724,
+          0.5060492168452453
+        ],
+        "text": "(10) 设函数",
+        "style": "paren"
+      },
+      "text_hint": "∫\n( )\n1\n1( )\nf x\ne dt\n0\n( )\n−\n=\n−\nx\ny\ny =\ny\nf x\n=\n=\n,则\n的反函数\n在\n处的导数\n(10) 设函数\n−\ndx\n= =                  .\ndy",
+      "answer_hint": "1\n【答案】\n1 e−\n−\n1\n1\n1\ndy\ndx\ndx\n1\ne\n=\n−\n∴\n=\n=\n=\n【解析】\n=\n=−\ndx\ndy\ndy\n1\n1\n1\n−\ne\ne\ne\n−\n−\n−",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q4f44524a6dc6",
+      "document_id": "2013-d4",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q4f44524a6dc6-r1",
+          "page_id": "2013-d4-p7",
+          "bbox": [
+            0.025,
+            0.6721961989752514,
+            0.985,
+            0.7297834147949795
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-q4f44524a6dc6-r2",
+          "page_id": "2013-d4-p7",
+          "bbox": [
+            0.025,
+            0.7277834147949795,
+            0.985,
+            0.7746135030861568
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2013-d4-q4f44524a6dc6-r3",
+          "page_id": "2013-d4-p7",
+          "bbox": [
+            0.025,
+            0.7726135030861568,
+            0.985,
+            0.8266430895365723
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 7,
+        "bbox": [
+          0.09514042740397692,
+          0.6966100592742491,
+          0.4107547702554194,
+          0.7091528160361119
+        ],
+        "text": "(11)设封闭曲线L 的极坐标方程为",
+        "style": "paren"
+      },
+      "text_hint": "1\n1\n1\ne\ne\ne\n−\n−\n−\nπ\nπ\ncos3 (\n)\nr\nθ\nθ\n=\n−\n≤\n≤\n,则L 所围成的平面图形的面积\n(11)设封闭曲线L 的极坐标方程为\n6\n6\n为                 .",
+      "answer_hint": "为                 .\nπ\n【答案】12\n【答案】12\nπ\nπ\n1\n1 cos6\n+\nθ\nπ\n∫\n∫\ncos 3\nS\nd\nd\n=\nθ θ\n=\nθ\n=\n【解析】所围图形的面积是\nπ\n2\n2\n12\n−",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-qaa2829b88154",
+      "document_id": "2013-d4",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-qaa2829b88154-r1",
+          "page_id": "2013-d4-p7",
+          "bbox": [
+            0.025,
+            0.8246430895365723,
+            0.985,
+            0.9891421238642811
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-qaa2829b88154-r2",
+          "page_id": "2013-d4-p8",
+          "bbox": [
+            0.025,
+            0.025,
+            0.985,
+            0.09053151123418218
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-qaa2829b88154-r3",
+          "page_id": "2013-d4-p8",
+          "bbox": [
+            0.025,
+            0.08853151123418218,
+            0.985,
+            0.15618799295375668
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2013-d4-qaa2829b88154-r4",
+          "page_id": "2013-d4-p8",
+          "bbox": [
+            0.025,
+            0.15418799295375668,
+            0.985,
+            0.26601472073000926
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 7,
+        "bbox": [
+          0.09513404522560258,
+          0.8533874505156838,
+          0.17476146031623002,
+          0.8659302072775464
+        ],
+        "text": "(12)曲线",
+        "style": "paren"
+      },
+      "text_hint": "arctan\nx\n=\n\n1\nt = 的点处的法线方程为                 .\n(12)曲线\n上对应于\nln 1\ny\n=\n+\n\n更多考研资料分享+qq810958634\n更多考研资料分享+qq810958634",
+      "answer_hint": "π\nln\n2\n0\ny\nx\n+\n−\n−\n=\n【答案】\n4\n1\n1\ndy\ndy\n1\n1\n+\n+\n1,\n=\n=\n= =\n【解析】\n,\n1\ndx\ndx\n1\n+\nπ\nπ\nln\n2\n0\nln\n2\n1\ny\nx\nx\ny\nt = 时,\n=\n=\n+\n−\n−\n=\n.\n,故法线方程为\n当\n4\n4",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q27092f7c6f6b",
+      "document_id": "2013-d4",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q27092f7c6f6b-r1",
+          "page_id": "2013-d4-p8",
+          "bbox": [
+            0.025,
+            0.26401472073000926,
+            0.985,
+            0.34072691297973606
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-q27092f7c6f6b-r2",
+          "page_id": "2013-d4-p8",
+          "bbox": [
+            0.025,
+            0.33872691297973606,
+            0.985,
+            0.3711585124188262
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2013-d4-q27092f7c6f6b-r3",
+          "page_id": "2013-d4-p8",
+          "bbox": [
+            0.025,
+            0.3691585124188262,
+            0.985,
+            0.48693657039860105
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 8,
+        "bbox": [
+          0.09515016727458837,
+          0.27971061656658824,
+          0.17477758236521582,
+          0.292253373328451
+        ],
+        "text": "(13)已知",
+        "style": "paren"
+      },
+      "text_hint": "4\n4\ny\ne\nxe\ny\ne\nxe\ny\nxe\n=\n−\n=\n−\n= −\n,\n,\n是某二阶常系数非齐次线性微分方程的3 个解,\n(13)已知\n0\n1\ny\ny\n= 的解为y =                  .\n= =\n该方程满足条件\n=",
+      "answer_hint": "y\ne\ne\nxe\n=\n−\n−\n【答案】\n3 ,\n2x\nxe\ne\ne 是对应齐次方程的解,\n−\n是非齐次方程的解,\n【解析】由题意知:\n1,\n1\nC\nC\ny\nC e\nC e\nxe\n=\n= −,\n=\n+\n−\n故非齐次的通解为\n,将初始条件代入,得到\ny\ne\ne\nxe\n=\n−\n−\n。\n故满足条件的解为",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-qb5b9dcae8c42",
+      "document_id": "2013-d4",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-qb5b9dcae8c42-r1",
+          "page_id": "2013-d4-p8",
+          "bbox": [
+            0.025,
+            0.48493657039860105,
+            0.985,
+            0.5535689734179681
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-qb5b9dcae8c42-r2",
+          "page_id": "2013-d4-p8",
+          "bbox": [
+            0.025,
+            0.5515689734179681,
+            0.985,
+            0.5735929809278907
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2013-d4-qb5b9dcae8c42-r3",
+          "page_id": "2013-d4-p8",
+          "bbox": [
+            0.025,
+            0.5715929809278907,
+            0.985,
+            0.7402952910671344
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 8,
+        "bbox": [
+          0.09514529733928265,
+          0.49864071502884183,
+          0.1797928083461054,
+          0.5155357935255553
+        ],
+        "text": "(14 )设",
+        "style": "paren"
+      },
+      "text_hint": "A\n(a )\nA\na\n是三阶非零矩阵,| A | 为A 的行列式,\n=\n(14 )设\n为\n的代数余子式,若\nij\nij\nij\na\nA\n0(i, j\n1,2,3),\n____\nA\n+\n=\n=\n=\n则\nij\nij",
+      "answer_hint": "ij\nij\n【答案】1\n−\n【答案】1\n−\n【解析】\n0\nT\nA\nA\na\nA\n+\n=\n= −\n由\n可知,\nij\nij\nA\na A\na A\na A\na A\na A\na A\n=\n+\n+\n=\n+\n+\n∑\n∑\n0\na\na\n= −\n= −\n<\nij\nij\n=\n=\n=-1.\nT\nA\nA\nA\nA\nA\n=\n= −\n= −\n从而有\n故",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-qd0656532a053",
+      "document_id": "2013-d4",
+      "number": "15",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-qd0656532a053-r1",
+          "page_id": "2013-d4-p8",
+          "bbox": [
+            0.025,
+            0.7793989086717814,
+            0.985,
+            0.8459486333821395
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-qd0656532a053-r2",
+          "page_id": "2013-d4-p8",
+          "bbox": [
+            0.025,
+            0.8439486333821395,
+            0.985,
+            0.9891421238642811
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2013-d4-qd0656532a053-r3",
+          "page_id": "2013-d4-p9",
+          "bbox": [
+            0.025,
+            0.025,
+            0.985,
+            0.3697719330054472
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 8,
+        "bbox": [
+          0.09514210625009548,
+          0.7913989086717814,
+          0.30276992692944016,
+          0.8082940596636933
+        ],
+        "text": "(15)(本题满分10 分)",
+        "style": "paren"
+      },
+      "text_hint": "演算步骤.\n(15)(本题满分10 分)\n0\n时,1 cos\ncos2\ncos3\nax 为等价无穷小,求n 与a 的值。\nx →\nx\nx\nx\n−\n当\n与",
+      "answer_hint": "0\n时,1 cos\ncos2\ncos3\nax 为等价无穷小\nx →\nx\nx\nx\n−\n与\n【解析】因为当\n1 cos\ncos2\ncos3\nx\nx\nx\n−\nlim\n=\n所以\nax\n→\n更多考研资料分享+qq810958634\n更多考研资料分享+qq810958634\n又因为:\n1 cos\ncos2\ncos3\nx\nx\nx\n−\n1 cos\ncos\ncos\ncos2\ncos\ncos2\ncos\ncos2\ncos3\nx\nx\nx\nx\nx\nx\nx\nx\nx\n= −\n+\n−\n+\n−\n1 cos\ncos (1 cos2 )\ncos\ncos2 (1 cos3 )\nx\nx\nx\nx\nx\nx\n= −\n+\n−\n+\n−\n1 cos\ncos2\ncos3\n1 cos\ncos (1 cos2 )\ncos\ncos2 (1 cos3 )\nx\nx\nx\nx\nx\nx\nx\nx\nx\n−\n−\n+\n−\n+\n−\nlim\nlim\n=\n即\nax\nax\n→\n→\n1 cos\ncos (1 cos2 )\ncos\ncos2 (1 cos3 )\nx\nx\nx\nx\nx\nx\n−\n−\n−\nlim(\n)\n=\n+\n+\nax\nax\nax\n→\n1\n1\n1\n(\n)\n(2 )\n(\n)\n(3 )\n(\n)\nx\no x\nx\no x\nx\no x\n+\n+\n+\n2\n2\n2\nlim(\n)\n=\n+\n+\nax\nax\nax\n→\n且1\n4\n9\n1\n7\n2\na\nn =\n+\n+\n= ⇒\n=\n所以\n2\n2\n2\na\na\na",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q09154c048135",
+      "document_id": "2013-d4",
+      "number": "16",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q09154c048135-r1",
+          "page_id": "2013-d4-p9",
+          "bbox": [
+            0.025,
+            0.3677719330054472,
+            0.985,
+            0.46241851304083503
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-q09154c048135-r2",
+          "page_id": "2013-d4-p9",
+          "bbox": [
+            0.025,
+            0.46041851304083503,
+            0.985,
+            0.6477116731116106
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 9,
+        "bbox": [
+          0.09514042740397692,
+          0.3797719330054472,
+          0.3027682608989408,
+          0.39666701150216066
+        ],
+        "text": "(16)(本题满分10 分)",
+        "style": "paren"
+      },
+      "text_hint": "2\n2\n2\na\na\na\n(16)(本题满分10 分)\n(\n0)\n及x 轴所围成的平面图形,\nV V 分别是D 绕x 轴,y 轴旋转一\ny\nx\n设D 是由曲线\nx\na a\n=\n=\n>\n,直线\n10\n,求a 的值。\nV\nV\n=\n周所得旋转体的体积,若",
+      "answer_hint": "【解析】由题意可得:\n3\n∫\n(\n)\nV\nx\ndx\na\n=\nπ\n=\nπ\n5\n6\nπ\n∫\n2\nV\nx x dx\na\nπ\n=\n=\n7\n6\n3\nπ\n10\n7 7\n10\na\na\na\nV\nV\nπ\n=\n⇒\n=\n=\n所以\n因为:\n7\n5",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q6a1266ef6f8f",
+      "document_id": "2013-d4",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q6a1266ef6f8f-r1",
+          "page_id": "2013-d4-p9",
+          "bbox": [
+            0.025,
+            0.6457116731116106,
+            0.985,
+            0.7029919442610517
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-q6a1266ef6f8f-r2",
+          "page_id": "2013-d4-p9",
+          "bbox": [
+            0.025,
+            0.7009919442610517,
+            0.985,
+            0.8329988160809139
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 9,
+        "bbox": [
+          0.09514042740397692,
+          0.6577116731116106,
+          0.3027682608989408,
+          0.6746068241035226
+        ],
+        "text": "(17)(本题满分10 分)",
+        "style": "paren"
+      },
+      "text_hint": "7\n5\n(17)(本题满分10 分)\n∫∫\n3 ,\n3\n8\nx dxdy\nx\ny y\nx\nx\ny\n设平面内区域D 由直线\n=\n=\n+\n=\n围成.计算\n。\n及",
+      "answer_hint": "D\n∫∫\n∫∫\n∫∫\nx dxdy\nx dxdy\nx dxdy\n=\n+\n【解析】\nD\nD\nD\n−\n∫\n∫\n∫\n∫\nx dx\ndy\nx dx\ndy\n=\n+\n416\n=\n3",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q858410e5bafb",
+      "document_id": "2013-d4",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q858410e5bafb-r1",
+          "page_id": "2013-d4-p9",
+          "bbox": [
+            0.025,
+            0.8309988160809139,
+            0.985,
+            0.9891421238642811
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-q858410e5bafb-r2",
+          "page_id": "2013-d4-p10",
+          "bbox": [
+            0.025,
+            0.025,
+            0.985,
+            0.13556372520057064
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-q858410e5bafb-r3",
+          "page_id": "2013-d4-p10",
+          "bbox": [
+            0.025,
+            0.13356372520057064,
+            0.985,
+            0.35123933296587934
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 9,
+        "bbox": [
+          0.09514210625009548,
+          0.8429988160809139,
+          0.30276992692944016,
+          0.8598939670728258
+        ],
+        "text": "(18)(本题满分10 分)",
+        "style": "paren"
+      },
+      "text_hint": "3\n(18)(本题满分10 分)\n(1)\n1\n( )\nf x 在[ 1,1]\n= .证明:\n−\n设奇函数\n上具有二阶导数,且\n更多考研资料分享+qq810958634\n更多考研资料分享+qq810958634\n′′\n0,1\n( )\n1\n0,1\n( )\n( )\n1\nf ξ\n=\n+\n= 。\nξ ∈(\nη ∈(\nη\nη\n(I)存在\n;(II)存在\n),使得\n),使得",
+      "answer_hint": "( )\n( )\n(0)\n(0)\n0,\n(1)\n(1) 1\n0,\nF x\nf x\nx F\nF\n=\n−\n=\n=\n=\n−=\n【解析】(1)令\n(\n)\n0,1\n'( )\n0,\n'( )\n1\nF\n∃∈\nξ\nξ\n=\nξ\n=\n即\n使得\n则\n( )\n(\n'( ) 1),\nG x\ne\nx\n( )\n0,\n=\n−\nG ξ =\n(2)令\n则\n( )\n'( )\n(\n)\n0\nf x 为奇函数,故\nx 为偶函数,可知\nG\n−\nξ\n=\n,\n又由于\n(\n)\n(\n)\n1,1\nη\nξ ξ\n∃∈−\n⊂−\n'( )\n0,\nG ξ =\n使\n则\n[\n'( ) 1]\n''( )\n0\nη\nη\ne\ne f\n''( )\n'( )\n1\nη\n−\n+\nη\n=\nη\n+\nη\n=\n即\n,即",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q3faf2618d6e6",
+      "document_id": "2013-d4",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q3faf2618d6e6-r1",
+          "page_id": "2013-d4-p10",
+          "bbox": [
+            0.025,
+            0.34923933296587933,
+            0.985,
+            0.4157202597328972
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-q3faf2618d6e6-r2",
+          "page_id": "2013-d4-p10",
+          "bbox": [
+            0.025,
+            0.4137202597328972,
+            0.985,
+            0.9891421238642811
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2013-d4-q3faf2618d6e6-r3",
+          "page_id": "2013-d4-p11",
+          "bbox": [
+            0.025,
+            0.025,
+            0.985,
+            0.27712892335858363
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 10,
+        "bbox": [
+          0.0951469761854012,
+          0.36123933296587935,
+          0.30277497628341504,
+          0.3781344114625928
+        ],
+        "text": "(19)(本题满分11 分)",
+        "style": "paren"
+      },
+      "text_hint": "=\n(19)(本题满分11 分)\n1(\n0,\n0)\nx\nxy\ny\nx\ny\n−\n+\n=\n≥\n≥\n上的点到坐标原点的最长距离与最短距离。\n求曲线",
+      "answer_hint": "( , )\n1(\n0,\n0)\nf x y\nx\ny\nx\nxy\ny\nx\ny\n=\n+\n−\n+\n=\n≥\n≥\n的最值。\n【解析】本题本质上是在条件\n下求函数\n下的条件极值点,再将其与曲线端点处((\n) (\n)\n0,1 , 1,0 )的函\n1\nx\ny\nx\nxy\ny\n+\n−\n+\n=\n故只需求出\n在条件\n数值比较,即可得出最大值与最小值。\nx\ny\nx\ny\nx\ny\n+\n+\n+\n的条件极值点:\n由于函数\n与\n的增减性一致,故可以转化为求\n(\n)\n构造拉格朗日函数(\n)\n, ,\n1\nL x y\nx\ny\nx\nxy\ny\nλ\n=\n+\n+\nλ\n−\n+\n−\n,求其驻点得\n∂\nL\n2\n3\n0\nx\nx\ny\n=\n+\n−\n=\nλ\nλ\n∂\nx\n\nL\n∂\n\n2\n3\n0\ny\ny\nx\n=\n+\n−\n=\nλ\nλ\n∂\ny\n\n∂\nL\n1\n0\nx\nxy\ny\n=\n−\n+\n−=\n∂\nλ\n\n\n2\n3\nx\ny\nx\n=\n−\nλ\nλ\n\n为了求解该方程组,将前两个方程变形为\n2\n3\ny\nx\ny\n=\n−\nλ\nλ\n\n\n2\n3\nxy\ny\nx y\n=\n−\nλ\nλ\n\n3\n3\nx\nxy\ny\nx y\nλ\n−\nλ\n=\nλ\n−\nλ\n,故\n进一步有\n2\n3\nxy\nx\nxy\n=\n−\nλ\nλ\n\n即(\n)(\n)\n3\n0\n0\n3\n0\n0\nx\ny\nx\ny\nxy\nx\ny\nx\ny\nxy\nλ\n−\n+\n+\n=\n−\n=\n+\n+\n=\nλ =\n。\n。则有\n或\n或\n0\n1\n0\n0\nx\ny\nx\nxy\ny\n=\n=\n−\n+\n−=\nλ =\n;\n当\n时,有\n,不可能满足方程\n更多考研资料分享+qq810958634\n更多考研资料分享+qq810958634\n3\n0\n0,\n0\n0\nx\ny\nxy\nx\ny\nx\ny\n+\n+\n=\n≥\n≥\n=\n=\n,不可能满足第三个方程;\n当\n,由于\n,也只能有\n2\n1\n0\n0\n1\n0\n1,\n1\nx\nx\nx\ny\nx\nxy\ny\nx\ny\n−\n−=\n−\n=\n−\n+\n−=\n=\n=\n。\n,将其代入\n得\n,解得\n故必有\n可知(\n)\n1,1 点是唯一的条件极值点。\n1(\n0,\n0)\n(1,1)\n2\n(0,1)\n(1,0)\n2\nx\nxy\ny\nx\ny\n−\n+\n=\n≥\n≥\n=\n=\n=\n,\n,故曲线\n上的点到坐标原点的最\n由于\n2 与最短距离为1。\n长距离为",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q815a50c84c77",
+      "document_id": "2013-d4",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q815a50c84c77-r1",
+          "page_id": "2013-d4-p11",
+          "bbox": [
+            0.025,
+            0.27512892335858363,
+            0.985,
+            0.4235556495254428
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-q815a50c84c77-r2",
+          "page_id": "2013-d4-p11",
+          "bbox": [
+            0.025,
+            0.4215556495254428,
+            0.985,
+            0.7218243844414575
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 11,
+        "bbox": [
+          0.09513723631478975,
+          0.28712892335858364,
+          0.2929029766377413,
+          0.3040240199790967
+        ],
+        "text": "(20)(本题满分11 分)",
+        "style": "paren"
+      },
+      "text_hint": "2 与最短距离为1。\n(20)(本题满分11 分)\n1\n( )\nln\nf x\nx\n=\n+\n,\n设函数\nx\n( )\nf x 的最小值\n(I)求\n1\n(II)设数列{\n}\n< ,证明lim\nln\n1\nnx\nx\nx\n+\n存在,并求此极限.\n满足\nx\n→∞",
+      "answer_hint": "x\n1\n1\n1\nx\n−\n(\n)\n(\n)\n0,1\n1,\n'( )\n'( )\n0\n'( )\n0\nx∈\nx∈\nx\nx >\nx <\n+∞时,\n=\n−\n=\n。\n【解析】(I)\n,则当\n时,\n;当\nx\nx\nx\n]\n0,1 上单调递减,在[\nf x 在(\n)\n1,+∞上单调递增。故\n(1)\n1\n( )\n( )\nf x 的最小值为\n= 。\n可知\n1\n1\n1\nln\n1\nx\nx\nnx 单调递增。\nx\n>\n+\n≥\n<\n(2)、由于\n,则\n,即\n,故\n+1\nx\nx\nx\n+\n1\nlim\nln\nln\n1\nxn <\ne\nnx 有上界,则由单调有界收敛定理可知,\nx\nx\nx\n<\n+\n<\n,则\n,故\n存在。\n又由于\n1\nx\n+\n→\n∞\n\n\n\n\n1\n1\n1\nlim\nln\nln\n1\nlim\nn\nx\na\nxn\na\nx\n=\n+\n+\n+\n<\n=\n,则\n\n\n,则\n,由于\n令\n1\nx\na\nx\n+\n→\n∞\n\n\n\n\n1\nln\n1\n1\na\n+ a\na\n≤\n=\n。\n,故",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q0fe9ea83a3b9",
+      "document_id": "2013-d4",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q0fe9ea83a3b9-r1",
+          "page_id": "2013-d4-p11",
+          "bbox": [
+            0.025,
+            0.7198243844414575,
+            0.985,
+            0.8317476214506623
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-q0fe9ea83a3b9-r2",
+          "page_id": "2013-d4-p11",
+          "bbox": [
+            0.025,
+            0.8297476214506623,
+            0.985,
+            0.9891421238642811
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2013-d4-q0fe9ea83a3b9-r3",
+          "page_id": "2013-d4-p12",
+          "bbox": [
+            0.025,
+            0.025,
+            0.985,
+            0.3512381005475055
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 11,
+        "bbox": [
+          0.09514529733928265,
+          0.7318243844414575,
+          0.2929096920222155,
+          0.7487195354333694
+        ],
+        "text": "(21)(本题满分11 分)",
+        "style": "paren"
+      },
+      "text_hint": "+ a\n(21)(本题满分11 分)\n1\n1 ln\n(1\n)\ny\nx\nx\nx\ne\n设曲线L 的方程为\n=\n−\n≤\n≤\n,\n4\n2\n(1)求L 的弧长;\n1,\n及x 轴所围平面图形,求D 的形心的横坐标。\nx\nx\ne\n(2)设D 是由曲线L ,直线\n=\n=",
+      "answer_hint": "【解析】(1)由弧长的计算公式得L 的弧长为\n1\n1\n1\nx\n\n\n\n\n\n\n∫\n∫\n1\nln\n1\nx\nx\ndx\ndx\n+\n−\n=\n+\n−\n\n\n\n\n\n\nx\n\n\n\n\n\n\n更多考研资料分享+qq810958634\n更多考研资料分享+qq810958634\n1\n1\nx\n∫\n1\ndx\n=\n+\n+\n−\n4\n4\n2\nx\n1\nx\n\n\n∫\ndx\n=\n+\n\n\n2\n2\nx\n\n\n1\ne\n+\n=\n4\n(2)由形心的计算公式可得,D 的形心的横坐标为\n1\n1 ln\n\n\n∫\nx\nx\nx dx\n−\n(\n)\n\n\n3\n2\n3\ne\ne\n−\n−\n4\n2\n\n\n=\n(\n)\n1\n1\n\n\n4\n7\ne\n−\n∫\nln\nx\nx dx\n−\n\n\n4\n2\n\n",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-qf3fe3c6d61af",
+      "document_id": "2013-d4",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-qf3fe3c6d61af-r1",
+          "page_id": "2013-d4-p12",
+          "bbox": [
+            0.025,
+            0.3492381005475055,
+            0.985,
+            0.4307582287306156
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-qf3fe3c6d61af-r2",
+          "page_id": "2013-d4-p12",
+          "bbox": [
+            0.025,
+            0.4287582287306156,
+            0.985,
+            0.9891421238642811
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2013-d4-qf3fe3c6d61af-r3",
+          "page_id": "2013-d4-p13",
+          "bbox": [
+            0.025,
+            0.025,
+            0.985,
+            0.14742065926118547
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 12,
+        "bbox": [
+          0.09514042740397692,
+          0.3612381005475055,
+          0.2929046426682406,
+          0.37813317904421895
+        ],
+        "text": "(22)(本题满分11 分)",
+        "style": "paren"
+      },
+      "text_hint": "\n\n(22)(本题满分11 分)\n1\n0\n1\na\n\n\n\n\n,当,a b 为何值时,存在矩阵C 使得AC\nCA\nB\n,并求所有矩阵C 。\n−\n=\nA\nB\n=\n=\n设\n\n\n\n\n1\n0\n1\nb\n\n\n\n",
+      "answer_hint": "x\nx\n\n\nC\n,则由AC\nCA\nB\n= \n−\n=\n可得线性方程组:\n【解析】由题意可知矩阵C 为2 阶矩阵,故可设\n\nx\nx\n\n\n0\nx\nax\n−\n+\n=\n\n−\n1\nax\nx\nax\n+\n+\n=\n\n(1)\n1\nx\nx\nx\n−\n−\n=\n\n\nx\nax\nb\n−\n=\n\n0\n1\n0\n0\n1\n0\n1\n1\n1\n1\n0\n1\n1\n1\na\n−\n−\n−\n−\n−\n\n\n\n\n\n\n\n\n\n\n\n\n1\n0\n1\n1\n0\n1\n0\n1\n0\n1\na\na\na\na\na\na\n−\n−\n−\n+\n\n\n\n\n\n\n→\n→\n\n\n\n\n\n\n1\n0\n1\n1\n1\n0\n1\n0\n0\n0\n1\n0\n0\na\na\n−\n−\n−\n−\n\n\n\n\n\n\n0\n1\n0\n0\n1\n0\n0\n1\n0\na\nb\na\nb\na\nb\n−\n−\n−\n\n\n\n\n\n\n1\n0\n1\n1\n1\n−\n−\n\n\n\n\n0\n1\n0\n1\na\na\n−\n+\n\n\n→\n\n0\n0\n0\n0\n1\na\n+\n\n\n0\n0\n0\n0\n1\nb\na\n−−\n\n\n由于方程组(1)有解,故有1\n0,\n1\n0\n1,\n0,\na\nb\na\na\nb\n+\n=\n−−\n=\n= −\n=\n从而有\n,即\n1\n0\n1\n0\n0\n1\n0\n1\n1\n1\nx\nk\nk\na\n=\n+\n+\n−\n−\n−\n\n\n\n\n\n\n\n\n\n\n1\n0\n1\n0\n1\n1\n0\n0\nx\nk\na\na\n= −\n−\n\n\n\n\n\nk\nk\n→\n其中、任意\n,故有\n\n\n\n\n1\n0\n1\n1\n1\n0\n0\n0\n0\n0\nx\nk\n=\n−\n−\n\n\n\n\n\n\n0\n1\n0\n0\n0\n0\n0\n0\nx\nk\na\nb\n=\n−\n\n\n\n\n\n更多考研资料分享+qq810958634\n更多考研资料分享+qq810958634\n1\nk\nk\nk\n+\n+\n−\n\n\nC\n= \n\n从而有\nk\nk\n\n",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2013-d4-q9dd148cbbb4e",
+      "document_id": "2013-d4",
+      "number": "23",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2013年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2013-d4-q9dd148cbbb4e-r1",
+          "page_id": "2013-d4-p13",
+          "bbox": [
+            0.025,
+            0.14542065926118547,
+            0.985,
+            0.3141799325026205
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2013-d4-q9dd148cbbb4e-r2",
+          "page_id": "2013-d4-p13",
+          "bbox": [
+            0.025,
+            0.3121799325026205,
+            0.985,
+            0.9891421238642811
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2013",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 13,
+        "bbox": [
+          0.09514042740397692,
+          0.15742065926118548,
+          0.2929046426682406,
+          0.17431575588169856
+        ],
+        "text": "(23)(本题满分11 分)",
+        "style": "paren"
+      },
+      "text_hint": "\n\n(23)(本题满分11 分)\na\nb\n\n\n\n\n\n\n\n\n(\n)\n(\n)\n(\n)\na\nb\nα\nβ\n=\n=\n2\nf x x\nx\na x\na x\na x\nb x\nb x\nb x\n=\n+\n+\n+\n+\n+\n。\n设二次型\n,记\n\n\n\n\n1 1\n1 1\n\n\n\n\na\nb\n\n\n\n\n(I)证明二次型f 对应的矩阵为2\nT\nT\nα α\n+\nβ β\n;\n2y\ny\nα β 正交且均为单位向量,证明二次型f 在正交变化下的标准形为二次型\n+\n。\n(II)若",
+      "answer_hint": "【解析】(1)\n(2\n)\n(2\n)\n(2\n)\n(4\n2\n)\na\nb\nx\na\nb\nx\na\nb\nx\na a\nb b x x\n=\n+\n+\n+\n+\n+\n+\n+\n1 2\n(4\n)\n(4\n2\n)\na a\nb b x x\na a\nb b x x\n+\n+\n+\n+\n1 3\n2 3\n\n\n\n\n\n\n2\n2\n2\na\nb\na a\nb b\na a\nb b\na\na a\na a\nb\nb b\nb b\n+\n+\n+\n1 2\n1 3\n1 2\n1 3\n\n\n\n\n\n\n2\n2\n2\n2\na a\nb b\na\nb\na a\nb b\na a\na\na a\nb b\nb\nb b\n+\n+\n=\n+\n+\n则的矩阵为\n\n\n\n\n\n\n1 2\n2 3\n1 2\n2 3\n\n\n\n\n\n\n2\n2\n2\na a\nb b\na a\nb b\na\nb\na a\na a\na\nb b\nb b\nb\n+\n+\n+\n\n\n\n\n\n\n1 3\n2 3\n1 3\n2 3\n2\nT\nT\n+\nαα\nββ\n=\n2 ,\nT\nT\nT\nT\nT\nT\nA\nA\nαα\n+\nββ\nα\n=\nαα α\n+\nββ α\n=\nα\nβ\n=\nαα β\n+\nββ β\n=\nβ\n(2)\n,则1,2 均为A 的特\n令A=2\n则\n2\n2\n征值,又由于( )\n(2\n)\n(\n)\n(\n)\n2\nT\nT\nT\nT\nr A\nr\nr\nr\n=\nαα\n+\nββ\n≤\nαα\n+\nββ\n=\n,故0 为A 的特征值,则三阶矩阵A 的特\n2y\ny\n+\n征值为2,1,0,故f 在正交变换下的标准形为\n更多考研资料分享+qq810958634",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": []
+}

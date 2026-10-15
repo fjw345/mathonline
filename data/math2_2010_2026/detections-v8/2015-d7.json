@@ -1,0 +1,2127 @@
+{
+  "item": {
+    "id": "2015-d7",
+    "name": "2015考研数学二真题及解析.pdf",
+    "path": "data/math2_2010_2026/sources/2015-d7.pdf",
+    "format": "pdf",
+    "pages": 15,
+    "year": 2015,
+    "mode": "combined",
+    "original_path": "devided-math/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/1987-2016考研数学二真题及答案解析/2015考研数学二真题解析.pdf",
+    "original_sha256": "a8c56be2c7673d793ed817fe58ed60b47ef4af1b2cf152f4d6bb3d37c0d3c4a5",
+    "page_offset": 0
+  },
+  "engine_version": 8,
+  "status": "detected",
+  "pdf_path": "data/math2_2010_2026/sources/2015-d7.pdf",
+  "pdf_sha256": "a601ae075ee92e4386ed4e4e2158af87ea168509f99ee594d8ff3cc71b0b9cdd",
+  "pages": [
+    {
+      "id": "2015-d7-p1",
+      "document_id": "2015-d7",
+      "number": 1,
+      "width": 524.4000244140625,
+      "height": 737.0399780273438,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 3,
+      "unassigned": [
+        [
+          0.025,
+          0.13850847457627116,
+          0.985,
+          0.19071186440677965
+        ],
+        [
+          0.025,
+          0.19071186440677965,
+          0.985,
+          0.23477966101694914
+        ]
+      ],
+      "status": "located"
+    },
+    {
+      "id": "2015-d7-p2",
+      "document_id": "2015-d7",
+      "number": 2,
+      "width": 524.4000244140625,
+      "height": 737.0399780273438,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2015-d7-p3",
+      "document_id": "2015-d7",
+      "number": 3,
+      "width": 524.4000244140625,
+      "height": 737.0399780273438,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 2,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2015-d7-p4",
+      "document_id": "2015-d7",
+      "number": 4,
+      "width": 524.4000244140625,
+      "height": 737.0399780273438,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 2,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2015-d7-p5",
+      "document_id": "2015-d7",
+      "number": 5,
+      "width": 524.4000244140625,
+      "height": 737.0399780273438,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 1,
+      "unassigned": [
+        [
+          0.025,
+          0.5995254237288136,
+          0.985,
+          0.6476610169491526
+        ]
+      ],
+      "status": "located"
+    },
+    {
+      "id": "2015-d7-p6",
+      "document_id": "2015-d7",
+      "number": 6,
+      "width": 524.4000244140625,
+      "height": 737.0399780273438,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 4,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2015-d7-p7",
+      "document_id": "2015-d7",
+      "number": 7,
+      "width": 524.4000244140625,
+      "height": 737.0399780273438,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 2,
+      "unassigned": [
+        [
+          0.025,
+          0.43003389830508476,
+          0.985,
+          0.47545762711864403
+        ]
+      ],
+      "status": "located"
+    },
+    {
+      "id": "2015-d7-p8",
+      "document_id": "2015-d7",
+      "number": 8,
+      "width": 524.4000244140625,
+      "height": 737.0399780273438,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 0,
+      "unassigned": [],
+      "status": "continuation"
+    },
+    {
+      "id": "2015-d7-p9",
+      "document_id": "2015-d7",
+      "number": 9,
+      "width": 524.4000244140625,
+      "height": 737.0399780273438,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 2,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2015-d7-p10",
+      "document_id": "2015-d7",
+      "number": 10,
+      "width": 524.4000244140625,
+      "height": 737.0399780273438,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2015-d7-p11",
+      "document_id": "2015-d7",
+      "number": 11,
+      "width": 524.4000244140625,
+      "height": 737.0399780273438,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2015-d7-p12",
+      "document_id": "2015-d7",
+      "number": 12,
+      "width": 524.4000244140625,
+      "height": 737.0399780273438,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 2,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2015-d7-p13",
+      "document_id": "2015-d7",
+      "number": 13,
+      "width": 524.4000244140625,
+      "height": 737.0399780273438,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2015-d7-p14",
+      "document_id": "2015-d7",
+      "number": 14,
+      "width": 524.4000244140625,
+      "height": 737.0399780273438,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 1,
+      "unassigned": [],
+      "status": "located"
+    },
+    {
+      "id": "2015-d7-p15",
+      "document_id": "2015-d7",
+      "number": 15,
+      "width": 524.4000244140625,
+      "height": 737.0399780273438,
+      "rotation": 0,
+      "has_text": false,
+      "method": "ocr",
+      "anchors": 0,
+      "unassigned": [],
+      "status": "continuation"
+    }
+  ],
+  "questions": [
+    {
+      "id": "2015-d7-q0e0ac717a4c3",
+      "document_id": "2015-d7",
+      "number": "1",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-q0e0ac717a4c3-r1",
+          "page_id": "2015-d7-p1",
+          "bbox": [
+            0.025,
+            0.23477966101694914,
+            0.985,
+            0.5120338983050847
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-q0e0ac717a4c3-r2",
+          "page_id": "2015-d7-p1",
+          "bbox": [
+            0.025,
+            0.5100338983050847,
+            0.985,
+            0.5377966101694915
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-q0e0ac717a4c3-r3",
+          "page_id": "2015-d7-p1",
+          "bbox": [
+            0.025,
+            0.5357966101694915,
+            0.985,
+            0.5927118644067797
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.07721639656816015,
+          0.24677966101694915,
+          0.31553860819828405,
+          0.2671186440677966
+        ],
+        "text": "(1）下列反常积分收敛的是",
+        "style": "paren"
+      },
+      "text_hint": "求的,请将所选项前的字母填在答题纸指定位置上.\n(1）下列反常积分收敛的是\n(A)\ndx\nInx\n(B)\ndx\ndx\nxlnx\n(D)\ndx",
+      "answer_hint": "【答案】(D)\n【答案】(D)\nz-= x-a(I+ x) ui - -= x-α(I+ x)-= xp+J  x-α(I+ x)-= x[\n【解析】",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-qfa2314aa2077",
+      "document_id": "2015-d7",
+      "number": "2",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-qfa2314aa2077-r1",
+          "page_id": "2015-d7-p1",
+          "bbox": [
+            0.025,
+            0.5907118644067797,
+            0.985,
+            0.7228813559322034
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-qfa2314aa2077-r2",
+          "page_id": "2015-d7-p1",
+          "bbox": [
+            0.025,
+            0.7218813559322034,
+            0.985,
+            0.8205084745762712
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.08960915157292659,
+          0.6122033898305085,
+          0.11820781696854146,
+          0.6284745762711864
+        ],
+        "text": "(2)",
+        "style": "paren"
+      },
+      "text_hint": "sint\n函数f(x)=lim(1+\n在(-00,+00)内\n(2)\n1->0\n(A)\n连续\n(B)\n有可去间断点\n(C)\n有跳跃间断点\n(D)\n有无穷间断点",
+      "answer_hint": "(D)\n有无穷间断点\n【答案】(B)\nlin sin/r?\nsint.\n=e，x≠0，故f(x)有可去间断点x=0.\n【解析】f(x)=lim(1-\nt->0",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-qfb4407507715",
+      "document_id": "2015-d7",
+      "number": "3",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-qfb4407507715-r1",
+          "page_id": "2015-d7-p1",
+          "bbox": [
+            0.025,
+            0.8185084745762712,
+            0.985,
+            0.96
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-qfb4407507715-r2",
+          "page_id": "2015-d7-p2",
+          "bbox": [
+            0.025,
+            0.12020338983050848,
+            0.985,
+            0.15745762711864406
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-qfb4407507715-r3",
+          "page_id": "2015-d7-p2",
+          "bbox": [
+            0.025,
+            0.15545762711864405,
+            0.985,
+            0.18661016949152542
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-qfb4407507715-r4",
+          "page_id": "2015-d7-p2",
+          "bbox": [
+            0.025,
+            0.18461016949152542,
+            0.985,
+            0.5872881355932204
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 1,
+        "bbox": [
+          0.08007626310772165,
+          0.8359322033898305,
+          0.109628217349857,
+          0.8494915254237289
+        ],
+        "text": "(3)",
+        "style": "paren"
+      },
+      "text_hint": "(α>0,β>0),若f(x)在x=0处连续则:(）\n设函数f(x)：\n(3)\n[0,x≤0\n(A)α-β>0\n(B)0<α-β≤1\n(C)α-β>2\n(D)0<α-β≤2",
+      "answer_hint": "【答案】(A)\n【解析】 x<0时，f'(x)=0 f'(0)=0\nx cos-\nf*(0) = lim\n= lim xα-1\nCOS\n*→0*\n+0x\nx>0时,f'(x)=αxα-1\nCOS\nsin\nsin-\nxB\nf'(x)在x=0 处连续则: f(0)= fi(0)= lim xα-1\n:0得α-1>0\nf'(O) = lim f'(x)= lim\nax\nx0\n得：α-β-1>0，答案选择A",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-qb5fe1d7b270c",
+      "document_id": "2015-d7",
+      "number": "4",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-qb5fe1d7b270c-r1",
+          "page_id": "2015-d7-p2",
+          "bbox": [
+            0.025,
+            0.5852881355932203,
+            0.985,
+            0.96
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-qb5fe1d7b270c-r2",
+          "page_id": "2015-d7-p3",
+          "bbox": [
+            0.025,
+            0.11071186440677966,
+            0.985,
+            0.13576271186440678
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-qb5fe1d7b270c-r3",
+          "page_id": "2015-d7-p3",
+          "bbox": [
+            0.025,
+            0.13376271186440677,
+            0.985,
+            0.2076271186440678
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 2,
+        "bbox": [
+          0.07912297426120114,
+          0.5972881355932204,
+          0.8398474737845567,
+          0.6176271186440678
+        ],
+        "text": "(4)设函数f(x)在(-00,+oo)内连续，其中二阶导数f\"(x)的图形如图所示，则曲线",
+        "style": "paren"
+      },
+      "text_hint": "(4)设函数f(x)在(-00,+oo)内连续，其中二阶导数f\"(x)的图形如图所示，则曲线\ny=f(x)的拐点的个数为\n(A)\n(B)\n(C)\n(D)",
+      "answer_hint": "【答案】(C)\n【答案】(C)\n【解析】根据图像观察存在两点，二阶导数变号.则拐点个数为2个。",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-qffd01a362f9a",
+      "document_id": "2015-d7",
+      "number": "5",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-qffd01a362f9a-r1",
+          "page_id": "2015-d7-p3",
+          "bbox": [
+            0.025,
+            0.2056271186440678,
+            0.985,
+            0.43203389830508476
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-qffd01a362f9a-r2",
+          "page_id": "2015-d7-p3",
+          "bbox": [
+            0.025,
+            0.43003389830508476,
+            0.985,
+            0.45305084745762714
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-qffd01a362f9a-r3",
+          "page_id": "2015-d7-p3",
+          "bbox": [
+            0.025,
+            0.45105084745762714,
+            0.985,
+            0.6516949152542373
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.08960915157292659,
+          0.22983050847457628,
+          0.3126787416587226,
+          0.24813559322033898
+        ],
+        "text": "(5）设函数f(u,v)满足",
+        "style": "paren"
+      },
+      "text_hint": "af\naf\n(5）设函数f(u,v)满足\n依次是\nx+\nv=l\n(A)\n(B)\n-2\n(C)\n(D)",
+      "answer_hint": "【答案】(D)\n【答案】(D)\n【解析】此题考查二元复合函数偏导的求解.\n令u=x+y,V=\n则x\n从而f(x+y\n变为\n1+v\n1+V\n2u?\nu(1-v)\n2u(1-v)\nuv\nf(u,v)\n(1+v)?\nne\n1+v\n1+v\n1+v\naf\n故选\n因而\n(D)\nne\nov\nv=1",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-q17f21daaf56c",
+      "document_id": "2015-d7",
+      "number": "6",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-q17f21daaf56c-r1",
+          "page_id": "2015-d7-p3",
+          "bbox": [
+            0.025,
+            0.6496949152542373,
+            0.985,
+            0.96
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-q17f21daaf56c-r2",
+          "page_id": "2015-d7-p4",
+          "bbox": [
+            0.025,
+            0.12427118644067796,
+            0.985,
+            0.2394915254237288
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-q17f21daaf56c-r3",
+          "page_id": "2015-d7-p4",
+          "bbox": [
+            0.025,
+            0.2374915254237288,
+            0.985,
+            0.261864406779661
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-q17f21daaf56c-r4",
+          "page_id": "2015-d7-p4",
+          "bbox": [
+            0.025,
+            0.259864406779661,
+            0.985,
+            0.5133898305084745
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 3,
+        "bbox": [
+          0.07721639656816015,
+          0.6616949152542373,
+          0.8360343183984748,
+          0.6833898305084746
+        ],
+        "text": "(6)设D是第一象限由曲线2xy=1，4xy=1与直线=x，=/3x围成的平面区域，",
+        "style": "paren"
+      },
+      "text_hint": "(6)设D是第一象限由曲线2xy=1，4xy=1与直线=x，=/3x围成的平面区域，\n函数f(x,)在D上连续，则JJ(x,y)dxdy=\nsin26\nf (rcos,rsin)rdr\n(A)\n2sin26\n{Vsin20 f (rcos9,rsin)rdr\nV2sin26\n de]im20 f (rcos ,rsin 0)dr\n2sin20\nde sin20\n f(rcosg,rsing)dr\n(D)\n/2sin20",
+      "answer_hint": "/2sin20\n【答案】(B)\n【答案】(B)\n【解析】根据图可得，在极坐标系下计算该二重积分的积分区域为\nV2sin20\nVsin20\n所以\n[ f(x, y)dxdy =[ de[ip20 f(r cos ,r sin )rdr\nV2sin20\n故选B.",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-q14cbf6e66d9d",
+      "document_id": "2015-d7",
+      "number": "7",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-q14cbf6e66d9d-r1",
+          "page_id": "2015-d7-p4",
+          "bbox": [
+            0.025,
+            0.5113898305084745,
+            0.985,
+            0.6842372881355933
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-q14cbf6e66d9d-r2",
+          "page_id": "2015-d7-p4",
+          "bbox": [
+            0.025,
+            0.6822372881355933,
+            0.985,
+            0.7330508474576272
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-q14cbf6e66d9d-r3",
+          "page_id": "2015-d7-p4",
+          "bbox": [
+            0.025,
+            0.7310508474576272,
+            0.985,
+            0.8415254237288136
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 4,
+        "bbox": [
+          0.08960915157292659,
+          0.5233898305084745,
+          0.22402287893231648,
+          0.5430508474576271
+        ],
+        "text": "(7）设矩阵A=",
+        "style": "paren"
+      },
+      "text_hint": "(7）设矩阵A=\n.若集合Q={1,2)，则线性方程组Ax=b有无\n,b=\n穷多解的充分必要条件为：\n(B) a史2,d2\n(A) a史2,d 2\n(C) aE2,d @2\n(D) a2,de2",
+      "answer_hint": "【答案】D\nα-1\nd-1\n【解析】（A,b)=\nq?\n(a-1)(a-2) (d -1)(d -2))\n由r(A)=r(A,b)<3，故α=l或α=2，同时d=l或d=2。故选（D)",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-qe733477001f9",
+      "document_id": "2015-d7",
+      "number": "8",
+      "kind": "choice",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-qe733477001f9-r1",
+          "page_id": "2015-d7-p4",
+          "bbox": [
+            0.025,
+            0.8395254237288136,
+            0.985,
+            0.96
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-qe733477001f9-r2",
+          "page_id": "2015-d7-p5",
+          "bbox": [
+            0.025,
+            0.14122033898305084,
+            0.985,
+            0.21983050847457627
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-qe733477001f9-r3",
+          "page_id": "2015-d7-p5",
+          "bbox": [
+            0.025,
+            0.21783050847457627,
+            0.985,
+            0.24966101694915255
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-qe733477001f9-r4",
+          "page_id": "2015-d7-p5",
+          "bbox": [
+            0.025,
+            0.24766101694915255,
+            0.985,
+            0.6015254237288136
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "一",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 4,
+        "bbox": [
+          0.07816968541468065,
+          0.8515254237288136,
+          0.8379408960915157,
+          0.8732203389830508
+        ],
+        "text": "(8）设二次型（i,2,）在正交变换=Py下的标准形为2+-，其中",
+        "style": "paren"
+      },
+      "text_hint": "(8）设二次型（i,2,）在正交变换=Py下的标准形为2+-，其中\nP=(ei,e2,es），若Q=(e,-e3,e2)则f=(xi,X2,x)在正交变换x=Qy下的标准形\n(A)2- +\n(B) 2+-\n(D)2++\n(C) 2y2 - y2 - y3",
+      "answer_hint": "【答案】(A)\n【解析】由x=Py，故f=xAx=(PTAP)=2+-.且\nPT AP=\n-1)\n= PC\nQ=P\n(0\n-1\nQT AQ= CT (PT AP)C =\n-1 \n所以 f =xT Ax=T(QTAQ)=2- +。选(A)",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-q52b0a134257b",
+      "document_id": "2015-d7",
+      "number": "9",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-q52b0a134257b-r1",
+          "page_id": "2015-d7-p5",
+          "bbox": [
+            0.025,
+            0.6476610169491526,
+            0.985,
+            0.6876271186440678
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-q52b0a134257b-r2",
+          "page_id": "2015-d7-p5",
+          "bbox": [
+            0.025,
+            0.6856271186440678,
+            0.985,
+            0.7222033898305085
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-q52b0a134257b-r3",
+          "page_id": "2015-d7-p5",
+          "bbox": [
+            0.025,
+            0.7202033898305085,
+            0.985,
+            0.96
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2015-d7-q52b0a134257b-r4",
+          "page_id": "2015-d7-p6",
+          "bbox": [
+            0.025,
+            0.11342372881355932,
+            0.985,
+            0.17508474576271185
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 5,
+        "bbox": [
+          0.0905624404194471,
+          0.6596610169491526,
+          0.11439466158245949,
+          0.6745762711864407
+        ],
+        "text": "(9)",
+        "style": "paren"
+      },
+      "text_hint": "x = arctant\n(9)\ny=3t+t3\ndx",
+      "answer_hint": "y=3t+t3\n【答案】48\n3 + 3t?\ndy\n【解析】\ndx\ndx\ndt\n1+t?\nd[3(1 +t\")]\n12t(1 +t)\nd'y\n12t(1+t2)\n[3(1+t2)] =\ndx\ndx?\ndx\n1+t?\nd'y\n=48.\ndx?",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-qb2b540c1c5f7",
+      "document_id": "2015-d7",
+      "number": "10",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-qb2b540c1c5f7-r1",
+          "page_id": "2015-d7-p6",
+          "bbox": [
+            0.025,
+            0.17308474576271185,
+            0.985,
+            0.21508474576271186
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-qb2b540c1c5f7-r2",
+          "page_id": "2015-d7-p6",
+          "bbox": [
+            0.025,
+            0.21308474576271186,
+            0.985,
+            0.25101694915254236
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-qb2b540c1c5f7-r3",
+          "page_id": "2015-d7-p6",
+          "bbox": [
+            0.025,
+            0.24901694915254236,
+            0.985,
+            0.31813559322033896
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 6,
+        "bbox": [
+          0.08960915157292659,
+          0.18508474576271186,
+          0.55767397521449,
+          0.2040677966101695
+        ],
+        "text": "(10)函数f(x)=x².2*在x=0处的n阶导数f\"(0)=",
+        "style": "paren"
+      },
+      "text_hint": "(10)函数f(x)=x².2*在x=0处的n阶导数f\"(0)=",
+      "answer_hint": "【答案】 n(n-1)(ln2)\"-\n【解析】根据莱布尼茨公式得：\n= n(n-1 2(ln 2)-~ = n(n-1)(ln 2)-2\n( (0) =C,2(2)-2)/",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-qcdad78e91c22",
+      "document_id": "2015-d7",
+      "number": "11",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-qcdad78e91c22-r1",
+          "page_id": "2015-d7-p6",
+          "bbox": [
+            0.025,
+            0.31613559322033896,
+            0.985,
+            0.35610169491525423
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-qcdad78e91c22-r2",
+          "page_id": "2015-d7-p6",
+          "bbox": [
+            0.025,
+            0.35410169491525423,
+            0.985,
+            0.3784745762711864
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-qcdad78e91c22-r3",
+          "page_id": "2015-d7-p6",
+          "bbox": [
+            0.025,
+            0.3764745762711864,
+            0.985,
+            0.446271186440678
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 6,
+        "bbox": [
+          0.07340324118207817,
+          0.328135593220339,
+          0.7607244995233555,
+          0.3606779661016949
+        ],
+        "text": "(11) 设于(x)连续， (x)=。xf(1)dt,若p(1)=1,p(1)=5, 则于(1)=",
+        "style": "paren"
+      },
+      "text_hint": "( (0) =C,2(2)-2)/\n(11) 设于(x)连续， (x)=。xf(1)dt,若p(1)=1,p(1)=5, 则于(1)=",
+      "answer_hint": "(11) 设于(x)连续， (x)=。xf(1)dt,若p(1)=1,p(1)=5, 则于(1)=\n【答案】2\n【答案】2\n【解析】 已知 p(x)=xJ。f(1)dt，求导得p(x)=J。 f()dt+2x f(x2)，故有 p(1)=J。f(0)dt=1,\np'(1) =1 + 2 f(1) = 5, 则 f(1) = 2 .",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-qfd7cdccfca4c",
+      "document_id": "2015-d7",
+      "number": "12",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-qfd7cdccfca4c-r1",
+          "page_id": "2015-d7-p6",
+          "bbox": [
+            0.025,
+            0.444271186440678,
+            0.985,
+            0.5323728813559322
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-qfd7cdccfca4c-r2",
+          "page_id": "2015-d7-p6",
+          "bbox": [
+            0.025,
+            0.5303728813559322,
+            0.985,
+            0.573728813559322
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-qfd7cdccfca4c-r3",
+          "page_id": "2015-d7-p6",
+          "bbox": [
+            0.025,
+            0.571728813559322,
+            0.985,
+            0.6971186440677966
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 6,
+        "bbox": [
+          0.0886558627264061,
+          0.456271186440678,
+          0.9199237368922784,
+          0.47728813559322036
+        ],
+        "text": "(12)设函数=(x)是微分方程+-2=0的解，且在=0处(x)取得极值3，则",
+        "style": "paren"
+      },
+      "text_hint": "(12)设函数=(x)是微分方程+-2=0的解，且在=0处(x)取得极值3，则",
+      "answer_hint": "【答案】e-2×+2e*\n【解析】由题意知：(0)=3，'(0)=0，由特征方程：²+-2=0解得=1,=-2\n所以微分方程的通解为：=Ce\"+Cze-2×代入y(O)=3，(O)=0解得：C=2 C,=1\n解得：J=2e\"+e-2x",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-q867095f4767b",
+      "document_id": "2015-d7",
+      "number": "13",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-q867095f4767b-r1",
+          "page_id": "2015-d7-p6",
+          "bbox": [
+            0.025,
+            0.6951186440677966,
+            0.985,
+            0.7506779661016949
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-q867095f4767b-r2",
+          "page_id": "2015-d7-p6",
+          "bbox": [
+            0.025,
+            0.7486779661016949,
+            0.985,
+            0.8049152542372882
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-q867095f4767b-r3",
+          "page_id": "2015-d7-p6",
+          "bbox": [
+            0.025,
+            0.8029152542372882,
+            0.985,
+            0.96
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2015-d7-q867095f4767b-r4",
+          "page_id": "2015-d7-p7",
+          "bbox": [
+            0.025,
+            0.12020338983050848,
+            0.985,
+            0.22999999999999998
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 6,
+        "bbox": [
+          0.07626310772163966,
+          0.7071186440677966,
+          0.6101048617731173,
+          0.7328813559322034
+        ],
+        "text": "(13)若函数Z=z(x,y)由方程e*+2y+32+xyz=1确定，则dz",
+        "style": "paren"
+      },
+      "text_hint": "(13)若函数Z=z(x,y)由方程e*+2y+32+xyz=1确定，则dz",
+      "answer_hint": "(dx + 2dy)\n【答案】\n【解析】当x=0,J=0时z=0，则对该式两边求偏导可得(3e*+2y+32+\n+2y+3z\nyz\n=-xz-2e++2y+32。将（0,0,0）点值代入即有\nay\n1 Oz\nOz\n3'0y\nax (0, 0)\n(0, 0)\n则可得dzl(0.0)\ndx +2dy)",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-q58ff624240a0",
+      "document_id": "2015-d7",
+      "number": "14",
+      "kind": "blank",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-q58ff624240a0-r1",
+          "page_id": "2015-d7-p7",
+          "bbox": [
+            0.025,
+            0.22799999999999998,
+            0.985,
+            0.30389830508474575
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-q58ff624240a0-r2",
+          "page_id": "2015-d7-p7",
+          "bbox": [
+            0.025,
+            0.30189830508474574,
+            0.985,
+            0.3310169491525424
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-q58ff624240a0-r3",
+          "page_id": "2015-d7-p7",
+          "bbox": [
+            0.025,
+            0.32901694915254237,
+            0.985,
+            0.43203389830508476
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "二",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 7,
+        "bbox": [
+          0.08007626310772165,
+          0.24,
+          0.9208770257387988,
+          0.2576271186440678
+        ],
+        "text": "(14）若3阶矩阵A的特征值为2,-2,1，B=A²-A+E，其中E为3阶单位阵，则行列式",
+        "style": "paren"
+      },
+      "text_hint": "(14）若3阶矩阵A的特征值为2,-2,1，B=A²-A+E，其中E为3阶单位阵，则行列式\n[B=—",
+      "answer_hint": "【答案】21\n【答案】21\n【解析】A的所有特征值为2,-2,1.B的所有特征值为3,7,1.\n所以|B|=3×7×1= 21 。",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-qd79a28fe0e55",
+      "document_id": "2015-d7",
+      "number": "15",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-qd79a28fe0e55-r1",
+          "page_id": "2015-d7-p7",
+          "bbox": [
+            0.025,
+            0.47545762711864403,
+            0.985,
+            0.6049152542372881
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-qd79a28fe0e55-r2",
+          "page_id": "2015-d7-p7",
+          "bbox": [
+            0.025,
+            0.6029152542372881,
+            0.985,
+            0.6462711864406779
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-qd79a28fe0e55-r3",
+          "page_id": "2015-d7-p7",
+          "bbox": [
+            0.025,
+            0.6442711864406779,
+            0.985,
+            0.96
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2015-d7-qd79a28fe0e55-r4",
+          "page_id": "2015-d7-p8",
+          "bbox": [
+            0.025,
+            0.14054237288135593,
+            0.985,
+            0.96
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2015-d7-qd79a28fe0e55-r5",
+          "page_id": "2015-d7-p9",
+          "bbox": [
+            0.025,
+            0.12155932203389831,
+            0.985,
+            0.2611864406779661
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 7,
+        "bbox": [
+          0.07816968541468065,
+          0.48745762711864404,
+          0.2659675881792183,
+          0.5057627118644068
+        ],
+        "text": "(15)(本题满分10分)",
+        "style": "paren"
+      },
+      "text_hint": "过程或演算步骤。\n(15)(本题满分10分)\n设函数f(x)=x+aln(1+x)+bxsinx，g(x)=kx3.若f(x)与g(x)在x→>0时是等价无穷小，\n求a,b,k的值",
+      "answer_hint": "【答案】α=-l,k\n【解析】\n方法一：\n因为 ln(1+x)=>\nsinx=x\n3!\n那么，\n(1+a)x+(b\nx + a ln(1 + x) + bx sin x\nf(x)\n1 = lim\n= lim\nlim\nhx3\nkx3\nx→>0\nx→0\ng(x)\n04x\n0=+[\n可得：\n所以，\nk=\n3k\n方法二：\n由题意得\n+bsinx+bxcosx\n1+\nf(α)\nx+a ln(1 + x)+bx sin x\n1+x\n1 = lim\nlim\nlim\n3kx?\nkx3\nx=0 g(x)\nx→0\nx→0\n由分母lim3kx²=0，得分子lim(1+\n+bsinx+bxcosx)=lim(1+a)=0，求得c;\n1+ x\n0x\nx-→0\n+bsinx+bxcosx\nf(x)\n1+x\nlim\n于是1=lim\n3hx?\ng(x)\n0←x\n04x\nx +b(1 + x)sin x + bx(1 + x)cos x\n= lim \n3kx2(1+x)\nx + b(1 + x) sin x + bx(1 + x) cos x\n= lim\n3kx?\n0-x\n1+bsin x+b(1+x)cosx+b(1+x)cos x+bxcos x-bx(1+x)sin x\n= lim-\n6kx\n0←x\n由分母lim6kx=0，得分子\n0x\nlim[1+bsin x+2b(1+x)cos x+bx cos x-bx(1+x)sin x] =lim(1+2bcos x) =0,\n求得b=\n进一步，b值代入原式\nx)sin x\nsinx-\n(1+x)cosx\nxcosx+\nf(x)\n1 = lim\nlim\ng(x)\n6kx\n0x\nx>0\nxsin x+=(1+x)sin x+=xsin x+=x(1+x)cosx\ncosx-cosx+(1+x)sin x-\ncosx+\n= lim\n6k\nx→0\n求得k：\n6k",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-q39a1256f32a8",
+      "document_id": "2015-d7",
+      "number": "16",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-q39a1256f32a8-r1",
+          "page_id": "2015-d7-p9",
+          "bbox": [
+            0.025,
+            0.2591864406779661,
+            0.985,
+            0.41033898305084743
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-q39a1256f32a8-r2",
+          "page_id": "2015-d7-p9",
+          "bbox": [
+            0.025,
+            0.4083389830508474,
+            0.985,
+            0.45305084745762714
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-q39a1256f32a8-r3",
+          "page_id": "2015-d7-p9",
+          "bbox": [
+            0.025,
+            0.45105084745762714,
+            0.985,
+            0.621864406779661
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 9,
+        "bbox": [
+          0.07912297426120114,
+          0.2711864406779661,
+          0.2640610104861773,
+          0.2901694915254237
+        ],
+        "text": "(16)(本题满分10分)",
+        "style": "paren"
+      },
+      "text_hint": "(16)(本题满分10分)\n所围成的平面区域，V，V\n设A>0，D是由曲线段y=Asinx(O≤x≤=\n)及直线y=0，x==\n分别表示D绕x轴与绕轴旋转成旋转体的体积，若V=V，求A的值。",
+      "answer_hint": "【答案】\n【解析】由旋转体的体积公式，得\n元A?\n=1-cos2x\nVI = J f2(x)dx = f(A sin x)2dx = A2 [\n[ 2 f(x)dx = -2元A [2 xd cos x = 2元A\n由题V,=V2,求得A=",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-q29a33dfd7604",
+      "document_id": "2015-d7",
+      "number": "17",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-q29a33dfd7604-r1",
+          "page_id": "2015-d7-p9",
+          "bbox": [
+            0.025,
+            0.619864406779661,
+            0.985,
+            0.7371186440677966
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-q29a33dfd7604-r2",
+          "page_id": "2015-d7-p9",
+          "bbox": [
+            0.025,
+            0.7351186440677966,
+            0.985,
+            0.7784745762711864
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-q29a33dfd7604-r3",
+          "page_id": "2015-d7-p9",
+          "bbox": [
+            0.025,
+            0.7764745762711864,
+            0.985,
+            0.96
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2015-d7-q29a33dfd7604-r4",
+          "page_id": "2015-d7-p10",
+          "bbox": [
+            0.025,
+            0.12359322033898305,
+            0.985,
+            0.7276271186440678
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 9,
+        "bbox": [
+          0.08007626310772165,
+          0.631864406779661,
+          0.2631077216396568,
+          0.6494915254237288
+        ],
+        "text": "(17)(本题满分11分）",
+        "style": "paren"
+      },
+      "text_hint": "(17)(本题满分11分）\n已知函数f(x,J)满足 f,(x,J)=2(y+1)e*，fi(x,0)=(x+1)e*，f(0,y)=y2+2y，求\nf(x,J)的极值。",
+      "answer_hint": "【答案】极小值f(0,-1)=-1\n【解析】f\"(x,y)=2(y+1)e*两边对y积分，得\nf(x, y) = 2(y2 + y)e* + p(x) =(y2 + 2y)e* + p(x) ,\n故 f(x,0)= p(x) = (x + 1)e*,\n求得(x)=e*(x+1),\n故f(x,J)=(y²+2y)e*+e*(1+x)，两边关于x积分，得\nf(x, y)=(y2 +2y)e* + Je*(1+x)dx\n=(y2 +2y)e* + J(1+x)de\nxpr J -x(x+)+ x(+ z)=\n(y? +2y)e*+(1+x)e* -e*+C\n=(y? + 2y)e* +xe* +C\n由f(0,y)=y²+2y+C=y²+2y，求得C=0.\n所以 f(x,y)= (y? +2y)e* + xe*.\n[ f' =(y? +2y)e\" +e\" +xe* =0\nx=0\n，求得\nf} =(2y+2)e* = 0\n又 f\" =(y? + 2y)e* + 2e* + xe*,\nf = 2(y+1)e*, f\" = 2e*,\n当x= 0,=-1时, A= f\"(0,-1)=1, B= f(0,-1)= 0, C = f(0,-1)=2 ,\nAC-B²>0, f(0,-1)=-1为极小值.",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-q0caffae9369e",
+      "document_id": "2015-d7",
+      "number": "18",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-q0caffae9369e-r1",
+          "page_id": "2015-d7-p10",
+          "bbox": [
+            0.025,
+            0.7256271186440678,
+            0.985,
+            0.8110169491525424
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-q0caffae9369e-r2",
+          "page_id": "2015-d7-p10",
+          "bbox": [
+            0.025,
+            0.8090169491525424,
+            0.985,
+            0.96
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-q0caffae9369e-r3",
+          "page_id": "2015-d7-p11",
+          "bbox": [
+            0.025,
+            0.1574915254237288,
+            0.985,
+            0.325593220338983
+          ],
+          "role": "answer"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 10,
+        "bbox": [
+          0.08007626310772165,
+          0.7376271186440678,
+          0.2631077216396568,
+          0.7552542372881356
+        ],
+        "text": "(18)(本题满分10分)",
+        "style": "paren"
+      },
+      "text_hint": "(18)(本题满分10分)\n计算二重积分[x(x+y)dxdy，其中 D={(x,)|x? +y²≤2,≥x²)",
+      "answer_hint": "【答案】\npxpz JJ=pxp(+x)x 【\n=2f x2(V2-x2 -x2)dx\n2 x=V2 sin\nV2 -x? dx\n[4 2 sin² t2 cos? tdt\n4sin²2tdt\nsin’ udu\nJo",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-q55ce0688ef08",
+      "document_id": "2015-d7",
+      "number": "19",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-q55ce0688ef08-r1",
+          "page_id": "2015-d7-p11",
+          "bbox": [
+            0.025,
+            0.323593220338983,
+            0.985,
+            0.38864406779661015
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-q55ce0688ef08-r2",
+          "page_id": "2015-d7-p11",
+          "bbox": [
+            0.025,
+            0.38664406779661015,
+            0.985,
+            0.4177966101694915
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-q55ce0688ef08-r3",
+          "page_id": "2015-d7-p11",
+          "bbox": [
+            0.025,
+            0.4157966101694915,
+            0.985,
+            0.96
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2015-d7-q55ce0688ef08-r4",
+          "page_id": "2015-d7-p12",
+          "bbox": [
+            0.025,
+            0.12901694915254236,
+            0.985,
+            0.2428813559322034
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 11,
+        "bbox": [
+          0.08007626310772165,
+          0.33559322033898303,
+          0.2688274547187798,
+          0.35322033898305083
+        ],
+        "text": "(19)(本题满分11分)",
+        "style": "paren"
+      },
+      "text_hint": "(19)(本题满分11分)\n已知函数f(x)=JV1+dt+「/1+tdt，求f(x)零点的个数?",
+      "answer_hint": "【答案】2个\n【解析】 f(x)=-V1+x2 +2xV1+x² = /1+x (2x-1)\n令f(x)=0,得驻点为x:\n,+oo)，f(x)单调递增\n，f(x)单调递减,在(\n故f()为唯一的极小值，也是最小值.\np+-+=p1+++=(\nJiVi+rdt-fii+id-{FV+id\n在(,1)，V1+/1+,故V1+tdt-i/1+tdt0\n从而有\nlim f(x)= lim[f\"V1+dt + f\"/1+idt)=+00\nlim f(x)= lim[f'V1+dt+J\"1+tdt]= lim[f\"1+idt-f\"1+rdt)\n2x/1+x²\n考虑lim\nlim\n+00，所以limf(αx)=+00.\nP+J ox\n1+ x?\n*→+00\n所以函数 f(x)在(-\n+00)上各有一个零点，所以零点个数为2.",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-q13d3ac54ba6d",
+      "document_id": "2015-d7",
+      "number": "20",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-q13d3ac54ba6d-r1",
+          "page_id": "2015-d7-p12",
+          "bbox": [
+            0.025,
+            0.2408813559322034,
+            0.985,
+            0.3289830508474576
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-q13d3ac54ba6d-r2",
+          "page_id": "2015-d7-p12",
+          "bbox": [
+            0.025,
+            0.3269830508474576,
+            0.985,
+            0.35745762711864404
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-q13d3ac54ba6d-r3",
+          "page_id": "2015-d7-p12",
+          "bbox": [
+            0.025,
+            0.35545762711864404,
+            0.985,
+            0.5398305084745763
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 12,
+        "bbox": [
+          0.08102955195424213,
+          0.2528813559322034,
+          0.27073403241182076,
+          0.2684745762711864
+        ],
+        "text": "(20）（本题满分10分）",
+        "style": "paren"
+      },
+      "text_hint": "(20）（本题满分10分）\n已知高温物体置于低温介质中，任一时刻该物体温度对时间的变化率与该时刻物体和介质的\n温差成正比，现将一初始温度为120C的物体在20°C的恒温介质中冷却，30min后该物体降至\n30°C，若要将该物体的温度继续降至21°C，还需冷却多长时间？",
+      "answer_hint": "30°C，若要将该物体的温度继续降至21°C，还需冷却多长时间？\n【答案】30min\n【解析】设t时刻物体温度为x(t)，比例常数为k(>0)，介质温度为m，则\ndx\n=-k(x-m)，从而x(t)= Ce-k +m,\nx(0)=120,m=20，所以C=100，即x(t)=100e-kt +20\n又x(=)=30,所以k=2ln10，所以x(t)=\n+20\n100-1\n当x=21时，t=1，所以还需要冷却30min.",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-q583a755911bc",
+      "document_id": "2015-d7",
+      "number": "21",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-q583a755911bc-r1",
+          "page_id": "2015-d7-p12",
+          "bbox": [
+            0.025,
+            0.5378305084745763,
+            0.985,
+            0.96
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-q583a755911bc-r2",
+          "page_id": "2015-d7-p13",
+          "bbox": [
+            0.025,
+            0.12088135593220338,
+            0.985,
+            0.4089830508474576
+          ],
+          "role": "stem"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "unmatched",
+      "grading_status": "unverified",
+      "start": {
+        "page": 12,
+        "bbox": [
+          0.07912297426120114,
+          0.5498305084745763,
+          0.2726406101048618,
+          0.5674576271186441
+        ],
+        "text": "(21）（本题满分10分）",
+        "style": "paren"
+      },
+      "text_hint": "当x=21时，t=1，所以还需要冷却30min.\n(21）（本题满分10分）\n已知函数f(x)在区间[a,+]上具有2阶导数，f(a)=0，f'(x)>0，f\"(x)>0,设b>α,\n曲线=f(x)在点(b,f(b)处的切线与x轴的交点是(xo0)，证明α<x<b。\n【证明】根据题意得点(b,f(b))处的切线方程为-f(b)=f(b)(x-b)\nf'(b)\n因为f(x)>0所以f(x)单调递增，又因为f(a)=0\n所以f(b)>0，又因为f'(b)>0\nf'(b)\nf(b)\n又因为x-α=b-α\n而在区间（a,b）上应用拉格朗日中值定理有\nf(b)\nf(b)-f(a) \n2= f(5),e(a,b)\nb-a\nf(b) - f(b)\nf(b)\n所以α=b-α-\nf'(b)f'()f(b)\nf(b)f'()\n因为f\"(x)>0所以f(x)单调递增\n所以 f'(b)>f'()\n所以-α>，即x>α，所以α<<b，结论得证.",
+      "answer_hint": "",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-qcf4925ced244",
+      "document_id": "2015-d7",
+      "number": "22",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-qcf4925ced244-r1",
+          "page_id": "2015-d7-p13",
+          "bbox": [
+            0.025,
+            0.4069830508474576,
+            0.985,
+            0.558135593220339
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-qcf4925ced244-r2",
+          "page_id": "2015-d7-p13",
+          "bbox": [
+            0.025,
+            0.556135593220339,
+            0.985,
+            0.6422033898305085
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-qcf4925ced244-r3",
+          "page_id": "2015-d7-p13",
+          "bbox": [
+            0.025,
+            0.6402033898305085,
+            0.985,
+            0.96
+          ],
+          "role": "explanation"
+        },
+        {
+          "id": "2015-d7-qcf4925ced244-r4",
+          "page_id": "2015-d7-p14",
+          "bbox": [
+            0.025,
+            0.11816949152542373,
+            0.985,
+            0.5459322033898305
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 13,
+        "bbox": [
+          0.08960915157292659,
+          0.4189830508474576,
+          0.2926596758817922,
+          0.43728813559322033
+        ],
+        "text": "(22）（本题满分11分)",
+        "style": "paren"
+      },
+      "text_hint": "(22）（本题满分11分)\n设矩阵A=\n且A=0.\n-1\n(1)求a的值；\n(2）若矩阵X满足X-XA²-AX+AXA=E，E为3阶单位阵，求X.",
+      "answer_hint": "(2）若矩阵X满足X-XA²-AX+AXA=E，E为3阶单位阵，求X.\n【答案】\n-1\n-1\na=0,X=\n-1\n-1\n-1\n【解析】\n(I)A=0→A=0=→\n[1-α?\n=α=0→α=0\n-1\n-1\np-\n(I)由题意知\nX -XA? - AX+ AXA? =E=→ X(E- A)- AX(E- A)= E\n→(E-A)X(E- A’)=E→X=(E-A)(E-A’)\" =[(E-A’)(E-A)]\n→X=(E-A -A)\n-1\nE-A?-A=\n-1\n(-1\n-1\n0)\n1M1\n-1MO\n-1\n-1\n-1\n1 M1\n1MO\n-1\n-1\n(-1\n2MO\n2 MO\n-1\n(-1\n-1\n-1\n-1M0\n-1\n-1MO\n-1\n-1\n-1M-1\n1M-1\n-1M-2\n-1\n-1\n12\n1MO\n(1\n-1\nOM3\n-2\nOM2\n-1\nOM1\nOM1\n-1\n-1\n1M2\n1M2\n-1\n-2\n..X=\n-1\n-1",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    },
+    {
+      "id": "2015-d7-q229a3d978807",
+      "document_id": "2015-d7",
+      "number": "23",
+      "kind": "solution",
+      "answer": "",
+      "tags": [
+        "北京交通大学课程考试",
+        "2015年"
+      ],
+      "reviewed": false,
+      "note": "自动初切；题图边界与答案匹配分别待复核。",
+      "regions": [
+        {
+          "id": "2015-d7-q229a3d978807-r1",
+          "page_id": "2015-d7-p14",
+          "bbox": [
+            0.025,
+            0.5439322033898305,
+            0.985,
+            0.7364406779661017
+          ],
+          "role": "stem"
+        },
+        {
+          "id": "2015-d7-q229a3d978807-r2",
+          "page_id": "2015-d7-p14",
+          "bbox": [
+            0.025,
+            0.7344406779661017,
+            0.985,
+            0.96
+          ],
+          "role": "answer"
+        },
+        {
+          "id": "2015-d7-q229a3d978807-r3",
+          "page_id": "2015-d7-p15",
+          "bbox": [
+            0.025,
+            0.12155932203389831,
+            0.985,
+            0.96
+          ],
+          "role": "explanation"
+        }
+      ],
+      "identity": {
+        "category": "北京交通大学课程考试",
+        "year": "2015",
+        "subject": "微积分B上",
+        "group": null,
+        "session": "regular",
+        "stage": "期末",
+        "academic_term": null,
+        "edition": null
+      },
+      "section": "三",
+      "segment": 0,
+      "boundary_status": "pending",
+      "answer_status": "inline_candidate",
+      "grading_status": "unverified",
+      "start": {
+        "page": 14,
+        "bbox": [
+          0.07816968541468065,
+          0.5559322033898305,
+          0.2440419447092469,
+          0.576271186440678
+        ],
+        "text": "(23）（本题满分11",
+        "style": "paren"
+      },
+      "text_hint": "(23）（本题满分11\n分)\n-3)\n-2\n设矩阵A=\n-1\n-3\n相似于矩阵B=\n-2\n(0\n（1）求a,b的值；\n（2）求可逆矩阵P，使P-1AP为对角阵.",
+      "answer_hint": "【答案】\n(1) α=4,b=5;\n(2)\n-3\nP=\n-1\n【解析】(I)A～B=→tr(A)=tr(B)=3+aα=1+b+1\n-2\n-3\n[A=[B|→\n-3\n-2\nJα=4\n[α-b=-1\n[b=5\n[2a-b=3\n(II)\n-3)\n-3\n(-1\n-3\n=E+C\nA=\n-1\n-1\n-3\n-2\n(0\n-2\n(-1)\n(-1\n-3\n-3\n-1\n3)\nC=\n-1 \n-2\n-2\nC的特征值==0,=4\n=0时(0E-C)x=0 的基础解系为=(2,1,0);2 =(-3,0,1)T\n=5时(4E-C)x=0 的基础解系为,=(-1,-1,1)I\nA的特征值=1+c:1,1,5\n-1\n令 P=(51,52,53) =\n..P-\"AP=",
+      "record_type": "question",
+      "suspected_answer_in_stem": false
+    }
+  ],
+  "issues": []
+}

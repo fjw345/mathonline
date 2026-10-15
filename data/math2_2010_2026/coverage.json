@@ -1,0 +1,138 @@
+[
+  {
+    "year": 2010,
+    "expected": 23,
+    "questions": 23,
+    "with_answer": 23,
+    "stem_pngs": 25,
+    "answer_pngs": 32
+  },
+  {
+    "year": 2011,
+    "expected": 23,
+    "questions": 23,
+    "with_answer": 23,
+    "stem_pngs": 25,
+    "answer_pngs": 32
+  },
+  {
+    "year": 2012,
+    "expected": 23,
+    "questions": 23,
+    "with_answer": 23,
+    "stem_pngs": 24,
+    "answer_pngs": 27
+  },
+  {
+    "year": 2013,
+    "expected": 23,
+    "questions": 23,
+    "with_answer": 23,
+    "stem_pngs": 24,
+    "answer_pngs": 32
+  },
+  {
+    "year": 2014,
+    "expected": 23,
+    "questions": 23,
+    "with_answer": 23,
+    "stem_pngs": 26,
+    "answer_pngs": 35
+  },
+  {
+    "year": 2015,
+    "expected": 23,
+    "questions": 23,
+    "with_answer": 23,
+    "stem_pngs": 26,
+    "answer_pngs": 33
+  },
+  {
+    "year": 2016,
+    "expected": 23,
+    "questions": 23,
+    "with_answer": 23,
+    "stem_pngs": 24,
+    "answer_pngs": 31
+  },
+  {
+    "year": 2017,
+    "expected": 23,
+    "questions": 23,
+    "with_answer": 23,
+    "stem_pngs": 24,
+    "answer_pngs": 27
+  },
+  {
+    "year": 2018,
+    "expected": 23,
+    "questions": 23,
+    "with_answer": 23,
+    "stem_pngs": 24,
+    "answer_pngs": 29
+  },
+  {
+    "year": 2019,
+    "expected": 23,
+    "questions": 23,
+    "with_answer": 23,
+    "stem_pngs": 24,
+    "answer_pngs": 29
+  },
+  {
+    "year": 2020,
+    "expected": 23,
+    "questions": 23,
+    "with_answer": 23,
+    "stem_pngs": 23,
+    "answer_pngs": 30
+  },
+  {
+    "year": 2021,
+    "expected": 22,
+    "questions": 22,
+    "with_answer": 22,
+    "stem_pngs": 22,
+    "answer_pngs": 28
+  },
+  {
+    "year": 2022,
+    "expected": 22,
+    "questions": 22,
+    "with_answer": 22,
+    "stem_pngs": 24,
+    "answer_pngs": 27
+  },
+  {
+    "year": 2023,
+    "expected": 22,
+    "questions": 22,
+    "with_answer": 22,
+    "stem_pngs": 24,
+    "answer_pngs": 27
+  },
+  {
+    "year": 2024,
+    "expected": 22,
+    "questions": 22,
+    "with_answer": 22,
+    "stem_pngs": 22,
+    "answer_pngs": 22
+  },
+  {
+    "year": 2025,
+    "expected": 22,
+    "questions": 22,
+    "with_answer": 22,
+    "stem_pngs": 25,
+    "answer_pngs": 34
+  },
+  {
+    "year": 2026,
+    "expected": 22,
+    "questions": 22,
+    "with_answer": 22,
+    "stem_pngs": 24,
+    "answer_pngs": 22
+  }
+]
