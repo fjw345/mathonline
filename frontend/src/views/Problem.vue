@@ -231,11 +231,15 @@ async function displayProblem(
   draft?: PracticeDraft,
 ) {
   setProblem(data, key, draft);
-  const solutions = await api<Solution[]>(
-    "/problems/" + data.id + "/solutions",
-  );
-  if (seq !== sequence) return;
-  community.value = solutions;
+  // Community content must not block the question or turn a usable question
+  // into an error page when the community endpoint is slow/unavailable.
+  void api<Solution[]>("/problems/" + data.id + "/solutions")
+    .then((solutions) => {
+      if (seq === sequence) community.value = solutions;
+    })
+    .catch((e: Error) => {
+      if (seq === sequence) toast("题解加载失败：" + e.message, true);
+    });
 }
 async function openDaily() {
   if (!state.user) {

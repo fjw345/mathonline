@@ -366,6 +366,40 @@ class SupabaseReader:
     def __init__(self, repository):
         self.repository = repository
         self.rows = {}
+        self.image_urls = {}
+
+    def sign_question_images(self, problems):
+        # Only published question images, never answer or private submission files.
+        assets = {}
+        for p in problems:
+            if p["status"] == "published":
+                for aid in p["question_images"]:
+                    asset = self.get("media_assets", id=aid)
+                    if (
+                        asset
+                        and asset.get("purpose") == "question"
+                        and asset.get("path")
+                    ):
+                        assets[aid] = asset["path"]
+        if not assets:
+            return
+        try:
+            signed = self.repository.request(
+                "POST",
+                f"/storage/v1/object/sign/{config.BUCKET}",
+                json={"paths": list(dict.fromkeys(assets.values())), "expiresIn": 300},
+            )
+        except httpx.HTTPError:
+            return  # Existing authenticated media route remains the fallback.
+        by_path = {
+            row.get("path"): row.get("signedURL") or row.get("signedUrl")
+            for row in signed
+            if not row.get("error")
+        }
+        for aid, path in assets.items():
+            url = by_path.get(path)
+            if url and url.startswith("/"):
+                self.image_urls[aid] = config.SB_URL + "/storage/v1" + url
 
     def list(self, table, **where):
         key = (table, tuple(sorted(where.items())))

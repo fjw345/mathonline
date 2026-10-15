@@ -6,6 +6,69 @@ from backend import config, main
 from backend.store import SupabaseStore
 
 
+def test_question_signing_never_signs_answers_and_falls_back(monkeypatch):
+    calls = []
+
+    def handler(request):
+        calls.append(request)
+        if request.method == "POST":
+            assert json.loads(request.content)["paths"] == ["question.png"]
+            return httpx.Response(
+                200,
+                json=[
+                    {
+                        "path": "question.png",
+                        "signedURL": "/object/sign/mathonline/question.png?token=test",
+                    }
+                ],
+            )
+        return httpx.Response(
+            200,
+            json=[
+                {
+                    "id": "q",
+                    "path": "question.png",
+                    "purpose": "question",
+                    "width": 1,
+                    "height": 1,
+                },
+                {
+                    "id": "a",
+                    "path": "answer.png",
+                    "purpose": "answer",
+                    "width": 1,
+                    "height": 1,
+                },
+            ],
+        )
+
+    db = cloud(handler, monkeypatch)
+    with db.reader() as reader:
+        reader.prime("media_assets", ["q", "a"])
+        reader.sign_question_images(
+            [{"status": "published", "question_images": ["q", "a"]}]
+        )
+        assert main.asset_info("q", reader)["url"].startswith(config.SB_URL)
+        assert main.asset_info("a", reader)["url"] == "/api/v1/media/a"
+    with db.reader() as reader:
+        reader.prime("media_assets", ["q"])
+        reader.sign_question_images([{"status": "archived", "question_images": ["q"]}])
+        assert reader.image_urls == {}
+
+    def unavailable(request):
+        return httpx.Response(503)
+
+    db.client = httpx.Client(
+        base_url=config.SB_URL, transport=httpx.MockTransport(unavailable)
+    )
+    with db.reader() as reader:
+        reader.rows[("media_assets", (("id", "q"),))] = [
+            {"id": "q", "purpose": "question", "path": "question.png"}
+        ]
+        reader.sign_question_images([{"status": "published", "question_images": ["q"]}])
+        assert reader.image_urls == {}
+
+
 def cloud(handler, monkeypatch):
     monkeypatch.setattr(config, "SB_URL", "https://example.supabase.co")
     db = SupabaseStore()

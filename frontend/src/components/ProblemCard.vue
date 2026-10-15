@@ -3,6 +3,10 @@ import { ArrowUpRight, Check } from "lucide-vue-next";
 import { typeName } from "../api";
 import type { Problem } from "../types";
 defineProps<{ problem: Problem }>();
+function imageFallback(event: Event, id: string) {
+  const img = event.target as HTMLImageElement;
+  if (!img.src.includes("/api/v1/media/")) img.src = "/api/v1/media/" + id;
+}
 </script>
 <template>
   <RouterLink :to="'/problems/' + problem.id" class="problem-card"
@@ -18,6 +22,8 @@ defineProps<{ problem: Problem }>();
         :src="problem.question_images[0].url"
         :alt="problem.title + '题干预览'"
         loading="lazy"
+        decoding="async"
+        @error="imageFallback($event, problem.question_images[0].id)"
       />
     </div>
     <h3>{{ problem.title }}</h3>

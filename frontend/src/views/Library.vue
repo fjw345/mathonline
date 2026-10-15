@@ -53,12 +53,13 @@ async function load() {
   }
 }
 onMounted(async () => {
+  const initialLoad = load();
   try {
     catalog.value = await api("/catalog");
   } catch (e) {
     error.value = (e as Error).message;
   }
-  await load();
+  await initialLoad;
 });
 watch([year, type, tag], () => {
   page.value = 1;

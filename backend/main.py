@@ -141,7 +141,7 @@ def asset_info(aid, repository=None):
         raise HTTPException(400, "图片不存在，请重新上传。")
     return {
         "id": aid,
-        "url": f"/api/v1/media/{aid}",
+        "url": getattr(repository, "image_urls", {}).get(aid, f"/api/v1/media/{aid}"),
         "width": asset["width"],
         "height": asset["height"],
     }
@@ -403,6 +403,7 @@ def problems(request: Request, page: int = 1, page_size: int = 12):
             rows = all_rows[(page - 1) * page_size : page * page_size]
         if hasattr(reader, "prepare_problems"):
             reader.prepare_problems(rows, user)
+            reader.sign_question_images(rows)
         return {
             "total": total,
             "items": [public_problem(p, user, reader) for p in rows],
