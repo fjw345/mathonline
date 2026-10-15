@@ -79,6 +79,24 @@ def cloud(handler, monkeypatch):
     return db
 
 
+def test_cloud_tags_use_jsonb_contains_with_any_semantics(monkeypatch):
+    requests = []
+
+    def handler(request):
+        requests.append(request)
+        return httpx.Response(200, json=[], headers={"Content-Range": "*/0"})
+
+    db = cloud(handler, monkeypatch)
+    db.problem_page({"tag": "考研数学一,全国大学生数学竞赛·非数"}, 1, 12)
+    params = requests[-1].url.params
+    assert "tags" not in params
+    terms = [
+        "tags.cs." + json.dumps(json.dumps([tag], ensure_ascii=False))
+        for tag in ("考研数学一", "全国大学生数学竞赛·非数")
+    ]
+    assert params["or"] == "(" + ",".join(terms) + ")"
+
+
 def test_cloud_page_batches_related_rows_without_answers(monkeypatch):
     requests = []
     problems = [
@@ -112,6 +130,7 @@ def test_cloud_page_batches_related_rows_without_answers(monkeypatch):
     params = requests[0].url.params
     assert params["offset"] == "12" and params["limit"] == "12"
     assert params["year"] == "in.(2025)" and params["status"] == "eq.published"
+    assert params["tags"].startswith("cs.")
     assert json.loads(params["tags"][3:]) == ["竞赛"]
     with db.reader() as reader:
         reader.prepare_problems(page["rows"], {"id": "alice"})

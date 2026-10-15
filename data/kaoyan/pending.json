@@ -1,0 +1,836 @@
+{
+  "note": "仅用于补充和核对，不可直接导入。",
+  "problems": [
+    {
+      "id": "kaoyan-math1-2012-03",
+      "bank": 1,
+      "year": 2012,
+      "number": 3,
+      "reasons": [
+        "正确选项尚未确认"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2012/题目/3.png"
+      ],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2012/答案/3.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2017-04",
+      "bank": 1,
+      "year": 2017,
+      "number": 4,
+      "reasons": [
+        "答案标题为 B，解析结尾为 C，需核对原卷选项。"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2017/题目/4.png"
+      ],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2017/答案/4.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2018-01",
+      "bank": 1,
+      "year": 2018,
+      "number": 1,
+      "reasons": [
+        "缺少答案截图",
+        "正确选项尚未确认"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/1.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-02",
+      "bank": 1,
+      "year": 2018,
+      "number": 2,
+      "reasons": [
+        "缺少答案截图",
+        "正确选项尚未确认"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/2.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-03",
+      "bank": 1,
+      "year": 2018,
+      "number": 3,
+      "reasons": [
+        "缺少答案截图",
+        "正确选项尚未确认"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/3.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-04",
+      "bank": 1,
+      "year": 2018,
+      "number": 4,
+      "reasons": [
+        "缺少答案截图",
+        "正确选项尚未确认"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/4.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-05",
+      "bank": 1,
+      "year": 2018,
+      "number": 5,
+      "reasons": [
+        "缺少答案截图",
+        "正确选项尚未确认"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/5.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-06",
+      "bank": 1,
+      "year": 2018,
+      "number": 6,
+      "reasons": [
+        "缺少答案截图",
+        "正确选项尚未确认"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/6.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-07",
+      "bank": 1,
+      "year": 2018,
+      "number": 7,
+      "reasons": [
+        "缺少答案截图",
+        "正确选项尚未确认"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/7上.png",
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/7下.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-08",
+      "bank": 1,
+      "year": 2018,
+      "number": 8,
+      "reasons": [
+        "缺少答案截图",
+        "正确选项尚未确认"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/8.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-09",
+      "bank": 1,
+      "year": 2018,
+      "number": 9,
+      "reasons": [
+        "缺少答案截图"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/9.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-10",
+      "bank": 1,
+      "year": 2018,
+      "number": 10,
+      "reasons": [
+        "缺少答案截图"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/10.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-11",
+      "bank": 1,
+      "year": 2018,
+      "number": 11,
+      "reasons": [
+        "缺少答案截图"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/11.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-12",
+      "bank": 1,
+      "year": 2018,
+      "number": 12,
+      "reasons": [
+        "缺少答案截图"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/12.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-13",
+      "bank": 1,
+      "year": 2018,
+      "number": 13,
+      "reasons": [
+        "缺少答案截图"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/13.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-14",
+      "bank": 1,
+      "year": 2018,
+      "number": 14,
+      "reasons": [
+        "缺少答案截图"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/14.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-15",
+      "bank": 1,
+      "year": 2018,
+      "number": 15,
+      "reasons": [
+        "缺少答案截图"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/15.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-16",
+      "bank": 1,
+      "year": 2018,
+      "number": 16,
+      "reasons": [
+        "缺少答案截图"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/16.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-17",
+      "bank": 1,
+      "year": 2018,
+      "number": 17,
+      "reasons": [
+        "缺少答案截图"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/17.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-18",
+      "bank": 1,
+      "year": 2018,
+      "number": 18,
+      "reasons": [
+        "缺少答案截图"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/18.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-19",
+      "bank": 1,
+      "year": 2018,
+      "number": 19,
+      "reasons": [
+        "缺少答案截图"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/19.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-20",
+      "bank": 1,
+      "year": 2018,
+      "number": 20,
+      "reasons": [
+        "缺少答案截图"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/20.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-21",
+      "bank": 1,
+      "year": 2018,
+      "number": 21,
+      "reasons": [
+        "缺少答案截图"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/21.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-22",
+      "bank": 1,
+      "year": 2018,
+      "number": 22,
+      "reasons": [
+        "缺少答案截图"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/22.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2018-23",
+      "bank": 1,
+      "year": 2018,
+      "number": 23,
+      "reasons": [
+        "缺少答案截图"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2018/题目/23.png"
+      ],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math1-2019-01",
+      "bank": 1,
+      "year": 2019,
+      "number": 1,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/1.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-02",
+      "bank": 1,
+      "year": 2019,
+      "number": 2,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/2.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-03",
+      "bank": 1,
+      "year": 2019,
+      "number": 3,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/3.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-04",
+      "bank": 1,
+      "year": 2019,
+      "number": 4,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/4.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-05",
+      "bank": 1,
+      "year": 2019,
+      "number": 5,
+      "reasons": [
+        "缺少题目截图",
+        "正确选项尚未确认"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/5.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-06",
+      "bank": 1,
+      "year": 2019,
+      "number": 6,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/6.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-07",
+      "bank": 1,
+      "year": 2019,
+      "number": 7,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/7上.png",
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/7下.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-08",
+      "bank": 1,
+      "year": 2019,
+      "number": 8,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/8.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-09",
+      "bank": 1,
+      "year": 2019,
+      "number": 9,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/9.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-10",
+      "bank": 1,
+      "year": 2019,
+      "number": 10,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/10上.png",
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/10下.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-11",
+      "bank": 1,
+      "year": 2019,
+      "number": 11,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/11.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-12",
+      "bank": 1,
+      "year": 2019,
+      "number": 12,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/12.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-13",
+      "bank": 1,
+      "year": 2019,
+      "number": 13,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/13.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-14",
+      "bank": 1,
+      "year": 2019,
+      "number": 14,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/14.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-15",
+      "bank": 1,
+      "year": 2019,
+      "number": 15,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/15.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-16",
+      "bank": 1,
+      "year": 2019,
+      "number": 16,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/16.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-17",
+      "bank": 1,
+      "year": 2019,
+      "number": 17,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/17上.png",
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/17下.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-18",
+      "bank": 1,
+      "year": 2019,
+      "number": 18,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/18.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-19",
+      "bank": 1,
+      "year": 2019,
+      "number": 19,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/19上.png",
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/19下.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-20",
+      "bank": 1,
+      "year": 2019,
+      "number": 20,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/20上.png",
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/20下.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-21",
+      "bank": 1,
+      "year": 2019,
+      "number": 21,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/21.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-22",
+      "bank": 1,
+      "year": 2019,
+      "number": 22,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/22上.png",
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/22下.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math1-2019-23",
+      "bank": 1,
+      "year": 2019,
+      "number": 23,
+      "reasons": [
+        "缺少题目截图"
+      ],
+      "question": [],
+      "answer": [
+        "devided-math/考研数学/考研数学 (一) 真题及答案解析（1987-2026）/2019/答案/23.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math2-2014-05",
+      "bank": 2,
+      "year": 2014,
+      "number": 5,
+      "reasons": [
+        "正确选项尚未确认"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2014/题目/5.png"
+      ],
+      "answer": [
+        "devided-math/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2014/答案/5.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math2-2017-05",
+      "bank": 2,
+      "year": 2017,
+      "number": 5,
+      "reasons": [
+        "答案标题为 C，解析结尾为 D，需核对原卷选项。"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2017/题目/5.png"
+      ],
+      "answer": [
+        "devided-math/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2017/答案/5.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math2-2017-06",
+      "bank": 2,
+      "year": 2017,
+      "number": 6,
+      "reasons": [
+        "答案标题为 B，解析结尾为 C，需核对原卷选项。"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2017/题目/6.png"
+      ],
+      "answer": [
+        "devided-math/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2017/答案/6.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math2-2018-03",
+      "bank": 2,
+      "year": 2018,
+      "number": 3,
+      "reasons": [
+        "正确选项尚未确认"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2018/题目/3.png"
+      ],
+      "answer": [
+        "devided-math/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2018/答案/3.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math2-2018-06",
+      "bank": 2,
+      "year": 2018,
+      "number": 6,
+      "reasons": [
+        "正确选项尚未确认"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2018/题目/6.png"
+      ],
+      "answer": [
+        "devided-math/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2018/答案/6.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math2-2019-04",
+      "bank": 2,
+      "year": 2019,
+      "number": 4,
+      "reasons": [
+        "正确选项尚未确认"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2019/题目/4.png"
+      ],
+      "answer": [
+        "devided-math/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2019/答案/4上.png",
+        "devided-math/考研数学/考研数学 (二) 真题及答案解析（1987-2026）/2019/答案/4下.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math3-2010-01",
+      "bank": 3,
+      "year": 2010,
+      "number": 1,
+      "reasons": [
+        "正确选项尚未确认"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2010/题目/1.png"
+      ],
+      "answer": [
+        "devided-math/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2010/答案/1.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math3-2012-22",
+      "bank": 3,
+      "year": 2012,
+      "number": 22,
+      "reasons": [
+        "缺少题目截图",
+        "缺少答案截图"
+      ],
+      "question": [],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math3-2012-23",
+      "bank": 3,
+      "year": 2012,
+      "number": 23,
+      "reasons": [
+        "缺少题目截图",
+        "缺少答案截图"
+      ],
+      "question": [],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math3-2013-23",
+      "bank": 3,
+      "year": 2013,
+      "number": 23,
+      "reasons": [
+        "缺少题目截图",
+        "缺少答案截图"
+      ],
+      "question": [],
+      "answer": []
+    },
+    {
+      "id": "kaoyan-math3-2014-01",
+      "bank": 3,
+      "year": 2014,
+      "number": 1,
+      "reasons": [
+        "正确选项尚未确认"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2014/题目/1.png"
+      ],
+      "answer": [
+        "devided-math/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2014/答案/1.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math3-2014-02",
+      "bank": 3,
+      "year": 2014,
+      "number": 2,
+      "reasons": [
+        "正确选项尚未确认"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2014/题目/2.png"
+      ],
+      "answer": [
+        "devided-math/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2014/答案/2.png"
+      ]
+    },
+    {
+      "id": "kaoyan-math3-2014-08",
+      "bank": 3,
+      "year": 2014,
+      "number": 8,
+      "reasons": [
+        "正确选项尚未确认"
+      ],
+      "question": [
+        "devided-math/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2014/题目/8.png"
+      ],
+      "answer": [
+        "devided-math/考研数学/考研数学 (三) 真题及答案解析（1987-2026）/2014/答案/8.png"
+      ]
+    }
+  ]
+}

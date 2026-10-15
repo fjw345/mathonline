@@ -9,6 +9,7 @@
 - [部署指南](docs/supabase-vercel-guide.md)：Supabase 建库、题库导入、Vercel 配置、邮件与管理员设置及常见错误。
 - [运行、备份与当前边界](docs/deployment.md)：本地与云端运行方式、备份和待改进事项。
 - [题库扩充与修改](docs/question-bank.md)：后台维护、批量导入、稳定 ID 与人工修订保护。
+- [考研题库导入清单](data/kaoyan/REPORT.md)：数学一、二、三的 2010—2026 年截图映射、导入命令及缺项记录；已生成清单，尚未导入线上。
 - [开发计划](docs/do-math-problem-online项目开发计划.md)：当前交付状态、业务规则与后续优先级。
 - [早期开发记录](docs/development-2026-10-10.md)：本地 MVP 阶段记录，不代表最新部署状态。
 

@@ -318,9 +318,17 @@ class SupabaseStore:
                     return {"total": 0, "rows": []}
                 params[key] = "in.(" + ",".join(values) + ")"
         if filters.get("tag"):
-            params["tags"] = "ov." + json.dumps(
-                str(filters["tag"]).split(","), ensure_ascii=False
-            )
+            # tags is jsonb, not a PostgreSQL array: overlap (ov) is invalid.
+            tags = str(filters["tag"]).split(",")
+            if len(tags) == 1:
+                params["tags"] = "cs." + json.dumps(tags, ensure_ascii=False)
+            else:
+                # Preserve the local filter's ANY semantics for multiple tags.
+                terms = [
+                    "tags.cs." + json.dumps(json.dumps([tag], ensure_ascii=False))
+                    for tag in tags
+                ]
+                params["or"] = "(" + ",".join(terms) + ")"
         if filters.get("q"):
             rows, offset = [], 0
             while True:

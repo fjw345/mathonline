@@ -1,0 +1,32 @@
+{
+  "note": "按答案截图人工读取；每行按题号排列。? 表示尚未确认或存在矛盾，构建时排除，不猜测判题答案。修改后重新生成导入清单。",
+  "1": {
+    "2010": "CBCDADCA", "2011": "CCABDDDB", "2012": "CC?DCBAD",
+    "2013": "DACDBBAC", "2014": "CDDABABD", "2015": "CABBDACD",
+    "2016": "CDADCBBA", "2017": "ACD?ABAB", "2018": "????????",
+    "2019": "DBBC?AAA", "2020": "DCAABCDB", "2021": "DCABBACDCB",
+    "2022": "BBDAACCCAD", "2023": "BCCABDDCDA", "2024": "CAABBDABDD",
+    "2025": "BBDABDACCD", "2026": "ADCCBABCAD"
+  },
+  "2": {
+    "2010": "BACDBDAD", "2011": "CBCCABDD", "2012": "CCBDDDCB",
+    "2013": "CACDABBB", "2014": "BCDC?DDA", "2015": "DBACDBDA",
+    "2016": "BDBBADCC", "2017": "ABDA??BB", "2018": "BD?DC?AA",
+    "2019": "CCD?AAAC", "2020": "DCAABBCD", "2021": "CDCADCBBDC",
+    "2022": "CDBCADABDC", "2023": "BDBCCACDBD", "2024": "CBDDCABCDB",
+    "2025": "ABCCAABDBD", "2026": "ABADCBDBAD"
+  },
+  "3": {
+    "2010": "?ABC CDCA", "2011": "CBABDCDD", "2012": "CABDCBDB",
+    "2013": "DBBDBBAC", "2014": "??DDBAB?", "2015": "DCBCDACB",
+    "2016": "BDBACCAC", "2017": "ADCCACCB", "2018": "DDCDAAAB",
+    "2019": "CDDBACCA", "2020": "BCABCDDC", "2021": "CDACBBCDCA",
+    "2022": "CACABDCDBB", "2023": "ADCABDDCDA", "2024": "DBAACCBBBD",
+    "2025": "CBBDABBDCC", "2026": "CABDADDBCD"
+  },
+  "conflicts": {
+    "kaoyan-math1-2017-04": "答案标题为 B，解析结尾为 C，需核对原卷选项。",
+    "kaoyan-math2-2017-05": "答案标题为 C，解析结尾为 D，需核对原卷选项。",
+    "kaoyan-math2-2017-06": "答案标题为 B，解析结尾为 C，需核对原卷选项。"
+  }
+}
