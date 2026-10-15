@@ -1,14 +1,31 @@
-# 来学数学 · 在线刷题平台
+# 来学数学 · 在线数学练习平台
 
-云端部署步骤见 [Supabase + Vercel 部署指南](docs/supabase-vercel-guide.md)。
+在线使用：**[www.mathonline.top](https://www.mathonline.top/)**。项目已完成 Supabase + Vercel 部署，并修复部署、登录来源校验等已反馈问题；同时保留本地运行模式。
 
-基于 Vue 3 + TypeScript + FastAPI 的本地 MVP。首批使用全国大学生数学竞赛非数学类已拆分截图：22 个卷别，222 道题（107 道填空题、115 道解答题），500 张图片。题目默认可用；用户发现题目不完整或答案不匹配时可反馈，由管理员核查处理。目前仅在本地运行。
+基于 Vue 3 + TypeScript + FastAPI，使用截图展示题干与参考答案，填空题和解答题采用自检。首批题库为全国大学生数学竞赛非数学类：22 个卷别，222 道题（107 道填空题、115 道解答题），500 张图片。题目默认发布；发现题目不完整或答案不匹配时，用户可反馈，由管理员核查处理。
 
-## 启动
+## 文档导航
+
+- [部署指南](docs/supabase-vercel-guide.md)：Supabase 建库、题库导入、Vercel 配置、邮件与管理员设置及常见错误。
+- [运行、备份与当前边界](docs/deployment.md)：本地与云端运行方式、备份和待改进事项。
+- [题库扩充与修改](docs/question-bank.md)：后台维护、批量导入、稳定 ID 与人工修订保护。
+- [开发计划](docs/do-math-problem-online项目开发计划.md)：当前交付状态、业务规则与后续优先级。
+- [早期开发记录](docs/development-2026-10-10.md)：本地 MVP 阶段记录，不代表最新部署状态。
+
+## 运行架构
+
+| 模式 | 页面与 API | 账号、数据与图片 |
+| --- | --- | --- |
+| 线上 | Vercel 静态页面 + FastAPI Python Function，同域 `/api/v1` | Supabase Auth、PostgreSQL、私有 Storage |
+| 本地 | FastAPI 提供前端构建产物，端口 8011 | 本地账号、SQLite、磁盘图片 |
+
+云端认证由后端对接 Supabase Auth，通过 HttpOnly Cookie 保存会话；业务权限由后端检查。服务端密钥不进入前端构建。
+
+## 本地启动
 
 双击根目录 **启动数学刷题平台.cmd**，然后访问 **http://127.0.0.1:8011/**。
 
-需要 Python 3.10+、Node.js 20.19+ 和 npm。首次启动自动安装缺少的 Python 依赖、安装前端依赖、构建页面并导入清单；以后启动会保护后台人工修改和已有账号、作答。
+建议使用与部署环境一致的 Python 3.12，以及 Node.js 20.19+ 和 npm。首次启动自动安装缺少的 Python 依赖、安装前端依赖、构建页面并导入清单；以后启动会保护后台人工修改和已有账号、作答。本地默认 `APP_MODE=local`，不需要云端密钥；可参考 `.env.example` 配置。
 
 也可以手动运行：
 
@@ -22,7 +39,7 @@ python -X utf8 scripts/import_bank.py data/nonmath-manifest.json
 python -m uvicorn backend.main:app --host 127.0.0.1 --port 8011
 ```
 
-本地首次注册的账号自动获得管理员权限，其余账号为普通用户。没有预设密码。本地邮箱不验证、不发送重置邮件；Supabase 模式的认证对接另见部署说明。
+本地首次注册的账号自动获得管理员权限，其余账号为普通用户。没有预设密码。本地邮箱不验证、不发送重置邮件。**云端首个账号不会自动成为管理员**，需按部署指南设置；邮箱验证与重置邮件由 Supabase Auth 配置决定。
 
 ## 已实现功能
 
@@ -39,7 +56,25 @@ python -m uvicorn backend.main:app --host 127.0.0.1 --port 8011
 - 题目默认发布，无需逐题预审。做题页“反馈问题”支持题目不完整、答案不匹配及其他问题；管理员在“题目反馈”中编辑对应题目、记录处理说明并标记已处理或无需修改。
 - 稳定题目 ID、更新版本检查、幂等导入和人工修订保护；历史记录随版本变化提示重新核对。
 
-题库维护与扩充见 [docs/question-bank.md](docs/question-bank.md)。本地数据库是 `data/mathonline.sqlite`；图片副本位于 `data/assets/`、私人上传在 `data/uploads/`。原始 `devided-math` 和 `resource` 不被修改。
+本地数据库是 `data/mathonline.sqlite`；图片副本位于 `data/assets/`、私人上传在 `data/uploads/`。原始 `devided-math` 和 `resource` 不被修改。云端数据与本地数据相互独立，不会自动同步。
+
+## 部署与更新
+
+首次部署按 [Supabase + Vercel 部署指南](docs/supabase-vercel-guide.md) 操作。已部署项目向 GitHub 的生产分支 `master` 推送代码后，由 Vercel 自动构建发布。
+
+- 只修改页面或后端代码：通常只需推送代码，不必重新导入题库或执行旧迁移。
+- 新增数据库迁移：确认与应用版本兼容后，按顺序执行新增 SQL 文件的内容。
+- 新增题库：上传图片并导入清单，或在管理页维护；保留已有题目的稳定 ID。
+- 修改 Vercel 环境变量：保存后重新部署。当前生产 `APP_ORIGIN` 应包含 `https://www.mathonline.top,https://mathonline.top`；域名变化时同步更新允许来源及认证回调。
+
+已实现数据库筛选与分页、关联数据批量读取、题库类别短时缓存、图片延迟加载，以及首页题干短期签名链接直读 Storage。实际速度仍受网络、部署区域与函数冷启动影响，不将这些优化视为性能指标已验收。
+
+## 当前边界与后续工作
+
+- 当前只有全国大学生数学竞赛非数题库；考研数学、CMC 数学类等需完成素材整理后再导入。
+- 不进行 PDF 完整文本化、填空题自动判分或 AI 判题；选择题能力已实现，但当前题库没有选择题。
+- 用户图片上传仍经函数中转。云端建议先使用约 3 MB 以下图片，页面的 5 MB 上限不代表 Vercel 可接收；后续改进方向是 Storage 签名直传与上传确认。
+- 持续完善云端并发事务、失败重试、性能与跨网络验证、定期备份及恢复演练；邀请奖励、新练习模式等暂未实现。
 
 ## 开发与验证
 
@@ -58,5 +93,5 @@ python -X utf8 -m pytest -q
 python -X utf8 scripts/start_local.py --check
 ```
 
-测试使用独立临时 SQLite 数据库，不改动现有作答或题库。部署配置、备份与已知边界见 [docs/deployment.md](docs/deployment.md)，当前开发记录见 [docs/development-2026-10-10.md](docs/development-2026-10-10.md)。
+测试使用独立临时 SQLite 数据库，不改动现有作答或题库。云端读取测试使用模拟响应，不替代真实部署的网络、邮件和并发验证。
 
