@@ -224,6 +224,8 @@ def health():
 
 @app.get("/api/v1/catalog")
 def catalog():
+    if hasattr(store, "catalog"):
+        return store.catalog()
     rows = filtered({})
     return {
         "total": len(rows),
@@ -392,19 +394,28 @@ def problems(request: Request, page: int = 1, page_size: int = 12):
         raise HTTPException(400, "分页参数无效。")
     user = current_user(request, False)
     with read_store(store) as reader:
-        rows = filtered(filters_for(request), reader)
+        if hasattr(store, "problem_page"):
+            result = store.problem_page(filters_for(request), page, page_size)
+            total, rows = result["total"], result["rows"]
+        else:
+            all_rows = filtered(filters_for(request), reader)
+            total = len(all_rows)
+            rows = all_rows[(page - 1) * page_size : page * page_size]
+        if hasattr(reader, "prepare_problems"):
+            reader.prepare_problems(rows, user)
         return {
-            "total": len(rows),
-            "items": [
-                public_problem(p, user, reader)
-                for p in rows[(page - 1) * page_size : page * page_size]
-            ],
+            "total": total,
+            "items": [public_problem(p, user, reader) for p in rows],
         }
 
 
 @app.get("/api/v1/problems/{pid}")
 def get_problem(pid: str, request: Request):
-    return public_problem(problem_or_404(pid), current_user(request, False))
+    p, user = problem_or_404(pid), current_user(request, False)
+    with read_store(store) as reader:
+        if hasattr(reader, "prepare_problems"):
+            reader.prepare_problems([p], user)
+        return public_problem(p, user, reader)
 
 
 def can_read_answer(user, pid):
@@ -426,7 +437,10 @@ def answer(pid: str, request: Request):
     a = store.get("problem_answers", problem_id=pid)
     if not a:
         raise HTTPException(404, "参考答案尚未整理。")
-    return {**a, "images": images_info(a["images"])}
+    with read_store(store) as reader:
+        if hasattr(reader, "prime"):
+            reader.prime("media_assets", a["images"])
+        return {**a, "images": images_info(a["images"], reader)}
 
 
 class GiveUpInput(BaseModel):
@@ -456,9 +470,14 @@ def give_up(pid: str, body: GiveUpInput, request: Request):
 def random_problem(
     request: Request, exclude: str | None = None, resume: str | None = None
 ):
-    return public_problem(
-        choose(filters_for(request), exclude, resume), current_user(request, False)
+    p, user = (
+        choose(filters_for(request), exclude, resume),
+        current_user(request, False),
     )
+    with read_store(store) as reader:
+        if hasattr(reader, "prepare_problems"):
+            reader.prepare_problems([p], user)
+        return public_problem(p, user, reader)
 
 
 @app.get("/api/v1/practice/daily")
@@ -479,7 +498,10 @@ def daily(request: Request, body: dict):
         {k: v for k, v in body.items() if k in ("year", "type", "tag", "q")},
     )
     p = problem_or_404(assignment["problem_id"])
-    return {"assignment": assignment, "problem": public_problem(p, user)}
+    with read_store(store) as reader:
+        if hasattr(reader, "prepare_problems"):
+            reader.prepare_problems([p], user)
+        return {"assignment": assignment, "problem": public_problem(p, user, reader)}
 
 
 @app.put("/api/v1/me/problems/{pid}/submission")
@@ -796,11 +818,18 @@ def media(aid: str, request: Request):
         raise HTTPException(404, "图片不存在。")
     allowed = bool(user and a["owner_id"] == user["id"] and a["purpose"] != "answer")
     if a["purpose"] in ("question", "answer"):
-        candidates = (
-            store.list("problems")
-            if a["purpose"] == "question"
-            else store.list("problem_answers")
-        )
+        if hasattr(store, "media_references"):
+            candidates = store.media_references(
+                "problems" if a["purpose"] == "question" else "problem_answers",
+                "question_images" if a["purpose"] == "question" else "images",
+                aid,
+            )
+        else:
+            candidates = (
+                store.list("problems")
+                if a["purpose"] == "question"
+                else store.list("problem_answers")
+            )
         for row in candidates:
             if aid in row.get("question_images", row.get("images", [])):
                 p = (
@@ -853,7 +882,10 @@ def admin_problems(request: Request):
     require_admin(request)
     with read_store(store) as reader:
         result = []
-        for p in reader.list("problems"):
+        rows = reader.list("problems")
+        if hasattr(reader, "prepare_problems"):
+            reader.prepare_problems(rows, admin=True)
+        for p in rows:
             answer = reader.get("problem_answers", problem_id=p["id"])
             result.append(
                 {

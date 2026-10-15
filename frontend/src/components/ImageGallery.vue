@@ -40,6 +40,8 @@ function retry(id: string) {
           :width="img.width"
           :height="img.height"
           :alt="`${label || '题目'} · 第 ${index + 1} 张`"
+          loading="lazy"
+          decoding="async"
           @error="fail(img.id)"
         /><span class="expand-hint"><Expand :size="14" /> 点击放大</span>
       </button>

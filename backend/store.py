@@ -3,6 +3,9 @@
 import json
 import sqlite3
 from contextlib import closing, contextmanager
+from copy import deepcopy
+from threading import Lock
+from time import monotonic
 
 import httpx
 
@@ -199,6 +202,8 @@ class LocalStoreView:
 
 class SupabaseStore:
     def __init__(self):
+        self._cache = {}
+        self._cache_lock = Lock()
         self.client = httpx.Client(
             base_url=config.SB_URL,
             headers={
@@ -261,7 +266,174 @@ class SupabaseStore:
         )
 
     def rpc(self, name, payload):
-        return self.request("POST", f"/rest/v1/rpc/{name}", json=payload)
+        result = self.request("POST", f"/rest/v1/rpc/{name}", json=payload)
+        if name == "save_problem":
+            with self._cache_lock:
+                self._cache.clear()
+        return result
+
+    def media_references(self, table, column, aid):
+        return self.request(
+            "GET",
+            "/rest/v1/" + table,
+            params={column: "cs." + json.dumps([aid]), "select": "*"},
+        )
+
+    def catalog(self):
+        # Cache public metadata only; never cache profiles or answer permissions.
+        with self._cache_lock:
+            cached = self._cache.get("catalog")
+            if cached and cached[0] > monotonic():
+                return deepcopy(cached[1])
+        rows = self.list("problems", status="published")
+        result = {
+            "total": len(rows),
+            "years": sorted({p["year"] for p in rows}, reverse=True),
+            "tags": sorted({t for p in rows for t in p["tags"]}),
+            "counts": {
+                t: sum(p["type"] == t for p in rows)
+                for t in ("blank", "solution", "choice")
+            },
+        }
+        with self._cache_lock:
+            self._cache["catalog"] = (monotonic() + 30, result)
+        return deepcopy(result)
+
+    def problem_page(self, filters, page, page_size):
+        # Keyword search retains the literal substring semantics of the local app.
+        # Other filters and pagination run in Postgres via PostgREST.
+        params = {
+            "status": "eq.published",
+            "select": "*",
+            "order": "year.desc,group_name.asc,id.asc",
+        }
+        for key in ("year", "type"):
+            if filters.get(key):
+                values = str(filters[key]).split(",")
+                if key == "year" and not all(v.isdigit() for v in values):
+                    return {"total": 0, "rows": []}
+                if key == "type" and not all(
+                    v in ("blank", "solution", "choice") for v in values
+                ):
+                    return {"total": 0, "rows": []}
+                params[key] = "in.(" + ",".join(values) + ")"
+        if filters.get("tag"):
+            params["tags"] = "ov." + json.dumps(
+                str(filters["tag"]).split(","), ensure_ascii=False
+            )
+        if filters.get("q"):
+            rows, offset = [], 0
+            while True:
+                part = self.request(
+                    "GET",
+                    "/rest/v1/problems",
+                    params={**params, "offset": offset, "limit": 500},
+                )
+                rows.extend(part)
+                if len(part) < 500:
+                    break
+                offset += 500
+            term = filters["q"].lower()
+            rows = [
+                p
+                for p in rows
+                if term
+                in (p["title"] + " " + p["id"] + " " + " ".join(p["tags"])).lower()
+            ]
+            return {
+                "total": len(rows),
+                "rows": rows[(page - 1) * page_size : page * page_size],
+            }
+        response = self.client.get(
+            "/rest/v1/problems",
+            params={**params, "offset": (page - 1) * page_size, "limit": page_size},
+            headers={"Prefer": "count=exact"},
+        )
+        response.raise_for_status()
+        return {
+            "total": int(response.headers["Content-Range"].rsplit("/", 1)[1]),
+            "rows": response.json(),
+        }
+
+    @contextmanager
+    def reader(self):
+        yield SupabaseReader(self)
+
+
+class SupabaseReader:
+    """Request-scoped batches; private rows are never shared between requests."""
+
+    def __init__(self, repository):
+        self.repository = repository
+        self.rows = {}
+
+    def list(self, table, **where):
+        key = (table, tuple(sorted(where.items())))
+        if key not in self.rows:
+            self.rows[key] = self.repository.list(table, **where)
+        return deepcopy(self.rows[key])
+
+    def prime(self, table, ids, key="id"):
+        ids = list(dict.fromkeys(ids))
+        found = []
+        # Bounded URLs and batches, including missing IDs so they aren't re-fetched.
+        for start in range(0, len(ids), 60):
+            values = ",".join(json.dumps(v) for v in ids[start : start + 60])
+            found.extend(
+                self.repository.request(
+                    "GET",
+                    "/rest/v1/" + table,
+                    params={key: "in.(" + values + ")", "select": "*", "limit": 60},
+                )
+            )
+        index = {row[key]: row for row in found}
+        for value in ids:
+            self.rows[(table, ((key, value),))] = (
+                [index[value]] if value in index else []
+            )
+
+    def prepare_problems(self, problems, user=None, admin=False):
+        self.prime("problem_sources", [p["source_id"] for p in problems])
+        assets = [aid for p in problems for aid in p["question_images"]]
+        if admin:
+            self.prime("problem_answers", [p["id"] for p in problems], "problem_id")
+            assets += [
+                aid
+                for p in problems
+                for aid in self.get("problem_answers", problem_id=p["id"])["images"]
+            ]
+        elif user:
+            ids = {p["id"] for p in problems}
+            for table in ("user_problem_progress", "answer_access"):
+                rows = self.list(table, user_id=user["id"])
+                index = {r["problem_id"]: r for r in rows if r["problem_id"] in ids}
+                for pid in ids:
+                    self.rows[
+                        (
+                            table,
+                            tuple(
+                                sorted(
+                                    {"user_id": user["id"], "problem_id": pid}.items()
+                                )
+                            ),
+                        )
+                    ] = [index[pid]] if pid in index else []
+                if table == "user_problem_progress":
+                    assets += [aid for r in index.values() for aid in r["image_ids"]]
+            likes = {
+                r["id"]: r
+                for r in self.list("likes", user_id=user["id"], kind="problem")
+            }
+            for pid in ids:
+                lid = user["id"] + ":problem:" + pid
+                self.rows[("likes", (("id", lid),))] = (
+                    [likes[lid]] if lid in likes else []
+                )
+        self.prime("media_assets", assets)
+
+    def get(self, table, **where):
+        rows = self.list(table, **where)
+        return rows[0] if rows else None
 
 
 store = LocalStore() if config.MODE == "local" else SupabaseStore()
