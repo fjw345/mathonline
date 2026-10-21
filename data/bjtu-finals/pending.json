@@ -1,0 +1,24 @@
+{
+  "note": "待补/待核对材料，不可直接导入",
+  "problems": [
+    {
+      "id": "bjtu-final-probability-2021-s01-q04",
+      "course": "probability",
+      "year": 2021,
+      "original_number": "1.4",
+      "type": "choice",
+      "notes": [],
+      "question": [
+        "devided-math/北交大历年期末真题/概率论/2021/题目/一4.png"
+      ],
+      "answer": [
+        "devided-math/北交大历年期末真题/概率论/2021/答案/一4.png"
+      ],
+      "disposition": "pending",
+      "reasons": [
+        "正确选项尚未确认",
+        "题图没有选项，需核对是否漏截选项或原题为填空；暂不配置判题。"
+      ]
+    }
+  ]
+}

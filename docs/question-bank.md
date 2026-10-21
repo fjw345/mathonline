@@ -28,6 +28,26 @@ python -X utf8 scripts/import_bank.py data/nonmath-manifest.json
 
 管理页“导出清单”导出题库元数据和现有图片 ID 引用，“导入清单”可将其导入同一资产库，并同样保护人工修订。迁移到另一台电脑时必须同时备份/复制资产与数据库，单独 JSON 不是完整图片题库备份。
 
+## 北交期末题库
+
+`data/bjtu-finals/` 按微积分上、微积分下、概率论、线性代数生成四份导入清单。当前盘点 31 份试卷、1,206 张截图，其中 552 道题可导入，1 道题因截图未显示选项而暂存于 `pending.json`。详细数量、年份、待核对题号和导入命令见 [清单说明](../data/bjtu-finals/REPORT.md)。生成清单不会上传图片或修改数据库。
+
+```powershell
+python -X utf8 scripts/build_bjtu_final_manifest.py
+```
+
+已有输出时默认停止。题型、选择题答案和少数文件名映射维护在 `data/bjtu-final-config.json`；修改后先保存对清单的人工编辑，再使用 `--replace` 重新生成。选择题按配套答案配置单选或多选；填空题、解答题均自检。原始截图保持不变。
+
+题目保留原卷大题、小题层级，图片按上、中、下排序；稳定 ID 不随增补其他题目变化。四个题库标签为“北交期末·微积分上”“北交期末·微积分下”“北交期末·概率论”“北交期末·线性代数”，导入后可在网页筛选。
+
+只有 `*-manifest.json` 可交给 `scripts/import_bank.py`。`inventory.json` 记录全部截图对应关系，`pending.json` 保存待补或待核对素材，两者均不能直接导入。无素材的空年份目录不计作试卷。生成器会拒绝未配置的新年份，扩充时需同步补充配置；重新导入仍保护网页人工修订，清单之外的题目不会删除。
+
+离线校验命令：
+
+```powershell
+python -X utf8 -m unittest discover -s tests -p test_bjtu_final_manifest.py
+```
+
 ## 用户反馈与核查
 
 题目默认发布，原首批未人工修订的草稿自动改为已发布，不改变题目版本、答案查看权限和学习记录；手动保存的草稿与已下架题目保持原状态。旧首批清单重复导入不会恢复为草稿。默认只展示已发布题目，`LOCAL_PREVIEW_DRAFTS=true` 可选启用本地草稿预览。

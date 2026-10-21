@@ -1,0 +1,745 @@
+{
+  "schema_version": 1,
+  "note": "题型按逐卷截图确认。choice_keys 按原题序列出，支持单字母串或每题选项字符串列表；? 表示待确认。键值由配套答案字母或答案表达式与选项对照录入。未进行全面数学审校；不改写原图。",
+  "courses": {
+    "calculus1": {
+      "folder": "微积分上",
+      "name": "微积分上",
+      "exams": {
+        "2016": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": "AABCA"
+            },
+            "2": {
+              "type": "blank"
+            }
+          }
+        },
+        "2017": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": "ABBAD"
+            },
+            "2": {
+              "type": "blank"
+            }
+          }
+        },
+        "2018": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": "DDDCD"
+            },
+            "2": {
+              "type": "blank"
+            }
+          }
+        },
+        "2019": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": "CAADC"
+            },
+            "2": {
+              "type": "blank"
+            }
+          }
+        },
+        "2020": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": "ADBCD"
+            },
+            "2": {
+              "type": "blank"
+            }
+          }
+        },
+        "2021": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": "DDCCC"
+            },
+            "2": {
+              "type": "blank"
+            }
+          }
+        },
+        "2022": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": "DBBBD"
+            },
+            "2": {
+              "type": "blank"
+            }
+          }
+        },
+        "2023": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": "ABDBC"
+            },
+            "2": {
+              "type": "blank"
+            }
+          }
+        },
+        "2024": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": "CCBCB"
+            },
+            "2": {
+              "type": "blank"
+            }
+          }
+        }
+      }
+    },
+    "calculus2": {
+      "folder": "微积分下",
+      "name": "微积分下",
+      "exams": {
+        "2017": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": "ACDDC"
+            },
+            "2": {
+              "type": "blank"
+            }
+          }
+        },
+        "2018": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": "CADAC"
+            },
+            "2": {
+              "type": "blank"
+            }
+          }
+        },
+        "2019": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": "BCCDB"
+            },
+            "2": {
+              "type": "blank"
+            }
+          }
+        },
+        "2020": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": "BDCAC"
+            },
+            "2": {
+              "type": "blank"
+            }
+          }
+        },
+        "2021": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": "ACDCC"
+            },
+            "2": {
+              "type": "blank"
+            }
+          }
+        },
+        "2022": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": "DBCDB"
+            },
+            "2": {
+              "type": "blank"
+            }
+          }
+        },
+        "2023": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": "CCCDB"
+            },
+            "2": {
+              "type": "blank"
+            }
+          }
+        }
+      }
+    },
+    "probability": {
+      "folder": "概率论",
+      "name": "概率论",
+      "exams": {
+        "2018": {
+          "sections": {}
+        },
+        "2019": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "choice_keys": "CBCCBDCBAA"
+            },
+            "2": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": [
+                "AB",
+                "D",
+                "D",
+                "C",
+                "A"
+              ]
+            }
+          }
+        },
+        "2020": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "choice_keys": "DCBDBCDBDCCCDAD"
+            }
+          }
+        },
+        "2021": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "choice_keys": "BBD?CADDCA"
+            },
+            "2": {
+              "type": "choice",
+              "numbers": [
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "choice_keys": "BBCAA"
+            }
+          }
+        },
+        "2022": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "choice_keys": "CDCCBACBAB"
+            },
+            "2": {
+              "type": "choice",
+              "numbers": [
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "choice_keys": "CCAAB"
+            }
+          }
+        },
+        "2023": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "choice_keys": "ACACACCBCA"
+            },
+            "2": {
+              "type": "choice",
+              "numbers": [
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "choice_keys": "BDCBD"
+            }
+          }
+        },
+        "2024": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "choice_keys": "BDDBBCBBDD"
+            },
+            "2": {
+              "type": "choice",
+              "numbers": [
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "choice_keys": "AABCD"
+            }
+          }
+        }
+      }
+    },
+    "linear-algebra": {
+      "folder": "线代",
+      "name": "线性代数",
+      "exams": {
+        "2016": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": "CBDDC"
+            },
+            "2": {
+              "type": "blank"
+            }
+          }
+        },
+        "2017": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": "ACCDB"
+            },
+            "2": {
+              "type": "blank"
+            }
+          }
+        },
+        "2018": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": "DCBAB"
+            },
+            "2": {
+              "type": "blank"
+            }
+          }
+        },
+        "2019": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "choice_keys": "CCABDACBAB"
+            },
+            "2": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "choice_keys": "CABDD"
+            }
+          }
+        },
+        "2020": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "choice_keys": "CACBBDCBBC"
+            },
+            "2": {
+              "type": "choice",
+              "numbers": [
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "choice_keys": "DBBCD"
+            }
+          }
+        },
+        "2022": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "choice_keys": "ABACCCCCBD"
+            },
+            "2": {
+              "type": "choice",
+              "numbers": [
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "choice_keys": "BDDBB"
+            }
+          }
+        },
+        "2023": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "choice_keys": "CACDCCDBAD"
+            },
+            "2": {
+              "type": "choice",
+              "numbers": [
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "choice_keys": "ABCDD"
+            }
+          }
+        },
+        "2024": {
+          "sections": {
+            "1": {
+              "type": "choice",
+              "numbers": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "choice_keys": "BCBBBBDCBC"
+            },
+            "2": {
+              "type": "blank"
+            }
+          }
+        }
+      }
+    }
+  },
+  "aliases": [
+    {
+      "course": "probability",
+      "year": 2021,
+      "role": "answer",
+      "stem": "六19",
+      "label": "6",
+      "note": "已对照题图：同为第六大题离散分布的极大似然、矩估计及样本代入，19 为连续题号。"
+    },
+    {
+      "course": "probability",
+      "year": 2022,
+      "role": "answer",
+      "stem": "三16",
+      "label": "3",
+      "note": "已对照题图：同为 X=e^Y 服从指数分布，求 Y 的概率密度，16 为连续题号。"
+    }
+  ],
+  "singleton_parts": [
+    {
+      "course": "calculus1",
+      "year": 2019,
+      "role": "answer",
+      "stem": "三上",
+      "note": "截图含多种完整积分解法，单片保留；未发现还需下片才能给出结果。"
+    },
+    {
+      "course": "calculus1",
+      "year": 2019,
+      "role": "answer",
+      "stem": "四下",
+      "note": "截图含分段方程的两个区间解及合并结果，单片保留。"
+    }
+  ],
+  "issues": {
+    "bjtu-final-probability-2021-s01-q04": "题图没有选项，需核对是否漏截选项或原题为填空；暂不配置判题。"
+  }
+}
