@@ -37,15 +37,22 @@ function imageFallback(event: Event, id: string) {
         >{{ problem.year }} <ArrowUpRight :size="17"
       /></span>
     </div>
-    <div ref="preview" class="card-image">
-      <img
-        v-if="visible && problem.question_images[0]"
-        :src="problem.question_images[0].url"
-        :alt="problem.title + '题干预览'"
-        loading="lazy"
-        decoding="async"
-        @error="imageFallback($event, problem.question_images[0].id)"
-      />
+    <div
+      ref="preview"
+      class="card-image"
+      :class="{ 'multipart-preview': problem.question_images.length > 1 }"
+    >
+      <template v-if="visible">
+        <img
+          v-for="(img, index) in problem.question_images"
+          :key="img.id"
+          :src="img.url"
+          :alt="problem.title + '题干预览'"
+          loading="lazy"
+          decoding="async"
+          @error="imageFallback($event, img.id)"
+        />
+      </template>
     </div>
     <h3>{{ problem.title }}</h3>
     <div class="card-foot">
@@ -67,3 +74,17 @@ function imageFallback(event: Event, id: string) {
     </div></RouterLink
   >
 </template>
+<style scoped>
+.multipart-preview {
+  flex-direction: column;
+  gap: 4px;
+  overflow-y: auto;
+  justify-content: flex-start;
+}
+.multipart-preview img {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  max-height: none;
+}
+</style>

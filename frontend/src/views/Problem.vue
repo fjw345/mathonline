@@ -560,7 +560,7 @@ async function comment(s: Solution) {
         :disabled="busy || loading || filtersPending"
         @click="next"
       >
-        <Shuffle :size="17" />换一题
+        <ArrowRight :size="17" />下一题
       </button>
     </div>
     <PracticeFilterForm
@@ -795,6 +795,15 @@ async function comment(s: Solution) {
               }}</small
             >
           </section>
+          <div v-if="random" class="editor-actions">
+            <button
+              class="button primary"
+              :disabled="busy || loading || filtersPending"
+              @click="next"
+            >
+              下一题<ArrowRight :size="17" />
+            </button>
+          </div>
           <section class="paper-card reference">
             <button
               class="reference-heading"

@@ -7,12 +7,15 @@ const dialog = ref<HTMLDialogElement>();
 const selected = ref<ImageAsset>();
 const failed = ref(new Set<string>());
 const retryKey = ref(0);
+const fallbacks = ref(new Set<string>());
 function open(img: ImageAsset) {
   selected.value = img;
   dialog.value?.showModal();
 }
-function fail(id: string) {
-  failed.value.add(id);
+function fail(img: ImageAsset) {
+  if (!fallbacks.value.has(img.id) && !img.url.startsWith("/api/v1/media/")) {
+    fallbacks.value.add(img.id);
+  } else failed.value.add(img.id);
 }
 function retry(id: string) {
   failed.value.delete(id);
@@ -36,13 +39,13 @@ function retry(id: string) {
       >
         <img
           :key="retryKey"
-          :src="img.url"
+          :src="fallbacks.has(img.id) ? '/api/v1/media/' + img.id : img.url"
           :width="img.width"
           :height="img.height"
           :alt="`${label || '题目'} · 第 ${index + 1} 张`"
           loading="lazy"
           decoding="async"
-          @error="fail(img.id)"
+          @error="fail(img)"
         /><span class="expand-hint"><Expand :size="14" /> 点击放大</span>
       </button>
       <small v-if="images.length > 1" class="piece-number"
