@@ -26,6 +26,7 @@ const loading = ref(true),
 const nickname = ref("");
 const settings = ref(false),
   saving = ref(false);
+const mastering = ref<string[]>([]);
 const tabs = [
   { id: "history", label: "练习记录" },
   { id: "mistakes", label: "错题" },
@@ -57,6 +58,25 @@ async function logout() {
     toast("已退出登录");
   } catch (e) {
     toast((e as Error).message, true);
+  }
+}
+async function master(p: Problem) {
+  mastering.value.push(p.id);
+  try {
+    await api("/me/mistakes/" + encodeURIComponent(p.id), { method: "DELETE" });
+    items.value = items.value.filter((item) => item.id !== p.id);
+    total.value = Math.max(0, total.value - 1);
+    state.stats.mistakes = Math.max(0, state.stats.mistakes - 1);
+    toast("已移出错题");
+    if (page.value > 1 && page.value > Math.ceil(total.value / 12)) {
+      page.value--;
+    } else {
+      await load();
+    }
+  } catch (e) {
+    toast((e as Error).message, true);
+  } finally {
+    mastering.value = mastering.value.filter((id) => id !== p.id);
   }
 }
 async function load() {
@@ -157,7 +177,7 @@ async function read(n: Notification) {
       </div>
       <div>
         <Flag :size="21" /><strong>{{ state.stats.mistakes }}</strong
-        ><span>曾做错</span>
+        ><span>待复习错题</span>
       </div>
       <div>
         <Sun :size="21" /><strong>{{ state.stats.checkins }}</strong
@@ -177,7 +197,7 @@ async function read(n: Notification) {
       </button>
     </div>
     <p v-if="tab === 'mistakes'" class="muted small-text">
-      曾做错的题目会保留，重做正确后也不移除。
+      答错或点过“不会”的题目在这里复习，掌握后可移出。
     </p>
     <div v-if="loading" class="loading-panel">加载中…</div>
     <div v-else-if="error" class="empty-state">
@@ -186,7 +206,17 @@ async function read(n: Notification) {
     </div>
     <template v-else
       ><div v-if="items.length" class="card-grid">
-        <ProblemCard v-for="p in items" :key="p.id" :problem="p" />
+        <div v-for="p in items" :key="p.id" class="learning-item">
+          <ProblemCard :problem="p" />
+          <button
+            v-if="tab === 'mistakes'"
+            class="button small"
+            :disabled="mastering.includes(p.id)"
+            @click="master(p)"
+          >
+            <Check :size="16" />已掌握，移出错题
+          </button>
+        </div>
       </div>
       <div v-for="s in solutions" :key="s.id" class="paper-card saved-solution">
         <div class="inline">
@@ -262,3 +292,14 @@ async function read(n: Notification) {
     ></template
   >
 </template>
+<style scoped>
+.learning-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+.learning-item .problem-card {
+  flex: 1;
+}
+</style>

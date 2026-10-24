@@ -28,6 +28,7 @@ BOOL_FIELDS = {
     "ever_correct",
     "ever_incorrect",
     "is_read",
+    "active",
 }
 TABLES = {
     "profiles",
@@ -39,6 +40,7 @@ TABLES = {
     "user_problem_progress",
     "daily_assignments",
     "answer_access",
+    "user_mistakes",
     "media_assets",
     "solutions",
     "comments",

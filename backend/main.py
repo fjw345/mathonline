@@ -6,7 +6,16 @@ from typing import Literal
 from uuid import uuid4
 
 import httpx
-from fastapi import FastAPI, File, Form, HTTPException, Query, Request, Response, UploadFile
+from fastapi import (
+    FastAPI,
+    File,
+    Form,
+    HTTPException,
+    Query,
+    Request,
+    Response,
+    UploadFile,
+)
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
@@ -358,6 +367,40 @@ def change_password(body: dict, request: Request):
     return {"ok": True}
 
 
+def missing_mistake_table(exc):
+    if exc.response.status_code not in (400, 404):
+        return False
+    try:
+        return exc.response.json().get("code") in ("PGRST205", "42P01")
+    except (ValueError, AttributeError):
+        return False
+
+
+def mistake_rows(user, states=None):
+    try:
+        return store.list("user_mistakes", user_id=user["id"], active=True)
+    except httpx.HTTPStatusError as exc:
+        if not missing_mistake_table(exc):
+            raise
+    # Rolling deployment: keep reads available until the new migration is applied.
+    states = (
+        states
+        if states is not None
+        else store.list("user_problem_progress", user_id=user["id"])
+    )
+    rows = {
+        p["problem_id"]: {"problem_id": p["problem_id"], "updated_at": p["last_at"]}
+        for p in states
+        if p["ever_incorrect"]
+    }
+    for access in store.list("answer_access", user_id=user["id"]):
+        rows.setdefault(
+            access["problem_id"],
+            {"problem_id": access["problem_id"], "updated_at": access["created_at"]},
+        )
+    return list(rows.values())
+
+
 @app.get("/api/v1/me")
 def me(request: Request):
     user = current_user(request, False)
@@ -370,7 +413,7 @@ def me(request: Request):
         "stats": {
             "practiced": len(states),
             "correct": sum(p["ever_correct"] for p in states),
-            "mistakes": sum(p["ever_incorrect"] for p in states),
+            "mistakes": len(mistake_rows(user, states)),
             "checkins": sum(bool(d["completed_at"]) for d in days),
         },
         "daily": next((d for d in days if d["local_date"] == today()), None),
@@ -545,12 +588,14 @@ def assess(pid: str, body: Assessment, request: Request):
 @app.get("/api/v1/me/history")
 def history(request: Request, scope: str = "all", page: int = 1):
     user = current_user(request)
-    states = store.list("user_problem_progress", user_id=user["id"])
     if scope == "mistakes":
-        states = [p for p in states if p["ever_incorrect"]]
-    if scope == "recent_mistakes":
-        states = [p for p in states if p["result"] == "incorrect"]
-    states.sort(key=lambda p: p["last_at"], reverse=True)
+        states = mistake_rows(user)
+        states.sort(key=lambda p: p["updated_at"], reverse=True)
+    else:
+        states = store.list("user_problem_progress", user_id=user["id"])
+        if scope == "recent_mistakes":
+            states = [p for p in states if p["result"] == "incorrect"]
+        states.sort(key=lambda p: p["last_at"], reverse=True)
     rows = [store.get("problems", id=p["problem_id"]) for p in states]
     rows = [p for p in rows if p and visible(p)]
     return {
@@ -559,6 +604,32 @@ def history(request: Request, scope: str = "all", page: int = 1):
             public_problem(p, user) for p in rows[max(0, page - 1) * 12 : page * 12]
         ],
     }
+
+
+@app.delete("/api/v1/me/mistakes/{pid}")
+def master_mistake(pid: str, request: Request):
+    user = current_user(request)
+    # Update only membership; do not manufacture a correct submission or remove history.
+    try:
+        existing = store.get("user_mistakes", user_id=user["id"], problem_id=pid)
+    except httpx.HTTPStatusError as exc:
+        if missing_mistake_table(exc):
+            raise HTTPException(
+                503, "错题移出功能待管理员完成数据库更新，请稍后重试。"
+            ) from exc
+        raise
+    if existing:
+        store.put(
+            "user_mistakes",
+            {
+                "id": user["id"] + ":" + pid,
+                "user_id": user["id"],
+                "problem_id": pid,
+                "active": False,
+                "updated_at": now(),
+            },
+        )
+    return {"ok": True}
 
 
 @app.get("/api/v1/me/likes")

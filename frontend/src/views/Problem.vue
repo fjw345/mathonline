@@ -339,7 +339,7 @@ async function giveUp() {
     saveDraft();
     await showAnswer();
     if (seq !== sequence) return;
-    toast("答案已解锁，草稿已保留");
+    toast("已加入错题，答案已解锁");
   });
 }
 async function submit() {

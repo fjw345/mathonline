@@ -26,3 +26,43 @@ CREATE INDEX IF NOT EXISTS solution_visibility ON solutions(problem_id,status);
 CREATE INDEX IF NOT EXISTS comment_visibility ON comments(solution_id,status);
 CREATE INDEX IF NOT EXISTS notification_inbox ON notifications(user_id,is_read);
 
+-- The review list is independent of historical results and answer permissions.
+CREATE TABLE IF NOT EXISTS user_mistakes (
+ id TEXT PRIMARY KEY,
+ user_id TEXT NOT NULL REFERENCES profiles(id),
+ problem_id TEXT NOT NULL REFERENCES problems(id),
+ active INTEGER NOT NULL DEFAULT 1 CHECK(active IN (0,1)),
+ updated_at TEXT NOT NULL,
+ UNIQUE(user_id,problem_id)
+);
+CREATE INDEX IF NOT EXISTS mistakes_active ON user_mistakes(user_id,active,updated_at);
+CREATE INDEX IF NOT EXISTS mistakes_problem ON user_mistakes(problem_id);
+CREATE TRIGGER IF NOT EXISTS mistake_give_up_insert AFTER INSERT ON answer_access
+BEGIN
+ INSERT INTO user_mistakes VALUES (NEW.id,NEW.user_id,NEW.problem_id,1,NEW.created_at)
+ ON CONFLICT(user_id,problem_id) DO UPDATE SET active=1,updated_at=excluded.updated_at;
+END;
+CREATE TRIGGER IF NOT EXISTS mistake_give_up_update AFTER UPDATE ON answer_access
+BEGIN
+ INSERT INTO user_mistakes VALUES (NEW.id,NEW.user_id,NEW.problem_id,1,NEW.created_at)
+ ON CONFLICT(user_id,problem_id) DO UPDATE SET active=1,updated_at=excluded.updated_at;
+END;
+CREATE TRIGGER IF NOT EXISTS mistake_incorrect_insert AFTER INSERT ON user_problem_progress
+WHEN NEW.result='incorrect'
+BEGIN
+ INSERT INTO user_mistakes VALUES (NEW.id,NEW.user_id,NEW.problem_id,1,NEW.last_at)
+ ON CONFLICT(user_id,problem_id) DO UPDATE SET active=1,updated_at=excluded.updated_at;
+END;
+CREATE TRIGGER IF NOT EXISTS mistake_incorrect_update AFTER UPDATE ON user_problem_progress
+WHEN NEW.result='incorrect' AND (OLD.result<>NEW.result OR OLD.revision<>NEW.revision)
+BEGIN
+ INSERT INTO user_mistakes VALUES (NEW.id,NEW.user_id,NEW.problem_id,1,NEW.last_at)
+ ON CONFLICT(user_id,problem_id) DO UPDATE SET active=1,updated_at=excluded.updated_at;
+END;
+-- Preserve mastery on restarts; only seed records that have never been tracked.
+INSERT OR IGNORE INTO user_mistakes
+ SELECT id,user_id,problem_id,1,last_at FROM user_problem_progress WHERE ever_incorrect=1;
+INSERT OR IGNORE INTO user_mistakes
+ SELECT id,user_id,problem_id,1,created_at FROM answer_access;
+INSERT OR IGNORE INTO schema_migrations VALUES (6);
+
