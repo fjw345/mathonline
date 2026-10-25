@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onBeforeUnmount, ref, watch } from "vue";
+import { computed, nextTick, onBeforeUnmount, ref, watch } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import {
   ArrowLeft,
@@ -13,7 +13,11 @@ import {
   Sun,
   Send,
   MessageSquare,
-  ChevronDown,
+  CircleCheckBig,
+  CircleX,
+  PanelRightOpen,
+  PanelRightClose,
+  Pencil,
   CircleHelp,
   LockKeyhole,
 } from "lucide-vue-next";
@@ -73,6 +77,49 @@ const assignment = ref<DailyAssignment>();
 const selectedFilters = ref<PracticeFilters>({});
 const dailyAttempted = ref(false);
 const answerUnlocked = computed(() => !!problem.value?.answer_unlocked);
+const previewSubmission = ref(false);
+const gaveUp = ref(false);
+const reviewArea = ref<HTMLElement>();
+const answerToggle = ref<HTMLButtonElement>();
+const resultFeedback = computed(() => {
+  const p = problem.value?.progress;
+  if (gaveUp.value)
+    return {
+      kind: "pending",
+      icon: CircleHelp,
+      title: "已加入错题",
+      detail: "草稿已保留，可对照参考答案继续学习。",
+    };
+  if (!p) return undefined;
+  if (p.outdated)
+    return {
+      kind: "pending",
+      icon: CircleHelp,
+      title: "题目已更新",
+      detail: "原作答保留，请重新作答并核对。",
+    };
+  if (p.result === "pending")
+    return {
+      kind: "pending",
+      icon: CircleHelp,
+      title: "已提交，待自检",
+      detail: "对照参考答案后，选择正确或错误。",
+    };
+  const self = p.result_source === "self_assessment";
+  return p.result === "correct"
+    ? {
+        kind: "correct",
+        icon: CircleCheckBig,
+        title: self ? "自检正确" : "回答正确",
+        detail: "本次结果已保存。",
+      }
+    : {
+        kind: "incorrect",
+        icon: CircleX,
+        title: self ? "自检错误" : "回答错误",
+        detail: "已加入错题，可对照参考答案复习。",
+      };
+});
 let sequence = 0;
 let draftContext:
   | {
@@ -123,6 +170,8 @@ onBeforeUnmount(() => {
   ++sequence;
 });
 function setProblem(data: Problem, key?: string, draft?: PracticeDraft) {
+  previewSubmission.value = !!data.progress && !data.progress.outdated;
+  gaveUp.value = false;
   feedbackOpen.value = false;
   feedbackKind.value = "incomplete";
   feedbackDetail.value = "";
@@ -149,6 +198,14 @@ function setProblem(data: Problem, key?: string, draft?: PracticeDraft) {
     solutionImages.value = draft.solutionImages;
     editingVersion.value = draft.editingVersion;
     draftVersion.value = draft.problemVersion;
+    if (
+      draft.text !== data.progress?.text ||
+      draft.images.map((img) => img.id).join() !==
+        data.progress?.image_ids.join() ||
+      (data.type === "choice" &&
+        draft.options.join(", ") !== data.progress?.text)
+    )
+      previewSubmission.value = false;
   }
   if (key) {
     draftContext = {
@@ -287,7 +344,26 @@ async function applyFilters(filters: PracticeFilters) {
 }
 function hydrate(p: Problem) {
   text.value = p.progress?.text || "";
-  images.value = p.progress?.images || [];
+  images.value = [...(p.progress?.images || [])];
+  options.value = p.type === "choice" ? p.progress?.text.split(", ") || [] : [];
+}
+async function revealReview() {
+  await nextTick();
+  const bounds = reviewArea.value?.getBoundingClientRect();
+  if (bounds && (bounds.top < 120 || bounds.top > window.innerHeight / 2))
+    reviewArea.value?.scrollIntoView({ block: "start" });
+}
+async function editSubmission() {
+  previewSubmission.value = false;
+  answerOpen.value = false;
+  gaveUp.value = false;
+  await nextTick();
+  reviewArea.value?.querySelector<HTMLElement>("textarea, input")?.focus();
+}
+async function closeAnswer() {
+  answerOpen.value = false;
+  await nextTick();
+  answerToggle.value?.focus({ preventScroll: true });
 }
 function login() {
   const destination = daily.value
@@ -321,6 +397,10 @@ async function toggleAnswer() {
     answerOpen.value = false;
     return;
   }
+  if (answer.value) {
+    answerOpen.value = true;
+    return;
+  }
   await action(showAnswer);
 }
 async function giveUp() {
@@ -336,7 +416,10 @@ async function giveUp() {
     });
     if (seq !== sequence) return;
     problem.value = data;
+    gaveUp.value = true;
     saveDraft();
+    await revealReview();
+    if (seq !== sequence) return;
     await showAnswer();
     if (seq !== sequence) return;
     toast("已加入错题，答案已解锁");
@@ -366,11 +449,22 @@ async function submit() {
     draftVersion.value = data.version;
     problem.value = data;
     hydrate(data);
+    previewSubmission.value = true;
+    gaveUp.value = false;
     saveDraft();
+    await revealReview();
+    if (seq !== sequence) return;
     await showAnswer();
     await loadMe();
     if (seq !== sequence) return;
-    toast(p.type === "choice" ? "答案已核对" : "作答已保存，请核对答案并自检");
+    toast(
+      p.type === "choice"
+        ? data.progress?.result === "correct"
+          ? "回答正确"
+          : "回答错误，已加入错题"
+        : "作答已保存，请核对答案并自检",
+      p.type === "choice" && data.progress?.result === "incorrect",
+    );
   });
 }
 async function assess(result: string) {
@@ -384,10 +478,16 @@ async function assess(result: string) {
     );
     if (seq !== sequence) return;
     problem.value = data;
+    gaveUp.value = false;
+    await revealReview();
+    if (seq !== sequence) return;
     const me = await loadMe();
     if (seq !== sequence) return;
     if (daily.value) assignment.value = me.daily;
-    toast(result === "correct" ? "已标记正确" : "已记入错题");
+    toast(
+      result === "correct" ? "已标记正确" : "已记入错题",
+      result === "incorrect",
+    );
   });
 }
 async function next() {
@@ -695,105 +795,260 @@ async function comment(s: Solution) {
               </form>
             </div>
           </section>
-          <section class="paper-card answer-editor">
-            <div class="section-heading compact">
-              <h2>我的作答</h2>
-              <span class="chip neutral">{{
-                problem.type === "choice" ? "自动判分" : "自检"
-              }}</span>
-            </div>
-            <p v-if="problem.progress" class="submission-status" role="status">
-              {{
-                problem.progress.outdated
-                  ? "题目已更新"
-                  : statusName(problem.progress.result)
-              }}
-              ·
-              {{
-                problem.progress.result_source === "self_assessment"
-                  ? "自检结果"
-                  : "自动判分"
-              }}
-            </p>
-            <p v-if="problem.progress?.outdated" class="form-warning">
-              题目或答案已更新，原记录保留。请重新作答并核对。
-            </p>
-            <p v-else-if="draftOutdated" class="form-warning">
-              题目已更新，草稿保留。请核对后提交。
-            </p>
-            <div v-if="problem.type === 'choice'" class="option-list">
-              <label v-for="option in problem.choice_options" :key="option"
-                ><input
-                  :checked="options.includes(option)"
-                  :type="problem.multiple ? 'checkbox' : 'radio'"
-                  :value="option"
-                  :name="problem.multiple ? undefined : 'choice'"
-                  @change="
-                    problem.multiple
-                      ? (options = options.includes(option)
-                          ? options.filter((o) => o !== option)
-                          : [...options, option])
-                      : (options = [option])
-                  "
-                /><span>{{ option }}</span></label
+          <section
+            ref="reviewArea"
+            class="review-workspace"
+            aria-label="作答与参考答案对照"
+          >
+            <div class="review-toolbar">
+              <h2>作答对照</h2>
+              <button
+                ref="answerToggle"
+                class="button answer-toggle"
+                :disabled="busy || !answerUnlocked"
+                :aria-expanded="answerOpen"
+                aria-controls="reference-panel"
+                @click="toggleAnswer"
               >
+                <LockKeyhole v-if="!answerUnlocked" :size="18" />
+                <PanelRightClose v-else-if="answerOpen" :size="18" />
+                <PanelRightOpen v-else :size="18" />
+                {{
+                  !answerUnlocked
+                    ? "参考答案待解锁"
+                    : answerOpen
+                      ? "收起参考答案"
+                      : "显示参考答案"
+                }}
+              </button>
             </div>
-            <template v-else
-              ><label for="submission" class="small-text muted"
-                >填写答案或上传解题过程</label
-              ><textarea
-                id="submission"
-                v-model="text"
-                rows="5"
-                maxlength="20000"
-                placeholder="输入答案或解题过程"
-              ></textarea>
-              <div v-if="images.length" class="upload-previews">
-                <div v-for="img in images" :key="img.id">
-                  <img :src="img.url" alt="我的作答图片" /><button
-                    aria-label="移除作答图片"
-                    @click="images = images.filter((i) => i.id !== img.id)"
-                  >
-                    <X :size="13" />
-                  </button>
-                </div></div
-            ></template>
-            <div class="editor-actions">
-              <label
-                v-if="problem.type !== 'choice'"
-                class="button upload-label"
-                :class="{ disabled: busy || !state.user }"
-                ><Upload :size="16" />上传图片<input
-                  type="file"
-                  multiple
-                  accept="image/jpeg,image/png,image/webp"
-                  :disabled="busy || !state.user"
-                  @change="files($event, 'submission')"
-              /></label>
-              <div class="submission-buttons">
-                <button class="button" :disabled="busy" @click="giveUp">
-                  <CircleHelp :size="16" />不会
-                </button>
-                <button class="button primary" :disabled="busy" @click="submit">
-                  {{
-                    busy
-                      ? "处理中…"
-                      : !state.user
-                        ? "登录后提交"
-                        : problem.progress
-                          ? "重新提交作答"
-                          : "提交作答"
-                  }}<ArrowRight :size="16" />
-                </button>
-              </div>
-            </div>
-            <small class="muted"
-              >作答仅自己可见。{{
-                problem.type === "choice"
-                  ? "提交后自动判分。"
-                  : "最多 5 张图片；重新提交后需再次自检。"
-              }}</small
+            <p v-if="!answerUnlocked" class="answer-lock-note">
+              提交作答或点击“不会”后可查看参考答案。
+            </p>
+            <div
+              class="review-columns"
+              :class="{ 'has-reference': answerOpen && answer }"
             >
+              <section
+                class="paper-card answer-editor"
+                aria-labelledby="my-answer-heading"
+              >
+                <div class="section-heading compact">
+                  <h2 id="my-answer-heading">我的作答</h2>
+                  <span class="chip neutral">{{
+                    problem.type === "choice" ? "自动判分" : "自检"
+                  }}</span>
+                </div>
+                <div
+                  v-if="resultFeedback"
+                  :key="`${problem.id}:${problem.progress?.revision}:${resultFeedback.title}`"
+                  class="result-feedback"
+                  :class="resultFeedback.kind"
+                  role="status"
+                  aria-live="polite"
+                  aria-atomic="true"
+                >
+                  <component
+                    :is="resultFeedback.icon"
+                    :size="32"
+                    aria-hidden="true"
+                  />
+                  <div>
+                    <strong>{{ resultFeedback.title }}</strong>
+                    <p>{{ resultFeedback.detail }}</p>
+                  </div>
+                </div>
+                <p v-if="problem.progress?.outdated" class="form-warning">
+                  题目或答案已更新，原记录保留。请重新作答并核对。
+                </p>
+                <p v-else-if="draftOutdated" class="form-warning">
+                  题目已更新，草稿保留。请核对后提交。
+                </p>
+                <div
+                  v-if="previewSubmission && problem.progress"
+                  class="submission-preview"
+                >
+                  <div class="submission-preview-heading">
+                    <span class="small-text muted"
+                      >已提交的作答 · 仅自己可见</span
+                    >
+                    <button
+                      class="button small"
+                      :disabled="busy"
+                      @click="editSubmission"
+                    >
+                      <Pencil :size="16" />编辑作答
+                    </button>
+                  </div>
+                  <p
+                    v-if="problem.progress.text"
+                    class="preserve-text submitted-text"
+                  >
+                    {{ problem.type === "choice" ? "我的选项：" : ""
+                    }}{{ problem.progress.text }}
+                  </p>
+                  <ImageGallery
+                    :images="problem.progress.images"
+                    label="我的作答"
+                  />
+                </div>
+                <template v-else>
+                  <p
+                    v-if="problem.progress && !problem.progress.outdated"
+                    class="small-text muted"
+                  >
+                    修改后请重新提交；上方显示上次结果。
+                  </p>
+                  <div v-if="problem.type === 'choice'" class="option-list">
+                    <label
+                      v-for="option in problem.choice_options"
+                      :key="option"
+                      ><input
+                        :checked="options.includes(option)"
+                        :type="problem.multiple ? 'checkbox' : 'radio'"
+                        :value="option"
+                        :name="problem.multiple ? undefined : 'choice'"
+                        @change="
+                          problem.multiple
+                            ? (options = options.includes(option)
+                                ? options.filter((o) => o !== option)
+                                : [...options, option])
+                            : (options = [option])
+                        "
+                      /><span>{{ option }}</span></label
+                    >
+                  </div>
+                  <template v-else
+                    ><label for="submission" class="small-text muted"
+                      >填写答案或上传解题过程</label
+                    ><textarea
+                      id="submission"
+                      v-model="text"
+                      rows="5"
+                      maxlength="20000"
+                      placeholder="输入答案或解题过程"
+                    ></textarea>
+                    <ImageGallery
+                      v-if="images.length"
+                      :images="images"
+                      label="我的作答"
+                      compact
+                      removable
+                      :disabled="busy"
+                      @remove="
+                        (id) => (images = images.filter((img) => img.id !== id))
+                      "
+                    />
+                  </template>
+                  <div class="editor-actions">
+                    <label
+                      v-if="problem.type !== 'choice'"
+                      class="button upload-label"
+                      :class="{ disabled: busy || !state.user }"
+                      ><Upload :size="16" />上传图片<input
+                        type="file"
+                        multiple
+                        accept="image/jpeg,image/png,image/webp"
+                        :disabled="busy || !state.user"
+                        @change="files($event, 'submission')"
+                    /></label>
+                    <div class="submission-buttons">
+                      <button class="button" :disabled="busy" @click="giveUp">
+                        <CircleHelp :size="16" />不会
+                      </button>
+                      <button
+                        class="button primary"
+                        :disabled="busy"
+                        @click="submit"
+                      >
+                        {{
+                          busy
+                            ? "处理中…"
+                            : !state.user
+                              ? "登录后提交"
+                              : problem.progress
+                                ? "重新提交作答"
+                                : "提交作答"
+                        }}<ArrowRight :size="16" />
+                      </button>
+                    </div>
+                  </div>
+                  <small class="muted"
+                    >作答仅自己可见。{{
+                      problem.type === "choice"
+                        ? "提交后自动判分。"
+                        : "最多 5 张图片；重新提交后需再次自检。"
+                    }}</small
+                  >
+                </template>
+              </section>
+              <aside
+                v-if="answerOpen && answer"
+                id="reference-panel"
+                class="paper-card reference-panel"
+                aria-labelledby="reference-title"
+              >
+                <div class="reference-panel-heading">
+                  <div class="inline">
+                    <Eye :size="19" />
+                    <h2 id="reference-title">参考答案</h2>
+                  </div>
+                  <button
+                    class="icon-button"
+                    :disabled="busy"
+                    aria-label="收起参考答案右栏"
+                    @click="closeAnswer"
+                  >
+                    <PanelRightClose :size="20" />
+                  </button>
+                </div>
+                <div
+                  class="reference-body"
+                  tabindex="0"
+                  role="region"
+                  aria-label="参考答案图片"
+                >
+                  <p class="small-text muted">{{ answer.provenance }}</p>
+                  <p v-if="answer.correct_options.length" class="answer-choice">
+                    正确选项：{{ answer.correct_options.join("、") }}
+                  </p>
+                  <ImageGallery :images="answer.images" label="参考答案" />
+                  <div v-if="!answer.images.length" class="empty-state">
+                    暂无答案图片
+                  </div>
+                </div>
+                <div
+                  v-if="
+                    problem.progress?.result === 'pending' &&
+                    !problem.progress.outdated
+                  "
+                  class="self-assessment"
+                >
+                  <div>
+                    <h3>自检结果</h3>
+                    <p>核对后选择对错。</p>
+                  </div>
+                  <div class="inline">
+                    <button
+                      class="button success"
+                      :disabled="busy"
+                      @click="assess('correct')"
+                    >
+                      <Check :size="18" />正确</button
+                    ><button
+                      class="button assessment-incorrect"
+                      :disabled="busy"
+                      @click="assess('incorrect')"
+                    >
+                      <X :size="18" />错误
+                    </button>
+                  </div>
+                </div>
+                <p v-else-if="!problem.progress" class="form-warning">
+                  草稿已保留，提交后可自检；“不会”已加入错题，不计打卡。
+                </p>
+              </aside>
+            </div>
           </section>
           <div v-if="random" class="editor-actions">
             <button
@@ -804,70 +1059,6 @@ async function comment(s: Solution) {
               下一题<ArrowRight :size="17" />
             </button>
           </div>
-          <section class="paper-card reference">
-            <button
-              class="reference-heading"
-              :aria-expanded="answerOpen"
-              :disabled="busy || !answerUnlocked"
-              @click="toggleAnswer"
-            >
-              <div class="inline">
-                <Eye v-if="answerUnlocked" :size="19" /><LockKeyhole
-                  v-else
-                  :size="19"
-                />
-                <h2>参考答案</h2>
-              </div>
-              <span
-                >{{
-                  !answerUnlocked ? "待解锁" : answerOpen ? "收起" : "展开答案"
-                }}<ChevronDown :size="18" :class="{ rotated: answerOpen }"
-              /></span>
-            </button>
-            <p v-if="!answerUnlocked" class="answer-lock-note">
-              提交作答或点击“不会”后可查看。
-            </p>
-            <div v-if="answerOpen && answer" class="reference-content">
-              <p class="small-text muted">{{ answer.provenance }}</p>
-              <p v-if="answer.correct_options.length" class="answer-choice">
-                正确选项：{{ answer.correct_options.join("、") }}
-              </p>
-              <ImageGallery :images="answer.images" label="参考答案" />
-              <div v-if="!answer.images.length" class="empty-state">
-                暂无答案图片
-              </div>
-              <div
-                v-if="
-                  problem.progress?.result === 'pending' &&
-                  !problem.progress.outdated
-                "
-                class="self-assessment"
-              >
-                <div>
-                  <h3>自检结果</h3>
-                  <p>核对整题后选择对错，结果将保存。</p>
-                </div>
-                <div class="inline">
-                  <button
-                    class="button success"
-                    :disabled="busy"
-                    @click="assess('correct')"
-                  >
-                    <Check :size="18" />正确</button
-                  ><button
-                    class="button"
-                    :disabled="busy"
-                    @click="assess('incorrect')"
-                  >
-                    <X :size="18" />错误
-                  </button>
-                </div>
-              </div>
-              <p v-else-if="!problem.progress" class="form-warning">
-                草稿已保留。提交后可自检；查看答案不判错、不打卡。
-              </p>
-            </div>
-          </section>
           <section class="community-section">
             <div class="section-heading">
               <div>
@@ -1001,3 +1192,174 @@ async function comment(s: Solution) {
     >
   </div>
 </template>
+<style scoped>
+.review-workspace {
+  scroll-margin-top: 24px;
+}
+.review-toolbar,
+.reference-panel-heading,
+.submission-preview-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.review-toolbar {
+  margin: 24px 0 16px;
+}
+.review-toolbar h2 {
+  margin: 0;
+  font-size: 18px;
+}
+.review-workspace > .answer-lock-note {
+  margin: 0 0 16px;
+}
+.review-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: 20px;
+}
+.review-columns > .paper-card {
+  min-width: 0;
+  margin-bottom: 0;
+}
+.result-feedback {
+  --result-ink: var(--warning);
+  --result-bg: #fff8e9;
+  --result-line: #ead6af;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 18px;
+  margin-bottom: 20px;
+  border: 1px solid var(--result-line);
+  border-left: 5px solid var(--result-ink);
+  border-radius: 8px;
+  background: var(--result-bg);
+  color: var(--result-ink);
+  animation: result-arrive 180ms ease-out;
+}
+.result-feedback.correct {
+  --result-ink: var(--green-dark);
+  --result-bg: #edf7ef;
+  --result-line: #b8d7bf;
+}
+.result-feedback.incorrect {
+  --result-ink: var(--danger);
+  --result-bg: #fff1ef;
+  --result-line: #e8b9b3;
+}
+.result-feedback strong {
+  display: block;
+  font-size: 22px;
+  line-height: 1.4;
+}
+.result-feedback p {
+  margin: 6px 0 0;
+  font-size: 13px;
+}
+.submission-preview-heading {
+  padding-bottom: 14px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+.submitted-text {
+  padding: 14px;
+  background: #f8faf7;
+  border-radius: 6px;
+  overflow-wrap: anywhere;
+}
+.reference-panel {
+  display: flex;
+  flex-direction: column;
+}
+.reference-panel-heading {
+  flex-wrap: nowrap;
+  padding-bottom: 14px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+.reference-panel-heading h2 {
+  margin: 0;
+  font-size: 17px;
+}
+.reference-panel-heading .icon-button {
+  min-width: 44px;
+  min-height: 44px;
+}
+.reference-body {
+  min-height: 0;
+  overflow-wrap: anywhere;
+}
+.reference-panel .self-assessment {
+  margin-top: 16px;
+  padding: 16px;
+  flex-shrink: 0;
+}
+.reference-panel .self-assessment p {
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+.reference-panel .form-warning {
+  margin: 16px 0 0;
+}
+.assessment-incorrect {
+  color: var(--danger);
+  border-color: #e8b9b3;
+  background: #fff1ef;
+}
+.submission-preview-heading .button {
+  min-height: 44px;
+}
+@keyframes result-arrive {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (min-width: 1100px) {
+  .review-columns.has-reference {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+  .reference-panel {
+    position: sticky;
+    top: 24px;
+    max-height: calc(100dvh - 48px);
+  }
+  .reference-body {
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    scrollbar-gutter: stable;
+  }
+}
+@media (max-width: 640px) {
+  .review-workspace {
+    scroll-margin-top: 130px;
+  }
+  .review-toolbar {
+    align-items: flex-start;
+  }
+  .review-toolbar .button {
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+  .result-feedback {
+    padding: 16px 12px;
+    gap: 10px;
+  }
+  .result-feedback strong {
+    font-size: 21px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .result-feedback {
+    animation: none;
+  }
+}
+</style>
