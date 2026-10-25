@@ -10,6 +10,7 @@ import {
   ArrowUpRight,
   LogOut,
   GraduationCap,
+  MessagesSquare,
 } from "lucide-vue-next";
 import { api, loadMe, state, toast } from "./api";
 import { rememberedPracticeRoute } from "./practiceFilters";
@@ -18,6 +19,7 @@ const nav = [
   { path: "/", label: "题库", icon: BookOpen },
   { path: "/daily", label: "每日一题", icon: Sun },
   { path: "/practice", label: "随机练习", icon: Shuffle },
+  { path: "/forum", label: "论坛", icon: MessagesSquare },
   { path: "/me", label: "我的学习", icon: ChartNoAxesCombined },
 ];
 onMounted(async () => {
@@ -106,3 +108,14 @@ async function logout() {
     }}<button @click="state.toast = ''" aria-label="关闭提示">×</button>
   </div>
 </template>
+<style scoped>
+@media (max-width: 640px) {
+  .sidebar nav {
+    flex-wrap: wrap;
+  }
+  .sidebar nav > a {
+    min-height: 44px;
+    flex: 1 0 auto;
+  }
+}
+</style>

@@ -14,6 +14,7 @@ const router = createRouter({
     { path: "/problems/:id", component: Problem },
     { path: "/practice", component: Problem },
     { path: "/daily", component: Problem },
+    { path: "/forum", component: () => import("./views/Forum.vue") },
     { path: "/auth", component: Auth },
     { path: "/me", component: Learning },
     { path: "/admin", component: Admin },

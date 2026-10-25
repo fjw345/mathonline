@@ -291,8 +291,17 @@ async function displayProblem(
   // Community content must not block the question or turn a usable question
   // into an error page when the community endpoint is slow/unavailable.
   void api<Solution[]>("/problems/" + data.id + "/solutions")
-    .then((solutions) => {
-      if (seq === sequence) community.value = solutions;
+    .then(async (solutions) => {
+      if (seq !== sequence) return;
+      community.value = solutions;
+      const sid = String(route.query.solution || "");
+      if (sid && solutions.some((s) => s.id === sid)) {
+        await nextTick();
+        if (seq === sequence)
+          document
+            .getElementById("solution-" + sid)
+            ?.scrollIntoView({ block: "start" });
+      }
     })
     .catch((e: Error) => {
       if (seq === sequence) toast("题解加载失败：" + e.message, true);
@@ -1072,7 +1081,9 @@ async function comment(s: Solution) {
             <article
               v-for="s in community"
               :key="s.id"
+              :id="'solution-' + s.id"
               class="paper-card solution-card"
+              :class="{ 'forum-selected': route.query.solution === s.id }"
             >
               <div class="solution-heading">
                 <span class="avatar small-avatar">{{
@@ -1193,6 +1204,13 @@ async function comment(s: Solution) {
   </div>
 </template>
 <style scoped>
+.solution-card {
+  scroll-margin-top: 24px;
+}
+.solution-card.forum-selected {
+  border-color: var(--green);
+  box-shadow: 0 0 0 2px var(--sage);
+}
 .review-workspace {
   scroll-margin-top: 24px;
 }
@@ -1339,6 +1357,9 @@ async function comment(s: Solution) {
   }
 }
 @media (max-width: 640px) {
+  .solution-card {
+    scroll-margin-top: 155px;
+  }
   .review-workspace {
     scroll-margin-top: 130px;
   }

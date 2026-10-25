@@ -670,6 +670,38 @@ def decorate_content(s, user=None):
     return r
 
 
+@app.get("/api/v1/forum")
+def forum(page: int = Query(1, ge=1), page_size: int = Query(12, ge=1, le=50)):
+    result = store.forum_page(page, page_size)
+    with read_store(store) as reader:
+        if hasattr(reader, "prime"):
+            reader.prime(
+                "media_assets",
+                [aid for row in result["rows"] for aid in row["image_ids"]],
+            )
+        items = [
+            {
+                "id": row["id"],
+                "author": (row["author"] or {}).get("nickname", "同学"),
+                "body": row["body"],
+                "images": images_info(row["image_ids"], reader),
+                "created_at": row["created_at"],
+                "updated_at": row["updated_at"],
+                "problem": {
+                    key: row["problem"][key]
+                    for key in ("id", "title", "type", "year", "tags")
+                },
+            }
+            for row in result["rows"]
+        ]
+    return {
+        "items": items,
+        "total": result["total"],
+        "page": page,
+        "page_size": page_size,
+    }
+
+
 @app.get("/api/v1/problems/{pid}/solutions")
 def solutions(pid: str, request: Request):
     problem_or_404(pid)

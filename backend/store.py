@@ -137,6 +137,10 @@ class LocalStore:
         with self.transaction() as tx:
             tx.delete(table, **where)
 
+    def forum_page(self, page, page_size):
+        with self.reader() as reader:
+            return reader.forum_page(page, page_size)
+
 
 class LocalStoreView:
     def __init__(self, db):
@@ -174,6 +178,25 @@ class LocalStoreView:
     def get(self, table, **where):
         rows = self.list(table, **where)
         return rows[0] if rows else None
+
+    def forum_page(self, page, page_size):
+        visible = (
+            " FROM solutions s JOIN problems p ON p.id=s.problem_id "
+            "WHERE s.status='approved' AND p.status='published'"
+        )
+        total = self.db.execute("SELECT count(*)" + visible).fetchone()[0]
+        rows = self.db.execute(
+            "SELECT s.*" + visible + " ORDER BY s.created_at DESC,s.id DESC LIMIT ? OFFSET ?",
+            (page_size, (page - 1) * page_size),
+        ).fetchall()
+        result = []
+        for row in rows:
+            s = dict(row)
+            s["image_ids"] = json.loads(s["image_ids"])
+            s["author"] = self.get("profiles", id=s["user_id"])
+            s["problem"] = self.get("problems", id=s["problem_id"])
+            result.append(s)
+        return {"total": total, "rows": result}
 
     def put(self, table, data):
         assert table in TABLES
@@ -370,6 +393,33 @@ class SupabaseStore:
             params={**params, "offset": (page - 1) * page_size, "limit": page_size},
             headers={"Prefer": "count=exact"},
         )
+        response.raise_for_status()
+        return {
+            "total": int(response.headers["Content-Range"].rsplit("/", 1)[1]),
+            "rows": response.json(),
+        }
+
+    def forum_page(self, page, page_size):
+        response = self.client.get(
+            "/rest/v1/solutions",
+            params={
+                "select": (
+                    "id,body,image_ids,created_at,updated_at,"
+                    "author:profiles(nickname),"
+                    "problem:problems!inner(id,title,type,year,tags)"
+                ),
+                "status": "eq.approved",
+                "problem.status": "eq.published",
+                "order": "created_at.desc,id.desc",
+                "offset": (page - 1) * page_size,
+                "limit": page_size,
+            },
+            headers={"Prefer": "count=exact"},
+        )
+        # A moderation change can remove the last page between navigations.
+        total = response.headers.get("Content-Range", "").rsplit("/", 1)[-1]
+        if response.status_code == 416 and total.isdigit():
+            return {"total": int(total), "rows": []}
         response.raise_for_status()
         return {
             "total": int(response.headers["Content-Range"].rsplit("/", 1)[1]),

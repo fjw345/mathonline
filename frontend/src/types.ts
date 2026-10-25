@@ -80,6 +80,15 @@ export interface Comment {
   author: string;
   created_at: string;
 }
+export interface ForumPost {
+  id: string;
+  author: string;
+  body: string;
+  images: ImageAsset[];
+  created_at: string;
+  updated_at: string;
+  problem: Pick<Problem, "id" | "title" | "type" | "year" | "tags">;
+}
 export interface Notification {
   id: string;
   event: string;
