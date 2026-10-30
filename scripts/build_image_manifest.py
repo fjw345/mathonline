@@ -111,7 +111,7 @@ def build(output):
                 "answer": {
                     "images": answer,
                     "correct_options": [],
-                    "provenance": "原卷配套答案截图；具体发布来源待核实",
+                    "provenance": "原卷配套答案截图",
                 },
             }
             problems.append(p)
