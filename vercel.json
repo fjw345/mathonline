@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
     "api/index.py": {
-      "excludeFiles": "{frontend/**,node_modules/**,devided-math/**,resource/**,data/**,output/**,docs/**,tests/**,scripts/**,supabase/**,.git/**,.venv/**,.pytest_cache/**,.ruff_cache/**,.playwright-cli/**,**/__pycache__/**}"
+      "excludeFiles": "{frontend/**,node_modules/**,devided-math/**,resource/**,data/**,output/**,docs/**,tests/**,scripts/**,supabase/**,.agents/**,.git/**,.venv/**,.pytest_cache/**,.ruff_cache/**,.playwright-cli/**,**/__pycache__/**}"
     }
   },
   "buildCommand": "npm --prefix frontend ci && npm --prefix frontend run build",
