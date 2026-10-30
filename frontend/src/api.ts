@@ -53,12 +53,12 @@ export async function api<T = any>(
   }
   const data = await response.json().catch(() => {
     if (signal.aborted) throw new Error("请求超时，请重试。");
-    return { detail: "服务响应异常，请重试。" };
+    throw new Error("服务响应异常，请重试。");
   });
   if (!response.ok) {
     if (response.status === 401) state.user = null;
     throw new Error(
-      typeof data.detail === "string"
+      typeof data?.detail === "string"
         ? data.detail
         : "输入内容无效，请检查后重试。",
     );

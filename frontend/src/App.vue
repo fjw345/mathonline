@@ -14,6 +14,7 @@ import {
 } from "lucide-vue-next";
 import { api, loadMe, state, toast } from "./api";
 import { rememberedPracticeRoute } from "./practiceFilters";
+import PageBoundary from "./components/PageBoundary.vue";
 const router = useRouter();
 const nav = [
   { path: "/", label: "题库", icon: BookOpen },
@@ -93,7 +94,9 @@ async function logout() {
         ><i></i>{{ state.health.mode === "local" ? "本地版" : "在线版" }}</span
       >
     </header>
-    <main id="main" tabindex="-1"><RouterView /></main>
+    <main id="main" tabindex="-1">
+      <PageBoundary><RouterView /></PageBoundary>
+    </main>
     <footer>
       <span>嗟，来算 · {{ state.health.date.slice(0, 4) }}</span>
     </footer>

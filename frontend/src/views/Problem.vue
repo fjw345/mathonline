@@ -753,7 +753,7 @@ async function comment(s: Solution) {
               />
             </div>
             <div class="source-note">
-              来源：{{ problem.source.name
+              来源：{{ problem.source?.name || "暂未提供"
               }}<span>版本 {{ problem.version }}</span>
             </div>
             <div class="problem-feedback">
