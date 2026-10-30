@@ -424,8 +424,9 @@ footer > span {
   margin: 0;
 }
 .collection-note {
-  font-size: 11px;
-  color: #788771;
+  font-size: 16px;
+  color: #000;
+  line-height: 1.6;
   align-self: flex-end;
   margin-bottom: 4px;
 }
@@ -1481,8 +1482,8 @@ td small {
     grid-template-columns: 1fr;
   }
   .collection-note {
-    max-width: 160px;
-    font-size: 9px;
+    max-width: 280px;
+    font-size: 14px;
     text-align: right;
   }
   .auth-page {
@@ -1629,8 +1630,8 @@ td small {
     font-size: 21px;
   }
   .collection-note {
-    font-size: 8px;
-    max-width: 125px;
+    font-size: 13px;
+    max-width: 220px;
   }
   .filter-bar {
     gap: 8px;

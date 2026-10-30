@@ -185,7 +185,9 @@ function random() {
           题库 <span class="count">{{ catalog.total }}</span>
         </h2>
       </div>
-      <span class="collection-note">北交期末/CMC非数/考研数学</span>
+      <span class="collection-note">
+        历史北交期末/CMC非数/考研数学真题集合
+      </span>
     </div>
     <form class="filter-bar" @submit.prevent="doSearch">
       <label class="library-tag-filter">
