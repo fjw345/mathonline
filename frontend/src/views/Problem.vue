@@ -1018,7 +1018,9 @@ async function comment(s: Solution) {
                   aria-label="参考答案图片"
                 >
                   <p class="small-text muted">
-                    {{ answer.provenance.replace(/；?具体发布来源待核实/g, "") }}
+                    {{
+                      answer.provenance.replace(/；?具体发布来源待核实/g, "")
+                    }}
                   </p>
                   <p v-if="answer.correct_options.length" class="answer-choice">
                     正确选项：{{ answer.correct_options.join("、") }}
