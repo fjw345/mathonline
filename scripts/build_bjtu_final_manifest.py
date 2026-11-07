@@ -153,7 +153,7 @@ def build(output, replace=False):
                     "answer": {"images": [a["id"] for a in assets["answer"]],
                         "correct_options": list(keys[label]) if kind == "choice" else [],
                         "provenance": "同科目、同年份原卷配套截图；显式题号映射及上中下顺序。选择题按答案字母或表达式对照选项。" + "".join(record["notes"]) + "未完成逐题数学审校。"}
-                }).model_dump()
+                }).model_dump(exclude={"question_text": True, "answer": {"text"}})
                 manifest["problems"].append(p)
                 manifest["assets"].extend(assets["question"] + assets["answer"])
             coverage.append((course["name"], year, len(labels), len(manifest["problems"]) - before))

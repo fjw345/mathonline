@@ -33,6 +33,7 @@ export interface Source {
 }
 export interface Answer {
   images: ImageAsset[];
+  text: string;
   correct_options: string[];
   provenance: string;
 }
@@ -48,6 +49,7 @@ export interface Problem {
   status: string;
   version: number;
   question_images: ImageAsset[];
+  question_text: string;
   choice_options: string[];
   multiple: boolean;
   progress: Progress | null;

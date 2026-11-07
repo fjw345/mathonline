@@ -1,33 +1,9 @@
 <script setup lang="ts">
 import { ArrowUpRight, Check } from "lucide-vue-next";
-import { onMounted, onBeforeUnmount, ref } from "vue";
 import { typeName } from "../api";
 import type { Problem } from "../types";
+import MarkdownContent from "./MarkdownContent.vue";
 defineProps<{ problem: Problem }>();
-const preview = ref<HTMLElement>();
-const visible = ref(false);
-let observer: IntersectionObserver | undefined;
-onMounted(() => {
-  if (!("IntersectionObserver" in window)) {
-    visible.value = true;
-    return;
-  }
-  observer = new IntersectionObserver(
-    (entries) => {
-      if (entries.some((entry) => entry.isIntersecting)) {
-        visible.value = true;
-        observer?.disconnect();
-      }
-    },
-    { rootMargin: "160px" },
-  );
-  if (preview.value) observer.observe(preview.value);
-});
-onBeforeUnmount(() => observer?.disconnect());
-function imageFallback(event: Event, id: string) {
-  const img = event.target as HTMLImageElement;
-  if (!img.src.includes("/api/v1/media/")) img.src = "/api/v1/media/" + id;
-}
 </script>
 <template>
   <RouterLink :to="'/problems/' + problem.id" class="problem-card"
@@ -37,22 +13,14 @@ function imageFallback(event: Event, id: string) {
         >{{ problem.year }} <ArrowUpRight :size="17"
       /></span>
     </div>
-    <div
-      ref="preview"
-      class="card-image"
-      :class="{ 'multipart-preview': problem.question_images.length > 1 }"
-    >
-      <template v-if="visible">
-        <img
-          v-for="(img, index) in problem.question_images"
-          :key="img.id"
-          :src="img.url"
-          :alt="problem.title + '题干预览'"
-          loading="lazy"
-          decoding="async"
-          @error="imageFallback($event, img.id)"
-        />
-      </template>
+    <div class="card-image text-preview">
+      <MarkdownContent
+        v-if="problem.question_text"
+        :source="problem.question_text"
+        compact
+        class="card-text"
+      />
+      <p v-else class="card-text-missing">本题文字版整理中</p>
     </div>
     <h3>{{ problem.title }}</h3>
     <div class="card-foot">
@@ -75,16 +43,33 @@ function imageFallback(event: Event, id: string) {
   >
 </template>
 <style scoped>
-.multipart-preview {
-  flex-direction: column;
-  gap: 4px;
-  overflow-y: auto;
+.text-preview {
+  position: relative;
+  align-items: flex-start;
   justify-content: flex-start;
+  padding: 0 1px;
 }
-.multipart-preview img {
-  flex: 0 0 auto;
+.text-preview::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 26px;
+  pointer-events: none;
+  background: linear-gradient(rgba(255, 255, 255, 0), #fff);
+}
+.card-text {
   width: 100%;
-  height: auto;
-  max-height: none;
+  max-height: 107px;
+  overflow: hidden;
+}
+.card-text :deep(.prose-figure) {
+  display: none;
+}
+.card-text-missing {
+  margin: 0;
+  color: var(--muted);
+  font-size: 11px;
 }
 </style>

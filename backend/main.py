@@ -143,10 +143,12 @@ class Decision(BaseModel):
     version: int | None = None
 
 
-def asset_info(aid, repository=None):
+def asset_info(aid, repository=None, strict=True):
     repository = repository or store
     asset = repository.get("media_assets", id=aid)
     if not asset:
+        if not strict:
+            return None
         raise HTTPException(400, "图片不存在，请重新上传。")
     return {
         "id": aid,
@@ -156,20 +158,30 @@ def asset_info(aid, repository=None):
     }
 
 
-def images_info(ids, repository=None):
-    return [asset_info(aid, repository) for aid in ids]
+def images_info(ids, repository=None, strict=True):
+    result = []
+    for aid in ids:
+        info = asset_info(aid, repository, strict)
+        if info:
+            result.append(info)
+    return result
 
 
 def public_problem(p, user=None, repository=None):
     repository = repository or store
     result = dict(p)
     result.pop("difficulty", None)
-    result["question_images"] = images_info(p["question_images"], repository)
+    result.setdefault("question_text", "")
+    # Public pages are text-first; a missing legacy screenshot must not break
+    # the text question. Admin listing keeps strict=True to surface the issue.
+    result["question_images"] = images_info(
+        p["question_images"], repository, strict=False
+    )
     state = progress(user, p["id"], repository)
     if state:
         state["outdated"] = state["problem_version"] != p["version"]
         state["can_publish"] = state["correct_version"] == p["version"]
-        state["images"] = images_info(state["image_ids"], repository)
+        state["images"] = images_info(state["image_ids"], repository, strict=False)
     result["progress"] = state
     result["answer_unlocked"] = bool(
         state
@@ -446,7 +458,6 @@ def problems(request: Request, page: int = 1, page_size: int = 12):
             rows = all_rows[(page - 1) * page_size : page * page_size]
         if hasattr(reader, "prepare_problems"):
             reader.prepare_problems(rows, user)
-            reader.sign_question_images(rows)
         return {
             "total": total,
             "items": [public_problem(p, user, reader) for p in rows],
@@ -484,7 +495,11 @@ def answer(pid: str, request: Request):
     with read_store(store) as reader:
         if hasattr(reader, "prime"):
             reader.prime("media_assets", a["images"])
-        return {**a, "images": images_info(a["images"], reader)}
+        return {
+            **a,
+            "text": a.get("text", ""),
+            "images": images_info(a["images"], reader, strict=False),
+        }
 
 
 class GiveUpInput(BaseModel):
@@ -920,36 +935,27 @@ def media(aid: str, request: Request):
     user = current_user(request, False)
     if not a:
         raise HTTPException(404, "图片不存在。")
-    allowed = bool(user and a["owner_id"] == user["id"] and a["purpose"] != "answer")
+    allowed = bool(
+        user
+        and a["owner_id"] == user["id"]
+        and a["purpose"] not in ("question", "answer")
+    )
     if a["purpose"] in ("question", "answer"):
-        if hasattr(store, "media_references"):
-            candidates = store.media_references(
-                "problems" if a["purpose"] == "question" else "problem_answers",
-                "question_images" if a["purpose"] == "question" else "images",
-                aid,
-            )
-        else:
-            candidates = (
-                store.list("problems")
-                if a["purpose"] == "question"
-                else store.list("problem_answers")
-            )
-        for row in candidates:
-            if aid in row.get("question_images", row.get("images", [])):
-                p = (
-                    row
-                    if "question_images" in row
-                    else store.get("problems", id=row["problem_id"])
-                )
-                if (
-                    p
-                    and visible(p)
-                    and (a["purpose"] == "question" or can_read_answer(user, p["id"]))
-                ):
-                    allowed = True
-                    break
+        # Original screenshots stay in the database/storage for maintenance,
+        # but are not public web content. Only administrators may open them.
+        # Figures embedded in the text version are still part of the text and
+        # follow the normal problem visibility / answer-unlock rules.
         if user and user["role"] == "admin":
             allowed = True
+        elif str(a.get("source_path") or "").startswith(
+            "devided-math-text/"
+        ) and a.get("problem_id"):
+            inline_problem = store.get("problems", id=a["problem_id"])
+            if inline_problem and visible(inline_problem) and (
+                a["purpose"] == "question"
+                or can_read_answer(user, inline_problem["id"])
+            ):
+                allowed = True
     elif a["purpose"] == "solution":
         allowed = allowed or bool(user and user["role"] in ("admin", "moderator"))
         for s in store.list("solutions", status="approved"):
@@ -1097,11 +1103,12 @@ def edit_problem(pid: str, body: dict, request: Request):
         "choice_options",
         "multiple",
         "question_images",
+        "question_text",
     }
     for k in allowed:
         if k in body:
             p[k] = body[k]
-    for k in ("images", "provenance", "correct_options"):
+    for k in ("images", "text", "provenance", "correct_options"):
         if k in body.get("answer", {}):
             a[k] = body["answer"][k]
     if p["type"] not in ("blank", "solution", "choice") or p["status"] not in (
@@ -1123,6 +1130,12 @@ def edit_problem(pid: str, body: dict, request: Request):
         raise HTTPException(400, "标签格式无效。")
     if not p["question_images"]:
         raise HTTPException(400, "至少保留一张题干图片。")
+    for label, value in (
+        ("题面文字", p.get("question_text", "")),
+        ("答案文字", a.get("text", "")),
+    ):
+        if not isinstance(value, str) or len(value) > 50000:
+            raise HTTPException(400, f"{label}格式无效，最多 50000 个字符。")
     for role, ids in [("question", p["question_images"]), ("answer", a["images"])]:
         if not isinstance(ids, list) or len(ids) > 20 or len(set(ids)) != len(ids):
             raise HTTPException(400, "图片列表无效。")

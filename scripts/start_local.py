@@ -2,6 +2,7 @@
 
 import argparse
 import importlib.util
+import json
 import os
 import subprocess
 import sys
@@ -62,6 +63,20 @@ def main():
     if not manifest.exists():
         run([sys.executable, "-X", "utf8", "scripts/build_image_manifest.py"])
     run([sys.executable, "-X", "utf8", "scripts/import_bank.py", str(manifest)])
+    # Enrich the local preview with text without changing versions or images.
+    text_manifest = ROOT / "data/text-bank-manifest.json"
+    if text_manifest.exists():
+        from backend.importer import apply_text_manifest
+
+        result = apply_text_manifest(
+            json.loads(text_manifest.read_text(encoding="utf-8"))
+        )
+        print(
+            "文字版回填：更新 "
+            f"{result['updated']}，跳过 {result['skipped']}，"
+            f"图片已改 {result['image_mismatch']}，"
+            f"本库无对应题目 {len(result['missing'])}"
+        )
     if args.check:
         from fastapi.testclient import TestClient
 

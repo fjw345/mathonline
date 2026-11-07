@@ -6,6 +6,7 @@ from pydantic import BaseModel, ConfigDict, Field, model_validator
 class AnswerRecord(BaseModel):
     model_config = ConfigDict(extra="forbid")
     images: list[str] = Field(max_length=20)
+    text: str = Field(default="", max_length=50000)
     correct_options: list[str] = Field(default_factory=list, max_length=20)
     provenance: str = Field(min_length=1, max_length=1000)
 
@@ -25,6 +26,8 @@ class ProblemRecord(BaseModel):
     version: int = Field(default=1, ge=1)
     grading_mode: Literal["choice", "self_assessment"]
     question_images: list[str] = Field(min_length=1, max_length=20)
+    # Markdown + LaTeX. Empty means the client falls back to the ordered images.
+    question_text: str = Field(default="", max_length=50000)
     choice_options: list[str] = Field(default_factory=list, max_length=20)
     multiple: bool = False
     verified: bool = False
