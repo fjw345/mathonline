@@ -137,7 +137,7 @@ def build(output, replace=False):
                     "answer": {"images": [a["id"] for a in assets["answer"]],
                                "correct_options": [letters[number - 1]] if kind == "choice" else [],
                                "provenance": provenance},
-                }).model_dump()
+                }).model_dump(exclude={"question_text": True, "answer": {"text"}})
                 manifest["problems"].append(problem)
                 manifest["assets"].extend(assets["question"] + assets["answer"])
                 ready += 1

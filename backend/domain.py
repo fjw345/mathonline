@@ -42,7 +42,16 @@ def filtered(filters, repository=None):
         rows = [
             p
             for p in rows
-            if term in (p["title"] + " " + p["id"] + " " + " ".join(p["tags"])).lower()
+            if term
+            in (
+                p["title"]
+                + " "
+                + p["id"]
+                + " "
+                + " ".join(p["tags"])
+                + " "
+                + p.get("question_text", "")
+            ).lower()
         ]
     return sorted(rows, key=lambda p: (-p["year"], p["group_name"], p["id"]))
 

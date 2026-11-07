@@ -61,7 +61,8 @@ def test_filters_and_no_answer_leak(env):
     assert guest.get("/api/v1/practice/random?year=1900").status_code == 404
     assert guest.get("/api/v1/problems/test-q1/answer").status_code == 401
     assert guest.get("/api/v1/media/answer-image").status_code == 403
-    assert guest.get("/api/v1/media/question-image").status_code == 200
+    assert guest.get("/api/v1/media/question-image").status_code == 403
+    assert env["one"].get("/api/v1/media/question-image").status_code == 403
 
 
 def test_collection_filters_ignore_removed_dimensions_and_extend_with_bank(env):
@@ -235,7 +236,7 @@ def test_answer_requires_successful_submission_or_give_up(env):
     data = one.post(give_up, json={"problem_version": 1}).json()
     assert data["answer_unlocked"] and data["progress"] is None
     assert one.get(url).json()["images"]
-    assert one.get("/api/v1/media/answer-image").status_code == 200
+    assert one.get("/api/v1/media/answer-image").status_code == 403
     assert two.get(url).status_code == 403
     assert two.get("/api/v1/media/answer-image").status_code == 403
     assert not two.get("/api/v1/problems/test-q1").json()["answer_unlocked"]

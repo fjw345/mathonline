@@ -94,6 +94,21 @@ class LocalStore:
                     "AND EXISTS (SELECT 1 FROM problem_answers WHERE problem_id=problems.id AND json_array_length(images)>0)"
                 )
                 db.execute("INSERT INTO schema_migrations VALUES (5)")
+            # Version 7 adds the optional Markdown/LaTeX text for old databases.
+            # Additive only: existing rows keep their images and versions.
+            if "question_text" not in {
+                row["name"] for row in db.execute("PRAGMA table_info(problems)")
+            }:
+                db.execute(
+                    "ALTER TABLE problems ADD COLUMN question_text TEXT NOT NULL DEFAULT ''"
+                )
+            if "text" not in {
+                row["name"] for row in db.execute("PRAGMA table_info(problem_answers)")
+            }:
+                db.execute(
+                    "ALTER TABLE problem_answers ADD COLUMN text TEXT NOT NULL DEFAULT ''"
+                )
+            db.execute("INSERT OR IGNORE INTO schema_migrations VALUES (7)")
             db.commit()
 
     def connect(self):
@@ -136,6 +151,24 @@ class LocalStore:
     def delete(self, table, **where):
         with self.transaction() as tx:
             tx.delete(table, **where)
+
+    def apply_problem_texts(self, items):
+        """Fill text columns only; never bumps versions or rewrites images."""
+        updated = 0
+        with self.transaction() as tx:
+            for item in items:
+                if not tx.get("problems", id=item["id"]):
+                    continue
+                tx.db.execute(
+                    "UPDATE problems SET question_text=? WHERE id=?",
+                    (item.get("question_text", ""), item["id"]),
+                )
+                tx.db.execute(
+                    "UPDATE problem_answers SET text=? WHERE problem_id=?",
+                    (item.get("answer_text", ""), item["id"]),
+                )
+                updated += 1
+        return updated
 
     def forum_page(self, page, page_size):
         with self.reader() as reader:
@@ -297,6 +330,10 @@ class SupabaseStore:
                 self._cache.clear()
         return result
 
+    def apply_problem_texts(self, items):
+        """Bulk text backfill through one additive SQL function."""
+        return self.rpc("apply_problem_texts", {"p_items": items})
+
     def media_references(self, table, column, aid):
         return self.request(
             "GET",
@@ -382,7 +419,15 @@ class SupabaseStore:
                 p
                 for p in rows
                 if term
-                in (p["title"] + " " + p["id"] + " " + " ".join(p["tags"])).lower()
+                in (
+                    p["title"]
+                    + " "
+                    + p["id"]
+                    + " "
+                    + " ".join(p["tags"])
+                    + " "
+                    + p.get("question_text", "")
+                ).lower()
             ]
             return {
                 "total": len(rows),

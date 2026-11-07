@@ -786,6 +786,138 @@ footer > span {
 .question-canvas {
   padding: 15px 0 23px;
 }
+.prose {
+  font-size: 15px;
+  line-height: 1.95;
+  color: #1f2a1c;
+  overflow-wrap: anywhere;
+}
+.prose > :first-child {
+  margin-top: 0;
+}
+.prose > :last-child {
+  margin-bottom: 0;
+}
+.prose p {
+  margin: 0 0 0.8em;
+}
+.prose ul,
+.prose ol {
+  margin: 0.4em 0 0.9em;
+  padding-left: 1.7em;
+}
+.prose li {
+  margin: 0.2em 0;
+}
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  margin: 1em 0 0.5em;
+  line-height: 1.45;
+}
+.prose h1 {
+  font-size: 19px;
+}
+.prose h2 {
+  font-size: 17px;
+}
+.prose h3,
+.prose h4 {
+  font-size: 15px;
+}
+.prose blockquote {
+  margin: 0.8em 0;
+  padding: 2px 0 2px 14px;
+  border-left: 3px solid #dfe6d5;
+  color: #53604c;
+}
+.prose code {
+  padding: 1px 4px;
+  border-radius: 3px;
+  background: #f4f6ef;
+  font-size: 0.92em;
+}
+.prose pre {
+  margin: 0.8em 0;
+  padding: 12px;
+  overflow-x: auto;
+  border: 1px solid #e6ebde;
+  border-radius: 6px;
+  background: #fafbf6;
+}
+.prose pre code {
+  padding: 0;
+  background: transparent;
+}
+.prose table {
+  display: block;
+  max-width: 100%;
+  margin: 0.8em 0;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.prose th,
+.prose td {
+  padding: 5px 10px;
+  border: 1px solid #e2e8da;
+  text-align: left;
+}
+.prose th {
+  background: #f7f9f2;
+  font-weight: 600;
+}
+.prose .math-block {
+  margin: 0.55em 0;
+  padding: 2px 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  text-align: center;
+}
+.prose .katex {
+  font-size: 1.05em;
+}
+.prose .katex-display {
+  margin: 0;
+}
+.prose img.prose-figure {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 12px auto;
+}
+.prose .math-error {
+  display: inline-block;
+  padding: 0 4px;
+  border-radius: 3px;
+  background: #fdf3e1;
+  color: #8a5a1f;
+  font-size: 0.88em;
+  line-height: 1.5;
+}
+.prose-compact {
+  font-size: 12px;
+  line-height: 1.65;
+  color: #2b3528;
+}
+.prose-compact p {
+  margin-bottom: 0.45em;
+}
+.prose-compact .math-block {
+  margin: 0.25em 0;
+  text-align: left;
+}
+.prose-compact .katex {
+  font-size: 1em;
+}
+.text-source-note {
+  margin: 9px 0 0;
+  font-size: 10px;
+  line-height: 1.7;
+  color: var(--muted);
+}
 .source-note {
   display: flex;
   justify-content: space-between;

@@ -144,6 +144,7 @@ function newProblem() {
     version: 1,
     grading_mode: "self_assessment",
     question_images: [],
+    question_text: "",
     choice_options: [],
     multiple: false,
     verified: false,
@@ -157,7 +158,12 @@ function newProblem() {
       rights_note: "",
       verified: false,
     },
-    answer: { images: [], correct_options: [], provenance: "平台整理参考答案" },
+    answer: {
+      images: [],
+      text: "",
+      correct_options: [],
+      provenance: "平台整理参考答案",
+    },
   };
   tags.value = "";
   options.value = "";
@@ -212,6 +218,7 @@ async function save() {
         "version",
         "grading_mode",
         "question_images",
+        "question_text",
         "choice_options",
         "multiple",
         "verified",
@@ -697,7 +704,20 @@ async function reviewFeedback(
           >题库标签（以顿号或逗号分隔）<input
             v-model="tags"
             placeholder="例如：全国大学生数学竞赛·非数" /></label
-        ><template v-if="edit.type === 'choice'"
+        ><label class="field"
+          >题面文字（Markdown/LaTeX，留空则显示原图）<textarea
+            v-model="edit.question_text"
+            rows="5"
+            maxlength="50000"
+            placeholder="支持 $行内公式$、$$行间公式$$、Markdown 表格与插图"
+          ></textarea></label
+        ><label class="field"
+          >参考答案文字（留空则显示原图）<textarea
+            v-model="edit.answer!.text"
+            rows="5"
+            maxlength="50000"
+          ></textarea>
+        </label><template v-if="edit.type === 'choice'"
           ><label class="field"
             >选项 ID（逗号分隔）<input
               v-model="options"

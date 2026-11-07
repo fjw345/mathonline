@@ -1,18 +1,54 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 .venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+coverage/
+htmlcov/
+
+# Secrets and local environment
 .env
 .env.*
 !.env.example
+
+# Node / frontend build output
 node_modules/
 frontend/dist/
+*.tsbuildinfo
+
+# Local databases, uploads and generated backups
 data/*.sqlite*
 data/uploads/
 data/assets/
 output/
-.playwright-cli/
-.pytest_cache/
-.ruff_cache/
-*.tsbuildinfo
-.vercel/
 
+# Local-only one-click launcher (kept out of git on purpose)
+/start-local.cmd
+
+# Local test / migration scratch files.
+# tmp/math2/inventory.json is tracked, so do not ignore the whole tmp directory.
+tmp/agent-*
+tmp/*.sqlite
+tmp/*.sqlite-*
+tmp/text-*
+tmp/migration-*
+tmp/start-check*
+tmp/ui*
+tmp/e2e*
+
+# Supabase CLI, Vercel and Playwright local state
+supabase/.temp/
+supabase/.branches/
+.vercel/
+.playwright-cli/
+
+# Logs, OS files and editor swap files
+*.log
+.DS_Store
+Thumbs.db
+*.swp
+*~

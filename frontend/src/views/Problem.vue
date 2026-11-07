@@ -33,6 +33,7 @@ import {
 } from "../api";
 import type { Problem, Answer, ImageAsset, Solution, Comment } from "../types";
 import ImageGallery from "../components/ImageGallery.vue";
+import MarkdownContent from "../components/MarkdownContent.vue";
 import PracticeFilterForm from "../components/PracticeFilters.vue";
 import {
   practiceFilterQuery,
@@ -747,10 +748,14 @@ async function comment(s: Solution) {
               <span v-for="tag in problem.tags" :key="tag">{{ tag }}</span>
             </div>
             <div class="question-canvas">
-              <ImageGallery
-                :images="problem.question_images"
-                :label="problem.title"
+              <MarkdownContent
+                v-if="problem.question_text"
+                :source="problem.question_text"
               />
+              <p v-if="problem.question_text" class="text-source-note">
+                题面文字由自动识别生成；如公式与题意不符，请反馈。
+              </p>
+              <div v-else class="empty-state">本题文字版整理中</div>
             </div>
             <div class="source-note">
               来源：{{ problem.source?.name || "暂未提供"
@@ -1015,7 +1020,7 @@ async function comment(s: Solution) {
                   class="reference-body"
                   tabindex="0"
                   role="region"
-                  aria-label="参考答案图片"
+                  aria-label="参考答案"
                 >
                   <p class="small-text muted">
                     {{
@@ -1025,10 +1030,14 @@ async function comment(s: Solution) {
                   <p v-if="answer.correct_options.length" class="answer-choice">
                     正确选项：{{ answer.correct_options.join("、") }}
                   </p>
-                  <ImageGallery :images="answer.images" label="参考答案" />
-                  <div v-if="!answer.images.length" class="empty-state">
-                    暂无答案图片
-                  </div>
+                  <MarkdownContent
+                    v-if="answer.text"
+                    :source="answer.text"
+                  />
+                  <p v-if="answer.text" class="text-source-note">
+                    答案文字由自动识别生成；如有疑问请反馈。
+                  </p>
+                  <div v-else class="empty-state">暂无文字答案</div>
                 </div>
                 <div
                   v-if="
