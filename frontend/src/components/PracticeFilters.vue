@@ -124,15 +124,13 @@ function reset() {
         <ChevronDown :size="16" />{{ advanced ? "收起条件" : "查看条件" }}
       </button>
     </div>
-    <p class="filter-explanation">
+    <p v-if="daily || pending" class="filter-explanation">
       {{
         daily
           ? locked
             ? "今日题目固定，明天可重新筛选。"
             : "筛选后打开题目，当天不再更换。"
-          : pending
-            ? "筛选尚未应用，当前题目和草稿保留。"
-            : "点击“应用筛选”切换范围，草稿自动保留。"
+          : "筛选尚未应用，当前题目和草稿保留。"
       }}
     </p>
     <form @submit.prevent="canApply && emit('apply', filters)">

@@ -70,7 +70,6 @@ function turn(n: number) {
     <div class="page-heading">
       <div>
         <h1>论坛</h1>
-        <p class="muted">已发布题解，最新在前。</p>
       </div>
       <span class="chip"><MessagesSquare :size="16" />题解交流</span>
     </div>
