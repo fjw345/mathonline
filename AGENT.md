@@ -18,11 +18,12 @@
 
 | 位置 | 职责 |
 | --- | --- |
-| `frontend/src/views/` | Library、Problem、Forum、Auth、Learning、Admin 页面 |
+| `frontend/src/views/` | Library、Problem、Forum、Auth、Learning、Admin、Mailbox、Invites 页面 |
 | `frontend/src/components/` | 筛选、题目卡片、图片查看等共用组件 |
 | `frontend/src/practiceDraft.ts`、`practiceFilters.ts` | 草稿隔离、筛选规范化与恢复 |
 | `backend/main.py` | FastAPI 路由、输入、鉴权和媒体入口 |
 | `backend/domain.py` | 判分、自评、每日分配及状态更新 |
+| `backend/outreach.py` | 公告版本、邀请码和资料下载权限 |
 | `backend/store.py` | SQLite/Supabase 访问、事务与批量读取 |
 | `backend/models.py`、`schema.sql` | 题目清单模型、本地表结构 |
 | `supabase/migrations/` | 按时间顺序执行的云端结构迁移 |
@@ -35,7 +36,7 @@
 
 技术栈为 Vue 3、TypeScript、Vue Router、Vite、FastAPI。生产 Python 以 `.python-version`、`pyproject.toml` 和 `uv.lock` 为准，当前为 3.12；不要因为本机其他解释器能运行就擅改生产版本。本地用 SQLite 和磁盘，云端用 Supabase Auth、Data API、私有 Storage，Vercel 提供前端和 API。
 
-实际页面路由：`/`、`/problems/:id`、`/practice`、`/daily`、`/forum`、`/auth`、`/me`、`/admin`。API 统一 `/api/v1`。本地端口 **8011**。
+实际页面路由：`/`、`/problems/:id`、`/practice`、`/daily`、`/forum`、`/auth`、`/me`、`/admin`、`/mailbox`、`/invites`。API 统一 `/api/v1`。本地端口 **8011**。
 
 ## 3. 必须保留的业务规则
 
@@ -67,6 +68,13 @@
 - 私人作答与公开题解分开。当前题目版本曾做对的用户可主动发布题解；同版本后来做错不撤销已获得资格，自评结果如实标注。
 - 题解、评论仍须审核。审核人员和管理员权限有区别；题库默认发布不等于社区免审。“喜欢”兼作收藏，不另设重复系统。
 - 论坛 `/forum` 汇总审核通过且关联题目仍公开的题解，按 `created_at` 从新到旧排序，以 ID 降序稳定处理同一时间；编辑不刷新原发布时间。每页 12 篇，保留页码、摘要展开、多图预览和跳转原题定位对应题解。待审核、隐藏、关联题目下架的内容不可出现在公开论坛；不返回作者邮箱或私人作答。云端先过滤、排序和分页，再批量读取本页图片，不能全量下载题解后在浏览器分页。
+
+### 更新信箱与邀请资料（2026-11-08 确认）
+
+- 账号附近提供站内更新信箱，不发送邮件。管理员可发布、编辑、存草稿和隐藏公告；普通用户登录后查看。每页 12 条，按创建时间倒序；已读状态按账号和公告版本隔离，编辑后重新未读，旧版本不能覆盖新编辑。
+- 每个账号生成固定邀请码，允许注册后手动绑定，包括现有用户；只能绑定一位邀请人、不能更换或绑定自己，重复提交不重复计数。云端须通过可信 Auth 用户信息确认邮箱已验证，本地不发验证邮件；不能使用用户可修改的 metadata 判断验证状态。
+- 直接邀请两名已验证并成功绑定的用户后解锁夸克资料链接，后端每次校验人数，管理员不得绕过。地址及提取码通过服务端 `RESOURCE_DOWNLOAD_URL` / `RESOURCE_EXTRACTION_CODE` 配置，未达人数时不返回；不把实际分享地址写入前端或公开示例，不上传 D 盘资料包。链接一旦展示，站外转发不受本站控制。
+- 需要新增迁移 `supabase/migrations/20261108121156_announcements_invites.sql`，RLS 及服务端权限随迁移配置；未执行时新功能明确报待迁移。上线步骤见 [更新信箱与邀请资料](docs/announcements-invites.md)，不重跑题库导入。
 
 ### 页面风格
 
@@ -125,6 +133,6 @@ npm --prefix frontend run format:check
 
 ## 7. 后续事项
 
-当前优先维护可用性、题库补充和真实网络性能。云端社区并发事务与失败恢复、上传直传、备份及恢复演练等按任务推进。公式编辑、AI、填空自动判分、邀请下载、生存模式和在线 PK 是候选方向，不属于当前默认承诺；不因旧文档提到就自动实现。
+当前优先维护可用性、题库补充和真实网络性能。云端社区并发事务与失败恢复、上传直传、备份及恢复演练等按任务推进。更新信箱与邀请下载已按 2026-11-08 的明确需求实现，上线仍需迁移与部署配置。公式编辑、AI、填空自动判分、生存模式和在线 PK 是候选方向，不属于当前默认承诺；不因旧文档提到就自动实现。
 
 本文件按用户要求命名为 `AGENT.md`；不假定所有工具都会自动加载这一单数文件名，使用新编码工具时需确认其指令发现规则。

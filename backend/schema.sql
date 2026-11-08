@@ -67,3 +67,25 @@ INSERT OR IGNORE INTO user_mistakes
 INSERT OR IGNORE INTO schema_migrations VALUES (6);
 INSERT OR IGNORE INTO schema_migrations VALUES (7);
 
+CREATE TABLE IF NOT EXISTS announcements (
+ id TEXT PRIMARY KEY, author_id TEXT NOT NULL REFERENCES profiles(id),
+ title TEXT NOT NULL, body TEXT NOT NULL, published INTEGER NOT NULL DEFAULT 1,
+ revision INTEGER NOT NULL DEFAULT 1, created_at TEXT NOT NULL, updated_at TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS announcement_feed ON announcements(published,created_at DESC,id DESC);
+CREATE INDEX IF NOT EXISTS announcement_author ON announcements(author_id);
+CREATE TABLE IF NOT EXISTS announcement_reads (
+ id TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES profiles(id),
+ announcement_id TEXT NOT NULL REFERENCES announcements(id), revision INTEGER NOT NULL,
+ UNIQUE(user_id,announcement_id)
+);
+CREATE INDEX IF NOT EXISTS announcement_reads_parent ON announcement_reads(announcement_id);
+CREATE TABLE IF NOT EXISTS invite_codes (
+ id TEXT PRIMARY KEY REFERENCES profiles(id), code TEXT NOT NULL UNIQUE, created_at TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS invite_registrations (
+ id TEXT PRIMARY KEY REFERENCES profiles(id), inviter_id TEXT NOT NULL REFERENCES profiles(id),
+ created_at TEXT NOT NULL, CHECK(id<>inviter_id)
+);
+CREATE INDEX IF NOT EXISTS invite_registration_owner ON invite_registrations(inviter_id);
+

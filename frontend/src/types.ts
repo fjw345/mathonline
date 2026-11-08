@@ -98,6 +98,16 @@ export interface Notification {
   created_at: string;
   target_id: string;
 }
+export interface Announcement {
+  id: string;
+  title: string;
+  body: string;
+  published: boolean;
+  revision: number;
+  created_at: string;
+  updated_at: string;
+  is_read: boolean;
+}
 export interface ProblemFeedback {
   id: string;
   problem_id: string;

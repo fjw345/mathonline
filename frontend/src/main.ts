@@ -17,6 +17,8 @@ const router = createRouter({
     { path: "/forum", component: () => import("./views/Forum.vue") },
     { path: "/auth", component: Auth },
     { path: "/me", component: Learning },
+    { path: "/mailbox", component: () => import("./views/Mailbox.vue") },
+    { path: "/invites", component: () => import("./views/Invites.vue") },
     { path: "/admin", component: Admin },
     { path: "/:pathMatch(.*)*", redirect: "/" },
   ],

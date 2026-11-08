@@ -29,6 +29,7 @@ BOOL_FIELDS = {
     "ever_incorrect",
     "is_read",
     "active",
+    "published",
 }
 TABLES = {
     "profiles",
@@ -49,6 +50,10 @@ TABLES = {
     "moderation_logs",
     "rate_limits",
     "problem_feedback",
+    "announcements",
+    "announcement_reads",
+    "invite_codes",
+    "invite_registrations",
 }
 PRIMARY = {"problem_answers": "problem_id", "local_sessions": "token_hash"}
 
@@ -173,6 +178,55 @@ class LocalStore:
     def forum_page(self, page, page_size):
         with self.reader() as reader:
             return reader.forum_page(page, page_size)
+
+    def announcement_page(self, user_id, page, page_size, admin=False):
+        with self.reader() as reader:
+            where = "" if admin else " WHERE a.published=1"
+            total = reader.db.execute(
+                "SELECT count(*) FROM announcements a" + where
+            ).fetchone()[0]
+            rows = reader.db.execute(
+                "SELECT a.*, coalesce(r.revision,0)>=a.revision AS is_read "
+                "FROM announcements a LEFT JOIN announcement_reads r "
+                "ON r.announcement_id=a.id AND r.user_id=?"
+                + where
+                + " ORDER BY a.created_at DESC,a.id DESC LIMIT ? OFFSET ?",
+                (user_id, page_size, (page - 1) * page_size),
+            ).fetchall()
+            return {"total": total, "items": [dict(r) for r in rows]}
+
+    def invite_status(self, user_id):
+        with self.reader() as reader:
+            count = reader.db.execute(
+                "SELECT count(*) FROM invite_registrations WHERE inviter_id=?",
+                (user_id,),
+            ).fetchone()[0]
+            return {"confirmed": count, "pending": 0}
+
+    def bind_invite(self, user_id, inviter_id, timestamp):
+        with self.transaction() as tx:
+            old = tx.get("invite_registrations", id=user_id)
+            if old:
+                return "ok" if old["inviter_id"] == inviter_id else "conflict"
+            tx.put(
+                "invite_registrations",
+                {"id": user_id, "inviter_id": inviter_id, "created_at": timestamp},
+            )
+            return "ok"
+
+    def ensure_invite_code(self, user_id, code, created_at):
+        with self.transaction() as tx:
+            row = tx.get("invite_codes", id=user_id)
+            return row or tx.put(
+                "invite_codes", {"id": user_id, "code": code, "created_at": created_at}
+            )
+
+    def save_announcement(self, item, expected):
+        with self.transaction() as tx:
+            old = tx.get("announcements", id=item["id"])
+            if (old["revision"] if old else 0) != expected:
+                return None
+            return tx.put("announcements", item)
 
 
 class LocalStoreView:
@@ -333,6 +387,24 @@ class SupabaseStore:
     def apply_problem_texts(self, items):
         """Bulk text backfill through one additive SQL function."""
         return self.rpc("apply_problem_texts", {"p_items": items})
+
+    def announcement_page(self, user_id, page, page_size, admin=False):
+        return self.rpc(
+            "announcement_page",
+            {"p_user": user_id, "p_page": page, "p_size": page_size, "p_admin": admin},
+        )
+
+    def invite_status(self, user_id):
+        return self.rpc("invite_status", {"p_user": user_id})
+
+    def bind_invite(self, user_id, inviter_id, timestamp):
+        return self.rpc("bind_invite", {"p_user": user_id, "p_inviter": inviter_id})
+
+    def ensure_invite_code(self, user_id, code, created_at):
+        return self.rpc("ensure_invite_code", {"p_user": user_id, "p_code": code})
+
+    def save_announcement(self, item, expected):
+        return self.rpc("save_announcement", {"p_item": item, "p_expected": expected})
 
     def media_references(self, table, column, aid):
         return self.request(

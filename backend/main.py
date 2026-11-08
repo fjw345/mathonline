@@ -22,7 +22,7 @@ from fastapi.staticfiles import StaticFiles
 from PIL import Image, UnidentifiedImageError
 from pydantic import BaseModel, Field, ValidationError, field_validator
 
-from . import config
+from . import config, outreach
 from .auth import (
     auth_request,
     current_user,
@@ -1393,6 +1393,125 @@ def review_feedback(fid: str, body: FeedbackReview, request: Request):
             },
         )
     return {"ok": True}
+
+
+class AnnouncementInput(BaseModel):
+    title: str = Field(min_length=1, max_length=100)
+    body: str = Field(min_length=1, max_length=10000)
+    published: bool = True
+    revision: int | None = Field(default=None, ge=1)
+
+
+@app.get("/api/v1/mailbox")
+def mailbox(request: Request, page: int = Query(default=1, ge=1)):
+    user = current_user(request)
+    response = outreach.available(lambda: store.announcement_page(user["id"], page, 12))
+    # The public inbox never exposes the publishing administrator's account ID.
+    for row in response["items"]:
+        row.pop("author_id", None)
+    return response
+
+
+@app.put("/api/v1/mailbox/{aid}/read")
+def read_announcement(aid: str, request: Request, body: dict):
+    user = current_user(request)
+    row = outreach.available(lambda: store.get("announcements", id=aid))
+    if not row or not row["published"]:
+        raise HTTPException(404, "公告不存在。")
+    if body.get("revision") != row["revision"]:
+        raise HTTPException(409, "公告已更新，请重新打开。")
+    outreach.available(
+        lambda: store.put(
+            "announcement_reads",
+            {
+                "id": user["id"] + ":" + aid,
+                "user_id": user["id"],
+                "announcement_id": aid,
+                "revision": row["revision"],
+            },
+        )
+    )
+    return {"ok": True}
+
+
+@app.get("/api/v1/admin/announcements")
+def admin_announcements(request: Request, page: int = Query(default=1, ge=1)):
+    user = require_admin(request)
+    return outreach.available(
+        lambda: store.announcement_page(user["id"], page, 12, admin=True)
+    )
+
+
+@app.post("/api/v1/admin/announcements")
+def publish_announcement(body: AnnouncementInput, request: Request):
+    user = require_admin(request)
+    return outreach.save_announcement(store, user, body, now())
+
+
+@app.put("/api/v1/admin/announcements/{aid}")
+def update_announcement(aid: str, body: AnnouncementInput, request: Request):
+    user = require_admin(request)
+    if body.revision is None:
+        raise HTTPException(400, "编辑公告需提供版本，请刷新后重试。")
+    return outreach.save_announcement(store, user, body, now(), aid)
+
+
+@app.get("/api/v1/me/invites")
+def invites(request: Request):
+    user = current_user(request)
+    code = outreach.invite_code(store, user["id"], now())
+    status = outreach.available(lambda: store.invite_status(user["id"]))
+    binding = outreach.available(
+        lambda: store.get("invite_registrations", id=user["id"])
+    )
+    return {
+        **status,
+        "code": code,
+        "required": 2,
+        "unlocked": status["confirmed"] >= 2,
+        "bound": bool(binding),
+        "download_ready": bool(config.RESOURCE_DOWNLOAD_URL),
+    }
+
+
+class InviteInput(BaseModel):
+    code: str = Field(min_length=1, max_length=10)
+
+
+@app.post("/api/v1/me/invites/bind")
+def bind_invite(body: InviteInput, request: Request):
+    user = current_user(request)
+    if not request.state.email_verified:
+        raise HTTPException(403, "请先验证注册邮箱，再绑定邀请人。")
+    inviter_id = outreach.resolve_inviter(store, body.code)
+    if not inviter_id or inviter_id == user["id"]:
+        raise HTTPException(400, "不能绑定自己的邀请码。")
+    status = outreach.available(
+        lambda: store.bind_invite(user["id"], inviter_id, now())
+    )
+    if status == "conflict":
+        raise HTTPException(409, "每个账号只能绑定一位邀请人。")
+    return {"ok": True}
+
+
+@app.get("/api/v1/me/resources")
+def invite_resource_link(request: Request, response: Response):
+    user = current_user(request)
+    status = outreach.available(lambda: store.invite_status(user["id"]))
+    if status["confirmed"] < 2:
+        raise HTTPException(403, "邀请 2 名用户后解锁下载。")
+    response.headers["Cache-Control"] = "private, no-store"
+    if not config.RESOURCE_DOWNLOAD_URL.startswith("https://"):
+        raise HTTPException(503, "资料下载地址配置无效。")
+    return {
+        "url": config.RESOURCE_DOWNLOAD_URL,
+        "extraction_code": config.RESOURCE_EXTRACTION_CODE,
+    }
+
+
+@app.get("/api/v1/me/resources/download")
+def download_invite_resource(request: Request):
+    return outreach.download_resource(store, current_user(request))
 
 
 # Built SPA is served by FastAPI for one-command local use. API routes stay first.

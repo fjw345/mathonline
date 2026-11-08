@@ -11,6 +11,8 @@ import {
   LogOut,
   GraduationCap,
   MessagesSquare,
+  Mail,
+  Gift,
 } from "lucide-vue-next";
 import { api, loadMe, state, toast } from "./api";
 import { rememberedPracticeRoute } from "./practiceFilters";
@@ -49,9 +51,17 @@ async function logout() {
       ><span class="brand-mark"><GraduationCap :size="25" /></span
       ><span>嗟，来算</span></RouterLink
     >
-    <RouterLink class="mobile-account" :to="state.user ? '/me' : '/auth'">{{
-      state.user ? state.user.nickname.slice(0, 4) : "登录 / 注册"
-    }}</RouterLink>
+    <div class="mobile-account">
+      <RouterLink to="/mailbox" aria-label="更新信箱"
+        ><Mail :size="19"
+      /></RouterLink>
+      <RouterLink to="/invites" aria-label="邀请与资料"
+        ><Gift :size="19"
+      /></RouterLink>
+      <RouterLink :to="state.user ? '/me' : '/auth'">{{
+        state.user ? state.user.nickname.slice(0, 2) : "登录"
+      }}</RouterLink>
+    </div>
     <nav aria-label="主导航">
       <RouterLink
         v-for="item in nav"
@@ -75,6 +85,10 @@ async function logout() {
         ><Settings :size="19" /><span>管理</span></RouterLink
       >
     </nav>
+    <div class="account-tools">
+      <RouterLink to="/mailbox"><Mail :size="18" />更新信箱</RouterLink>
+      <RouterLink to="/invites"><Gift :size="18" />邀请与资料</RouterLink>
+    </div>
     <div class="sidebar-user">
       <template v-if="state.user"
         ><span class="avatar">{{ state.user.nickname.slice(0, 1) }}</span
@@ -112,7 +126,37 @@ async function logout() {
   </div>
 </template>
 <style scoped>
+.account-tools {
+  margin-top: auto;
+  display: grid;
+  gap: 8px;
+  padding: 20px 0 14px;
+}
+.account-tools a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 44px;
+  padding: 0 10px;
+  color: var(--green-dark);
+}
+.sidebar-user {
+  margin-top: 0;
+}
 @media (max-width: 640px) {
+  .account-tools {
+    display: none;
+  }
+  .mobile-account {
+    gap: 0;
+  }
+  .mobile-account a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+  }
   .sidebar nav {
     flex-wrap: wrap;
   }

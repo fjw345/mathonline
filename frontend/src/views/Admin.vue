@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, onMounted, ref, watch } from "vue";
+import { useRoute } from "vue-router";
 import {
   Download,
   Upload,
@@ -30,6 +31,7 @@ import type {
   ProblemFeedback,
 } from "../types";
 import ImageGallery from "../components/ImageGallery.vue";
+import AnnouncementManager from "../components/AnnouncementManager.vue";
 const creating = ref(false);
 const feedback = ref<ProblemFeedback[]>([]),
   feedbackFilter = ref("pending"),
@@ -42,7 +44,9 @@ const shownFeedback = computed(() =>
     (f) => !feedbackFilter.value || f.status === feedbackFilter.value,
   ),
 );
-const tab = ref("bank"),
+const tab = ref(
+    useRoute().query.tab === "announcements" ? "announcements" : "bank",
+  ),
   problems = ref<Problem[]>([]),
   pending = ref<{ solutions: Solution[]; comments: Comment[] }>({
     solutions: [],
@@ -381,6 +385,12 @@ async function reviewFeedback(
         题库维护</button
       ><button
         v-if="state.user.role === 'admin'"
+        :class="{ selected: tab === 'announcements' }"
+        @click="tab = 'announcements'"
+      >
+        更新公告</button
+      ><button
+        v-if="state.user.role === 'admin'"
         :class="{ selected: tab === 'feedback' }"
         @click="tab = 'feedback'"
       >
@@ -401,6 +411,9 @@ async function reviewFeedback(
         用户角色
       </button>
     </div>
+    <AnnouncementManager
+      v-if="tab === 'announcements' && state.user.role === 'admin'"
+    />
     <section v-if="tab === 'bank' && state.user.role === 'admin'">
       <div class="admin-toolbar">
         <label class="field"

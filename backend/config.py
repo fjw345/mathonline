@@ -25,5 +25,7 @@ SB_URL = os.getenv("SUPABASE_URL", "").rstrip("/")
 SB_KEY = os.getenv("SUPABASE_SERVICE_ROLE_KEY", "")
 SB_ANON = os.getenv("SUPABASE_ANON_KEY", "")
 BUCKET = os.getenv("SUPABASE_BUCKET", "mathonline")
+RESOURCE_DOWNLOAD_URL = os.getenv("RESOURCE_DOWNLOAD_URL", "").strip()
+RESOURCE_EXTRACTION_CODE = os.getenv("RESOURCE_EXTRACTION_CODE", "").strip()
 if MODE == "supabase" and not all((SB_URL, SB_KEY, SB_ANON)):
     raise RuntimeError("Supabase mode requires URL, service role key and anon key")

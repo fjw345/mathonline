@@ -79,6 +79,7 @@ def profile_for_remote(user):
 
 
 def current_user(request: Request, required=True):
+    request.state.email_verified = False
     token = request.cookies.get("math_session") or request.headers.get(
         "authorization", ""
     ).removeprefix("Bearer ")
@@ -90,12 +91,14 @@ def current_user(request: Request, required=True):
             )
             if session and session["expires_at"] > now():
                 user = store.get("profiles", id=session["user_id"])
+                request.state.email_verified = bool(user)
         else:
             try:
                 remote = auth_request(
                     "GET", "user", headers={"Authorization": "Bearer " + token}
                 )
                 user = profile_for_remote(remote)
+                request.state.email_verified = bool(remote.get("email_confirmed_at"))
             except HTTPException:
                 pass
     if not user and required:
