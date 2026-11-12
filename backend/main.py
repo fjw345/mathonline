@@ -22,7 +22,7 @@ from fastapi.staticfiles import StaticFiles
 from PIL import Image, UnidentifiedImageError
 from pydantic import BaseModel, Field, ValidationError, field_validator
 
-from . import config, grading, outreach, topics
+from . import ai, analysis, config, grading, outreach, topics
 from .auth import (
     auth_request,
     current_user,
@@ -753,6 +753,89 @@ def master_mistake(pid: str, request: Request):
             },
         )
     return {"ok": True}
+
+
+def analysis_stats(user):
+    states = store.list("user_problem_progress", user_id=user["id"])
+    mistakes = mistake_rows(user, states)
+    return analysis.build(
+        user, store, [row["problem_id"] for row in mistakes], states=states
+    )
+
+
+def analysis_cache(user):
+    try:
+        return store.get("learning_analyses", id=user["id"])
+    except httpx.HTTPStatusError as exc:
+        if missing_mistake_table(exc):
+            return None
+        raise
+
+
+def cached_report(row, stats):
+    if not row or row.get("fingerprint") != stats["fingerprint"]:
+        return None
+    report = row.get("report")
+    if not isinstance(report, dict) or not report:
+        return None
+    return {
+        **report,
+        "model": row.get("model") or "",
+        "created_at": row.get("created_at") or "",
+    }
+
+
+@app.get("/api/v1/me/analysis")
+def my_analysis(request: Request):
+    user = current_user(request)
+    stats = analysis_stats(user)
+    report = cached_report(analysis_cache(user), stats)
+    return {
+        "stats": stats,
+        "report": report,
+        "available": ai.enabled(),
+        "reason": "" if ai.enabled() else "AI 学情分析未配置",
+    }
+
+
+@app.post("/api/v1/me/analysis")
+def generate_my_analysis(request: Request, refresh: bool = False):
+    user = current_user(request)
+    stats = analysis_stats(user)
+    cached = cached_report(analysis_cache(user), stats)
+    if cached and not refresh:
+        return {"stats": stats, "report": cached, "available": True, "reason": ""}
+    if not ai.enabled():
+        raise HTTPException(503, "AI 学情分析未配置，请联系管理员。")
+    from .rate_limit import allow
+
+    if not allow("analysis:" + user["id"], 6, 60):
+        raise HTTPException(429, "分析请求过于频繁，请稍后再试。")
+    try:
+        report = analysis.generate_report(stats)
+    except ai.AIUnavailable as exc:
+        logging.getLogger("mathonline").warning(
+            "AI analysis unavailable: %s", type(exc).__name__
+        )
+        raise HTTPException(503, "AI 分析暂不可用，请稍后再试。") from exc
+    created = now()
+    store.put(
+        "learning_analyses",
+        {
+            "id": user["id"],
+            "fingerprint": stats["fingerprint"],
+            "stats": stats,
+            "report": report,
+            "model": config.AI_MODEL,
+            "created_at": created,
+        },
+    )
+    return {
+        "stats": stats,
+        "report": {**report, "model": config.AI_MODEL, "created_at": created},
+        "available": True,
+        "reason": "",
+    }
 
 
 @app.get("/api/v1/me/likes")

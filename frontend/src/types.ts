@@ -148,3 +148,59 @@ export interface ProblemFeedback {
   created_at: string;
   reviewed_at: string | null;
 }
+export interface KnowledgeStat {
+  code: string;
+  name: string;
+  domain: string;
+  attempts: number;
+  correct: number;
+  incorrect: number;
+  pending: number;
+  mistakes: number;
+  graded: number;
+  accuracy: number | null;
+  weakness: number;
+}
+export interface DomainStat {
+  domain: string;
+  name: string;
+  attempts: number;
+  correct: number;
+  incorrect: number;
+  accuracy: number | null;
+}
+export interface AnalysisTotals {
+  practiced: number;
+  correct: number;
+  incorrect: number;
+  pending: number;
+  mistakes: number;
+}
+export interface AnalysisStats {
+  totals: AnalysisTotals;
+  knowledge: KnowledgeStat[];
+  weakest: KnowledgeStat[];
+  strengths: KnowledgeStat[];
+  domains: DomainStat[];
+  fingerprint: string;
+}
+export interface AnalysisReportItem {
+  code: string;
+  name: string;
+  reason: string;
+  suggestion?: string;
+}
+export interface AnalysisReport {
+  summary: string;
+  strengths: AnalysisReportItem[];
+  weaknesses: AnalysisReportItem[];
+  plan: string[];
+  model?: string;
+  created_at?: string;
+}
+export interface Analysis {
+  stats: AnalysisStats;
+  report: AnalysisReport | null;
+  available: boolean;
+  reason: string;
+}

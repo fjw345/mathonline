@@ -9,9 +9,11 @@ import {
   ArrowRight,
   Heart,
   Bell,
+  Sparkles,
+  RefreshCw,
 } from "lucide-vue-next";
 import { api, write, loadMe, state, toast, statusName } from "../api";
-import type { Problem, Solution, Notification } from "../types";
+import type { Analysis, Problem, Solution, Notification } from "../types";
 import ProblemCard from "../components/ProblemCard.vue";
 const route = useRoute(),
   router = useRouter();
@@ -23,17 +25,51 @@ const loading = ref(true),
   notifications = ref<Notification[]>([]),
   page = ref(1),
   total = ref(0);
+const analysis = ref<Analysis>();
+const reportBusy = ref(false);
 const nickname = ref("");
 const settings = ref(false),
   saving = ref(false);
 const mastering = ref<string[]>([]);
+const domainNames: Record<string, string> = {
+  calculus: "高等数学",
+  linear_algebra: "线性代数",
+  probability: "概率论",
+};
+function domainName(value: string) {
+  return domainNames[value] || value;
+}
+function percent(value: number | null) {
+  return value === null ? "—" : Math.round(value * 100) + "%";
+}
+function accuracyWidth(value: number | null) {
+  return (value === null ? 0 : Math.max(4, Math.round(value * 100))) + "%";
+}
 const tabs = [
   { id: "history", label: "练习记录" },
   { id: "mistakes", label: "错题" },
+  { id: "analysis", label: "学情分析" },
   { id: "likes", label: "喜欢" },
   { id: "solutions", label: "我的题解" },
   { id: "notifications", label: "消息" },
 ];
+async function loadAnalysis() {
+  analysis.value = await api<Analysis>("/me/analysis");
+}
+async function generateReport(refresh = false) {
+  reportBusy.value = true;
+  try {
+    analysis.value = await api<Analysis>(
+      "/me/analysis" + (refresh ? "?refresh=true" : ""),
+      { method: "POST" },
+    );
+    toast("AI 诊断已更新");
+  } catch (e) {
+    toast((e as Error).message, true);
+  } finally {
+    reportBusy.value = false;
+  }
+}
 async function saveProfile() {
   saving.value = true;
   try {
@@ -87,7 +123,9 @@ async function load() {
     if (!state.user) return;
     items.value = [];
     solutions.value = [];
-    if (tab.value === "notifications") {
+    if (tab.value === "analysis") {
+      await loadAnalysis();
+    } else if (tab.value === "notifications") {
       notifications.value = await api("/me/notifications");
     } else if (tab.value === "solutions") {
       solutions.value = await api("/me/solutions");
@@ -115,6 +153,7 @@ async function load() {
 onMounted(load);
 watch(tab, () => {
   page.value = 1;
+  if (tab.value === "analysis") analysis.value = undefined;
   router.replace({ query: { tab: tab.value } });
   load();
 });
@@ -204,6 +243,186 @@ async function read(n: Notification) {
       <p>{{ error }}</p>
       <button class="button" @click="load">重试</button>
     </div>
+    <template v-else-if="tab === 'analysis'">
+      <div v-if="!analysis" class="loading-panel">正在统计…</div>
+      <template v-else>
+        <div class="analysis-summary">
+          <div>
+            <strong>{{ analysis.stats.totals.practiced }}</strong
+            ><span>已练习</span>
+          </div>
+          <div>
+            <strong>{{ analysis.stats.totals.correct }}</strong
+            ><span>当前做对</span>
+          </div>
+          <div>
+            <strong>{{ analysis.stats.totals.incorrect }}</strong
+            ><span>当前做错</span>
+          </div>
+          <div>
+            <strong>{{ analysis.stats.totals.mistakes }}</strong
+            ><span>待复习错题</span>
+          </div>
+        </div>
+        <div v-if="!analysis.stats.knowledge.length" class="empty-state">
+          <BookOpen :size="32" />
+          <h3>还没有可分析的练习记录</h3>
+          <p>
+            做几道带知识点的题目后再来看；已做过的题会自动计入统计。
+          </p>
+          <RouterLink to="/practice" class="button"
+            >去练习<ArrowRight :size="16"
+          /></RouterLink>
+        </div>
+        <template v-else>
+          <section class="paper-card">
+            <div class="section-heading compact">
+              <div>
+                <h2>最需加强</h2>
+              </div>
+              <span class="chip neutral">按正确率与错题数排序</span>
+            </div>
+            <div class="weak-grid">
+              <article
+                v-for="item in analysis.stats.weakest"
+                :key="item.code"
+                class="weak-card"
+              >
+                <h3>{{ item.name }}</h3>
+                <p class="small-text muted">
+                  正确率 {{ percent(item.accuracy) }} · 已判分
+                  {{ item.graded }} 题 · 错题 {{ item.mistakes }}
+                </p>
+                <div class="accuracy-bar" aria-hidden="true">
+                  <i :style="{ width: accuracyWidth(item.accuracy) }"></i>
+                </div>
+                <RouterLink
+                  :to="'/practice?knowledge=' + item.code"
+                  class="text-button inline"
+                  >针对练习<ArrowRight :size="15"
+                /></RouterLink>
+              </article>
+            </div>
+          </section>
+          <section class="paper-card">
+            <div class="section-heading">
+              <div>
+                <h2>知识点掌握</h2>
+              </div>
+              <span class="chip neutral"
+                >{{ analysis.stats.knowledge.length }} 个知识点</span
+              >
+            </div>
+            <div class="analysis-table-wrap">
+              <table class="analysis-table">
+                <thead>
+                  <tr>
+                    <th scope="col">知识点</th>
+                    <th scope="col">正确率</th>
+                    <th scope="col">已判分</th>
+                    <th scope="col">错题</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr
+                    v-for="item in analysis.stats.knowledge"
+                    :key="item.code"
+                  >
+                    <td>
+                      <strong>{{ item.name }}</strong>
+                      <br />
+                      <small class="muted">{{ domainName(item.domain) }}</small>
+                    </td>
+                    <td>
+                      <div class="accuracy-bar" aria-hidden="true">
+                        <i :style="{ width: accuracyWidth(item.accuracy) }"></i>
+                      </div>
+                      <small>{{ percent(item.accuracy) }}</small>
+                    </td>
+                    <td>{{ item.graded }}</td>
+                    <td>{{ item.mistakes }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <section class="paper-card ai-analysis">
+            <div class="section-heading compact">
+              <div>
+                <h2><Sparkles :size="18" /> AI 学情诊断</h2>
+              </div>
+              <button
+                v-if="analysis.available"
+                class="button small"
+                :disabled="reportBusy"
+                @click="generateReport(!!analysis.report)"
+              >
+                <RefreshCw :size="15" />{{
+                  reportBusy
+                    ? "生成中…"
+                    : analysis.report
+                      ? "重新生成"
+                      : "生成 AI 诊断"
+                }}
+              </button>
+            </div>
+            <template v-if="analysis.report">
+              <p class="ai-summary">{{ analysis.report.summary }}</p>
+              <div
+                v-if="analysis.report.strengths.length"
+                class="report-block"
+              >
+                <h3>相对掌握较好</h3>
+                <ul>
+                  <li
+                    v-for="item in analysis.report.strengths"
+                    :key="item.code"
+                  >
+                    <strong>{{ item.name }}</strong
+                    >：{{ item.reason }}
+                  </li>
+                </ul>
+              </div>
+              <div
+                v-if="analysis.report.weaknesses.length"
+                class="report-block"
+              >
+                <h3>需要重点补的</h3>
+                <ul>
+                  <li
+                    v-for="item in analysis.report.weaknesses"
+                    :key="item.code"
+                  >
+                    <strong>{{ item.name }}</strong
+                    >：{{ item.reason }}
+                    <span v-if="item.suggestion"
+                      ><br /><em>建议：{{ item.suggestion }}</em></span
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div v-if="analysis.report.plan.length" class="report-block">
+                <h3>一周练习计划</h3>
+                <ol>
+                  <li v-for="(step, index) in analysis.report.plan" :key="index">
+                    {{ step }}
+                  </li>
+                </ol>
+              </div>
+              <p class="small-text muted">
+                由 {{ analysis.report.model || "模型" }} 生成 · 仅依据你的练习统计
+              </p>
+            </template>
+            <p v-else-if="!analysis.available" class="muted">
+              {{ analysis.reason || "AI 诊断暂不可用，先看上面的统计。" }}
+            </p>
+            <p v-else class="muted small-text">
+              点击“生成 AI 诊断”，模型会结合正确率与错题分布指出薄弱知识点，并给出复习计划。
+            </p>
+          </section>
+        </template>
+      </template>
+    </template>
     <template v-else
       ><div v-if="items.length" class="card-grid">
         <div v-for="p in items" :key="p.id" class="learning-item">

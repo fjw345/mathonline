@@ -21,6 +21,8 @@ JSON_FIELDS = {
     "filters",
     "points",
     "knowledge_points",
+    "stats",
+    "report",
 }
 BOOL_FIELDS = {
     "multiple",
@@ -42,6 +44,7 @@ TABLES = {
     "problem_answers",
     "problem_rubrics",
     "problem_grading",
+    "learning_analyses",
     "user_problem_progress",
     "daily_assignments",
     "answer_access",

@@ -112,3 +112,13 @@ CREATE TABLE IF NOT EXISTS problem_grading (
 );
 CREATE INDEX IF NOT EXISTS grading_by_problem ON problem_grading(problem_id);
 
+-- 学情分析报告缓存：统计每次现算，报告只在数据指纹变化时重新生成。
+CREATE TABLE IF NOT EXISTS learning_analyses (
+ id TEXT PRIMARY KEY REFERENCES profiles(id),
+ fingerprint TEXT NOT NULL,
+ stats TEXT NOT NULL,
+ report TEXT NOT NULL,
+ model TEXT NOT NULL,
+ created_at TEXT NOT NULL
+);
+
