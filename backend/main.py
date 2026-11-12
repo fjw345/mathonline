@@ -22,7 +22,7 @@ from fastapi.staticfiles import StaticFiles
 from PIL import Image, UnidentifiedImageError
 from pydantic import BaseModel, Field, ValidationError, field_validator
 
-from . import config, grading, outreach
+from . import config, grading, outreach, topics
 from .auth import (
     auth_request,
     current_user,
@@ -201,9 +201,13 @@ def public_problem(p, user=None, repository=None):
     repository = repository or store
     result = dict(p)
     result.pop("difficulty", None)
+    result.pop("knowledge_source", None)
     result.setdefault("question_text", "")
     # Public pages are text-first; a missing legacy screenshot must not break
     # the text question. Admin listing keeps strict=True to surface the issue.
+    result["knowledge_points"] = topics.resolve(
+        p.get("knowledge_points") or [], p.get("subject")
+    )
     result["question_images"] = images_info(
         p["question_images"], repository, strict=False
     )
@@ -240,7 +244,7 @@ def validate_images(ids, user, purpose):
 def filters_for(request):
     return {
         k: request.query_params[k]
-        for k in ("year", "type", "tag", "q")
+        for k in ("year", "type", "tag", "knowledge", "q")
         if request.query_params.get(k)
     }
 
@@ -274,6 +278,19 @@ def health():
     }
 
 
+def knowledge_summary(rows):
+    """Count tagged problems per knowledge point for the public filter."""
+    counts = {}
+    for row in rows:
+        for code in row.get("knowledge_points") or []:
+            if topics.knows(code):
+                counts[code] = counts.get(code, 0) + 1
+    return [
+        {**item, "count": counts.get(item["code"], 0)}
+        for item in topics.catalog()
+    ]
+
+
 @app.get("/api/v1/catalog")
 def catalog():
     if hasattr(store, "catalog"):
@@ -283,6 +300,7 @@ def catalog():
         "total": len(rows),
         "years": sorted({p["year"] for p in rows}, reverse=True),
         "tags": sorted({t for p in rows for t in p["tags"]}),
+        "knowledge": knowledge_summary(rows),
         "counts": {
             t: sum(p["type"] == t for p in rows)
             for t in ("blank", "solution", "choice")
@@ -1104,9 +1122,12 @@ def admin_problems(
             reader.prepare_problems(rows, admin=True)
         for p in rows:
             answer = reader.get("problem_answers", problem_id=p["id"])
+            codes = p.get("knowledge_points") or []
             result.append(
                 {
-                    **p,
+                    **{k: v for k, v in p.items() if k != "knowledge_points"},
+                    "knowledge_points": topics.resolve(codes, p.get("subject")),
+                    "knowledge_codes": codes,
                     "question_images": images_info(p["question_images"], reader),
                     "answer": {
                         **answer,
@@ -1122,11 +1143,20 @@ def admin_problems(
 def create_problem(body: dict, request: Request):
     require_admin(request)
     source = body.get("source", {})
-    raw = {k: v for k, v in body.items() if k != "source"}
+    knowledge_raw = body.get("knowledge_points")
+    raw = {
+        k: v
+        for k, v in body.items()
+        if k not in ("source", "knowledge_points", "knowledge_source")
+    }
     try:
         p = ProblemRecord.model_validate(raw).model_dump()
     except ValidationError:
         raise HTTPException(400, "请填写有效的稳定 ID、来源和题目信息。")
+    if isinstance(knowledge_raw, list) and topics.invalid_codes(
+        knowledge_raw, p["subject"]
+    ):
+        raise HTTPException(400, "知识点标签无效或与该学科不符。")
     if store.get("problems", id=p["id"]):
         raise HTTPException(409, "稳定 ID 已存在，请编辑原题或使用新的 ID。")
     for role, ids in [
@@ -1170,6 +1200,19 @@ def create_problem(body: dict, request: Request):
         )
     except ValueError as e:
         raise HTTPException(400, str(e))
+    if isinstance(knowledge_raw, list) and knowledge_raw:
+        store.apply_knowledge(
+            [
+                {
+                    "id": p["id"],
+                    "knowledge_points": topics.normalize_codes(
+                        knowledge_raw, p["subject"]
+                    ),
+                    "difficulty": None,
+                    "knowledge_source": "manual",
+                }
+            ]
+        )
     return result
 
 
@@ -1213,11 +1256,13 @@ def edit_problem(pid: str, body: dict, request: Request):
         or len(p["title"]) > 200
     ):
         raise HTTPException(400, "标题需要 1 至 200 个字符。")
-    p["difficulty"] = None
     if not isinstance(p["tags"], list) or any(
         not isinstance(t, str) or len(t) > 60 for t in p["tags"]
     ):
         raise HTTPException(400, "标签格式无效。")
+    # A content edit must not silently drop the knowledge tags or the internal
+    # difficulty used by weak-point analysis and mock-exam assembly.
+    p["difficulty"] = topics.clamp_difficulty(p.get("difficulty")) or None
     if not p["question_images"]:
         raise HTTPException(400, "至少保留一张题干图片。")
     for label, value in (
@@ -1242,8 +1287,13 @@ def edit_problem(pid: str, body: dict, request: Request):
     ):
         raise HTTPException(400, "请配置有效选择题选项和答案。")
     try:
+        # The row also carries knowledge/difficulty metadata that is not part of
+        # the import model; validate only the fields the model owns.
         ProblemRecord.model_validate(
-            {**p, "answer": {k: v for k, v in a.items() if k != "problem_id"}}
+            {
+                **{k: p[k] for k in ProblemRecord.model_fields if k in p},
+                "answer": {k: v for k, v in a.items() if k != "problem_id"},
+            }
         )
     except ValidationError:
         raise HTTPException(400, "题目元数据格式无效，请检查年份、标签与选项配置。")
@@ -1276,6 +1326,56 @@ def edit_problem(pid: str, body: dict, request: Request):
         },
     )
     return {"ok": True, "version": p["version"]}
+
+
+class KnowledgeInput(BaseModel):
+    knowledge_points: list[str] = Field(default_factory=list, max_length=4)
+    difficulty: int | None = Field(default=None, ge=1, le=5)
+
+
+@app.put("/api/v1/admin/problems/{pid}/knowledge")
+def edit_knowledge(pid: str, body: KnowledgeInput, request: Request):
+    """人工校正知识点与内部难度，不修改题面、答案与题目版本。"""
+    user = require_admin(request)
+    p = problem_or_404(pid, True)
+    bad = topics.invalid_codes(body.knowledge_points, p["subject"])
+    if bad:
+        raise HTTPException(
+            400, "知识点标签无效或与该学科不符：" + "、".join(bad[:3])
+        )
+    codes = topics.normalize_codes(body.knowledge_points, p["subject"])
+    difficulty = (
+        body.difficulty
+        if body.difficulty is not None
+        else topics.clamp_difficulty(p.get("difficulty"))
+    )
+    store.apply_knowledge(
+        [
+            {
+                "id": pid,
+                "knowledge_points": codes,
+                "difficulty": difficulty or None,
+                "knowledge_source": "manual",
+            }
+        ]
+    )
+    store.put(
+        "moderation_logs",
+        {
+            "id": str(uuid4()),
+            "actor_id": user["id"],
+            "target_id": pid,
+            "kind": "problem",
+            "action": "knowledge",
+            "reason": "知识点：" + ",".join(codes),
+            "created_at": now(),
+        },
+    )
+    return {
+        "ok": True,
+        "knowledge_points": topics.resolve(codes, p["subject"]),
+        "difficulty": difficulty or None,
+    }
 
 
 @app.patch("/api/v1/admin/sources/{sid}")

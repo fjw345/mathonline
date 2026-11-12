@@ -2,6 +2,7 @@
 import { computed, onBeforeUnmount, onMounted, ref, watch } from "vue";
 import { ArrowRight, ChevronDown } from "lucide-vue-next";
 import { api, typeName } from "../api";
+import type { KnowledgeFilterOption } from "../types";
 import {
   practiceFilterQuery,
   readPracticeFilters,
@@ -20,12 +21,34 @@ const emit = defineEmits<{ apply: [filters: PracticeFilters] }>();
 const catalog = ref({
   tags: [] as string[],
   years: [] as number[],
+  knowledge: [] as KnowledgeFilterOption[],
 });
 const catalogError = ref("");
 const count = ref<number>();
 const countError = ref("");
 const counting = ref(false);
 const advanced = ref(false);
+const selectedKnowledge = computed(
+  () =>
+    catalog.value.knowledge.find(
+      (item) => item.code === filters.value.knowledge,
+    )?.name || filters.value.knowledge,
+);
+const knowledgeGroups = computed(() => {
+  const groups: { domain: string; items: KnowledgeFilterOption[] }[] = [];
+  for (const item of catalog.value.knowledge) {
+    if (!item.count) continue;
+    const group = groups.find((entry) => entry.domain === item.domain);
+    if (group) group.items.push(item);
+    else groups.push({ domain: item.domain, items: [item] });
+  }
+  return groups;
+});
+const knowledgeKnown = computed(() =>
+  knowledgeGroups.value.some((group) =>
+    group.items.some((item) => item.code === filters.value.knowledge),
+  ),
+);
 let sequence = 0;
 let timer: ReturnType<typeof setTimeout>;
 const summary = computed(() => {
@@ -33,12 +56,18 @@ const summary = computed(() => {
     tag: "标签",
     year: "年份",
     type: "题型",
+    knowledge: "知识点",
     q: "关键词",
   };
   return Object.entries(readPracticeFilters(filters.value))
     .filter(([, value]) => value)
     .map(([key, value]) => {
-      const name = key === "type" ? typeName(value) : value;
+      const name =
+        key === "type"
+          ? typeName(value)
+          : key === "knowledge"
+            ? selectedKnowledge.value
+            : value;
       return `${labels[key]}：${name}`;
     });
 });
@@ -161,6 +190,34 @@ function reset() {
               <option v-for="tag in catalog.tags" :key="tag" :value="tag">
                 {{ tag }}
               </option>
+            </select>
+          </label>
+          <label class="field"
+            >知识点
+            <select
+              :value="filters.knowledge || ''"
+              @change="update('knowledge', $event)"
+            >
+              <option value="">不限知识点</option>
+              <option
+                v-if="filters.knowledge && !knowledgeKnown"
+                :value="filters.knowledge"
+              >
+                {{ selectedKnowledge }}（当前）
+              </option>
+              <optgroup
+                v-for="group in knowledgeGroups"
+                :key="group.domain"
+                :label="group.domain"
+              >
+                <option
+                  v-for="item in group.items"
+                  :key="item.code"
+                  :value="item.code"
+                >
+                  {{ item.name }}（{{ item.count }}）
+                </option>
+              </optgroup>
             </select>
           </label>
           <label class="field"

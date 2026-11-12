@@ -75,7 +75,7 @@ def test_collection_filters_ignore_removed_dimensions_and_extend_with_bank(env):
     db.put("problems", second)
     removed = "group_name=不存在&subject=不存在&source_id=不存在&difficulty=5"
     catalog = guest.get("/api/v1/catalog").json()
-    assert set(catalog) == {"total", "years", "tags", "counts"}
+    assert set(catalog) == {"total", "years", "tags", "knowledge", "counts"}
     assert "全国大学生数学竞赛·非数" in catalog["tags"]
     assert "考研数学" in catalog["tags"]
     assert guest.get("/api/v1/problems?" + removed).json()["total"] == 3

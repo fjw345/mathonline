@@ -783,6 +783,58 @@ footer > span {
   color: #7b886f;
   border-radius: 3px;
 }
+.knowledge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: -4px 0 10px;
+}
+.knowledge-row:empty {
+  display: none;
+}
+.knowledge-chip {
+  font-size: 10px;
+  line-height: 1.4;
+  padding: 3px 7px;
+  border: 1px solid #cfe0d6;
+  border-radius: 999px;
+  color: #2f5d4c;
+  background: #f2f8f4;
+  white-space: nowrap;
+}
+.knowledge-editor {
+  margin: 0 0 16px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcf8;
+}
+.knowledge-editor legend {
+  padding: 0 6px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.knowledge-group {
+  display: grid;
+  gap: 6px;
+  padding: 6px 0;
+  border-bottom: 1px dashed #e4e9dd;
+}
+.knowledge-group:last-of-type {
+  border-bottom: 0;
+}
+.knowledge-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+}
+.knowledge-options .check-label {
+  font-size: 12px;
+}
+.knowledge-difficulty {
+  max-width: 260px;
+  margin-top: 10px;
+}
 .question-canvas {
   padding: 15px 0 23px;
 }

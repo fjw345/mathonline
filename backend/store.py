@@ -9,7 +9,7 @@ from time import monotonic
 
 import httpx
 
-from . import config
+from . import config, topics
 
 JSON_FIELDS = {
     "tags",
@@ -20,6 +20,7 @@ JSON_FIELDS = {
     "image_ids",
     "filters",
     "points",
+    "knowledge_points",
 }
 BOOL_FIELDS = {
     "multiple",
@@ -130,6 +131,23 @@ class LocalStore:
                     "TEXT NOT NULL DEFAULT ''"
                 )
             db.execute("INSERT OR IGNORE INTO schema_migrations VALUES (8)")
+            # Version 9 adds knowledge points and their provenance. The
+            # difficulty column already exists but is now written by the
+            # tagging job for mock-exam assembly, never as a public rating.
+            problem_columns = {
+                row["name"] for row in db.execute("PRAGMA table_info(problems)")
+            }
+            if "knowledge_points" not in problem_columns:
+                db.execute(
+                    "ALTER TABLE problems ADD COLUMN knowledge_points "
+                    "TEXT NOT NULL DEFAULT '[]'"
+                )
+            if "knowledge_source" not in problem_columns:
+                db.execute(
+                    "ALTER TABLE problems ADD COLUMN knowledge_source "
+                    "TEXT NOT NULL DEFAULT ''"
+                )
+            db.execute("INSERT OR IGNORE INTO schema_migrations VALUES (9)")
             db.commit()
 
     def connect(self):
@@ -187,6 +205,28 @@ class LocalStore:
                 tx.db.execute(
                     "UPDATE problem_answers SET text=? WHERE problem_id=?",
                     (item.get("answer_text", ""), item["id"]),
+                )
+                updated += 1
+        return updated
+
+    def apply_knowledge(self, items):
+        """Write only knowledge columns; content, version and images stay put."""
+        updated = 0
+        with self.transaction() as tx:
+            for item in items:
+                if not tx.get("problems", id=item["id"]):
+                    continue
+                tx.db.execute(
+                    "UPDATE problems SET knowledge_points=?,difficulty=?,"
+                    "knowledge_source=? WHERE id=?",
+                    (
+                        json.dumps(
+                            item.get("knowledge_points") or [], ensure_ascii=False
+                        ),
+                        item.get("difficulty"),
+                        item.get("knowledge_source", ""),
+                        item["id"],
+                    ),
                 )
                 updated += 1
         return updated
@@ -404,6 +444,15 @@ class SupabaseStore:
         """Bulk text backfill through one additive SQL function."""
         return self.rpc("apply_problem_texts", {"p_items": items})
 
+    def apply_knowledge(self, items):
+        """Bulk knowledge backfill; chunks stay under Data API request limits."""
+        updated = 0
+        for start in range(0, len(items), 200):
+            updated += self.rpc(
+                "apply_problem_knowledge", {"p_items": items[start : start + 200]}
+            )
+        return updated
+
     def announcement_page(self, user_id, page, page_size, admin=False):
         return self.rpc(
             "announcement_page",
@@ -440,17 +489,27 @@ class SupabaseStore:
         while True:
             part = self.request(
                 "GET", "/rest/v1/problems",
-                params={"status": "eq.published", "select": "id,year,type,tags",
+                params={"status": "eq.published",
+                        "select": "id,year,type,tags,knowledge_points",
                         "order": "id", "offset": offset, "limit": 500},
             )
             rows.extend(part)
             if len(part) < 500:
                 break
             offset += 500
+        knowledge_counts = {}
+        for row in rows:
+            for code in row.get("knowledge_points") or []:
+                if topics.knows(code):
+                    knowledge_counts[code] = knowledge_counts.get(code, 0) + 1
         result = {
             "total": len(rows),
             "years": sorted({p["year"] for p in rows}, reverse=True),
             "tags": sorted({t for p in rows for t in p["tags"]}),
+            "knowledge": [
+                {**item, "count": knowledge_counts.get(item["code"], 0)}
+                for item in topics.catalog()
+            ],
             "counts": {
                 t: sum(p["type"] == t for p in rows)
                 for t in ("blank", "solution", "choice")
@@ -490,6 +549,22 @@ class SupabaseStore:
                     for tag in tags
                 ]
                 params["or"] = "(" + ",".join(terms) + ")"
+        if filters.get("knowledge"):
+            # Same ANY semantics as the local filter. A single code uses one
+            # contains filter; multiple codes use PostgREST's disjunction.
+            codes = topics.parse_filter(str(filters["knowledge"]))
+            if not codes:
+                return {"total": 0, "rows": []}
+            if len(codes) == 1:
+                params["knowledge_points"] = "cs." + json.dumps(
+                    codes, ensure_ascii=False
+                )
+            else:
+                params["or"] = "(" + ",".join(
+                    "knowledge_points.cs."
+                    + json.dumps(json.dumps([code], ensure_ascii=False))
+                    for code in codes
+                ) + ")"
         if filters.get("q"):
             rows, offset = [], 0
             while True:

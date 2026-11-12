@@ -51,6 +51,14 @@ export interface Answer {
   correct_options: string[];
   provenance: string;
 }
+export interface KnowledgePoint {
+  code: string;
+  name: string;
+  domain: string;
+}
+export interface KnowledgeFilterOption extends KnowledgePoint {
+  count: number;
+}
 export interface Problem {
   id: string;
   source_id: string;
@@ -60,6 +68,9 @@ export interface Problem {
   group_name: string;
   subject: string;
   tags: string[];
+  knowledge_points: KnowledgePoint[];
+  knowledge_codes?: string[];
+  difficulty?: number | null;
   status: string;
   version: number;
   question_images: ImageAsset[];

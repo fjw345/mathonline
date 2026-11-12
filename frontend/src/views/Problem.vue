@@ -831,6 +831,18 @@ async function comment(s: Solution) {
               </button>
             </div>
             <h2>{{ problem.title }}</h2>
+            <div
+              v-if="problem.knowledge_points.length"
+              class="knowledge-row"
+              aria-label="本题考查的知识点"
+            >
+              <span
+                v-for="item in problem.knowledge_points"
+                :key="item.code"
+                class="knowledge-chip"
+                >{{ item.name }}</span
+              >
+            </div>
             <div class="tag-row">
               <span v-for="tag in problem.tags" :key="tag">{{ tag }}</span>
             </div>

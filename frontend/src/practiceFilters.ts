@@ -2,7 +2,7 @@ import type { LocationQuery } from "vue-router";
 
 export type PracticeFilters = Record<string, string>;
 
-const keys = ["year", "type", "tag", "q"] as const;
+const keys = ["year", "type", "tag", "knowledge", "q"] as const;
 const legacyTags = new Set(["全国大学生数学竞赛", "非数学类", "高等数学"]);
 
 export function readPracticeFilters(query: LocationQuery | PracticeFilters) {

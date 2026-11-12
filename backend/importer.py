@@ -45,7 +45,13 @@ def _prepare_manifest(manifest):
         if isinstance(p, dict)
     }
     manifest["problems"] = [
-        ProblemRecord.model_validate(p).model_dump(exclude_none=False)
+        ProblemRecord.model_validate(
+            {
+                k: v
+                for k, v in p.items()
+                if k not in ("knowledge_points", "knowledge_source")
+            }
+        ).model_dump(exclude_none=False)
         for p in raw_problems
     ]
     ids = [p["id"] for p in manifest["problems"]]

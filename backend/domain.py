@@ -3,6 +3,7 @@ from datetime import datetime, timedelta, timezone
 
 from fastapi import HTTPException
 
+from . import topics
 from .auth import now
 from .store import store
 
@@ -37,6 +38,11 @@ def filtered(filters, repository=None):
     if filters.get("tag"):
         tags = filters["tag"].split(",")
         rows = [p for p in rows if any(t in p["tags"] for t in tags)]
+    if filters.get("knowledge"):
+        codes = topics.parse_filter(filters["knowledge"])
+        rows = [
+            p for p in rows if codes and set(codes) & set(p.get("knowledge_points") or [])
+        ]
     if filters.get("q"):
         term = filters["q"].lower()
         rows = [
@@ -49,6 +55,11 @@ def filtered(filters, repository=None):
                 + p["id"]
                 + " "
                 + " ".join(p["tags"])
+                + " "
+                + " ".join(
+                    topics.name_for(code)
+                    for code in (p.get("knowledge_points") or [])
+                )
                 + " "
                 + p.get("question_text", "")
             ).lower()
