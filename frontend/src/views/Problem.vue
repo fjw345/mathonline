@@ -39,6 +39,7 @@ import type {
   Solution,
   Comment,
   AiGrading,
+  Variant,
 } from "../types";
 import ImageGallery from "../components/ImageGallery.vue";
 import MarkdownContent from "../components/MarkdownContent.vue";
@@ -77,6 +78,11 @@ const comments = ref<Record<string, Comment[]>>({}),
 const feedbackOpen = ref(false),
   feedbackKind = ref("incomplete"),
   feedbackDetail = ref("");
+const variant = ref<Variant>();
+const variantBusy = ref(false);
+const variantAnswerOpen = ref(false);
+const variantText = ref("");
+const variantOptions = ref<string[]>([]);
 interface DailyAssignment {
   completed_at: string | null;
   local_date: string;
@@ -223,6 +229,10 @@ function setProblem(data: Problem, key?: string, draft?: PracticeDraft) {
   feedbackOpen.value = false;
   feedbackKind.value = "incomplete";
   feedbackDetail.value = "";
+  variant.value = undefined;
+  variantAnswerOpen.value = false;
+  variantText.value = "";
+  variantOptions.value = [];
   draftContext = undefined;
   problem.value = data;
   answer.value = undefined;
@@ -605,6 +615,68 @@ async function next() {
     if (seq !== sequence) return;
     community.value = solutions;
   });
+}
+async function practiceVariant() {
+  if (!state.user) {
+    login();
+    return;
+  }
+  const p = problem.value;
+  if (!p || variantBusy.value) return;
+  variantBusy.value = true;
+  try {
+    const data = await api<Variant>("/me/problems/" + p.id + "/variants", {
+      method: "POST",
+      body: "{}",
+      signal: AbortSignal.timeout(240000),
+    });
+    variant.value = data;
+    variantAnswerOpen.value = false;
+    variantText.value = "";
+    variantOptions.value = [];
+    await nextTick();
+    document
+      .getElementById("variant-practice")
+      ?.scrollIntoView({ behavior: "smooth", block: "start" });
+  } catch (e) {
+    toast((e as Error).message, true);
+  } finally {
+    variantBusy.value = false;
+  }
+}
+function toggleVariantOption(option: string) {
+  if (!variant.value) return;
+  if (variant.value.multiple) {
+    variantOptions.value = variantOptions.value.includes(option)
+      ? variantOptions.value.filter((value) => value !== option)
+      : [...variantOptions.value, option];
+  } else {
+    variantOptions.value = [option];
+  }
+}
+async function showVariantAnswer() {
+  if (!variant.value) return;
+  try {
+    variant.value = await api<Variant>(
+      "/me/variants/" + encodeURIComponent(variant.value.id) + "/answer",
+    );
+    variantAnswerOpen.value = true;
+  } catch (e) {
+    toast((e as Error).message, true);
+  }
+}
+async function markVariant(result: string) {
+  if (!variant.value) return;
+  try {
+    variant.value = await write<Variant>(
+      "/me/variants/" + encodeURIComponent(variant.value.id),
+      { result },
+      "PATCH",
+    );
+    toast(result === "correct" ? "已记为做对" : "已记入错题，可继续练");
+  } catch (e) {
+    toast((e as Error).message, true);
+  }
 }
 async function likeProblem() {
   if (!state.user) {
@@ -1196,6 +1268,131 @@ async function comment(s: Solution) {
                   草稿已保留，提交后可自检；“不会”已加入错题，不计打卡。
                 </p>
               </aside>
+            </div>
+          </section>
+          <section
+            id="variant-practice"
+            class="paper-card variant-practice"
+            aria-labelledby="variant-heading"
+          >
+            <div class="section-heading compact">
+              <div>
+                <h2 id="variant-heading"><Sparkles :size="18" /> 一题多练</h2>
+              </div>
+              <span class="chip neutral">AI 仿题 · 同思路换数据</span>
+            </div>
+            <template v-if="!variant">
+              <p class="small-text muted">
+                用同一套思路解一道新数据的题，检验是真会还是记住了答案。生成后答案不会自动展示。
+              </p>
+              <div class="inline">
+                <button
+                  class="button"
+                  :disabled="variantBusy || !state.user"
+                  @click="practiceVariant"
+                >
+                  <Sparkles :size="16" />{{
+                    variantBusy
+                      ? "AI 正在命题与校验…"
+                      : problem.progress?.result === "incorrect"
+                        ? "针对这道错题生成变式"
+                        : "生成变式练习"
+                  }}
+                </button>
+                <small v-if="!state.user" class="muted">登录后可用</small>
+              </div>
+            </template>
+            <div v-else class="variant-body">
+              <div class="variant-heading">
+                <span class="chip neutral">{{ typeName(variant.type) }}</span>
+                <span
+                  v-for="point in variant.knowledge_points"
+                  :key="point.code"
+                  class="knowledge-chip"
+                  >{{ point.name }}</span
+                >
+                <span
+                  v-if="variant.result"
+                  class="chip"
+                  :class="
+                    variant.result === 'correct' ? 'success-chip' : 'error-chip'
+                  "
+                  >{{ variant.result === "correct" ? "已做对" : "还不对" }}</span
+                >
+              </div>
+              <MarkdownContent :source="variant.question_text" />
+              <div v-if="!variantAnswerOpen" class="variant-answer-area">
+                <div v-if="variant.type === 'choice'" class="option-list">
+                  <label
+                    v-for="option in variant.choice_options"
+                    :key="option"
+                    ><input
+                      :checked="variantOptions.includes(option)"
+                      :type="variant.multiple ? 'checkbox' : 'radio'"
+                      :name="'variant-' + variant.id"
+                      :value="option"
+                      @change="toggleVariantOption(option)"
+                    /><span>{{ option }}</span></label
+                  >
+                </div>
+                <textarea
+                  v-else
+                  v-model="variantText"
+                  rows="4"
+                  maxlength="8000"
+                  placeholder="先自己解一遍，再对照答案"
+                ></textarea>
+                <div class="editor-actions">
+                  <button
+                    class="text-button"
+                    :disabled="variantBusy"
+                    @click="practiceVariant"
+                  >
+                    再来一题
+                  </button>
+                  <button class="button primary" @click="showVariantAnswer">
+                    查看答案与解析
+                  </button>
+                </div>
+              </div>
+              <div v-else class="variant-answer">
+                <p class="variant-answer-text">
+                  <strong>答案：</strong
+                  ><template v-if="variant.type === 'choice'">
+                    {{ (variant.correct_options || []).join("、") }} ·
+                    {{ variant.answer_text }}</template
+                  ><template v-else>{{ variant.answer_text }}</template>
+                </p>
+                <MarkdownContent
+                  v-if="variant.explanation"
+                  :source="variant.explanation"
+                />
+                <div v-if="!variant.result" class="editor-actions">
+                  <span class="small-text muted">对照后自评：</span>
+                  <button
+                    class="button small success"
+                    @click="markVariant('correct')"
+                  >
+                    <Check :size="15" />做对了
+                  </button>
+                  <button
+                    class="button small assessment-incorrect"
+                    @click="markVariant('incorrect')"
+                  >
+                    <X :size="15" />还不对
+                  </button>
+                </div>
+                <p v-else class="small-text muted">
+                  已记入学情分析。继续用同思路练新数据，直到独立做对。
+                </p>
+                <button
+                  class="text-button"
+                  :disabled="variantBusy"
+                  @click="practiceVariant"
+                >
+                  再做一道
+                </button>
+              </div>
             </div>
           </section>
           <div v-if="random" class="editor-actions">

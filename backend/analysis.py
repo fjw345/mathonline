@@ -40,17 +40,19 @@ def load_problems(ids, repository):
     return {pid: index[pid] for pid in wanted if pid in index}
 
 
-def build(user, repository, mistake_ids=None, states=None, mock_papers=None):
+def build(user, repository, mistake_ids=None, states=None, mock_papers=None, variants=None):
     states = (
         states
         if states is not None
         else repository.list("user_problem_progress", user_id=user["id"])
     )
     problems = load_problems([s["problem_id"] for s in states], repository)
-    return aggregate(states, problems, set(mistake_ids or ()), mock_papers)
+    return aggregate(
+        states, problems, set(mistake_ids or ()), mock_papers, variants
+    )
 
 
-def aggregate(progress_rows, problems, mistake_ids, mock_papers=None):
+def aggregate(progress_rows, problems, mistake_ids, mock_papers=None, variants=None):
     buckets = {}
     domains = {}
     totals = {
@@ -60,6 +62,7 @@ def aggregate(progress_rows, problems, mistake_ids, mock_papers=None):
         "pending": 0,
         "mistakes": 0,
     }
+    variant_totals = {"practiced": 0, "correct": 0, "incorrect": 0}
     for row in progress_rows:
         problem = problems.get(row.get("problem_id"))
         if not problem:
@@ -104,6 +107,18 @@ def aggregate(progress_rows, problems, mistake_ids, mock_papers=None):
             if result in ("correct", "incorrect"):
                 current[result] += 1
 
+    for row in variants or []:
+        result = row.get("result")
+        if result not in ("correct", "incorrect"):
+            continue
+        variant_totals["practiced"] += 1
+        variant_totals[result] += 1
+        for code in topics.parse_filter(row.get("knowledge_points") or []):
+            bucket = buckets.setdefault(code, _bucket(code))
+            bucket["attempts"] += 1
+            bucket[result] += 1
+            bucket["variants"] += 1
+
     knowledge = [_finalize(bucket) for bucket in buckets.values()]
     knowledge.sort(
         key=lambda item: (-item["weakness"], -item["attempts"], item["name"])
@@ -136,6 +151,7 @@ def aggregate(progress_rows, problems, mistake_ids, mock_papers=None):
     )
     stats = {
         "totals": totals,
+        "variant_totals": variant_totals,
         "knowledge": knowledge,
         "weakest": weak[:3],
         "strengths": strengths,
@@ -186,6 +202,7 @@ def _bucket(code):
         "incorrect": 0,
         "pending": 0,
         "mistakes": 0,
+        "variants": 0,
     }
 
 
@@ -207,6 +224,7 @@ def _finalize(bucket):
 def fingerprint(stats):
     compact = {
         "totals": stats["totals"],
+        "variant_totals": stats.get("variant_totals", {}),
         "knowledge": [
             {
                 key: item[key]

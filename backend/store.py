@@ -50,6 +50,7 @@ TABLES = {
     "problem_grading",
     "learning_analyses",
     "mock_papers",
+    "practice_variants",
     "user_problem_progress",
     "daily_assignments",
     "answer_access",

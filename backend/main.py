@@ -29,7 +29,9 @@ from . import (
     grading,
     mockexam,
     outreach,
+    question_gen,
     topics,
+    variants,
 )
 from .auth import (
     auth_request,
@@ -772,12 +774,19 @@ def analysis_stats(user):
         if not missing_mistake_table(exc):
             raise
         papers = []
+    try:
+        variant_rows = store.list("practice_variants", user_id=user["id"])
+    except httpx.HTTPStatusError as exc:
+        if not missing_mistake_table(exc):
+            raise
+        variant_rows = []
     return analysis.build(
         user,
         store,
         [row["problem_id"] for row in mistakes],
         states=states,
         mock_papers=papers,
+        variants=variant_rows,
     )
 
 
@@ -1008,6 +1017,85 @@ def delete_mock_paper(pid: str, request: Request):
     mock_paper_or_404(pid, user)
     store.delete("mock_papers", id=pid)
     return {"ok": True}
+
+
+class VariantReview(BaseModel):
+    result: Literal["correct", "incorrect"]
+
+
+def variant_or_404(vid, user):
+    try:
+        row = store.get("practice_variants", id=vid)
+    except httpx.HTTPStatusError as exc:
+        if mock_table_error(exc):
+            raise HTTPException(
+                503, "变式练习功能待管理员完成数据库更新，请稍后重试。"
+            ) from exc
+        raise
+    if not row or row["user_id"] != user["id"]:
+        raise HTTPException(404, "变式题不存在。")
+    return row
+
+
+@app.post("/api/v1/me/problems/{pid}/variants")
+def create_practice_variant(pid: str, request: Request):
+    user = current_user(request)
+    problem = problem_or_404(pid)
+    answer = store.get("problem_answers", problem_id=pid)
+    if not answer or not (answer.get("text") or "").strip():
+        raise HTTPException(400, "该题缺少文字答案，暂不能生成变式题。")
+    from .rate_limit import allow
+
+    if not allow("variant:" + user["id"], 6, 60):
+        raise HTTPException(429, "变式题生成过于频繁，请稍后再试。")
+    try:
+        row = variants.create_variant(user, problem, answer, store)
+    except ai.AIUnavailable as exc:
+        raise HTTPException(503, "AI 变式练习未配置，请联系管理员。") from exc
+    except question_gen.GenerationError as exc:
+        raise HTTPException(
+            503, "AI 变式题未通过可解性校验，请稍后重试。"
+        ) from exc
+    return variants.variant_payload(row)
+
+
+@app.get("/api/v1/me/variants")
+def my_variants(
+    request: Request,
+    problem_id: str = "",
+    limit: int = Query(default=20, ge=1, le=50),
+):
+    user = current_user(request)
+    where = {"user_id": user["id"]}
+    if problem_id:
+        where["problem_id"] = problem_id
+    try:
+        rows = store.list("practice_variants", **where)
+    except httpx.HTTPStatusError as exc:
+        if mock_table_error(exc):
+            raise HTTPException(
+                503, "变式练习功能待管理员完成数据库更新，请稍后重试。"
+            ) from exc
+        raise
+    rows.sort(key=lambda row: row.get("created_at") or "", reverse=True)
+    return {"items": [variants.variant_payload(row) for row in rows[:limit]]}
+
+
+@app.get("/api/v1/me/variants/{vid}/answer")
+def variant_answer(vid: str, request: Request):
+    user = current_user(request)
+    return variants.variant_payload(variant_or_404(vid, user), include_answer=True)
+
+
+@app.patch("/api/v1/me/variants/{vid}")
+def review_variant(vid: str, body: VariantReview, request: Request):
+    user = current_user(request)
+    row = variant_or_404(vid, user)
+    if row.get("result"):
+        raise HTTPException(409, "这道变式题已自评。")
+    variants.mark_result(row, body.result)
+    store.put("practice_variants", row)
+    return variants.variant_payload(row, include_answer=True)
 
 
 @app.get("/api/v1/me/likes")

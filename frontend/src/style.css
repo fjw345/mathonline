@@ -802,6 +802,43 @@ footer > span {
   background: #f2f8f4;
   white-space: nowrap;
 }
+.chip.success-chip {
+  color: #24624d;
+  border-color: #bfdccd;
+  background: #eef8f2;
+}
+.chip.error-chip {
+  color: #8a3128;
+  border-color: #e7c4bf;
+  background: #fdf1ef;
+}
+.variant-practice {
+  margin-top: 18px;
+}
+.variant-body {
+  display: grid;
+  gap: 8px;
+}
+.variant-heading {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+.variant-answer-area textarea {
+  width: 100%;
+  min-height: 92px;
+}
+.variant-answer {
+  margin-top: 6px;
+  padding-top: 10px;
+  border-top: 1px dashed #e4e9dd;
+}
+.variant-answer-text {
+  margin: 0 0 6px;
+  font-weight: 600;
+  color: var(--green-dark);
+}
 .knowledge-editor {
   margin: 0 0 16px;
   padding: 12px 14px;

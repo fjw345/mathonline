@@ -133,6 +133,27 @@ CREATE TABLE IF NOT EXISTS mock_papers (
 );
 CREATE INDEX IF NOT EXISTS mock_papers_owner ON mock_papers(user_id, created_at DESC);
 
+-- 一题多练：错题的 AI 变式题单独存放，答案在用户查看前不下发。
+CREATE TABLE IF NOT EXISTS practice_variants (
+ id TEXT PRIMARY KEY,
+ user_id TEXT NOT NULL REFERENCES profiles(id),
+ problem_id TEXT NOT NULL REFERENCES problems(id),
+ subject TEXT NOT NULL,
+ type TEXT NOT NULL,
+ knowledge_points TEXT NOT NULL DEFAULT '[]',
+ question_text TEXT NOT NULL,
+ choice_options TEXT NOT NULL DEFAULT '[]',
+ multiple INTEGER NOT NULL DEFAULT 0,
+ answer_text TEXT NOT NULL,
+ correct_options TEXT NOT NULL DEFAULT '[]',
+ explanation TEXT NOT NULL DEFAULT '',
+ model TEXT NOT NULL DEFAULT '',
+ result TEXT NOT NULL DEFAULT '',
+ created_at TEXT NOT NULL,
+ answered_at TEXT
+);
+CREATE INDEX IF NOT EXISTS variants_owner ON practice_variants(user_id, problem_id, created_at DESC);
+
 -- 学情分析报告缓存：统计每次现算，报告只在数据指纹变化时重新生成。
 CREATE TABLE IF NOT EXISTS learning_analyses (
  id TEXT PRIMARY KEY REFERENCES profiles(id),

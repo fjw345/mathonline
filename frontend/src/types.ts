@@ -302,3 +302,20 @@ export interface MockPaperSummary {
   created_at: string;
   submitted_at: string | null;
 }
+export interface Variant {
+  id: string;
+  problem_id: string;
+  subject: string;
+  type: string;
+  knowledge_points: KnowledgePoint[];
+  question_text: string;
+  choice_options: string[];
+  multiple: boolean;
+  model: string;
+  result: "" | "correct" | "incorrect";
+  created_at: string;
+  answered_at: string | null;
+  answer_text?: string;
+  correct_options?: string[];
+  explanation?: string;
+}
