@@ -112,6 +112,27 @@ CREATE TABLE IF NOT EXISTS problem_grading (
 );
 CREATE INDEX IF NOT EXISTS grading_by_problem ON problem_grading(problem_id);
 
+-- 模拟卷：一人一卷一行，题目与判分结果按 JSON 保存；交卷前答案不下发。
+CREATE TABLE IF NOT EXISTS mock_papers (
+ id TEXT PRIMARY KEY,
+ user_id TEXT NOT NULL REFERENCES profiles(id),
+ subject TEXT NOT NULL,
+ title TEXT NOT NULL,
+ status TEXT NOT NULL DEFAULT 'ready',
+ blueprint TEXT NOT NULL,
+ profile TEXT NOT NULL,
+ duration_minutes INTEGER NOT NULL,
+ max_score INTEGER NOT NULL,
+ score INTEGER NOT NULL DEFAULT 0,
+ items TEXT NOT NULL,
+ knowledge_summary TEXT NOT NULL DEFAULT '[]',
+ submitted_at TEXT,
+ model TEXT NOT NULL DEFAULT '',
+ created_at TEXT NOT NULL,
+ updated_at TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS mock_papers_owner ON mock_papers(user_id, created_at DESC);
+
 -- 学情分析报告缓存：统计每次现算，报告只在数据指纹变化时重新生成。
 CREATE TABLE IF NOT EXISTS learning_analyses (
  id TEXT PRIMARY KEY REFERENCES profiles(id),

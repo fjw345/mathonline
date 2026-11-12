@@ -51,6 +51,8 @@ def chat(
     }
     if _JSON_MODE:
         body["response_format"] = {"type": "json_object"}
+    if config.AI_REASONING_EFFORT:
+        body["reasoning_effort"] = config.AI_REASONING_EFFORT
     last_error = ""
     for attempt in range(retries + 1):
         try:
@@ -90,9 +92,9 @@ def chat(
             reasoning = message.get("reasoning_content") or ""
         except (ValueError, KeyError, IndexError, TypeError) as exc:
             raise AIUnavailable("模型服务响应缺少正文") from exc
-        if not content and reasoning and attempt < retries and max_tokens < 4000:
+        if not content and reasoning and attempt < retries and max_tokens < 8000:
             # 思考型模型可能把预算全花在推理上；加预算重试一次，而不是当作不可用。
-            body["max_tokens"] = min(4000, max(1200, max_tokens * 3))
+            body["max_tokens"] = min(8000, max(2400, max_tokens * 3))
             last_error = "模型只返回了推理内容"
             continue
         if not isinstance(content, str) or not content.strip():
@@ -101,8 +103,33 @@ def chat(
     raise AIUnavailable(last_error or "模型服务暂不可用")
 
 
+_LATEX_ESCAPES = (
+    r"\frac",
+    r"\forall",
+    r"\beta",
+    r"\nabla",
+    r"\neq",
+    r"\theta",
+    r"\times",
+    r"\tan",
+    r"\text",
+    r"\right",
+    r"\rho",
+    r"\vec",
+    r"\tau",
+    r"\theta",
+    r"\xi",
+    r"\nu",
+)
+
+
 def json_object(raw):
-    """从模型输出中取出 JSON 对象；允许 Markdown 围栏与前后缀说明。"""
+    """从模型输出中取出 JSON 对象；允许 Markdown 围栏与前后缀说明。
+
+    模型写 LaTeX 时常把反斜杠写成单反斜杠：`\\frac` 里的 `\\f` 在 JSON 中会被
+    解析成换页符，`\\neq` 会被解析成换行，导致公式悄悄损坏。检测到常见公式
+    命令时改用「只保留 \\\" 与 \\\\ 转义」的修复版本，保住 LaTeX 原样。
+    """
     text = (raw or "").strip()
     if text.startswith(chr(96) * 3):
         text = _FENCE.sub("", text).strip()
@@ -110,13 +137,59 @@ def json_object(raw):
     end = text.rfind("}")
     if start < 0 or end <= start:
         raise AIOutputError("模型输出不是 JSON 对象")
-    try:
-        payload = json.loads(text[start : end + 1])
-    except ValueError as exc:
-        raise AIOutputError("模型输出不是合法 JSON") from exc
-    if not isinstance(payload, dict):
-        raise AIOutputError("模型输出不是 JSON 对象")
-    return payload
+    candidate = text[start : end + 1]
+    repaired = _repair_json(candidate)
+    risky = any(sequence in candidate for sequence in _LATEX_ESCAPES)
+    for value in ((repaired, candidate) if risky else (candidate, repaired)):
+        try:
+            payload = json.loads(value)
+        except ValueError:
+            continue
+        if isinstance(payload, dict) and not _has_control(payload):
+            return payload
+    raise AIOutputError("模型输出不是合法 JSON")
+
+
+def _repair_json(text):
+    """修复两类常见模型输出问题：LaTeX 反斜杠与尾随逗号。"""
+    return re.sub(r",(\s*[}\]])", r"\1", _escape_backslashes(text))
+
+
+def _escape_backslashes(text):
+    """只把 `\\"` 与 `\\\\` 当成 JSON 转义，其余反斜杠按字面保留。"""
+    result = []
+    index = 0
+    in_string = False
+    while index < len(text):
+        char = text[index]
+        if char == '"':
+            in_string = not in_string
+            result.append(char)
+        elif char == "\\" and in_string:
+            following = text[index + 1] if index + 1 < len(text) else ""
+            if following in '"\\':
+                result.append(char + following)
+                index += 2
+                continue
+            result.append("\\\\")
+        else:
+            result.append(char)
+        index += 1
+    return "".join(result)
+
+
+def _has_control(payload):
+    stack = [payload]
+    while stack:
+        value = stack.pop()
+        if isinstance(value, str):
+            if any(ord(char) < 32 and char not in "\n\t" for char in value):
+                return True
+        elif isinstance(value, dict):
+            stack.extend(value.values())
+        elif isinstance(value, list):
+            stack.extend(value)
+    return False
 
 
 def complete_json(messages, **kwargs):

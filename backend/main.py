@@ -22,7 +22,15 @@ from fastapi.staticfiles import StaticFiles
 from PIL import Image, UnidentifiedImageError
 from pydantic import BaseModel, Field, ValidationError, field_validator
 
-from . import ai, analysis, config, grading, outreach, topics
+from . import (
+    ai,
+    analysis,
+    config,
+    grading,
+    mockexam,
+    outreach,
+    topics,
+)
 from .auth import (
     auth_request,
     current_user,
@@ -758,8 +766,18 @@ def master_mistake(pid: str, request: Request):
 def analysis_stats(user):
     states = store.list("user_problem_progress", user_id=user["id"])
     mistakes = mistake_rows(user, states)
+    try:
+        papers = store.list("mock_papers", user_id=user["id"])
+    except httpx.HTTPStatusError as exc:
+        if not missing_mistake_table(exc):
+            raise
+        papers = []
     return analysis.build(
-        user, store, [row["problem_id"] for row in mistakes], states=states
+        user,
+        store,
+        [row["problem_id"] for row in mistakes],
+        states=states,
+        mock_papers=papers,
     )
 
 
@@ -836,6 +854,160 @@ def generate_my_analysis(request: Request, refresh: bool = False):
         "available": True,
         "reason": "",
     }
+
+
+class MockPaperInput(BaseModel):
+    subject: Literal["微积分上", "微积分下", "线性代数", "概率论"]
+    difficulty: Literal["standard", "easier", "harder"] = "standard"
+
+
+class MockAnswer(BaseModel):
+    item_id: str = Field(min_length=1, max_length=80)
+    text: str = Field(default="", max_length=8000)
+    options: list[str] = Field(default_factory=list, max_length=8)
+
+
+class MockSubmission(BaseModel):
+    answers: list[MockAnswer] = Field(default_factory=list, max_length=40)
+
+
+class MockItemReview(BaseModel):
+    result: Literal["correct", "incorrect"]
+
+
+def mock_table_error(exc):
+    return missing_mistake_table(exc)
+
+
+def mock_paper_or_404(pid, user):
+    try:
+        paper = store.get("mock_papers", id=pid)
+    except httpx.HTTPStatusError as exc:
+        if mock_table_error(exc):
+            raise HTTPException(
+                503, "模拟卷功能待管理员完成数据库更新，请稍后重试。"
+            ) from exc
+        raise
+    if not paper or paper["user_id"] != user["id"]:
+        raise HTTPException(404, "模拟卷不存在。")
+    return paper
+
+
+def mock_summary(paper):
+    return {
+        "id": paper["id"],
+        "subject": paper["subject"],
+        "title": paper["title"],
+        "status": paper["status"],
+        "score": paper.get("score", 0),
+        "max_score": paper.get("max_score", 0),
+        "duration_minutes": paper.get("duration_minutes"),
+        "ai_items": sum(1 for item in paper["items"] if item.get("origin") == "ai"),
+        "created_at": paper.get("created_at"),
+        "submitted_at": paper.get("submitted_at"),
+    }
+
+
+@app.get("/api/v1/mock/subjects")
+def mock_subjects():
+    return {
+        "subjects": mockexam.subjects_overview(store.list("problems")),
+        "ai": ai.enabled(),
+    }
+
+
+@app.get("/api/v1/mock/papers")
+def my_mock_papers(request: Request):
+    user = current_user(request)
+    try:
+        rows = store.list("mock_papers", user_id=user["id"])
+    except httpx.HTTPStatusError as exc:
+        if mock_table_error(exc):
+            raise HTTPException(
+                503, "模拟卷功能待管理员完成数据库更新，请稍后重试。"
+            ) from exc
+        raise
+    rows.sort(key=lambda paper: paper.get("created_at") or "", reverse=True)
+    return {"total": len(rows), "items": [mock_summary(paper) for paper in rows]}
+
+
+@app.post("/api/v1/mock/papers")
+def create_mock_paper(body: MockPaperInput, request: Request):
+    user = current_user(request)
+    from .rate_limit import allow
+
+    if not allow("mock:" + user["id"], 3, 120):
+        raise HTTPException(429, "组卷请求过于频繁，请稍后再试。")
+    problems = store.list("problems")
+    answers = {a["problem_id"]: a for a in store.list("problem_answers")}
+    seen = {
+        row["problem_id"]
+        for row in store.list("user_problem_progress", user_id=user["id"])
+    }
+    try:
+        paper = mockexam.create_paper(
+            user, body.subject, body.difficulty, problems, answers, seen
+        )
+    except mockexam.MockUnavailable as exc:
+        raise HTTPException(503, str(exc)) from exc
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from exc
+    store.put("mock_papers", paper)
+    return mockexam.paper_payload(paper)
+
+
+@app.get("/api/v1/mock/papers/{pid}")
+def get_mock_paper(pid: str, request: Request):
+    user = current_user(request)
+    return mockexam.paper_payload(mock_paper_or_404(pid, user))
+
+
+@app.put("/api/v1/mock/papers/{pid}/submission")
+def submit_mock_paper(pid: str, body: MockSubmission, request: Request):
+    user = current_user(request)
+    paper = mock_paper_or_404(pid, user)
+    if paper["status"] != "ready":
+        raise HTTPException(409, "该模拟卷已交卷，不能重复提交。")
+    from .rate_limit import allow
+
+    if not allow("mock-submit:" + user["id"], 6, 60):
+        raise HTTPException(429, "交卷过于频繁，请稍后再试。")
+    answers = {
+        answer.item_id: {"text": answer.text, "options": answer.options}
+        for answer in body.answers
+    }
+    mockexam.grade_answers(paper, answers)
+    store.put("mock_papers", paper)
+    return mockexam.paper_payload(paper, include_answers=True)
+
+
+@app.patch("/api/v1/mock/papers/{pid}/items/{item_id}")
+def review_mock_item(pid: str, item_id: str, body: MockItemReview, request: Request):
+    user = current_user(request)
+    paper = mock_paper_or_404(pid, user)
+    if paper["status"] != "submitted":
+        raise HTTPException(409, "请先交卷，再自评。")
+    item = next((row for row in paper["items"] if row["id"] == item_id), None)
+    if not item:
+        raise HTTPException(404, "题目不存在。")
+    if item.get("result") != "pending":
+        raise HTTPException(409, "该题已有结论。")
+    item["result"] = body.result
+    item["score"] = item["points"] if body.result == "correct" else 0
+    item["feedback"] = "已自评"
+    paper["score"] = sum(row["score"] for row in paper["items"])
+    paper["knowledge_summary"] = mockexam.knowledge_summary(paper)
+    paper["updated_at"] = now()
+    store.put("mock_papers", paper)
+    return mockexam.paper_payload(paper, include_answers=True)
+
+
+@app.delete("/api/v1/mock/papers/{pid}")
+def delete_mock_paper(pid: str, request: Request):
+    user = current_user(request)
+    mock_paper_or_404(pid, user)
+    store.delete("mock_papers", id=pid)
+    return {"ok": True}
 
 
 @app.get("/api/v1/me/likes")

@@ -23,6 +23,10 @@ JSON_FIELDS = {
     "knowledge_points",
     "stats",
     "report",
+    "blueprint",
+    "profile",
+    "items",
+    "knowledge_summary",
 }
 BOOL_FIELDS = {
     "multiple",
@@ -45,6 +49,7 @@ TABLES = {
     "problem_rubrics",
     "problem_grading",
     "learning_analyses",
+    "mock_papers",
     "user_problem_progress",
     "daily_assignments",
     "answer_access",

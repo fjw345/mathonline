@@ -204,3 +204,101 @@ export interface Analysis {
   available: boolean;
   reason: string;
 }
+export interface MockKnowledge {
+  code: string;
+  name: string;
+  count: number;
+  weight: number;
+}
+export interface MockSubject {
+  subject: string;
+  problems: number;
+  years: number[];
+  type_mix: Record<string, number>;
+  difficulty: { mean: number; sample: number };
+  knowledge: MockKnowledge[];
+  ready: boolean;
+}
+export interface MockSubjectsResponse {
+  subjects: MockSubject[];
+  ai: boolean;
+}
+export interface MockItem {
+  id: string;
+  position: number;
+  type: string;
+  knowledge_points: string[];
+  difficulty: number;
+  points: number;
+  origin: "bank" | "ai";
+  question_text: string;
+  choice_options: string[];
+  multiple: boolean;
+  model: string;
+  result: "" | "correct" | "incorrect" | "pending";
+  score: number;
+  answer_text?: string;
+  correct_options?: string[];
+  explanation?: string;
+  feedback?: string;
+}
+export interface MockBlueprintSection {
+  type: string;
+  count: number;
+  points_each: number;
+  knowledge: string[];
+  note: string;
+}
+export interface MockBlueprint {
+  title?: string;
+  duration_minutes?: number;
+  sections: MockBlueprintSection[];
+  emphasis?: { code: string; name: string; reason: string }[];
+  rationale?: string;
+  source?: string;
+  model?: string;
+}
+export interface MockProfileSummary {
+  years?: number[];
+  problems?: number;
+  type_mix?: Record<string, number>;
+  knowledge?: MockKnowledge[];
+  difficulty?: { mean: number; sample: number };
+  welcome?: string;
+}
+export interface MockPaper {
+  id: string;
+  subject: string;
+  title: string;
+  status: "ready" | "submitted";
+  blueprint: MockBlueprint;
+  profile: MockProfileSummary;
+  duration_minutes: number;
+  max_score: number;
+  score: number;
+  items: MockItem[];
+  knowledge_summary: {
+    code: string;
+    name: string;
+    score: number;
+    max: number;
+    correct: number;
+    count: number;
+  }[];
+  submitted_at: string | null;
+  model: string;
+  created_at: string;
+  ai_items: number;
+}
+export interface MockPaperSummary {
+  id: string;
+  subject: string;
+  title: string;
+  status: "ready" | "submitted";
+  score: number;
+  max_score: number;
+  duration_minutes: number;
+  ai_items: number;
+  created_at: string;
+  submitted_at: string | null;
+}

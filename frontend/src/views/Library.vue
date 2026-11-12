@@ -8,6 +8,7 @@ import {
   ChevronLeft,
   ChevronRight,
   BookOpen,
+  Target,
 } from "lucide-vue-next";
 import { api, typeName } from "../api";
 import type { KnowledgeFilterOption, Problem } from "../types";
@@ -126,6 +127,9 @@ function random() {
         ><button class="button ghost" @click="random">
           <Shuffle :size="17" />随机练习
         </button>
+        <RouterLink to="/mock" class="button ghost"
+          ><Target :size="17" />考试预测</RouterLink
+        >
       </div>
     </div>
     <div class="math-art" aria-hidden="true">

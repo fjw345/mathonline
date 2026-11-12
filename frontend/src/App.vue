@@ -13,6 +13,7 @@ import {
   MessagesSquare,
   Mail,
   Gift,
+  Target,
 } from "lucide-vue-next";
 import { api, loadMe, state, toast } from "./api";
 import { rememberedPracticeRoute } from "./practiceFilters";
@@ -22,6 +23,7 @@ const nav = [
   { path: "/", label: "题库", icon: BookOpen },
   { path: "/daily", label: "每日一题", icon: Sun },
   { path: "/practice", label: "随机练习", icon: Shuffle },
+  { path: "/mock", label: "考试预测", icon: Target },
   { path: "/forum", label: "论坛", icon: MessagesSquare },
   { path: "/me", label: "我的学习", icon: ChartNoAxesCombined },
 ];

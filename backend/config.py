@@ -35,4 +35,7 @@ AI_BASE_URL = os.getenv("AI_BASE_URL", "").rstrip("/")
 AI_API_KEY = os.getenv("AI_API_KEY", "")
 AI_MODEL = os.getenv("AI_MODEL", "")
 AI_TIMEOUT = float(os.getenv("AI_TIMEOUT", "30"))
+# 可选：思考型模型（如 Ollama qwen3）可用 none 关闭思考，避免推理占满输出预算。
+# 留空表示不发送该字段，兼容不识别它的服务商。
+AI_REASONING_EFFORT = os.getenv("AI_REASONING_EFFORT", "").strip()
 AI_ENABLED = bool(AI_BASE_URL and AI_API_KEY and AI_MODEL)

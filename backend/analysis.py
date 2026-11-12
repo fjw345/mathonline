@@ -40,17 +40,17 @@ def load_problems(ids, repository):
     return {pid: index[pid] for pid in wanted if pid in index}
 
 
-def build(user, repository, mistake_ids=None, states=None):
+def build(user, repository, mistake_ids=None, states=None, mock_papers=None):
     states = (
         states
         if states is not None
         else repository.list("user_problem_progress", user_id=user["id"])
     )
     problems = load_problems([s["problem_id"] for s in states], repository)
-    return aggregate(states, problems, set(mistake_ids or ()))
+    return aggregate(states, problems, set(mistake_ids or ()), mock_papers)
 
 
-def aggregate(progress_rows, problems, mistake_ids):
+def aggregate(progress_rows, problems, mistake_ids, mock_papers=None):
     buckets = {}
     domains = {}
     totals = {
@@ -140,9 +140,40 @@ def aggregate(progress_rows, problems, mistake_ids):
         "weakest": weak[:3],
         "strengths": strengths,
         "domains": domain_rows,
+        "mock": mock_summary(mock_papers),
     }
     stats["fingerprint"] = fingerprint(stats)
     return stats
+
+
+def mock_summary(mock_papers):
+    """最近几次模拟卷的分数与知识点得分，供学情分析与 AI 报告引用。"""
+    rows = []
+    for paper in mock_papers or []:
+        if paper.get("status") != "submitted":
+            continue
+        rows.append(
+            {
+                "paper_id": paper["id"],
+                "subject": paper.get("subject", ""),
+                "title": paper.get("title", ""),
+                "score": paper.get("score", 0),
+                "max_score": paper.get("max_score", 0),
+                "submitted_at": paper.get("submitted_at"),
+                "knowledge": [
+                    {
+                        "code": item.get("code"),
+                        "name": item.get("name"),
+                        "score": item.get("score", 0),
+                        "max": item.get("max", 0),
+                    }
+                    for item in paper.get("knowledge_summary") or []
+                    if item.get("code")
+                ],
+            }
+        )
+    rows.sort(key=lambda item: item.get("submitted_at") or "", reverse=True)
+    return rows[:10]
 
 
 def _bucket(code):
@@ -190,6 +221,18 @@ def fingerprint(stats):
             }
             for item in stats["knowledge"]
         ],
+        "mock": [
+            {
+                "paper_id": paper["paper_id"],
+                "score": paper["score"],
+                "max_score": paper["max_score"],
+                "knowledge": [
+                    [item["code"], item["score"], item["max"]]
+                    for item in paper["knowledge"]
+                ],
+            }
+            for paper in stats.get("mock", [])
+        ],
     }
     return hashlib.sha256(
         json.dumps(compact, ensure_ascii=False, sort_keys=True).encode("utf-8")
@@ -217,6 +260,15 @@ def report_messages(stats):
         "totals": stats["totals"],
         "knowledge": entries,
         "domains": stats["domains"],
+        "mock": [
+            {
+                "subject": paper["subject"],
+                "score": paper["score"],
+                "max_score": paper["max_score"],
+                "knowledge": paper["knowledge"][:8],
+            }
+            for paper in stats.get("mock", [])[:3]
+        ],
     }
     body = (
         "【练习统计】\n"
@@ -226,8 +278,9 @@ def report_messages(stats):
         "2. 指出 1 至 3 个最薄弱的知识点，给出具体、可执行的复习建议"
         "（例如先复习哪个定理、做哪类题），不要泛泛而谈。\n"
         "3. 指出 1 至 3 个相对掌握较好的知识点，说明依据。\n"
-        "4. 给出 3 条一周内的练习计划，每条不超过 60 字。\n"
-        "5. knowledge 的 code 必须来自上面统计中的编码，不要新造。\n"
+        "4. 如果有模拟卷成绩，结合模拟卷得分分析失分点；没有就忽略。\n"
+        "5. 给出 3 条一周内的练习计划，每条不超过 60 字。\n"
+        "6. knowledge 的 code 必须来自上面统计中的编码，不要新造。\n"
         "只返回 JSON："
         '{"summary":"不超过200字的总评",'
         '"strengths":[{"code":"limit","reason":"依据"}],'
