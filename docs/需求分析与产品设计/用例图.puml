@@ -1,7 +1,8 @@
 @startuml
 ' ============================================================================
 ' 北交大数学在线刷题平台 — 用例图（Use Case Diagram）
-' 覆盖范围：UC-01 至 UC-23，其中 UC-22、UC-23 为后续迭代
+' 覆盖范围：UC-01 至 UC-28，其中 UC-22、UC-23 为后续迭代
+' 2026-11-12 局部修订；同目录 PNG 为早期渲染，后续统一更新。
 ' 语义来源：do-math-problem-online项目开发计划.md
 ' ============================================================================
 
@@ -112,6 +113,14 @@ rectangle "北交大数学在线刷题平台" {
     usecase "UC-23\n参与生存试炼" as UC23
   }
 
+  package "已有迭代功能" {
+    usecase "UC-24\n浏览论坛题解" as UC24
+    usecase "UC-25\n查看更新信箱" as UC25
+    usecase "UC-26\n邀请用户并解锁资料" as UC26
+    usecase "UC-27\n反馈题目问题" as UC27
+    usecase "UC-28\n管理公告与题目反馈" as UC28
+  }
+
 }
 
 ' ============================================================================
@@ -124,10 +133,16 @@ guest --> UC02
 guest --> UC03
 guest --> UC05
 guest --> UC06
+guest --> UC24
 
 ' 注册用户
 registered --> UC04
 registered --> UC07
+registered --> UC08
+registered --> UC24
+registered --> UC25
+registered --> UC26
+registered --> UC27
 registered --> UC09
 registered --> UC10
 registered --> UC22
@@ -145,6 +160,8 @@ reviewer --> UC18
 
 ' 管理员
 administrator --> UC19
+administrator --> UC18
+administrator --> UC28
 administrator --> UC20
 administrator --> UC21
 
@@ -175,7 +192,10 @@ legend right
   == 边界说明 ==
   基线范围：账号、练习、记录、社区、管理
   后续迭代：UC-22 小参数大模型辅助判题、UC-23 生存试炼
-  不包含：在线 PK、邀请下载题库
+  已有迭代：论坛、更新信箱、邀请资料、题目反馈与公告管理
+  参考答案：登录并提交作答或选择“不会”后解锁
+  UC-21 已有审核日志留痕，独立查询页面待完善
+  不包含：在线 PK
   也不包含 PDF 抽取、OCR、导入脚本等技术实现
   「题解发布用户」不是独立角色：注册用户曾做对某题后即获得发布资格
 endlegend
