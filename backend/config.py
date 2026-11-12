@@ -29,3 +29,10 @@ RESOURCE_DOWNLOAD_URL = os.getenv("RESOURCE_DOWNLOAD_URL", "").strip()
 RESOURCE_EXTRACTION_CODE = os.getenv("RESOURCE_EXTRACTION_CODE", "").strip()
 if MODE == "supabase" and not all((SB_URL, SB_KEY, SB_ANON)):
     raise RuntimeError("Supabase mode requires URL, service role key and anon key")
+
+# 模型判分配置：未配置时 AI 判分降级为待自检，不阻断提交。
+AI_BASE_URL = os.getenv("AI_BASE_URL", "").rstrip("/")
+AI_API_KEY = os.getenv("AI_API_KEY", "")
+AI_MODEL = os.getenv("AI_MODEL", "")
+AI_TIMEOUT = float(os.getenv("AI_TIMEOUT", "30"))
+AI_ENABLED = bool(AI_BASE_URL and AI_API_KEY and AI_MODEL)

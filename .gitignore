@@ -14,14 +14,24 @@ htmlcov/
 .env
 .env.*
 !.env.example
+# npm/Git credentials can carry tokens; force-add any shared config instead.
+.npmrc
+.netrc
 
 # Node / frontend build output
 node_modules/
 frontend/dist/
 *.tsbuildinfo
 
-# Local databases, uploads and generated backups
-data/*.sqlite*
+# Local databases, uploads and generated backups.
+# SQLite files are matched by extension, not depth: LOCAL_DATABASE and the
+# test/tmp runs live at data/, tmp/, tmp/<name>/ and the repo root.
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.db
+*.db-*
 data/uploads/
 data/assets/
 output/
@@ -32,8 +42,6 @@ output/
 # Local test / migration scratch files.
 # tmp/math2/inventory.json is tracked, so do not ignore the whole tmp directory.
 tmp/agent-*
-tmp/*.sqlite
-tmp/*.sqlite-*
 tmp/text-*
 tmp/migration-*
 tmp/start-check*
@@ -45,10 +53,18 @@ supabase/.temp/
 supabase/.branches/
 .vercel/
 .playwright-cli/
+test-results/
+playwright-report/
 
-# Logs, OS files and editor swap files
+# Logs, OS files, editor state and merge leftovers
 *.log
 .DS_Store
 Thumbs.db
+desktop.ini
 *.swp
+*.orig
+*.rej
+*.bak
 *~
+.idea/
+.vscode/

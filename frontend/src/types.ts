@@ -10,9 +10,23 @@ export interface User {
   email: string;
   role: "user" | "admin" | "moderator";
 }
+export interface AiGradingPoint {
+  point: string;
+  hit: boolean;
+  note: string;
+}
+export interface AiGrading {
+  result: "correct" | "incorrect";
+  score: number;
+  max_score: number;
+  points: AiGradingPoint[];
+  model: string;
+  created_at: string;
+}
 export interface Progress {
   result: "pending" | "correct" | "incorrect";
   result_source: string;
+  ai_grading?: AiGrading | null;
   ever_correct: boolean;
   ever_incorrect: boolean;
   revision: number;

@@ -89,3 +89,26 @@ CREATE TABLE IF NOT EXISTS invite_registrations (
 );
 CREATE INDEX IF NOT EXISTS invite_registration_owner ON invite_registrations(inviter_id);
 
+-- AI 判分原始结果独立存放，用户自检改判不覆盖 AI 快照。
+CREATE TABLE IF NOT EXISTS problem_rubrics (
+ problem_id TEXT PRIMARY KEY REFERENCES problems(id),
+ answer_hash TEXT NOT NULL,
+ points TEXT NOT NULL,
+ model TEXT NOT NULL,
+ created_at TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS problem_grading (
+ id TEXT PRIMARY KEY,
+ user_id TEXT NOT NULL REFERENCES profiles(id),
+ problem_id TEXT NOT NULL REFERENCES problems(id),
+ result TEXT NOT NULL,
+ score INTEGER NOT NULL,
+ max_score INTEGER NOT NULL,
+ points TEXT NOT NULL,
+ model TEXT NOT NULL,
+ problem_version INTEGER NOT NULL,
+ created_at TEXT NOT NULL,
+ UNIQUE(user_id,problem_id)
+);
+CREATE INDEX IF NOT EXISTS grading_by_problem ON problem_grading(problem_id);
+

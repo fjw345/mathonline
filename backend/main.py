@@ -22,7 +22,7 @@ from fastapi.staticfiles import StaticFiles
 from PIL import Image, UnidentifiedImageError
 from pydantic import BaseModel, Field, ValidationError, field_validator
 
-from . import config, outreach
+from . import config, grading, outreach
 from .auth import (
     auth_request,
     current_user,
@@ -131,6 +131,11 @@ class Assessment(BaseModel):
     revision: int = Field(ge=1)
 
 
+class GradingInput(BaseModel):
+    problem_version: int = Field(ge=1)
+    revision: int = Field(ge=1)
+
+
 class Content(BaseModel):
     body: str = Field(default="", max_length=20000)
     image_ids: list[str] = Field(default_factory=list, max_length=5)
@@ -167,6 +172,31 @@ def images_info(ids, repository=None, strict=True):
     return result
 
 
+def ai_grading(user, pid, repository=None):
+    """Latest AI snapshot for one problem, shaped like the frontend AiGrading."""
+    repository = repository or store
+    row = repository.get("problem_grading", user_id=user["id"], problem_id=pid)
+    if not row:
+        return None
+    return {
+        "result": row["result"],
+        "score": row["score"],
+        "max_score": row["max_score"],
+        "points": row.get("points") or [],
+        "model": row.get("model") or "",
+        "created_at": row["created_at"],
+    }
+
+
+def grading_fallback(p, user, reason):
+    """AI 判分不可用时的降级响应：200 + available=false，前端据此停在待自检。"""
+    return {
+        "available": False,
+        "reason": reason,
+        "problem": public_problem(p, user),
+    }
+
+
 def public_problem(p, user=None, repository=None):
     repository = repository or store
     result = dict(p)
@@ -182,6 +212,7 @@ def public_problem(p, user=None, repository=None):
         state["outdated"] = state["problem_version"] != p["version"]
         state["can_publish"] = state["correct_version"] == p["version"]
         state["images"] = images_info(state["image_ids"], repository, strict=False)
+        state["ai_grading"] = ai_grading(user, p["id"], repository)
     result["progress"] = state
     result["answer_unlocked"] = bool(
         state
@@ -598,6 +629,65 @@ def assess(pid: str, body: Assessment, request: Request):
         raise HTTPException(400, "选择题不接受自评。")
     apply_progress(user, p, "", [], body.result, body.revision)
     return public_problem(p, user)
+
+
+@app.post("/api/v1/me/problems/{pid}/grade")
+def grade(pid: str, body: GradingInput, request: Request):
+    user = current_user(request)
+    p = problem_or_404(pid)
+    if body.problem_version != p["version"]:
+        raise HTTPException(409, "题目已修改，请刷新后重试。")
+    if p["grading_mode"] == "choice":
+        raise HTTPException(400, "选择题已自动判分。")
+    from .rate_limit import allow
+
+    if not allow("grade:" + user["id"], 20, 60):
+        raise HTTPException(429, "判分请求过于频繁，请稍后再试。")
+    state = progress(user, pid)
+    if not state:
+        raise HTTPException(403, "请先提交作答。")
+    if state["result"] != "pending":
+        raise HTTPException(409, "本次作答已判分或已自检，请刷新后重试。")
+    if state["revision"] != body.revision:
+        raise HTTPException(409, "作答已更新，请刷新后重新核对。")
+    a = store.get("problem_answers", problem_id=pid)
+    if not a or not (a.get("text") or "").strip():
+        return grading_fallback(p, user, "题目缺少文字详解，请自检")
+    try:
+        graded = grading.judge(p, a, state["text"])
+    except ValueError as exc:
+        raise HTTPException(400, "该题不支持 AI 判分。") from exc
+    if graded is None:
+        return grading_fallback(p, user, "AI 判分暂不可用，请自检")
+    apply_progress(
+        user, p, "", [], graded["result"], body.revision, result_source="ai"
+    )
+    try:
+        # Same primary key on every attempt: store.put only upserts on id, so a
+        # fresh id for an existing (user_id, problem_id) hits UNIQUE.
+        store.put(
+            "problem_grading",
+            {
+                "id": user["id"] + ":" + pid,
+                "user_id": user["id"],
+                "problem_id": pid,
+                "result": graded["result"],
+                "score": graded["score"],
+                "max_score": graded["max_score"],
+                "points": graded["points"],
+                "model": graded["model"],
+                "problem_version": p["version"],
+                "created_at": now(),
+            },
+        )
+    except Exception as exc:
+        logging.getLogger("mathonline").error(
+            "AI grading snapshot failed: %s", type(exc).__name__
+        )
+        raise HTTPException(
+            503, "AI 判分结果已保存，但详情写入失败，请刷新后查看。"
+        ) from exc
+    return {"available": True, "reason": "", "problem": public_problem(p, user)}
 
 
 @app.get("/api/v1/me/history")

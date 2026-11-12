@@ -19,6 +19,7 @@ JSON_FIELDS = {
     "correct_options",
     "image_ids",
     "filters",
+    "points",
 }
 BOOL_FIELDS = {
     "multiple",
@@ -38,6 +39,8 @@ TABLES = {
     "problem_sources",
     "problems",
     "problem_answers",
+    "problem_rubrics",
+    "problem_grading",
     "user_problem_progress",
     "daily_assignments",
     "answer_access",
@@ -55,7 +58,11 @@ TABLES = {
     "invite_codes",
     "invite_registrations",
 }
-PRIMARY = {"problem_answers": "problem_id", "local_sessions": "token_hash"}
+PRIMARY = {
+    "problem_answers": "problem_id",
+    "problem_rubrics": "problem_id",
+    "local_sessions": "token_hash",
+}
 
 
 class LocalStore:
@@ -114,6 +121,15 @@ class LocalStore:
                     "ALTER TABLE problem_answers ADD COLUMN text TEXT NOT NULL DEFAULT ''"
                 )
             db.execute("INSERT OR IGNORE INTO schema_migrations VALUES (7)")
+            # Version 8 binds cached rubric points to the answer text they came from.
+            if "answer_hash" not in {
+                row["name"] for row in db.execute("PRAGMA table_info(problem_rubrics)")
+            }:
+                db.execute(
+                    "ALTER TABLE problem_rubrics ADD COLUMN answer_hash "
+                    "TEXT NOT NULL DEFAULT ''"
+                )
+            db.execute("INSERT OR IGNORE INTO schema_migrations VALUES (8)")
             db.commit()
 
     def connect(self):
@@ -626,7 +642,7 @@ class SupabaseReader:
             ]
         elif user:
             ids = {p["id"] for p in problems}
-            for table in ("user_problem_progress", "answer_access"):
+            for table in ("user_problem_progress", "answer_access", "problem_grading"):
                 rows = self.list(table, user_id=user["id"])
                 index = {r["problem_id"]: r for r in rows if r["problem_id"] in ids}
                 for pid in ids:

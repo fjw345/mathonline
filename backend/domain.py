@@ -77,11 +77,13 @@ def progress(user, pid, repository=None):
     )
 
 
-def apply_progress(user, problem, text, images, result, revision=None):
+def apply_progress(
+    user, problem, text, images, result, revision=None, result_source=None
+):
     """Serialize submit/self-assessment and daily check-in in one transaction."""
     if hasattr(store, "rpc"):
         try:
-            return store.rpc(
+            record = store.rpc(
                 "record_progress",
                 {
                     "p_user": user["id"],
@@ -102,6 +104,16 @@ def apply_progress(user, problem, text, images, result, revision=None):
                     409, "作答或题目已更新，请刷新后重新核对。"
                 ) from exc
             raise
+        if result_source is not None:
+            current = record.get("result_source") if isinstance(record, dict) else None
+            if current != result_source:
+                # Keep the Postgres function signature; the requested source is
+                # one idempotent upsert on the same primary key.
+                record = store.put(
+                    "user_problem_progress",
+                    dict(record or {}, result_source=result_source),
+                )
+        return record
     with store.transaction() as tx:
         latest = tx.get("problems", id=problem["id"])
         if latest["version"] != problem["version"]:
@@ -110,22 +122,30 @@ def apply_progress(user, problem, text, images, result, revision=None):
             "user_problem_progress", user_id=user["id"], problem_id=problem["id"]
         )
         if revision is not None:
+            # Pending attempts and AI verdicts may still be self-assessed; an
+            # already self-assessed row is final, so a repeat stays a conflict.
+            editable = bool(old) and (
+                old["result"] == "pending" or old.get("result_source") == "ai"
+            )
             if (
-                not old
+                not editable
                 or old["revision"] != revision
                 or old["problem_version"] != problem["version"]
-                or old["result"] != "pending"
             ):
                 raise HTTPException(409, "作答已更新或已自评，请刷新后重新核对。")
             text, images = old["text"], old["image_ids"]
+        if result_source is None:
+            result_source = (
+                "automatic"
+                if problem["grading_mode"] == "choice"
+                else "self_assessment"
+            )
         record = {
             "id": user["id"] + ":" + problem["id"],
             "user_id": user["id"],
             "problem_id": problem["id"],
             "result": result,
-            "result_source": "automatic"
-            if problem["grading_mode"] == "choice"
-            else "self_assessment",
+            "result_source": result_source,
             "ever_correct": bool(old and old["ever_correct"]) or result == "correct",
             "ever_incorrect": bool(old and old["ever_incorrect"])
             or result == "incorrect",

@@ -120,6 +120,7 @@ def test_cloud_page_batches_related_rows_without_answers(monkeypatch):
             "media_assets": [{"id": "img", "width": 100, "height": 50}],
             "user_problem_progress": [],
             "answer_access": [],
+            "problem_grading": [],
             "likes": [],
         }[table]
         return httpx.Response(200, json=data, headers={"Content-Range": "0-11/222"})
@@ -135,7 +136,7 @@ def test_cloud_page_batches_related_rows_without_answers(monkeypatch):
     with db.reader() as reader:
         reader.prepare_problems(page["rows"], {"id": "alice"})
         result = [main.public_problem(p, {"id": "alice"}, reader) for p in page["rows"]]
-    assert len(requests) == 6  # One page + sources + assets + three user batches.
+    assert len(requests) == 7  # One page + sources + assets + four user batches.
     assert all(not p["answer_unlocked"] and "answer" not in p for p in result)
     assert all("problem_answers" not in str(r.url) for r in requests)
     for r in requests:
@@ -152,6 +153,7 @@ def test_cloud_permissions_not_cached_between_requests(monkeypatch):
             "problem_sources": [{"id": "s"}],
             "media_assets": [],
             "user_problem_progress": [],
+            "problem_grading": [],
             "likes": [],
             "answer_access": [{"problem_id": "p", "user_id": "alice"}]
             if unlocked and request.url.params.get("user_id") == "eq.alice"
