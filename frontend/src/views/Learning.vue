@@ -61,7 +61,7 @@ async function generateReport(refresh = false) {
   try {
     analysis.value = await api<Analysis>(
       "/me/analysis" + (refresh ? "?refresh=true" : ""),
-      { method: "POST" },
+      { method: "POST", signal: AbortSignal.timeout(180000) },
     );
     toast("AI 诊断已更新");
   } catch (e) {
@@ -267,9 +267,7 @@ async function read(n: Notification) {
         <div v-if="!analysis.stats.knowledge.length" class="empty-state">
           <BookOpen :size="32" />
           <h3>还没有可分析的练习记录</h3>
-          <p>
-            做几道带知识点的题目后再来看；已做过的题会自动计入统计。
-          </p>
+          <p>做几道带知识点的题目后再来看；已做过的题会自动计入统计。</p>
           <RouterLink to="/practice" class="button"
             >去练习<ArrowRight :size="16"
           /></RouterLink>
@@ -324,10 +322,7 @@ async function read(n: Notification) {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr
-                    v-for="item in analysis.stats.knowledge"
-                    :key="item.code"
-                  >
+                  <tr v-for="item in analysis.stats.knowledge" :key="item.code">
                     <td>
                       <strong>{{ item.name }}</strong>
                       <br />
@@ -344,6 +339,46 @@ async function read(n: Notification) {
                   </tr>
                 </tbody>
               </table>
+            </div>
+            <p
+              v-if="analysis.stats.variant_totals.practiced"
+              class="small-text muted"
+            >
+              一题多练：做过
+              {{ analysis.stats.variant_totals.practiced }} 道变式题， 做对
+              {{ analysis.stats.variant_totals.correct }} 道。
+            </p>
+          </section>
+          <section v-if="analysis.stats.mock.length" class="paper-card">
+            <div class="section-heading compact">
+              <div>
+                <h2>模拟卷成绩</h2>
+              </div>
+              <span class="chip neutral"
+                >{{ analysis.stats.mock.length }} 次</span
+              >
+            </div>
+            <div
+              v-for="paper in analysis.stats.mock"
+              :key="paper.paper_id"
+              class="mock-score-row"
+            >
+              <div class="mock-score-heading">
+                <RouterLink :to="'/mock/' + paper.paper_id"
+                  ><strong>{{ paper.title }}</strong></RouterLink
+                >
+                <span class="chip neutral"
+                  >{{ paper.score }} / {{ paper.max_score }} 分</span
+                >
+              </div>
+              <div class="knowledge-row">
+                <span
+                  v-for="point in paper.knowledge"
+                  :key="point.code"
+                  class="knowledge-chip"
+                  >{{ point.name }} {{ point.score }}/{{ point.max }}</span
+                >
+              </div>
             </div>
           </section>
           <section class="paper-card ai-analysis">
@@ -368,10 +403,7 @@ async function read(n: Notification) {
             </div>
             <template v-if="analysis.report">
               <p class="ai-summary">{{ analysis.report.summary }}</p>
-              <div
-                v-if="analysis.report.strengths.length"
-                class="report-block"
-              >
+              <div v-if="analysis.report.strengths.length" class="report-block">
                 <h3>相对掌握较好</h3>
                 <ul>
                   <li
@@ -404,20 +436,25 @@ async function read(n: Notification) {
               <div v-if="analysis.report.plan.length" class="report-block">
                 <h3>一周练习计划</h3>
                 <ol>
-                  <li v-for="(step, index) in analysis.report.plan" :key="index">
+                  <li
+                    v-for="(step, index) in analysis.report.plan"
+                    :key="index"
+                  >
                     {{ step }}
                   </li>
                 </ol>
               </div>
               <p class="small-text muted">
-                由 {{ analysis.report.model || "模型" }} 生成 · 仅依据你的练习统计
+                由 {{ analysis.report.model || "模型" }} 生成 ·
+                仅依据你的练习统计
               </p>
             </template>
             <p v-else-if="!analysis.available" class="muted">
               {{ analysis.reason || "AI 诊断暂不可用，先看上面的统计。" }}
             </p>
             <p v-else class="muted small-text">
-              点击“生成 AI 诊断”，模型会结合正确率与错题分布指出薄弱知识点，并给出复习计划。
+              点击“生成 AI
+              诊断”，模型会结合正确率与错题分布指出薄弱知识点，并给出复习计划。
             </p>
           </section>
         </template>

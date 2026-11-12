@@ -963,6 +963,19 @@ footer > span {
   font-size: 13px;
   line-height: 1.8;
 }
+.mock-score-row {
+  padding: 10px 0;
+  border-bottom: 1px dashed #e4e9dd;
+}
+.mock-score-row:last-child {
+  border-bottom: 0;
+}
+.mock-score-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
 @media (max-width: 640px) {
   .analysis-summary {
     grid-template-columns: repeat(2, minmax(0, 1fr));

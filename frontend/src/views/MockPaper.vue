@@ -61,6 +61,9 @@ function knowledgeName(code: string) {
   return knowledgeNames.value[code] || code;
 }
 function answerFor(item: MockItem) {
+  if (item.my_text !== undefined || item.my_options !== undefined) {
+    return { text: item.my_text || "", options: item.my_options || [] };
+  }
   return answers[item.id] || { text: "", options: [] };
 }
 function ensure(item: MockItem) {

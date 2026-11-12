@@ -152,6 +152,7 @@ def stub_chat(state):
                     "unique": True,
                     "consistent": True,
                     "answer": "8",
+                    "explanation_answer": "8",
                     "reason": "可解且答案唯一",
                 },
                 ensure_ascii=False,
@@ -230,6 +231,7 @@ def test_question_gen_rejects_identical_and_verifies_answer(monkeypatch):
                     "unique": True,
                     "consistent": True,
                     "answer": "2",
+                    "explanation_answer": "2",
                     "reason": "",
                 },
                 ensure_ascii=False,
@@ -307,6 +309,8 @@ def test_mock_paper_endpoints_and_grading(bank, monkeypatch):
     result = submitted.json()
     assert result["status"] == "submitted"
     assert all("answer_text" in item for item in result["items"])
+    assert result["items"][0]["my_options"] == ["A"]
+    assert any(item["my_text"] == "2" for item in result["items"])
     assert result["score"] > 0
     assert result["knowledge_summary"]
     again = client.put(

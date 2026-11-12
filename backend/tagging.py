@@ -85,13 +85,16 @@ def _type_name(kind):
     )
 
 
-def select_targets(problems, retag=False, override_manual=False):
+def select_targets(
+    problems, retag=False, override_manual=False, retag_heuristic=False
+):
     """挑选本次要标注的题目：人工标注与已有标签默认跳过。
 
     - 默认只补缺失标签；
     - retag 重算已有标签，但仍跳过人工标注；
+    - retag_heuristic 只重算关键词兜底的题目（AI 失败后补跑时用）；
     - override_manual 允许覆盖人工标注（只处理缺失与人工两类）；
-    - 两者同时给出时全部重算。
+    - 多项同时给出时按并集处理。
     """
     targets = []
     for problem in problems:
@@ -102,7 +105,8 @@ def select_targets(problems, retag=False, override_manual=False):
                 targets.append(problem)
             continue
         if codes and not retag:
-            continue
+            if not (retag_heuristic and source == "heuristic"):
+                continue
         targets.append(problem)
     return targets
 

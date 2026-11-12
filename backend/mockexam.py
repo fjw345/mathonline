@@ -657,6 +657,9 @@ def create_paper(user, subject, difficulty, problems, answers, seen):
 def grade_answers(paper, answers):
     """按题型判分；AI 不可用的解答题/填空边界题保持待自评。"""
     by_id = {item["id"]: item for item in paper["items"]}
+    for item in paper["items"]:
+        item["my_text"] = ""
+        item["my_options"] = []
     ai_budget = 8
     for item_id, answer in answers.items():
         item = by_id.get(item_id)
@@ -664,6 +667,8 @@ def grade_answers(paper, answers):
             continue
         text = (answer.get("text") or "").strip()
         options = [str(option) for option in (answer.get("options") or [])]
+        item["my_text"] = text
+        item["my_options"] = options
         if item["type"] == "choice":
             if not options:
                 item["result"], item["score"] = "", 0
@@ -829,6 +834,8 @@ def paper_payload(paper, include_answers=False):
                 correct_options=item.get("correct_options", []),
                 explanation=item.get("explanation", ""),
                 feedback=item.get("feedback", ""),
+                my_text=item.get("my_text", ""),
+                my_options=item.get("my_options", []),
             )
         items.append(row)
     return {

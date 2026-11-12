@@ -27,8 +27,10 @@ from backend.store import store  # noqa: E402
 MAX_SAMPLE = 8
 
 
-def select_targets(problems, retag, override_manual):
-    return tagging.select_targets(problems, retag, override_manual)
+def select_targets(problems, retag, override_manual, retag_heuristic=False):
+    return tagging.select_targets(
+        problems, retag, override_manual, retag_heuristic
+    )
 
 
 def run(problems, answers, workers, use_ai):
@@ -107,6 +109,11 @@ def main():
     parser.add_argument("--workers", type=int, default=4, help="AI 并发数，默认 4")
     parser.add_argument("--retag", action="store_true", help="重算已有 AI 标签")
     parser.add_argument(
+        "--retag-heuristic",
+        action="store_true",
+        help="只重算关键词兜底的题目（AI 失败后补跑）",
+    )
+    parser.add_argument(
         "--override-manual", action="store_true", help="覆盖人工标注（慎用）"
     )
     parser.add_argument("--no-ai", action="store_true", help="只用关键词规则")
@@ -122,7 +129,9 @@ def main():
     if args.subject:
         problems = [p for p in problems if p.get("subject") == args.subject]
     answers = {a["problem_id"]: a.get("text", "") for a in store.list("problem_answers")}
-    targets = select_targets(problems, args.retag, args.override_manual)
+    targets = select_targets(
+        problems, args.retag, args.override_manual, args.retag_heuristic
+    )
     targets.sort(key=lambda p: (p.get("subject") or "", p.get("year") or 0, p["id"]))
     if args.limit > 0:
         targets = targets[: args.limit]

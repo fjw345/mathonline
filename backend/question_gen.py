@@ -70,25 +70,24 @@ def build_verify_messages(item):
     if item["type"] == "choice":
         task = (
             "请独立求解这道选择题，判断题目条件是否充分、答案是否唯一、"
-            "给出的正确选项是否成立。只返回 JSON："
+            "解析中的正确选项是否与给出的正确选项一致。只返回 JSON："
             '{"solvable":true,"unique":true,"consistent":true,"correct":"A",'
             '"reason":"不超过60字的理由"}'
         )
+        answer = "正确选项：" + "".join(item.get("correct_options") or [])
     else:
         task = (
-            "请独立求解这道题，判断题目条件是否充分、答案是否唯一、"
-            "给出的参考答案是否成立。只返回 JSON："
+            "请独立求解这道题，判断题目条件是否充分、答案是否唯一，"
+            "并核对给出的参考答案与解析的最终结论是否一致。只返回 JSON："
             '{"solvable":true,"unique":true,"consistent":true,'
-            '"answer":"你独立解出的答案","reason":"不超过60字的理由"}'
+            '"answer":"你独立解出的答案","explanation_answer":"解析中的最终答案",'
+            '"reason":"不超过60字的理由"}'
         )
-    answer = (
-        "正确选项：" + "".join(item.get("correct_options") or [])
-        if item["type"] == "choice"
-        else "参考答案：" + (item.get("answer_text") or "")
-    )
+        answer = "参考答案：" + (item.get("answer_text") or "")
     body = (
         "【题目】\n" + ai.clip(item["question_text"], MAX_STEM) + "\n\n"
-        "【待核验答案】\n" + ai.clip(answer, MAX_ANSWER) + "\n\n" + task
+        "【待核验答案】\n" + ai.clip(answer, MAX_ANSWER) + "\n\n"
+        "【解析】\n" + ai.clip(item.get("explanation"), MAX_ANSWER) + "\n\n" + task
     )
     return [
         {"role": "system", "content": _VERIFY_SYSTEM},
@@ -200,7 +199,13 @@ def verify_item(item):
         correct = str(payload.get("correct") or "").strip().upper()
         return correct == "".join(item.get("correct_options") or [])
     independent = str(payload.get("answer") or "").strip()
-    return answers_match(item.get("answer_text"), independent)
+    if not answers_match(item.get("answer_text"), independent):
+        return False
+    # 解析里的最终结论必须与 answer 字段一致，挡住“答案与解析各写一个数”的题。
+    explanation_answer = str(payload.get("explanation_answer") or "").strip()
+    return bool(explanation_answer) and answers_match(
+        item.get("answer_text"), explanation_answer
+    )
 
 
 def answers_match(given, independent):

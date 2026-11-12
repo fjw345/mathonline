@@ -176,12 +176,28 @@ export interface AnalysisTotals {
   pending: number;
   mistakes: number;
 }
+export interface VariantTotals {
+  practiced: number;
+  correct: number;
+  incorrect: number;
+}
+export interface MockScore {
+  paper_id: string;
+  subject: string;
+  title: string;
+  score: number;
+  max_score: number;
+  submitted_at: string | null;
+  knowledge: { code: string; name: string; score: number; max: number }[];
+}
 export interface AnalysisStats {
   totals: AnalysisTotals;
+  variant_totals: VariantTotals;
   knowledge: KnowledgeStat[];
   weakest: KnowledgeStat[];
   strengths: KnowledgeStat[];
   domains: DomainStat[];
+  mock: MockScore[];
   fingerprint: string;
 }
 export interface AnalysisReportItem {
@@ -241,6 +257,8 @@ export interface MockItem {
   correct_options?: string[];
   explanation?: string;
   feedback?: string;
+  my_text?: string;
+  my_options?: string[];
 }
 export interface MockBlueprintSection {
   type: string;

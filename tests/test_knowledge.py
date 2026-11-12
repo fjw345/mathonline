@@ -134,6 +134,8 @@ def test_select_targets_protects_manual_and_existing():
             problems, retag=True, override_manual=True
         )
     ] == ["a", "b", "c", "d"]
+    heuristic_only = tagging.select_targets(problems, retag_heuristic=True)
+    assert [p["id"] for p in heuristic_only] == ["a", "d"]
 
 
 def test_public_catalog_and_knowledge_filter(env):

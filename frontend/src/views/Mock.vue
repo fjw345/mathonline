@@ -9,7 +9,7 @@ import {
   Target,
   Trash2,
 } from "lucide-vue-next";
-import { api, state, toast, typeName } from "../api";
+import { api, loadMe, state, toast, typeName } from "../api";
 import type {
   MockPaper,
   MockPaperSummary,
@@ -44,6 +44,7 @@ async function load() {
   loading.value = true;
   error.value = "";
   try {
+    if (!state.sessionReady) await loadMe();
     const [catalog, mine] = await Promise.all([
       api<MockSubjectsResponse>("/mock/subjects"),
       state.user

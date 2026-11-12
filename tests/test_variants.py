@@ -40,6 +40,7 @@ def chat_stub(state):
                 "unique": True,
                 "consistent": True,
                 "answer": "9",
+                "explanation_answer": "9",
                 "reason": "可解且唯一",
             },
             ensure_ascii=False,
