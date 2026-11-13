@@ -87,8 +87,8 @@
 | --- | --- |
 | `AI_BASE_URL` | OpenAI 兼容基地址，实际请求 `{基地址}/chat/completions` |
 | `AI_API_KEY` | 只放服务端环境变量；不要提交、不要放前端 |
-| `AI_MODEL` | 标注、蓝图、生题、判分共用的模型名，写入各表的 `model` 列 |
-| `AI_TIMEOUT` | 单次请求超时秒数；生题建议不低于 60 |
+| `AI_MODEL` | 默认模型名，写入各表的 `model` 列；未单配蓝图/生题模型时，这两类也沿用此值 |
+| `AI_TIMEOUT` | 单次请求超时秒数；生题实测单题约 37 秒，难题更久，建议 **90–120** |
 | `AI_BLUEPRINT_MODEL`（可选） | 考试预测蓝图单独使用的快速模型；留空沿用 `AI_MODEL`。强推理模型在长提示上容易超时或输出截断，建议蓝图固定用快速模型 |
 | `AI_VARIANT_MODEL`（可选） | AI 生题（变式与模拟卷 AI 题）单独使用的模型；留空沿用 `AI_MODEL`。生题对正确性要求高，建议用比判分更强的模型 |
 | `AI_REASONING_EFFORT`（可选） | 思考型模型可设为 `none` 关闭思考，避免推理占满输出预算；留空则不发送该字段 |
@@ -118,9 +118,9 @@ python -X utf8 scripts/tag_knowledge.py --dry-run --limit 20 --workers 4
 # 2) 本地正式写入（只补缺失，人工标注不动）
 python -X utf8 scripts/tag_knowledge.py --workers 4
 
-# 3) 线上：先干跑全量，再正式执行；务必确认 APP_MODE 与目标项目
+# 3) 线上：先小样本干跑，再正式执行；务必确认 APP_MODE 与目标项目
 $env:APP_MODE = "supabase"
-python -X utf8 scripts/tag_knowledge.py --dry-run
+python -X utf8 scripts/tag_knowledge.py --dry-run --limit 20
 python -X utf8 scripts/tag_knowledge.py --workers 4 --report output/knowledge-tag-report.json
 
 # 4) AI 失败后只补跑关键词兜底的题目
