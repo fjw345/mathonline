@@ -201,3 +201,12 @@ CREATE TABLE IF NOT EXISTS learning_analyses (
  created_at TEXT NOT NULL
 );
 
+-- 用户自带 AI 密钥：只存 AES-GCM 密文与末四位掩码，不存明文。
+CREATE TABLE IF NOT EXISTS user_ai_keys (
+ user_id TEXT PRIMARY KEY REFERENCES profiles(id) ON DELETE CASCADE,
+ ciphertext TEXT NOT NULL,
+ hint TEXT NOT NULL DEFAULT '',
+ created_at TEXT NOT NULL,
+ updated_at TEXT NOT NULL
+);
+

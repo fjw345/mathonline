@@ -25,6 +25,7 @@
 | `backend/domain.py` | 判分、自评、每日分配及状态更新 |
 | `backend/grading.py` | AI 判分引擎：填空题算法优先 + 模型兜底、大题得分点判分 |
 | `backend/vision.py` | 纯图片作答先由视觉模型转写为文字，再交给判分引擎 |
+| `backend/user_ai.py` | 用户自带 API 密钥的 AES-GCM 加解密、掩码与校验 |
 | `backend/topics.py`、`tagging.py` | 知识点编码与学科范围、批量标注（AI 优先、关键词兜底） |
 | `backend/analysis.py` | 学情统计聚合与 AI 薄弱点报告 |
 | `backend/mockexam.py`、`question_gen.py` | 考试预测蓝图、组卷、AI 生题与独立求解校验 |
@@ -122,13 +123,13 @@
 ## 5. 权限、部署与性能边界
 
 - 不读取或输出 `.env` 的密钥值，不提交数据库、私人上传、Cookie 或令牌。前端禁止放 service role 凭证。
-- 模型密钥只通过服务端环境变量配置，前端不得持有；AI 判分依赖迁移 `supabase/migrations/20261110000000_ai_grading.sql`，图片作答转写依赖 `20261113130000_image_transcript.sql`，未执行时明确降级为待自检，不假报成功。
+- 用户 API 密钥由用户本人在「我的学习 → AI 设置」保存，服务端用 `AI_KEY_SECRET` 做 AES-GCM 加密后存 `user_ai_keys`；接口只返回末四位，日志与错误不回显密钥。`AI_API_KEY` 只给标注脚本/管理员任务，线上默认不允许用户回退服务端密钥。AI 判分依赖迁移 `supabase/migrations/20261110000000_ai_grading.sql`，用户密钥依赖 `20261113140000_user_ai_keys.sql`，图片作答转写依赖 `20261113130000_image_transcript.sql`，未执行时明确降级为待自检，不假报成功。
 - 本地首次账号可初始化管理员；云端首个注册账号不自动获得管理员，维护角色用 `scripts/manage_user.py` 或受控后台流程。
 - 业务表使用 RLS，但服务端凭证绕过 RLS；身份、归属、答案解锁及管理员检查必须在后端保留。私人状态不可跨账号缓存。
 - 保留 `vercel.json` 的函数包排除和 `/api/v1/*` 重写，不把原卷、题图、本地数据库和前端依赖带入函数包。
 - 线上持久数据在 Supabase，不使用 Vercel 临时文件系统保存账号、作答或图片。代码回滚不会回滚数据库。
 - 错题清单需要新增迁移 `supabase/migrations/202610230001_mistake_notebook.sql`，回填历史答错与“不会”记录；本地通过建表脚本兼容更新且重启不恢复已掌握条目。云端迁移未执行时保持读取兼容，移出操作明确提示待更新，不能假报成功。
-- 本轮新增迁移 `supabase/migrations/202611130001_knowledge_points.sql`、`202611130002_learning_analysis.sql`、`202611130003_mock_exams.sql`、`202611130004_practice_variants.sql`、`20261113120000_shared_variants.sql`、`20261113130000_image_transcript.sql`，均为纯新增；未执行时知识点筛选为空、学情分析只显示统计、模拟卷与变式返回 503（共享题池未执行时自动退回逐次生成）、图片作答转写降级为待自检，不假报成功。线上发布使用 `supabase/release/` 的 preflight/upgrade/postcheck 三份脚本，操作步骤见 [2026-11-13 线上发布手册](docs/release-2026-11-13-ops.md)；整段脚本由 `scripts/build_release_sql.py` 从迁移生成，改迁移后必须重新生成并跑 `tests/test_release_sql.py`。
+- 本轮新增迁移 `supabase/migrations/202611130001_knowledge_points.sql`、`202611130002_learning_analysis.sql`、`202611130003_mock_exams.sql`、`202611130004_practice_variants.sql`、`20261113120000_shared_variants.sql`、`20261113130000_image_transcript.sql`、`20261113140000_user_ai_keys.sql`，均为纯新增；未执行时知识点筛选为空、学情分析只显示统计、模拟卷与变式返回 503（共享题池未执行时自动退回逐次生成）、图片作答转写降级为待自检、用户密钥保存返回 503，不假报成功。线上发布使用 `supabase/release/` 的 preflight/upgrade/postcheck 三份脚本，操作步骤见 [2026-11-13 线上发布手册](docs/release-2026-11-13-ops.md)；整段脚本由 `scripts/build_release_sql.py` 从迁移生成，改迁移后必须重新生成并跑 `tests/test_release_sql.py`。
 - `APP_ORIGIN`、认证回调、邮箱和部署环境对应实际网站；配置变更需重新部署。平台限制和配置操作发生变化时查官方资料，不把历史限制数值当作永久常量。
 - 保留分页、按请求批量读取、公开目录 30 秒缓存和文字渲染按需加载；性能修复先分清数据接口、认证、冷启动与公式渲染耗时。
 - 公开题目接口不再批量签发原题截图 URL；文字内嵌图按请求、题目可见性和答案解锁鉴权。历史上已签发的原图链接最长 300 秒后失效，不能承诺立即撤销。
@@ -174,6 +175,6 @@ python -X utf8 scripts/build_release_sql.py --check
 
 ## 7. 后续事项
 
-当前优先维护可用性、题库补充和真实网络性能。云端社区并发事务与失败恢复、上传直传、备份及恢复演练等按任务推进。更新信箱与邀请下载已按 2026-11-08 的明确需求实现，上线仍需迁移与部署配置。AI 自动核对答案（填空题算法优先+模型兜底、大题得分点判分、纯图片先转写再判分）已按明确要求实现，上线仍需执行迁移与配置模型密钥，见 [AI 自动核对答案](docs/ai-grading.md)。2026-11-13 的知识点标签、AI 学情分析、北交考试预测/模拟卷、错题 AI 变式与共享题池已实现并完成离线验证，线上迁移与标注尚未执行，见 [知识点、AI 学情、考试预测与一题多练](docs/knowledge-analysis-mock-deployment.md)；AI 生题经过独立求解校验但仍不承诺 100% 正确，AI 题不进公开题库。公式编辑、生存模式和在线 PK 仍是候选方向，不属于当前默认承诺；不因旧文档提到就自动实现。
+当前优先维护可用性、题库补充和真实网络性能。云端社区并发事务与失败恢复、上传直传、备份及恢复演练等按任务推进。更新信箱与邀请下载已按 2026-11-08 的明确需求实现，上线仍需迁移与部署配置。AI 自动核对答案（填空题算法优先+模型兜底、大题得分点判分、纯图片先转写再判分）已按明确要求实现，上线仍需执行迁移、配置 `AI_KEY_SECRET` 并让用户保存各自密钥，见 [AI 自动核对答案](docs/ai-grading.md)。2026-11-13 的知识点标签、AI 学情分析、北交考试预测/模拟卷、错题 AI 变式、共享题池与用户自带 API 密钥已实现并完成离线验证，线上迁移与标注尚未执行，见 [知识点、AI 学情、考试预测与一题多练](docs/knowledge-analysis-mock-deployment.md)；AI 生题经过独立求解校验但仍不承诺 100% 正确，AI 题不进公开题库。公式编辑、生存模式和在线 PK 仍是候选方向，不属于当前默认承诺；不因旧文档提到就自动实现。
 
 本文件按用户要求命名为 `AGENT.md`；不假定所有工具都会自动加载这一单数文件名，使用新编码工具时需确认其指令发现规则。

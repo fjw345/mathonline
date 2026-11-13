@@ -1,6 +1,6 @@
 -- ============================================================================
 -- 数学刷题平台：2026-11-13 线上数据库升级
--- 知识点标签 / AI 学情分析 / 考试预测模拟卷 / 错题 AI 变式 / 共享题池 / 图片作答转写
+-- 知识点标签 / AI 学情分析 / 考试预测模拟卷 / 错题 AI 变式 / 共享题池 / 图片作答转写 / 用户密钥
 --
 -- 目标：Supabase PostgreSQL（public schema）
 --
@@ -20,6 +20,7 @@
 --   supabase/migrations/202611130004_practice_variants.sql
 --   supabase/migrations/20261113120000_shared_variants.sql
 --   supabase/migrations/20261113130000_image_transcript.sql
+--   supabase/migrations/20261113140000_user_ai_keys.sql
 -- 重新生成：python -X utf8 scripts/build_release_sql.py
 -- ============================================================================
 
@@ -34,6 +35,7 @@ begin
      or to_regclass('public.practice_variants') is not null
      or to_regclass('public.variant_cache') is not null
      or to_regclass('public.submission_transcripts') is not null
+     or to_regclass('public.user_ai_keys') is not null
      or exists (
           select 1
           from information_schema.columns
@@ -50,7 +52,7 @@ end
 $$;
 
 -- ==========================================================================
--- 第 1/6 段：知识点列、索引、save_problem 与批量标注函数
+-- 第 1/7 段：知识点列、索引、save_problem 与批量标注函数
 -- 源文件：supabase/migrations/202611130001_knowledge_points.sql
 -- ==========================================================================
 -- Knowledge points (public filter + weak-point analysis) and the internal
@@ -136,7 +138,7 @@ grant execute on function public.apply_problem_knowledge(jsonb) to service_role;
 -- Make the new columns and function visible to PostgREST immediately.
 
 -- ==========================================================================
--- 第 2/6 段：学情分析报告缓存表
+-- 第 2/7 段：学情分析报告缓存表
 -- 源文件：supabase/migrations/202611130002_learning_analysis.sql
 -- ==========================================================================
 -- 学情分析报告缓存：统计由服务端每次现算，模型报告只在练习数据指纹变化时
@@ -156,7 +158,7 @@ revoke all on public.learning_analyses from public, anon, authenticated;
 grant select, insert, update, delete on public.learning_analyses to service_role;
 
 -- ==========================================================================
--- 第 3/6 段：考试预测模拟卷表
+-- 第 3/7 段：考试预测模拟卷表
 -- 源文件：supabase/migrations/202611130003_mock_exams.sql
 -- ==========================================================================
 -- 北交期末考试预测与模拟卷。一卷一行：蓝图、往年分析、题目和判分结果都放在
@@ -188,7 +190,7 @@ revoke all on public.mock_papers from public, anon, authenticated;
 grant select, insert, update, delete on public.mock_papers to service_role;
 
 -- ==========================================================================
--- 第 4/6 段：一题多练变式题表
+-- 第 4/7 段：一题多练变式题表
 -- 源文件：supabase/migrations/202611130004_practice_variants.sql
 -- ==========================================================================
 -- 一题多练：错题的 AI 变式题独立存放，答案在查看前不下发。纯新增表。
@@ -220,7 +222,7 @@ revoke all on public.practice_variants from public, anon, authenticated;
 grant select, insert, update, delete on public.practice_variants to service_role;
 
 -- ==========================================================================
--- 第 5/6 段：AI 仿题共享题池与变式题新增列
+-- 第 5/7 段：AI 仿题共享题池与变式题新增列
 -- 源文件：supabase/migrations/20261113120000_shared_variants.sql
 -- ==========================================================================
 -- AI 仿题共享题池：同一道题的生成结果跨用户复用，节省模型调用。
@@ -257,7 +259,7 @@ revoke all on public.variant_cache from public, anon, authenticated;
 grant select, insert, update, delete on public.variant_cache to service_role;
 
 -- ==========================================================================
--- 第 6/6 段：图片作答转写表与判分记录新增列
+-- 第 6/7 段：图片作答转写表与判分记录新增列
 -- 源文件：supabase/migrations/20261113130000_image_transcript.sql
 -- ==========================================================================
 -- 图片作答转写：先把用户上传的作答图片转成文字，再交给既有 AI 判分。
@@ -282,6 +284,25 @@ alter table public.problem_grading
 alter table public.submission_transcripts enable row level security;
 revoke all on public.submission_transcripts from public, anon, authenticated;
 grant select, insert, update, delete on public.submission_transcripts to service_role;
+
+-- ==========================================================================
+-- 第 7/7 段：用户自带 API 密钥的加密存储表
+-- 源文件：supabase/migrations/20261113140000_user_ai_keys.sql
+-- ==========================================================================
+-- 用户自带 DeepSeek API 密钥：只保存 AES-GCM 密文与末四位掩码，不保存明文。
+-- 纯新增表；RLS 开启，只有 service_role 可以读写，接口从不返回完整密钥。
+
+create table public.user_ai_keys (
+ user_id text primary key references public.profiles(id) on delete cascade,
+ ciphertext text not null,
+ hint text not null default '',
+ created_at timestamptz not null,
+ updated_at timestamptz not null
+);
+
+alter table public.user_ai_keys enable row level security;
+revoke all on public.user_ai_keys from public, anon, authenticated;
+grant select, insert, update, delete on public.user_ai_keys to service_role;
 
 -- 全部结构创建完成；NOTIFY 会在事务提交后送达 PostgREST，使新表立即可用。
 

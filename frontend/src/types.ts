@@ -24,6 +24,14 @@ export interface AiGrading {
   transcript?: string;
   created_at: string;
 }
+export interface AiKeyStatus {
+  configured: boolean;
+  hint: string;
+  updated_at: string;
+  encryption_ready: boolean;
+  reason: string;
+  available: boolean;
+}
 export interface Progress {
   result: "pending" | "correct" | "incorrect";
   result_source: string;
@@ -239,6 +247,7 @@ export interface MockSubject {
 export interface MockSubjectsResponse {
   subjects: MockSubject[];
   ai: boolean;
+  ai_key: boolean;
 }
 export interface MockItem {
   id: string;

@@ -193,7 +193,7 @@ def test_grade_endpoint_degrades_without_ai(ai):
     assert response.status_code == 200
     body = response.json()
     assert body["available"] is False
-    assert body["reason"] == "AI 判分暂不可用，请自检"
+    assert "配置" in body["reason"]
     assert body["problem"]["progress"]["result"] == "pending"
     assert body["problem"]["progress"]["ai_grading"] is None
     assert db.get("problem_grading", problem_id="test-q2") is None

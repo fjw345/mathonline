@@ -99,7 +99,19 @@ with checks(ord, kind, section, item, ok, hint) as (
      exists (select 1 from information_schema.columns
              where table_schema = 'public' and table_name = 'problem_grading'
                and column_name = 'transcript'),
-     '缺失时执行 20261113130000_image_transcript.sql')
+     '缺失时执行 20261113130000_image_transcript.sql'),
+
+    (27, '对象', '140000 用户密钥', '表 user_ai_keys',
+     to_regclass('public.user_ai_keys') is not null,
+     '缺失时执行 20261113140000_user_ai_keys.sql'),
+    (28, '对象', '140000 用户密钥', '列 user_ai_keys.ciphertext/hint',
+     exists (select 1 from information_schema.columns
+             where table_schema = 'public' and table_name = 'user_ai_keys'
+               and column_name = 'ciphertext')
+     and exists (select 1 from information_schema.columns
+             where table_schema = 'public' and table_name = 'user_ai_keys'
+               and column_name = 'hint'),
+     '缺失时执行 20261113140000_user_ai_keys.sql')
 ),
 summary as (
   select

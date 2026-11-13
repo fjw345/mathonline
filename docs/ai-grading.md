@@ -22,21 +22,25 @@
 
 模型调用统一走 OpenAI 兼容的 `POST {AI_BASE_URL}/chat/completions`。判分的唯一调用点是 `backend/grading.py` 的 `_chat`；纯图片作答的转写走 `backend/vision.py` → `backend/ai.py`，可使用独立的视觉端点与模型。
 
+线上改为**用户自带 DeepSeek 密钥**：登录用户可在「我的学习 → AI 设置」保存自己的 `sk-...` 密钥，服务端用 AES-GCM 加密后存入 `user_ai_keys`，接口只返回末四位。判分、学情、组卷、变式、图片转写都通过 `backend/ai.py` 取当前请求的用户密钥；服务端 `AI_API_KEY` 只留给标注脚本与管理员任务，线上不默认回退。密钥加密密钥是 `AI_KEY_SECRET`，缺失时拒绝保存，不落明文。
+
 | 变量 | 含义 | 缺省 |
 | --- | --- | --- |
 | `AI_BASE_URL` | 兼容接口的基地址，末尾 `/` 自动去掉；实际请求路径为 `{基地址}/chat/completions` | 空 |
-| `AI_API_KEY` | 调用密钥，仅以 `Authorization: Bearer` 头在服务端使用 | 空 |
+| `AI_API_KEY` | 服务端密钥，供标注脚本/管理员任务使用；用户请求默认使用各自密钥 | 空 |
 | `AI_MODEL` | 模型名，同时写入 `problem_rubrics.model` 与 `problem_grading.model` | 空 |
+| `AI_KEY_SECRET` | 用户密钥的加密密钥：base64url 32 字节；缺失时无法保存/读取用户密钥 | 空 |
+| `AI_ALLOW_SERVER_KEY`（可选） | 本地开发/测试可设 `on`，让未配置密钥的用户回退 `AI_API_KEY`；默认关闭 | 关闭 |
 | `AI_TIMEOUT` | 单次模型请求超时秒数，按浮点解析 | `30` |
 | `AI_VISION_BASE_URL`（可选） | 图片转写用的兼容端点；留空沿用 `AI_BASE_URL` | 空 |
-| `AI_VISION_API_KEY`（可选） | 图片转写密钥；留空沿用 `AI_API_KEY` | 空 |
+| `AI_VISION_API_KEY`（可选） | 图片转写密钥；留空时用户已配密钥则用用户密钥，否则沿用 `AI_API_KEY` | 空 |
 | `AI_VISION_MODEL`（可选） | 支持图片输入的模型名；留空沿用 `AI_MODEL`（只有该模型支持视觉时才可用） | 空 |
 | `AI_VISION_TIMEOUT`（可选） | 单次转写超时秒数；手写/多图建议不低于 60 | `120` |
 
 `AI_TIMEOUT` 同时用于生题与组卷；线上生题实测单题约 37 秒，建议设为 120，见 [线上发布手册](release-2026-11-13-ops.md)。
 
-- 后端由 `AI_ENABLED` 判断可用性：`AI_BASE_URL`、`AI_API_KEY`、`AI_MODEL` 三项全部非空才启用，不需要另外设置开关。示例项见仓库根目录 `.env.example`。
-- **密钥只放服务端环境变量**：不要写入前端代码、前端构建产物、README、`.env.example` 或任何提交记录，也不要在日志和报错里回显。前端的 `available` / `reason` 只承载“能不能判、为什么不能判”，不带凭证与基地址。
+- 服务端由 `AI_ENABLED` 判断脚本/管理员任务是否可用：`AI_BASE_URL`、`AI_API_KEY`、`AI_MODEL` 三项全部非空。登录用户请求改为检查其已保存密钥；`AI_ALLOW_SERVER_KEY=on` 时才回退服务端密钥。示例项见仓库根目录 `.env.example`。
+- **密钥不进代码与前端**：用户密钥只以密文存在数据库，接口只返回末四位；不要写入前端代码、构建产物、README、`.env.example` 或提交记录，也不要在日志和报错里回显。前端的 `available` / `reason` 只承载“能不能判、为什么不能判”，不带凭证与基地址。
 - **未配置时的降级行为（已实现）**：判分端点返回 `available=false`，前端静默保持“待自检”，提交与草稿照常保存，不给用户报错。填空题在算法能判定时仍然会判（算法不依赖模型），只是模型兜底这一段不可用。
 
 ## 3. 判分流程

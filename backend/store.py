@@ -53,6 +53,7 @@ TABLES = {
     "mock_papers",
     "practice_variants",
     "variant_cache",
+    "user_ai_keys",
     "user_problem_progress",
     "daily_assignments",
     "answer_access",
@@ -74,6 +75,7 @@ PRIMARY = {
     "problem_answers": "problem_id",
     "problem_rubrics": "problem_id",
     "local_sessions": "token_hash",
+    "user_ai_keys": "user_id",
 }
 
 
@@ -188,6 +190,9 @@ class LocalStore:
                     "TEXT NOT NULL DEFAULT ''"
                 )
             db.execute("INSERT OR IGNORE INTO schema_migrations VALUES (11)")
+            # Version 12 adds encrypted per-user AI keys; schema.sql creates the
+            # table on every startup, this row records the upgrade.
+            db.execute("INSERT OR IGNORE INTO schema_migrations VALUES (12)")
             db.commit()
 
     def connect(self):

@@ -103,16 +103,15 @@ def main():
                 "--no-ai",
             ]
         )
-    from backend.config import AI_ENABLED
+    from backend.config import AI_ENABLED, AI_KEY_SECRET, AI_MODEL_READY
 
-    print(
-        "AI 功能："
-        + (
-            "已配置（模拟卷、变式与 AI 诊断可用）"
-            if AI_ENABLED
-            else "未配置（知识点筛选、统计可用；模拟卷/变式/AI 诊断会明确降级）"
-        )
-    )
+    if AI_MODEL_READY and AI_KEY_SECRET:
+        ai_state = "模型与密钥加密已配置；登录后在「我的学习 → AI 设置」保存自己的密钥即可使用"
+    elif AI_ENABLED:
+        ai_state = "已配置服务端密钥（模拟卷、变式与 AI 诊断可用；也可在 AI 设置改用个人密钥）"
+    else:
+        ai_state = "未配置（知识点筛选、统计可用；模拟卷/变式/AI 诊断会明确降级）"
+    print("AI 功能：" + ai_state)
     if args.check:
         from fastapi.testclient import TestClient
 

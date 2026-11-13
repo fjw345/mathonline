@@ -34,7 +34,10 @@ class VisionUnavailable(Exception):
 
 
 def enabled():
-    return bool(config.AI_VISION_ENABLED)
+    """视觉模型可用，且用户密钥或服务端视觉密钥至少有一个。"""
+    return bool(
+        config.AI_VISION_MODEL and (config.AI_VISION_API_KEY or ai.enabled())
+    )
 
 
 def transcribe(user, problem, state, repository):
@@ -65,7 +68,7 @@ def transcribe(user, problem, state, repository):
             messages,
             model=config.AI_VISION_MODEL,
             base_url=config.AI_VISION_BASE_URL,
-            api_key=config.AI_VISION_API_KEY,
+            api_key=config.AI_VISION_API_KEY or None,
             timeout=config.AI_VISION_TIMEOUT,
             max_tokens=2000,
             json_mode=False,

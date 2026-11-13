@@ -143,7 +143,7 @@ def test_analysis_endpoint_reports_weakest_without_ai(env, monkeypatch):
     body = response.json()
     assert body["available"] is False
     assert body["report"] is None
-    assert body["reason"] == "AI 学情分析未配置"
+    assert "配置" in body["reason"]
     stats = body["stats"]
     assert stats["totals"]["practiced"] == 2
     assert stats["totals"]["incorrect"] == 1
@@ -204,5 +204,5 @@ def test_analysis_report_unavailable_degrades(env, monkeypatch):
     monkeypatch.setattr(ai, "chat", lambda *args, **kwargs: "不是 JSON")
     response = client.post("/api/v1/me/analysis")
     assert response.status_code == 503
-    assert response.json()["detail"] == "AI 分析暂不可用，请稍后再试。"
+    assert "JSON" in response.json()["detail"]
     assert db.get("learning_analyses", id=client.get("/api/v1/me").json()["user"]["id"]) is None

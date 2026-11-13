@@ -16,6 +16,13 @@ htmlcov/
 !.env.example
 # Local test key file (never commit credentials)
 testKey.md
+# Exported encryption keys and database dumps (never commit)
+*.key
+*.pem
+*.p12
+*.pfx
+*.dump
+*.sql.gz
 # npm/Git credentials can carry tokens; force-add any shared config instead.
 .npmrc
 .netrc

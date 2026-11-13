@@ -12,7 +12,7 @@ import unicodedata
 
 import httpx
 
-from . import config
+from . import ai, config
 from .auth import now
 from .store import store
 
@@ -107,7 +107,7 @@ def rubric_for(problem, answer):
         points = _coerce_points(cached.get("points"))
         if points:
             return points
-    if not config.AI_ENABLED:
+    if not ai.enabled():
         raise GradingUnavailable("AI 判分未配置")
     points = generate_rubric(problem, answer)
     record = {
@@ -137,13 +137,13 @@ def judge(problem, answer, submitted):
         if verdict is not None:
             score = 1 if verdict == "correct" else 0
             return _result(verdict, score, 1, [], "algorithm")
-        if not text or not config.AI_ENABLED:
+        if not text or not ai.enabled():
             return None
         try:
             return _judge_blank(problem, answer, text)
         except GradingUnavailable:
             return None
-    if not text or not config.AI_ENABLED:
+    if not text or not ai.enabled():
         return None
     try:
         points = rubric_for(problem, answer)
@@ -198,13 +198,13 @@ def _judge_solution(problem, answer, submitted, rubric):
 
 def _chat(messages):
     """唯一的模型调用点，测试可替换本函数。"""
-    if not config.AI_ENABLED:
-        raise GradingUnavailable("AI 判分未配置")
+    if not ai.enabled():
+        raise GradingUnavailable(ai.reason() or "AI 判分未配置")
     try:
         response = httpx.post(
             config.AI_BASE_URL + "/chat/completions",
             headers={
-                "Authorization": "Bearer " + config.AI_API_KEY,
+                "Authorization": "Bearer " + ai.resolve_key(),
                 "Content-Type": "application/json",
             },
             json={

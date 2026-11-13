@@ -43,6 +43,19 @@ AI_TIMEOUT = float(os.getenv("AI_TIMEOUT", "30"))
 # 留空表示不发送该字段，兼容不识别它的服务商。
 AI_REASONING_EFFORT = os.getenv("AI_REASONING_EFFORT", "").strip()
 AI_ENABLED = bool(AI_BASE_URL and AI_API_KEY and AI_MODEL)
+# 只要求端点与模型可用；密钥可以由每个用户在设置页自带（加密保存在服务端）。
+AI_MODEL_READY = bool(AI_BASE_URL and AI_MODEL)
+
+# 用户自带 API 密钥的加密密钥：base64url 编码的 32 字节。
+# 未配置时用户无法保存或读取密钥，AI 功能会明确提示管理员配置。
+AI_KEY_SECRET = os.getenv("AI_KEY_SECRET", "").strip()
+# 兼容本机开发与测试：默认关闭；显式设 on 才在用户未配置密钥时回退服务端
+# AI_API_KEY。线上必须保持关闭，所有用户 AI 调用都走用户自己的密钥。
+_allow_server_key = os.getenv("AI_ALLOW_SERVER_KEY", "").strip().lower()
+if _allow_server_key in ("1", "true", "yes", "on"):
+    AI_ALLOW_SERVER_KEY = True
+else:
+    AI_ALLOW_SERVER_KEY = False
 
 # 图片作答转写：可独立配置视觉模型端点；留空沿用文本模型与接口。
 AI_VISION_BASE_URL = os.getenv("AI_VISION_BASE_URL", "").rstrip("/") or AI_BASE_URL

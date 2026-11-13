@@ -86,13 +86,13 @@ with checks(ord, item, ok, hint) as (
                and p.prosrc like '%knowledge_points%'),
      '旧客户端保存题目时不能清空已有标签'),
 
-    (19, '5 张新表均已启用 RLS',
+    (19, '6 张新表均已启用 RLS',
      (select count(*) from pg_class c
       join pg_namespace n on n.oid = c.relnamespace
       where n.nspname = 'public'
         and c.relname in ('learning_analyses', 'mock_papers', 'practice_variants',
-                          'variant_cache', 'submission_transcripts')
-        and c.relrowsecurity) = 5,
+                          'variant_cache', 'submission_transcripts', 'user_ai_keys')
+        and c.relrowsecurity) = 6,
      '未启用 RLS 会导致浏览器角色越权访问'),
 
     (20, 'anon / authenticated 对新表无任何授权',
@@ -104,12 +104,12 @@ with checks(ord, item, ok, hint) as (
        left join pg_roles r on r.oid = a.grantee
        where n.nspname = 'public'
          and c.relname in ('learning_analyses', 'mock_papers', 'practice_variants',
-                           'variant_cache', 'submission_transcripts')
+                           'variant_cache', 'submission_transcripts', 'user_ai_keys')
          and coalesce(r.rolname, 'public') in ('anon', 'authenticated')
      ),
      '迁移应 revoke all from public, anon, authenticated'),
 
-    (21, 'service_role 对 5 张新表有读写授权',
+    (21, 'service_role 对 6 张新表有读写授权',
      (select count(*) from (
         select c.relname
         from pg_class c
@@ -118,12 +118,12 @@ with checks(ord, item, ok, hint) as (
         join pg_roles r on r.oid = a.grantee
         where n.nspname = 'public'
           and c.relname in ('learning_analyses', 'mock_papers', 'practice_variants',
-                            'variant_cache', 'submission_transcripts')
+                            'variant_cache', 'submission_transcripts', 'user_ai_keys')
           and r.rolname = 'service_role'
           and a.privilege_type in ('SELECT', 'INSERT', 'UPDATE', 'DELETE')
         group by c.relname
         having count(distinct a.privilege_type) = 4
-      ) t) = 5,
+      ) t) = 6,
      '后端以 service_role 读写业务表'),
 
     (22, 'anon 不能执行 apply_problem_knowledge',
@@ -178,7 +178,19 @@ with checks(ord, item, ok, hint) as (
      and exists (select 1 from information_schema.columns
              where table_schema = 'public' and table_name = 'practice_variants'
                and column_name = 'reused' and data_type = 'boolean'),
-     '共享题池依赖这三列')
+     '共享题池依赖这三列'),
+
+    (27, '表 user_ai_keys 存在',
+     to_regclass('public.user_ai_keys') is not null,
+     '140000 迁移是否执行'),
+    (28, 'user_ai_keys 的密文与掩码列存在',
+     exists (select 1 from information_schema.columns
+             where table_schema = 'public' and table_name = 'user_ai_keys'
+               and column_name = 'ciphertext')
+     and exists (select 1 from information_schema.columns
+             where table_schema = 'public' and table_name = 'user_ai_keys'
+               and column_name = 'hint'),
+     '只保存 AES-GCM 密文与末四位掩码')
 ),
 summary as (
   select

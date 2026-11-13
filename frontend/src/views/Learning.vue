@@ -13,7 +13,13 @@ import {
   RefreshCw,
 } from "lucide-vue-next";
 import { api, write, loadMe, state, toast, statusName } from "../api";
-import type { Analysis, Problem, Solution, Notification } from "../types";
+import type {
+  AiKeyStatus,
+  Analysis,
+  Problem,
+  Solution,
+  Notification,
+} from "../types";
 import ProblemCard from "../components/ProblemCard.vue";
 const route = useRoute(),
   router = useRouter();
@@ -27,6 +33,9 @@ const loading = ref(true),
   total = ref(0);
 const analysis = ref<Analysis>();
 const reportBusy = ref(false);
+const aiKey = ref<AiKeyStatus>();
+const aiKeyInput = ref("");
+const aiKeySaving = ref(false);
 const nickname = ref("");
 const settings = ref(false),
   saving = ref(false);
@@ -52,9 +61,40 @@ const tabs = [
   { id: "likes", label: "喜欢" },
   { id: "solutions", label: "我的题解" },
   { id: "notifications", label: "消息" },
+  { id: "ai", label: "AI 设置" },
 ];
 async function loadAnalysis() {
   analysis.value = await api<Analysis>("/me/analysis");
+}
+async function loadAiKey() {
+  aiKey.value = await api<AiKeyStatus>("/me/ai-key");
+}
+async function saveAiKey() {
+  if (!aiKeyInput.value.trim()) return;
+  aiKeySaving.value = true;
+  try {
+    aiKey.value = await write<AiKeyStatus>(
+      "/me/ai-key",
+      { api_key: aiKeyInput.value.trim() },
+      "PUT",
+    );
+    aiKeyInput.value = "";
+    toast("API 密钥已保存");
+  } catch (e) {
+    toast((e as Error).message, true);
+  } finally {
+    aiKeySaving.value = false;
+  }
+}
+async function removeAiKey() {
+  if (!window.confirm("删除已保存的 API 密钥？删除后 AI 功能将不可用。"))
+    return;
+  try {
+    aiKey.value = await api<AiKeyStatus>("/me/ai-key", { method: "DELETE" });
+    toast("API 密钥已删除");
+  } catch (e) {
+    toast((e as Error).message, true);
+  }
 }
 async function generateReport(refresh = false) {
   reportBusy.value = true;
@@ -125,6 +165,8 @@ async function load() {
     solutions.value = [];
     if (tab.value === "analysis") {
       await loadAnalysis();
+    } else if (tab.value === "ai") {
+      await loadAiKey();
     } else if (tab.value === "notifications") {
       notifications.value = await api("/me/notifications");
     } else if (tab.value === "solutions") {
@@ -243,6 +285,61 @@ async function read(n: Notification) {
       <p>{{ error }}</p>
       <button class="button" @click="load">重试</button>
     </div>
+    <template v-else-if="tab === 'ai'">
+      <section class="paper-card ai-key-panel">
+        <div class="section-heading compact">
+          <div><h2>DeepSeek API 密钥</h2></div>
+          <span class="chip neutral">{{
+            aiKey?.configured ? "已配置" : "未配置"
+          }}</span>
+        </div>
+        <p class="small-text muted">
+          AI 判分、学情分析、考试预测与一题多练都使用你自己的密钥调用
+          DeepSeek。密钥加密保存在服务器，页面只显示末四位，接口不会返回完整密钥。
+        </p>
+        <p v-if="aiKey?.reason" class="form-warning">{{ aiKey.reason }}</p>
+        <p v-if="aiKey?.configured" class="small-text">
+          当前：{{ aiKey.hint }}
+          <span v-if="aiKey.updated_at"
+            >· {{ aiKey.updated_at.slice(0, 19).replace("T", " ") }} 更新</span
+          >
+        </p>
+        <form class="ai-key-form" @submit.prevent="saveAiKey">
+          <label class="field"
+            >新的 API 密钥<input
+              v-model.trim="aiKeyInput"
+              type="password"
+              autocomplete="off"
+              spellcheck="false"
+              placeholder="sk-..."
+              required
+          /></label>
+          <div class="ai-key-actions">
+            <button class="button" :disabled="aiKeySaving">
+              {{
+                aiKeySaving
+                  ? "保存中…"
+                  : aiKey?.configured
+                    ? "更换密钥"
+                    : "保存密钥"
+              }}
+            </button>
+            <button
+              v-if="aiKey?.configured"
+              type="button"
+              class="text-button"
+              @click="removeAiKey"
+            >
+              删除密钥
+            </button>
+          </div>
+        </form>
+        <p class="small-text muted">
+          只支持 DeepSeek 官方密钥（sk-
+          开头）。请不要填写他人的密钥；密钥只用于你发起的 AI 请求，可随时删除。
+        </p>
+      </section>
+    </template>
     <template v-else-if="tab === 'analysis'">
       <div v-if="!analysis" class="loading-panel">正在统计…</div>
       <template v-else>
@@ -557,5 +654,23 @@ async function read(n: Notification) {
 }
 .learning-item .problem-card {
   flex: 1;
+}
+.ai-key-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 720px;
+}
+.ai-key-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+}
+.ai-key-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 </style>

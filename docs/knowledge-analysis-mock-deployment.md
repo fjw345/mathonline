@@ -43,6 +43,7 @@
 | `practice_variants` | 错题变式题（每用户一份作答状态） | `problem_id`（原题）、`cache_id`（共享题池 ID）、`reused`（是否复用题池）、`question_text`、`answer_text`、`correct_options`、`result`、`answered_at` |
 | `variant_cache` | AI 仿题共享题池（跨用户复用） | `problem_id`、`source_hash`（题目版本+答案摘要）、`type`、题目与答案快照、`use_count`、`last_used_at` |
 | `submission_transcripts` | 纯图片作答的转写缓存 | `user_id`、`problem_id`、`revision`、`image_ids`（顺序）、`text`、`model`；`problem_grading.transcript` 保存判分时的转写文本 |
+| `user_ai_keys` | 用户自带 DeepSeek 密钥的密文 | `user_id`、`ciphertext`（AES-GCM，用户 ID 作为 AAD）、`hint`（末四位掩码）、`created_at`、`updated_at`；不保存明文 |
 
 模拟卷与变式题都保存题目快照，原题后续改版不会改变已生成内容；AI 题不写回公开题库。
 
@@ -65,6 +66,9 @@
 6. `supabase/migrations/20261113130000_image_transcript.sql`
    - 新建 `submission_transcripts` 图片作答转写缓存；
    - 给 `problem_grading` 增加 `transcript` 列。需先执行 `20261110000000_ai_grading.sql`。
+7. `supabase/migrations/20261113140000_user_ai_keys.sql`
+   - 新建 `user_ai_keys`，只保存用户 DeepSeek 密钥的 AES-GCM 密文与末四位掩码；
+   - RLS 开启，仅 `service_role` 可读写；接口不返回完整密钥。
 
 每份迁移都以 `notify pgrst, 'reload schema'` 结束，并只授权 `service_role`。执行前确认目标项目；执行后核对表存在、RLS 开启、`anon`/`authenticated` 无权限。
 
@@ -73,7 +77,7 @@
 1. **备份**：按既有流程备份当前数据库（至少 `problems`、`problem_answers`）。
 2. **执行迁移**：按第 2.3 节顺序执行。迁移是纯新增，旧代码会忽略新列/新表，因此**建议先迁移、再部署代码**，避免新代码查询新列时出现短暂报错。
 3. **部署代码**：部署后端与前端。迁移未执行时：知识点筛选为空、学情分析只显示统计、模拟卷/变式返回 503，均有明确提示。
-4. **配置模型**（第 4 节）：至少设置 `AI_BASE_URL`、`AI_API_KEY`、`AI_MODEL`；重新部署或重启 API。
+4. **配置模型与密钥存储**（第 4 节）：设置 `AI_BASE_URL`、`AI_MODEL`，并配置 `AI_KEY_SECRET` 用于加密用户密钥；`AI_API_KEY` 供标注脚本/管理员任务使用；线上保持 `AI_ALLOW_SERVER_KEY` 关闭，让用户使用各自密钥。
 5. **标注知识点**（第 5 节）：先 `--dry-run` 看抽样，再正式写入。**这是唯一会改线上 `problems` 元数据的步骤**，只写 `knowledge_points`、`knowledge_source`、`difficulty`。
 6. **只读校验**：`python -X utf8 scripts/verify_knowledge.py`。
 7. **冒烟**：按第 7 节逐项检查。
@@ -81,21 +85,23 @@
 
 ## 4. 模型配置
 
-沿用既有 `AI_*`（见 [AI 自动核对答案](ai-grading.md)），本轮**没有新增必填变量**。
+沿用既有 `AI_*`，本轮新增用户密钥加密配置（见 [AI 自动核对答案](ai-grading.md)）。
 
 | 变量 | 说明 |
 | --- | --- |
 | `AI_BASE_URL` | OpenAI 兼容基地址，实际请求 `{基地址}/chat/completions` |
-| `AI_API_KEY` | 只放服务端环境变量；不要提交、不要放前端 |
+| `AI_API_KEY` | 标注脚本、管理员任务使用；线上用户功能默认使用各自保存的密钥，不再共用这一把 |
 | `AI_MODEL` | 默认模型名，写入各表的 `model` 列；未单配蓝图/生题模型时，这两类也沿用此值 |
 | `AI_TIMEOUT` | 单次请求超时秒数；生题实测单题约 37 秒，难题更久，建议 **90–120** |
+| `AI_KEY_SECRET` | **用户密钥加密密钥**：base64url 编码的 32 字节。缺失时无法保存/读取用户密钥；更换会让所有已保存密钥失效 |
+| `AI_ALLOW_SERVER_KEY`（可选） | 本地开发/测试可设 `on`，让未配置密钥的用户回退 `AI_API_KEY`；默认关闭 |
 | `AI_BLUEPRINT_MODEL`（可选） | 考试预测蓝图单独使用的快速模型；留空沿用 `AI_MODEL`。强推理模型在长提示上容易超时或输出截断，建议蓝图固定用快速模型 |
 | `AI_VARIANT_MODEL`（可选） | AI 生题（变式与模拟卷 AI 题）单独使用的模型；留空沿用 `AI_MODEL`。生题对正确性要求高，建议用比判分更强的模型 |
 | `AI_REASONING_EFFORT`（可选） | 思考型模型可设为 `none` 关闭思考，避免推理占满输出预算；留空则不发送该字段 |
 | `AI_VARIANT_SHARE`（可选） | AI 仿题共享题池开关。`supabase` 模式默认开启、本地默认关闭；可显式 `on`/`off` |
 | `AI_VARIANT_POOL_SIZE`（可选） | 每道源题在题池中最多保留几道仿题，默认 3（1–10）。池满后复用使用次数最少的一道 |
 | `AI_VISION_BASE_URL`（可选） | 图片作答转写用的兼容端点；留空沿用 `AI_BASE_URL` |
-| `AI_VISION_API_KEY`（可选） | 图片转写密钥；留空沿用 `AI_API_KEY` |
+| `AI_VISION_API_KEY`（可选） | 图片转写密钥；留空时：用户已配密钥则用用户密钥，否则沿用 `AI_API_KEY` |
 | `AI_VISION_MODEL`（可选） | 支持图片输入的模型名；留空沿用 `AI_MODEL`（仅当该模型支持视觉时有效） |
 | `AI_VISION_TIMEOUT`（可选） | 单次转写超时秒数，默认 120；手写/多图可调高 |
 
@@ -195,7 +201,9 @@ $env:APP_MODE = "local"; $env:LOCAL_DATABASE = "tmp/agent-tests.sqlite"
 python -X utf8 -m pytest tests --basetemp tmp/agent-pytest
 ```
 
-本轮全量 156 项通过；新增覆盖：知识点编码/筛选/人工校正/标注脚本、学情聚合/报告校验/缓存/降级、蓝图/组卷/AI 题校验/交卷判分、变式生成/共享题池/答案隐藏/越权、图片转写/缓存/降级，以及发布包与迁移同步（`tests/test_release_sql.py`）。
+本轮全量 163 项通过；新增覆盖：知识点编码/筛选/人工校正/标注脚本、学情聚合/报告校验/缓存/降级、蓝图/组卷/AI 题校验/交卷判分、变式生成/共享题池/答案隐藏/越权、图片转写/缓存/降级、用户密钥加密/掩码/权限/按用户调用，以及发布包与迁移同步（`tests/test_release_sql.py`）。
+
+用户密钥另在本地 SQLite + 真实 DeepSeek 密钥上端到端验证：保存接口只返回末四位、数据库无明文；把服务端 `AI_API_KEY` 设成无效值后学情分析仍成功（证明确实使用用户密钥）；删除密钥后强制刷新返回 503 并提示先配置。
 
 发布包另在本地 PostgreSQL 兼容环境（PGlite，最小前置表）实际执行过：preflight 判定、整段升级、postcheck 全项 PASS、重复执行被保护段拦截、部分执行识别、缺前置时整段回滚。尚未在线上 Supabase 执行。
 
@@ -208,11 +216,13 @@ python -X utf8 -m pytest tests --basetemp tmp/agent-pytest
 5. 考试预测：选“微积分上”生成模拟卷，得到 8–20 题、约 100 分；至少一道选择题或填空题标有“AI 仿题”；交卷前接口响应中不含 `answer_text`/`explanation`；交卷后出现分数、解析与知识点得分；重复交卷返回 409。
 6. 一题多练：在做过且答错的题上生成变式，接口响应不含答案；点“查看答案与解析”后才出现；自评后学情分析的 `variant_totals` 增加。
 7. 共享题池：用账号 A 对某题生成变式，再用账号 B 对同一题生成；B 的响应 `pooled=true` 且题目内容与 A 相同，服务端日志/模型用量不增加；B 的自评不影响 A 的记录；A 再点“再来一题”会得到池内另一道或（池满后）复用最少使用的一道。
-8. 图片作答：不填文字、只上传一张作答图片并提交；若配置了视觉模型，AI 核对面板应出现“图片作答转写”，判分基于转写文字；同一修订号重复判分不重复调用视觉模型。未配置视觉模型时提示“图片作答转写未配置，请自检”，保持待自检。
-9. 未配置 AI 的环境：学情分析只显示统计并提示未配置；组卷与变式返回 503（题池已有可用仿题时仍可出题）；页面不白屏、不假报成功。
+8. 图片作答：不填文字、只上传一张作答图片并提交；若配置了视觉模型，AI 核对面板应出现“图片作答转写”，判分基于转写文字；同一修订号重复判分不重复调用视觉模型。未配置视觉模型时提示「图片作答转写暂不可用」（完全没配 AI 时为「未配置」），保持待自检。
+9. 用户密钥：我的学习 → AI 设置保存一个可用密钥后，响应只出现末四位；刷新后仍显示已配置；删除后学情分析/组卷/变式提示先配置密钥；接口从未返回完整密钥。
+10. 未配置 AI 的环境：学情分析只显示统计并提示未配置；组卷与变式返回 503（题池已有可用仿题时仍可出题）；页面不白屏、不假报成功。
 
 ## 8. 回滚与风险
 
+- **用户密钥只存密文**：`user_ai_keys` 保存 AES-GCM 密文，用户 ID 作为 AAD；接口只返回末四位。`AI_KEY_SECRET` 缺失时拒绝保存，不退化为明文；更换 secret 会让所有已保存密钥失效，需要用户重存。服务端日志与错误信息不输出密钥原文。
 - **代码回滚不回滚数据库**：新列/新表对旧代码是可忽略的附加数据；旧版本忽略它们即可。不要为了回滚删除学习记录或模拟卷。
 - **知识点标注回滚**：只影响三列。需要重新标注时直接重跑脚本（`--retag` / `--retag-heuristic`）；需要清空某题时管理页取消勾选。`manual` 来源默认不会被脚本覆盖。
 - **迁移本身的回滚**不在本指南承诺范围；如确需回退结构，请先在测试项目演练并单独评审。

@@ -27,6 +27,7 @@ MIGRATIONS = [
     ("202611130004_practice_variants.sql", "一题多练变式题表"),
     ("20261113120000_shared_variants.sql", "AI 仿题共享题池与变式题新增列"),
     ("20261113130000_image_transcript.sql", "图片作答转写表与判分记录新增列"),
+    ("20261113140000_user_ai_keys.sql", "用户自带 API 密钥的加密存储表"),
 ]
 
 NOTIFY = "notify pgrst, 'reload schema';"
@@ -34,7 +35,7 @@ NOTIFY = "notify pgrst, 'reload schema';"
 HEADER = """\
 -- ============================================================================
 -- 数学刷题平台：2026-11-13 线上数据库升级
--- 知识点标签 / AI 学情分析 / 考试预测模拟卷 / 错题 AI 变式 / 共享题池 / 图片作答转写
+-- 知识点标签 / AI 学情分析 / 考试预测模拟卷 / 错题 AI 变式 / 共享题池 / 图片作答转写 / 用户密钥
 --
 -- 目标：Supabase PostgreSQL（public schema）
 --
@@ -54,6 +55,7 @@ HEADER = """\
 --   supabase/migrations/202611130004_practice_variants.sql
 --   supabase/migrations/20261113120000_shared_variants.sql
 --   supabase/migrations/20261113130000_image_transcript.sql
+--   supabase/migrations/20261113140000_user_ai_keys.sql
 -- 重新生成：python -X utf8 scripts/build_release_sql.py
 -- ============================================================================
 """
@@ -68,6 +70,7 @@ begin
      or to_regclass('public.practice_variants') is not null
      or to_regclass('public.variant_cache') is not null
      or to_regclass('public.submission_transcripts') is not null
+     or to_regclass('public.user_ai_keys') is not null
      or exists (
           select 1
           from information_schema.columns

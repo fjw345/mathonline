@@ -20,6 +20,7 @@ const router = useRouter();
 const subjects = ref<MockSubject[]>([]);
 const papers = ref<MockPaperSummary[]>([]);
 const aiReady = ref(false);
+const aiKeyReady = ref(false);
 const loading = ref(true);
 const creating = ref("");
 const error = ref("");
@@ -53,6 +54,7 @@ async function load() {
     ]);
     subjects.value = catalog.subjects;
     aiReady.value = catalog.ai;
+    aiKeyReady.value = catalog.ai_key;
     papers.value = mine.items;
   } catch (e) {
     error.value = (e as Error).message;
@@ -68,6 +70,11 @@ async function create(subject: string) {
   }
   if (!aiReady.value) {
     toast("AI 生题未配置，暂时无法组卷。", true);
+    return;
+  }
+  if (!aiKeyReady.value) {
+    toast("请先在「我的学习 → AI 设置」配置 DeepSeek API 密钥。", true);
+    router.push("/me?tab=ai");
     return;
   }
   creating.value = subject;
@@ -124,6 +131,11 @@ function scoreText(paper: MockPaperSummary) {
     </p>
     <p v-if="!aiReady" class="form-warning">
       当前环境未配置 AI 生题，暂时只能浏览预测分析，无法生成模拟卷。
+    </p>
+    <p v-else-if="state.user && !aiKeyReady" class="form-warning">
+      还没有配置 DeepSeek API 密钥。先到
+      <RouterLink to="/me?tab=ai">我的学习 → AI 设置</RouterLink>
+      保存自己的密钥，再回来生成模拟卷。
     </p>
   </section>
   <div v-if="loading" class="loading-panel">加载中…</div>

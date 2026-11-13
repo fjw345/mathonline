@@ -5,9 +5,9 @@
 | 项目 | 内容 |
 | --- | --- |
 | 线上站点 | https://www.mathonline.top/ |
-| 发布内容 | 知识点标签与筛选、AI 学情分析、北交考试预测/模拟卷、错题 AI 变式、AI 仿题共享题池、图片作答转写 |
-| 结构变更 | 新增 5 张表、5 个索引、6 个列、1 个函数；重定义 `save_problem` 以保护知识点 |
-| 数据影响 | 只改 `problems` 的 `knowledge_points`、`knowledge_source`、`difficulty` 三列（标注步骤）；题面、答案、图片、题目版本、学习记录都不动 |
+| 发布内容 | 知识点标签与筛选、AI 学情分析、北交考试预测/模拟卷、错题 AI 变式、AI 仿题共享题池、图片作答转写、用户自带 DeepSeek 密钥 |
+| 结构变更 | 新增 6 张表、5 个索引、11 个列、1 个函数；重定义 `save_problem` 以保护知识点 |
+| 数据影响 | 只改 `problems` 的 `knowledge_points`、`knowledge_source`、`difficulty` 三列（标注步骤）；题面、答案、图片、题目版本、学习记录都不动。新增的 `user_ai_keys` 只保存用户密钥的 AES-GCM 密文与末四位掩码 |
 | 预计耗时 | 结构升级约 2 分钟；代码部署约 10 分钟；知识点标注 20–40 分钟；冒烟 20 分钟 |
 | 建议窗口 | 低峰 30–60 分钟；标注可在发布后单独执行，但完成前知识点筛选为空、考试预测不可用 |
 | 关联文档 | 功能、接口、风险说明见 [知识点、AI 学情、考试预测与一题多练](knowledge-analysis-mock-deployment.md) |
@@ -25,6 +25,7 @@
 - [ ] 打开的是**线上** Supabase 项目（Settings → General 的 Project ID 与线上一致）。
 - [ ] 最近一次数据库备份可用（Database → Backups），或维护者已导出结构与数据。
 - [ ] 线上 `AI_API_KEY` 仍有效、有余额（可在线上提交一道题看 AI 核对是否正常，或让维护者用同一密钥试调一次）。
+- [ ] Vercel 已配置 `AI_KEY_SECRET`（32 字节 base64url），且线上未开启 `AI_ALLOW_SERVER_KEY`；否则用户无法保存自己的密钥。
 - [ ] 维护者确认 `dev_ai` 已包含最新 `master` 且测试通过；Vercel 的 Production 分支是 `master`（以项目 Settings → Git 为准）。实际合并推送在 §3 执行。
 - [ ] 已通知验收人员准备测试账号；发布窗口内不做题库导入、不改题面与答案（知识点标注除外）。
 
@@ -50,7 +51,7 @@
 
 ### 2.1 备份
 
-Supabase Dashboard → Database → Backups，记录最近一次备份时间；如项目启用了 PITR，记录当前恢复点。如果项目没有可用的自动备份（例如免费计划），让维护者在发布前用 `pg_dump` 导出（至少 `problems`、`problem_answers`），或确认可接受无备份窗口；没有可用备份时先不要执行。
+Supabase Dashboard → Database → Backups，记录最近一次备份时间；如项目启用了 PITR，记录当前恢复点。如果项目没有可用的自动备份（例如免费计划），让维护者在发布前用 `pg_dump` 导出（至少 `problems`、`problem_answers`；已有用户密钥时也包含 `user_ai_keys` 的密文），或确认可接受无备份窗口；没有可用备份时先不要执行。`AI_KEY_SECRET` 不在数据库里，单独保存在 Vercel 环境变量。
 
 ### 2.2 执行前检查
 
@@ -66,7 +67,7 @@ SQL Editor → New query → 粘贴 `supabase/release/20261113_preflight.sql` �
 
 - 出现「阻断」：先补前置迁移（尤其 `20261110000000_ai_grading.sql`）或确认项目是否选错，**不要继续**。
 - 出现「部分执行」：说明之前跑过其中几份迁移。按「迁移段」列的缺口，逐个执行 `supabase/migrations/` 下对应文件；不要执行整段 upgrade（开头保护段会直接报错）。
-- 出现「已全部执行」：说明这 6 份迁移都已生效，跳过 2.3，直接做 2.4。
+- 出现「已全部执行」：说明这 7 份迁移都已生效，跳过 2.3，直接做 2.4。
 
 ### 2.3 执行升级
 
@@ -91,7 +92,7 @@ SQL Editor → New query → 粘贴 `supabase/release/20261113_preflight.sql` �
 | --- | --- | --- | --- |
 | 100 | 总体结果 | **PASS** | 结构检查全部通过，继续部署代码与知识点标注 |
 
-26 项检查应全部为 `OK`。任何一项「未通过」都不要发布：按该行「说明」排查，必要时把整张结果表发给维护者。
+28 项检查应全部为 `OK`。任何一项「未通过」都不要发布：按该行「说明」排查，必要时把整张结果表发给维护者。
 
 迁移末尾的 `notify pgrst` 是异步生效的：紧接着访问接口时若暂时看不到新字段，等几秒或重新请求一次，不必重跑迁移。
 
@@ -105,7 +106,8 @@ SQL Editor → New query → 粘贴 `supabase/release/20261113_preflight.sql` �
 2. Vercel → 项目 → Deployments，确认最新 Production 部署由本次提交触发、commit 与 `master` 最新提交一致，并处于 **Ready**。
 3. 打开 `https://www.mathonline.top/api/v1/health`，应返回 `{"ok": true, "mode": "supabase", ...}`。
 4. 打开 `https://www.mathonline.top/api/v1/catalog`，响应中应出现 `"knowledge": [...]`（知识点编码、中文名、题量）。
-5. 浏览器强制刷新（Ctrl+F5）后再进入页面，避免旧前端缓存。
+5. 登录后打开「我的学习 → AI 设置」，应出现密钥配置卡片；未配置密钥时 AI 功能返回 503 与「请先配置…」，不是 500 或白屏。
+6. 浏览器强制刷新（Ctrl+F5）后再进入页面，避免旧前端缓存。
 
 若本次只改了环境变量、没有新提交：Deployments → 最新生产部署 → Redeploy。**环境变量不会热更新，必须重新部署才生效。**
 
@@ -119,8 +121,10 @@ SQL Editor → New query → 粘贴 `supabase/release/20261113_preflight.sql` �
 | `SUPABASE_URL`、`SUPABASE_SERVICE_ROLE_KEY`、`SUPABASE_ANON_KEY` | 已有 | 不改 | 密钥只放服务端 |
 | `APP_ORIGIN` | 已有 | `https://www.mathonline.top,https://mathonline.top` | 不改；顺序影响密码重置跳转 |
 | `AI_BASE_URL` | 必填 | 现有值 | OpenAI 兼容基地址 |
-| `AI_API_KEY` | 必填 | 现有值 | 只在服务端配置 |
+| `AI_API_KEY` | 建议保留 | 现有值 | 标注脚本、管理员任务使用；用户功能默认使用各自密钥 |
 | `AI_MODEL` | 必填 | `deepseek-chat` | 判分与标注默认使用；未单配蓝图模型时也用它 |
+| `AI_KEY_SECRET` | **必填（用户密钥功能）** | 32 字节 base64url | 加密用户 API 密钥；缺失时用户无法保存，生成与轮换说明见下 |
+| `AI_ALLOW_SERVER_KEY` | 可选 | 留空（线上关闭） | 设为 `on` 时，未配置密钥的用户会回退到 `AI_API_KEY`；按用户自带密钥模式应保持关闭 |
 | `AI_TIMEOUT` | **建议新增或改为 120** | `120` | 默认 30 秒；实测生题单题约 37 秒，难题更久，30 会超时 |
 | `AI_BLUEPRINT_MODEL` | 建议 | `deepseek-chat` | 组卷蓝图用快速模型，避免强推理模型超时 |
 | `AI_VARIANT_MODEL` | 建议 | `deepseek-v4-pro` | AI 仿题用更强模型，提高一次通过率；留空则用 `AI_MODEL` |
@@ -128,9 +132,19 @@ SQL Editor → New query → 粘贴 `supabase/release/20261113_preflight.sql` �
 | `AI_VARIANT_SHARE` | 可选 | `on` 或留空 | `supabase` 模式默认开启共享题池 |
 | `AI_VARIANT_POOL_SIZE` | 可选 | `3` | 每题最多保留 3 道仿题 |
 | `AI_VISION_BASE_URL` | 选配 | 见下 | 图片作答转写；留空沿用 `AI_BASE_URL` |
-| `AI_VISION_API_KEY` | 选配 | 见下 | 留空沿用 `AI_API_KEY` |
+| `AI_VISION_API_KEY` | 选配 | 见下 | 留空时：用户已配密钥则用用户密钥，否则沿用 `AI_API_KEY` |
 | `AI_VISION_MODEL` | 选配 | 见下 | 必须是支持图片输入的模型 |
 | `AI_VISION_TIMEOUT` | 选配 | `120` | 手写/多图可调高 |
+
+用户 API 密钥的加密密钥：
+
+```powershell
+python -c "import os,base64;print(base64.urlsafe_b64encode(os.urandom(32)).decode())"
+```
+
+把输出填到 `AI_KEY_SECRET`，**只配置一次**。更换它会让所有已保存的用户密钥无法解密，用户必须重新保存；旧密文不会泄露明文，但会失效。密钥保存在服务端环境变量，不写进仓库、数据库或前端。
+
+线上保持 `AI_ALLOW_SERVER_KEY` 关闭（留空即可），否则未配置密钥的用户仍会消耗服务端的 `AI_API_KEY`。
 
 图片作答转写（选配）注意：
 
@@ -220,7 +234,7 @@ python -X utf8 scripts/verify_knowledge.py
 
 ## 6. 冒烟测试（线上，验收人员执行）
 
-1、2、4–8 用普通账号；第 3 项用管理员账号；第 9 项按是否配置视觉模型执行；第 10 项用手机。
+冒烟前先登录一个普通账号，在「我的学习 → AI 设置」保存一个可用的 DeepSeek 密钥；第 11 项专门验证保存与删除。第 3 项用管理员账号，第 9 项按是否配置视觉模型执行，第 10 项用手机。
 
 第 4 项需要该账号已有练习记录，第 7 项需要一道做错过的题，第 8 项需要两个普通账号。数据不足时先做几道题并故意答错一道，再继续。
 
@@ -236,6 +250,7 @@ python -X utf8 scripts/verify_knowledge.py
 | 8 | 账号 A、B 先后对同一道题点「一题多练」 | B 的响应带「共享题池」标记且秒出，题目与 A 相同；B 的自评不影响 A | 迁移 120000、`AI_VARIANT_SHARE` |
 | 9 | （已配置视觉模型时）只上传作答图片、不填文字提交 | AI 核对面板出现「图片作答转写」，判分基于转写文字；同一修订号重复提交不重复调用 | `AI_VISION_*`、模型是否支持图片 |
 | 10 | 手机打开首页与模拟卷 | 排版正常、按钮可点、公式不溢出 | 前端构建 / 缓存 |
+| 11 | 我的学习 → AI 设置：保存一个可用密钥，再删除 | 保存后只显示末四位，接口响应不含完整密钥；删除后 AI 功能提示先配置密钥 | `AI_KEY_SECRET`、迁移 140000 |
 
 未配置视觉模型时，第 9 项改为确认：提交成功、提示「图片作答转写暂不可用」（完全没配 AI 时为「未配置」）、页面不白屏。
 
@@ -249,6 +264,8 @@ python -X utf8 scripts/verify_knowledge.py
 | 想停共享题池 | Vercel 设 `AI_VARIANT_SHARE=off` 并 Redeploy | 变式与模拟卷仍可用，只是每次重新生成 |
 | 模型服务异常 | 无需改代码；组卷/变式返回 503，判分降级为待自检 | 不伪造结果 |
 | 知识点标错 | 管理页逐题校正；或 `--retag` 重算 AI 标签 | 人工标注（`manual`）默认不被覆盖 |
+| 用户密钥泄露/失效 | 用户自己在「我的学习 → AI 设置」删除或更换；服务端只存密文，管理员也看不到明文 | 删除后该用户的 AI 功能立即停用，旧密文不再被使用 |
+| `AI_KEY_SECRET` 泄露或误换 | 轮换 `AI_KEY_SECRET` 并 Redeploy | 所有已保存密钥失效，用户需重新保存；项目不保留明文备查 |
 | 想撤销本次结构 | **不推荐**：新表新列对旧代码无影响 | 迁移回退需单独评审，不在本手册承诺范围 |
 
 代码回滚不会回滚数据库；回滚后已生成的模拟卷、变式题和历史记录仍保留。环境变量也不会随代码回滚，必要时手动改回。
@@ -268,6 +285,10 @@ python -X utf8 scripts/verify_knowledge.py
 | 图片作答一直「待自检」 | 未配视觉模型，或模型不支持图片 | 配置 `AI_VISION_*` 并用真实图片验证 |
 | 登录/提交 403 | `APP_ORIGIN` 不含当前域名 | 补齐域名后 Redeploy |
 | 共享题池不生效 | 迁移 120000 未执行或 `AI_VARIANT_SHARE=off` | 看 postcheck 第 4、8–10、15 项 |
+| 所有 AI 功能 503「请先在…配置 DeepSeek API 密钥」 | 用户尚未保存自己的密钥；线上按设计不回退服务端密钥 | 提示用户到「我的学习 → AI 设置」保存 |
+| 保存密钥 503「未配置密钥加密密钥」 | Vercel 缺 `AI_KEY_SECRET` 或格式/长度不对 | 按第 4 节生成 32 字节 base64url，配置后 Redeploy |
+| 保存密钥 400「密钥无效」/「余额不足」 | DeepSeek 拒绝了密钥或余额不足 | 让用户检查密钥与账户余额后重试；服务端不会保存无效密钥 |
+| 用户密钥突然全部「无法解密」 | `AI_KEY_SECRET` 被更换 | 这是预期行为；让用户重新保存密钥，或回滚到旧 secret（若仍持有） |
 
 ## 9. 发布记录（签收）
 
@@ -277,7 +298,7 @@ python -X utf8 scripts/verify_knowledge.py
 | 代码 commit | |
 | Vercel 部署 ID / 时间 | |
 | 数据库升级执行人 / 时间 | |
-| 环境变量变更（如 `AI_TIMEOUT`） | |
+| 环境变量变更（如 `AI_TIMEOUT`、`AI_KEY_SECRET`） | |
 | preflight 状态 | |
 | upgrade 结果（成功/失败） | |
 | postcheck 总体结果 | |
@@ -293,8 +314,9 @@ python -X utf8 scripts/verify_knowledge.py
 | --- | --- |
 | `supabase/release/20261113_preflight.sql` | 执行前检查（只读） |
 | `supabase/release/20261113_upgrade.sql` | 整段升级（单事务，生成文件，勿手改） |
-| `supabase/release/20261113_postcheck.sql` | 执行后 26 项校验（只读） |
-| `supabase/migrations/202611130001…20261113130000` | 权威迁移；部分执行时逐个补 |
+| `supabase/release/20261113_postcheck.sql` | 执行后 28 项校验（只读） |
+| `supabase/migrations/202611130001…20261113140000` | 权威迁移；部分执行时逐个补 |
+| `backend/user_ai.py` | 用户密钥的 AES-GCM 加解密、掩码与校验 |
 | `scripts/tag_knowledge.py` | 批量标注（AI 优先、关键词兜底） |
 | `scripts/verify_knowledge.py` | 只读校验与组卷准备度 |
 | `scripts/build_release_sql.py` | 迁移变更后重新生成 upgrade 脚本 |

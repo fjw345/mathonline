@@ -6,7 +6,7 @@ from uuid import uuid4
 import httpx
 from fastapi import HTTPException, Request
 
-from . import config
+from . import ai, config
 from .store import store
 
 
@@ -101,6 +101,12 @@ def current_user(request: Request, required=True):
                 request.state.email_verified = bool(remote.get("email_confirmed_at"))
             except HTTPException:
                 pass
+    if user:
+        if getattr(request.state, "ai_key_user", None) != user["id"]:
+            ai.bind_user(user["id"])
+            request.state.ai_key_user = user["id"]
+    else:
+        ai.clear_user()
     if not user and required:
         raise HTTPException(401, "请先登录。")
     return user

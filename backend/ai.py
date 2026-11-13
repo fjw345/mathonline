@@ -9,10 +9,11 @@ import json
 import logging
 import re
 import time
+from contextvars import ContextVar
 
 import httpx
 
-from . import config
+from . import config, user_ai
 
 _FENCE = re.compile(r"^" + chr(96) * 3 + r"[A-Za-z0-9_-]*\s*")
 _JSON_MODE = True
@@ -26,8 +27,92 @@ class AIOutputError(AIUnavailable):
     """模型有响应但不是期望的 JSON。"""
 
 
+class _UserKey:
+    """请求级用户密钥：首次用到时才解密，同一请求内只读一次。"""
+
+    def __init__(self, user_id):
+        self.user_id = user_id
+        self._loaded = False
+        self._key = None
+        self._reason = ""
+
+    def _load(self):
+        if self._loaded:
+            return
+        self._loaded = True
+        try:
+            self._key = user_ai.load_key(self.user_id)
+        except user_ai.KeyUnavailable as exc:
+            self._reason = str(exc)
+        except Exception:
+            self._reason = "API 密钥读取失败，请重新保存。"
+
+    def key(self):
+        self._load()
+        return self._key
+
+    def available(self):
+        self._load()
+        return bool(self._key)
+
+    def reason(self):
+        self._load()
+        return self._reason
+
+
+_USER_KEY = ContextVar("mathonline_user_ai_key", default=None)
+
+
+def bind_user(user_id):
+    """登录用户请求开始时绑定；未配置密钥时返回明确的降级原因。"""
+    _USER_KEY.set(_UserKey(user_id))
+
+
+def clear_user():
+    _USER_KEY.set(None)
+
+
+def model_ready():
+    """端点与模型名可用；不代表某个用户已配置密钥。"""
+    return bool(config.AI_BASE_URL and config.AI_MODEL)
+
+
 def enabled():
+    current = _USER_KEY.get()
+    if current is not None:
+        if not model_ready():
+            return False
+        if current.available():
+            return True
+        return bool(config.AI_ALLOW_SERVER_KEY and config.AI_ENABLED)
     return bool(config.AI_ENABLED)
+
+
+def reason():
+    current = _USER_KEY.get()
+    if current is not None:
+        if not model_ready():
+            return "服务端未配置 AI 接口或模型。"
+        if current.available():
+            return ""
+        if config.AI_ALLOW_SERVER_KEY and config.AI_ENABLED:
+            return ""
+        return current.reason() or "请先在「我的学习 → AI 设置」配置 DeepSeek API 密钥。"
+    if not config.AI_ENABLED:
+        return "AI 未配置。"
+    return ""
+
+
+def resolve_key(explicit=None):
+    """按优先级返回密钥：显式参数、当前用户密钥、允许时的服务端密钥。"""
+    if explicit:
+        return explicit
+    current = _USER_KEY.get()
+    if current is not None and current.available():
+        return current.key()
+    if config.AI_ALLOW_SERVER_KEY and config.AI_API_KEY:
+        return config.AI_API_KEY
+    raise AIUnavailable(reason())
 
 
 def chat(
@@ -48,8 +133,9 @@ def chat(
     视觉模型使用与文本模型不同的兼容端点（例如文本走云端、图片走本地视觉模型）。
     """
     global _JSON_MODE
-    if not config.AI_ENABLED:
-        raise AIUnavailable("AI 未配置")
+    if not enabled():
+        raise AIUnavailable(reason() or "AI 未配置")
+    key = resolve_key(api_key)
     body = {
         "model": model or config.AI_MODEL,
         "messages": messages,
@@ -66,7 +152,7 @@ def chat(
             response = httpx.post(
                 (base_url or config.AI_BASE_URL) + "/chat/completions",
                 headers={
-                    "Authorization": "Bearer " + (api_key or config.AI_API_KEY),
+                    "Authorization": "Bearer " + key,
                     "Content-Type": "application/json",
                 },
                 json=body,

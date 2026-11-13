@@ -20,6 +20,7 @@ TABLES = (
     "practice_variants",
     "variant_cache",
     "submission_transcripts",
+    "user_ai_keys",
 )
 COLUMNS = (
     "knowledge_points",
@@ -28,6 +29,8 @@ COLUMNS = (
     "source_hash",
     "reused",
     "transcript",
+    "ciphertext",
+    "hint",
 )
 
 
@@ -99,6 +102,7 @@ def test_manual_covers_release_files_and_key_settings():
     ):
         assert name in manual
     assert "AI_TIMEOUT" in manual
+    assert "AI_KEY_SECRET" in manual
     assert "先迁移数据库，再部署代码" in manual
     assert "verify_knowledge.py" in manual
     assert "回滚" in manual

@@ -20,7 +20,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from PIL import Image, UnidentifiedImageError
-from pydantic import BaseModel, Field, ValidationError, field_validator
+from pydantic import BaseModel, Field, SecretStr, ValidationError, field_validator
 
 from . import (
     ai,
@@ -31,6 +31,7 @@ from . import (
     outreach,
     question_gen,
     topics,
+    user_ai,
     variants,
     vision,
 )
@@ -504,6 +505,91 @@ def edit_profile(body: dict, request: Request):
     return user
 
 
+class AIKeyInput(BaseModel):
+    api_key: SecretStr
+
+
+def ai_key_status(user):
+    data = user_ai.status(user["id"])
+    data["available"] = ai.enabled()
+    data["reason"] = ai.reason()
+    return data
+
+
+def ai_key_table_missing(exc):
+    return exc.response.status_code in (400, 404)
+
+
+@app.get("/api/v1/me/ai-key")
+def read_ai_key(request: Request):
+    user = current_user(request)
+    try:
+        return ai_key_status(user)
+    except httpx.HTTPStatusError as exc:
+        if ai_key_table_missing(exc):
+            raise HTTPException(
+                503, "AI 密钥功能待管理员完成数据库更新。"
+            ) from exc
+        raise
+
+
+@app.put("/api/v1/me/ai-key")
+def save_ai_key(body: AIKeyInput, request: Request):
+    user = current_user(request)
+    from .rate_limit import allow
+
+    if not allow("ai-key:" + user["id"], 5, 60):
+        raise HTTPException(429, "保存密钥过于频繁，请稍后再试。")
+    try:
+        value = user_ai.normalize(body.api_key.get_secret_value())
+        user_ai.ensure_ready()  # 先确认服务端能加密，避免白跑一次校验请求
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from exc
+    except user_ai.KeyUnavailable as exc:
+        raise HTTPException(503, str(exc)) from exc
+    try:
+        user_ai.verify(value)
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from exc
+    except user_ai.KeyUnavailable as exc:
+        raise HTTPException(502, str(exc)) from exc
+    try:
+        user_ai.save(user["id"], value)
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from exc
+    except user_ai.KeyUnavailable as exc:
+        raise HTTPException(503, str(exc)) from exc
+    except httpx.HTTPStatusError as exc:
+        if ai_key_table_missing(exc):
+            raise HTTPException(
+                503, "AI 密钥功能待管理员完成数据库更新。"
+            ) from exc
+        raise
+    ai.clear_user()
+    ai.bind_user(user["id"])
+    return ai_key_status(user)
+
+
+@app.delete("/api/v1/me/ai-key")
+def delete_ai_key(request: Request):
+    user = current_user(request)
+    from .rate_limit import allow
+
+    if not allow("ai-key:" + user["id"], 5, 60):
+        raise HTTPException(429, "操作过于频繁，请稍后再试。")
+    try:
+        user_ai.remove(user["id"])
+    except httpx.HTTPStatusError as exc:
+        if ai_key_table_missing(exc):
+            raise HTTPException(
+                503, "AI 密钥功能待管理员完成数据库更新。"
+            ) from exc
+        raise
+    ai.clear_user()
+    ai.bind_user(user["id"])
+    return ai_key_status(user)
+
+
 @app.get("/api/v1/problems")
 def problems(request: Request, page: int = 1, page_size: int = 12):
     if page < 1 or not 1 <= page_size <= 100:
@@ -703,7 +789,7 @@ def grade(pid: str, body: GradingInput, request: Request):
     except ValueError as exc:
         raise HTTPException(400, "该题不支持 AI 判分。") from exc
     if graded is None:
-        return grading_fallback(p, user, "AI 判分暂不可用，请自检")
+        return grading_fallback(p, user, ai.reason() or "AI 判分暂不可用，请自检")
     apply_progress(
         user, p, "", [], graded["result"], body.revision, result_source="ai"
     )
@@ -839,7 +925,7 @@ def my_analysis(request: Request):
         "stats": stats,
         "report": report,
         "available": ai.enabled(),
-        "reason": "" if ai.enabled() else "AI 学情分析未配置",
+        "reason": ai.reason(),
     }
 
 
@@ -851,7 +937,7 @@ def generate_my_analysis(request: Request, refresh: bool = False):
     if cached and not refresh:
         return {"stats": stats, "report": cached, "available": True, "reason": ""}
     if not ai.enabled():
-        raise HTTPException(503, "AI 学情分析未配置，请联系管理员。")
+        raise HTTPException(503, ai.reason() or "AI 学情分析未配置，请联系管理员。")
     from .rate_limit import allow
 
     if not allow("analysis:" + user["id"], 6, 60):
@@ -862,7 +948,9 @@ def generate_my_analysis(request: Request, refresh: bool = False):
         logging.getLogger("mathonline").warning(
             "AI analysis unavailable: %s", type(exc).__name__
         )
-        raise HTTPException(503, "AI 分析暂不可用，请稍后再试。") from exc
+        raise HTTPException(
+            503, ai.reason() or str(exc) or "AI 分析暂不可用，请稍后再试。"
+        ) from exc
     created = now()
     store.put(
         "learning_analyses",
@@ -936,10 +1024,12 @@ def mock_summary(paper):
 
 
 @app.get("/api/v1/mock/subjects")
-def mock_subjects():
+def mock_subjects(request: Request):
+    user = current_user(request, False)
     return {
         "subjects": mockexam.subjects_overview(store.list("problems")),
-        "ai": ai.enabled(),
+        "ai": ai.model_ready(),
+        "ai_key": bool(user and ai.enabled()),
     }
 
 
@@ -1069,7 +1159,9 @@ def create_practice_variant(pid: str, request: Request):
     try:
         row = variants.create_variant(user, problem, answer, store)
     except ai.AIUnavailable as exc:
-        raise HTTPException(503, "AI 变式练习未配置，请联系管理员。") from exc
+        raise HTTPException(
+            503, ai.reason() or str(exc) or "AI 变式练习未配置，请联系管理员。"
+        ) from exc
     except question_gen.GenerationError as exc:
         raise HTTPException(
             503,

@@ -339,12 +339,14 @@ def test_mock_creation_requires_ai(bank, monkeypatch):
         "/api/v1/mock/papers", json={"subject": "微积分上"}
     )
     assert response.status_code == 503
-    assert "AI 生题未配置" in response.json()["detail"]
+    assert "配置" in response.json()["detail"]
     assert bank["db"].list("mock_papers") == []
 
 
 def test_mock_subjects_are_public(bank, monkeypatch):
     monkeypatch.setattr(config, "AI_ENABLED", False)
+    monkeypatch.setattr(config, "AI_BASE_URL", "")
+    monkeypatch.setattr(config, "AI_MODEL", "")
     response = bank["guest"].get("/api/v1/mock/subjects")
     assert response.status_code == 200
     body = response.json()

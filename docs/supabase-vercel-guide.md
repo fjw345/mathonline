@@ -53,10 +53,11 @@ npm.cmd --prefix frontend run build
 12. `supabase/migrations/202611130004_practice_variants.sql`
 13. `supabase/migrations/20261113120000_shared_variants.sql`
 14. `supabase/migrations/20261113130000_image_transcript.sql`
+15. `supabase/migrations/20261113140000_user_ai_keys.sql`
 
 这些脚本用于新项目初始化，不要反复执行第一份来“修复”错误；它包含 `create table`，重复执行会报对象已存在。后续升级只执行新增迁移；已上线项目升级到 2026-11-13 版本时，直接用发布包，不必重跑旧迁移。
 
-第 4 份迁移增加题目反馈表并取消逐题审核作为发布门槛；后续迁移依次增加错题清单、文字题面、更新信箱与邀请、AI 判分、知识点标签、学情分析、模拟卷、变式题、共享题池与图片作答转写。第 14 份依赖第 8 份，第 13 份依赖第 12 份，顺序不能颠倒。
+第 4 份迁移增加题目反馈表并取消逐题审核作为发布门槛；后续迁移依次增加错题清单、文字题面、更新信箱与邀请、AI 判分、知识点标签、学情分析、模拟卷、变式题、共享题池、图片作答转写与用户密钥。第 15 份依赖第 1 份的 `profiles` 表，第 14 份依赖第 8 份，第 13 份依赖第 12 份，顺序不能颠倒。
 
 第一份迁移会自动建立私有 `mathonline` Storage bucket，所以通常不需要手动再建。到 **Storage** 检查它存在且 **Public 关闭**；业务表启用 RLS，浏览器角色没有直接访问业务表的权限。不要添加允许任何人读取整个 bucket 的策略，图片由后端检查权限后签发短期链接。
 
@@ -119,7 +120,13 @@ SUPABASE_SERVICE_ROLE_KEY=你的legacy-service-role-key
 SUPABASE_ANON_KEY=你的legacy-anon-key
 SUPABASE_BUCKET=mathonline
 LOCAL_PREVIEW_DRAFTS=false
+AI_BASE_URL=https://api.deepseek.com
+AI_MODEL=deepseek-chat
+AI_KEY_SECRET=按发布手册生成的32字节base64url
+AI_TIMEOUT=120
 ```
+
+`AI_API_KEY` 只用于标注脚本/管理员任务，用户功能改用各自保存的密钥；线上不要设置 `AI_ALLOW_SERVER_KEY=on`。`AI_KEY_SECRET` 用于加密用户密钥，生成命令见 [发布手册](release-2026-11-13-ops.md)。
 
 先确定 Vercel 的固定 Production Domain，例如 `mathonline-demo.vercel.app`，然后将 `APP_ORIGIN` 替换为该域名的完整 HTTPS 地址，不带路径或结尾斜杠。首次创建时若尚不确定，可先部署取得域名，再改变量并 **Redeploy**。环境变量修改不作用于已运行的旧部署。
 

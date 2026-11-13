@@ -25,7 +25,7 @@
 线上使用 Supabase Data API、Auth 和私有 Storage，数据库结构由 `supabase/migrations/` 管理。以下为重建环境或检查配置时的摘要；已部署项目无需重复执行旧迁移或重新导入题库。
 
 1. 在独立 Supabase 项目按文件名时间顺序执行全部迁移，创建私有 `mathonline` Bucket。业务表启用 RLS，撤销浏览器角色直接访问；所有业务由后端检查权限，服务端凭证可绕过 RLS。
-2. 服务端设置 `APP_MODE=supabase`、`SUPABASE_URL`、`SUPABASE_SERVICE_ROLE_KEY`、`SUPABASE_ANON_KEY`、`APP_ORIGIN=https://实际网站域名`。密钥留在服务端。若使用新的 secret key，确认所选 Storage/Data API 的 Authorization 格式后再替换现有 service role 配置。
+2. 服务端设置 `APP_MODE=supabase`、`SUPABASE_URL`、`SUPABASE_SERVICE_ROLE_KEY`、`SUPABASE_ANON_KEY`、`APP_ORIGIN=https://实际网站域名`，以及 AI 配置（`AI_BASE_URL`、`AI_MODEL`、`AI_KEY_SECRET` 等，见 [发布手册](release-2026-11-13-ops.md)）。模型密钥留在服务端；用户自带的 DeepSeek 密钥加密后存 `user_ai_keys`，接口只返回末四位。若使用新的 secret key，确认所选 Storage/Data API 的 Authorization 格式后再替换现有 service role 配置。
 3. 使用同一清单导入资产与题库，首批非数题目默认发布，不要求逐题预审。用户反馈进入管理员的“题目反馈”列表，核查后修改或下架有问题的题目。暂无答案的素材可保存为草稿。
 4. Supabase Auth 中配置站点 URL、邮箱验证回调和 `/auth?mode=recovery` 重置地址；开启邮箱验证、配置可用邮件发送服务。注册后用本地管理命令或服务端维护流程为指定 Supabase 用户分配管理员角色，远程注册不会自动获得管理权限。
 5. 当前使用根目录 `vercel.json`/`api/index.py` 单项目部署：前端构建到 `frontend/dist`，同域 `/api/v1/*` 路由至 FastAPI。保留 Cookie、Origin 与查询参数，不将业务 API 路径重写到 SPA；保留函数打包排除规则，避免原卷和本地图片导致包体积超限。

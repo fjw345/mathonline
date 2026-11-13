@@ -596,7 +596,8 @@ def assemble_paper(
     if not replaced:
         if not ai.enabled():
             raise MockUnavailable(
-                "AI 生题未配置且共享题池暂无可用仿题，暂时无法生成模拟卷。"
+                ai.reason()
+                or "AI 生题未配置且共享题池暂无可用仿题，暂时无法生成模拟卷。"
             )
         raise MockUnavailable(
             "AI 生题未通过可解性校验，请稍后重试。"

@@ -7,18 +7,28 @@ from fastapi.testclient import TestClient
 from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from backend import auth, config, domain, importer, main, rate_limit
+from backend import ai, auth, config, domain, importer, main, rate_limit, user_ai
 from backend.store import LocalStore
+
+
+@pytest.fixture(autouse=True)
+def reset_user_ai():
+    """请求上下文里的用户密钥不能跨测试泄漏。"""
+    ai.clear_user()
+    yield
+    ai.clear_user()
 
 
 @pytest.fixture
 def env(tmp_path, monkeypatch):
     db = LocalStore(tmp_path / "test.sqlite")
-    for module in (main, auth, domain, importer, rate_limit):
+    for module in (main, auth, domain, importer, rate_limit, user_ai):
         monkeypatch.setattr(module, "store", db)
     monkeypatch.setattr(config, "ROOT", tmp_path)
     monkeypatch.setattr(config, "MODE", "local")
     monkeypatch.setattr(config, "PREVIEW", True)
+    # 测试替身不保存用户密钥，端点测试沿用服务端替身密钥。
+    monkeypatch.setattr(config, "AI_ALLOW_SERVER_KEY", True)
     monkeypatch.setattr(rate_limit, "allow", lambda *args, **kwargs: True)
     source = {
         "id": "test-source",

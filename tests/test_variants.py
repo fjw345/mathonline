@@ -126,7 +126,7 @@ def test_variant_requires_ai(env, monkeypatch):
     monkeypatch.setattr(config, "AI_ENABLED", False)
     response = client.post("/api/v1/me/problems/test-q2/variants")
     assert response.status_code == 503
-    assert "AI 变式练习未配置" in response.json()["detail"]
+    assert "配置" in response.json()["detail"]
     assert db.list("practice_variants") == []
 
 
