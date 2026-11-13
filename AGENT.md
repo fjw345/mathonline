@@ -100,6 +100,7 @@
 - 只有正式 `*-manifest.json` 交给导入器；`pending.json`、`inventory.json`、配置及 REPORT 不能导入。
 - 文字版题面/答案由 `devided-math-text/` 生成 `data/text-bank-manifest.json`；线上回填使用 `scripts/apply_text_bank.py`，只写 `question_text` 和 `problem_answers.text`，不递增题目版本、不改图片与学习记录。不要为加文字重跑全量导入，除非是在全新库。文字说明见 [docs/text-bank.md](docs/text-bank.md)，生产步骤与备份/验证/回滚见 [docs/production-text-migration.md](docs/production-text-migration.md)。
 - 知识点批量标注用 `scripts/tag_knowledge.py`（先 `--dry-run`，默认只补缺失），只读核对用 `scripts/verify_knowledge.py`；两者都按 `APP_MODE` 连接目标环境，不重跑题库导入。标注与核对不访问模型判分接口。
+- 本地一键启动（`启动数学刷题平台.cmd` / `scripts/start_local.py`）会导入非数与北交期末四科清单（考研清单较大，按需单独导入）；缺知识点时用关键词规则补齐（离线）。重复导入不会递增版本，也不会清空已有知识点或内部难度（2026-11-13 起）。
 - 清单生成与离线校验不访问数据库。`scripts/import_bank.py` 会读取根目录 `.env`，按 `APP_MODE` 上传图片及写库，执行前确认目标环境，不能把它当只读验证命令。
 - 现有非数与考研清单共 1,316 题；北交期末新增 552 题、另 1 题待核对。共 1,868 个可导入条目不等于线上实时数量；期末实际导入结果尚无本次核验记录。
 - 导入数据没有结构变化时不要求重跑旧 SQL 或部署。详细操作参考 `docs/question-bank.md` 和各批次 `REPORT.md`。

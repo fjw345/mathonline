@@ -153,10 +153,15 @@ def import_manifest(manifest, override_manual=False):
         if existing and existing["manual_revision"] and not override_manual:
             counts["protected"] += 1
             continue
+        if existing:
+            # difficulty is internal metadata owned by the tagging job now.
+            # A manifest (which always normalizes it to None) must not wipe it
+            # or bump the version just because the numbers differ.
+            p["difficulty"] = existing.get("difficulty")
         compare = {
             k: v
             for k, v in p.items()
-            if k not in ("version", "manual_revision", "updated_at")
+            if k not in ("version", "manual_revision", "updated_at", "difficulty")
         }
         if (
             existing

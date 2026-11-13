@@ -153,12 +153,14 @@ def build_blueprint(subject, profile, difficulty="standard"):
     if ai.enabled():
         try:
             payload = ai.complete_json(
-                _blueprint_messages(subject, profile, difficulty), max_tokens=2600
+                _blueprint_messages(subject, profile, difficulty),
+                max_tokens=2600,
+                model=config.AI_BLUEPRINT_MODEL,
             )
             blueprint = _validate_blueprint(payload, profile)
             if blueprint:
                 blueprint["source"] = "ai"
-                blueprint["model"] = config.AI_MODEL
+                blueprint["model"] = config.AI_BLUEPRINT_MODEL
                 return blueprint
         except ai.AIUnavailable:
             pass

@@ -343,7 +343,8 @@ def test_mock_creation_requires_ai(bank, monkeypatch):
     assert bank["db"].list("mock_papers") == []
 
 
-def test_mock_subjects_are_public(bank):
+def test_mock_subjects_are_public(bank, monkeypatch):
+    monkeypatch.setattr(config, "AI_ENABLED", False)
     response = bank["guest"].get("/api/v1/mock/subjects")
     assert response.status_code == 200
     body = response.json()

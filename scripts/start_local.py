@@ -62,7 +62,19 @@ def main():
     manifest = ROOT / "data/nonmath-manifest.json"
     if not manifest.exists():
         run([sys.executable, "-X", "utf8", "scripts/build_image_manifest.py"])
-    run([sys.executable, "-X", "utf8", "scripts/import_bank.py", str(manifest)])
+    # 本地预览默认包含非数、北交期末四科；考研题库较大，需要时再单独导入。
+    manifests = [manifest]
+    finals = ROOT / "data/bjtu-finals"
+    if finals.exists():
+        manifests += [
+            finals / "calculus1-manifest.json",
+            finals / "calculus2-manifest.json",
+            finals / "linear-algebra-manifest.json",
+            finals / "probability-manifest.json",
+        ]
+    for path in manifests:
+        if path.exists():
+            run([sys.executable, "-X", "utf8", "scripts/import_bank.py", str(path)])
     # Enrich the local preview with text without changing versions or images.
     text_manifest = ROOT / "data/text-bank-manifest.json"
     if text_manifest.exists():
@@ -77,6 +89,30 @@ def main():
             f"图片已改 {result['image_mismatch']}，"
             f"本库无对应题目 {len(result['missing'])}"
         )
+    # 首次导入后，用离线规则补齐知识点，保证筛选与组卷能用；有模型时可再补跑。
+    from backend.store import store
+
+    if any(not (p.get("knowledge_points") or []) for p in store.list("problems")):
+        print("正在用关键词规则补齐知识点标签（离线，不调用模型）…")
+        run(
+            [
+                sys.executable,
+                "-X",
+                "utf8",
+                "scripts/tag_knowledge.py",
+                "--no-ai",
+            ]
+        )
+    from backend.config import AI_ENABLED
+
+    print(
+        "AI 功能："
+        + (
+            "已配置（模拟卷、变式与 AI 诊断可用）"
+            if AI_ENABLED
+            else "未配置（知识点筛选、统计可用；模拟卷/变式/AI 诊断会明确降级）"
+        )
+    )
     if args.check:
         from fastapi.testclient import TestClient
 

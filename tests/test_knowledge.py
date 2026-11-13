@@ -210,3 +210,31 @@ def test_keyword_search_matches_knowledge_names(env):
     set_knowledge(env["db"], "test-q1", ["limit"], 2)
     body = env["guest"].get("/api/v1/problems?q=极限").json()
     assert [item["id"] for item in body["items"]] == ["test-q1"]
+
+
+def test_reimport_keeps_knowledge_and_internal_difficulty(env):
+    db = env["db"]
+    set_knowledge(db, "test-q1", ["limit"], 4)
+    before = db.get("problems", id="test-q1")
+    answer = db.get("problem_answers", problem_id="test-q1")
+    record = {
+        k: v
+        for k, v in before.items()
+        if k not in ("knowledge_points", "knowledge_source")
+    }
+    record["answer"] = {k: v for k, v in answer.items() if k != "problem_id"}
+    manifest = {
+        "schema_version": 1,
+        "sources": db.list("problem_sources"),
+        "assets": [],
+        "problems": [record],
+    }
+    from backend.importer import import_manifest
+
+    result = import_manifest(manifest)
+    after = db.get("problems", id="test-q1")
+    assert result["unchanged"] == 1
+    assert after["version"] == before["version"]
+    assert after["knowledge_points"] == ["limit"]
+    assert after["difficulty"] == 4
+    assert after["updated_at"] == before["updated_at"]

@@ -184,7 +184,8 @@ function scoreText(paper: MockPaperSummary) {
           }}
         </button>
         <small v-if="creating === item.subject" class="muted">
-          需要约 30–90 秒：分析 → 组卷 → AI 生题 → 校验可解性。
+          通常 10–30 秒；使用强推理模型时可能要 1–3 分钟：分析 → 组卷 → AI 生题
+          → 校验可解性。
         </small>
       </article>
       <div v-if="!subjects.length" class="empty-state">
