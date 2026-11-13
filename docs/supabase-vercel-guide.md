@@ -1,8 +1,8 @@
 # Supabase + Vercel 部署指南
 
-适用于当前项目，更新日期：2026-10-13。推荐一个 Vercel 项目同时提供 Vue 页面和 FastAPI 接口，Supabase 保存账号、题库、学习记录与图片。先使用 Vercel 提供的 HTTPS 域名，不需要购买服务器或域名。
+适用于当前项目，更新日期：2026-11-13。推荐一个 Vercel 项目同时提供 Vue 页面和 FastAPI 接口，Supabase 保存账号、题库、学习记录与图片。先使用 Vercel 提供的 HTTPS 域名，不需要购买服务器或域名。
 
-当前代码已包含云端适配和迁移，但尚未在真实 Supabase/Vercel 项目验收。本指南是首次部署步骤，最后的验证环节必须实际完成。
+当前线上项目已部署在 **https://www.mathonline.top/**；本指南用于首次部署或重建环境，最后的验证环节必须实际完成。已上线项目的增量升级按 [2026-11-13 线上发布手册](release-2026-11-13-ops.md) 执行，不要重跑初始迁移。
 
 ## 1. 准备代码与账号
 
@@ -37,18 +37,30 @@ npm.cmd --prefix frontend run build
 
 ## 3. 按顺序执行数据库迁移
 
-在 Supabase **SQL Editor** 中打开以下文件，逐个复制全文执行，确认成功后再执行下一个：
+在 Supabase **SQL Editor** 中打开以下文件，按文件名顺序逐个复制全文执行，确认成功后再执行下一个：
 
 1. `supabase/migrations/202610100001_initial.sql`
 2. `supabase/migrations/202610100002_answer_access.sql`
 3. `supabase/migrations/202610110001_collection_filters.sql`
 4. `supabase/migrations/202610120001_problem_feedback.sql`
+5. `supabase/migrations/202610230001_mistake_notebook.sql`
+6. `supabase/migrations/202611060001_problem_text.sql`
+7. `supabase/migrations/20261108121156_announcements_invites.sql`
+8. `supabase/migrations/20261110000000_ai_grading.sql`
+9. `supabase/migrations/202611130001_knowledge_points.sql`
+10. `supabase/migrations/202611130002_learning_analysis.sql`
+11. `supabase/migrations/202611130003_mock_exams.sql`
+12. `supabase/migrations/202611130004_practice_variants.sql`
+13. `supabase/migrations/20261113120000_shared_variants.sql`
+14. `supabase/migrations/20261113130000_image_transcript.sql`
 
-这些脚本用于新项目初始化，不要反复执行第一份来“修复”错误；它包含 `create table`，重复执行会报对象已存在。后续升级只执行新增迁移。
+这些脚本用于新项目初始化，不要反复执行第一份来“修复”错误；它包含 `create table`，重复执行会报对象已存在。后续升级只执行新增迁移；已上线项目升级到 2026-11-13 版本时，直接用发布包，不必重跑旧迁移。
+
+第 4 份迁移增加题目反馈表并取消逐题审核作为发布门槛；后续迁移依次增加错题清单、文字题面、更新信箱与邀请、AI 判分、知识点标签、学情分析、模拟卷、变式题、共享题池与图片作答转写。第 14 份依赖第 8 份，第 13 份依赖第 12 份，顺序不能颠倒。
 
 第一份迁移会自动建立私有 `mathonline` Storage bucket，所以通常不需要手动再建。到 **Storage** 检查它存在且 **Public 关闭**；业务表启用 RLS，浏览器角色没有直接访问业务表的权限。不要添加允许任何人读取整个 bucket 的策略，图片由后端检查权限后签发短期链接。
 
-最后一份迁移增加题目反馈表，并取消逐题审核作为发布门槛。已发布题目可进入练习池，缺少答案的素材仍可保留为草稿。
+已发布题目可进入练习池，缺少答案的素材仍可保留为草稿。
 
 ## 4. 从本机导入首批题库
 

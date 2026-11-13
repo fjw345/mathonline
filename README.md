@@ -91,6 +91,8 @@
 - [运行与备份](docs/deployment.md)
 - [Supabase + Vercel 部署指南](docs/supabase-vercel-guide.md)
 - [2026-11-13 线上发布手册](docs/release-2026-11-13-ops.md)
+- [需求分析与产品设计](docs/需求分析与产品设计/需求分析文档.md)（[产品设计文档](docs/需求分析与产品设计/产品设计文档.md)）
+- [后续开发计划](docs/后续开发计划（10-15周）.md)、[生存模式设计](docs/survival-design.md)
 - [题库扩充与修改](docs/question-bank.md)
 - [考研题库清单与待补记录](data/kaoyan/REPORT.md)
-- [开发计划](docs/do-math-problem-online项目开发计划.md)
+- [首期开发计划](docs/do-math-problem-online项目开发计划.md)

@@ -14,21 +14,26 @@
 
 ## 2. 项目与目录
 
-来学数学是数学题库与练习网站（公开页使用文字版题目），公开地址由用户确认是 `https://www.mathonline.top/`。面向学生提供题库检索、随机练习、每日一题、自检、错题回顾与题解交流。没有学校身份强制校验。
+来学数学是数学题库与练习网站（公开页使用文字版题目），公开地址由用户确认是 `https://www.mathonline.top/`。面向学生提供题库检索与知识点筛选、随机练习、每日一题、自检、错题回顾、AI 学情分析、考试预测与题解交流。没有学校身份强制校验。
 
 | 位置 | 职责 |
 | --- | --- |
-| `frontend/src/views/` | Library、Problem、Forum、Auth、Learning、Admin、Mailbox、Invites 页面 |
+| `frontend/src/views/` | Library、Problem、Forum、Auth、Learning、Admin、Mailbox、Invites、Mock、MockPaper 页面 |
 | `frontend/src/components/` | 筛选、题目卡片、图片查看等共用组件 |
 | `frontend/src/practiceDraft.ts`、`practiceFilters.ts` | 草稿隔离、筛选规范化与恢复 |
 | `backend/main.py` | FastAPI 路由、输入、鉴权和媒体入口 |
 | `backend/domain.py` | 判分、自评、每日分配及状态更新 |
 | `backend/grading.py` | AI 判分引擎：填空题算法优先 + 模型兜底、大题得分点判分 |
 | `backend/vision.py` | 纯图片作答先由视觉模型转写为文字，再交给判分引擎 |
+| `backend/topics.py`、`tagging.py` | 知识点编码与学科范围、批量标注（AI 优先、关键词兜底） |
+| `backend/analysis.py` | 学情统计聚合与 AI 薄弱点报告 |
+| `backend/mockexam.py`、`question_gen.py` | 考试预测蓝图、组卷、AI 生题与独立求解校验 |
+| `backend/variants.py`、`variant_pool.py` | 错题变式生成与跨用户共享题池 |
 | `backend/outreach.py` | 公告版本、邀请码和资料下载权限 |
 | `backend/store.py` | SQLite/Supabase 访问、事务与批量读取 |
 | `backend/models.py`、`schema.sql` | 题目清单模型、本地表结构 |
 | `supabase/migrations/` | 按时间顺序执行的云端结构迁移 |
+| `supabase/release/` | 线上发布包：执行前检查、整段升级、执行后校验 |
 | `api/index.py`、`vercel.json` | Vercel 入口、构建与同域重写 |
 | `scripts/` | 本地启动、角色管理、清单生成及离线导入 |
 | `data/*manifest.json`、`data/kaoyan/`、`data/bjtu-finals/` | 可导入清单、盘点及待补记录 |
@@ -38,7 +43,13 @@
 
 技术栈为 Vue 3、TypeScript、Vue Router、Vite、FastAPI。生产 Python 以 `.python-version`、`pyproject.toml` 和 `uv.lock` 为准，当前为 3.12；不要因为本机其他解释器能运行就擅改生产版本。本地用 SQLite 和磁盘，云端用 Supabase Auth、Data API、私有 Storage，Vercel 提供前端和 API。
 
-实际页面路由：`/`、`/problems/:id`、`/practice`、`/daily`、`/forum`、`/auth`、`/me`、`/admin`、`/mailbox`、`/invites`。API 统一 `/api/v1`。本地端口 **8011**。
+实际页面路由：`/`、`/problems/:id`、`/practice`、`/daily`、`/mock`、`/mock/:id`、`/forum`、`/auth`、`/me`、`/admin`、`/mailbox`、`/invites`。API 统一 `/api/v1`。本地端口 **8011**。
+
+### 文档索引与已知差异
+
+- 需求与设计文档：[需求分析文档](docs/需求分析与产品设计/需求分析文档.md)、[产品设计文档](docs/需求分析与产品设计/产品设计文档.md)、[后续开发计划](docs/后续开发计划（10-15周）.md)、[生存模式设计](docs/survival-design.md)。正文是 2026-11-12 前后的快照，作为设计与排期参考，不代表当前实现清单。
+- 已知差异（按用户要求保留原文，不改写）：这些文档仍把 AI 判题写作后续开发，实际文字作答与“纯图片先转写再判分”已在代码中实现，线上依赖迁移与模型密钥；生存模式与排行榜尚未实现；2026-11-13 的知识点标签、AI 学情分析、考试预测/模拟卷与错题变式未写入这些设计文档，见 [知识点、AI 学情、考试预测与一题多练](docs/knowledge-analysis-mock-deployment.md)。
+- 部署与发布：[运行与备份](docs/deployment.md)、[Supabase + Vercel 部署指南](docs/supabase-vercel-guide.md)、[2026-11-13 线上发布手册](docs/release-2026-11-13-ops.md)。
 
 ## 3. 必须保留的业务规则
 
@@ -147,6 +158,10 @@ npm --prefix frontend run format:check
 # 知识点标注（先干跑；确认 APP_MODE 后再写库）与只读核对。
 python -X utf8 scripts/tag_knowledge.py --dry-run --limit 20
 python -X utf8 scripts/verify_knowledge.py
+
+# 改过迁移后重新生成发布 SQL，并核对生成结果与迁移一致。
+python -X utf8 scripts/build_release_sql.py
+python -X utf8 scripts/build_release_sql.py --check
 ```
 
 `--basetemp` 使用专门测试目录，pytest 会清理它，不能指向存放用户资料的目录。测试进程导入应用可能初始化配置指定的本地数据库，必须使用隔离路径；不要拿真实账号和学习记录做测试。首次安装依赖按锁文件与部署文档执行；不要为了纯文档变更更新依赖锁。

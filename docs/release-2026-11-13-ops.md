@@ -285,7 +285,7 @@ python -X utf8 scripts/verify_knowledge.py
 
 ### 维护者补充：代码推送
 
-发布前需要把本地 `dev_ai` 合并进 `master` 并推送（默认不自动推送，需明确授权）。远端 `master` 已有几个只改 `docs/` 的提交，先并入再合并，避免推送被拒：
+发布前需要把本地 `dev_ai` 合并进 `master` 并推送（默认不自动推送，需明确授权）。`dev_ai` 已并入 `origin/master` 截至 2026-11-13 的文档提交；若远端之后又有新提交，按下面顺序先并入再合并，避免推送被拒：
 
 ```powershell
 git fetch origin
