@@ -117,7 +117,7 @@
 - 保留 `vercel.json` 的函数包排除和 `/api/v1/*` 重写，不把原卷、题图、本地数据库和前端依赖带入函数包。
 - 线上持久数据在 Supabase，不使用 Vercel 临时文件系统保存账号、作答或图片。代码回滚不会回滚数据库。
 - 错题清单需要新增迁移 `supabase/migrations/202610230001_mistake_notebook.sql`，回填历史答错与“不会”记录；本地通过建表脚本兼容更新且重启不恢复已掌握条目。云端迁移未执行时保持读取兼容，移出操作明确提示待更新，不能假报成功。
-- 本轮新增迁移 `supabase/migrations/202611130001_knowledge_points.sql`、`202611130002_learning_analysis.sql`、`202611130003_mock_exams.sql`、`202611130004_practice_variants.sql`、`20261113120000_shared_variants.sql`、`20261113130000_image_transcript.sql`，均为纯新增；未执行时知识点筛选为空、学情分析只显示统计、模拟卷与变式返回 503（共享题池未执行时自动退回逐次生成）、图片作答转写降级为待自检，不假报成功。
+- 本轮新增迁移 `supabase/migrations/202611130001_knowledge_points.sql`、`202611130002_learning_analysis.sql`、`202611130003_mock_exams.sql`、`202611130004_practice_variants.sql`、`20261113120000_shared_variants.sql`、`20261113130000_image_transcript.sql`，均为纯新增；未执行时知识点筛选为空、学情分析只显示统计、模拟卷与变式返回 503（共享题池未执行时自动退回逐次生成）、图片作答转写降级为待自检，不假报成功。线上发布使用 `supabase/release/` 的 preflight/upgrade/postcheck 三份脚本，操作步骤见 [2026-11-13 线上发布手册](docs/release-2026-11-13-ops.md)；整段脚本由 `scripts/build_release_sql.py` 从迁移生成，改迁移后必须重新生成并跑 `tests/test_release_sql.py`。
 - `APP_ORIGIN`、认证回调、邮箱和部署环境对应实际网站；配置变更需重新部署。平台限制和配置操作发生变化时查官方资料，不把历史限制数值当作永久常量。
 - 保留分页、按请求批量读取、公开目录 30 秒缓存和文字渲染按需加载；性能修复先分清数据接口、认证、冷启动与公式渲染耗时。
 - 公开题目接口不再批量签发原题截图 URL；文字内嵌图按请求、题目可见性和答案解锁鉴权。历史上已签发的原图链接最长 300 秒后失效，不能承诺立即撤销。
