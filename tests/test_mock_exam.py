@@ -386,3 +386,11 @@ def test_mock_paper_reuses_cached_ai_variant(bank, monkeypatch):
     assert ai_items[0]["question_text"] == cached["question_text"]
     assert state["generated"] == generated_before
     assert db.list("variant_cache", problem_id=seed["id"])[0]["use_count"] >= 2
+
+
+def test_answers_match_accepts_equivalent_symbolic_forms():
+    assert question_gen.answers_match("x + 1/2", "x+1/2")
+    assert question_gen.answers_match(r"\frac{\pi}{8}", r"\frac{ \pi }{ 8 }")
+    assert question_gen.answers_match("0.5", "1/2")
+    assert not question_gen.answers_match("1/2", "1/3")
+    assert not question_gen.answers_match(r"\frac{\pi}{8}", r"\frac{\pi}{6}")

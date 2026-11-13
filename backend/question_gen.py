@@ -5,6 +5,8 @@
 变式练习记录，避免未经人工审核的题目混入正式题库。
 """
 
+import math
+
 from . import ai, config, grading
 
 MAX_STEM = 4000
@@ -201,22 +203,40 @@ def verify_item(item):
     independent = str(payload.get("answer") or "").strip()
     if not answers_match(item.get("answer_text"), independent):
         return False
-    # 解析里的最终结论必须与 answer 字段一致，挡住“答案与解析各写一个数”的题。
+    # 解析最终结论只在“双方都能解析为数值”时做硬比对，挡住答案与解析各写一个数；
+    # 符号表达式允许等价写法（\frac{\pi}{8} 与 \pi/8 等），避免误杀正确仿题。
     explanation_answer = str(payload.get("explanation_answer") or "").strip()
-    return bool(explanation_answer) and answers_match(
-        item.get("answer_text"), explanation_answer
-    )
+    if explanation_answer:
+        left = grading._as_number(grading.normalize(item.get("answer_text")))
+        right = grading._as_number(grading.normalize(explanation_answer))
+        if left is not None and right is not None:
+            if not math.isclose(left, right, rel_tol=1e-9, abs_tol=1e-9):
+                return False
+    return True
 
 
 def answers_match(given, independent):
-    """数值容差优先；非数值答案要求归一化后一致。"""
+    """数值容差优先；非数值答案允许等价写法，但不接受不同结论。"""
     if not given or not independent:
         return False
     if grading.algorithmic_verdict(given, independent) == "correct":
         return True
     left = grading.normalize(given)
     right = grading.normalize(independent)
-    return bool(left) and left == right
+    if not left or not right:
+        return False
+    if left == right:
+        return True
+    return _loose(left) == _loose(right)
+
+
+def _loose(text):
+    """去掉空白、公式排版装饰与简单分组花括号，用于符号答案的等价比较。"""
+    value = text.replace(" ", "").replace("\n", "").replace("\r", "")
+    for token in ("\\left", "\\right", "\\,", "\\;", "\\!", "\\ ", "$"):
+        value = value.replace(token, "")
+    value = value.replace("，", ",").replace("。", ".")
+    return value.replace("{", "").replace("}", "")
 
 
 def same_as_seed(item, seed):
