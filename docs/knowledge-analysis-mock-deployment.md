@@ -16,7 +16,7 @@
 | AI 学情分析 | `backend/analysis.py`、`main.py` 的 `/me/analysis`、`frontend/src/views/Learning.vue` | `learning_analyses` | 已实现；统计离线验证，报告离线用替身验证 |
 | 考试预测与模拟卷 | `backend/mockexam.py`、`backend/question_gen.py`、`main.py` 的 `/mock/*`、`frontend/src/views/Mock.vue`、`MockPaper.vue` | `mock_papers` | 已实现；离线全流程验证，本地模型实测生成过整卷 |
 | 错题 AI 变式 | `backend/variants.py`、`backend/variant_pool.py`、`main.py` 的 `/me/.../variants`、`frontend/src/views/Problem.vue` | `practice_variants`、`variant_cache`（共享题池） | 已实现；离线全流程验证 |
-| 图片作答转写判分 | `backend/vision.py`、`main.py` 的 `/grade`、`frontend/src/views/Problem.vue` | `problem_grading.transcript`、`submission_transcripts` | 已实现；离线桩模型验证 |
+| 图片作答转写判分 | `backend/vision.py`、`main.py` 的 `/grade`、`frontend/src/views/Problem.vue` | `problem_grading.transcript`、`submission_transcripts` | 已实现；离线桩模型 + 本地视觉模型端到端验证 |
 
 ## 2. 结构变更
 
@@ -189,7 +189,7 @@ $env:APP_MODE = "local"; $env:LOCAL_DATABASE = "tmp/agent-tests.sqlite"
 python -X utf8 -m pytest tests --basetemp tmp/agent-pytest
 ```
 
-本轮全量 136 项通过；新增覆盖：知识点编码/筛选/人工校正/标注脚本、学情聚合/报告校验/缓存/降级、蓝图/组卷/AI 题校验/交卷判分、变式生成/答案隐藏/越权。
+本轮全量 151 项通过；新增覆盖：知识点编码/筛选/人工校正/标注脚本、学情聚合/报告校验/缓存/降级、蓝图/组卷/AI 题校验/交卷判分、变式生成/共享题池/答案隐藏/越权、图片转写/缓存/降级。
 
 ### 7.3 线上冒烟清单
 
