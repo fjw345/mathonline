@@ -51,6 +51,7 @@ TABLES = {
     "learning_analyses",
     "mock_papers",
     "practice_variants",
+    "variant_cache",
     "user_problem_progress",
     "daily_assignments",
     "answer_access",
@@ -157,6 +158,24 @@ class LocalStore:
                     "TEXT NOT NULL DEFAULT ''"
                 )
             db.execute("INSERT OR IGNORE INTO schema_migrations VALUES (9)")
+            # Version 10 adds the shared AI-variant pool link. Older per-user
+            # rows keep cache_id empty and simply bypass the pool.
+            variant_columns = {
+                row["name"] for row in db.execute("PRAGMA table_info(practice_variants)")
+            }
+            if "cache_id" not in variant_columns:
+                db.execute("ALTER TABLE practice_variants ADD COLUMN cache_id TEXT")
+            if "source_hash" not in variant_columns:
+                db.execute(
+                    "ALTER TABLE practice_variants ADD COLUMN source_hash "
+                    "TEXT NOT NULL DEFAULT ''"
+                )
+            if "reused" not in variant_columns:
+                db.execute(
+                    "ALTER TABLE practice_variants ADD COLUMN reused "
+                    "INTEGER NOT NULL DEFAULT 0"
+                )
+            db.execute("INSERT OR IGNORE INTO schema_migrations VALUES (10)")
             db.commit()
 
     def connect(self):

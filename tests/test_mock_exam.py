@@ -4,7 +4,7 @@ import json
 
 import pytest
 
-from backend import ai, config, mockexam, question_gen
+from backend import ai, config, mockexam, question_gen, variant_pool
 
 
 def add_problem(db, pid, kind, year, knowledge, difficulty=3, answer="2"):
@@ -256,7 +256,7 @@ def test_create_paper_uses_bank_and_ai_item(bank, monkeypatch):
     problems = db.list("problems")
     answers = {a["problem_id"]: a for a in db.list("problem_answers")}
     paper = mockexam.create_paper(
-        {"id": "u1"}, "微积分上", "standard", problems, answers, set()
+        {"id": "u1"}, "微积分上", "standard", problems, answers, set(), db
     )
     assert paper["status"] == "ready"
     assert len(paper["items"]) == 7
@@ -353,3 +353,36 @@ def test_mock_subjects_are_public(bank, monkeypatch):
     assert subjects["微积分上"]["problems"] >= 6
     assert subjects["微积分上"]["ready"] is True
     assert body["ai"] is False
+
+
+def test_mock_paper_reuses_cached_ai_variant(bank, monkeypatch):
+    db = bank["db"]
+    monkeypatch.setattr(config, "AI_ENABLED", True)
+    monkeypatch.setattr(config, "AI_MODEL", "stub-model")
+    monkeypatch.setattr(config, "AI_VARIANT_SHARE", True)
+    state = {"calls": 0, "generated": 0, "verified": 0}
+    monkeypatch.setattr(ai, "chat", stub_chat(state))
+    seed = next(
+        p
+        for p in db.list("problems")
+        if p["subject"] == "微积分上"
+        and p["type"] == "blank"
+        and p["id"].startswith("mockbank")
+    )
+    answer = db.get("problem_answers", problem_id=seed["id"])
+    cached = variant_pool.get_or_create(
+        seed, answer["text"], "微积分上", "blank", db
+    )
+    assert cached["shared"] is False
+    generated_before = state["generated"]
+    monkeypatch.setattr(mockexam, "_generation_seeds", lambda *a, **k: [seed])
+    problems = db.list("problems")
+    answers = {a["problem_id"]: a for a in db.list("problem_answers")}
+    paper = mockexam.create_paper(
+        {"id": "u2"}, "微积分上", "standard", problems, answers, set(), db
+    )
+    ai_items = [item for item in paper["items"] if item["origin"] == "ai"]
+    assert len(ai_items) == 1
+    assert ai_items[0]["question_text"] == cached["question_text"]
+    assert state["generated"] == generated_before
+    assert db.list("variant_cache", problem_id=seed["id"])[0]["use_count"] >= 2

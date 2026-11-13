@@ -41,3 +41,16 @@ AI_TIMEOUT = float(os.getenv("AI_TIMEOUT", "30"))
 # 留空表示不发送该字段，兼容不识别它的服务商。
 AI_REASONING_EFFORT = os.getenv("AI_REASONING_EFFORT", "").strip()
 AI_ENABLED = bool(AI_BASE_URL and AI_API_KEY and AI_MODEL)
+
+# AI 仿题共享题池：线上默认开启，本地默认关闭（本地保留每次生成新题便于调试）。
+_share = os.getenv("AI_VARIANT_SHARE", "").strip().lower()
+if _share in ("1", "true", "yes", "on"):
+    AI_VARIANT_SHARE = True
+elif _share in ("0", "false", "no", "off"):
+    AI_VARIANT_SHARE = False
+else:
+    AI_VARIANT_SHARE = MODE == "supabase"
+try:
+    AI_VARIANT_POOL_SIZE = max(1, min(10, int(os.getenv("AI_VARIANT_POOL_SIZE", "3"))))
+except ValueError:
+    AI_VARIANT_POOL_SIZE = 3

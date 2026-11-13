@@ -14,7 +14,7 @@ import random
 import re
 from uuid import uuid4
 
-from . import ai, config, grading, question_gen, topics
+from . import ai, config, grading, question_gen, topics, variant_pool
 from .auth import now
 
 SUBJECTS = ("微积分上", "微积分下", "线性代数", "概率论")
@@ -516,6 +516,7 @@ def assemble_paper(
     answers,
     seen,
     difficulty="standard",
+    repository=None,
 ):
     shift = DIFFICULTY_SHIFT.get(difficulty, 0.0)
     target = (profile["difficulty"]["mean"] or 3.0) + shift
@@ -573,14 +574,16 @@ def assemble_paper(
         ):
             seed_answer = (answers.get(seed["id"]) or {}).get("text", "")
             try:
-                generated = question_gen.generate_verified(
-                    question_gen.seed_payload(seed, seed_answer),
+                # 共享题池命中时不再调用模型；未命中才生成并写入题池。
+                generated = variant_pool.get_or_create(
+                    seed,
                     seed_answer,
                     profile["subject"],
                     section["type"],
-                    attempts=2,
+                    repository,
+                    allow_generate=ai.enabled(),
                 )
-            except question_gen.GenerationError as exc:
+            except (question_gen.GenerationError, ai.AIUnavailable) as exc:
                 last_error = str(exc)
                 continue
             group[-1] = _item_from_generated(
@@ -591,6 +594,10 @@ def assemble_paper(
         if replaced:
             break
     if not replaced:
+        if not ai.enabled():
+            raise MockUnavailable(
+                "AI 生题未配置且共享题池暂无可用仿题，暂时无法生成模拟卷。"
+            )
         raise MockUnavailable(
             "AI 生题未通过可解性校验，请稍后重试。"
             + ("（" + last_error[:80] + "）" if last_error else "")
@@ -636,12 +643,10 @@ def _profile_summary(profile):
     }
 
 
-def create_paper(user, subject, difficulty, problems, answers, seen):
+def create_paper(user, subject, difficulty, problems, answers, seen, repository):
     profile = subject_profile(subject, problems)
     if not profile:
         raise ValueError("该科目暂无可用题目。")
-    if not ai.enabled():
-        raise MockUnavailable("AI 生题未配置，暂时无法生成模拟卷。")
     blueprint = build_blueprint(subject, profile, difficulty)
     if not blueprint["sections"]:
         raise MockUnavailable("预测蓝图为空，请稍后重试。")
@@ -653,6 +658,7 @@ def create_paper(user, subject, difficulty, problems, answers, seen):
         answers,
         seen,
         difficulty,
+        repository,
     )
 
 

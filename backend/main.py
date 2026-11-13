@@ -955,7 +955,7 @@ def create_mock_paper(body: MockPaperInput, request: Request):
     }
     try:
         paper = mockexam.create_paper(
-            user, body.subject, body.difficulty, problems, answers, seen
+            user, body.subject, body.difficulty, problems, answers, seen, store
         )
     except mockexam.MockUnavailable as exc:
         raise HTTPException(503, str(exc)) from exc

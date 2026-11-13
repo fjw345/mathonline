@@ -15,7 +15,7 @@
 | 知识点标签与筛选 | `backend/topics.py`、`backend/tagging.py`、`backend/domain.py`、`backend/store.py`、`frontend/src/views/Library.vue`、`frontend/src/components/PracticeFilters.vue` | `problems.knowledge_points`、`problems.knowledge_source`、`problems.difficulty`（内部） | 已实现；本地 774 道全部标注 |
 | AI 学情分析 | `backend/analysis.py`、`main.py` 的 `/me/analysis`、`frontend/src/views/Learning.vue` | `learning_analyses` | 已实现；统计离线验证，报告离线用替身验证 |
 | 考试预测与模拟卷 | `backend/mockexam.py`、`backend/question_gen.py`、`main.py` 的 `/mock/*`、`frontend/src/views/Mock.vue`、`MockPaper.vue` | `mock_papers` | 已实现；离线全流程验证，本地模型实测生成过整卷 |
-| 错题 AI 变式 | `backend/variants.py`、`main.py` 的 `/me/.../variants`、`frontend/src/views/Problem.vue` | `practice_variants` | 已实现；离线全流程验证 |
+| 错题 AI 变式 | `backend/variants.py`、`backend/variant_pool.py`、`main.py` 的 `/me/.../variants`、`frontend/src/views/Problem.vue` | `practice_variants`、`variant_cache`（共享题池） | 已实现；离线全流程验证 |
 
 ## 2. 结构变更
 
@@ -35,7 +35,8 @@
 | --- | --- | --- |
 | `learning_analyses` | 每人一份 AI 诊断缓存 | `id`（用户 ID）、`fingerprint`（练习数据指纹）、`stats`、`report`、`model`、`created_at` |
 | `mock_papers` | 每人每张模拟卷一行 | `items`（题目快照与判分结果）、`blueprint`（预测蓝图）、`profile`（往年分析）、`knowledge_summary`、`status`、`score`、`max_score` |
-| `practice_variants` | 错题变式题 | `problem_id`（原题）、`question_text`、`answer_text`、`correct_options`、`result`、`answered_at` |
+| `practice_variants` | 错题变式题（每用户一份作答状态） | `problem_id`（原题）、`cache_id`（共享题池 ID）、`reused`（是否复用题池）、`question_text`、`answer_text`、`correct_options`、`result`、`answered_at` |
+| `variant_cache` | AI 仿题共享题池（跨用户复用） | `problem_id`、`source_hash`（题目版本+答案摘要）、`type`、题目与答案快照、`use_count`、`last_used_at` |
 
 模拟卷与变式题都保存题目快照，原题后续改版不会改变已生成内容；AI 题不写回公开题库。
 
@@ -50,6 +51,9 @@
 2. `supabase/migrations/202611130002_learning_analysis.sql`
 3. `supabase/migrations/202611130003_mock_exams.sql`
 4. `supabase/migrations/202611130004_practice_variants.sql`
+5. `supabase/migrations/20261113120000_shared_variants.sql`
+   - 新建 `variant_cache` 共享题池；
+   - 给 `practice_variants` 增加 `cache_id`、`source_hash`、`reused` 三列。必须排在 004 之后；若 004 未执行，本迁移会整体回滚，补 004 后重跑即可。
 
 每份迁移都以 `notify pgrst, 'reload schema'` 结束，并只授权 `service_role`。执行前确认目标项目；执行后核对表存在、RLS 开启、`anon`/`authenticated` 无权限。
 
@@ -76,6 +80,8 @@
 | `AI_TIMEOUT` | 单次请求超时秒数；生题建议不低于 60 |
 | `AI_BLUEPRINT_MODEL`（可选） | 考试预测蓝图单独使用的快速模型；留空沿用 `AI_MODEL`。强推理模型在长提示上容易超时或输出截断，建议蓝图固定用快速模型 |
 | `AI_REASONING_EFFORT`（可选） | 思考型模型可设为 `none` 关闭思考，避免推理占满输出预算；留空则不发送该字段 |
+| `AI_VARIANT_SHARE`（可选） | AI 仿题共享题池开关。`supabase` 模式默认开启、本地默认关闭；可显式 `on`/`off` |
+| `AI_VARIANT_POOL_SIZE`（可选） | 每道源题在题池中最多保留几道仿题，默认 3（1–10）。池满后复用使用次数最少的一道 |
 
 建议：
 
@@ -114,7 +120,23 @@ python -X utf8 scripts/tag_knowledge.py --retag-heuristic --workers 4
 - 汇总输出 `processed / sources / difficulty / coverage / invalid / updated`，`--report` 可落盘 JSON。
 - 并发默认 4；服务商限流时降到 2 或 1。脚本不打印密钥。
 
-本轮本地执行结果（2026-11-13，774 道）：596 道 AI 标注、178 道关键词兜底、覆盖率 100%、非法编码 0；微积分上/下、线性代数、概率论、高等数学五类均达到组卷题量要求。
+本轮本地执行结果（2026-11-13，774 道）：先用 `deepseek-v4-pro` 补跑关键词兜底题，最终 **770 道 AI 标注 + 4 道关键词兜底**、覆盖率 100%、非法编码 0；微积分上/下、线性代数、概率论、高等数学五类均达到组卷题量要求。
+
+### 5.1 AI 仿题共享题池（线上跨用户复用）
+
+线上（`APP_MODE=supabase`）默认开启，同一道源题的仿题只生成少数几次，不同用户触发时复用结果，显著减少 token 消耗。实现见 `backend/variant_pool.py`。
+
+- **缓存键**：`problem_id + source_hash + type`。`source_hash` 由「题目 ID + 题目版本 + 文字答案」计算；题目或答案改版后旧条目自动失效，不会被再次选中。
+- **生成流程**：先查 `variant_cache`；命中则直接复用（不再调用模型）；未命中才生成并做独立求解校验，通过后写入题池。模拟卷的 AI 仿题与「一题多练」共用同一个题池。
+- **用户数据隔离**：题池只存题目内容与模型名，不存用户 ID；每个用户仍在 `practice_variants` 里单独保存自己的变式记录、作答与自评结果。不同用户看到同一道仿题，但谁的“做对/还不对”互不影响。
+- **题池大小与轮换**：`AI_VARIANT_POOL_SIZE` 默认 3。用户已看过池内全部题目且池未满时，会再生成一道；池满后复用使用次数最少的一道，避免“再来一题”无限消耗 token。
+- **降级**：模型不可用但题池有可用条目时，仍可复用出题；既无模型又无缓存时，接口明确返回 503，不伪造题目。
+- **并发**：两个用户同时首次触发同一道题，可能各自生成一次（最多多花一份 token），内容仍会写入题池；这是有意的取舍，避免引入跨实例生成锁。
+- **清理错误题目**：确认某条 AI 仿题有问题时，直接删除缓存行即可，已发给用户的记录保留：
+  ```sql
+  delete from variant_cache where id = 'varcache-...';
+  ```
+- **回滚**：共享题池是纯新增表与两列；停用只需把 `AI_VARIANT_SHARE` 设为 `off`，代码会回到“每次生成”。删除 `variant_cache` 不影响题目、作答或学情记录。
 
 ## 6. 接口与权限
 
@@ -167,7 +189,8 @@ python -X utf8 -m pytest tests --basetemp tmp/agent-pytest
 4. 我的学习 → 学情分析：有练习数据时显示最需加强、正确率表；点“生成 AI 诊断”得到报告；再点“重新生成”会重新调用模型（观察 `learning_analyses.model` 与时间戳变化）。
 5. 考试预测：选“微积分上”生成模拟卷，得到 8–20 题、约 100 分；至少一道选择题或填空题标有“AI 仿题”；交卷前接口响应中不含 `answer_text`/`explanation`；交卷后出现分数、解析与知识点得分；重复交卷返回 409。
 6. 一题多练：在做过且答错的题上生成变式，接口响应不含答案；点“查看答案与解析”后才出现；自评后学情分析的 `variant_totals` 增加。
-7. 未配置 AI 的环境：学情分析只显示统计并提示未配置；组卷与变式返回 503；页面不白屏、不假报成功。
+7. 共享题池：用账号 A 对某题生成变式，再用账号 B 对同一题生成；B 的响应 `pooled=true` 且题目内容与 A 相同，服务端日志/模型用量不增加；B 的自评不影响 A 的记录；A 再点“再来一题”会得到池内另一道或（池满后）复用最少使用的一道。
+8. 未配置 AI 的环境：学情分析只显示统计并提示未配置；组卷与变式返回 503（题池已有可用仿题时仍可出题）；页面不白屏、不假报成功。
 
 ## 8. 回滚与风险
 
@@ -176,7 +199,8 @@ python -X utf8 -m pytest tests --basetemp tmp/agent-pytest
 - **迁移本身的回滚**不在本指南承诺范围；如确需回退结构，请先在测试项目演练并单独评审。
 - **AI 标注可能不准确**：模型可能把综合题标偏，管理员可在编辑页校正；关键词兜底只保证“有标签”，不保证“最准确”。
 - **AI 生题不是数学证明**：现有校验是“模型独立求解 + 答案一致性 + 解析最终结论与 answer 字段一致”，能挡住明显无解/答非所问/与原题雷同/答案与解析自相矛盾，但同模型自校验会共享盲区。生产建议：用更强模型；抽检 AI 题；保留用户反馈入口；不要承诺 AI 题 100% 正确。AI 题不进公开题库，正是为了避免未审核题目污染题库。
-- **成本**：一次组卷通常 3–6 次模型调用（蓝图 + 命题 + 校验，失败会重试）；一次变式 2–4 次；一次学情报告 1 次。接口层已有限流，但批量标注会集中消耗额度，建议分批、观察用量。
+- **成本**：一次组卷通常 3–6 次模型调用（蓝图 + 命题 + 校验，失败会重试）；一次变式 2–4 次；一次学情报告 1 次。开启共享题池后，同一道题的后续用户命中缓存时不再产生生题调用。接口层已有限流，但批量标注会集中消耗额度，建议分批、观察用量。
+- **共享题池放大错误题目的影响**：一条通过校验但实际有误的 AI 仿题会被多个用户复用。建议线上抽检；确认有问题时删除 `variant_cache` 对应行（见 5.1），已发出的个人记录仍保留，可单独处理。
 - **思考型模型**：可能把输出预算花在推理上，`ai.py` 会检测“只有 reasoning_content”并追加预算重试；若仍为空则按不可用降级，不写入半成品。
 - **本地模型实测**：qwen3.5:9b 可跑通组卷全流程，但生成题质量不稳定（例如答案算错、选择题表述不严谨），本轮把它作为演示与下限验证；线上请使用更强模型并抽检。
 - **本轮未做**：线上迁移、线上标注、线上冒烟、真实手机验收、AI 题人工全量审核、模型成本实测。`docs/` 之外的设计文档未改。

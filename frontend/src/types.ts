@@ -330,6 +330,7 @@ export interface Variant {
   choice_options: string[];
   multiple: boolean;
   model: string;
+  pooled?: boolean;
   result: "" | "correct" | "incorrect";
   created_at: string;
   answered_at: string | null;

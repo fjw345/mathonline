@@ -148,11 +148,34 @@ CREATE TABLE IF NOT EXISTS practice_variants (
  correct_options TEXT NOT NULL DEFAULT '[]',
  explanation TEXT NOT NULL DEFAULT '',
  model TEXT NOT NULL DEFAULT '',
+ cache_id TEXT,
+ source_hash TEXT NOT NULL DEFAULT '',
+ reused INTEGER NOT NULL DEFAULT 0,
  result TEXT NOT NULL DEFAULT '',
  created_at TEXT NOT NULL,
  answered_at TEXT
 );
 CREATE INDEX IF NOT EXISTS variants_owner ON practice_variants(user_id, problem_id, created_at DESC);
+
+-- AI 仿题共享题池：同一道题的生成结果跨用户复用，按源哈希失效。
+CREATE TABLE IF NOT EXISTS variant_cache (
+ id TEXT PRIMARY KEY,
+ problem_id TEXT NOT NULL REFERENCES problems(id),
+ source_hash TEXT NOT NULL,
+ type TEXT NOT NULL,
+ knowledge_points TEXT NOT NULL DEFAULT '[]',
+ question_text TEXT NOT NULL,
+ choice_options TEXT NOT NULL DEFAULT '[]',
+ multiple INTEGER NOT NULL DEFAULT 0,
+ answer_text TEXT NOT NULL,
+ correct_options TEXT NOT NULL DEFAULT '[]',
+ explanation TEXT NOT NULL DEFAULT '',
+ model TEXT NOT NULL DEFAULT '',
+ use_count INTEGER NOT NULL DEFAULT 0,
+ created_at TEXT NOT NULL,
+ last_used_at TEXT
+);
+CREATE INDEX IF NOT EXISTS variant_cache_lookup ON variant_cache(problem_id, source_hash, type);
 
 -- 学情分析报告缓存：统计每次现算，报告只在数据指纹变化时重新生成。
 CREATE TABLE IF NOT EXISTS learning_analyses (

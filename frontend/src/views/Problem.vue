@@ -1283,7 +1283,7 @@ async function comment(s: Solution) {
             </div>
             <template v-if="!variant">
               <p class="small-text muted">
-                用同一套思路解一道新数据的题，检验是真会还是记住了答案。生成后答案不会自动展示。
+                用同一套思路解一道新数据的题，检验是真会还是记住了答案。同一道题的仿题会优先复用系统已生成并校验过的结果，节省等待与费用；答案仍只有你查看后才显示。
               </p>
               <div class="inline">
                 <button
@@ -1306,6 +1306,12 @@ async function comment(s: Solution) {
               <div class="variant-heading">
                 <span class="chip neutral">{{ typeName(variant.type) }}</span>
                 <span
+                  v-if="variant.pooled"
+                  class="chip neutral"
+                  title="这道仿题来自系统共享题池，已通过校验"
+                  >共享题池</span
+                >
+                <span
                   v-for="point in variant.knowledge_points"
                   :key="point.code"
                   class="knowledge-chip"
@@ -1317,15 +1323,15 @@ async function comment(s: Solution) {
                   :class="
                     variant.result === 'correct' ? 'success-chip' : 'error-chip'
                   "
-                  >{{ variant.result === "correct" ? "已做对" : "还不对" }}</span
+                  >{{
+                    variant.result === "correct" ? "已做对" : "还不对"
+                  }}</span
                 >
               </div>
               <MarkdownContent :source="variant.question_text" />
               <div v-if="!variantAnswerOpen" class="variant-answer-area">
                 <div v-if="variant.type === 'choice'" class="option-list">
-                  <label
-                    v-for="option in variant.choice_options"
-                    :key="option"
+                  <label v-for="option in variant.choice_options" :key="option"
                     ><input
                       :checked="variantOptions.includes(option)"
                       :type="variant.multiple ? 'checkbox' : 'radio'"
