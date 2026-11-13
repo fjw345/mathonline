@@ -21,6 +21,7 @@ export interface AiGrading {
   max_score: number;
   points: AiGradingPoint[];
   model: string;
+  transcript?: string;
   created_at: string;
 }
 export interface Progress {

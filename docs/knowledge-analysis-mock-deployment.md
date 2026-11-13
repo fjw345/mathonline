@@ -16,6 +16,7 @@
 | AI 学情分析 | `backend/analysis.py`、`main.py` 的 `/me/analysis`、`frontend/src/views/Learning.vue` | `learning_analyses` | 已实现；统计离线验证，报告离线用替身验证 |
 | 考试预测与模拟卷 | `backend/mockexam.py`、`backend/question_gen.py`、`main.py` 的 `/mock/*`、`frontend/src/views/Mock.vue`、`MockPaper.vue` | `mock_papers` | 已实现；离线全流程验证，本地模型实测生成过整卷 |
 | 错题 AI 变式 | `backend/variants.py`、`backend/variant_pool.py`、`main.py` 的 `/me/.../variants`、`frontend/src/views/Problem.vue` | `practice_variants`、`variant_cache`（共享题池） | 已实现；离线全流程验证 |
+| 图片作答转写判分 | `backend/vision.py`、`main.py` 的 `/grade`、`frontend/src/views/Problem.vue` | `problem_grading.transcript`、`submission_transcripts` | 已实现；离线桩模型验证 |
 
 ## 2. 结构变更
 
@@ -37,6 +38,7 @@
 | `mock_papers` | 每人每张模拟卷一行 | `items`（题目快照与判分结果）、`blueprint`（预测蓝图）、`profile`（往年分析）、`knowledge_summary`、`status`、`score`、`max_score` |
 | `practice_variants` | 错题变式题（每用户一份作答状态） | `problem_id`（原题）、`cache_id`（共享题池 ID）、`reused`（是否复用题池）、`question_text`、`answer_text`、`correct_options`、`result`、`answered_at` |
 | `variant_cache` | AI 仿题共享题池（跨用户复用） | `problem_id`、`source_hash`（题目版本+答案摘要）、`type`、题目与答案快照、`use_count`、`last_used_at` |
+| `submission_transcripts` | 纯图片作答的转写缓存 | `user_id`、`problem_id`、`revision`、`image_ids`（顺序）、`text`、`model`；`problem_grading.transcript` 保存判分时的转写文本 |
 
 模拟卷与变式题都保存题目快照，原题后续改版不会改变已生成内容；AI 题不写回公开题库。
 
@@ -54,6 +56,9 @@
 5. `supabase/migrations/20261113120000_shared_variants.sql`
    - 新建 `variant_cache` 共享题池；
    - 给 `practice_variants` 增加 `cache_id`、`source_hash`、`reused` 三列。必须排在 004 之后；若 004 未执行，本迁移会整体回滚，补 004 后重跑即可。
+6. `supabase/migrations/20261113130000_image_transcript.sql`
+   - 新建 `submission_transcripts` 图片作答转写缓存；
+   - 给 `problem_grading` 增加 `transcript` 列。需先执行 `20261110000000_ai_grading.sql`。
 
 每份迁移都以 `notify pgrst, 'reload schema'` 结束，并只授权 `service_role`。执行前确认目标项目；执行后核对表存在、RLS 开启、`anon`/`authenticated` 无权限。
 
@@ -82,6 +87,10 @@
 | `AI_REASONING_EFFORT`（可选） | 思考型模型可设为 `none` 关闭思考，避免推理占满输出预算；留空则不发送该字段 |
 | `AI_VARIANT_SHARE`（可选） | AI 仿题共享题池开关。`supabase` 模式默认开启、本地默认关闭；可显式 `on`/`off` |
 | `AI_VARIANT_POOL_SIZE`（可选） | 每道源题在题池中最多保留几道仿题，默认 3（1–10）。池满后复用使用次数最少的一道 |
+| `AI_VISION_BASE_URL`（可选） | 图片作答转写用的兼容端点；留空沿用 `AI_BASE_URL` |
+| `AI_VISION_API_KEY`（可选） | 图片转写密钥；留空沿用 `AI_API_KEY` |
+| `AI_VISION_MODEL`（可选） | 支持图片输入的模型名；留空沿用 `AI_MODEL`（仅当该模型支持视觉时有效） |
+| `AI_VISION_TIMEOUT`（可选） | 单次转写超时秒数，默认 120；手写/多图可调高 |
 
 建议：
 
@@ -190,7 +199,8 @@ python -X utf8 -m pytest tests --basetemp tmp/agent-pytest
 5. 考试预测：选“微积分上”生成模拟卷，得到 8–20 题、约 100 分；至少一道选择题或填空题标有“AI 仿题”；交卷前接口响应中不含 `answer_text`/`explanation`；交卷后出现分数、解析与知识点得分；重复交卷返回 409。
 6. 一题多练：在做过且答错的题上生成变式，接口响应不含答案；点“查看答案与解析”后才出现；自评后学情分析的 `variant_totals` 增加。
 7. 共享题池：用账号 A 对某题生成变式，再用账号 B 对同一题生成；B 的响应 `pooled=true` 且题目内容与 A 相同，服务端日志/模型用量不增加；B 的自评不影响 A 的记录；A 再点“再来一题”会得到池内另一道或（池满后）复用最少使用的一道。
-8. 未配置 AI 的环境：学情分析只显示统计并提示未配置；组卷与变式返回 503（题池已有可用仿题时仍可出题）；页面不白屏、不假报成功。
+8. 图片作答：不填文字、只上传一张作答图片并提交；若配置了视觉模型，AI 核对面板应出现“图片作答转写”，判分基于转写文字；同一修订号重复判分不重复调用视觉模型。未配置视觉模型时提示“图片作答转写未配置，请自检”，保持待自检。
+9. 未配置 AI 的环境：学情分析只显示统计并提示未配置；组卷与变式返回 503（题池已有可用仿题时仍可出题）；页面不白屏、不假报成功。
 
 ## 8. 回滚与风险
 
@@ -201,6 +211,7 @@ python -X utf8 -m pytest tests --basetemp tmp/agent-pytest
 - **AI 生题不是数学证明**：现有校验是“模型独立求解 + 答案一致性 + 解析最终结论与 answer 字段一致”，能挡住明显无解/答非所问/与原题雷同/答案与解析自相矛盾，但同模型自校验会共享盲区。生产建议：用更强模型；抽检 AI 题；保留用户反馈入口；不要承诺 AI 题 100% 正确。AI 题不进公开题库，正是为了避免未审核题目污染题库。
 - **成本**：一次组卷通常 3–6 次模型调用（蓝图 + 命题 + 校验，失败会重试）；一次变式 2–4 次；一次学情报告 1 次。开启共享题池后，同一道题的后续用户命中缓存时不再产生生题调用。接口层已有限流，但批量标注会集中消耗额度，建议分批、观察用量。
 - **共享题池放大错误题目的影响**：一条通过校验但实际有误的 AI 仿题会被多个用户复用。建议线上抽检；确认有问题时删除 `variant_cache` 对应行（见 5.1），已发出的个人记录仍保留，可单独处理。
+- **图片转写依赖视觉模型**：`AI_VISION_MODEL` 必须是支持图片输入的模型；未配置或服务商不支持图片时，纯图片作答仍降级为待自检并给出原因。手写/公式可能识别错误，转写文本会展示给本人核对，可用“自检修正”改判。图片会发送给该模型服务商，部署前需确认其数据政策；转写按修订号与图片顺序缓存，重新提交会重新计费。
 - **思考型模型**：可能把输出预算花在推理上，`ai.py` 会检测“只有 reasoning_content”并追加预算重试；若仍为空则按不可用降级，不写入半成品。
 - **本地模型实测**：qwen3.5:9b 可跑通组卷全流程，但生成题质量不稳定（例如答案算错、选择题表述不严谨），本轮把它作为演示与下限验证；线上请使用更强模型并抽检。
 - **本轮未做**：线上迁移、线上标注、线上冒烟、真实手机验收、AI 题人工全量审核、模型成本实测。`docs/` 之外的设计文档未改。

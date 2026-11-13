@@ -107,10 +107,24 @@ CREATE TABLE IF NOT EXISTS problem_grading (
  points TEXT NOT NULL,
  model TEXT NOT NULL,
  problem_version INTEGER NOT NULL,
+ transcript TEXT NOT NULL DEFAULT '',
  created_at TEXT NOT NULL,
  UNIQUE(user_id,problem_id)
 );
 CREATE INDEX IF NOT EXISTS grading_by_problem ON problem_grading(problem_id);
+
+-- 图片作答转写缓存：同一修订号与同一组图片只转写一次。
+CREATE TABLE IF NOT EXISTS submission_transcripts (
+ id TEXT PRIMARY KEY,
+ user_id TEXT NOT NULL REFERENCES profiles(id),
+ problem_id TEXT NOT NULL REFERENCES problems(id),
+ revision INTEGER NOT NULL,
+ image_ids TEXT NOT NULL,
+ text TEXT NOT NULL,
+ model TEXT NOT NULL DEFAULT '',
+ created_at TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS transcripts_owner ON submission_transcripts(user_id, problem_id);
 
 -- 模拟卷：一人一卷一行，题目与判分结果按 JSON 保存；交卷前答案不下发。
 CREATE TABLE IF NOT EXISTS mock_papers (

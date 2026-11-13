@@ -38,8 +38,15 @@ def chat(
     max_tokens=1800,
     retries=2,
     model=None,
+    json_mode=True,
+    base_url=None,
+    api_key=None,
 ):
-    """单次对话补全；失败按退避重试，仍失败抛 AIUnavailable。"""
+    """单次对话补全；失败按退避重试，仍失败抛 AIUnavailable。
+
+    `json_mode=False` 用于图片转写等纯文本输出；`base_url`/`api_key` 允许
+    视觉模型使用与文本模型不同的兼容端点（例如文本走云端、图片走本地视觉模型）。
+    """
     global _JSON_MODE
     if not config.AI_ENABLED:
         raise AIUnavailable("AI 未配置")
@@ -49,7 +56,7 @@ def chat(
         "temperature": temperature,
         "max_tokens": max_tokens,
     }
-    if _JSON_MODE:
+    if _JSON_MODE and json_mode:
         body["response_format"] = {"type": "json_object"}
     if config.AI_REASONING_EFFORT:
         body["reasoning_effort"] = config.AI_REASONING_EFFORT
@@ -57,9 +64,9 @@ def chat(
     for attempt in range(retries + 1):
         try:
             response = httpx.post(
-                config.AI_BASE_URL + "/chat/completions",
+                (base_url or config.AI_BASE_URL) + "/chat/completions",
                 headers={
-                    "Authorization": "Bearer " + config.AI_API_KEY,
+                    "Authorization": "Bearer " + (api_key or config.AI_API_KEY),
                     "Content-Type": "application/json",
                 },
                 json=body,

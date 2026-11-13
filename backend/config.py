@@ -42,6 +42,13 @@ AI_TIMEOUT = float(os.getenv("AI_TIMEOUT", "30"))
 AI_REASONING_EFFORT = os.getenv("AI_REASONING_EFFORT", "").strip()
 AI_ENABLED = bool(AI_BASE_URL and AI_API_KEY and AI_MODEL)
 
+# 图片作答转写：可独立配置视觉模型端点；留空沿用文本模型与接口。
+AI_VISION_BASE_URL = os.getenv("AI_VISION_BASE_URL", "").rstrip("/") or AI_BASE_URL
+AI_VISION_API_KEY = os.getenv("AI_VISION_API_KEY", "") or AI_API_KEY
+AI_VISION_MODEL = os.getenv("AI_VISION_MODEL", "").strip() or AI_MODEL
+AI_VISION_TIMEOUT = float(os.getenv("AI_VISION_TIMEOUT", "120"))
+AI_VISION_ENABLED = bool(AI_ENABLED and AI_VISION_MODEL)
+
 # AI 仿题共享题池：线上默认开启，本地默认关闭（本地保留每次生成新题便于调试）。
 _share = os.getenv("AI_VARIANT_SHARE", "").strip().lower()
 if _share in ("1", "true", "yes", "on"):

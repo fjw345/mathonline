@@ -32,6 +32,7 @@ from . import (
     question_gen,
     topics,
     variants,
+    vision,
 )
 from .auth import (
     auth_request,
@@ -194,6 +195,7 @@ def ai_grading(user, pid, repository=None):
         "max_score": row["max_score"],
         "points": row.get("points") or [],
         "model": row.get("model") or "",
+        "transcript": row.get("transcript") or "",
         "created_at": row["created_at"],
     }
 
@@ -681,8 +683,23 @@ def grade(pid: str, body: GradingInput, request: Request):
     a = store.get("problem_answers", problem_id=pid)
     if not a or not (a.get("text") or "").strip():
         return grading_fallback(p, user, "题目缺少文字详解，请自检")
+    submitted = (state.get("text") or "").strip()
+    transcript = ""
+    if not submitted and state.get("image_ids"):
+        # 纯图片作答：先用视觉模型转写为文字，再走既有判分引擎。
+        try:
+            transcribed = vision.transcribe(user, p, state, store)
+        except vision.VisionUnavailable as exc:
+            logging.getLogger("mathonline").warning(
+                "Image transcription unavailable: %s", type(exc).__name__
+            )
+            return grading_fallback(p, user, str(exc) or "图片作答转写暂不可用，请自检")
+        submitted = transcribed["text"]
+        transcript = transcribed["text"]
+    if not submitted:
+        return grading_fallback(p, user, "没有可判分的作答文字，请自检")
     try:
-        graded = grading.judge(p, a, state["text"])
+        graded = grading.judge(p, a, submitted)
     except ValueError as exc:
         raise HTTPException(400, "该题不支持 AI 判分。") from exc
     if graded is None:
@@ -705,6 +722,7 @@ def grade(pid: str, body: GradingInput, request: Request):
                 "points": graded["points"],
                 "model": graded["model"],
                 "problem_version": p["version"],
+                "transcript": transcript,
                 "created_at": now(),
             },
         )

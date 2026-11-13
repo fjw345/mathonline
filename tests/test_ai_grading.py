@@ -236,6 +236,7 @@ def test_grade_endpoint_records_ai_snapshot(ai, monkeypatch):
         "max_score",
         "points",
         "model",
+        "transcript",
         "created_at",
     }
     assert snapshot["result"] == "correct"
@@ -243,6 +244,7 @@ def test_grade_endpoint_records_ai_snapshot(ai, monkeypatch):
     assert snapshot["max_score"] == 2
     assert snapshot["points"] == fixed["points"]
     assert snapshot["model"] == "stub-model"
+    assert snapshot["transcript"] == ""
     assert isinstance(snapshot["created_at"], str) and snapshot["created_at"]
     row = db.get("problem_grading", problem_id="test-q2")
     assert row["user_id"] == progress["user_id"]

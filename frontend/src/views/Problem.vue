@@ -109,6 +109,7 @@ const aiPanel = computed(() => {
     overridden: p.result_source === "self_assessment" && g.result !== p.result,
     original: g.result === "correct" ? "正确" : "错误",
     points: g.points,
+    transcript: g.transcript || "",
   };
 });
 const selfAssessment = computed(() => {
@@ -1220,6 +1221,13 @@ async function comment(s: Solution) {
                   <p v-if="aiPanel.overridden" class="ai-grading-note">
                     AI 原始判分：{{ aiPanel.original }}（已被你修改）
                   </p>
+                  <div v-if="aiPanel.transcript" class="ai-transcript">
+                    <h4>图片作答转写</h4>
+                    <p class="preserve-text">{{ aiPanel.transcript }}</p>
+                    <small class="muted"
+                      >转写由视觉模型识别，仅自己可见；如识别有误，可用下方“自检修正”改判。</small
+                    >
+                  </div>
                   <ul v-if="aiPanel.points.length" class="ai-points">
                     <li
                       v-for="(item, index) in aiPanel.points"
@@ -1699,6 +1707,30 @@ async function comment(s: Solution) {
   color: var(--warning);
   font-size: 12px;
   overflow-wrap: anywhere;
+}
+.ai-transcript {
+  margin: 0 0 12px;
+  padding: 9px 10px;
+  border: 1px dashed #cfdcc8;
+  border-radius: 6px;
+  background: #fbfdf8;
+}
+.ai-transcript h4 {
+  margin: 0 0 5px;
+  font-size: 12px;
+  color: var(--green-dark);
+}
+.ai-transcript p {
+  margin: 0 0 4px;
+  max-height: 180px;
+  overflow: auto;
+  font-size: 12px;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+.ai-transcript small {
+  display: block;
+  line-height: 1.6;
 }
 .ai-points {
   display: grid;

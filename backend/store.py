@@ -48,6 +48,7 @@ TABLES = {
     "problem_answers",
     "problem_rubrics",
     "problem_grading",
+    "submission_transcripts",
     "learning_analyses",
     "mock_papers",
     "practice_variants",
@@ -176,6 +177,17 @@ class LocalStore:
                     "INTEGER NOT NULL DEFAULT 0"
                 )
             db.execute("INSERT OR IGNORE INTO schema_migrations VALUES (10)")
+            # Version 11 keeps the image-answer transcript next to the AI
+            # snapshot; the transcript cache table is created by schema.sql.
+            grading_columns = {
+                row["name"] for row in db.execute("PRAGMA table_info(problem_grading)")
+            }
+            if "transcript" not in grading_columns:
+                db.execute(
+                    "ALTER TABLE problem_grading ADD COLUMN transcript "
+                    "TEXT NOT NULL DEFAULT ''"
+                )
+            db.execute("INSERT OR IGNORE INTO schema_migrations VALUES (11)")
             db.commit()
 
     def connect(self):
