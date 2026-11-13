@@ -1,0 +1,203 @@
+@startuml
+' ============================================================================
+' 北交大数学在线刷题平台 — 用例图（Use Case Diagram）
+' 覆盖范围：UC-01 至 UC-28，其中 UC-22、UC-23 为后续迭代
+' 2026-11-12 局部修订；同目录 PNG 为早期渲染，后续统一更新。
+' 语义来源：do-math-problem-online项目开发计划.md
+' ============================================================================
+
+' 固定使用 PlantUML 内置的 smetana 布局：只要装了 Graphviz，PlantUML 就会自动改用它，
+' 而 Graphviz 会为了减少交叉打乱用例顺序（UC-16 会跑到 UC-14 前面）。固定布局后，
+' 任何机器上渲染出的结果都与提交的 PNG/SVG 一致，也不要求使用者安装 Graphviz。
+!pragma layout smetana
+
+!theme plain
+' !theme plain 会把字体设为 Verdana（无中文字形），必须在主题之后显式改回中文字体
+skinparam defaultFontName "Microsoft YaHei"
+
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam packageStyle rectangle
+skinparam ArrowColor #455A64
+
+skinparam usecase {
+  BackgroundColor #FFFFFF
+  BorderColor #546E7A
+  FontColor #263238
+}
+skinparam actor {
+  BackgroundColor #FFFFFF
+  BorderColor #37474F
+  FontColor #263238
+}
+skinparam rectangle {
+  BackgroundColor #FAFBFC
+  BorderColor #37474F
+  FontColor #263238
+}
+skinparam note {
+  BackgroundColor #FFFDE7
+  BorderColor #C0CA33
+  FontColor #424242
+}
+skinparam legend {
+  BackgroundColor #FFFFFF
+  BorderColor #B0BEC5
+  FontColor #37474F
+}
+
+left to right direction
+
+title 北交大数学在线刷题平台用例图
+
+' ============================================================================
+' 参与者（Actors）：4 个业务角色
+' ============================================================================
+
+actor "游客（未登录）" as guest
+actor "注册用户" as registered
+actor "审核人员" as reviewer
+actor "管理员" as administrator
+
+' 参与者泛化：审核人员、管理员是注册用户的特殊角色，两者平级且互不继承。
+' 游客与注册用户之间不画泛化——登录是同一使用者的状态变化，不是角色继承。
+registered <|-- reviewer
+registered <|-- administrator
+
+' ============================================================================
+' 系统边界与业务分包（System Boundary / Packages）
+' ============================================================================
+
+rectangle "北交大数学在线刷题平台" {
+
+  package "账号与资料" {
+    usecase "UC-01\n注册账号" as UC01
+    usecase "UC-02\n登录" as UC02
+    usecase "UC-03\n找回密码" as UC03
+    usecase "UC-04\n管理个人资料" as UC04
+  }
+
+  package "练习与答案" {
+    usecase "UC-05\n筛选题目" as UC05
+    usecase "UC-06\n浏览题目详情" as UC06
+    usecase "UC-07\n作答题目" as UC07
+    usecase "UC-08\n查看参考答案与解析" as UC08
+    usecase "UC-09\n完成每日一题" as UC09
+    usecase "UC-10\n随机练习" as UC10
+  }
+
+  package "记录与个人中心" {
+    usecase "UC-11\n查看做题历史与错题" as UC11
+    usecase "UC-12\n查看个人主页与发布记录" as UC12
+    usecase "UC-13\n查看点赞内容" as UC13
+  }
+
+  package "题解社区" {
+    usecase "UC-14\n发布题解" as UC14
+    usecase "UC-15\n点赞" as UC15
+    usecase "UC-15-1\n点赞题目" as UC151
+    usecase "UC-15-2\n点赞题解" as UC152
+    usecase "UC-16\n评论题解" as UC16
+    usecase "UC-17\n查看互动通知" as UC17
+  }
+
+  package "内容与题库管理" {
+    usecase "UC-18\n审核题解与评论" as UC18
+    usecase "UC-19\n维护题库、答案与标签" as UC19
+    usecase "UC-20\n分配角色" as UC20
+    usecase "UC-21\n查看审核记录" as UC21
+  }
+
+  package "练习与答案（P2）" {
+    usecase "UC-22\n请求大模型辅助判题" as UC22
+    usecase "UC-23\n参与生存试炼" as UC23
+  }
+
+  package "已有迭代功能" {
+    usecase "UC-24\n浏览论坛题解" as UC24
+    usecase "UC-25\n查看更新信箱" as UC25
+    usecase "UC-26\n邀请用户并解锁资料" as UC26
+    usecase "UC-27\n反馈题目问题" as UC27
+    usecase "UC-28\n管理公告与题目反馈" as UC28
+  }
+
+}
+
+' ============================================================================
+' 关联（Association）：参与者与用例之间可发起的连接
+' ============================================================================
+
+' 游客：未登录即可使用的用例
+guest --> UC01
+guest --> UC02
+guest --> UC03
+guest --> UC05
+guest --> UC06
+guest --> UC24
+
+' 注册用户
+registered --> UC04
+registered --> UC07
+registered --> UC08
+registered --> UC24
+registered --> UC25
+registered --> UC26
+registered --> UC27
+registered --> UC09
+registered --> UC10
+registered --> UC22
+registered --> UC23
+registered --> UC11
+registered --> UC12
+registered --> UC13
+registered --> UC14
+registered --> UC15
+registered --> UC16
+registered --> UC17
+
+' 审核人员
+reviewer --> UC18
+
+' 管理员
+administrator --> UC19
+administrator --> UC18
+administrator --> UC28
+administrator --> UC20
+administrator --> UC21
+
+' 说明：UC-03 找回密码只由「游客（未登录）」发起，已登录用户不出现该入口。
+
+' ============================================================================
+' 用例之间的关系（include / extend / 用例泛化）
+' ============================================================================
+
+UC09 ..> UC07 : <<include>>
+UC08 ..> UC07 : <<extend>>
+
+UC15 <|-- UC151
+UC15 <|-- UC152
+
+' ============================================================================
+' 业务规则不以图内浮标（note）表达：浮标会被自动布局甩到画布边缘并拉出横穿
+' 全图的长引线，图内只保留图例与边界说明。
+' ============================================================================
+
+legend right
+  == 图例 ==
+  实线：参与者可发起的关联
+  虚线 <<include>>：被包含用例必定执行
+  虚线 <<extend>>：在被扩展用例的特定条件下可选执行
+  实线空心三角：泛化（子类继承父类能力）
+
+  == 边界说明 ==
+  基线范围：账号、练习、记录、社区、管理
+  后续迭代：UC-22 小参数大模型辅助判题、UC-23 生存试炼
+  已有迭代：论坛、更新信箱、邀请资料、题目反馈与公告管理
+  参考答案：登录并提交作答或选择“不会”后解锁
+  UC-21 已有审核日志留痕，独立查询页面待完善
+  不包含：在线 PK
+  也不包含 PDF 抽取、OCR、导入脚本等技术实现
+  「题解发布用户」不是独立角色：注册用户曾做对某题后即获得发布资格
+endlegend
+
+@enduml
