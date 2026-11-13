@@ -36,6 +36,8 @@ AI_API_KEY = os.getenv("AI_API_KEY", "")
 AI_MODEL = os.getenv("AI_MODEL", "")
 # 可选：考试预测蓝图单独用一个快速模型，避免强推理模型在长提示上超时或截断。
 AI_BLUEPRINT_MODEL = os.getenv("AI_BLUEPRINT_MODEL", "").strip() or AI_MODEL
+# 可选：AI 生题（仿题/模拟卷 AI 题）单独用更强的模型；留空沿用 AI_MODEL。
+AI_VARIANT_MODEL = os.getenv("AI_VARIANT_MODEL", "").strip() or AI_MODEL
 AI_TIMEOUT = float(os.getenv("AI_TIMEOUT", "30"))
 # 可选：思考型模型（如 Ollama qwen3）可用 none 关闭思考，避免推理占满输出预算。
 # 留空表示不发送该字段，兼容不识别它的服务商。

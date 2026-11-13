@@ -629,7 +629,7 @@ async function practiceVariant() {
     const data = await api<Variant>("/me/problems/" + p.id + "/variants", {
       method: "POST",
       body: "{}",
-      signal: AbortSignal.timeout(240000),
+      signal: AbortSignal.timeout(300000),
     });
     variant.value = data;
     variantAnswerOpen.value = false;

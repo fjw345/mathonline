@@ -137,7 +137,7 @@ def test_variant_generation_failure_degrades(env, monkeypatch):
     monkeypatch.setattr(ai, "chat", lambda *args, **kwargs: "不是 JSON")
     response = client.post("/api/v1/me/problems/test-q2/variants")
     assert response.status_code == 503
-    assert "未通过可解性校验" in response.json()["detail"]
+    assert "暂时无法生成可靠的变式" in response.json()["detail"]
     assert db.list("practice_variants") == []
 
 

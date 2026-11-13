@@ -75,7 +75,7 @@ async function create(subject: string) {
     const paper = await api<MockPaper>("/mock/papers", {
       method: "POST",
       body: JSON.stringify({ subject, difficulty: difficulty.value }),
-      signal: AbortSignal.timeout(240000),
+      signal: AbortSignal.timeout(360000),
     });
     await router.push("/mock/" + paper.id);
   } catch (e) {

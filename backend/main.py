@@ -1072,7 +1072,8 @@ def create_practice_variant(pid: str, request: Request):
         raise HTTPException(503, "AI 变式练习未配置，请联系管理员。") from exc
     except question_gen.GenerationError as exc:
         raise HTTPException(
-            503, "AI 变式题未通过可解性校验，请稍后重试。"
+            503,
+            "这道题暂时无法生成可靠的变式，请换一道题或稍后再试。",
         ) from exc
     return variants.variant_payload(row)
 

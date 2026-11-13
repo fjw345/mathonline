@@ -97,27 +97,31 @@ def build_verify_messages(item):
     ]
 
 
-def generate_verified(seed, answer_text, subject, kind, attempts=4):
+def generate_verified(seed, answer_text, subject, kind, attempts=4, model=None):
     """生成并核验一道题；全部尝试失败抛 GenerationError，模型不可用抛 AIUnavailable。"""
     if not ai.enabled():
         raise ai.AIUnavailable("AI 生题未配置")
     if kind not in ("choice", "blank", "solution"):
         raise GenerationError("不支持的题型")
+    model = model or config.AI_MODEL
     last_reason = ""
     for _attempt in range(max(1, attempts)):
         try:
             payload = ai.complete_json(
                 build_generation_messages(seed, answer_text, subject, kind),
                 max_tokens=4000,
+                model=model,
             )
             item = normalize_generated(payload, kind)
             if not item:
                 last_reason = "结构不完整"
                 continue
+            if item.get("model"):
+                item["model"] = model
             if same_as_seed(item, seed):
                 last_reason = "与原题过于相似"
                 continue
-            if not verify_item(item):
+            if not verify_item(item, model=model):
                 last_reason = "独立求解未通过"
                 continue
             return item
@@ -188,9 +192,11 @@ def normalize_generated(payload, kind):
     }
 
 
-def verify_item(item):
+def verify_item(item, model=None):
     try:
-        payload = ai.complete_json(build_verify_messages(item), max_tokens=1400)
+        payload = ai.complete_json(
+            build_verify_messages(item), max_tokens=1400, model=model
+        )
     except ai.AIUnavailable:
         return False
     if not all(_as_bool(payload.get(key)) for key in ("solvable", "unique")):

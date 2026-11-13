@@ -121,6 +121,8 @@ def _generate(problem, answer_text, subject, kind):
         answer_text,
         subject,
         kind,
+        attempts=3,
+        model=config.AI_VARIANT_MODEL,
     )
 
 
