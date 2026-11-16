@@ -23,6 +23,14 @@ defineProps<{ problem: Problem }>();
       <p v-else class="card-text-missing">本题文字版整理中</p>
     </div>
     <h3>{{ problem.title }}</h3>
+    <div v-if="problem.knowledge_points.length" class="knowledge-row">
+      <span
+        v-for="item in problem.knowledge_points.slice(0, 2)"
+        :key="item.code"
+        class="knowledge-chip"
+        >{{ item.name }}</span
+      >
+    </div>
     <div class="card-foot">
       <span>{{ problem.tags.join("、") }}</span
       ><span

@@ -20,9 +20,21 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from PIL import Image, UnidentifiedImageError
-from pydantic import BaseModel, Field, ValidationError, field_validator
+from pydantic import BaseModel, Field, SecretStr, ValidationError, field_validator
 
-from . import config, outreach
+from . import (
+    ai,
+    analysis,
+    config,
+    grading,
+    mockexam,
+    outreach,
+    question_gen,
+    topics,
+    user_ai,
+    variants,
+    vision,
+)
 from .auth import (
     auth_request,
     current_user,
@@ -131,6 +143,11 @@ class Assessment(BaseModel):
     revision: int = Field(ge=1)
 
 
+class GradingInput(BaseModel):
+    problem_version: int = Field(ge=1)
+    revision: int = Field(ge=1)
+
+
 class Content(BaseModel):
     body: str = Field(default="", max_length=20000)
     image_ids: list[str] = Field(default_factory=list, max_length=5)
@@ -167,13 +184,47 @@ def images_info(ids, repository=None, strict=True):
     return result
 
 
+def ai_grading(user, pid, state, repository=None):
+    """Latest AI snapshot for one problem, shaped like the frontend AiGrading."""
+    repository = repository or store
+    row = repository.get("problem_grading", user_id=user["id"], problem_id=pid)
+    if (
+        not row
+        or row.get("problem_version") != state["problem_version"]
+        or row.get("submission_revision") != state["revision"]
+    ):
+        return None
+    return {
+        "result": row["result"],
+        "score": row["score"],
+        "max_score": row["max_score"],
+        "points": row.get("points") or [],
+        "model": row.get("model") or "",
+        "transcript": row.get("transcript") or "",
+        "created_at": row["created_at"],
+    }
+
+
+def grading_fallback(p, user, reason):
+    """AI 判分不可用时的降级响应：200 + available=false，前端据此停在待自检。"""
+    return {
+        "available": False,
+        "reason": reason,
+        "problem": public_problem(p, user),
+    }
+
+
 def public_problem(p, user=None, repository=None):
     repository = repository or store
     result = dict(p)
     result.pop("difficulty", None)
+    result.pop("knowledge_source", None)
     result.setdefault("question_text", "")
     # Public pages are text-first; a missing legacy screenshot must not break
     # the text question. Admin listing keeps strict=True to surface the issue.
+    result["knowledge_points"] = topics.resolve(
+        p.get("knowledge_points") or [], p.get("subject")
+    )
     result["question_images"] = images_info(
         p["question_images"], repository, strict=False
     )
@@ -182,6 +233,7 @@ def public_problem(p, user=None, repository=None):
         state["outdated"] = state["problem_version"] != p["version"]
         state["can_publish"] = state["correct_version"] == p["version"]
         state["images"] = images_info(state["image_ids"], repository, strict=False)
+        state["ai_grading"] = ai_grading(user, p["id"], state, repository)
     result["progress"] = state
     result["answer_unlocked"] = bool(
         state
@@ -209,7 +261,7 @@ def validate_images(ids, user, purpose):
 def filters_for(request):
     return {
         k: request.query_params[k]
-        for k in ("year", "type", "tag", "q")
+        for k in ("year", "type", "tag", "knowledge", "q")
         if request.query_params.get(k)
     }
 
@@ -243,6 +295,19 @@ def health():
     }
 
 
+def knowledge_summary(rows):
+    """Count tagged problems per knowledge point for the public filter."""
+    counts = {}
+    for row in rows:
+        for code in row.get("knowledge_points") or []:
+            if topics.knows(code):
+                counts[code] = counts.get(code, 0) + 1
+    return [
+        {**item, "count": counts.get(item["code"], 0)}
+        for item in topics.catalog()
+    ]
+
+
 @app.get("/api/v1/catalog")
 def catalog():
     if hasattr(store, "catalog"):
@@ -252,6 +317,7 @@ def catalog():
         "total": len(rows),
         "years": sorted({p["year"] for p in rows}, reverse=True),
         "tags": sorted({t for p in rows for t in p["tags"]}),
+        "knowledge": knowledge_summary(rows),
         "counts": {
             t: sum(p["type"] == t for p in rows)
             for t in ("blank", "solution", "choice")
@@ -443,6 +509,91 @@ def edit_profile(body: dict, request: Request):
     return user
 
 
+class AIKeyInput(BaseModel):
+    api_key: SecretStr
+
+
+def ai_key_status(user):
+    data = user_ai.status(user["id"])
+    data["available"] = ai.enabled()
+    data["reason"] = ai.reason()
+    return data
+
+
+def ai_key_table_missing(exc):
+    return exc.response.status_code in (400, 404)
+
+
+@app.get("/api/v1/me/ai-key")
+def read_ai_key(request: Request):
+    user = current_user(request)
+    try:
+        return ai_key_status(user)
+    except httpx.HTTPStatusError as exc:
+        if ai_key_table_missing(exc):
+            raise HTTPException(
+                503, "AI 密钥功能待管理员完成数据库更新。"
+            ) from exc
+        raise
+
+
+@app.put("/api/v1/me/ai-key")
+def save_ai_key(body: AIKeyInput, request: Request):
+    user = current_user(request)
+    from .rate_limit import allow
+
+    if not allow("ai-key:" + user["id"], 5, 60):
+        raise HTTPException(429, "保存密钥过于频繁，请稍后再试。")
+    try:
+        value = user_ai.normalize(body.api_key.get_secret_value())
+        user_ai.ensure_ready()  # 先确认服务端能加密，避免白跑一次校验请求
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from exc
+    except user_ai.KeyUnavailable as exc:
+        raise HTTPException(503, str(exc)) from exc
+    try:
+        user_ai.verify(value)
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from exc
+    except user_ai.KeyUnavailable as exc:
+        raise HTTPException(502, str(exc)) from exc
+    try:
+        user_ai.save(user["id"], value)
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from exc
+    except user_ai.KeyUnavailable as exc:
+        raise HTTPException(503, str(exc)) from exc
+    except httpx.HTTPStatusError as exc:
+        if ai_key_table_missing(exc):
+            raise HTTPException(
+                503, "AI 密钥功能待管理员完成数据库更新。"
+            ) from exc
+        raise
+    ai.clear_user()
+    ai.bind_user(user["id"])
+    return ai_key_status(user)
+
+
+@app.delete("/api/v1/me/ai-key")
+def delete_ai_key(request: Request):
+    user = current_user(request)
+    from .rate_limit import allow
+
+    if not allow("ai-key:" + user["id"], 5, 60):
+        raise HTTPException(429, "操作过于频繁，请稍后再试。")
+    try:
+        user_ai.remove(user["id"])
+    except httpx.HTTPStatusError as exc:
+        if ai_key_table_missing(exc):
+            raise HTTPException(
+                503, "AI 密钥功能待管理员完成数据库更新。"
+            ) from exc
+        raise
+    ai.clear_user()
+    ai.bind_user(user["id"])
+    return ai_key_status(user)
+
+
 @app.get("/api/v1/problems")
 def problems(request: Request, page: int = 1, page_size: int = 12):
     if page < 1 or not 1 <= page_size <= 100:
@@ -554,7 +705,10 @@ def daily(request: Request, body: dict):
     user = current_user(request)
     assignment = assign_daily(
         user,
-        {k: v for k, v in body.items() if k in ("year", "type", "tag", "q")},
+        {
+            k: v for k, v in body.items()
+            if k in ("year", "type", "tag", "knowledge", "q")
+        },
     )
     p = problem_or_404(assignment["problem_id"])
     with read_store(store) as reader:
@@ -598,6 +752,66 @@ def assess(pid: str, body: Assessment, request: Request):
         raise HTTPException(400, "选择题不接受自评。")
     apply_progress(user, p, "", [], body.result, body.revision)
     return public_problem(p, user)
+
+
+@app.post("/api/v1/me/problems/{pid}/grade")
+def grade(pid: str, body: GradingInput, request: Request):
+    user = current_user(request)
+    p = problem_or_404(pid)
+    if body.problem_version != p["version"]:
+        raise HTTPException(409, "题目已修改，请刷新后重试。")
+    if p["grading_mode"] == "choice":
+        raise HTTPException(400, "选择题已自动判分。")
+    from .rate_limit import allow
+
+    if not allow("grade:" + user["id"], 20, 60):
+        raise HTTPException(429, "判分请求过于频繁，请稍后再试。")
+    state = progress(user, pid)
+    if not state:
+        raise HTTPException(403, "请先提交作答。")
+    if state["result"] != "pending":
+        raise HTTPException(409, "本次作答已判分或已自检，请刷新后重试。")
+    if state["revision"] != body.revision:
+        raise HTTPException(409, "作答已更新，请刷新后重新核对。")
+    a = store.get("problem_answers", problem_id=pid)
+    if not a or not (a.get("text") or "").strip():
+        return grading_fallback(p, user, "题目缺少文字详解，请自检")
+    submitted = (state.get("text") or "").strip()
+    transcript = ""
+    if not submitted and state.get("image_ids"):
+        # 纯图片作答：先用视觉模型转写为文字，再走既有判分引擎。
+        try:
+            transcribed = vision.transcribe(user, p, state, store)
+        except vision.VisionUnavailable as exc:
+            logging.getLogger("mathonline").warning(
+                "Image transcription unavailable: %s", type(exc).__name__
+            )
+            return grading_fallback(p, user, str(exc) or "图片作答转写暂不可用，请自检")
+        submitted = transcribed["text"]
+        transcript = transcribed["text"]
+    if not submitted:
+        return grading_fallback(p, user, "没有可判分的作答文字，请自检")
+    try:
+        graded = grading.judge(p, a, submitted)
+    except ValueError as exc:
+        raise HTTPException(400, "该题不支持 AI 判分。") from exc
+    if graded is None:
+        return grading_fallback(p, user, ai.reason() or "AI 判分暂不可用，请自检")
+    try:
+        apply_progress(
+            user, p, "", [], graded["result"], body.revision, result_source="ai",
+            grading_snapshot={**graded, "transcript": transcript},
+        )
+    except HTTPException:
+        raise
+    except Exception as exc:
+        logging.getLogger("mathonline").error(
+            "AI grading snapshot failed: %s", type(exc).__name__
+        )
+        raise HTTPException(
+            503, "AI 判分未保存，请确认数据库已更新后重试或自检。"
+        ) from exc
+    return {"available": True, "reason": "", "problem": public_problem(p, user)}
 
 
 @app.get("/api/v1/me/history")
@@ -645,6 +859,346 @@ def master_mistake(pid: str, request: Request):
             },
         )
     return {"ok": True}
+
+
+def analysis_stats(user):
+    states = store.list("user_problem_progress", user_id=user["id"])
+    mistakes = mistake_rows(user, states)
+    try:
+        papers = store.list("mock_papers", user_id=user["id"])
+    except httpx.HTTPStatusError as exc:
+        if not missing_mistake_table(exc):
+            raise
+        papers = []
+    try:
+        variant_rows = store.list("practice_variants", user_id=user["id"])
+    except httpx.HTTPStatusError as exc:
+        if not missing_mistake_table(exc):
+            raise
+        variant_rows = []
+    return analysis.build(
+        user,
+        store,
+        [row["problem_id"] for row in mistakes],
+        states=states,
+        mock_papers=papers,
+        variants=variant_rows,
+    )
+
+
+def analysis_cache(user):
+    try:
+        return store.get("learning_analyses", id=user["id"])
+    except httpx.HTTPStatusError as exc:
+        if missing_mistake_table(exc):
+            return None
+        raise
+
+
+def cached_report(row, stats):
+    if not row or row.get("fingerprint") != stats["fingerprint"]:
+        return None
+    report = row.get("report")
+    if not isinstance(report, dict) or not report:
+        return None
+    return {
+        **report,
+        "model": row.get("model") or "",
+        "created_at": row.get("created_at") or "",
+    }
+
+
+@app.get("/api/v1/me/analysis")
+def my_analysis(request: Request):
+    user = current_user(request)
+    stats = analysis_stats(user)
+    report = cached_report(analysis_cache(user), stats)
+    return {
+        "stats": stats,
+        "report": report,
+        "available": ai.enabled(),
+        "reason": ai.reason(),
+    }
+
+
+@app.post("/api/v1/me/analysis")
+def generate_my_analysis(request: Request, refresh: bool = False):
+    user = current_user(request)
+    stats = analysis_stats(user)
+    cached = cached_report(analysis_cache(user), stats)
+    if cached and not refresh:
+        return {"stats": stats, "report": cached, "available": True, "reason": ""}
+    if not ai.enabled():
+        raise HTTPException(503, ai.reason() or "AI 学情分析未配置，请联系管理员。")
+    from .rate_limit import allow
+
+    if not allow("analysis:" + user["id"], 6, 60):
+        raise HTTPException(429, "分析请求过于频繁，请稍后再试。")
+    try:
+        report = analysis.generate_report(stats)
+    except ai.AIUnavailable as exc:
+        logging.getLogger("mathonline").warning(
+            "AI analysis unavailable: %s", type(exc).__name__
+        )
+        raise HTTPException(
+            503, ai.reason() or str(exc) or "AI 分析暂不可用，请稍后再试。"
+        ) from exc
+    created = now()
+    store.put(
+        "learning_analyses",
+        {
+            "id": user["id"],
+            "fingerprint": stats["fingerprint"],
+            "stats": stats,
+            "report": report,
+            "model": config.AI_MODEL,
+            "created_at": created,
+        },
+    )
+    return {
+        "stats": stats,
+        "report": {**report, "model": config.AI_MODEL, "created_at": created},
+        "available": True,
+        "reason": "",
+    }
+
+
+class MockPaperInput(BaseModel):
+    subject: Literal["微积分上", "微积分下", "线性代数", "概率论"]
+    difficulty: Literal["standard", "easier", "harder"] = "standard"
+
+
+class MockAnswer(BaseModel):
+    item_id: str = Field(min_length=1, max_length=80)
+    text: str = Field(default="", max_length=8000)
+    options: list[str] = Field(default_factory=list, max_length=8)
+
+
+class MockSubmission(BaseModel):
+    answers: list[MockAnswer] = Field(default_factory=list, max_length=40)
+
+
+class MockItemReview(BaseModel):
+    result: Literal["correct", "incorrect"]
+
+
+def mock_table_error(exc):
+    return missing_mistake_table(exc)
+
+
+def mock_paper_or_404(pid, user):
+    try:
+        paper = store.get("mock_papers", id=pid)
+    except httpx.HTTPStatusError as exc:
+        if mock_table_error(exc):
+            raise HTTPException(
+                503, "模拟卷功能待管理员完成数据库更新，请稍后重试。"
+            ) from exc
+        raise
+    if not paper or paper["user_id"] != user["id"]:
+        raise HTTPException(404, "模拟卷不存在。")
+    return paper
+
+
+def mock_summary(paper):
+    return {
+        "id": paper["id"],
+        "subject": paper["subject"],
+        "title": paper["title"],
+        "status": paper["status"],
+        "score": paper.get("score", 0),
+        "max_score": paper.get("max_score", 0),
+        "duration_minutes": paper.get("duration_minutes"),
+        "ai_items": sum(1 for item in paper["items"] if item.get("origin") == "ai"),
+        "created_at": paper.get("created_at"),
+        "submitted_at": paper.get("submitted_at"),
+    }
+
+
+@app.get("/api/v1/mock/subjects")
+def mock_subjects(request: Request):
+    user = current_user(request, False)
+    return {
+        "subjects": mockexam.subjects_overview(store.list("problems")),
+        "ai": ai.model_ready(),
+        "ai_key": bool(user and ai.enabled()),
+    }
+
+
+@app.get("/api/v1/mock/papers")
+def my_mock_papers(request: Request):
+    user = current_user(request)
+    try:
+        rows = store.list("mock_papers", user_id=user["id"])
+    except httpx.HTTPStatusError as exc:
+        if mock_table_error(exc):
+            raise HTTPException(
+                503, "模拟卷功能待管理员完成数据库更新，请稍后重试。"
+            ) from exc
+        raise
+    rows.sort(key=lambda paper: paper.get("created_at") or "", reverse=True)
+    return {"total": len(rows), "items": [mock_summary(paper) for paper in rows]}
+
+
+@app.post("/api/v1/mock/papers")
+def create_mock_paper(body: MockPaperInput, request: Request):
+    user = current_user(request)
+    from .rate_limit import allow
+
+    if not allow("mock:" + user["id"], 3, 120):
+        raise HTTPException(429, "组卷请求过于频繁，请稍后再试。")
+    problems = store.list("problems")
+    answers = {a["problem_id"]: a for a in store.list("problem_answers")}
+    seen = {
+        row["problem_id"]
+        for row in store.list("user_problem_progress", user_id=user["id"])
+    }
+    try:
+        paper = mockexam.create_paper(
+            user, body.subject, body.difficulty, problems, answers, seen, store
+        )
+    except mockexam.MockUnavailable as exc:
+        raise HTTPException(503, str(exc)) from exc
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from exc
+    store.put("mock_papers", paper)
+    return mockexam.paper_payload(paper)
+
+
+@app.get("/api/v1/mock/papers/{pid}")
+def get_mock_paper(pid: str, request: Request):
+    user = current_user(request)
+    return mockexam.paper_payload(mock_paper_or_404(pid, user))
+
+
+@app.put("/api/v1/mock/papers/{pid}/submission")
+def submit_mock_paper(pid: str, body: MockSubmission, request: Request):
+    user = current_user(request)
+    paper = mock_paper_or_404(pid, user)
+    if paper["status"] != "ready":
+        raise HTTPException(409, "该模拟卷已交卷，不能重复提交。")
+    from .rate_limit import allow
+
+    if not allow("mock-submit:" + user["id"], 6, 60):
+        raise HTTPException(429, "交卷过于频繁，请稍后再试。")
+    answers = {
+        answer.item_id: {"text": answer.text, "options": answer.options}
+        for answer in body.answers
+    }
+    mockexam.grade_answers(paper, answers)
+    store.put("mock_papers", paper)
+    return mockexam.paper_payload(paper, include_answers=True)
+
+
+@app.patch("/api/v1/mock/papers/{pid}/items/{item_id}")
+def review_mock_item(pid: str, item_id: str, body: MockItemReview, request: Request):
+    user = current_user(request)
+    paper = mock_paper_or_404(pid, user)
+    if paper["status"] != "submitted":
+        raise HTTPException(409, "请先交卷，再自评。")
+    item = next((row for row in paper["items"] if row["id"] == item_id), None)
+    if not item:
+        raise HTTPException(404, "题目不存在。")
+    if item.get("result") != "pending":
+        raise HTTPException(409, "该题已有结论。")
+    item["result"] = body.result
+    item["score"] = item["points"] if body.result == "correct" else 0
+    item["feedback"] = "已自评"
+    paper["score"] = sum(row["score"] for row in paper["items"])
+    paper["knowledge_summary"] = mockexam.knowledge_summary(paper)
+    paper["updated_at"] = now()
+    store.put("mock_papers", paper)
+    return mockexam.paper_payload(paper, include_answers=True)
+
+
+@app.delete("/api/v1/mock/papers/{pid}")
+def delete_mock_paper(pid: str, request: Request):
+    user = current_user(request)
+    mock_paper_or_404(pid, user)
+    store.delete("mock_papers", id=pid)
+    return {"ok": True}
+
+
+class VariantReview(BaseModel):
+    result: Literal["correct", "incorrect"]
+
+
+def variant_or_404(vid, user):
+    try:
+        row = store.get("practice_variants", id=vid)
+    except httpx.HTTPStatusError as exc:
+        if mock_table_error(exc):
+            raise HTTPException(
+                503, "变式练习功能待管理员完成数据库更新，请稍后重试。"
+            ) from exc
+        raise
+    if not row or row["user_id"] != user["id"]:
+        raise HTTPException(404, "变式题不存在。")
+    return row
+
+
+@app.post("/api/v1/me/problems/{pid}/variants")
+def create_practice_variant(pid: str, request: Request):
+    user = current_user(request)
+    problem = problem_or_404(pid)
+    answer = store.get("problem_answers", problem_id=pid)
+    if not answer or not (answer.get("text") or "").strip():
+        raise HTTPException(400, "该题缺少文字答案，暂不能生成变式题。")
+    from .rate_limit import allow
+
+    if not allow("variant:" + user["id"], 6, 60):
+        raise HTTPException(429, "变式题生成过于频繁，请稍后再试。")
+    try:
+        row = variants.create_variant(user, problem, answer, store)
+    except ai.AIUnavailable as exc:
+        raise HTTPException(
+            503, ai.reason() or str(exc) or "AI 变式练习未配置，请联系管理员。"
+        ) from exc
+    except question_gen.GenerationError as exc:
+        raise HTTPException(
+            503,
+            "这道题暂时无法生成可靠的变式，请换一道题或稍后再试。",
+        ) from exc
+    return variants.variant_payload(row)
+
+
+@app.get("/api/v1/me/variants")
+def my_variants(
+    request: Request,
+    problem_id: str = "",
+    limit: int = Query(default=20, ge=1, le=50),
+):
+    user = current_user(request)
+    where = {"user_id": user["id"]}
+    if problem_id:
+        where["problem_id"] = problem_id
+    try:
+        rows = store.list("practice_variants", **where)
+    except httpx.HTTPStatusError as exc:
+        if mock_table_error(exc):
+            raise HTTPException(
+                503, "变式练习功能待管理员完成数据库更新，请稍后重试。"
+            ) from exc
+        raise
+    rows.sort(key=lambda row: row.get("created_at") or "", reverse=True)
+    return {"items": [variants.variant_payload(row) for row in rows[:limit]]}
+
+
+@app.get("/api/v1/me/variants/{vid}/answer")
+def variant_answer(vid: str, request: Request):
+    user = current_user(request)
+    return variants.variant_payload(variant_or_404(vid, user), include_answer=True)
+
+
+@app.patch("/api/v1/me/variants/{vid}")
+def review_variant(vid: str, body: VariantReview, request: Request):
+    user = current_user(request)
+    row = variant_or_404(vid, user)
+    if row.get("result"):
+        raise HTTPException(409, "这道变式题已自评。")
+    variants.mark_result(row, body.result)
+    store.put("practice_variants", row)
+    return variants.variant_payload(row, include_answer=True)
 
 
 @app.get("/api/v1/me/likes")
@@ -1014,9 +1568,12 @@ def admin_problems(
             reader.prepare_problems(rows, admin=True)
         for p in rows:
             answer = reader.get("problem_answers", problem_id=p["id"])
+            codes = p.get("knowledge_points") or []
             result.append(
                 {
-                    **p,
+                    **{k: v for k, v in p.items() if k != "knowledge_points"},
+                    "knowledge_points": topics.resolve(codes, p.get("subject")),
+                    "knowledge_codes": codes,
                     "question_images": images_info(p["question_images"], reader),
                     "answer": {
                         **answer,
@@ -1032,11 +1589,20 @@ def admin_problems(
 def create_problem(body: dict, request: Request):
     require_admin(request)
     source = body.get("source", {})
-    raw = {k: v for k, v in body.items() if k != "source"}
+    knowledge_raw = body.get("knowledge_points")
+    raw = {
+        k: v
+        for k, v in body.items()
+        if k not in ("source", "knowledge_points", "knowledge_source")
+    }
     try:
         p = ProblemRecord.model_validate(raw).model_dump()
     except ValidationError:
         raise HTTPException(400, "请填写有效的稳定 ID、来源和题目信息。")
+    if isinstance(knowledge_raw, list) and topics.invalid_codes(
+        knowledge_raw, p["subject"]
+    ):
+        raise HTTPException(400, "知识点标签无效或与该学科不符。")
     if store.get("problems", id=p["id"]):
         raise HTTPException(409, "稳定 ID 已存在，请编辑原题或使用新的 ID。")
     for role, ids in [
@@ -1080,6 +1646,19 @@ def create_problem(body: dict, request: Request):
         )
     except ValueError as e:
         raise HTTPException(400, str(e))
+    if isinstance(knowledge_raw, list) and knowledge_raw:
+        store.apply_knowledge(
+            [
+                {
+                    "id": p["id"],
+                    "knowledge_points": topics.normalize_codes(
+                        knowledge_raw, p["subject"]
+                    ),
+                    "difficulty": None,
+                    "knowledge_source": "manual",
+                }
+            ]
+        )
     return result
 
 
@@ -1123,11 +1702,13 @@ def edit_problem(pid: str, body: dict, request: Request):
         or len(p["title"]) > 200
     ):
         raise HTTPException(400, "标题需要 1 至 200 个字符。")
-    p["difficulty"] = None
     if not isinstance(p["tags"], list) or any(
         not isinstance(t, str) or len(t) > 60 for t in p["tags"]
     ):
         raise HTTPException(400, "标签格式无效。")
+    # A content edit must not silently drop the knowledge tags or the internal
+    # difficulty used by weak-point analysis and mock-exam assembly.
+    p["difficulty"] = topics.clamp_difficulty(p.get("difficulty")) or None
     if not p["question_images"]:
         raise HTTPException(400, "至少保留一张题干图片。")
     for label, value in (
@@ -1152,8 +1733,13 @@ def edit_problem(pid: str, body: dict, request: Request):
     ):
         raise HTTPException(400, "请配置有效选择题选项和答案。")
     try:
+        # The row also carries knowledge/difficulty metadata that is not part of
+        # the import model; validate only the fields the model owns.
         ProblemRecord.model_validate(
-            {**p, "answer": {k: v for k, v in a.items() if k != "problem_id"}}
+            {
+                **{k: p[k] for k in ProblemRecord.model_fields if k in p},
+                "answer": {k: v for k, v in a.items() if k != "problem_id"},
+            }
         )
     except ValidationError:
         raise HTTPException(400, "题目元数据格式无效，请检查年份、标签与选项配置。")
@@ -1186,6 +1772,56 @@ def edit_problem(pid: str, body: dict, request: Request):
         },
     )
     return {"ok": True, "version": p["version"]}
+
+
+class KnowledgeInput(BaseModel):
+    knowledge_points: list[str] = Field(default_factory=list, max_length=4)
+    difficulty: int | None = Field(default=None, ge=1, le=5)
+
+
+@app.put("/api/v1/admin/problems/{pid}/knowledge")
+def edit_knowledge(pid: str, body: KnowledgeInput, request: Request):
+    """人工校正知识点与内部难度，不修改题面、答案与题目版本。"""
+    user = require_admin(request)
+    p = problem_or_404(pid, True)
+    bad = topics.invalid_codes(body.knowledge_points, p["subject"])
+    if bad:
+        raise HTTPException(
+            400, "知识点标签无效或与该学科不符：" + "、".join(bad[:3])
+        )
+    codes = topics.normalize_codes(body.knowledge_points, p["subject"])
+    difficulty = (
+        body.difficulty
+        if body.difficulty is not None
+        else topics.clamp_difficulty(p.get("difficulty"))
+    )
+    store.apply_knowledge(
+        [
+            {
+                "id": pid,
+                "knowledge_points": codes,
+                "difficulty": difficulty or None,
+                "knowledge_source": "manual",
+            }
+        ]
+    )
+    store.put(
+        "moderation_logs",
+        {
+            "id": str(uuid4()),
+            "actor_id": user["id"],
+            "target_id": pid,
+            "kind": "problem",
+            "action": "knowledge",
+            "reason": "知识点：" + ",".join(codes),
+            "created_at": now(),
+        },
+    )
+    return {
+        "ok": True,
+        "knowledge_points": topics.resolve(codes, p["subject"]),
+        "difficulty": difficulty or None,
+    }
 
 
 @app.patch("/api/v1/admin/sources/{sid}")

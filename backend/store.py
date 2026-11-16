@@ -9,7 +9,7 @@ from time import monotonic
 
 import httpx
 
-from . import config
+from . import config, topics
 
 JSON_FIELDS = {
     "tags",
@@ -19,6 +19,14 @@ JSON_FIELDS = {
     "correct_options",
     "image_ids",
     "filters",
+    "points",
+    "knowledge_points",
+    "stats",
+    "report",
+    "blueprint",
+    "profile",
+    "items",
+    "knowledge_summary",
 }
 BOOL_FIELDS = {
     "multiple",
@@ -38,6 +46,14 @@ TABLES = {
     "problem_sources",
     "problems",
     "problem_answers",
+    "problem_rubrics",
+    "problem_grading",
+    "submission_transcripts",
+    "learning_analyses",
+    "mock_papers",
+    "practice_variants",
+    "variant_cache",
+    "user_ai_keys",
     "user_problem_progress",
     "daily_assignments",
     "answer_access",
@@ -55,7 +71,12 @@ TABLES = {
     "invite_codes",
     "invite_registrations",
 }
-PRIMARY = {"problem_answers": "problem_id", "local_sessions": "token_hash"}
+PRIMARY = {
+    "problem_answers": "problem_id",
+    "problem_rubrics": "problem_id",
+    "local_sessions": "token_hash",
+    "user_ai_keys": "user_id",
+}
 
 
 class LocalStore:
@@ -114,6 +135,70 @@ class LocalStore:
                     "ALTER TABLE problem_answers ADD COLUMN text TEXT NOT NULL DEFAULT ''"
                 )
             db.execute("INSERT OR IGNORE INTO schema_migrations VALUES (7)")
+            # Version 8 binds cached rubric points to the answer text they came from.
+            if "answer_hash" not in {
+                row["name"] for row in db.execute("PRAGMA table_info(problem_rubrics)")
+            }:
+                db.execute(
+                    "ALTER TABLE problem_rubrics ADD COLUMN answer_hash "
+                    "TEXT NOT NULL DEFAULT ''"
+                )
+            db.execute("INSERT OR IGNORE INTO schema_migrations VALUES (8)")
+            # Version 9 adds knowledge points and their provenance. The
+            # difficulty column already exists but is now written by the
+            # tagging job for mock-exam assembly, never as a public rating.
+            problem_columns = {
+                row["name"] for row in db.execute("PRAGMA table_info(problems)")
+            }
+            if "knowledge_points" not in problem_columns:
+                db.execute(
+                    "ALTER TABLE problems ADD COLUMN knowledge_points "
+                    "TEXT NOT NULL DEFAULT '[]'"
+                )
+            if "knowledge_source" not in problem_columns:
+                db.execute(
+                    "ALTER TABLE problems ADD COLUMN knowledge_source "
+                    "TEXT NOT NULL DEFAULT ''"
+                )
+            db.execute("INSERT OR IGNORE INTO schema_migrations VALUES (9)")
+            # Version 10 adds the shared AI-variant pool link. Older per-user
+            # rows keep cache_id empty and simply bypass the pool.
+            variant_columns = {
+                row["name"] for row in db.execute("PRAGMA table_info(practice_variants)")
+            }
+            if "cache_id" not in variant_columns:
+                db.execute("ALTER TABLE practice_variants ADD COLUMN cache_id TEXT")
+            if "source_hash" not in variant_columns:
+                db.execute(
+                    "ALTER TABLE practice_variants ADD COLUMN source_hash "
+                    "TEXT NOT NULL DEFAULT ''"
+                )
+            if "reused" not in variant_columns:
+                db.execute(
+                    "ALTER TABLE practice_variants ADD COLUMN reused "
+                    "INTEGER NOT NULL DEFAULT 0"
+                )
+            db.execute("INSERT OR IGNORE INTO schema_migrations VALUES (10)")
+            # Version 11 keeps the image-answer transcript next to the AI
+            # snapshot; the transcript cache table is created by schema.sql.
+            grading_columns = {
+                row["name"] for row in db.execute("PRAGMA table_info(problem_grading)")
+            }
+            if "transcript" not in grading_columns:
+                db.execute(
+                    "ALTER TABLE problem_grading ADD COLUMN transcript "
+                    "TEXT NOT NULL DEFAULT ''"
+                )
+            db.execute("INSERT OR IGNORE INTO schema_migrations VALUES (11)")
+            # Version 12 adds encrypted per-user AI keys; schema.sql creates the
+            # table on every startup, this row records the upgrade.
+            db.execute("INSERT OR IGNORE INTO schema_migrations VALUES (12)")
+            if "submission_revision" not in grading_columns:
+                db.execute(
+                    "ALTER TABLE problem_grading ADD COLUMN submission_revision "
+                    "INTEGER NOT NULL DEFAULT 0"
+                )
+            db.execute("INSERT OR IGNORE INTO schema_migrations VALUES (13)")
             db.commit()
 
     def connect(self):
@@ -171,6 +256,28 @@ class LocalStore:
                 tx.db.execute(
                     "UPDATE problem_answers SET text=? WHERE problem_id=?",
                     (item.get("answer_text", ""), item["id"]),
+                )
+                updated += 1
+        return updated
+
+    def apply_knowledge(self, items):
+        """Write only knowledge columns; content, version and images stay put."""
+        updated = 0
+        with self.transaction() as tx:
+            for item in items:
+                if not tx.get("problems", id=item["id"]):
+                    continue
+                tx.db.execute(
+                    "UPDATE problems SET knowledge_points=?,difficulty=?,"
+                    "knowledge_source=? WHERE id=?",
+                    (
+                        json.dumps(
+                            item.get("knowledge_points") or [], ensure_ascii=False
+                        ),
+                        item.get("difficulty"),
+                        item.get("knowledge_source", ""),
+                        item["id"],
+                    ),
                 )
                 updated += 1
         return updated
@@ -388,6 +495,15 @@ class SupabaseStore:
         """Bulk text backfill through one additive SQL function."""
         return self.rpc("apply_problem_texts", {"p_items": items})
 
+    def apply_knowledge(self, items):
+        """Bulk knowledge backfill; chunks stay under Data API request limits."""
+        updated = 0
+        for start in range(0, len(items), 200):
+            updated += self.rpc(
+                "apply_problem_knowledge", {"p_items": items[start : start + 200]}
+            )
+        return updated
+
     def announcement_page(self, user_id, page, page_size, admin=False):
         return self.rpc(
             "announcement_page",
@@ -424,17 +540,27 @@ class SupabaseStore:
         while True:
             part = self.request(
                 "GET", "/rest/v1/problems",
-                params={"status": "eq.published", "select": "id,year,type,tags",
+                params={"status": "eq.published",
+                        "select": "id,year,type,tags,knowledge_points",
                         "order": "id", "offset": offset, "limit": 500},
             )
             rows.extend(part)
             if len(part) < 500:
                 break
             offset += 500
+        knowledge_counts = {}
+        for row in rows:
+            for code in row.get("knowledge_points") or []:
+                if topics.knows(code):
+                    knowledge_counts[code] = knowledge_counts.get(code, 0) + 1
         result = {
             "total": len(rows),
             "years": sorted({p["year"] for p in rows}, reverse=True),
             "tags": sorted({t for p in rows for t in p["tags"]}),
+            "knowledge": [
+                {**item, "count": knowledge_counts.get(item["code"], 0)}
+                for item in topics.catalog()
+            ],
             "counts": {
                 t: sum(p["type"] == t for p in rows)
                 for t in ("blank", "solution", "choice")
@@ -462,6 +588,7 @@ class SupabaseStore:
                 ):
                     return {"total": 0, "rows": []}
                 params[key] = "in.(" + ",".join(values) + ")"
+        disjunctions = []
         if filters.get("tag"):
             # tags is jsonb, not a PostgreSQL array: overlap (ov) is invalid.
             tags = str(filters["tag"]).split(",")
@@ -473,7 +600,28 @@ class SupabaseStore:
                     "tags.cs." + json.dumps(json.dumps([tag], ensure_ascii=False))
                     for tag in tags
                 ]
-                params["or"] = "(" + ",".join(terms) + ")"
+                disjunctions.append("or.(" + ",".join(terms) + ")")
+        if filters.get("knowledge"):
+            # Same ANY semantics as the local filter. A single code uses one
+            # contains filter; multiple codes use PostgREST's disjunction.
+            codes = topics.parse_filter(str(filters["knowledge"]))
+            if not codes:
+                return {"total": 0, "rows": []}
+            if len(codes) == 1:
+                params["knowledge_points"] = "cs." + json.dumps(
+                    codes, ensure_ascii=False
+                )
+            else:
+                terms = [
+                    "knowledge_points.cs."
+                    + json.dumps(json.dumps([code], ensure_ascii=False))
+                    for code in codes
+                ]
+                disjunctions.append("or.(" + ",".join(terms) + ")")
+        if len(disjunctions) == 1:
+            params["or"] = disjunctions[0][3:]
+        elif disjunctions:
+            params["and"] = "(" + ",".join(disjunctions) + ")"
         if filters.get("q"):
             rows, offset = [], 0
             while True:
@@ -497,6 +645,11 @@ class SupabaseStore:
                     + p["id"]
                     + " "
                     + " ".join(p["tags"])
+                    + " "
+                    + " ".join(
+                        topics.name_for(code)
+                        for code in (p.get("knowledge_points") or [])
+                    )
                     + " "
                     + p.get("question_text", "")
                 ).lower()
@@ -626,7 +779,7 @@ class SupabaseReader:
             ]
         elif user:
             ids = {p["id"] for p in problems}
-            for table in ("user_problem_progress", "answer_access"):
+            for table in ("user_problem_progress", "answer_access", "problem_grading"):
                 rows = self.list(table, user_id=user["id"])
                 index = {r["problem_id"]: r for r in rows if r["problem_id"] in ids}
                 for pid in ids:

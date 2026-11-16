@@ -14,6 +14,8 @@ const router = createRouter({
     { path: "/problems/:id", component: Problem },
     { path: "/practice", component: Problem },
     { path: "/daily", component: Problem },
+    { path: "/mock", component: () => import("./views/Mock.vue") },
+    { path: "/mock/:id", component: () => import("./views/MockPaper.vue") },
     { path: "/forum", component: () => import("./views/Forum.vue") },
     { path: "/auth", component: Auth },
     { path: "/me", component: Learning },

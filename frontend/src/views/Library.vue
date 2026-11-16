@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, onBeforeUnmount, ref, watch } from "vue";
+import { computed, onMounted, onBeforeUnmount, ref, watch } from "vue";
 import { useRouter } from "vue-router";
 import {
   ArrowRight,
@@ -8,15 +8,17 @@ import {
   ChevronLeft,
   ChevronRight,
   BookOpen,
+  Target,
 } from "lucide-vue-next";
 import { api, typeName } from "../api";
-import type { Problem } from "../types";
+import type { KnowledgeFilterOption, Problem } from "../types";
 import ProblemCard from "../components/ProblemCard.vue";
 const router = useRouter();
 const catalog = ref({
   total: 0,
   years: [] as number[],
   tags: [] as string[],
+  knowledge: [] as KnowledgeFilterOption[],
 });
 const items = ref<Problem[]>([]);
 const total = ref(0);
@@ -24,9 +26,20 @@ const loading = ref(true);
 const error = ref("");
 const page = ref(1);
 const tag = ref("");
+const knowledge = ref("");
 const year = ref("");
 const type = ref("");
 const search = ref("");
+const knowledgeGroups = computed(() => {
+  const groups: { domain: string; items: KnowledgeFilterOption[] }[] = [];
+  for (const item of catalog.value.knowledge) {
+    if (!item.count) continue;
+    const group = groups.find((entry) => entry.domain === item.domain);
+    if (group) group.items.push(item);
+    else groups.push({ domain: item.domain, items: [item] });
+  }
+  return groups;
+});
 let requestId = 0;
 let controller: AbortController | undefined;
 function params() {
@@ -35,6 +48,7 @@ function params() {
   if (type.value) p.set("type", type.value);
   if (search.value) p.set("q", search.value);
   if (tag.value) p.set("tag", tag.value);
+  if (knowledge.value) p.set("knowledge", knowledge.value);
   return p;
 }
 async function load() {
@@ -68,7 +82,7 @@ onMounted(async () => {
   }
   await initialLoad;
 });
-watch([year, type, tag], () => {
+watch([year, type, tag, knowledge], () => {
   if (page.value !== 1) page.value = 1;
   else void load();
 });
@@ -79,8 +93,13 @@ function doSearch() {
 }
 function reset() {
   const needsLoad =
-    !tag.value && !year.value && !type.value && page.value === 1;
+    !tag.value &&
+    !knowledge.value &&
+    !year.value &&
+    !type.value &&
+    page.value === 1;
   tag.value = "";
+  knowledge.value = "";
   year.value = "";
   type.value = "";
   search.value = "";
@@ -108,6 +127,9 @@ function random() {
         ><button class="button ghost" @click="random">
           <Shuffle :size="17" />随机练习
         </button>
+        <RouterLink to="/mock" class="button ghost"
+          ><Target :size="17" />考试预测</RouterLink
+        >
       </div>
     </div>
     <div class="math-art" aria-hidden="true">
@@ -190,6 +212,25 @@ function random() {
       </span>
     </div>
     <form class="filter-bar" @submit.prevent="doSearch">
+      <label class="library-tag-filter">
+        <span class="sr-only">知识点</span>
+        <select v-model="knowledge">
+          <option value="">全部知识点</option>
+          <optgroup
+            v-for="group in knowledgeGroups"
+            :key="group.domain"
+            :label="group.domain"
+          >
+            <option
+              v-for="item in group.items"
+              :key="item.code"
+              :value="item.code"
+            >
+              {{ item.name }}（{{ item.count }}）
+            </option>
+          </optgroup>
+        </select>
+      </label>
       <label class="library-tag-filter">
         <span class="sr-only">标签</span>
         <select v-model="tag">

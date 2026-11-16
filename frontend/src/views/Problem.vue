@@ -20,6 +20,7 @@ import {
   Pencil,
   CircleHelp,
   LockKeyhole,
+  Sparkles,
 } from "lucide-vue-next";
 import {
   api,
@@ -31,7 +32,15 @@ import {
   typeName,
   statusName,
 } from "../api";
-import type { Problem, Answer, ImageAsset, Solution, Comment } from "../types";
+import type {
+  Problem,
+  Answer,
+  ImageAsset,
+  Solution,
+  Comment,
+  AiGrading,
+  Variant,
+} from "../types";
 import ImageGallery from "../components/ImageGallery.vue";
 import MarkdownContent from "../components/MarkdownContent.vue";
 import PracticeFilterForm from "../components/PracticeFilters.vue";
@@ -55,6 +64,7 @@ const answer = ref<Answer>();
 const loading = ref(true),
   error = ref(""),
   busy = ref(false),
+  aiGradingBusy = ref(false),
   answerOpen = ref(false),
   text = ref(""),
   options = ref<string[]>([]),
@@ -68,6 +78,11 @@ const comments = ref<Record<string, Comment[]>>({}),
 const feedbackOpen = ref(false),
   feedbackKind = ref("incomplete"),
   feedbackDetail = ref("");
+const variant = ref<Variant>();
+const variantBusy = ref(false);
+const variantAnswerOpen = ref(false);
+const variantText = ref("");
+const variantOptions = ref<string[]>([]);
 interface DailyAssignment {
   completed_at: string | null;
   local_date: string;
@@ -82,6 +97,30 @@ const previewSubmission = ref(false);
 const gaveUp = ref(false);
 const reviewArea = ref<HTMLElement>();
 const answerToggle = ref<HTMLButtonElement>();
+const aiGrading = computed<AiGrading | null>(
+  () => problem.value?.progress?.ai_grading ?? null,
+);
+const aiPanel = computed(() => {
+  const p = problem.value?.progress;
+  const g = aiGrading.value;
+  if (!p || !g || p.outdated) return undefined;
+  return {
+    score: `${g.score} / ${g.max_score}`,
+    overridden: p.result_source === "self_assessment" && g.result !== p.result,
+    original: g.result === "correct" ? "正确" : "错误",
+    points: g.points,
+    transcript: g.transcript || "",
+  };
+});
+const selfAssessment = computed(() => {
+  const p = problem.value?.progress;
+  if (!p || p.outdated) return undefined;
+  if (p.result === "pending")
+    return { heading: "自检结果", hint: "核对后选择对错。" };
+  if (aiGrading.value)
+    return { heading: "自检修正", hint: "可把 AI 判分改判为对或错。" };
+  return undefined;
+});
 const resultFeedback = computed(() => {
   const p = problem.value?.progress;
   if (gaveUp.value)
@@ -100,27 +139,41 @@ const resultFeedback = computed(() => {
       detail: "原作答保留，请重新作答并核对。",
     };
   if (p.result === "pending")
-    return {
-      kind: "pending",
-      icon: CircleHelp,
-      title: "已提交，待自检",
-      detail: "对照参考答案后，选择正确或错误。",
-    };
+    return aiGradingBusy.value
+      ? {
+          kind: "pending",
+          icon: Sparkles,
+          title: "AI 判分中",
+          detail: "正在依据文字详解逐点核对，请稍候。",
+        }
+      : {
+          kind: "pending",
+          icon: CircleHelp,
+          title: "已提交，待自检",
+          detail: "对照参考答案后，选择正确或错误。",
+        };
+  const ai = p.ai_grading;
   const self = p.result_source === "self_assessment";
-  return p.result === "correct"
-    ? {
-        kind: "correct",
-        icon: CircleCheckBig,
-        title: self ? "自检正确" : "回答正确",
-        detail: "本次结果已保存。",
-      }
-    : {
-        kind: "incorrect",
-        icon: CircleX,
-        title: self ? "自检错误" : "回答错误",
-        detail: "已加入错题，可对照参考答案复习。",
-      };
+  const correct = p.result === "correct";
+  const source = self ? "自检" : ai ? "AI 判分" : "";
+  return {
+    kind: p.result,
+    icon: correct ? CircleCheckBig : CircleX,
+    title: source
+      ? source + (correct ? "正确" : "错误")
+      : correct
+        ? "回答正确"
+        : "回答错误",
+    detail: ai
+      ? `AI 自动判分 ${ai.score} / ${ai.max_score} 分。` +
+        (self ? "已保存自检结果。" : "可自检修正。")
+      : correct
+        ? "本次结果已保存。"
+        : "已加入错题，可对照参考答案复习。",
+  };
 });
+const gradedRevisions = new Set<string>();
+let gradeToken = 0;
 let sequence = 0;
 let draftContext:
   | {
@@ -173,9 +226,14 @@ onBeforeUnmount(() => {
 function setProblem(data: Problem, key?: string, draft?: PracticeDraft) {
   previewSubmission.value = !!data.progress && !data.progress.outdated;
   gaveUp.value = false;
+  aiGradingBusy.value = false;
   feedbackOpen.value = false;
   feedbackKind.value = "incomplete";
   feedbackDetail.value = "";
+  variant.value = undefined;
+  variantAnswerOpen.value = false;
+  variantText.value = "";
+  variantOptions.value = [];
   draftContext = undefined;
   problem.value = data;
   answer.value = undefined;
@@ -228,6 +286,7 @@ async function load() {
   const id = String(route.params.id);
   loading.value = true;
   busy.value = false;
+  aiGradingBusy.value = false;
   error.value = "";
   problem.value = undefined;
   answer.value = undefined;
@@ -462,6 +521,7 @@ async function submit() {
     previewSubmission.value = true;
     gaveUp.value = false;
     saveDraft();
+    void autoGrade();
     await revealReview();
     if (seq !== sequence) return;
     await showAnswer();
@@ -476,6 +536,44 @@ async function submit() {
       p.type === "choice" && data.progress?.result === "incorrect",
     );
   });
+}
+interface GradeResult {
+  available: boolean;
+  reason: string;
+  problem: Problem;
+}
+async function autoGrade() {
+  const p = problem.value;
+  const progress = p?.progress;
+  if (!p || !progress || p.type === "choice") return;
+  if (progress.result !== "pending" || progress.outdated) return;
+  if (progress.ai_grading) return;
+  const key = p.id + ":" + progress.revision;
+  if (gradedRevisions.has(key)) return;
+  gradedRevisions.add(key);
+  const seq = sequence;
+  const token = ++gradeToken;
+  aiGradingBusy.value = true;
+  try {
+    const data = await write<GradeResult>("/me/problems/" + p.id + "/grade", {
+      problem_version: p.version,
+      revision: progress.revision,
+    });
+    if (seq !== sequence) return;
+    const current = problem.value;
+    if (!current || current.id !== p.id) return;
+    if (current.progress?.revision !== progress.revision) return;
+    if (!data.available) return;
+    problem.value = data.problem;
+    if (draftContext && draftContext.problemId === data.problem.id) {
+      draftContext.progressRevision = data.problem.progress?.revision ?? null;
+      saveDraft();
+    }
+  } catch {
+    // 判分不可用或失败：静默保持“已提交，待自检”，不阻断作答。
+  } finally {
+    if (seq === sequence && token === gradeToken) aiGradingBusy.value = false;
+  }
 }
 async function assess(result: string) {
   await action(async () => {
@@ -518,6 +616,68 @@ async function next() {
     if (seq !== sequence) return;
     community.value = solutions;
   });
+}
+async function practiceVariant() {
+  if (!state.user) {
+    login();
+    return;
+  }
+  const p = problem.value;
+  if (!p || variantBusy.value) return;
+  variantBusy.value = true;
+  try {
+    const data = await api<Variant>("/me/problems/" + p.id + "/variants", {
+      method: "POST",
+      body: "{}",
+      signal: AbortSignal.timeout(300000),
+    });
+    variant.value = data;
+    variantAnswerOpen.value = false;
+    variantText.value = "";
+    variantOptions.value = [];
+    await nextTick();
+    document
+      .getElementById("variant-practice")
+      ?.scrollIntoView({ behavior: "smooth", block: "start" });
+  } catch (e) {
+    toast((e as Error).message, true);
+  } finally {
+    variantBusy.value = false;
+  }
+}
+function toggleVariantOption(option: string) {
+  if (!variant.value) return;
+  if (variant.value.multiple) {
+    variantOptions.value = variantOptions.value.includes(option)
+      ? variantOptions.value.filter((value) => value !== option)
+      : [...variantOptions.value, option];
+  } else {
+    variantOptions.value = [option];
+  }
+}
+async function showVariantAnswer() {
+  if (!variant.value) return;
+  try {
+    variant.value = await api<Variant>(
+      "/me/variants/" + encodeURIComponent(variant.value.id) + "/answer",
+    );
+    variantAnswerOpen.value = true;
+  } catch (e) {
+    toast((e as Error).message, true);
+  }
+}
+async function markVariant(result: string) {
+  if (!variant.value) return;
+  try {
+    variant.value = await write<Variant>(
+      "/me/variants/" + encodeURIComponent(variant.value.id),
+      { result },
+      "PATCH",
+    );
+    toast(result === "correct" ? "已记为做对" : "已记入错题，可继续练");
+  } catch (e) {
+    toast((e as Error).message, true);
+  }
 }
 async function likeProblem() {
   if (!state.user) {
@@ -744,6 +904,18 @@ async function comment(s: Solution) {
               </button>
             </div>
             <h2>{{ problem.title }}</h2>
+            <div
+              v-if="problem.knowledge_points.length"
+              class="knowledge-row"
+              aria-label="本题考查的知识点"
+            >
+              <span
+                v-for="item in problem.knowledge_points"
+                :key="item.code"
+                class="knowledge-chip"
+                >{{ item.name }}</span
+              >
+            </div>
             <div class="tag-row">
               <span v-for="tag in problem.tags" :key="tag">{{ tag }}</span>
             </div>
@@ -1030,25 +1202,59 @@ async function comment(s: Solution) {
                   <p v-if="answer.correct_options.length" class="answer-choice">
                     正确选项：{{ answer.correct_options.join("、") }}
                   </p>
-                  <MarkdownContent
-                    v-if="answer.text"
-                    :source="answer.text"
-                  />
+                  <MarkdownContent v-if="answer.text" :source="answer.text" />
                   <p v-if="answer.text" class="text-source-note">
                     答案文字由自动识别生成；如有疑问请反馈。
                   </p>
                   <div v-else class="empty-state">暂无文字答案</div>
                 </div>
-                <div
-                  v-if="
-                    problem.progress?.result === 'pending' &&
-                    !problem.progress.outdated
-                  "
-                  class="self-assessment"
+                <section
+                  v-if="aiPanel"
+                  class="ai-grading"
+                  aria-labelledby="ai-grading-title"
                 >
+                  <div class="ai-grading-heading">
+                    <Sparkles :size="18" aria-hidden="true" />
+                    <h3 id="ai-grading-title">AI 核对结果</h3>
+                    <span class="ai-score">{{ aiPanel.score }}</span>
+                  </div>
+                  <p v-if="aiPanel.overridden" class="ai-grading-note">
+                    AI 原始判分：{{ aiPanel.original }}（已被你修改）
+                  </p>
+                  <div v-if="aiPanel.transcript" class="ai-transcript">
+                    <h4>图片作答转写</h4>
+                    <p class="preserve-text">{{ aiPanel.transcript }}</p>
+                    <small class="muted"
+                      >转写由视觉模型识别，仅自己可见；如识别有误，可用下方“自检修正”改判。</small
+                    >
+                  </div>
+                  <ul v-if="aiPanel.points.length" class="ai-points">
+                    <li
+                      v-for="(item, index) in aiPanel.points"
+                      :key="index"
+                      class="ai-point"
+                      :class="item.hit ? 'hit' : 'miss'"
+                    >
+                      <span class="ai-point-mark" aria-hidden="true">
+                        <Check v-if="item.hit" :size="14" />
+                        <X v-else :size="14" />
+                      </span>
+                      <div class="ai-point-body">
+                        <p class="ai-point-text">{{ item.point }}</p>
+                        <small class="ai-point-status">{{
+                          item.hit ? "命中" : "未命中"
+                        }}</small>
+                        <p v-if="item.note" class="ai-point-note">
+                          {{ item.note }}
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </section>
+                <div v-if="selfAssessment" class="self-assessment">
                   <div>
-                    <h3>自检结果</h3>
-                    <p>核对后选择对错。</p>
+                    <h3>{{ selfAssessment.heading }}</h3>
+                    <p>{{ selfAssessment.hint }}</p>
                   </div>
                   <div class="inline">
                     <button
@@ -1070,6 +1276,137 @@ async function comment(s: Solution) {
                   草稿已保留，提交后可自检；“不会”已加入错题，不计打卡。
                 </p>
               </aside>
+            </div>
+          </section>
+          <section
+            id="variant-practice"
+            class="paper-card variant-practice"
+            aria-labelledby="variant-heading"
+          >
+            <div class="section-heading compact">
+              <div>
+                <h2 id="variant-heading"><Sparkles :size="18" /> 一题多练</h2>
+              </div>
+              <span class="chip neutral">AI 仿题 · 同思路换数据</span>
+            </div>
+            <template v-if="!variant">
+              <p class="small-text muted">
+                用同一套思路解一道新数据的题，检验是真会还是记住了答案。同一道题的仿题会优先复用系统已生成并校验过的结果，节省等待与费用；答案仍只有你查看后才显示。
+              </p>
+              <div class="inline">
+                <button
+                  class="button"
+                  :disabled="variantBusy || !state.user"
+                  @click="practiceVariant"
+                >
+                  <Sparkles :size="16" />{{
+                    variantBusy
+                      ? "AI 正在命题与校验…"
+                      : problem.progress?.result === "incorrect"
+                        ? "针对这道错题生成变式"
+                        : "生成变式练习"
+                  }}
+                </button>
+                <small v-if="!state.user" class="muted">登录后可用</small>
+              </div>
+            </template>
+            <div v-else class="variant-body">
+              <div class="variant-heading">
+                <span class="chip neutral">{{ typeName(variant.type) }}</span>
+                <span
+                  v-if="variant.pooled"
+                  class="chip neutral"
+                  title="这道仿题来自系统共享题池，已通过校验"
+                  >共享题池</span
+                >
+                <span
+                  v-for="point in variant.knowledge_points"
+                  :key="point.code"
+                  class="knowledge-chip"
+                  >{{ point.name }}</span
+                >
+                <span
+                  v-if="variant.result"
+                  class="chip"
+                  :class="
+                    variant.result === 'correct' ? 'success-chip' : 'error-chip'
+                  "
+                  >{{
+                    variant.result === "correct" ? "已做对" : "还不对"
+                  }}</span
+                >
+              </div>
+              <MarkdownContent :source="variant.question_text" />
+              <div v-if="!variantAnswerOpen" class="variant-answer-area">
+                <div v-if="variant.type === 'choice'" class="option-list">
+                  <label v-for="option in variant.choice_options" :key="option"
+                    ><input
+                      :checked="variantOptions.includes(option)"
+                      :type="variant.multiple ? 'checkbox' : 'radio'"
+                      :name="'variant-' + variant.id"
+                      :value="option"
+                      @change="toggleVariantOption(option)"
+                    /><span>{{ option }}</span></label
+                  >
+                </div>
+                <textarea
+                  v-else
+                  v-model="variantText"
+                  rows="4"
+                  maxlength="8000"
+                  placeholder="先自己解一遍，再对照答案"
+                ></textarea>
+                <div class="editor-actions">
+                  <button
+                    class="text-button"
+                    :disabled="variantBusy"
+                    @click="practiceVariant"
+                  >
+                    再来一题
+                  </button>
+                  <button class="button primary" @click="showVariantAnswer">
+                    查看答案与解析
+                  </button>
+                </div>
+              </div>
+              <div v-else class="variant-answer">
+                <p class="variant-answer-text">
+                  <strong>答案：</strong
+                  ><template v-if="variant.type === 'choice'">
+                    {{ (variant.correct_options || []).join("、") }} ·
+                    {{ variant.answer_text }}</template
+                  ><template v-else>{{ variant.answer_text }}</template>
+                </p>
+                <MarkdownContent
+                  v-if="variant.explanation"
+                  :source="variant.explanation"
+                />
+                <div v-if="!variant.result" class="editor-actions">
+                  <span class="small-text muted">对照后自评：</span>
+                  <button
+                    class="button small success"
+                    @click="markVariant('correct')"
+                  >
+                    <Check :size="15" />做对了
+                  </button>
+                  <button
+                    class="button small assessment-incorrect"
+                    @click="markVariant('incorrect')"
+                  >
+                    <X :size="15" />还不对
+                  </button>
+                </div>
+                <p v-else class="small-text muted">
+                  已记入学情分析。继续用同思路练新数据，直到独立做对。
+                </p>
+                <button
+                  class="text-button"
+                  :disabled="variantBusy"
+                  @click="practiceVariant"
+                >
+                  再做一道
+                </button>
+              </div>
             </div>
           </section>
           <div v-if="random" class="editor-actions">
@@ -1336,6 +1673,134 @@ async function comment(s: Solution) {
 .reference-panel .form-warning {
   margin: 16px 0 0;
 }
+.ai-grading {
+  flex-shrink: 0;
+  margin-top: 16px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: #f7faf5;
+}
+.ai-grading-heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  color: var(--green-dark);
+}
+.ai-grading-heading h3 {
+  margin: 0;
+  font-size: 15px;
+}
+.ai-score {
+  margin-left: auto;
+  padding: 2px 9px;
+  border-radius: 4px;
+  background: var(--sage);
+  color: var(--green-dark);
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.ai-grading-note {
+  margin: 0 0 10px;
+  color: var(--warning);
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+.ai-transcript {
+  margin: 0 0 12px;
+  padding: 9px 10px;
+  border: 1px dashed #cfdcc8;
+  border-radius: 6px;
+  background: #fbfdf8;
+}
+.ai-transcript h4 {
+  margin: 0 0 5px;
+  font-size: 12px;
+  color: var(--green-dark);
+}
+.ai-transcript p {
+  margin: 0 0 4px;
+  max-height: 180px;
+  overflow: auto;
+  font-size: 12px;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+.ai-transcript small {
+  display: block;
+  line-height: 1.6;
+}
+.ai-points {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.ai-point {
+  display: flex;
+  gap: 8px;
+  min-width: 0;
+  padding: 9px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--paper);
+}
+.ai-point.hit {
+  border-color: #b8d7bf;
+  background: #edf7ef;
+}
+.ai-point.miss {
+  border-color: #e8b9b3;
+  background: #fff1ef;
+}
+.ai-point-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #fff;
+}
+.ai-point.hit .ai-point-mark {
+  background: var(--green);
+}
+.ai-point.miss .ai-point-mark {
+  background: var(--danger);
+}
+.ai-point-body {
+  flex: 1;
+  min-width: 0;
+}
+.ai-point-text {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+.ai-point-status {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 11px;
+}
+.ai-point.hit .ai-point-status {
+  color: var(--green-dark);
+}
+.ai-point.miss .ai-point-status {
+  color: var(--danger);
+}
+.ai-point-note {
+  margin: 4px 0 0;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
 .assessment-incorrect {
   color: var(--danger);
   border-color: #e8b9b3;
@@ -1389,6 +1854,18 @@ async function comment(s: Solution) {
   }
   .result-feedback strong {
     font-size: 21px;
+  }
+  .ai-grading {
+    padding: 12px;
+  }
+  .ai-grading-heading h3 {
+    font-size: 14px;
+  }
+  .ai-score {
+    font-size: 12px;
+  }
+  .ai-point {
+    padding: 8px;
   }
 }
 @media (prefers-reduced-motion: reduce) {

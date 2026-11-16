@@ -3,6 +3,7 @@ from datetime import datetime, timedelta, timezone
 
 from fastapi import HTTPException
 
+from . import topics
 from .auth import now
 from .store import store
 
@@ -37,6 +38,11 @@ def filtered(filters, repository=None):
     if filters.get("tag"):
         tags = filters["tag"].split(",")
         rows = [p for p in rows if any(t in p["tags"] for t in tags)]
+    if filters.get("knowledge"):
+        codes = topics.parse_filter(filters["knowledge"])
+        rows = [
+            p for p in rows if codes and set(codes) & set(p.get("knowledge_points") or [])
+        ]
     if filters.get("q"):
         term = filters["q"].lower()
         rows = [
@@ -49,6 +55,11 @@ def filtered(filters, repository=None):
                 + p["id"]
                 + " "
                 + " ".join(p["tags"])
+                + " "
+                + " ".join(
+                    topics.name_for(code)
+                    for code in (p.get("knowledge_points") or [])
+                )
                 + " "
                 + p.get("question_text", "")
             ).lower()
@@ -77,10 +88,25 @@ def progress(user, pid, repository=None):
     )
 
 
-def apply_progress(user, problem, text, images, result, revision=None):
+def apply_progress(
+    user, problem, text, images, result, revision=None, result_source=None,
+    grading_snapshot=None,
+):
     """Serialize submit/self-assessment and daily check-in in one transaction."""
     if hasattr(store, "rpc"):
         try:
+            if result_source == "ai":
+                return store.rpc(
+                    "record_ai_grading",
+                    {
+                        "p_user": user["id"],
+                        "p_problem": problem["id"],
+                        "p_revision": revision,
+                        "p_version": problem["version"],
+                        "p_date": today(),
+                        "p_grading": grading_snapshot,
+                    },
+                )
             return store.rpc(
                 "record_progress",
                 {
@@ -110,22 +136,31 @@ def apply_progress(user, problem, text, images, result, revision=None):
             "user_problem_progress", user_id=user["id"], problem_id=problem["id"]
         )
         if revision is not None:
+            # Pending attempts and AI verdicts may still be self-assessed; an
+            # already self-assessed row is final, so a repeat stays a conflict.
+            editable = bool(old) and (
+                old["result"] == "pending"
+                or (result_source != "ai" and old.get("result_source") == "ai")
+            )
             if (
-                not old
+                not editable
                 or old["revision"] != revision
                 or old["problem_version"] != problem["version"]
-                or old["result"] != "pending"
             ):
                 raise HTTPException(409, "作答已更新或已自评，请刷新后重新核对。")
             text, images = old["text"], old["image_ids"]
+        if result_source is None:
+            result_source = (
+                "automatic"
+                if problem["grading_mode"] == "choice"
+                else "self_assessment"
+            )
         record = {
             "id": user["id"] + ":" + problem["id"],
             "user_id": user["id"],
             "problem_id": problem["id"],
             "result": result,
-            "result_source": "automatic"
-            if problem["grading_mode"] == "choice"
-            else "self_assessment",
+            "result_source": result_source,
             "ever_correct": bool(old and old["ever_correct"]) or result == "correct",
             "ever_incorrect": bool(old and old["ever_incorrect"])
             or result == "incorrect",
@@ -143,6 +178,19 @@ def apply_progress(user, problem, text, images, result, revision=None):
             "last_at": now(),
         }
         tx.put("user_problem_progress", record)
+        if grading_snapshot is not None:
+            tx.put(
+                "problem_grading",
+                {
+                    **grading_snapshot,
+                    "id": user["id"] + ":" + problem["id"],
+                    "user_id": user["id"],
+                    "problem_id": problem["id"],
+                    "problem_version": problem["version"],
+                    "submission_revision": revision,
+                    "created_at": record["last_at"],
+                },
+            )
         daily = tx.get("daily_assignments", user_id=user["id"], local_date=today())
         if (
             result != "pending"

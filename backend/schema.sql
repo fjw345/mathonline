@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS profiles (id TEXT PRIMARY KEY, email TEXT NOT NULL UN
 CREATE TABLE IF NOT EXISTS local_users (id TEXT PRIMARY KEY REFERENCES profiles(id), password_hash TEXT NOT NULL);
 CREATE TABLE IF NOT EXISTS local_sessions (token_hash TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES profiles(id), expires_at TEXT NOT NULL);
 CREATE TABLE IF NOT EXISTS problem_sources (id TEXT PRIMARY KEY, name TEXT NOT NULL, year INTEGER NOT NULL, group_name TEXT NOT NULL, source_url TEXT NOT NULL DEFAULT '', rights_note TEXT NOT NULL DEFAULT '', verified INTEGER NOT NULL DEFAULT 0);
-CREATE TABLE IF NOT EXISTS problems (id TEXT PRIMARY KEY, source_id TEXT NOT NULL REFERENCES problem_sources(id), title TEXT NOT NULL, type TEXT NOT NULL, year INTEGER NOT NULL, group_name TEXT NOT NULL, subject TEXT NOT NULL, tags TEXT NOT NULL, difficulty INTEGER, status TEXT NOT NULL DEFAULT 'published', version INTEGER NOT NULL DEFAULT 1, grading_mode TEXT NOT NULL, question_images TEXT NOT NULL, question_text TEXT NOT NULL DEFAULT '', choice_options TEXT NOT NULL, multiple INTEGER NOT NULL DEFAULT 0, verified INTEGER NOT NULL DEFAULT 0, answer_verified INTEGER NOT NULL DEFAULT 0, manual_revision INTEGER NOT NULL DEFAULT 0, updated_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS problems (id TEXT PRIMARY KEY, source_id TEXT NOT NULL REFERENCES problem_sources(id), title TEXT NOT NULL, type TEXT NOT NULL, year INTEGER NOT NULL, group_name TEXT NOT NULL, subject TEXT NOT NULL, tags TEXT NOT NULL, difficulty INTEGER, status TEXT NOT NULL DEFAULT 'published', version INTEGER NOT NULL DEFAULT 1, grading_mode TEXT NOT NULL, question_images TEXT NOT NULL, question_text TEXT NOT NULL DEFAULT '', knowledge_points TEXT NOT NULL DEFAULT '[]', knowledge_source TEXT NOT NULL DEFAULT '', choice_options TEXT NOT NULL, multiple INTEGER NOT NULL DEFAULT 0, verified INTEGER NOT NULL DEFAULT 0, answer_verified INTEGER NOT NULL DEFAULT 0, manual_revision INTEGER NOT NULL DEFAULT 0, updated_at TEXT NOT NULL);
 CREATE TABLE IF NOT EXISTS problem_answers (problem_id TEXT PRIMARY KEY REFERENCES problems(id), images TEXT NOT NULL, text TEXT NOT NULL DEFAULT '', correct_options TEXT NOT NULL, provenance TEXT NOT NULL);
 CREATE TABLE IF NOT EXISTS user_problem_progress (id TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES profiles(id), problem_id TEXT NOT NULL REFERENCES problems(id), result TEXT NOT NULL, result_source TEXT NOT NULL, ever_correct INTEGER NOT NULL DEFAULT 0, ever_incorrect INTEGER NOT NULL DEFAULT 0, correct_version INTEGER, revision INTEGER NOT NULL, problem_version INTEGER NOT NULL, text TEXT NOT NULL, image_ids TEXT NOT NULL, last_at TEXT NOT NULL, UNIQUE(user_id,problem_id));
 CREATE TABLE IF NOT EXISTS daily_assignments (id TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES profiles(id), local_date TEXT NOT NULL, problem_id TEXT NOT NULL REFERENCES problems(id), filters TEXT NOT NULL, completed_at TEXT, UNIQUE(user_id,local_date));
@@ -88,4 +88,126 @@ CREATE TABLE IF NOT EXISTS invite_registrations (
  created_at TEXT NOT NULL, CHECK(id<>inviter_id)
 );
 CREATE INDEX IF NOT EXISTS invite_registration_owner ON invite_registrations(inviter_id);
+
+-- AI 判分原始结果独立存放，用户自检改判不覆盖 AI 快照。
+CREATE TABLE IF NOT EXISTS problem_rubrics (
+ problem_id TEXT PRIMARY KEY REFERENCES problems(id),
+ answer_hash TEXT NOT NULL,
+ points TEXT NOT NULL,
+ model TEXT NOT NULL,
+ created_at TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS problem_grading (
+ id TEXT PRIMARY KEY,
+ user_id TEXT NOT NULL REFERENCES profiles(id),
+ problem_id TEXT NOT NULL REFERENCES problems(id),
+ result TEXT NOT NULL,
+ score INTEGER NOT NULL,
+ max_score INTEGER NOT NULL,
+ points TEXT NOT NULL,
+ model TEXT NOT NULL,
+ problem_version INTEGER NOT NULL,
+ transcript TEXT NOT NULL DEFAULT '',
+ submission_revision INTEGER NOT NULL DEFAULT 0,
+ created_at TEXT NOT NULL,
+ UNIQUE(user_id,problem_id)
+);
+CREATE INDEX IF NOT EXISTS grading_by_problem ON problem_grading(problem_id);
+
+-- 图片作答转写缓存：同一修订号与同一组图片只转写一次。
+CREATE TABLE IF NOT EXISTS submission_transcripts (
+ id TEXT PRIMARY KEY,
+ user_id TEXT NOT NULL REFERENCES profiles(id),
+ problem_id TEXT NOT NULL REFERENCES problems(id),
+ revision INTEGER NOT NULL,
+ image_ids TEXT NOT NULL,
+ text TEXT NOT NULL,
+ model TEXT NOT NULL DEFAULT '',
+ created_at TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS transcripts_owner ON submission_transcripts(user_id, problem_id);
+
+-- 模拟卷：一人一卷一行，题目与判分结果按 JSON 保存；交卷前答案不下发。
+CREATE TABLE IF NOT EXISTS mock_papers (
+ id TEXT PRIMARY KEY,
+ user_id TEXT NOT NULL REFERENCES profiles(id),
+ subject TEXT NOT NULL,
+ title TEXT NOT NULL,
+ status TEXT NOT NULL DEFAULT 'ready',
+ blueprint TEXT NOT NULL,
+ profile TEXT NOT NULL,
+ duration_minutes INTEGER NOT NULL,
+ max_score INTEGER NOT NULL,
+ score INTEGER NOT NULL DEFAULT 0,
+ items TEXT NOT NULL,
+ knowledge_summary TEXT NOT NULL DEFAULT '[]',
+ submitted_at TEXT,
+ model TEXT NOT NULL DEFAULT '',
+ created_at TEXT NOT NULL,
+ updated_at TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS mock_papers_owner ON mock_papers(user_id, created_at DESC);
+
+-- 一题多练：错题的 AI 变式题单独存放，答案在用户查看前不下发。
+CREATE TABLE IF NOT EXISTS practice_variants (
+ id TEXT PRIMARY KEY,
+ user_id TEXT NOT NULL REFERENCES profiles(id),
+ problem_id TEXT NOT NULL REFERENCES problems(id),
+ subject TEXT NOT NULL,
+ type TEXT NOT NULL,
+ knowledge_points TEXT NOT NULL DEFAULT '[]',
+ question_text TEXT NOT NULL,
+ choice_options TEXT NOT NULL DEFAULT '[]',
+ multiple INTEGER NOT NULL DEFAULT 0,
+ answer_text TEXT NOT NULL,
+ correct_options TEXT NOT NULL DEFAULT '[]',
+ explanation TEXT NOT NULL DEFAULT '',
+ model TEXT NOT NULL DEFAULT '',
+ cache_id TEXT,
+ source_hash TEXT NOT NULL DEFAULT '',
+ reused INTEGER NOT NULL DEFAULT 0,
+ result TEXT NOT NULL DEFAULT '',
+ created_at TEXT NOT NULL,
+ answered_at TEXT
+);
+CREATE INDEX IF NOT EXISTS variants_owner ON practice_variants(user_id, problem_id, created_at DESC);
+
+-- AI 仿题共享题池：同一道题的生成结果跨用户复用，按源哈希失效。
+CREATE TABLE IF NOT EXISTS variant_cache (
+ id TEXT PRIMARY KEY,
+ problem_id TEXT NOT NULL REFERENCES problems(id),
+ source_hash TEXT NOT NULL,
+ type TEXT NOT NULL,
+ knowledge_points TEXT NOT NULL DEFAULT '[]',
+ question_text TEXT NOT NULL,
+ choice_options TEXT NOT NULL DEFAULT '[]',
+ multiple INTEGER NOT NULL DEFAULT 0,
+ answer_text TEXT NOT NULL,
+ correct_options TEXT NOT NULL DEFAULT '[]',
+ explanation TEXT NOT NULL DEFAULT '',
+ model TEXT NOT NULL DEFAULT '',
+ use_count INTEGER NOT NULL DEFAULT 0,
+ created_at TEXT NOT NULL,
+ last_used_at TEXT
+);
+CREATE INDEX IF NOT EXISTS variant_cache_lookup ON variant_cache(problem_id, source_hash, type);
+
+-- 学情分析报告缓存：统计每次现算，报告只在数据指纹变化时重新生成。
+CREATE TABLE IF NOT EXISTS learning_analyses (
+ id TEXT PRIMARY KEY REFERENCES profiles(id),
+ fingerprint TEXT NOT NULL,
+ stats TEXT NOT NULL,
+ report TEXT NOT NULL,
+ model TEXT NOT NULL,
+ created_at TEXT NOT NULL
+);
+
+-- 用户自带 AI 密钥：只存 AES-GCM 密文与末四位掩码，不存明文。
+CREATE TABLE IF NOT EXISTS user_ai_keys (
+ user_id TEXT PRIMARY KEY REFERENCES profiles(id) ON DELETE CASCADE,
+ ciphertext TEXT NOT NULL,
+ hint TEXT NOT NULL DEFAULT '',
+ created_at TEXT NOT NULL,
+ updated_at TEXT NOT NULL
+);
 

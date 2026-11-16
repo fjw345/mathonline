@@ -14,19 +14,27 @@
 
 ## 2. 项目与目录
 
-来学数学是数学题库与练习网站（公开页使用文字版题目），公开地址由用户确认是 `https://www.mathonline.top/`。面向学生提供题库检索、随机练习、每日一题、自检、错题回顾与题解交流。没有学校身份强制校验。
+来学数学是数学题库与练习网站（公开页使用文字版题目），公开地址由用户确认是 `https://www.mathonline.top/`。面向学生提供题库检索与知识点筛选、随机练习、每日一题、自检、错题回顾、AI 学情分析、考试预测与题解交流。没有学校身份强制校验。
 
 | 位置 | 职责 |
 | --- | --- |
-| `frontend/src/views/` | Library、Problem、Forum、Auth、Learning、Admin、Mailbox、Invites 页面 |
+| `frontend/src/views/` | Library、Problem、Forum、Auth、Learning、Admin、Mailbox、Invites、Mock、MockPaper 页面 |
 | `frontend/src/components/` | 筛选、题目卡片、图片查看等共用组件 |
 | `frontend/src/practiceDraft.ts`、`practiceFilters.ts` | 草稿隔离、筛选规范化与恢复 |
 | `backend/main.py` | FastAPI 路由、输入、鉴权和媒体入口 |
 | `backend/domain.py` | 判分、自评、每日分配及状态更新 |
+| `backend/grading.py` | AI 判分引擎：填空题算法优先 + 模型兜底、大题得分点判分 |
+| `backend/vision.py` | 纯图片作答先由视觉模型转写为文字，再交给判分引擎 |
+| `backend/user_ai.py` | 用户自带 API 密钥的 AES-GCM 加解密、掩码与校验 |
+| `backend/topics.py`、`tagging.py` | 知识点编码与学科范围、批量标注（AI 优先、关键词兜底） |
+| `backend/analysis.py` | 学情统计聚合与 AI 薄弱点报告 |
+| `backend/mockexam.py`、`question_gen.py` | 考试预测蓝图、组卷、AI 生题与独立求解校验 |
+| `backend/variants.py`、`variant_pool.py` | 错题变式生成与跨用户共享题池 |
 | `backend/outreach.py` | 公告版本、邀请码和资料下载权限 |
 | `backend/store.py` | SQLite/Supabase 访问、事务与批量读取 |
 | `backend/models.py`、`schema.sql` | 题目清单模型、本地表结构 |
 | `supabase/migrations/` | 按时间顺序执行的云端结构迁移 |
+| `supabase/release/` | 线上发布包：执行前检查、整段升级、执行后校验 |
 | `api/index.py`、`vercel.json` | Vercel 入口、构建与同域重写 |
 | `scripts/` | 本地启动、角色管理、清单生成及离线导入 |
 | `data/*manifest.json`、`data/kaoyan/`、`data/bjtu-finals/` | 可导入清单、盘点及待补记录 |
@@ -36,7 +44,13 @@
 
 技术栈为 Vue 3、TypeScript、Vue Router、Vite、FastAPI。生产 Python 以 `.python-version`、`pyproject.toml` 和 `uv.lock` 为准，当前为 3.12；不要因为本机其他解释器能运行就擅改生产版本。本地用 SQLite 和磁盘，云端用 Supabase Auth、Data API、私有 Storage，Vercel 提供前端和 API。
 
-实际页面路由：`/`、`/problems/:id`、`/practice`、`/daily`、`/forum`、`/auth`、`/me`、`/admin`、`/mailbox`、`/invites`。API 统一 `/api/v1`。本地端口 **8011**。
+实际页面路由：`/`、`/problems/:id`、`/practice`、`/daily`、`/mock`、`/mock/:id`、`/forum`、`/auth`、`/me`、`/admin`、`/mailbox`、`/invites`。API 统一 `/api/v1`。本地端口 **8011**。
+
+### 文档索引与已知差异
+
+- 需求与设计文档：[需求分析文档](docs/需求分析与产品设计/需求分析文档.md)、[产品设计文档](docs/需求分析与产品设计/产品设计文档.md)、[后续开发计划](docs/后续开发计划（10-15周）.md)、[生存模式设计](docs/survival-design.md)。正文是 2026-11-12 前后的快照，作为设计与排期参考，不代表当前实现清单。
+- 已知差异（按用户要求保留原文，不改写）：这些文档仍把 AI 判题写作后续开发，实际文字作答与“纯图片先转写再判分”已在代码中实现，线上依赖迁移与模型密钥；生存模式与排行榜尚未实现；2026-11-13 的知识点标签、AI 学情分析、考试预测/模拟卷与错题变式未写入这些设计文档，见 [知识点、AI 学情、考试预测与一题多练](docs/knowledge-analysis-mock-deployment.md)。
+- 部署与发布：[运行与备份](docs/deployment.md)、[Supabase + Vercel 部署指南](docs/supabase-vercel-guide.md)、[2026-11-13 线上发布手册](docs/release-2026-11-13-ops.md)。
 
 ## 3. 必须保留的业务规则
 
@@ -44,13 +58,15 @@
 
 - 公开页题干和参考答案使用文字版（Markdown + LaTeX）；原始截图保留在数据库和私有 Storage，公开媒体接口不提供原题截图，管理员维护页例外。文字中的插图按题目可见性及答案解锁权限加载。
 - 公开筛选只保留题库类别标签、年份、题型和关键词。不恢复组别、来源、科目筛选或难度评级；旧 `difficulty` 只兼容读取，模型归一化为 `None`。
+- 2026-11-13 起新增“知识点”公开筛选（本轮用户明确要求）：`problems.knowledge_points` 存编码数组，按学科限制可选范围；`difficulty` 仍不面向学生展示，只作为组卷与统计的内部元数据写库，不恢复为公开筛选或难度评级。
 - 标签随已发布题目动态扩充；“只保留非数一个标签”是首批阶段要求，不适用于已扩充的考研和期末题库。
 - 有效题目默认发布、无需逐题预审；用户反馈后管理员核查，必要时改图或下架。缺图或正确选项不明的材料进入待补队列，不能编造答案后发布。
 - 关键词搜索包含文字题面、标题、ID 和标签；原题截图不作为公开检索来源。
 
 ### 作答、答案和学习记录
 
-- 选择题按显式选项判分，支持单选和已配置多选；填空题与解答题均 `self_assessment`。不执行用户输入的代码，不擅自加表达式自动判分。
+- 选择题按显式选项判分，支持单选和已配置多选，不调用模型。填空题先做归一化与数值容差算法比对，算法只在“双方都是数值且不接近”时判错，其余不匹配交模型兜底；解答题由模型依据 `problem_answers.text` 文字详解生成得分点后逐点判分，全部得分点命中才算正确，否则记错。AI 不可用、缺少文字详解或得分点缺判时降级为待自检，不假报对错；AI 判分可被用户自检修正，AI 原始快照单独保存、不被改判覆盖。仍不执行用户输入的代码，不做表达式求值。详见 [AI 自动核对答案](docs/ai-grading.md)。
+- 纯图片作答先由视觉模型转写为文字，再走上述判分；转写失败、视觉模型未配置或识别不出文字时降级为待自检，不伪造文字。转写只读取本人 `submission` 图片，文本仅本人可见并展示在 AI 核对面板；按“用户+题目+修订号+图片顺序”缓存，重试不重复调用视觉模型。
 - 登录后成功提交或点击“不会”才解锁参考答案，后端接口与图片访问都检查权限；“不会”位于提交左侧，解锁、保留草稿并加入错题栏，不伪造作答或改写已有判分、不打卡。
 - 答案解锁按账号与稳定题目 ID 保存；重进、刷新、重做默认折叠。折叠是界面状态，不能代替服务端权限。
 - 作答结果用常驻图标、文字及颜色共同反馈，区分自动判分、自检和待自检，不能只依赖短暂提示。提交后左侧预览已提交的文字与图片，右侧参考答案可收起；手机改为上下排列。图片支持有序多图及点击放大；编辑作答时保留内容并默认收起答案，草稿不能冒充已提交预览。
@@ -76,6 +92,16 @@
 - 直接邀请两名已验证并成功绑定的用户后解锁夸克资料链接，后端每次校验人数，管理员不得绕过。地址及提取码通过服务端 `RESOURCE_DOWNLOAD_URL` / `RESOURCE_EXTRACTION_CODE` 配置，未达人数时不返回；不把实际分享地址写入前端或公开示例，不上传 D 盘资料包。链接一旦展示，站外转发不受本站控制。
 - 需要新增迁移 `supabase/migrations/20261108121156_announcements_invites.sql`，RLS 及服务端权限随迁移配置；未执行时新功能明确报待迁移。上线步骤见 [更新信箱与邀请资料](docs/announcements-invites.md)，不重跑题库导入。
 
+### AI 学情、考试预测与一题多练（2026-11-13 确认）
+
+- 知识点标签由 `scripts/tag_knowledge.py` 批量写入：AI 优先、关键词兜底，只写 `knowledge_points`、`knowledge_source`、`difficulty` 三列，不递增题目版本、不改题面/答案/图片；人工标注（`manual`）默认受保护。管理页可逐题校正，校正同样不递增版本。
+- 学情分析只用聚合统计（知识点正确率、错题数、模拟卷得分），不把作答原文送给模型；报告按练习数据指纹缓存，模型不可用时只返回统计并明确原因。
+- 考试预测以近 6 年题型结构、知识点权重与难度为输入；组卷优先用题库，**每张卷至少一道选择题或填空题是 AI 仿题**，且必须通过独立求解校验；AI 未配置或校验失败时明确返回 503，不生成“没有 AI 题”的卷子。AI 生题可用 `AI_VARIANT_MODEL` 单独配置更强模型（留空沿用 `AI_MODEL`），以免快速模型在难题上反复校验失败。
+- 模拟卷一人一卷、交卷前不下发答案；选择题/填空题自动判分，解答题 AI 判分，不可用时转待自评，不假报对错。AI 题只存在模拟卷/变式记录里，不写回公开题库。
+- 一题多练对错题生成“同思路、换数据”的变式，答案在查看前由服务端隐藏；结果计入学情分析的知识点统计。
+- 线上 AI 仿题默认进入共享题池（`variant_cache`）：按「源题 ID + 题目版本 + 文字答案」哈希复用，跨用户共享题目内容但不共享作答；本地默认关闭。池满（`AI_VARIANT_POOL_SIZE`，默认 3）后复用使用次数最少的一道；模型不可用但池内有时仍可出题。题目或答案改版后旧缓存自动失效。
+- 新增迁移 `202611130001`–`202611130004`、`20261113120000_shared_variants.sql` 与 `20261113130000_image_transcript.sql`（知识点列、学情缓存、模拟卷、变式题、共享题池、图片作答转写）；上线步骤、校验与回滚见 [知识点、AI 学情、考试预测与一题多练](docs/knowledge-analysis-mock-deployment.md)。线上数据本轮未改，AI 题也不承诺 100% 正确，见该页风险说明。
+
 ### 页面风格
 
 沿用现有 Vue/CSS 与图标体系，措辞简短，优先题目和操作。保持“来学数学”品牌及用户指定的首页标题，不加回已删除的装饰文案和装饰右栏；参考答案的功能右栏按本轮需求保留。改长标题、题面公式或文字内嵌图时检查手机尺寸、缩放及溢出。
@@ -88,6 +114,8 @@
 - 北交期末维护 `data/bjtu-final-config.json`，生成器为 `scripts/build_bjtu_final_manifest.py`；题号大题/小题与分图片段分开解析，`二11` 不是 `二1` 的分图。
 - 只有正式 `*-manifest.json` 交给导入器；`pending.json`、`inventory.json`、配置及 REPORT 不能导入。
 - 文字版题面/答案由 `devided-math-text/` 生成 `data/text-bank-manifest.json`；线上回填使用 `scripts/apply_text_bank.py`，只写 `question_text` 和 `problem_answers.text`，不递增题目版本、不改图片与学习记录。不要为加文字重跑全量导入，除非是在全新库。文字说明见 [docs/text-bank.md](docs/text-bank.md)，生产步骤与备份/验证/回滚见 [docs/production-text-migration.md](docs/production-text-migration.md)。
+- 知识点批量标注用 `scripts/tag_knowledge.py`（先 `--dry-run`，默认只补缺失），只读核对用 `scripts/verify_knowledge.py`；两者都按 `APP_MODE` 连接目标环境，不重跑题库导入。标注与核对不访问模型判分接口。
+- 本地一键启动（`启动数学刷题平台.cmd` / `scripts/start_local.py`）会导入非数与北交期末四科清单（考研清单较大，按需单独导入）；缺知识点时用关键词规则补齐（离线）。重复导入不会递增版本，也不会清空已有知识点或内部难度（2026-11-13 起）。
 - 清单生成与离线校验不访问数据库。`scripts/import_bank.py` 会读取根目录 `.env`，按 `APP_MODE` 上传图片及写库，执行前确认目标环境，不能把它当只读验证命令。
 - 现有非数与考研清单共 1,316 题；北交期末新增 552 题、另 1 题待核对。共 1,868 个可导入条目不等于线上实时数量；期末实际导入结果尚无本次核验记录。
 - 导入数据没有结构变化时不要求重跑旧 SQL 或部署。详细操作参考 `docs/question-bank.md` 和各批次 `REPORT.md`。
@@ -95,11 +123,13 @@
 ## 5. 权限、部署与性能边界
 
 - 不读取或输出 `.env` 的密钥值，不提交数据库、私人上传、Cookie 或令牌。前端禁止放 service role 凭证。
+- 用户 API 密钥由用户本人在「我的学习 → AI 设置」保存，服务端用 `AI_KEY_SECRET` 做 AES-GCM 加密后存 `user_ai_keys`；接口只返回末四位，日志与错误不回显密钥。`AI_API_KEY` 只给标注脚本/管理员任务，线上默认不允许用户回退服务端密钥。AI 判分依赖迁移 `supabase/migrations/20261110000000_ai_grading.sql`，用户密钥依赖 `20261113140000_user_ai_keys.sql`，图片作答转写依赖 `20261113130000_image_transcript.sql`，未执行时明确降级为待自检，不假报成功。
 - 本地首次账号可初始化管理员；云端首个注册账号不自动获得管理员，维护角色用 `scripts/manage_user.py` 或受控后台流程。
 - 业务表使用 RLS，但服务端凭证绕过 RLS；身份、归属、答案解锁及管理员检查必须在后端保留。私人状态不可跨账号缓存。
 - 保留 `vercel.json` 的函数包排除和 `/api/v1/*` 重写，不把原卷、题图、本地数据库和前端依赖带入函数包。
 - 线上持久数据在 Supabase，不使用 Vercel 临时文件系统保存账号、作答或图片。代码回滚不会回滚数据库。
 - 错题清单需要新增迁移 `supabase/migrations/202610230001_mistake_notebook.sql`，回填历史答错与“不会”记录；本地通过建表脚本兼容更新且重启不恢复已掌握条目。云端迁移未执行时保持读取兼容，移出操作明确提示待更新，不能假报成功。
+- 本轮新增迁移 `supabase/migrations/202611130001_knowledge_points.sql`、`202611130002_learning_analysis.sql`、`202611130003_mock_exams.sql`、`202611130004_practice_variants.sql`、`20261113120000_shared_variants.sql`、`20261113130000_image_transcript.sql`、`20261113140000_user_ai_keys.sql`，均为纯新增；未执行时知识点筛选为空、学情分析只显示统计、模拟卷与变式返回 503（共享题池未执行时自动退回逐次生成）、图片作答转写降级为待自检、用户密钥保存返回 503，不假报成功。线上发布使用 `supabase/release/` 的 preflight/upgrade/postcheck 三份脚本，操作步骤见 [2026-11-13 线上发布手册](docs/release-2026-11-13-ops.md)；整段脚本由 `scripts/build_release_sql.py` 从迁移生成，改迁移后必须重新生成并跑 `tests/test_release_sql.py`。
 - `APP_ORIGIN`、认证回调、邮箱和部署环境对应实际网站；配置变更需重新部署。平台限制和配置操作发生变化时查官方资料，不把历史限制数值当作永久常量。
 - 保留分页、按请求批量读取、公开目录 30 秒缓存和文字渲染按需加载；性能修复先分清数据接口、认证、冷启动与公式渲染耗时。
 - 公开题目接口不再批量签发原题截图 URL；文字内嵌图按请求、题目可见性和答案解锁鉴权。历史上已签发的原图链接最长 300 秒后失效，不能承诺立即撤销。
@@ -118,9 +148,21 @@ python -X utf8 -m pytest tests --basetemp tmp/agent-pytest
 # 不初始化应用或数据库的期末清单离线校验。
 python -X utf8 -m unittest discover -s tests -p test_bjtu_final_manifest.py
 
+# 判分引擎算法用例：单独指定隔离临时库（导入会初始化其本地表结构），不配置 AI_*、不调用模型。
+$env:LOCAL_DATABASE = 'tmp/agent-grading.sqlite'
+python -X utf8 -c "from backend.grading import algorithmic_verdict as v; assert v('0.5','1/2') == 'correct'; assert v('2','3') == 'incorrect'; assert v('x=2','2') is None; print('grading algorithm ok')"
+
 # 前端类型检查和生产构建；检查格式不自动重排文件。
 npm --prefix frontend run build
 npm --prefix frontend run format:check
+
+# 知识点标注（先干跑；确认 APP_MODE 后再写库）与只读核对。
+python -X utf8 scripts/tag_knowledge.py --dry-run --limit 20
+python -X utf8 scripts/verify_knowledge.py
+
+# 改过迁移后重新生成发布 SQL，并核对生成结果与迁移一致。
+python -X utf8 scripts/build_release_sql.py
+python -X utf8 scripts/build_release_sql.py --check
 ```
 
 `--basetemp` 使用专门测试目录，pytest 会清理它，不能指向存放用户资料的目录。测试进程导入应用可能初始化配置指定的本地数据库，必须使用隔离路径；不要拿真实账号和学习记录做测试。首次安装依赖按锁文件与部署文档执行；不要为了纯文档变更更新依赖锁。
@@ -133,6 +175,8 @@ npm --prefix frontend run format:check
 
 ## 7. 后续事项
 
-当前优先维护可用性、题库补充和真实网络性能。云端社区并发事务与失败恢复、上传直传、备份及恢复演练等按任务推进。更新信箱与邀请下载已按 2026-11-08 的明确需求实现，上线仍需迁移与部署配置。公式编辑、AI、填空自动判分、生存模式和在线 PK 是候选方向，不属于当前默认承诺；不因旧文档提到就自动实现。
+2026-11-16 合并修复：AI 判分统一用 `record_ai_grading` 在同一事务中写学习状态、来源和判分快照，沿用作答修订号及每日打卡锁，不在 RPC 后整行 upsert；本地也在同一事务内保存。需追加迁移 `202611160001_atomic_ai_grading.sql`，见 [AI 合并修复说明](docs/ai-merge-fixes.md)。快照按题目版本和 `submission_revision` 匹配当前作答，旧快照不冒充新作答的结论。每日题分配保留知识点筛选；云端多标签与多知识点筛选取交集，关键词包含知识点名称。
+
+当前优先维护可用性、题库补充和真实网络性能。云端社区并发事务与失败恢复、上传直传、备份及恢复演练等按任务推进。更新信箱与邀请下载已按 2026-11-08 的明确需求实现，上线仍需迁移与部署配置。AI 自动核对答案（填空题算法优先+模型兜底、大题得分点判分、纯图片先转写再判分）已按明确要求实现，上线仍需执行迁移、配置 `AI_KEY_SECRET` 并让用户保存各自密钥，见 [AI 自动核对答案](docs/ai-grading.md)。2026-11-13 的知识点标签、AI 学情分析、北交考试预测/模拟卷、错题 AI 变式、共享题池与用户自带 API 密钥已实现并完成离线验证，线上迁移与标注尚未执行，见 [知识点、AI 学情、考试预测与一题多练](docs/knowledge-analysis-mock-deployment.md)；AI 生题经过独立求解校验但仍不承诺 100% 正确，AI 题不进公开题库。公式编辑、生存模式和在线 PK 仍是候选方向，不属于当前默认承诺；不因旧文档提到就自动实现。
 
 本文件按用户要求命名为 `AGENT.md`；不假定所有工具都会自动加载这一单数文件名，使用新编码工具时需确认其指令发现规则。

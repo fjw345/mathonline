@@ -29,6 +29,7 @@ import type {
   Comment,
   User,
   ProblemFeedback,
+  KnowledgePoint,
 } from "../types";
 import ImageGallery from "../components/ImageGallery.vue";
 import AnnouncementManager from "../components/AnnouncementManager.vue";
@@ -64,6 +65,18 @@ const tab = ref(
   options = ref(""),
   correct = ref(""),
   reason = ref("");
+const knowledgeOptions = ref<KnowledgePoint[]>([]);
+const knowledgeCodes = ref<string[]>([]);
+const difficulty = ref<number | null>(null);
+const knowledgeGroups = computed(() => {
+  const groups: { domain: string; items: KnowledgePoint[] }[] = [];
+  for (const item of knowledgeOptions.value) {
+    const group = groups.find((entry) => entry.domain === item.domain);
+    if (group) group.items.push(item);
+    else groups.push({ domain: item.domain, items: [item] });
+  }
+  return groups;
+});
 const shown = computed(() =>
   problems.value.filter(
     (p) =>
@@ -71,13 +84,20 @@ const shown = computed(() =>
       (!status.value || p.status === status.value),
   ),
 );
-const page = ref(1), total = ref(0), bankLoading = ref(false);
+const page = ref(1),
+  total = ref(0),
+  bankLoading = ref(false);
 let bankRequest = 0;
 async function loadBank() {
   const request = ++bankRequest;
   bankLoading.value = true;
   try {
-    const query = new URLSearchParams({ page: String(page.value), page_size: "30", q: search.value, status: status.value });
+    const query = new URLSearchParams({
+      page: String(page.value),
+      page_size: "30",
+      q: search.value,
+      status: status.value,
+    });
     const data = await api("/admin/problems?" + query);
     if (request === bankRequest) {
       problems.value = data.items;
@@ -92,7 +112,10 @@ async function loadBank() {
 let searchTimer: ReturnType<typeof setTimeout>;
 watch([search, status], () => {
   clearTimeout(searchTimer);
-  searchTimer = setTimeout(() => { page.value = 1; void loadBank(); }, 300);
+  searchTimer = setTimeout(() => {
+    page.value = 1;
+    void loadBank();
+  }, 300);
 });
 async function turnPage(step: number) {
   page.value += step;
@@ -106,11 +129,15 @@ async function load() {
     if (!state.user || state.user.role === "user") return;
     if (state.user.role === "admin") {
       const results = await Promise.allSettled([
-        api("/admin/moderation"), loadBank(), api("/admin/users"), api("/admin/feedback"),
+        api("/admin/moderation"),
+        loadBank(),
+        api("/admin/users"),
+        api("/admin/feedback"),
       ]);
       const labels = ["内容审核", "题库", "用户角色", "题目反馈"];
       results.forEach((result, i) => {
-        if (result.status === "rejected") error.value += `${labels[i]}：${result.reason.message} `;
+        if (result.status === "rejected")
+          error.value += `${labels[i]}：${result.reason.message} `;
       });
       if (results[0].status === "fulfilled") pending.value = results[0].value;
       if (results[2].status === "fulfilled") users.value = results[2].value;
@@ -125,12 +152,23 @@ async function load() {
   }
 }
 onMounted(load);
+api("/catalog")
+  .then((data) => {
+    knowledgeOptions.value = data.knowledge || [];
+  })
+  .catch(() => {
+    // 知识点目录加载失败不影响题库维护，保存时会给出明确错误。
+  });
 function open(p: Problem) {
   creating.value = false;
   edit.value = JSON.parse(JSON.stringify(p));
   tags.value = p.tags.join("、");
   options.value = p.choice_options.join(",");
   correct.value = p.answer!.correct_options.join(",");
+  knowledgeCodes.value = (
+    p.knowledge_codes || p.knowledge_points.map((item) => item.code)
+  ).slice();
+  difficulty.value = p.difficulty ?? null;
   editor.value?.showModal();
 }
 function newProblem() {
@@ -144,6 +182,9 @@ function newProblem() {
     group_name: "自定义组别",
     subject: "高等数学",
     tags: [],
+    knowledge_points: [],
+    knowledge_codes: [],
+    difficulty: null,
     status: "published",
     version: 1,
     grading_mode: "self_assessment",
@@ -172,6 +213,8 @@ function newProblem() {
   tags.value = "";
   options.value = "";
   correct.value = "";
+  knowledgeCodes.value = [];
+  difficulty.value = null;
   editor.value?.showModal();
 }
 async function action(fn: () => Promise<void>) {
@@ -246,6 +289,19 @@ async function save() {
         "PATCH",
       );
       await write("/admin/problems/" + p.id, payload, "PUT");
+    }
+    try {
+      await write(
+        "/admin/problems/" + encodeURIComponent(p.id) + "/knowledge",
+        {
+          knowledge_points: knowledgeCodes.value,
+          difficulty: difficulty.value,
+        },
+        "PUT",
+      );
+    } catch (e) {
+      toast("题目内容已保存，但知识点保存失败：" + (e as Error).message, true);
+      return;
     }
     editor.value?.close();
     await load();
@@ -330,7 +386,9 @@ async function editFeedbackProblem(f: ProblemFeedback) {
   await action(async () => {
     let p = problems.value.find((p) => p.id === f.problem_id);
     if (!p) {
-      const data = await api("/admin/problems?page=1&pid=" + encodeURIComponent(f.problem_id));
+      const data = await api(
+        "/admin/problems?page=1&pid=" + encodeURIComponent(f.problem_id),
+      );
       p = data.items[0];
     }
     if (p) open(p);
@@ -472,9 +530,21 @@ async function reviewFeedback(
         </table>
       </div>
       <div class="admin-toolbar">
-        <button class="button" :disabled="bankLoading || page <= 1" @click="turnPage(-1)">上一页</button>
+        <button
+          class="button"
+          :disabled="bankLoading || page <= 1"
+          @click="turnPage(-1)"
+        >
+          上一页
+        </button>
         <span>第 {{ page }} 页 · 共 {{ total }} 道题</span>
-        <button class="button" :disabled="bankLoading || page * 30 >= total" @click="turnPage(1)">下一页</button>
+        <button
+          class="button"
+          :disabled="bankLoading || page * 30 >= total"
+          @click="turnPage(1)"
+        >
+          下一页
+        </button>
       </div>
     </section>
     <section v-if="tab === 'feedback' && state.user.role === 'admin'">
@@ -716,8 +786,42 @@ async function reviewFeedback(
         <label class="field"
           >题库标签（以顿号或逗号分隔）<input
             v-model="tags"
-            placeholder="例如：全国大学生数学竞赛·非数" /></label
-        ><label class="field"
+            placeholder="例如：全国大学生数学竞赛·非数"
+        /></label>
+        <fieldset class="knowledge-editor">
+          <legend>知识点（公开筛选与学情分析使用）</legend>
+          <div
+            v-for="group in knowledgeGroups"
+            :key="group.domain"
+            class="knowledge-group"
+          >
+            <span class="small-text muted">{{ group.domain }}</span>
+            <div class="knowledge-options">
+              <label
+                v-for="item in group.items"
+                :key="item.code"
+                class="check-label"
+              >
+                <input
+                  v-model="knowledgeCodes"
+                  type="checkbox"
+                  :value="item.code"
+                />{{ item.name }}
+              </label>
+            </div>
+          </div>
+          <p v-if="!knowledgeGroups.length" class="small-text muted">
+            知识点目录加载失败，保存时仍会提交已选内容。
+          </p>
+          <label class="field knowledge-difficulty"
+            >内部难度（仅用于组卷，不公开展示）
+            <select v-model.number="difficulty">
+              <option :value="null">未标注</option>
+              <option v-for="n in 5" :key="n" :value="n">{{ n }} 级</option>
+            </select>
+          </label>
+        </fieldset>
+        <label class="field"
           >题面文字（Markdown/LaTeX，留空则显示原图）<textarea
             v-model="edit.question_text"
             rows="5"
@@ -729,8 +833,8 @@ async function reviewFeedback(
             v-model="edit.answer!.text"
             rows="5"
             maxlength="50000"
-          ></textarea>
-        </label><template v-if="edit.type === 'choice'"
+          ></textarea></label
+        ><template v-if="edit.type === 'choice'"
           ><label class="field"
             >选项 ID（逗号分隔）<input
               v-model="options"

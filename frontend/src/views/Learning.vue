@@ -9,9 +9,17 @@ import {
   ArrowRight,
   Heart,
   Bell,
+  Sparkles,
+  RefreshCw,
 } from "lucide-vue-next";
 import { api, write, loadMe, state, toast, statusName } from "../api";
-import type { Problem, Solution, Notification } from "../types";
+import type {
+  AiKeyStatus,
+  Analysis,
+  Problem,
+  Solution,
+  Notification,
+} from "../types";
 import ProblemCard from "../components/ProblemCard.vue";
 const route = useRoute(),
   router = useRouter();
@@ -23,17 +31,85 @@ const loading = ref(true),
   notifications = ref<Notification[]>([]),
   page = ref(1),
   total = ref(0);
+const analysis = ref<Analysis>();
+const reportBusy = ref(false);
+const aiKey = ref<AiKeyStatus>();
+const aiKeyInput = ref("");
+const aiKeySaving = ref(false);
 const nickname = ref("");
 const settings = ref(false),
   saving = ref(false);
 const mastering = ref<string[]>([]);
+const domainNames: Record<string, string> = {
+  calculus: "高等数学",
+  linear_algebra: "线性代数",
+  probability: "概率论",
+};
+function domainName(value: string) {
+  return domainNames[value] || value;
+}
+function percent(value: number | null) {
+  return value === null ? "—" : Math.round(value * 100) + "%";
+}
+function accuracyWidth(value: number | null) {
+  return (value === null ? 0 : Math.max(4, Math.round(value * 100))) + "%";
+}
 const tabs = [
   { id: "history", label: "练习记录" },
   { id: "mistakes", label: "错题" },
+  { id: "analysis", label: "学情分析" },
   { id: "likes", label: "喜欢" },
   { id: "solutions", label: "我的题解" },
   { id: "notifications", label: "消息" },
+  { id: "ai", label: "AI 设置" },
 ];
+async function loadAnalysis() {
+  analysis.value = await api<Analysis>("/me/analysis");
+}
+async function loadAiKey() {
+  aiKey.value = await api<AiKeyStatus>("/me/ai-key");
+}
+async function saveAiKey() {
+  if (!aiKeyInput.value.trim()) return;
+  aiKeySaving.value = true;
+  try {
+    aiKey.value = await write<AiKeyStatus>(
+      "/me/ai-key",
+      { api_key: aiKeyInput.value.trim() },
+      "PUT",
+    );
+    aiKeyInput.value = "";
+    toast("API 密钥已保存");
+  } catch (e) {
+    toast((e as Error).message, true);
+  } finally {
+    aiKeySaving.value = false;
+  }
+}
+async function removeAiKey() {
+  if (!window.confirm("删除已保存的 API 密钥？删除后 AI 功能将不可用。"))
+    return;
+  try {
+    aiKey.value = await api<AiKeyStatus>("/me/ai-key", { method: "DELETE" });
+    toast("API 密钥已删除");
+  } catch (e) {
+    toast((e as Error).message, true);
+  }
+}
+async function generateReport(refresh = false) {
+  reportBusy.value = true;
+  try {
+    analysis.value = await api<Analysis>(
+      "/me/analysis" + (refresh ? "?refresh=true" : ""),
+      { method: "POST", signal: AbortSignal.timeout(180000) },
+    );
+    toast("AI 诊断已更新");
+  } catch (e) {
+    toast((e as Error).message, true);
+  } finally {
+    reportBusy.value = false;
+  }
+}
 async function saveProfile() {
   saving.value = true;
   try {
@@ -87,7 +163,11 @@ async function load() {
     if (!state.user) return;
     items.value = [];
     solutions.value = [];
-    if (tab.value === "notifications") {
+    if (tab.value === "analysis") {
+      await loadAnalysis();
+    } else if (tab.value === "ai") {
+      await loadAiKey();
+    } else if (tab.value === "notifications") {
       notifications.value = await api("/me/notifications");
     } else if (tab.value === "solutions") {
       solutions.value = await api("/me/solutions");
@@ -115,6 +195,7 @@ async function load() {
 onMounted(load);
 watch(tab, () => {
   page.value = 1;
+  if (tab.value === "analysis") analysis.value = undefined;
   router.replace({ query: { tab: tab.value } });
   load();
 });
@@ -204,6 +285,278 @@ async function read(n: Notification) {
       <p>{{ error }}</p>
       <button class="button" @click="load">重试</button>
     </div>
+    <template v-else-if="tab === 'ai'">
+      <section class="paper-card ai-key-panel">
+        <div class="section-heading compact">
+          <div><h2>DeepSeek API 密钥</h2></div>
+          <span class="chip neutral">{{
+            aiKey?.configured ? "已配置" : "未配置"
+          }}</span>
+        </div>
+        <p class="small-text muted">
+          AI 判分、学情分析、考试预测与一题多练都使用你自己的密钥调用
+          DeepSeek。密钥加密保存在服务器，页面只显示末四位，接口不会返回完整密钥。
+        </p>
+        <p v-if="aiKey?.reason" class="form-warning">{{ aiKey.reason }}</p>
+        <p v-if="aiKey?.configured" class="small-text">
+          当前：{{ aiKey.hint }}
+          <span v-if="aiKey.updated_at"
+            >· {{ aiKey.updated_at.slice(0, 19).replace("T", " ") }} 更新</span
+          >
+        </p>
+        <form class="ai-key-form" @submit.prevent="saveAiKey">
+          <label class="field"
+            >新的 API 密钥<input
+              v-model.trim="aiKeyInput"
+              type="password"
+              autocomplete="off"
+              spellcheck="false"
+              placeholder="sk-..."
+              required
+          /></label>
+          <div class="ai-key-actions">
+            <button class="button" :disabled="aiKeySaving">
+              {{
+                aiKeySaving
+                  ? "保存中…"
+                  : aiKey?.configured
+                    ? "更换密钥"
+                    : "保存密钥"
+              }}
+            </button>
+            <button
+              v-if="aiKey?.configured"
+              type="button"
+              class="text-button"
+              @click="removeAiKey"
+            >
+              删除密钥
+            </button>
+          </div>
+        </form>
+        <p class="small-text muted">
+          只支持 DeepSeek 官方密钥（sk-
+          开头）。请不要填写他人的密钥；密钥只用于你发起的 AI 请求，可随时删除。
+        </p>
+      </section>
+    </template>
+    <template v-else-if="tab === 'analysis'">
+      <div v-if="!analysis" class="loading-panel">正在统计…</div>
+      <template v-else>
+        <div class="analysis-summary">
+          <div>
+            <strong>{{ analysis.stats.totals.practiced }}</strong
+            ><span>已练习</span>
+          </div>
+          <div>
+            <strong>{{ analysis.stats.totals.correct }}</strong
+            ><span>当前做对</span>
+          </div>
+          <div>
+            <strong>{{ analysis.stats.totals.incorrect }}</strong
+            ><span>当前做错</span>
+          </div>
+          <div>
+            <strong>{{ analysis.stats.totals.mistakes }}</strong
+            ><span>待复习错题</span>
+          </div>
+        </div>
+        <div v-if="!analysis.stats.knowledge.length" class="empty-state">
+          <BookOpen :size="32" />
+          <h3>还没有可分析的练习记录</h3>
+          <p>做几道带知识点的题目后再来看；已做过的题会自动计入统计。</p>
+          <RouterLink to="/practice" class="button"
+            >去练习<ArrowRight :size="16"
+          /></RouterLink>
+        </div>
+        <template v-else>
+          <section class="paper-card">
+            <div class="section-heading compact">
+              <div>
+                <h2>最需加强</h2>
+              </div>
+              <span class="chip neutral">按正确率与错题数排序</span>
+            </div>
+            <div class="weak-grid">
+              <article
+                v-for="item in analysis.stats.weakest"
+                :key="item.code"
+                class="weak-card"
+              >
+                <h3>{{ item.name }}</h3>
+                <p class="small-text muted">
+                  正确率 {{ percent(item.accuracy) }} · 已判分
+                  {{ item.graded }} 题 · 错题 {{ item.mistakes }}
+                </p>
+                <div class="accuracy-bar" aria-hidden="true">
+                  <i :style="{ width: accuracyWidth(item.accuracy) }"></i>
+                </div>
+                <RouterLink
+                  :to="'/practice?knowledge=' + item.code"
+                  class="text-button inline"
+                  >针对练习<ArrowRight :size="15"
+                /></RouterLink>
+              </article>
+            </div>
+          </section>
+          <section class="paper-card">
+            <div class="section-heading">
+              <div>
+                <h2>知识点掌握</h2>
+              </div>
+              <span class="chip neutral"
+                >{{ analysis.stats.knowledge.length }} 个知识点</span
+              >
+            </div>
+            <div class="analysis-table-wrap">
+              <table class="analysis-table">
+                <thead>
+                  <tr>
+                    <th scope="col">知识点</th>
+                    <th scope="col">正确率</th>
+                    <th scope="col">已判分</th>
+                    <th scope="col">错题</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="item in analysis.stats.knowledge" :key="item.code">
+                    <td>
+                      <strong>{{ item.name }}</strong>
+                      <br />
+                      <small class="muted">{{ domainName(item.domain) }}</small>
+                    </td>
+                    <td>
+                      <div class="accuracy-bar" aria-hidden="true">
+                        <i :style="{ width: accuracyWidth(item.accuracy) }"></i>
+                      </div>
+                      <small>{{ percent(item.accuracy) }}</small>
+                    </td>
+                    <td>{{ item.graded }}</td>
+                    <td>{{ item.mistakes }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p
+              v-if="analysis.stats.variant_totals.practiced"
+              class="small-text muted"
+            >
+              一题多练：做过
+              {{ analysis.stats.variant_totals.practiced }} 道变式题， 做对
+              {{ analysis.stats.variant_totals.correct }} 道。
+            </p>
+          </section>
+          <section v-if="analysis.stats.mock.length" class="paper-card">
+            <div class="section-heading compact">
+              <div>
+                <h2>模拟卷成绩</h2>
+              </div>
+              <span class="chip neutral"
+                >{{ analysis.stats.mock.length }} 次</span
+              >
+            </div>
+            <div
+              v-for="paper in analysis.stats.mock"
+              :key="paper.paper_id"
+              class="mock-score-row"
+            >
+              <div class="mock-score-heading">
+                <RouterLink :to="'/mock/' + paper.paper_id"
+                  ><strong>{{ paper.title }}</strong></RouterLink
+                >
+                <span class="chip neutral"
+                  >{{ paper.score }} / {{ paper.max_score }} 分</span
+                >
+              </div>
+              <div class="knowledge-row">
+                <span
+                  v-for="point in paper.knowledge"
+                  :key="point.code"
+                  class="knowledge-chip"
+                  >{{ point.name }} {{ point.score }}/{{ point.max }}</span
+                >
+              </div>
+            </div>
+          </section>
+          <section class="paper-card ai-analysis">
+            <div class="section-heading compact">
+              <div>
+                <h2><Sparkles :size="18" /> AI 学情诊断</h2>
+              </div>
+              <button
+                v-if="analysis.available"
+                class="button small"
+                :disabled="reportBusy"
+                @click="generateReport(!!analysis.report)"
+              >
+                <RefreshCw :size="15" />{{
+                  reportBusy
+                    ? "生成中…"
+                    : analysis.report
+                      ? "重新生成"
+                      : "生成 AI 诊断"
+                }}
+              </button>
+            </div>
+            <template v-if="analysis.report">
+              <p class="ai-summary">{{ analysis.report.summary }}</p>
+              <div v-if="analysis.report.strengths.length" class="report-block">
+                <h3>相对掌握较好</h3>
+                <ul>
+                  <li
+                    v-for="item in analysis.report.strengths"
+                    :key="item.code"
+                  >
+                    <strong>{{ item.name }}</strong
+                    >：{{ item.reason }}
+                  </li>
+                </ul>
+              </div>
+              <div
+                v-if="analysis.report.weaknesses.length"
+                class="report-block"
+              >
+                <h3>需要重点补的</h3>
+                <ul>
+                  <li
+                    v-for="item in analysis.report.weaknesses"
+                    :key="item.code"
+                  >
+                    <strong>{{ item.name }}</strong
+                    >：{{ item.reason }}
+                    <span v-if="item.suggestion"
+                      ><br /><em>建议：{{ item.suggestion }}</em></span
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div v-if="analysis.report.plan.length" class="report-block">
+                <h3>一周练习计划</h3>
+                <ol>
+                  <li
+                    v-for="(step, index) in analysis.report.plan"
+                    :key="index"
+                  >
+                    {{ step }}
+                  </li>
+                </ol>
+              </div>
+              <p class="small-text muted">
+                由 {{ analysis.report.model || "模型" }} 生成 ·
+                仅依据你的练习统计
+              </p>
+            </template>
+            <p v-else-if="!analysis.available" class="muted">
+              {{ analysis.reason || "AI 诊断暂不可用，先看上面的统计。" }}
+            </p>
+            <p v-else class="muted small-text">
+              点击“生成 AI
+              诊断”，模型会结合正确率与错题分布指出薄弱知识点，并给出复习计划。
+            </p>
+          </section>
+        </template>
+      </template>
+    </template>
     <template v-else
       ><div v-if="items.length" class="card-grid">
         <div v-for="p in items" :key="p.id" class="learning-item">
@@ -301,5 +654,23 @@ async function read(n: Notification) {
 }
 .learning-item .problem-card {
   flex: 1;
+}
+.ai-key-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 720px;
+}
+.ai-key-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+}
+.ai-key-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 </style>

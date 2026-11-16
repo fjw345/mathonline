@@ -29,3 +29,50 @@ RESOURCE_DOWNLOAD_URL = os.getenv("RESOURCE_DOWNLOAD_URL", "").strip()
 RESOURCE_EXTRACTION_CODE = os.getenv("RESOURCE_EXTRACTION_CODE", "").strip()
 if MODE == "supabase" and not all((SB_URL, SB_KEY, SB_ANON)):
     raise RuntimeError("Supabase mode requires URL, service role key and anon key")
+
+# 模型判分配置：未配置时 AI 判分降级为待自检，不阻断提交。
+AI_BASE_URL = os.getenv("AI_BASE_URL", "").rstrip("/")
+AI_API_KEY = os.getenv("AI_API_KEY", "")
+AI_MODEL = os.getenv("AI_MODEL", "")
+# 可选：考试预测蓝图单独用一个快速模型，避免强推理模型在长提示上超时或截断。
+AI_BLUEPRINT_MODEL = os.getenv("AI_BLUEPRINT_MODEL", "").strip() or AI_MODEL
+# 可选：AI 生题（仿题/模拟卷 AI 题）单独用更强的模型；留空沿用 AI_MODEL。
+AI_VARIANT_MODEL = os.getenv("AI_VARIANT_MODEL", "").strip() or AI_MODEL
+AI_TIMEOUT = float(os.getenv("AI_TIMEOUT", "30"))
+# 可选：思考型模型（如 Ollama qwen3）可用 none 关闭思考，避免推理占满输出预算。
+# 留空表示不发送该字段，兼容不识别它的服务商。
+AI_REASONING_EFFORT = os.getenv("AI_REASONING_EFFORT", "").strip()
+AI_ENABLED = bool(AI_BASE_URL and AI_API_KEY and AI_MODEL)
+# 只要求端点与模型可用；密钥可以由每个用户在设置页自带（加密保存在服务端）。
+AI_MODEL_READY = bool(AI_BASE_URL and AI_MODEL)
+
+# 用户自带 API 密钥的加密密钥：base64url 编码的 32 字节。
+# 未配置时用户无法保存或读取密钥，AI 功能会明确提示管理员配置。
+AI_KEY_SECRET = os.getenv("AI_KEY_SECRET", "").strip()
+# 兼容本机开发与测试：默认关闭；显式设 on 才在用户未配置密钥时回退服务端
+# AI_API_KEY。线上必须保持关闭，所有用户 AI 调用都走用户自己的密钥。
+_allow_server_key = os.getenv("AI_ALLOW_SERVER_KEY", "").strip().lower()
+if _allow_server_key in ("1", "true", "yes", "on"):
+    AI_ALLOW_SERVER_KEY = True
+else:
+    AI_ALLOW_SERVER_KEY = False
+
+# 图片作答转写：可独立配置视觉模型端点；留空沿用文本模型与接口。
+AI_VISION_BASE_URL = os.getenv("AI_VISION_BASE_URL", "").rstrip("/") or AI_BASE_URL
+AI_VISION_API_KEY = os.getenv("AI_VISION_API_KEY", "") or AI_API_KEY
+AI_VISION_MODEL = os.getenv("AI_VISION_MODEL", "").strip() or AI_MODEL
+AI_VISION_TIMEOUT = float(os.getenv("AI_VISION_TIMEOUT", "120"))
+AI_VISION_ENABLED = bool(AI_ENABLED and AI_VISION_MODEL)
+
+# AI 仿题共享题池：线上默认开启，本地默认关闭（本地保留每次生成新题便于调试）。
+_share = os.getenv("AI_VARIANT_SHARE", "").strip().lower()
+if _share in ("1", "true", "yes", "on"):
+    AI_VARIANT_SHARE = True
+elif _share in ("0", "false", "no", "off"):
+    AI_VARIANT_SHARE = False
+else:
+    AI_VARIANT_SHARE = MODE == "supabase"
+try:
+    AI_VARIANT_POOL_SIZE = max(1, min(10, int(os.getenv("AI_VARIANT_POOL_SIZE", "3"))))
+except ValueError:
+    AI_VARIANT_POOL_SIZE = 3

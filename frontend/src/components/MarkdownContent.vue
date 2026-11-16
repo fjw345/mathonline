@@ -71,12 +71,7 @@ function createRenderer(compact: boolean) {
     return true;
   };
 
-  const mathBlock: BlockRule = (
-    state,
-    startLine,
-    endLine,
-    silent,
-  ) => {
+  const mathBlock: BlockRule = (state, startLine, endLine, silent) => {
     const lineStart = state.bMarks[startLine] + state.tShift[startLine];
     const lineEnd = state.eMarks[startLine];
     if (state.src.slice(lineStart, lineStart + 2) !== "$$") return false;
