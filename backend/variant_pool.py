@@ -144,6 +144,8 @@ def _cache_rows(problem, digest, kind, repository):
         row
         for row in rows
         if row.get("question_text") and (row.get("answer_text") or "").strip()
+        and all(question_gen.valid_math_format(row.get(field) or "")
+                for field in ("question_text", "answer_text", "explanation"))
     ]
 
 

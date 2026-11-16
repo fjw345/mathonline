@@ -378,10 +378,17 @@ function correctAnswer(item: MockItem) {
                     : answerFor(item).text || "未作答"
                 }}
               </p>
-              <p class="mock-correct-answer">
-                {{ correctAnswer(item) }}
-              </p>
-              <p
+              <div class="mock-correct-answer">
+                <template v-if="item.type === 'choice'">{{
+                  correctAnswer(item)
+                }}</template>
+                <template v-else
+                  >参考答案：<MarkdownContent
+                    :source="item.answer_text || '暂无'"
+                    math-fallback
+                /></template>
+              </div>
+              <div
                 v-if="
                   item.origin === 'ai' &&
                   item.correct_options?.length &&
@@ -389,8 +396,11 @@ function correctAnswer(item: MockItem) {
                 "
                 class="small-text muted"
               >
-                正确选项内容：{{ item.answer_text }}
-              </p>
+                正确选项内容：<MarkdownContent
+                  :source="item.answer_text || ''"
+                  math-fallback
+                />
+              </div>
               <MarkdownContent
                 v-if="item.explanation"
                 :source="item.explanation"

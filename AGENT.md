@@ -104,6 +104,8 @@
 
 ### 页面风格
 
+- AI 生题的题干、选项、答案和解析统一使用 Markdown/LaTeX。共用渲染器位于 `frontend/src/markdown.ts`，组件为 `MarkdownContent.vue`；兼容 `$...$`、`$$...$$`、`\(...\)`、`\[...\]` 及历史反引号包裹的明确公式，普通代码仍按代码显示。新生题拒绝明显乱码、未闭合定界符和花括号，并重新生成；不能猜测丢失的分式。共享题池跳过同类损坏内容但不删除旧记录；既有卷子中结构已丢失的题目需重新生成。验证命令：`npm --prefix frontend run test:markdown`，以及 `tests/test_generated_math_format.py`、`tests/test_mock_exam.py`、`tests/test_variant_pool.py`。
+
 沿用现有 Vue/CSS 与图标体系，措辞简短，优先题目和操作。保持“来学数学”品牌及用户指定的首页标题，不加回已删除的装饰文案和装饰右栏；参考答案的功能右栏按本轮需求保留。改长标题、题面公式或文字内嵌图时检查手机尺寸、缩放及溢出。
 
 ## 4. 题库维护与导入

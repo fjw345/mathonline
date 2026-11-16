@@ -6,6 +6,7 @@
 """
 
 import math
+import re
 
 from . import ai, config, grading
 
@@ -21,9 +22,13 @@ _GENERATE_SYSTEM = (
     "使用相同或相近的解法思路，但必须更换数据、函数、参数或情境，使新题答案"
     "与原题不同。新题必须自洽、有唯一确定的答案、可以手算或常规推导解出。"
     "严格输出一个 JSON 对象，不要输出解释文字或 Markdown 代码围栏。"
+    "所有数学公式使用 LaTeX，行内公式用 $...$，独立公式用 $$...$$，不要用反引号包公式。"
+    "分式必须明确写为 \\frac{分子}{分母}，函数用 \\sin、\\cos 等命令，积分微分写为 \\,dx。"
+    "JSON 字符串中的 LaTeX 反斜杠必须双写转义，公式定界符和花括号必须配对。"
 )
 _VERIFY_SYSTEM = (
     "你是严格的数学阅卷人。只依据题目本身独立求解，不假设参考答案正确。"
+    "若题干公式乱码、分子分母或运算结构不明确，判为不可解，不猜测或补全缺失条件。"
     "严格输出一个 JSON 对象，不要输出解释文字或 Markdown 代码围栏。"
 )
 
@@ -134,9 +139,11 @@ def generate_verified(seed, answer_text, subject, kind, attempts=4, model=None):
 
 def normalize_generated(payload, kind):
     stem = ai.clean_text(payload.get("stem"), MAX_STEM).strip()
-    if not stem:
+    if not stem or not valid_math_format(stem):
         return None
     explanation = ai.clean_text(payload.get("explanation"), MAX_EXPLANATION).strip()
+    if not valid_math_format(explanation):
+        return None
     if kind == "choice":
         raw_options = ai.parse_list(payload.get("options"))
         options = [
@@ -145,6 +152,8 @@ def normalize_generated(payload, kind):
             if isinstance(option, str) and option.strip()
         ]
         if len(options) < 3:
+            return None
+        if any(not valid_math_format(option) for option in options):
             return None
         correct = str(payload.get("correct") or "").strip().upper()
         if correct not in LETTERS[: len(options)]:
@@ -178,7 +187,7 @@ def normalize_generated(payload, kind):
             "model": ai.model_name(),
         }
     answer = ai.clean_text(payload.get("answer"), MAX_ANSWER).strip()
-    if not answer:
+    if not answer or not valid_math_format(answer):
         return None
     return {
         "type": kind,
@@ -190,6 +199,26 @@ def normalize_generated(payload, kind):
         "explanation": explanation,
         "model": ai.model_name(),
     }
+
+
+def valid_math_format(value):
+    """拒绝明显损坏的公式；不猜测丢失的分式，也不替代数学正确性验证。"""
+    if "\u2061" in value or any(ord(c) < 32 and c not in "\n\t" for c in value):
+        return False
+    if len(re.findall(r"(?<!\\)\$", value)) % 2:
+        return False
+    for opening, closing in ((r"\(", r"\)"), (r"\[", r"\]")):
+        if value.count(opening) != value.count(closing):
+            return False
+    depth = 0
+    for char in re.sub(r"\\[{}]", "", value):
+        if char == "{":
+            depth += 1
+        elif char == "}":
+            depth -= 1
+            if depth < 0:
+                return False
+    return depth == 0
 
 
 def verify_item(item, model=None):

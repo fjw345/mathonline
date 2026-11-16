@@ -1447,13 +1447,19 @@ async function comment(s: Solution) {
                 </div>
               </div>
               <div v-else class="variant-answer">
-                <p class="variant-answer-text">
+                <div class="variant-answer-text">
                   <strong>答案：</strong
                   ><template v-if="variant.type === 'choice'">
                     {{ (variant.correct_options || []).join("、") }} ·
-                    {{ variant.answer_text }}</template
-                  ><template v-else>{{ variant.answer_text }}</template>
-                </p>
+                    <MarkdownContent
+                      :source="variant.answer_text || ''"
+                      math-fallback /></template
+                  ><MarkdownContent
+                    v-else
+                    :source="variant.answer_text || ''"
+                    math-fallback
+                  />
+                </div>
                 <MarkdownContent
                   v-if="variant.explanation"
                   :source="variant.explanation"
