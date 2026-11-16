@@ -1,5 +1,10 @@
 # 2026-11-13 线上数据库升级包
 
+> 2026-11-16 补充：部署最新 `dev_ai` 合并代码前，完成本包后还需单独执行
+> [`202611160001_atomic_ai_grading.sql`](../migrations/202611160001_atomic_ai_grading.sql)。
+> 它不包含在旧升级包中；已完成旧升级的项目只补这份迁移，不重复执行旧包。
+> 作用、核对和回滚说明见 [AI 合并修复说明](../../docs/ai-merge-fixes.md)。
+
 给部署人员用的三个 SQL 文件，按顺序在 Supabase Dashboard 的 SQL Editor 里整段执行：
 
 | 文件 | 作用 | 是否改数据 |

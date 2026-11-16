@@ -108,6 +108,7 @@ CREATE TABLE IF NOT EXISTS problem_grading (
  model TEXT NOT NULL,
  problem_version INTEGER NOT NULL,
  transcript TEXT NOT NULL DEFAULT '',
+ submission_revision INTEGER NOT NULL DEFAULT 0,
  created_at TEXT NOT NULL,
  UNIQUE(user_id,problem_id)
 );

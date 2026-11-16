@@ -184,11 +184,15 @@ def images_info(ids, repository=None, strict=True):
     return result
 
 
-def ai_grading(user, pid, repository=None):
+def ai_grading(user, pid, state, repository=None):
     """Latest AI snapshot for one problem, shaped like the frontend AiGrading."""
     repository = repository or store
     row = repository.get("problem_grading", user_id=user["id"], problem_id=pid)
-    if not row:
+    if (
+        not row
+        or row.get("problem_version") != state["problem_version"]
+        or row.get("submission_revision") != state["revision"]
+    ):
         return None
     return {
         "result": row["result"],
@@ -229,7 +233,7 @@ def public_problem(p, user=None, repository=None):
         state["outdated"] = state["problem_version"] != p["version"]
         state["can_publish"] = state["correct_version"] == p["version"]
         state["images"] = images_info(state["image_ids"], repository, strict=False)
-        state["ai_grading"] = ai_grading(user, p["id"], repository)
+        state["ai_grading"] = ai_grading(user, p["id"], state, repository)
     result["progress"] = state
     result["answer_unlocked"] = bool(
         state
@@ -701,7 +705,10 @@ def daily(request: Request, body: dict):
     user = current_user(request)
     assignment = assign_daily(
         user,
-        {k: v for k, v in body.items() if k in ("year", "type", "tag", "q")},
+        {
+            k: v for k, v in body.items()
+            if k in ("year", "type", "tag", "knowledge", "q")
+        },
     )
     p = problem_or_404(assignment["problem_id"])
     with read_store(store) as reader:
@@ -790,34 +797,19 @@ def grade(pid: str, body: GradingInput, request: Request):
         raise HTTPException(400, "该题不支持 AI 判分。") from exc
     if graded is None:
         return grading_fallback(p, user, ai.reason() or "AI 判分暂不可用，请自检")
-    apply_progress(
-        user, p, "", [], graded["result"], body.revision, result_source="ai"
-    )
     try:
-        # Same primary key on every attempt: store.put only upserts on id, so a
-        # fresh id for an existing (user_id, problem_id) hits UNIQUE.
-        store.put(
-            "problem_grading",
-            {
-                "id": user["id"] + ":" + pid,
-                "user_id": user["id"],
-                "problem_id": pid,
-                "result": graded["result"],
-                "score": graded["score"],
-                "max_score": graded["max_score"],
-                "points": graded["points"],
-                "model": graded["model"],
-                "problem_version": p["version"],
-                "transcript": transcript,
-                "created_at": now(),
-            },
+        apply_progress(
+            user, p, "", [], graded["result"], body.revision, result_source="ai",
+            grading_snapshot={**graded, "transcript": transcript},
         )
+    except HTTPException:
+        raise
     except Exception as exc:
         logging.getLogger("mathonline").error(
             "AI grading snapshot failed: %s", type(exc).__name__
         )
         raise HTTPException(
-            503, "AI 判分结果已保存，但详情写入失败，请刷新后查看。"
+            503, "AI 判分未保存，请确认数据库已更新后重试或自检。"
         ) from exc
     return {"available": True, "reason": "", "problem": public_problem(p, user)}
 

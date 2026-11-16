@@ -193,6 +193,12 @@ class LocalStore:
             # Version 12 adds encrypted per-user AI keys; schema.sql creates the
             # table on every startup, this row records the upgrade.
             db.execute("INSERT OR IGNORE INTO schema_migrations VALUES (12)")
+            if "submission_revision" not in grading_columns:
+                db.execute(
+                    "ALTER TABLE problem_grading ADD COLUMN submission_revision "
+                    "INTEGER NOT NULL DEFAULT 0"
+                )
+            db.execute("INSERT OR IGNORE INTO schema_migrations VALUES (13)")
             db.commit()
 
     def connect(self):
@@ -582,6 +588,7 @@ class SupabaseStore:
                 ):
                     return {"total": 0, "rows": []}
                 params[key] = "in.(" + ",".join(values) + ")"
+        disjunctions = []
         if filters.get("tag"):
             # tags is jsonb, not a PostgreSQL array: overlap (ov) is invalid.
             tags = str(filters["tag"]).split(",")
@@ -593,7 +600,7 @@ class SupabaseStore:
                     "tags.cs." + json.dumps(json.dumps([tag], ensure_ascii=False))
                     for tag in tags
                 ]
-                params["or"] = "(" + ",".join(terms) + ")"
+                disjunctions.append("or.(" + ",".join(terms) + ")")
         if filters.get("knowledge"):
             # Same ANY semantics as the local filter. A single code uses one
             # contains filter; multiple codes use PostgREST's disjunction.
@@ -605,11 +612,16 @@ class SupabaseStore:
                     codes, ensure_ascii=False
                 )
             else:
-                params["or"] = "(" + ",".join(
+                terms = [
                     "knowledge_points.cs."
                     + json.dumps(json.dumps([code], ensure_ascii=False))
                     for code in codes
-                ) + ")"
+                ]
+                disjunctions.append("or.(" + ",".join(terms) + ")")
+        if len(disjunctions) == 1:
+            params["or"] = disjunctions[0][3:]
+        elif disjunctions:
+            params["and"] = "(" + ",".join(disjunctions) + ")"
         if filters.get("q"):
             rows, offset = [], 0
             while True:
@@ -633,6 +645,11 @@ class SupabaseStore:
                     + p["id"]
                     + " "
                     + " ".join(p["tags"])
+                    + " "
+                    + " ".join(
+                        topics.name_for(code)
+                        for code in (p.get("knowledge_points") or [])
+                    )
                     + " "
                     + p.get("question_text", "")
                 ).lower()

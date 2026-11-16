@@ -19,6 +19,15 @@ def reset_user_ai():
     ai.clear_user()
 
 
+@pytest.fixture(autouse=True)
+def offline_model_config(monkeypatch):
+    # Tests opt in with AI_ENABLED and stub transports, never developer .env keys.
+    monkeypatch.setattr(config, "AI_BASE_URL", "https://ai.invalid")
+    monkeypatch.setattr(config, "AI_MODEL", "offline-model")
+    monkeypatch.setattr(config, "AI_API_KEY", "offline-placeholder")
+    monkeypatch.setattr(config, "AI_ENABLED", False)
+
+
 @pytest.fixture
 def env(tmp_path, monkeypatch):
     db = LocalStore(tmp_path / "test.sqlite")

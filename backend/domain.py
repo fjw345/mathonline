@@ -89,12 +89,25 @@ def progress(user, pid, repository=None):
 
 
 def apply_progress(
-    user, problem, text, images, result, revision=None, result_source=None
+    user, problem, text, images, result, revision=None, result_source=None,
+    grading_snapshot=None,
 ):
     """Serialize submit/self-assessment and daily check-in in one transaction."""
     if hasattr(store, "rpc"):
         try:
-            record = store.rpc(
+            if result_source == "ai":
+                return store.rpc(
+                    "record_ai_grading",
+                    {
+                        "p_user": user["id"],
+                        "p_problem": problem["id"],
+                        "p_revision": revision,
+                        "p_version": problem["version"],
+                        "p_date": today(),
+                        "p_grading": grading_snapshot,
+                    },
+                )
+            return store.rpc(
                 "record_progress",
                 {
                     "p_user": user["id"],
@@ -115,16 +128,6 @@ def apply_progress(
                     409, "作答或题目已更新，请刷新后重新核对。"
                 ) from exc
             raise
-        if result_source is not None:
-            current = record.get("result_source") if isinstance(record, dict) else None
-            if current != result_source:
-                # Keep the Postgres function signature; the requested source is
-                # one idempotent upsert on the same primary key.
-                record = store.put(
-                    "user_problem_progress",
-                    dict(record or {}, result_source=result_source),
-                )
-        return record
     with store.transaction() as tx:
         latest = tx.get("problems", id=problem["id"])
         if latest["version"] != problem["version"]:
@@ -136,7 +139,8 @@ def apply_progress(
             # Pending attempts and AI verdicts may still be self-assessed; an
             # already self-assessed row is final, so a repeat stays a conflict.
             editable = bool(old) and (
-                old["result"] == "pending" or old.get("result_source") == "ai"
+                old["result"] == "pending"
+                or (result_source != "ai" and old.get("result_source") == "ai")
             )
             if (
                 not editable
@@ -174,6 +178,19 @@ def apply_progress(
             "last_at": now(),
         }
         tx.put("user_problem_progress", record)
+        if grading_snapshot is not None:
+            tx.put(
+                "problem_grading",
+                {
+                    **grading_snapshot,
+                    "id": user["id"] + ":" + problem["id"],
+                    "user_id": user["id"],
+                    "problem_id": problem["id"],
+                    "problem_version": problem["version"],
+                    "submission_revision": revision,
+                    "created_at": record["last_at"],
+                },
+            )
         daily = tx.get("daily_assignments", user_id=user["id"], local_date=today())
         if (
             result != "pending"
