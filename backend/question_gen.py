@@ -103,7 +103,7 @@ def generate_verified(seed, answer_text, subject, kind, attempts=4, model=None):
         raise ai.AIUnavailable("AI 生题未配置")
     if kind not in ("choice", "blank", "solution"):
         raise GenerationError("不支持的题型")
-    model = model or config.AI_MODEL
+    model = model or ai.model_name()
     last_reason = ""
     for _attempt in range(max(1, attempts)):
         try:
@@ -175,7 +175,7 @@ def normalize_generated(payload, kind):
             "correct_options": [correct],
             "answer_text": answer_text,
             "explanation": explanation,
-            "model": config.AI_MODEL,
+            "model": ai.model_name(),
         }
     answer = ai.clean_text(payload.get("answer"), MAX_ANSWER).strip()
     if not answer:
@@ -188,7 +188,7 @@ def normalize_generated(payload, kind):
         "correct_options": [],
         "answer_text": answer,
         "explanation": explanation,
-        "model": config.AI_MODEL,
+        "model": ai.model_name(),
     }
 
 

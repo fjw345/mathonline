@@ -95,6 +95,18 @@ const dailyAttempted = ref(false);
 const answerUnlocked = computed(() => !!problem.value?.answer_unlocked);
 const previewSubmission = ref(false);
 const gaveUp = ref(false);
+const aiDecision = ref<"ask" | "self" | "ai">("ask");
+const needsGradingChoice = computed(() => {
+  const p = problem.value;
+  return (
+    p &&
+    p.type !== "choice" &&
+    p.progress?.result === "pending" &&
+    !p.progress.outdated &&
+    !gaveUp.value
+  );
+});
+const aiGradingError = ref("");
 const reviewArea = ref<HTMLElement>();
 const answerToggle = ref<HTMLButtonElement>();
 const aiGrading = computed<AiGrading | null>(
@@ -149,8 +161,8 @@ const resultFeedback = computed(() => {
       : {
           kind: "pending",
           icon: CircleHelp,
-          title: "已提交，待自检",
-          detail: "对照参考答案后，选择正确或错误。",
+          title: "已提交，待核对",
+          detail: "参考答案已解锁，可选择 AI 判题或自己核对。",
         };
   const ai = p.ai_grading;
   const self = p.result_source === "self_assessment";
@@ -227,6 +239,8 @@ function setProblem(data: Problem, key?: string, draft?: PracticeDraft) {
   previewSubmission.value = !!data.progress && !data.progress.outdated;
   gaveUp.value = false;
   aiGradingBusy.value = false;
+  aiDecision.value = "ask";
+  aiGradingError.value = "";
   feedbackOpen.value = false;
   feedbackKind.value = "incomplete";
   feedbackDetail.value = "";
@@ -521,7 +535,8 @@ async function submit() {
     previewSubmission.value = true;
     gaveUp.value = false;
     saveDraft();
-    void autoGrade();
+    aiDecision.value = "ask";
+    aiGradingError.value = "";
     await revealReview();
     if (seq !== sequence) return;
     await showAnswer();
@@ -532,7 +547,7 @@ async function submit() {
         ? data.progress?.result === "correct"
           ? "回答正确"
           : "回答错误，已加入错题"
-        : "作答已保存，请核对答案并自检",
+        : "作答已保存，请选择核对方式",
       p.type === "choice" && data.progress?.result === "incorrect",
     );
   });
@@ -542,7 +557,7 @@ interface GradeResult {
   reason: string;
   problem: Problem;
 }
-async function autoGrade() {
+async function requestAiGrade() {
   const p = problem.value;
   const progress = p?.progress;
   if (!p || !progress || p.type === "choice") return;
@@ -551,26 +566,38 @@ async function autoGrade() {
   const key = p.id + ":" + progress.revision;
   if (gradedRevisions.has(key)) return;
   gradedRevisions.add(key);
+  aiDecision.value = "ai";
+  aiGradingError.value = "";
   const seq = sequence;
   const token = ++gradeToken;
   aiGradingBusy.value = true;
   try {
-    const data = await write<GradeResult>("/me/problems/" + p.id + "/grade", {
-      problem_version: p.version,
-      revision: progress.revision,
+    const data = await api<GradeResult>("/me/problems/" + p.id + "/grade", {
+      method: "POST",
+      body: JSON.stringify({
+        problem_version: p.version,
+        revision: progress.revision,
+      }),
+      signal: AbortSignal.timeout(180000),
     });
     if (seq !== sequence) return;
     const current = problem.value;
     if (!current || current.id !== p.id) return;
     if (current.progress?.revision !== progress.revision) return;
-    if (!data.available) return;
+    if (!data.available) {
+      aiGradingError.value = data.reason || "AI 暂不可用，请自行核对或重试。";
+      gradedRevisions.delete(key);
+      return;
+    }
     problem.value = data.problem;
     if (draftContext && draftContext.problemId === data.problem.id) {
       draftContext.progressRevision = data.problem.progress?.revision ?? null;
       saveDraft();
     }
-  } catch {
-    // 判分不可用或失败：静默保持“已提交，待自检”，不阻断作答。
+    await loadMe();
+  } catch (e) {
+    if (seq === sequence) aiGradingError.value = (e as Error).message;
+    gradedRevisions.delete(key);
   } finally {
     if (seq === sequence && token === gradeToken) aiGradingBusy.value = false;
   }
@@ -1163,7 +1190,7 @@ async function comment(s: Solution) {
                     >作答仅自己可见。{{
                       problem.type === "choice"
                         ? "提交后自动判分。"
-                        : "最多 5 张图片；重新提交后需再次自检。"
+                        : "最多 5 张图片；重新提交后需再次核对。"
                     }}</small
                   >
                 </template>
@@ -1209,6 +1236,41 @@ async function comment(s: Solution) {
                   <div v-else class="empty-state">暂无文字答案</div>
                 </div>
                 <section
+                  v-if="needsGradingChoice"
+                  class="ai-grading"
+                  aria-label="选择核对方式"
+                >
+                  <h3>是否使用 AI 判题？</h3>
+                  <p class="small-text muted">
+                    参考答案已提供。选择 AI 判题才会发送本次作答；也可自行核对。
+                  </p>
+                  <p v-if="aiGradingError" class="form-warning" role="status">
+                    {{ aiGradingError }}
+                  </p>
+                  <div class="inline">
+                    <button
+                      class="button"
+                      :disabled="busy || aiGradingBusy"
+                      @click="requestAiGrade"
+                    >
+                      <Sparkles :size="16" />{{
+                        aiGradingBusy
+                          ? "AI 判题中…"
+                          : aiGradingError
+                            ? "重试 AI 判题"
+                            : "AI 判题"
+                      }}
+                    </button>
+                    <button
+                      class="text-button"
+                      :disabled="busy || aiGradingBusy"
+                      @click="aiDecision = 'self'"
+                    >
+                      自己核对
+                    </button>
+                  </div>
+                </section>
+                <section
                   v-if="aiPanel"
                   class="ai-grading"
                   aria-labelledby="ai-grading-title"
@@ -1223,7 +1285,10 @@ async function comment(s: Solution) {
                   </p>
                   <div v-if="aiPanel.transcript" class="ai-transcript">
                     <h4>图片作答转写</h4>
-                    <p class="preserve-text">{{ aiPanel.transcript }}</p>
+                    <MarkdownContent
+                      class="ai-transcript-content"
+                      :source="aiPanel.transcript"
+                    />
                     <small class="muted"
                       >转写由视觉模型识别，仅自己可见；如识别有误，可用下方“自检修正”改判。</small
                     >
@@ -1240,18 +1305,30 @@ async function comment(s: Solution) {
                         <X v-else :size="14" />
                       </span>
                       <div class="ai-point-body">
-                        <p class="ai-point-text">{{ item.point }}</p>
+                        <MarkdownContent
+                          class="ai-point-text"
+                          :source="item.point"
+                        />
                         <small class="ai-point-status">{{
                           item.hit ? "命中" : "未命中"
                         }}</small>
-                        <p v-if="item.note" class="ai-point-note">
-                          {{ item.note }}
-                        </p>
+                        <MarkdownContent
+                          v-if="item.note"
+                          class="ai-point-note"
+                          :source="item.note"
+                        />
                       </div>
                     </li>
                   </ul>
                 </section>
-                <div v-if="selfAssessment" class="self-assessment">
+                <div
+                  v-if="
+                    selfAssessment &&
+                    (!needsGradingChoice || aiDecision !== 'ask') &&
+                    !aiGradingBusy
+                  "
+                  class="self-assessment"
+                >
                   <div>
                     <h3>{{ selfAssessment.heading }}</h3>
                     <p>{{ selfAssessment.hint }}</p>
@@ -1720,13 +1797,20 @@ async function comment(s: Solution) {
   font-size: 12px;
   color: var(--green-dark);
 }
-.ai-transcript p {
+.ai-transcript-content {
   margin: 0 0 4px;
-  max-height: 180px;
+  min-width: 0;
+  max-width: 100%;
+  max-height: 360px;
   overflow: auto;
-  font-size: 12px;
-  line-height: 1.7;
-  white-space: pre-wrap;
+  font-size: 14px;
+  line-height: 1.9;
+}
+.ai-transcript-content :deep(p) {
+  margin: 0 0 12px;
+}
+.ai-point-body :deep(.prose p) {
+  margin: 0;
 }
 .ai-transcript small {
   display: block;

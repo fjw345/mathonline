@@ -1,4 +1,4 @@
-"""用户自带 DeepSeek API 密钥的加密存储。
+"""用户个人模型配置与 API 密钥的加密存储。
 
 安全约定：
 
@@ -6,10 +6,11 @@
   保存与读取都明确失败，绝不退化为明文。
 - 加密时把用户 ID 作为附加认证数据（AAD），数据库里两行互换也无法解密。
 - 对外只返回末四位掩码；接口、日志和异常都不回显完整密钥。
-- 本轮只支持一个服务商（服务端 `AI_BASE_URL` 指向 DeepSeek），用户只需填密钥。
+- 个人配置只支持固定的 OpenAI / DeepSeek 官方端点，不接受任意 URL。
 """
 
 import base64
+import json
 import os
 import re
 from datetime import UTC, datetime
@@ -23,8 +24,26 @@ from .store import store
 
 TABLE = "user_ai_keys"
 PREFIX = "v1:"
-MAX_LENGTH = 200
+MAX_LENGTH = 512
 _KEY_PATTERN = re.compile(r"^sk-[A-Za-z0-9_-]{10,%d}$" % (MAX_LENGTH - 3))
+PROVIDERS = {
+    "openai": "https://api.openai.com/v1",
+    "deepseek": "https://api.deepseek.com",
+}
+
+
+def normalize_settings(provider, model, vision_model=""):
+    if provider not in PROVIDERS:
+        raise ValueError("请选择 OpenAI 或 DeepSeek。")
+    values = []
+    for value in (model, vision_model):
+        value = (value or "").strip()
+        if value and not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._:/-]{0,119}", value):
+            raise ValueError("模型名称格式不正确。")
+        values.append(value)
+    if not values[0]:
+        raise ValueError("请填写文字模型名称。")
+    return {"provider": provider, "model": values[0], "vision_model": values[1]}
 
 
 class KeyUnavailable(Exception):
@@ -91,7 +110,7 @@ def decrypt(user_id, ciphertext):
 
 
 def status(user_id):
-    """只读状态：不解密，不返回密文；供设置页展示。"""
+    """只返回安全的配置摘要，不返回密钥或密文。"""
     row = store.get(TABLE, user_id=user_id)
     try:
         _secret()
@@ -101,19 +120,29 @@ def status(user_id):
         reason = str(exc)
     else:
         reason = ""
+    settings = {}
+    if row and encryption_ready:
+        try:
+            settings = load_settings(user_id) or {}
+        except KeyUnavailable as exc:
+            reason = str(exc)
     return {
         "configured": bool(row),
         "hint": (row or {}).get("hint") or "",
         "updated_at": (row or {}).get("updated_at") or "",
         "encryption_ready": encryption_ready,
         "reason": reason,
+        "provider": settings.get("provider", ""),
+        "model": settings.get("model", ""),
+        "vision_model": settings.get("vision_model", ""),
     }
 
 
-def save(user_id, api_key):
+def save(user_id, api_key, settings=None):
     """校验、加密并保存；返回与 status 相同结构。"""
     value = normalize(api_key)
-    ciphertext = encrypt(user_id, value)
+    payload = json.dumps({**settings, "api_key": value}) if settings else value
+    ciphertext = encrypt(user_id, payload)
     existing = store.get(TABLE, user_id=user_id)
     stamp = now()
     store.put(
@@ -129,8 +158,8 @@ def save(user_id, api_key):
     return status(user_id)
 
 
-def load_key(user_id):
-    """返回明文密钥；未配置返回 None；密文或服务端密钥异常抛 KeyUnavailable。"""
+def load_settings(user_id):
+    """解密请求级配置；未配置返回 None；异常抛 KeyUnavailable。"""
     try:
         row = store.get(TABLE, user_id=user_id)
     except httpx.HTTPStatusError as exc:
@@ -139,16 +168,32 @@ def load_key(user_id):
         raise
     if not row:
         return None
-    return decrypt(user_id, row.get("ciphertext"))
+    value = decrypt(user_id, row.get("ciphertext"))
+    if value.startswith("{"):
+        try:
+            saved = json.loads(value)
+            settings = normalize_settings(
+                saved.get("provider"), saved.get("model"), saved.get("vision_model")
+            )
+            return {**settings, "api_key": normalize(saved.get("api_key"))}
+        except (ValueError, TypeError, AttributeError) as exc:
+            raise KeyUnavailable("AI 配置无法读取，请重新保存。") from exc
+    # Previously saved keys keep their original server endpoint and model.
+    return {"api_key": value, "provider": "", "model": "", "vision_model": ""}
+
+
+def load_key(user_id):
+    settings = load_settings(user_id)
+    return settings["api_key"] if settings else None
 
 
 def remove(user_id):
     store.delete(TABLE, user_id=user_id)
 
 
-def verify(api_key):
+def verify(api_key, settings=None):
     """用 /models 轻量校验密钥；无效抛 ValueError，服务异常抛 KeyUnavailable。"""
-    base = config.AI_BASE_URL
+    base = PROVIDERS[settings["provider"]] if settings else config.AI_BASE_URL
     if not base:
         raise KeyUnavailable("服务端未配置 AI 接口地址（AI_BASE_URL）。")
     try:

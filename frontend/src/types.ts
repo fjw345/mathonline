@@ -25,6 +25,12 @@ export interface AiGrading {
   created_at: string;
 }
 export interface AiKeyStatus {
+  mode: "public" | "personal";
+  provider: string;
+  model: string;
+  vision_model: string;
+  public_available: boolean;
+  public_model: string;
   configured: boolean;
   hint: string;
   updated_at: string;

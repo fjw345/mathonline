@@ -155,12 +155,12 @@ def build_blueprint(subject, profile, difficulty="standard"):
             payload = ai.complete_json(
                 _blueprint_messages(subject, profile, difficulty),
                 max_tokens=2600,
-                model=config.AI_BLUEPRINT_MODEL,
+                model=ai.model_name("blueprint"),
             )
             blueprint = _validate_blueprint(payload, profile)
             if blueprint:
                 blueprint["source"] = "ai"
-                blueprint["model"] = config.AI_BLUEPRINT_MODEL
+                blueprint["model"] = ai.model_name("blueprint")
                 return blueprint
         except ai.AIUnavailable:
             pass

@@ -35,6 +35,9 @@ const analysis = ref<Analysis>();
 const reportBusy = ref(false);
 const aiKey = ref<AiKeyStatus>();
 const aiKeyInput = ref("");
+const aiProvider = ref("openai");
+const aiModel = ref("");
+const aiVisionModel = ref("");
 const aiKeySaving = ref(false);
 const nickname = ref("");
 const settings = ref(false),
@@ -68,6 +71,9 @@ async function loadAnalysis() {
 }
 async function loadAiKey() {
   aiKey.value = await api<AiKeyStatus>("/me/ai-key");
+  aiProvider.value = aiKey.value.provider || "openai";
+  aiModel.value = aiKey.value.model || "";
+  aiVisionModel.value = aiKey.value.vision_model || "";
 }
 async function saveAiKey() {
   if (!aiKeyInput.value.trim()) return;
@@ -75,11 +81,16 @@ async function saveAiKey() {
   try {
     aiKey.value = await write<AiKeyStatus>(
       "/me/ai-key",
-      { api_key: aiKeyInput.value.trim() },
+      {
+        api_key: aiKeyInput.value.trim(),
+        provider: aiProvider.value,
+        model: aiModel.value.trim(),
+        vision_model: aiVisionModel.value.trim(),
+      },
       "PUT",
     );
     aiKeyInput.value = "";
-    toast("API 密钥已保存");
+    toast("已切换为自定义模型");
   } catch (e) {
     toast((e as Error).message, true);
   } finally {
@@ -87,11 +98,10 @@ async function saveAiKey() {
   }
 }
 async function removeAiKey() {
-  if (!window.confirm("删除已保存的 API 密钥？删除后 AI 功能将不可用。"))
-    return;
+  if (!window.confirm("恢复公共模型并删除已保存的个人密钥？")) return;
   try {
     aiKey.value = await api<AiKeyStatus>("/me/ai-key", { method: "DELETE" });
-    toast("API 密钥已删除");
+    toast("已恢复公共模型");
   } catch (e) {
     toast((e as Error).message, true);
   }
@@ -288,23 +298,51 @@ async function read(n: Notification) {
     <template v-else-if="tab === 'ai'">
       <section class="paper-card ai-key-panel">
         <div class="section-heading compact">
-          <div><h2>DeepSeek API 密钥</h2></div>
+          <div><h2>AI 模型</h2></div>
           <span class="chip neutral">{{
-            aiKey?.configured ? "已配置" : "未配置"
+            aiKey?.configured ? "自定义模型" : "公共模型"
           }}</span>
         </div>
         <p class="small-text muted">
-          AI 判分、学情分析、考试预测与一题多练都使用你自己的密钥调用
-          DeepSeek。密钥加密保存在服务器，页面只显示末四位，接口不会返回完整密钥。
+          默认使用公共模型，无需填写密钥。也可配置自己的模型，用于 AI
+          判题、学情分析、模拟卷与一题多练；自定义调用费用由你的模型账号承担。
+        </p>
+        <p class="small-text">
+          公共模型：{{ aiKey?.public_model || "未配置" }}（{{
+            aiKey?.public_available ? "可用" : "暂不可用"
+          }}）
         </p>
         <p v-if="aiKey?.reason" class="form-warning">{{ aiKey.reason }}</p>
         <p v-if="aiKey?.configured" class="small-text">
-          当前：{{ aiKey.hint }}
+          当前：{{ aiKey.provider || "原配置" }} /
+          {{ aiKey.model || "默认模型" }} · {{ aiKey.hint }}
           <span v-if="aiKey.updated_at"
             >· {{ aiKey.updated_at.slice(0, 19).replace("T", " ") }} 更新</span
           >
         </p>
         <form class="ai-key-form" @submit.prevent="saveAiKey">
+          <label class="field"
+            >服务商<select v-model="aiProvider">
+              <option value="openai">OpenAI</option>
+              <option value="deepseek">DeepSeek</option>
+            </select></label
+          >
+          <label class="field"
+            >文字模型<input
+              v-model.trim="aiModel"
+              required
+              maxlength="120"
+              placeholder="填写账号可用的模型名称"
+          /></label>
+          <label class="field"
+            >图片模型（可选）<input
+              v-model.trim="aiVisionModel"
+              maxlength="120"
+              placeholder="支持图片输入的模型名称"
+          /></label>
+          <p class="small-text muted">
+            图片模型留空时使用公共图片服务；未配置公共图片服务则改用自检。
+          </p>
           <label class="field"
             >新的 API 密钥<input
               v-model.trim="aiKeyInput"
@@ -316,13 +354,7 @@ async function read(n: Notification) {
           /></label>
           <div class="ai-key-actions">
             <button class="button" :disabled="aiKeySaving">
-              {{
-                aiKeySaving
-                  ? "保存中…"
-                  : aiKey?.configured
-                    ? "更换密钥"
-                    : "保存密钥"
-              }}
+              {{ aiKeySaving ? "保存中…" : "保存并使用自定义模型" }}
             </button>
             <button
               v-if="aiKey?.configured"
@@ -330,13 +362,14 @@ async function read(n: Notification) {
               class="text-button"
               @click="removeAiKey"
             >
-              删除密钥
+              恢复公共模型
             </button>
           </div>
         </form>
         <p class="small-text muted">
-          只支持 DeepSeek 官方密钥（sk-
-          开头）。请不要填写他人的密钥；密钥只用于你发起的 AI 请求，可随时删除。
+          使用对应服务商的官方 API
+          密钥，密钥加密保存且不回显。提交作答不会自动调用 AI，你选择 AI
+          判题后才会发送作答。
         </p>
       </section>
     </template>

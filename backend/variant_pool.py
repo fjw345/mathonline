@@ -31,7 +31,8 @@ def source_hash(problem, answer_text):
 
 
 def enabled():
-    return bool(config.AI_VARIANT_SHARE)
+    # Personal models generate their own variants instead of reusing public ones.
+    return bool(config.AI_VARIANT_SHARE and not ai.personal_settings())
 
 
 def get_or_create(
@@ -122,7 +123,7 @@ def _generate(problem, answer_text, subject, kind):
         subject,
         kind,
         attempts=3,
-        model=config.AI_VARIANT_MODEL,
+        model=ai.model_name("variant"),
     )
 
 

@@ -10,9 +10,7 @@ import math
 import re
 import unicodedata
 
-import httpx
-
-from . import ai, config
+from . import ai
 from .auth import now
 from .store import store
 
@@ -99,6 +97,10 @@ def rubric_for(problem, answer):
         raise GradingUnavailable("题目缺少 ID，无法读取得分点")
     reference = _answer_text(answer)
     digest = hashlib.sha256(reference.encode("utf-8")).hexdigest()
+    if ai.personal_settings():
+        digest = hashlib.sha256(
+            (digest + ai.base_endpoint() + ai.model_name()).encode("utf-8")
+        ).hexdigest()
     try:
         cached = store.get("problem_rubrics", problem_id=problem_id)
     except Exception as exc:
@@ -114,7 +116,7 @@ def rubric_for(problem, answer):
         "problem_id": problem_id,
         "answer_hash": digest,
         "points": points,
-        "model": config.AI_MODEL,
+        "model": ai.model_name(),
         "created_at": now(),
     }
     try:
@@ -161,7 +163,7 @@ def _judge_blank(problem, answer, submitted):
     if value not in ("correct", "incorrect"):
         raise GradingUnavailable("模型未给出可用判分结论")
     score = 1 if value == "correct" else 0
-    return _result(value, score, 1, [], config.AI_MODEL)
+    return _result(value, score, 1, [], ai.model_name())
 
 
 def _judge_solution(problem, answer, submitted, rubric):
@@ -193,7 +195,7 @@ def _judge_solution(problem, answer, submitted, rubric):
         judged.append({"point": entry["point"], "hit": current[0], "note": current[1]})
     hits = sum(1 for item in judged if item["hit"])
     result = "correct" if hits == len(judged) else "incorrect"
-    return _result(result, hits, len(judged), judged, config.AI_MODEL)
+    return _result(result, hits, len(judged), judged, ai.model_name())
 
 
 def _chat(messages):
@@ -201,34 +203,9 @@ def _chat(messages):
     if not ai.enabled():
         raise GradingUnavailable(ai.reason() or "AI 判分未配置")
     try:
-        response = httpx.post(
-            config.AI_BASE_URL + "/chat/completions",
-            headers={
-                "Authorization": "Bearer " + ai.resolve_key(),
-                "Content-Type": "application/json",
-            },
-            json={
-                "model": config.AI_MODEL,
-                "messages": messages,
-                "temperature": 0,
-            },
-            timeout=config.AI_TIMEOUT,
-        )
-    except Exception as exc:
+        return ai.chat(messages, retries=0, max_tokens=4000)
+    except ai.AIUnavailable as exc:
         raise GradingUnavailable("模型服务请求失败") from exc
-    if response.status_code >= 400:
-        raise GradingUnavailable("模型服务返回状态码 " + str(response.status_code))
-    try:
-        payload = response.json()
-    except ValueError as exc:
-        raise GradingUnavailable("模型服务响应不是 JSON") from exc
-    try:
-        content = payload["choices"][0]["message"]["content"]
-    except (KeyError, IndexError, TypeError) as exc:
-        raise GradingUnavailable("模型服务响应缺少正文") from exc
-    if not isinstance(content, str) or not content.strip():
-        raise GradingUnavailable("模型返回内容为空")
-    return content
 
 
 def _json_object(raw):

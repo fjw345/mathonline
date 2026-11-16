@@ -1,8 +1,7 @@
 """OpenAI 兼容模型的统一调用入口。
 
-判分引擎（backend/grading.py）有自己的一份调用实现，那里要保持既有行为与
-测试替身不变；本模块服务学情分析、考试预测与 AI 生题，三者都要求模型输出
-可解析的 JSON，失败一律抛 AIUnavailable，由上层降级而不是编造结果。
+判分、学情分析、考试预测和生题共用请求级模型配置；失败抛 AIUnavailable，
+由上层降级而不是编造结果。
 """
 
 import json
@@ -16,7 +15,6 @@ import httpx
 from . import config, user_ai
 
 _FENCE = re.compile(r"^" + chr(96) * 3 + r"[A-Za-z0-9_-]*\s*")
-_JSON_MODE = True
 
 
 class AIUnavailable(Exception):
@@ -34,6 +32,7 @@ class _UserKey:
         self.user_id = user_id
         self._loaded = False
         self._key = None
+        self.settings = None
         self._reason = ""
 
     def _load(self):
@@ -41,7 +40,8 @@ class _UserKey:
             return
         self._loaded = True
         try:
-            self._key = user_ai.load_key(self.user_id)
+            self.settings = user_ai.load_settings(self.user_id)
+            self._key = (self.settings or {}).get("api_key")
         except user_ai.KeyUnavailable as exc:
             self._reason = str(exc)
         except Exception:
@@ -74,7 +74,48 @@ def clear_user():
 
 def model_ready():
     """端点与模型名可用；不代表某个用户已配置密钥。"""
-    return bool(config.AI_BASE_URL and config.AI_MODEL)
+    return bool(base_endpoint() and model_name())
+
+
+def personal_settings():
+    current = _USER_KEY.get()
+    if current is None:
+        return None
+    current._load()
+    return current.settings
+
+
+def base_endpoint():
+    settings = personal_settings()
+    if settings and settings.get("provider"):
+        return user_ai.PROVIDERS[settings["provider"]]
+    return config.AI_BASE_URL
+
+
+def model_name(role="text"):
+    settings = personal_settings()
+    if settings and settings.get("model"):
+        if role == "vision":
+            return settings.get("vision_model", "")
+        return settings["model"]
+    return {
+        "text": config.AI_MODEL,
+        "blueprint": config.AI_BLUEPRINT_MODEL,
+        "variant": config.AI_VARIANT_MODEL,
+        "vision": config.AI_VISION_MODEL,
+    }[role]
+
+
+def vision_settings():
+    settings = personal_settings()
+    if settings and settings.get("vision_model"):
+        return base_endpoint(), settings["api_key"], settings["vision_model"]
+    # A separate public vision service may be used without sharing its key.
+    if config.AI_ALLOW_SERVER_KEY and config.AI_VISION_API_KEY:
+        return config.AI_VISION_BASE_URL, config.AI_VISION_API_KEY, config.AI_VISION_MODEL
+    if settings and not settings.get("provider"):
+        return config.AI_VISION_BASE_URL, settings["api_key"], config.AI_VISION_MODEL
+    return "", "", ""
 
 
 def enabled():
@@ -97,7 +138,7 @@ def reason():
             return ""
         if config.AI_ALLOW_SERVER_KEY and config.AI_ENABLED:
             return ""
-        return current.reason() or "请先在「我的学习 → AI 设置」配置 DeepSeek API 密钥。"
+        return current.reason() or "公共 AI 暂不可用，可在「我的学习 → AI 设置」配置自己的模型。"
     if not config.AI_ENABLED:
         return "AI 未配置。"
     return ""
@@ -132,25 +173,29 @@ def chat(
     `json_mode=False` 用于图片转写等纯文本输出；`base_url`/`api_key` 允许
     视觉模型使用与文本模型不同的兼容端点（例如文本走云端、图片走本地视觉模型）。
     """
-    global _JSON_MODE
-    if not enabled():
+    if not (base_url and api_key and model) and not enabled():
         raise AIUnavailable(reason() or "AI 未配置")
     key = resolve_key(api_key)
     body = {
-        "model": model or config.AI_MODEL,
+        "model": model or model_name(),
         "messages": messages,
         "temperature": temperature,
         "max_tokens": max_tokens,
     }
-    if _JSON_MODE and json_mode:
+    # JSON support is per request; one provider's failure must not affect others.
+    if json_mode:
         body["response_format"] = {"type": "json_object"}
-    if config.AI_REASONING_EFFORT:
+    if config.AI_REASONING_EFFORT and not personal_settings() and not base_url:
         body["reasoning_effort"] = config.AI_REASONING_EFFORT
+    if re.match(r"^(gpt-5|o[134])", body["model"]):
+        body.pop("temperature", None)
+        body["max_completion_tokens"] = body.pop("max_tokens")
     last_error = ""
-    for attempt in range(retries + 1):
+    attempt = 0
+    while attempt <= retries:
         try:
             response = httpx.post(
-                (base_url or config.AI_BASE_URL) + "/chat/completions",
+                (base_url or base_endpoint()) + "/chat/completions",
                 headers={
                     "Authorization": "Bearer " + key,
                     "Content-Type": "application/json",
@@ -162,16 +207,17 @@ def chat(
             last_error = type(exc).__name__
             if attempt < retries:
                 time.sleep(0.8 * (attempt + 1))
+                attempt += 1
                 continue
             raise AIUnavailable("模型服务请求失败：" + last_error) from exc
         if response.status_code == 400 and "response_format" in body:
             # 并非所有兼容实现都支持 JSON 模式；去掉后重试一次，不改变提示词。
-            _JSON_MODE = False
             body.pop("response_format", None)
             continue
         if response.status_code in (429, 500, 502, 503, 504) and attempt < retries:
             last_error = "模型服务返回状态码 " + str(response.status_code)
             time.sleep(1.2 * (attempt + 1))
+            attempt += 1
             continue
         if response.status_code >= 400:
             logging.getLogger("mathonline").error(
@@ -187,8 +233,10 @@ def chat(
             raise AIUnavailable("模型服务响应缺少正文") from exc
         if not content and reasoning and attempt < retries and max_tokens < 8000:
             # 思考型模型可能把预算全花在推理上；加预算重试一次，而不是当作不可用。
-            body["max_tokens"] = min(8000, max(2400, max_tokens * 3))
+            budget_key = "max_completion_tokens" if "max_completion_tokens" in body else "max_tokens"
+            body[budget_key] = min(8000, max(2400, max_tokens * 3))
             last_error = "模型只返回了推理内容"
+            attempt += 1
             continue
         if not isinstance(content, str) or not content.strip():
             raise AIUnavailable("模型返回内容为空")

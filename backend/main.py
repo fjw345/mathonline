@@ -511,12 +511,18 @@ def edit_profile(body: dict, request: Request):
 
 class AIKeyInput(BaseModel):
     api_key: SecretStr
+    provider: Literal["openai", "deepseek"] | None = None
+    model: str = Field(default="", max_length=120)
+    vision_model: str = Field(default="", max_length=120)
 
 
 def ai_key_status(user):
     data = user_ai.status(user["id"])
     data["available"] = ai.enabled()
-    data["reason"] = ai.reason()
+    data["reason"] = data["reason"] or ai.reason()
+    data["mode"] = "personal" if data["configured"] else "public"
+    data["public_available"] = bool(config.AI_ALLOW_SERVER_KEY and config.AI_ENABLED)
+    data["public_model"] = config.AI_MODEL
     return data
 
 
@@ -546,19 +552,23 @@ def save_ai_key(body: AIKeyInput, request: Request):
         raise HTTPException(429, "保存密钥过于频繁，请稍后再试。")
     try:
         value = user_ai.normalize(body.api_key.get_secret_value())
+        settings = (
+            user_ai.normalize_settings(body.provider, body.model, body.vision_model)
+            if body.provider else None
+        )
         user_ai.ensure_ready()  # 先确认服务端能加密，避免白跑一次校验请求
     except ValueError as exc:
         raise HTTPException(400, str(exc)) from exc
     except user_ai.KeyUnavailable as exc:
         raise HTTPException(503, str(exc)) from exc
     try:
-        user_ai.verify(value)
+        user_ai.verify(value, settings) if settings else user_ai.verify(value)
     except ValueError as exc:
         raise HTTPException(400, str(exc)) from exc
     except user_ai.KeyUnavailable as exc:
         raise HTTPException(502, str(exc)) from exc
     try:
-        user_ai.save(user["id"], value)
+        user_ai.save(user["id"], value, settings)
     except ValueError as exc:
         raise HTTPException(400, str(exc)) from exc
     except user_ai.KeyUnavailable as exc:
@@ -898,6 +908,8 @@ def analysis_cache(user):
 def cached_report(row, stats):
     if not row or row.get("fingerprint") != stats["fingerprint"]:
         return None
+    if row.get("model") != ai.model_name():
+        return None
     report = row.get("report")
     if not isinstance(report, dict) or not report:
         return None
@@ -951,13 +963,13 @@ def generate_my_analysis(request: Request, refresh: bool = False):
             "fingerprint": stats["fingerprint"],
             "stats": stats,
             "report": report,
-            "model": config.AI_MODEL,
+            "model": ai.model_name(),
             "created_at": created,
         },
     )
     return {
         "stats": stats,
-        "report": {**report, "model": config.AI_MODEL, "created_at": created},
+        "report": {**report, "model": ai.model_name(), "created_at": created},
         "available": True,
         "reason": "",
     }

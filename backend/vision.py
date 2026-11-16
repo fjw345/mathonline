@@ -35,9 +35,7 @@ class VisionUnavailable(Exception):
 
 def enabled():
     """视觉模型可用，且用户密钥或服务端视觉密钥至少有一个。"""
-    return bool(
-        config.AI_VISION_MODEL and (config.AI_VISION_API_KEY or ai.enabled())
-    )
+    return all(ai.vision_settings())
 
 
 def transcribe(user, problem, state, repository):
@@ -63,12 +61,13 @@ def transcribe(user, problem, state, repository):
     if not data_urls:
         raise VisionUnavailable("作答图片读取失败，请自检")
     messages = _messages(len(data_urls), data_urls)
+    base_url, api_key, model = ai.vision_settings()
     try:
         raw = ai.chat(
             messages,
-            model=config.AI_VISION_MODEL,
-            base_url=config.AI_VISION_BASE_URL,
-            api_key=config.AI_VISION_API_KEY or None,
+            model=model,
+            base_url=base_url,
+            api_key=api_key,
             timeout=config.AI_VISION_TIMEOUT,
             max_tokens=2000,
             json_mode=False,
@@ -86,14 +85,14 @@ def transcribe(user, problem, state, repository):
         "revision": state.get("revision", 0),
         "image_ids": image_ids,
         "text": text,
-        "model": config.AI_VISION_MODEL,
+        "model": model,
         "created_at": now(),
     }
     try:
         repository.put("submission_transcripts", record)
     except Exception as exc:  # 缓存失败不影响本次判分
         LOGGER.warning("transcript cache write failed: %s", type(exc).__name__)
-    return {"text": text, "model": config.AI_VISION_MODEL, "images": len(data_urls)}
+    return {"text": text, "model": model, "images": len(data_urls)}
 
 
 def _cached(user, problem, state, image_ids, repository):
@@ -109,6 +108,7 @@ def _cached(user, problem, state, image_ids, repository):
         row
         and row.get("revision") == state.get("revision", 0)
         and list(row.get("image_ids") or []) == image_ids
+        and row.get("model") == ai.vision_settings()[2]
         and (row.get("text") or "").strip()
     ):
         return {
