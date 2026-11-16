@@ -223,14 +223,29 @@ def chat(
             logging.getLogger("mathonline").error(
                 "AI request failed with %s", response.status_code
             )
-            raise AIUnavailable("模型服务返回状态码 " + str(response.status_code))
+            guidance = {
+                400: "模型请求被拒绝，请核对模型名称与接口兼容性。",
+                401: "模型 API 密钥无效，请核对对应服务商的密钥。",
+                402: "模型账户余额或额度不足。",
+                403: "模型访问被拒绝，请检查令牌的模型权限。",
+                404: "模型接口或模型不存在，请核对 AI_BASE_URL（兼容接口通常以 /v1 结尾）与模型名称。",
+                429: "模型调用限流或额度不足，请稍后重试并检查额度。",
+            }
+            raise AIUnavailable(
+                "模型服务返回 HTTP " + str(response.status_code) + "："
+                + guidance.get(response.status_code, "服务暂不可用，请稍后重试。")
+            )
         try:
             payload = response.json()
             message = payload["choices"][0]["message"]
             content = message.get("content")
             reasoning = message.get("reasoning_content") or ""
-        except (ValueError, KeyError, IndexError, TypeError) as exc:
-            raise AIUnavailable("模型服务响应缺少正文") from exc
+        except ValueError as exc:
+            raise AIUnavailable(
+                "模型接口未返回 JSON，请检查 AI_BASE_URL 是否填成了网站地址（兼容接口通常以 /v1 结尾）。"
+            ) from exc
+        except (KeyError, IndexError, TypeError) as exc:
+            raise AIUnavailable("模型服务响应缺少正文，请检查接口是否兼容 Chat Completions。") from exc
         if not content and reasoning and attempt < retries and max_tokens < 8000:
             # 思考型模型可能把预算全花在推理上；加预算重试一次，而不是当作不可用。
             budget_key = "max_completion_tokens" if "max_completion_tokens" in body else "max_tokens"

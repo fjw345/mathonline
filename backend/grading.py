@@ -9,12 +9,21 @@ import json
 import math
 import re
 import unicodedata
+from contextvars import ContextVar
 
 from . import ai
 from .auth import now
 from .store import store
 
 MAX_POINTS = 15
+_FAILURE = ContextVar("grading_failure", default="")
+
+
+def failure_reason():
+    """只返回当前请求中的安全失败原因，不保存供应商原始响应。"""
+    return _FAILURE.get()
+
+
 MAX_POINT_CHARS = 200
 MAX_REFERENCE_CHARS = 80
 MAX_INPUT_CHARS = 4000
@@ -128,6 +137,7 @@ def rubric_for(problem, answer):
 
 def judge(problem, answer, submitted):
     """判分入口；AI 不可用时返回 None，调用方保持待自检。"""
+    _FAILURE.set("")
     kind = (problem or {}).get("type")
     if kind == "choice":
         raise ValueError("选择题由现有自动判分处理，不应调用 AI 判分")
@@ -143,14 +153,16 @@ def judge(problem, answer, submitted):
             return None
         try:
             return _judge_blank(problem, answer, text)
-        except GradingUnavailable:
+        except GradingUnavailable as exc:
+            _FAILURE.set(str(exc))
             return None
     if not text or not ai.enabled():
         return None
     try:
         points = rubric_for(problem, answer)
         return _judge_solution(problem, answer, text, points)
-    except GradingUnavailable:
+    except GradingUnavailable as exc:
+        _FAILURE.set(str(exc))
         return None
 
 
@@ -205,7 +217,7 @@ def _chat(messages):
     try:
         return ai.chat(messages, retries=0, max_tokens=4000)
     except ai.AIUnavailable as exc:
-        raise GradingUnavailable("模型服务请求失败") from exc
+        raise GradingUnavailable(str(exc)) from exc
 
 
 def _json_object(raw):

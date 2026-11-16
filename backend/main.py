@@ -806,7 +806,9 @@ def grade(pid: str, body: GradingInput, request: Request):
     except ValueError as exc:
         raise HTTPException(400, "该题不支持 AI 判分。") from exc
     if graded is None:
-        return grading_fallback(p, user, ai.reason() or "AI 判分暂不可用，请自检")
+        return grading_fallback(
+            p, user, grading.failure_reason() or ai.reason() or "AI 判分暂不可用，请自检"
+        )
     try:
         apply_progress(
             user, p, "", [], graded["result"], body.revision, result_source="ai",

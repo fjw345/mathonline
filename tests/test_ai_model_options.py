@@ -204,3 +204,30 @@ def test_submission_unlocks_reference_but_only_explicit_grade_calls_ai(models, m
 def test_project_key_length_is_supported():
     value = "sk-proj-" + "x" * 210
     assert user_ai.normalize(value) == value
+
+
+@pytest.mark.parametrize(("status", "expected"), [
+    (401, "API 密钥无效"),
+    (403, "模型权限"),
+    (404, "AI_BASE_URL"),
+    (429, "限流"),
+    (200, "未返回 JSON"),
+])
+def test_grading_returns_actionable_failure_without_leaking_provider_body(models, monkeypatch, status, expected):
+    monkeypatch.setattr(grading, "store", models["db"])
+    monkeypatch.setattr(httpx, "post", lambda *args, **kwargs: httpx.Response(
+        status, text="private-provider-body-do-not-expose", headers={"Content-Type": "text/html"},
+    ))
+    answer = models["db"].get("problem_answers", problem_id="test-q2")
+    answer["text"] = "参考详解"
+    models["db"].put("problem_answers", answer)
+    client = models["one"]
+    state = submit(client, "test-q2", "我的作答").json()["progress"]
+    response = client.post("/api/v1/me/problems/test-q2/grade", json={
+        "problem_version": 1, "revision": state["revision"],
+    })
+    assert response.status_code == 200
+    assert response.json()["available"] is False
+    assert expected in response.json()["reason"]
+    assert "private-provider-body-do-not-expose" not in response.text
+    assert response.json()["problem"]["progress"]["result"] == "pending"

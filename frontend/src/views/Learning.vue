@@ -309,7 +309,7 @@ async function read(n: Notification) {
         </p>
         <p class="small-text">
           公共模型：{{ aiKey?.public_model || "未配置" }}（{{
-            aiKey?.public_available ? "可用" : "暂不可用"
+            aiKey?.public_available ? "已配置，未验证连接" : "未启用或配置不全"
           }}）
         </p>
         <p v-if="aiKey?.reason" class="form-warning">{{ aiKey.reason }}</p>
