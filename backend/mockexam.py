@@ -14,7 +14,7 @@ import random
 import re
 from uuid import uuid4
 
-from . import ai, config, grading, question_gen, topics, variant_pool
+from . import ai, config, grading, question_gen, topics, variant_pool, vision
 from .auth import now
 
 SUBJECTS = ("微积分上", "微积分下", "线性代数", "概率论")
@@ -663,12 +663,13 @@ def create_paper(user, subject, difficulty, problems, answers, seen, repository)
     )
 
 
-def grade_answers(paper, answers):
+def grade_answers(paper, answers, user, repository):
     """按题型判分；AI 不可用的解答题/填空边界题保持待自评。"""
     by_id = {item["id"]: item for item in paper["items"]}
     for item in paper["items"]:
         item["my_text"] = ""
         item["my_options"] = []
+        item["my_image_ids"] = []
     ai_budget = 8
     for item_id, answer in answers.items():
         item = by_id.get(item_id)
@@ -678,6 +679,8 @@ def grade_answers(paper, answers):
         options = [str(option) for option in (answer.get("options") or [])]
         item["my_text"] = text
         item["my_options"] = options
+        image_ids = answer.get("image_ids") or []
+        item["my_image_ids"] = image_ids
         if item["type"] == "choice":
             if not options:
                 item["result"], item["score"] = "", 0
@@ -688,7 +691,7 @@ def grade_answers(paper, answers):
             item["score"] = item["points"] if selected == correct else 0
             item["feedback"] = ""
             continue
-        if not text:
+        if not text and not image_ids:
             item["result"], item["score"] = "", 0
             continue
         if item["type"] == "blank":
@@ -709,6 +712,15 @@ def grade_answers(paper, answers):
             item["feedback"] = "解答题待自评"
             continue
         ai_budget -= 1
+        if image_ids:
+            try:
+                transcribed = vision.transcribe_images(user, image_ids, repository)
+            except vision.VisionUnavailable as exc:
+                item["result"], item["score"] = "pending", 0
+                item["feedback"] = str(exc)
+                continue
+            transcript = transcribed["text"]
+            text = f"{text}\n\n{transcript}" if text else transcript
         graded = _judge_solution(item, text)
         if graded is None:
             item["result"], item["score"] = "pending", 0
@@ -845,6 +857,7 @@ def paper_payload(paper, include_answers=False):
                 feedback=item.get("feedback", ""),
                 my_text=item.get("my_text", ""),
                 my_options=item.get("my_options", []),
+                my_image_ids=item.get("my_image_ids", []),
             )
         items.append(row)
     return {

@@ -333,6 +333,83 @@ def test_mock_paper_endpoints_and_grading(bank, monkeypatch):
     assert client.get("/api/v1/mock/papers/" + paper["id"]).status_code == 404
 
 
+@pytest.mark.parametrize("vision_ready", [True, False], ids=["ai", "self-review"])
+def test_mock_solution_image_submission(bank, monkeypatch, vision_ready):
+    client, other = bank["two"], bank["one"]
+    monkeypatch.setattr(config, "AI_ENABLED", True)
+    state = {"calls": 0, "generated": 0, "verified": 0}
+    monkeypatch.setattr(ai, "chat", stub_chat(state))
+    response = client.post("/api/v1/mock/papers", json={"subject": "微积分上"})
+    assert response.status_code == 200
+    paper = response.json()
+    solution = next(item for item in paper["items"] if item["type"] == "solution")
+    choice = next(item for item in paper["items"] if item["type"] == "choice")
+    path = f"/api/v1/mock/papers/{paper['id']}"
+
+    def upload_image(owner, purpose="submission"):
+        uploaded = owner.post(
+            "/api/v1/uploads",
+            files={"file": ("work.png", bank["raw"], "image/png")},
+            data={"purpose": purpose},
+        )
+        assert uploaded.status_code == 200
+        return uploaded.json()
+
+    def submit(item, image_ids, text=""):
+        return client.put(
+            path + "/submission",
+            json={
+                "answers": [{"item_id": item["id"], "image_ids": image_ids, "text": text}]
+            },
+        )
+
+    images = [upload_image(client), upload_image(client)]
+    image_ids = [image["id"] for image in images]
+    assert submit(solution, [upload_image(other)["id"]]).status_code == 403
+    assert submit(solution, [upload_image(client, "solution")["id"]]).status_code == 403
+    assert submit(choice, image_ids).status_code == 400
+    assert submit(solution, image_ids * 2).status_code == 400
+    assert submit(solution, image_ids * 3).status_code == 422
+    assert client.get(path).json()["status"] == "ready"
+
+    monkeypatch.setattr(
+        ai, "vision_settings", lambda: ("https://vision.invalid", "stub-key", "vision")
+    )
+
+    text = "补充文字" if vision_ready else ""
+
+    def chat(messages, **kwargs):
+        if kwargs.get("model") == "vision":
+            assert len(messages[1]["content"]) == 3
+            if not vision_ready:
+                raise ai.AIUnavailable("test failure")
+            return "手写作答步骤"
+        assert "补充文字\n\n手写作答步骤" in messages[1]["content"]
+        return json.dumps({"score": solution["points"], "feedback": "正确"})
+
+    monkeypatch.setattr(ai, "chat", chat)
+    submitted = submit(solution, image_ids, text)
+    assert submitted.status_code == 200
+    assert submitted.json()["status"] == "submitted"
+    for result in (submitted.json(), client.get(path).json()):
+        item = next(row for row in result["items"] if row["id"] == solution["id"])
+        assert item["my_text"] == text
+        assert item["my_images"] == images
+        assert item["result"] == ("correct" if vision_ready else "pending")
+    if not vision_ready:
+        reviewed = client.patch(
+            path + "/items/" + solution["id"], json={"result": "correct"}
+        )
+        assert reviewed.status_code == 200
+        item = next(
+            row for row in reviewed.json()["items"] if row["id"] == solution["id"]
+        )
+        assert item["my_images"] == images
+    assert client.get(images[0]["url"]).status_code == 200
+    assert other.get(images[0]["url"]).status_code == 403
+    assert other.get(path).status_code == 404
+
+
 def test_mock_creation_requires_ai(bank, monkeypatch):
     monkeypatch.setattr(config, "AI_ENABLED", False)
     response = bank["two"].post(

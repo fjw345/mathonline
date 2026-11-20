@@ -986,6 +986,7 @@ class MockAnswer(BaseModel):
     item_id: str = Field(min_length=1, max_length=80)
     text: str = Field(default="", max_length=8000)
     options: list[str] = Field(default_factory=list, max_length=8)
+    image_ids: list[str] = Field(default_factory=list, max_length=vision.MAX_IMAGES)
 
 
 class MockSubmission(BaseModel):
@@ -1027,6 +1028,14 @@ def mock_summary(paper):
         "created_at": paper.get("created_at"),
         "submitted_at": paper.get("submitted_at"),
     }
+
+
+def mock_payload(paper):
+    payload = mockexam.paper_payload(paper)
+    if paper["status"] == "submitted":
+        for item in payload["items"]:
+            item["my_images"] = images_info(item.pop("my_image_ids"), strict=False)
+    return payload
 
 
 @app.get("/api/v1/mock/subjects")
@@ -1082,7 +1091,7 @@ def create_mock_paper(body: MockPaperInput, request: Request):
 @app.get("/api/v1/mock/papers/{pid}")
 def get_mock_paper(pid: str, request: Request):
     user = current_user(request)
-    return mockexam.paper_payload(mock_paper_or_404(pid, user))
+    return mock_payload(mock_paper_or_404(pid, user))
 
 
 @app.put("/api/v1/mock/papers/{pid}/submission")
@@ -1095,13 +1104,17 @@ def submit_mock_paper(pid: str, body: MockSubmission, request: Request):
 
     if not allow("mock-submit:" + user["id"], 6, 60):
         raise HTTPException(429, "交卷过于频繁，请稍后再试。")
-    answers = {
-        answer.item_id: {"text": answer.text, "options": answer.options}
-        for answer in body.answers
-    }
-    mockexam.grade_answers(paper, answers)
+    kinds = {item["id"]: item["type"] for item in paper["items"]}
+    answers = {}
+    for answer in body.answers:
+        if answer.image_ids:
+            if kinds.get(answer.item_id) != "solution":
+                raise HTTPException(400, "只有解答题可以上传作答图片。")
+            validate_images(answer.image_ids, user, "submission")
+        answers[answer.item_id] = answer.model_dump(exclude={"item_id"})
+    mockexam.grade_answers(paper, answers, user, store)
     store.put("mock_papers", paper)
-    return mockexam.paper_payload(paper, include_answers=True)
+    return mock_payload(paper)
 
 
 @app.patch("/api/v1/mock/papers/{pid}/items/{item_id}")
@@ -1122,7 +1135,7 @@ def review_mock_item(pid: str, item_id: str, body: MockItemReview, request: Requ
     paper["knowledge_summary"] = mockexam.knowledge_summary(paper)
     paper["updated_at"] = now()
     store.put("mock_papers", paper)
-    return mockexam.paper_payload(paper, include_answers=True)
+    return mock_payload(paper)
 
 
 @app.delete("/api/v1/mock/papers/{pid}")

@@ -48,6 +48,29 @@ def transcribe(user, problem, state, repository):
     cached = _cached(user, problem, state, image_ids, repository)
     if cached:
         return cached
+    result = transcribe_images(user, image_ids, repository)
+    record = {
+        "id": user["id"] + ":" + problem["id"],
+        "user_id": user["id"],
+        "problem_id": problem["id"],
+        "revision": state.get("revision", 0),
+        "image_ids": image_ids,
+        "text": result["text"],
+        "model": result["model"],
+        "created_at": now(),
+    }
+    try:
+        repository.put("submission_transcripts", record)
+    except Exception as exc:  # 缓存失败不影响本次判分
+        LOGGER.warning("transcript cache write failed: %s", type(exc).__name__)
+    return result
+
+
+def transcribe_images(user, image_ids, repository):
+    """转写一次性作答，不写入普通练习的转写缓存。"""
+    base_url, api_key, model = ai.vision_settings()
+    if not all((base_url, api_key, model)):
+        raise VisionUnavailable("图片作答转写未配置，请自检")
     data_urls = []
     for aid in image_ids:
         asset = repository.get("media_assets", id=aid)
@@ -61,7 +84,6 @@ def transcribe(user, problem, state, repository):
     if not data_urls:
         raise VisionUnavailable("作答图片读取失败，请自检")
     messages = _messages(len(data_urls), data_urls)
-    base_url, api_key, model = ai.vision_settings()
     try:
         raw = ai.chat(
             messages,
@@ -78,20 +100,6 @@ def transcribe(user, problem, state, repository):
     text = _clean(raw)
     if not _usable(text):
         raise VisionUnavailable("图片作答未能识别出文字，请自检")
-    record = {
-        "id": user["id"] + ":" + problem["id"],
-        "user_id": user["id"],
-        "problem_id": problem["id"],
-        "revision": state.get("revision", 0),
-        "image_ids": image_ids,
-        "text": text,
-        "model": model,
-        "created_at": now(),
-    }
-    try:
-        repository.put("submission_transcripts", record)
-    except Exception as exc:  # 缓存失败不影响本次判分
-        LOGGER.warning("transcript cache write failed: %s", type(exc).__name__)
     return {"text": text, "model": model, "images": len(data_urls)}
 
 

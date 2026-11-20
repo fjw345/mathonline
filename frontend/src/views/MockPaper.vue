@@ -9,20 +9,26 @@ import {
   Clock,
   Eye,
   Sparkles,
+  Upload,
   X,
 } from "lucide-vue-next";
-import { api, toast, typeName } from "../api";
-import type { MockItem, MockPaper } from "../types";
+import { api, toast, typeName, upload } from "../api";
+import type { ImageAsset, MockItem, MockPaper } from "../types";
+import ImageGallery from "../components/ImageGallery.vue";
 import MarkdownContent from "../components/MarkdownContent.vue";
 const route = useRoute();
 const paper = ref<MockPaper>();
 const loading = ref(true);
 const error = ref("");
 const busy = ref(false);
+const uploading = ref("");
 const reviewing = ref("");
-const answers = reactive<Record<string, { text: string; options: string[] }>>(
-  {},
-);
+type Answer = { text: string; options: string[]; images: ImageAsset[] };
+const answers = reactive<Record<string, Answer>>({});
+const maxImages = 5;
+function emptyAnswer(): Answer {
+  return { text: "", options: [], images: [] };
+}
 const clock = ref(Date.now());
 const startedAt = ref(Date.now());
 let timer: ReturnType<typeof setInterval>;
@@ -61,14 +67,17 @@ function knowledgeName(code: string) {
   return knowledgeNames.value[code] || code;
 }
 function answerFor(item: MockItem) {
-  if (item.my_text !== undefined || item.my_options !== undefined) {
-    return { text: item.my_text || "", options: item.my_options || [] };
+  if (review.value) {
+    return {
+      text: item.my_text || "",
+      options: item.my_options || [],
+      images: item.my_images || [],
+    };
   }
-  return answers[item.id] || { text: "", options: [] };
+  return answers[item.id] || emptyAnswer();
 }
 function ensure(item: MockItem) {
-  if (!answers[item.id]) answers[item.id] = { text: "", options: [] };
-  return answers[item.id];
+  return (answers[item.id] ??= emptyAnswer());
 }
 function toggleOption(item: MockItem, option: string) {
   const current = ensure(item);
@@ -84,7 +93,11 @@ const answeredCount = computed(
   () =>
     (paper.value?.items || []).filter((item) => {
       const answer = answerFor(item);
-      return !!answer.text.trim() || answer.options.length > 0;
+      return (
+        !!answer.text.trim() ||
+        answer.options.length > 0 ||
+        answer.images.length > 0
+      );
     }).length,
 );
 const percent = computed(() =>
@@ -99,9 +112,6 @@ async function load() {
     paper.value = await api<MockPaper>(
       "/mock/papers/" + encodeURIComponent(String(route.params.id)),
     );
-    for (const item of paper.value.items) {
-      if (!answers[item.id]) answers[item.id] = { text: "", options: [] };
-    }
     startedAt.value = Date.now();
     clock.value = Date.now();
     if (timer) clearInterval(timer);
@@ -116,9 +126,33 @@ onMounted(load);
 onBeforeUnmount(() => {
   if (timer) clearInterval(timer);
 });
+async function uploadImages(item: MockItem, event: Event) {
+  const input = event.target as HTMLInputElement;
+  const files = Array.from(input.files || []);
+  input.value = "";
+  if (!files.length || busy.value || uploading.value || review.value) return;
+  const answer = ensure(item);
+  if (answer.images.length + files.length > maxImages) {
+    toast(`每题最多上传 ${maxImages} 张图片`, true);
+    return;
+  }
+  uploading.value = item.id;
+  try {
+    for (const file of files)
+      answer.images.push(await upload(file, "submission"));
+  } catch (e) {
+    toast((e as Error).message, true);
+  } finally {
+    uploading.value = "";
+  }
+}
+function removeImage(item: MockItem, id: string) {
+  const answer = ensure(item);
+  answer.images = answer.images.filter((image) => image.id !== id);
+}
 async function submit() {
   const current = paper.value;
-  if (!current) return;
+  if (!current || busy.value || uploading.value || review.value) return;
   const unanswered = current.items.length - answeredCount.value;
   const message = unanswered
     ? `还有 ${unanswered} 题未作答，确定交卷？交卷后不能修改。`
@@ -126,11 +160,15 @@ async function submit() {
   if (!window.confirm(message)) return;
   busy.value = true;
   try {
-    const payload = current.items.map((item) => ({
-      item_id: item.id,
-      text: answerFor(item).text,
-      options: answerFor(item).options,
-    }));
+    const payload = current.items.map((item) => {
+      const { text, options, images } = answerFor(item);
+      return {
+        item_id: item.id,
+        text,
+        options,
+        image_ids: images.map((image) => image.id),
+      };
+    });
     paper.value = await api<MockPaper>(
       "/mock/papers/" + encodeURIComponent(current.id) + "/submission",
       {
@@ -231,7 +269,11 @@ function correctAnswer(item: MockItem) {
           <span class="small-text muted"
             >自动判分：选择、填空；解答题由 AI 判分，不可用时转自评。</span
           >
-          <button class="button primary" :disabled="busy" @click="submit">
+          <button
+            class="button primary"
+            :disabled="busy || !!uploading"
+            @click="submit"
+          >
             <ArrowRight :size="16" />{{ busy ? "判分中…" : "交卷" }}
           </button>
         </div>
@@ -367,6 +409,49 @@ function correctAnswer(item: MockItem) {
                 item.type === 'blank' ? '填写最终答案' : '写出关键步骤与结果'
               "
             ></textarea>
+            <template v-if="item.type === 'solution'">
+              <ImageGallery
+                v-if="answerFor(item).images.length"
+                :images="answerFor(item).images"
+                label="我的作答"
+                compact
+                removable
+                :disabled="busy || !!uploading"
+                @remove="removeImage(item, $event)"
+              />
+              <div class="editor-actions">
+                <label
+                  class="button upload-label mock-upload"
+                  :class="{
+                    disabled:
+                      busy ||
+                      !!uploading ||
+                      answerFor(item).images.length >= maxImages,
+                  }"
+                >
+                  <Upload :size="16" />{{
+                    uploading === item.id ? "上传中…" : "上传作答图片"
+                  }}
+                  <input
+                    class="sr-only"
+                    type="file"
+                    multiple
+                    accept="image/jpeg,image/png,image/webp"
+                    :aria-label="`上传第 ${item.position} 题作答图片`"
+                    :disabled="
+                      busy ||
+                      !!uploading ||
+                      answerFor(item).images.length >= maxImages
+                    "
+                    @change="uploadImages(item, $event)"
+                  />
+                </label>
+                <small class="muted" role="status"
+                  >{{ answerFor(item).images.length }} /
+                  {{ maxImages }} 张</small
+                >
+              </div>
+            </template>
           </div>
           <template v-else>
             <div class="mock-review-block">
@@ -375,9 +460,16 @@ function correctAnswer(item: MockItem) {
                 {{
                   item.type === "choice"
                     ? answerFor(item).options.join("、") || "未作答"
-                    : answerFor(item).text || "未作答"
+                    : answerFor(item).text ||
+                      (answerFor(item).images.length ? "" : "未作答")
                 }}
               </p>
+              <ImageGallery
+                v-if="answerFor(item).images.length"
+                :images="answerFor(item).images"
+                label="我的作答"
+                compact
+              />
               <div class="mock-correct-answer">
                 <template v-if="item.type === 'choice'">{{
                   correctAnswer(item)
@@ -432,7 +524,11 @@ function correctAnswer(item: MockItem) {
         </article>
       </section>
       <div v-if="!review" class="editor-actions mock-submit-bottom">
-        <button class="button primary" :disabled="busy" @click="submit">
+        <button
+          class="button primary"
+          :disabled="busy || !!uploading"
+          @click="submit"
+        >
           <ArrowRight :size="16" />{{ busy ? "判分中…" : "交卷并查看解析" }}
         </button>
       </div>
@@ -544,6 +640,13 @@ function correctAnswer(item: MockItem) {
 .mock-answer textarea {
   width: 100%;
   min-height: 96px;
+}
+.mock-upload input {
+  display: block;
+}
+.mock-upload:has(input:focus-visible) {
+  outline: 3px solid #7bb8a5;
+  outline-offset: 3px;
 }
 .mock-review-block {
   margin-top: 10px;

@@ -275,6 +275,7 @@ export interface MockItem {
   feedback?: string;
   my_text?: string;
   my_options?: string[];
+  my_images?: ImageAsset[];
 }
 export interface MockBlueprintSection {
   type: string;
